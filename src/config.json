@@ -1,0 +1,27 @@
+{
+  "analysis_configuration": {
+    "name_of_analysis": "TODO",
+    "browser_provider": "TODO",
+    "crawl_mode": "TODO",
+    "simulate_mobile": false,
+    "take_screenshots": true,
+    "num_workers": 1
+  },
+  "paths": {
+    "outputs": {
+      "analysis_report": "analysis_report"
+    },
+    "configs": {
+      "drivers_dir": "data/drivers",
+      "plugins_dir": "data/plugins"
+    },
+    "utilities": {
+      "cookie_db_open": "data/cookie_database/open_cookie_database.csv",
+      "cookie_db_local": "data/cookie_database/local_cookie_database.csv",
+      "cookie_lexicon": "data/lexicon/cookie_words.json"
+    },
+    "websites": {
+      "website_list": "data/websites/website_list.json"
+    }
+  }
+}
