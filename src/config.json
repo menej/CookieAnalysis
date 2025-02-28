@@ -1,27 +1,29 @@
 {
-  "analysis_configuration": {
-    "name_of_analysis": "TODO",
-    "browser_provider": "TODO",
-    "crawl_mode": "TODO",
-    "simulate_mobile": false,
+  "cookie_crawler_configuration": {
+    "name_of_analysis": "DEMO_28-02-2025",
+    "browser_provider": "CHROME",
+    "crawl_mode": "heuristic_llm_v02",
     "take_screenshots": true,
-    "num_workers": 1
+
+    "active_website_list": "demo"
   },
   "paths": {
     "outputs": {
-      "analysis_report": "output/analysis_report"
+      "analysis_report_dir": "output/analysis_report"
     },
     "configs": {
       "drivers_dir": "data/drivers",
       "plugins_dir": "data/plugins"
     },
     "utilities": {
-      "cookie_db_open": "data/cookie_database/open_cookie_database.csv",
-      "cookie_db_local": "data/cookie_database/local_cookie_database.csv",
+      "cookie_db_open": "data/cookie_database/open-cookie-database.csv",
+      "cookie_db_local": "data/cookie_database/local-cookie-database.csv",
       "cookie_lexicon": "data/lexicon/cookie_words.json"
     },
-    "websites": {
-      "website_list": "data/websites/website_list.json"
+    "website_lists": {
+      "website_list": "data/websites/website_list.json",
+      "demo": "data/websites/demo.json",
+      "test": "data/websites/testing-websites.json"
     }
   }
 }
