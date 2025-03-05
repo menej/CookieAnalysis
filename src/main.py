@@ -59,7 +59,7 @@ def crawler_thread_func(websites, analysis_output_dir, result_queue):
 
             crawl = processor.crawl(website, website_output_dir)
 
-            if crawl is None or crawl is not WebsiteCrawl:
+            if crawl is None or not isinstance(crawl, WebsiteCrawl):
                 logger.error(f"[Crawler] Invalid state for website ({website}): The result of the crawl must not be None.")
                 continue
 
