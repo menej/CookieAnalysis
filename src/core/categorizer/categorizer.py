@@ -263,7 +263,7 @@ def throttle_domain(domain: str, throttle_period: float):
         if elapsed < throttle_period:
             # Wait only the difference
             to_wait = throttle_period - elapsed
-            logger.info("Categorizer waiting for:", to_wait)
+            logger.info(f"Categorizer waiting for: {to_wait}")
             time.sleep(to_wait)
             logger.info("Categorizer end of waiting.")
     # Update the domain’s last request time
