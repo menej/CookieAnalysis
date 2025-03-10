@@ -121,16 +121,16 @@ def _categorize(cookie_name) -> tuple[str, CookieCategory]:
         _write_cookie_to_local(cookie_name, cookie_category, "Open Cookie Database", is_wildcard, wildcard_name)
         return "Open Cookie Database", cookie_category
 
-    # As a last resort, try cookiedatabase.org
-    cookie_category = _categorize_cookie_cookiedatabase(cookie_name)
-    if cookie_category is not CookieCategory.UNKNOWN:
-        _write_cookie_to_local(cookie_name, cookie_category, "Cookie Database")
-        return "Cookie Database", cookie_category
+    if not global_config["categorizer_configuration"]["use_only_local"]:
+        cookie_category = _categorize_cookie_cookiedatabase(cookie_name)
+        if cookie_category is not CookieCategory.UNKNOWN:
+            _write_cookie_to_local(cookie_name, cookie_category, "Cookie Database")
+            return "Cookie Database", cookie_category
 
-    cookie_category = _categorize_cookie_cookiepedia(cookie_name)
-    if cookie_category is not CookieCategory.UNKNOWN:
-        _write_cookie_to_local(cookie_name, cookie_category, "Cookiepedia")
-        return "Cookiepedia", cookie_category
+        cookie_category = _categorize_cookie_cookiepedia(cookie_name)
+        if cookie_category is not CookieCategory.UNKNOWN:
+            _write_cookie_to_local(cookie_name, cookie_category, "Cookiepedia")
+            return "Cookiepedia", cookie_category
 
     # If still unknown, write to local DB to prevent future lookups
     _write_cookie_to_local(cookie_name, CookieCategory.UNKNOWN, "Cookie Analysis")
