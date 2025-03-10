@@ -174,14 +174,18 @@ def _categorize_cookie_cookiepedia(cookie_name: str) -> CookieCategory:
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             content_left = soup.find('div', id='content-left')
-            second_paragraph = content_left.find_all('p')[1]
-            cookie_category = second_paragraph.get_text(strip=True).split(":")[1]
-            found_cookie_name = soup.find('div', id='content').find('h1').get_text(strip=True).split(":")[1].strip()
+            if content_left is not None:
 
-            if cookie_name == found_cookie_name:
-                cookie_category = _determine_category_cp(cookie_category)
+                second_paragraph = content_left.find_all('p')[1]
+                cookie_category = second_paragraph.get_text(strip=True).split(":")[1]
+                found_cookie_name = soup.find('div', id='content').find('h1').get_text(strip=True).split(":")[1].strip()
+
+                if cookie_name == found_cookie_name:
+                    cookie_category = _determine_category_cp(cookie_category)
+                else:
+                    logger.warning(f"COOKIEPEDIA: Cookie name dont match. Expected ({cookie_name}) got ({found_cookie_name})")
             else:
-                logger.warning(f"COOKIEPEDIA: Cookie name dont match. Expected ({cookie_name}) got ({found_cookie_name})")
+                logger.info(f"COOKIEPEDIA: Cookie not found by the name of {cookie_name}.")
         else:
             logger.warning(f"COOKIEPEDIA: Failed to retrieve the page. Status code: {response.status_code}")
     except Exception as e:
