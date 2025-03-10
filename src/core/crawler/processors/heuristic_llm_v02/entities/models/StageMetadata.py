@@ -23,6 +23,7 @@ class AcceptMainLevel(BaseModel):
     banner_disappeared: bool = False
     redirected: bool = False
     num_clicks: int = 0
+    any_force_clicks: bool = False
     #llm_request_raw: Optional[str] = None
     llm_response_raw: Optional[str] = None
     llm_response_parsed: Optional[dict] = None
@@ -43,6 +44,7 @@ class DeclineMainLevel(BaseModel):
     redirected: bool = False
     direct_decline_attempt: bool = False
     num_clicks: int = 0
+    any_force_clicks: bool = False
     #llm_request_raw: Optional[str] = None
     llm_response_raw: Optional[str] = None
     llm_response_parsed: Optional[dict] = None
@@ -65,6 +67,7 @@ class DeclineSettingsLevel(BaseModel):
 
     settings_decline_attempt: bool = False
     settings_decline_num_clicks: int = 0
+    settings_decline_any_force_clicks: bool = False
     #settings_decline_llm_request_raw: Optional[str] = None
     settings_decline_llm_response_raw: Optional[str] = None
     settings_decline_llm_response_parsed: Optional[dict] = None
@@ -76,6 +79,7 @@ class DeclineSettingsLevel(BaseModel):
 
     save_settings_attempt: bool = False
     save_settings_num_clicks: int = 0
+    save_settings_any_force_clicks: bool = False
     #save_settings_llm_request_raw: Optional[str] = None
     save_settings_llm_response_raw: Optional[str] = None
     save_settings_llm_response_parsed: Optional[dict] = None

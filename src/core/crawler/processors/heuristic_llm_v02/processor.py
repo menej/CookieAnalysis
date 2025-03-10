@@ -455,7 +455,6 @@ def _crawl_internal_pages(stage: Stage, max_pages: int = local_config['num_crawl
 
     Args:
         stage (Stage): The stage object tracking the crawl process.
-        base_url (str, optional): The starting URL for internal crawling. Defaults to `root_web_page`.
         max_pages (int, optional): The maximum number of internal pages to crawl. Defaults to `local_config['num_crawls']`.
 
     Raises:
@@ -621,7 +620,9 @@ def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: di
 
     interaction_result = False
     redirected = False
+    any_force_clicks = False
     num_clicks = 0
+
     for ce in cookie_banner_info["clickable_elements"]:
         element_text = ce["text"].strip().lower()
 
@@ -635,11 +636,20 @@ def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: di
 
             page_before = page.url
             existing_pages = context.pages  # Get the list of open tabs before clicking
+
             try:
-                ce["element"].click()
+                ce["element"].click(timeout=3000)
             except TimeoutError:
-                error_msg = "Possibly no real navigation or a single-page style navigation."
-                logger.error(error_msg)
+                if ce["type"] not in ("div", "span"):
+                    logger.warning("Normal click failed, attempting force click.")
+                    any_force_clicks = True
+                    try:
+                        #ce["element"].click(force=True)
+                        ce["element"].evaluate("el => el.click()")
+                    except Exception:
+                        logger.error("Force click also failed. Click failed for interactive element.")
+                else:
+                    logger.error(f"Click failed for interactive element of type {ce['type']}.")
             except Exception as ex:
                 error_msg = f"Exception occurred while executing interaction: {str(ex)}"
                 logger.error(error_msg)
@@ -694,8 +704,12 @@ def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: di
                 interaction_result = True
                 break
 
-            if not cookie_banner_info['element'].is_visible():
-                logger.info("Interaction button clicked successfully, banner is gone.")
+            if not is_element_actually_visible(cookie_banner_info['element']):
+                if cookie_banner_info['is_visible']:
+                    logger.warning("Interaction button may have been successful and the banner is gone, however previous state was also invisible")
+                else:
+                    logger.info("Interaction button clicked successfully, banner is gone.")
+
                 interaction_result = True
                 break
 
@@ -708,7 +722,8 @@ def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: di
     return InteractionResult(
         result=InteractionStatus.SUCCESS if interaction_result else InteractionStatus.FAILED,
         redirected=redirected,
-        num_clicks=num_clicks
+        num_clicks=num_clicks,
+        any_force_clicks=any_force_clicks
     )
 
 
@@ -745,7 +760,7 @@ def execute_accept_operator(stage: Stage, attempt: int) -> InteractionStatus:
         stage.metadata = stage_metadata.model_dump()
         return InteractionStatus.NOT_FOUND
 
-    if not raw_llm_response or not parsed_llm_response or not consensus_ratio or not consensus_reached:
+    if not raw_llm_response or not parsed_llm_response or not consensus_ratio:
         stage_metadata.stage_outcome = StageOutcome.UNSUCCESSFUL_INTERACTION.name
         stage.metadata = stage_metadata.model_dump()
         return InteractionStatus.FAILED
@@ -786,6 +801,7 @@ def execute_accept_operator(stage: Stage, attempt: int) -> InteractionStatus:
     stage_metadata.main_level.banner_disappeared = interaction_state.result == InteractionStatus.SUCCESS
     stage_metadata.main_level.redirected = interaction_state.redirected
     stage_metadata.main_level.num_clicks = interaction_state.num_clicks
+    stage_metadata.main_level.any_force_clicks = interaction_state.any_force_clicks
 
     if interaction_state.result == InteractionStatus.SUCCESS and not interaction_state.redirected and interaction_state.num_clicks > 0:
         stage_metadata.main_level.level_success = True
@@ -997,7 +1013,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
         stage.metadata = stage_metadata.model_dump()
         return InteractionStatus.NOT_FOUND
 
-    if not raw_llm_response or not parsed_llm_response or not consensus_ratio or not consensus_reached:
+    if not raw_llm_response or not parsed_llm_response or not consensus_ratio:
         stage_metadata.stage_outcome = StageOutcome.UNSUCCESSFUL_INTERACTION.name
         stage.metadata = stage_metadata.model_dump()
         return InteractionStatus.FAILED
@@ -1043,6 +1059,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
     stage_metadata.main_level.banner_disappeared = interaction_state.result == InteractionStatus.SUCCESS
     stage_metadata.main_level.redirected = interaction_state.redirected
     stage_metadata.main_level.num_clicks = interaction_state.num_clicks
+    stage_metadata.main_level.any_force_clicks = interaction_state.any_force_clicks
 
     # If the attempt was decline then we exit early
     if decline_text:
@@ -1069,7 +1086,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
     consensus_ratio = candidate_result['consensus_ratio']
     consensus_reached = candidate_result['consensus_reached']
 
-    if not candidate or not raw_llm_response or not parsed_llm_response or not consensus_ratio or not consensus_reached:
+    if not candidate or not raw_llm_response or not parsed_llm_response or not consensus_ratio:
         stage_metadata.stage_outcome = StageOutcome.UNSUCCESSFUL_INTERACTION.name
         stage.metadata = stage_metadata.model_dump()
         return InteractionStatus.FAILED
@@ -1104,6 +1121,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
         stage_metadata.settings_level.banner_disappeared = interaction_state.result == InteractionStatus.SUCCESS
         stage_metadata.settings_level.redirected = interaction_state.redirected
         stage_metadata.settings_level.settings_decline_num_clicks = interaction_state.num_clicks
+        stage_metadata.settings_level.settings_decline_any_force_clicks = interaction_state.any_force_clicks
 
         if interaction_state.result == InteractionStatus.SUCCESS and not interaction_state.redirected and interaction_state.num_clicks > 0:
             stage_metadata.settings_level.level_success = True
@@ -1114,6 +1132,10 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
             stage_metadata.stage_outcome = StageOutcome.UNSUCCESSFUL_INTERACTION.name
             stage.metadata = stage_metadata.model_dump()
             return InteractionStatus.FAILED
+
+        # Rerender clickable elements within the banner
+        candidate["clickable_elements"] = find_clickable_elements_within_element(candidate["element"])
+
 
     # Decline button either not present in settings or the banner did not disappear after the interaction attempt
     clickable_texts = [
@@ -1174,6 +1196,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
     stage_metadata.settings_level.banner_disappeared = interaction_state.result == InteractionStatus.SUCCESS
     stage_metadata.settings_level.redirected = interaction_state.redirected
     stage_metadata.settings_level.save_settings_num_clicks = interaction_state.num_clicks
+    stage_metadata.settings_level.save_settings_any_force_clicks = interaction_state.any_force_clicks
 
     if interaction_state.result == InteractionStatus.SUCCESS and not interaction_state.redirected and interaction_state.num_clicks > 0:
         stage_metadata.settings_level.level_success = True
@@ -1338,7 +1361,8 @@ def _gather_cookie_element_handles_in_frame(frame, cookie_words: list):
 
     return element_handles
 
-def find_all_possible_cookie_banners(frame: Frame, allow_invisible=False) -> list[dict]:
+
+def find_all_possible_cookie_banners(frame: Frame) -> list[dict]:
     """
     Recursively finds all possible cookie banner elements within the given frame and its child frames.
 
@@ -1355,29 +1379,27 @@ def find_all_possible_cookie_banners(frame: Frame, allow_invisible=False) -> lis
 
     Parameters:
         frame (Frame): The frame to search for cookie banners.
-        allow_invisible (bool): If False (default), only visible elements are considered.
-                                If True, invisible elements are also included.
 
     Returns:
         list[dict]: A sorted list of dictionaries representing cookie banners.
                     Each dictionary contains keys such as "element", "clickable_elements",
                     "text", "z_index", "top", "left", and "is_visible".
     """
-    if frame.is_detached() and frame.url and frame.url.strip() != "" and frame.url != "about:blank":
+    if frame.is_detached() or not frame.url or frame.url.strip() == "" or frame.url == "about:blank":
         return []
 
     # Gather banners in this frame
-    banners_here = find_cookie_banners_in_frame(frame, allow_invisible)
+    banners_here = find_cookie_banners_in_frame(frame)
 
     # Recur on child frames
     all_banners = list(banners_here)
     for child in frame.child_frames:
         if not child.is_detached() and child.url and child.url.strip() != "" and child.url != "about:blank":
-            child_banners = find_all_possible_cookie_banners(child, allow_invisible)
+            child_banners = find_all_possible_cookie_banners(child)
             all_banners.extend(child_banners)
 
     # Sort them by z-index desc, then top (y), then left (x)
-    all_banners.sort(key=lambda x: (-x["z_index"], x["top"], x["left"]))
+    all_banners.sort(key=lambda x: (-x["is_visible"], -x["z_index"], x["top"], x["left"]))
 
     return all_banners
 
@@ -1409,10 +1431,6 @@ def find_best_candidate(
     # Try to find all possible cookie banners
     candidates = find_all_possible_cookie_banners(frame)
 
-    # If we have not found any candidates for cookie banners, we can optionally include invisible banners (if configured)
-    if not candidates and local_config["allow_invisible"]:
-        candidates = find_all_possible_cookie_banners(frame, allow_invisible=True)
-
     # If still no candidates found, return everything as None
     if not candidates:
         return {
@@ -1425,6 +1443,9 @@ def find_best_candidate(
 
     # Iterate over each candidate to see if we can get an LLM consensus
     for candidate in candidates:
+        if not candidate["is_visible"] and not local_config["allow_invisible"]:
+            continue
+
         # Prepare the text prompt
         clickable_texts = [
             ce['text'].strip()
@@ -1573,7 +1594,7 @@ def _get_llm_consensus(
     raise ValueError("Could not find response matching the most common pattern")
 
 
-def find_cookie_banners_in_frame(frame: Frame, allow_invisible: bool):
+def find_cookie_banners_in_frame(frame: Frame):
     """
     Searches for cookie banner elements within a single frame.
 
@@ -1592,7 +1613,6 @@ def find_cookie_banners_in_frame(frame: Frame, allow_invisible: bool):
 
     Parameters:
         frame (Frame): The frame in which to search for cookie banners.
-        allow_invisible (bool): If False, only visible elements are considered.
 
     Returns:
         list[dict]: A list of dictionaries, each representing a cookie banner with details:
@@ -1616,28 +1636,20 @@ def find_cookie_banners_in_frame(frame: Frame, allow_invisible: bool):
 
     for handle in element_handles:
         try:
-            if not allow_invisible and not handle.is_visible():
-                continue
-
-            # If banner consists of no texts then its not a cookie banner
             text = handle.text_content() or ""
             if text == "":
                 continue
 
-            # We need a bounding box even on invisible elements
-            # Some elements may be triggered as invisible even though they are actually seen by the user
             box = handle.bounding_box()
             if not box:
                 continue
 
-            # Evaluate z-index
             z_index = handle.evaluate("el => parseInt(getComputedStyle(el).zIndex) || 0")
 
             clickable_elements = find_clickable_elements_within_element(handle)
             if not clickable_elements:
                 continue
 
-            # Build a dictionary with banner details.
             found_banners.append({
                 "element": handle,
                 "clickable_elements": clickable_elements,
@@ -1645,13 +1657,47 @@ def find_cookie_banners_in_frame(frame: Frame, allow_invisible: bool):
                 "z_index": z_index,
                 "top": box["y"],
                 "left": box["x"],
-                "is_visible": handle.is_visible()
+                "is_visible": is_element_actually_visible(handle)
             })
         except Exception as ex:
             logger.error(f"Exception occurred while parsing handle: {ex}")
             pass
 
     return found_banners
+
+
+def is_element_actually_visible(handle):
+    """Check if an element is truly visible to the user within the viewport."""
+    global page
+
+    # Get bounding box
+    box = handle.bounding_box()
+    if not box:
+        return False  # No bounding box, definitely not visible
+
+    x, y, width, height = box["x"], box["y"], box["width"], box["height"]
+    viewport_width, viewport_height = page.viewport_size["width"], page.viewport_size["height"]
+
+    # Check if any part of the element is within the visible viewport
+    partially_visible = (
+            (x + width) > 0 and  # Right side is within viewport
+            (y + height) > 0 and  # Bottom side is within viewport
+            x < viewport_width and  # Left side is within viewport
+            y < viewport_height  # Top side is within viewport
+    )
+
+    if not partially_visible:
+        return False  # Completely out of viewport
+
+    # Check if the element is hidden by CSS properties
+    visibility = handle.evaluate("el => window.getComputedStyle(el).visibility")
+    opacity = handle.evaluate("el => parseFloat(window.getComputedStyle(el).opacity)")
+
+    if visibility == "hidden" or opacity == 0:
+        return False  # Element is hidden via CSS
+
+    return True # Element is visible in viewport and not hidden
+
 
 def find_clickable_elements_within_element(element):
     """
@@ -1731,12 +1777,33 @@ def find_clickable_elements_within_element(element):
             # Note that the element here must be visible, even if the banner was not.
             # The banners can sometimes be flagged as invisible even though they clearly are visible.
             # If element is invisible it often means that it is hidden to the user.
-            if not el.is_visible():
+            if not is_element_actually_visible(el):
                 continue
 
             tag = el.evaluate("node => node.tagName.toLowerCase()")
 
-            text = el.text_content() or ""
+            text = el.evaluate('''(node) => {
+                function getVisibleText(node) {
+                    // For element nodes, check if the node is hidden.
+                    if (node.nodeType === Node.ELEMENT_NODE) {
+                        const style = getComputedStyle(node);
+                        if (style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0') {
+                            return '';
+                        }
+                    }
+                    // For text nodes, simply return the text as-is.
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        return node.textContent;
+                    }
+                    // For other node types, recursively get the text from child nodes.
+                    let result = '';
+                    node.childNodes.forEach(child => {
+                        result += getVisibleText(child);
+                    });
+                    return result;
+                }
+                return getVisibleText(node);
+            }''') or ""
 
             # For input elements with no text, retrieve the value.
             if tag == "input" and not text.strip():
@@ -1764,12 +1831,13 @@ def find_clickable_elements_within_element(element):
 
             clickable_items.append({
                 "element": el,
+                "type": tag,
                 "text": text.strip(),
                 "top": box["y"],
                 "left": box["x"],
                 "priority": priority
             })
-        except:
+        except Exception:
             pass
 
     # Sort clickable items by priority (lowest number = highest priority)
