@@ -772,7 +772,7 @@ def execute_accept_operator(stage: Stage, attempt: int) -> InteractionStatus:
     stage_metadata.main_level.is_visible = candidate["is_visible"]
     stage_metadata.main_level.banner_text = candidate["text"][:1000]
     stage_metadata.main_level.banner_z_index = candidate["z_index"]
-    stage_metadata.main_level.banner_z_index = candidate["position"]
+    stage_metadata.main_level.banner_position = candidate["position"]
     stage_metadata.main_level.llm_response_raw = raw_llm_response
     stage_metadata.main_level.llm_response_parsed = parsed_llm_response
     stage_metadata.main_level.llm_consensus_value = consensus_ratio
