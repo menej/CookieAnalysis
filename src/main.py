@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 def serialize_website_crawl_to_json(website_crawl: WebsiteCrawl) -> str:
     """Convert WebsiteCrawl instance to JSON string."""
-    return json.dumps(website_crawl.to_dict(), indent=4)
+    return json.dumps(website_crawl.to_dict(), indent=4, ensure_ascii=False)
 
 
 def save_website_crawl_to_file(crawl: WebsiteCrawl, website_output_dir: Path):
