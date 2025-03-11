@@ -20,11 +20,11 @@ class AcceptMainLevel(BaseModel):
     is_visible: bool = False
     banner_text: str = ""
     banner_z_index: Optional[int] = None
+    banner_position: Optional[str] = None
     banner_disappeared: bool = False
     redirected: bool = False
     num_clicks: int = 0
     any_force_clicks: bool = False
-    #llm_request_raw: Optional[str] = None
     llm_response_raw: Optional[str] = None
     llm_response_parsed: Optional[dict] = None
     llm_consensus_reached: bool = False
@@ -40,12 +40,12 @@ class DeclineMainLevel(BaseModel):
     is_visible: bool = False
     banner_text: str = ""
     banner_z_index: Optional[int] = None
+    banner_position: Optional[str] = None
     banner_disappeared: bool = False
     redirected: bool = False
     direct_decline_attempt: bool = False
     num_clicks: int = 0
     any_force_clicks: bool = False
-    #llm_request_raw: Optional[str] = None
     llm_response_raw: Optional[str] = None
     llm_response_parsed: Optional[dict] = None
     llm_consensus_reached: bool = False
@@ -62,13 +62,13 @@ class DeclineSettingsLevel(BaseModel):
     is_visible: bool = False
     banner_text: str = ""
     banner_z_index: Optional[int] = None
+    banner_position: Optional[str] = None
     banner_disappeared: bool = False
     redirected: bool = False
 
     settings_decline_attempt: bool = False
     settings_decline_num_clicks: int = 0
     settings_decline_any_force_clicks: bool = False
-    #settings_decline_llm_request_raw: Optional[str] = None
     settings_decline_llm_response_raw: Optional[str] = None
     settings_decline_llm_response_parsed: Optional[dict] = None
     settings_decline_llm_consensus_reached: bool = False
@@ -80,7 +80,6 @@ class DeclineSettingsLevel(BaseModel):
     save_settings_attempt: bool = False
     save_settings_num_clicks: int = 0
     save_settings_any_force_clicks: bool = False
-    #save_settings_llm_request_raw: Optional[str] = None
     save_settings_llm_response_raw: Optional[str] = None
     save_settings_llm_response_parsed: Optional[dict] = None
     save_settings_llm_consensus_reached: bool = False

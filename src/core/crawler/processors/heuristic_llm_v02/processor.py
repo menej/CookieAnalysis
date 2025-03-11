@@ -566,8 +566,7 @@ def _canonical_domain(netloc: str) -> str:
     return domain
 
 
-def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: dict, attempt: int,
-                        interaction_type: BannerInteraction) -> InteractionResult:
+def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: dict, attempt: int, interaction_type: BannerInteraction) -> InteractionResult:
     """
     Executes a cookie banner interaction based on the specified interaction type and LLM response.
 
@@ -638,13 +637,14 @@ def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: di
             existing_pages = context.pages  # Get the list of open tabs before clicking
 
             try:
+                stage.interactions.append(f"Clicking an element of type ({ce['type']}), with text ({ce['text']})")
                 ce["element"].click(timeout=3000)
             except TimeoutError:
                 if ce["type"] not in ("div", "span"):
                     logger.warning("Normal click failed, attempting force click.")
                     any_force_clicks = True
                     try:
-                        #ce["element"].click(force=True)
+                        stage.interactions.append(f"Forcing a click on an element of type ({ce['type']}), with text ({ce['text']})")
                         ce["element"].evaluate("el => el.click()")
                     except Exception:
                         logger.error("Force click also failed. Click failed for interactive element.")
@@ -656,7 +656,7 @@ def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: di
                 stage.exceptions.append(error_msg)
                 break
 
-            page.wait_for_timeout(2000)
+            page.wait_for_timeout(5000)
 
             page_after = page.url
             new_tabs = [p for p in context.pages if p not in existing_pages]
@@ -705,7 +705,7 @@ def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: di
                 break
 
             if not is_element_actually_visible(cookie_banner_info['element']):
-                if cookie_banner_info['is_visible']:
+                if not cookie_banner_info['is_visible']:
                     logger.warning("Interaction button may have been successful and the banner is gone, however previous state was also invisible")
                 else:
                     logger.info("Interaction button clicked successfully, banner is gone.")
@@ -772,6 +772,7 @@ def execute_accept_operator(stage: Stage, attempt: int) -> InteractionStatus:
     stage_metadata.main_level.is_visible = candidate["is_visible"]
     stage_metadata.main_level.banner_text = candidate["text"][:1000]
     stage_metadata.main_level.banner_z_index = candidate["z_index"]
+    stage_metadata.main_level.banner_z_index = candidate["position"]
     stage_metadata.main_level.llm_response_raw = raw_llm_response
     stage_metadata.main_level.llm_response_parsed = parsed_llm_response
     stage_metadata.main_level.llm_consensus_value = consensus_ratio
@@ -950,6 +951,7 @@ def _parse_normal_query_response(message: str) -> dict:
         "DeclineAmbiguous": decline_ambiguous,
         "DeclineEvidence": decline_evidence,
         "Settings": parsed["GenericLabel3"],
+        "SettingsEvidence": "GenericLabel3" if bool(parsed["GenericLabel3"]) else None,
         "Explanation": parsed["Explanation"]
     }
 
@@ -1024,6 +1026,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
     stage_metadata.main_level.is_visible = candidate["is_visible"]
     stage_metadata.main_level.banner_text = candidate["text"][:1000]
     stage_metadata.main_level.banner_z_index = candidate["z_index"]
+    stage_metadata.main_level.banner_position = candidate["position"]
     stage_metadata.main_level.llm_response_raw = raw_llm_response
     stage_metadata.main_level.llm_response_parsed = parsed_llm_response
     stage_metadata.main_level.llm_consensus_value = consensus_ratio
@@ -1046,6 +1049,8 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
         stage_metadata.main_level.element_evidence = parsed_llm_response.get("DeclineEvidence")
     else:
         stage_metadata.main_level.element_text = settings_text
+        stage_metadata.main_level.element_ambiguous = None
+        stage_metadata.main_level.element_evidence = parsed_llm_response.get("SettingsEvidence")
 
     # Attempt with either Decline and Settings
     interaction_state = execute_interaction(
@@ -1097,6 +1102,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
     stage_metadata.settings_level.is_visible = candidate["is_visible"]
     stage_metadata.settings_level.banner_text = candidate["text"][:1000]
     stage_metadata.settings_level.banner_z_index = candidate["z_index"]
+    stage_metadata.settings_level.banner_position = candidate["position"]
     stage_metadata.settings_level.settings_decline_llm_response_raw = raw_llm_response
     stage_metadata.settings_level.settings_decline_llm_response_parsed = parsed_llm_response
     stage_metadata.settings_level.settings_decline_llm_consensus_value = consensus_ratio
@@ -1143,7 +1149,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
         for ce in candidate["clickable_elements"]
         if '\n' not in ce['text'].strip()
     ]
-    formatted_text = "\n".join(f"[{text}]" for text in clickable_texts)
+    formatted_text = "\n".join(f"[{text}]" for text in set(clickable_texts))
 
     responses = _get_llm_responses(
         formatted_text=formatted_text,
@@ -1452,7 +1458,7 @@ def find_best_candidate(
             for ce in candidate["clickable_elements"]
             if '\n' not in ce['text'].strip()
         ]
-        formatted_text = "\n".join(f"[{text}]" for text in clickable_texts)
+        formatted_text = "\n".join(f"[{text}]" for text in set(clickable_texts))
 
         # Get multiple responses using our helper
         responses = _get_llm_responses(
@@ -1645,6 +1651,7 @@ def find_cookie_banners_in_frame(frame: Frame):
                 continue
 
             z_index = handle.evaluate("el => parseInt(getComputedStyle(el).zIndex) || 0")
+            position = handle.evaluate("el => getComputedStyle(el).position")
 
             clickable_elements = find_clickable_elements_within_element(handle)
             if not clickable_elements:
@@ -1655,6 +1662,7 @@ def find_cookie_banners_in_frame(frame: Frame):
                 "clickable_elements": clickable_elements,
                 "text": text.strip(),
                 "z_index": z_index,
+                "position": position,
                 "top": box["y"],
                 "left": box["x"],
                 "is_visible": is_element_actually_visible(handle)
@@ -1676,24 +1684,29 @@ def is_element_actually_visible(handle):
         return False  # No bounding box, definitely not visible
 
     x, y, width, height = box["x"], box["y"], box["width"], box["height"]
+
+    if width == 0 or height == 0:
+        return False
+
     viewport_width, viewport_height = page.viewport_size["width"], page.viewport_size["height"]
 
     # Check if any part of the element is within the visible viewport
     partially_visible = (
             (x + width) > 0 and  # Right side is within viewport
-            (y + height) > 0 and  # Bottom side is within viewport
-            x < viewport_width and  # Left side is within viewport
-            y < viewport_height  # Top side is within viewport
+            #(y + height) > 0 and  # Bottom side is within viewport
+            x < viewport_width  # Left side is within viewport
+            # y < viewport_height  # Top side is within viewport
     )
 
     if not partially_visible:
         return False  # Completely out of viewport
 
-    # Check if the element is hidden by CSS properties
+    # Check CSS properties
+    display = handle.evaluate("el => window.getComputedStyle(el).display")
     visibility = handle.evaluate("el => window.getComputedStyle(el).visibility")
     opacity = handle.evaluate("el => parseFloat(window.getComputedStyle(el).opacity)")
 
-    if visibility == "hidden" or opacity == 0:
+    if display == "none" or visibility == "hidden" or opacity == 0:
         return False  # Element is hidden via CSS
 
     return True # Element is visible in viewport and not hidden
@@ -1774,9 +1787,6 @@ def find_clickable_elements_within_element(element):
     clickable_items = []
     for el in found_handles:
         try:
-            # Note that the element here must be visible, even if the banner was not.
-            # The banners can sometimes be flagged as invisible even though they clearly are visible.
-            # If element is invisible it often means that it is hidden to the user.
             if not is_element_actually_visible(el):
                 continue
 
