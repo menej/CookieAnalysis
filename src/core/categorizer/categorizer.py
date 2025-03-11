@@ -1,5 +1,5 @@
-import fnmatch
 import logging
+import re
 import time
 import uuid
 from datetime import datetime, timezone
@@ -46,22 +46,94 @@ def process_crawl(crawl: WebsiteCrawl):
             }
 
 
+def wildcard_to_regex(wildcard_pattern: str) -> re.Pattern | None:
+    """
+    Converts a 'wildcard' pattern (e.g., '_ga_*') into a case-sensitive regex pattern.
+
+    The wildcard (*) can be replaced with:
+    - Alphanumeric characters [A-Za-z0-9]
+    - Underscore (_)
+    - Hyphen (-)
+    - Period (.)
+
+    If the prefix doesn't end with punctuation, the first character after the
+    wildcard must be a punctuation character (_, -, .).
+
+    Args:
+        wildcard_pattern: A string containing exactly one wildcard (*)
+
+    Returns:
+        A compiled regex pattern or None if invalid (no wildcard or multiple wildcards)
+    """
+
+    pattern = wildcard_pattern.strip()
+    if "*" not in pattern or pattern.count('*') > 1:
+        return None
+
+    prefix = pattern.split('*', 1)[0]
+    escaped_prefix = re.escape(prefix)
+
+    # Check if the prefix ends with punctuation
+    if prefix and prefix[-1] in ['_', '.', '-']:
+        # If it already ends with punctuation, any valid character can follow
+        regex_str = f"^{escaped_prefix}[A-Za-z0-9._-]+$"
+    else:
+        # If not, require punctuation as the first character after the wildcard
+        regex_str = f"^{escaped_prefix}[_.-][A-Za-z0-9._-]*$"
+
+    try:
+        return re.compile(regex_str)  # Case sensitive
+    except re.error:
+        return None
+
+
 def _categorize_cookie_db_open(cookie_name: str) -> tuple[CookieCategory, bool, str]:
+    """
+    Categorizes a cookie based on its name by looking it up in the open cookie database.
+
+    First tries to find an exact match, then falls back to wildcard matching using
+    the most specific (longest prefix) match available.
+
+    Args:
+        cookie_name: The name of the cookie to categorize
+
+    Returns:
+        A tuple containing:
+        - The cookie category (from CookieCategory enum)
+        - A boolean indicating if this was a wildcard match (True) or exact match (False)
+        - The pattern that matched (empty string if no match or exact match)
+    """
     data = loader.load_cookie_db_open()
 
+    # First try exact matching
     exact_match = data.loc[data['Cookie / Data Key name'] == cookie_name]
     if not exact_match.empty:
         matching_row = exact_match.iloc[0]
         return _determine_category_ocd(matching_row["Category"]), False, ''
 
+    # Read all rows where the wildcard match
     wildcard_rows = data.loc[data['Wildcard match'] == 1]
+
+    # Prepare all different regexs and check for matching
+    # Take the most specific one and later we take the maximum length prefix
+    matches = []
     for idx, row in wildcard_rows.iterrows():
+        # Skip if the pattern is empty or null
+        if pd.isna(row["Cookie / Data Key name"]) or str(row["Cookie / Data Key name"]).strip() == "":
+            continue
+
         pattern = str(row["Cookie / Data Key name"]).strip()
+
         if "*" not in pattern:
             pattern += "*"
+        regex = wildcard_to_regex(pattern)
+        if regex and regex.match(cookie_name):
+            prefix_len = len(pattern.split('*', 1)[0])
+            matches.append((prefix_len, row))
 
-        if fnmatch.fnmatch(cookie_name, pattern):
-            return _determine_category_ocd(row["Category"]), True, pattern
+    if matches:
+        best_match = max(matches, key=lambda x: x[0])[1]
+        return _determine_category_ocd(best_match["Category"]), True, best_match["Cookie / Data Key name"]
 
     return CookieCategory.UNKNOWN, False, ''
 
