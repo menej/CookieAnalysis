@@ -2,7 +2,7 @@ import json
 import logging
 import sys
 import traceback
-from datetime import datetime, time
+from datetime import datetime
 from pathlib import Path
 from queue import Queue
 from threading import Thread
@@ -17,37 +17,33 @@ logger = logging.getLogger(__name__)
 
 
 def serialize_website_crawl_to_json(website_crawl: WebsiteCrawl) -> str:
-    """
-    Given a WebsiteCrawl instance, returns a JSON string.
-    """
-    crawl_dict = website_crawl.to_dict()
-    return json.dumps(crawl_dict, indent=4)
+    """Convert WebsiteCrawl instance to JSON string."""
+    return json.dumps(website_crawl.to_dict(), indent=4)
 
 
 def save_website_crawl_to_file(crawl: WebsiteCrawl, website_output_dir: Path):
+    """Save WebsiteCrawl data to a file."""
     website_output_dir.mkdir(parents=True, exist_ok=True)
-
     file_path = website_output_dir / "analysis.json"
-    json_data = serialize_website_crawl_to_json(crawl)
 
     with file_path.open("w", encoding="utf-8") as f:
-        f.write(json_data)
+        f.write(serialize_website_crawl_to_json(crawl))
 
     logger.info(f"Saved WebsiteCrawl data to {file_path}")
 
 
-def crawler_thread_func(websites, analysis_output_dir, result_queue):
-    """
-    Thread function that crawls websites one at a time and puts (crawl, website_output_dir)
-    tuples into the result_queue for later categorization.
-    If a website name already exists within the analysis output directory it will skip its crawl.
-    """
+def crawler_worker(website_queue, analysis_output_dir, result_queue):
+    """Worker function for crawlers, takes websites from queue."""
     processor_loader = ProcessorLoader()
     processor = processor_loader.load_processor()
-    for website in websites:
+
+    while not website_queue.empty():
+        website = website_queue.get()
+        if website is None:
+            break
+
         try:
             logger.info(f"[Crawler] Initiating crawl on: {website}")
-
             sanitized_name = website.replace("://", "_").replace("/", "_")
             website_output_dir = analysis_output_dir / sanitized_name
 
@@ -58,26 +54,23 @@ def crawler_thread_func(websites, analysis_output_dir, result_queue):
             website_output_dir.mkdir(parents=True, exist_ok=True)
 
             crawl = processor.crawl(website, website_output_dir)
-
             if crawl is None or not isinstance(crawl, WebsiteCrawl):
-                logger.error(f"[Crawler] Invalid state for website ({website}): The result of the crawl must not be None.")
+                logger.error(f"[Crawler] Invalid state for {website}: The result of the crawl must not be None.")
                 continue
 
-            # Put the crawl result in the queue for the categorizer thread.
             result_queue.put((crawl, website_output_dir))
 
         except Exception as e:
             _handle_exception(e, website, analysis_output_dir)
+        finally:
+            website_queue.task_done()
 
 
-def categorizer_thread_func(result_queue):
-    """
-    Thread function that categorizes crawls coming from the result_queue one at a time.
-    """
+def categorizer_worker(result_queue):
+    """Single-threaded categorizer that processes crawl results."""
     while True:
         item = result_queue.get()
         if item is None:
-            # None is our sentinel to indicate no more items will come.
             result_queue.task_done()
             break
 
@@ -91,14 +84,11 @@ def categorizer_thread_func(result_queue):
             website = crawl.web_page if crawl else "Unknown"
             _handle_exception(e, website, website_output_dir)
         finally:
-            # Indicate that one task is done
             result_queue.task_done()
 
 
 def _handle_exception(exception, website, website_output_dir):
-    """
-    A helper to handle and log exceptions for both crawler and categorizer steps.
-    """
+    """Handles exceptions and logs them to a file."""
     exception_message = (
             f"Error processing website: {website}\n"
             f"Exception: {str(exception)}\n"
@@ -114,10 +104,9 @@ def _handle_exception(exception, website, website_output_dir):
     try:
         with error_output_path.open('w', encoding='utf-8') as error_file:
             error_file.write(exception_message)
-            error_file.flush()
         logger.error(f"[Error] Logged exception to {error_output_path}")
     except Exception as ex:
-        logger.error(f"[Error] Another exception occurred while trying to write the error file. Reason:\n {str(ex)}. Original exception: \n {exception_message}")
+        logger.error(f"[Error] Failed to write error file: {str(ex)}. Original exception: {exception_message}")
 
 
 def main():
@@ -159,30 +148,34 @@ def main():
             logger.error("No websites found in the active website list.")
             sys.exit(3)
 
-        # A queue to hold results from crawler, consumed by categorizer
+        # Create shared queues
+        website_queue = Queue()
         result_queue = Queue()
 
-        crawler_thread = Thread(
-            target=crawler_thread_func,
-            args=(websites, analysis_output_dir, result_queue),
-            daemon=True
-        )
-        crawler_thread.start()
+        # Fill the queue with websites
+        for website in websites:
+            website_queue.put(website)
 
-        categorizer_thread = Thread(
-            target=categorizer_thread_func,
-            args=(result_queue,),
-            daemon=True
-        )
+        # Number of crawler threads
+        num_crawler_threads = 1
+
+        # Start crawler workers
+        crawler_threads = []
+        for _ in range(num_crawler_threads):
+            t = Thread(target=crawler_worker, args=(website_queue, analysis_output_dir, result_queue), daemon=True)
+            t.start()
+            crawler_threads.append(t)
+
+        # Start single categorizer worker
+        categorizer_thread = Thread(target=categorizer_worker, args=(result_queue,), daemon=True)
         categorizer_thread.start()
 
-        # Wait for the crawler thread to finish crawling all websites
-        crawler_thread.join()
+        # Wait for all crawlers to finish
+        for t in crawler_threads:
+            t.join()
 
-        # After crawler is done, put a sentinel (None) in the queue to stop the categorizer
+        # Signal categorizer to stop
         result_queue.put(None)
-
-        # Wait for the categorizer thread to finish processing
         categorizer_thread.join()
 
         logger.info("All crawling and categorization tasks are complete.")
