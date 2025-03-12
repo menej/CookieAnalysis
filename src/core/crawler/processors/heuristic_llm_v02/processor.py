@@ -656,7 +656,10 @@ def execute_interaction(stage: Stage, cookie_banner_info: dict, llm_response: di
                 stage.exceptions.append(error_msg)
                 break
 
-            page.wait_for_timeout(5000)
+            if interaction_type == BannerInteraction.SETTINGS:
+                page.wait_for_timeout(5000)
+            else:
+                page.wait_for_timeout(2500)
 
             page_after = page.url
             new_tabs = [p for p in context.pages if p not in existing_pages]
