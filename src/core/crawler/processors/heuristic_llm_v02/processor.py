@@ -1694,6 +1694,7 @@ def is_element_actually_visible(handle):
     viewport_width, viewport_height = page.viewport_size["width"], page.viewport_size["height"]
 
     # Check if any part of the element is within the visible viewport
+    # Only perform a check for width as we allow the vertical partial invisibility (e.g., banner on the bottom of page)
     partially_visible = (
             (x + width) > 0 and  # Right side is within viewport
             #(y + height) > 0 and  # Bottom side is within viewport
