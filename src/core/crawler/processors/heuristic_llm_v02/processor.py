@@ -487,7 +487,7 @@ def _crawl_internal_pages(stage: Stage, max_pages: int = local_config['num_crawl
         current_domain = urlparse(current_url).netloc
         root_domain = urlparse(root_web_page).netloc
 
-        if current_domain != root_domain:
+        if _canonical_domain(current_domain) != _canonical_domain(root_domain):
             logger.info(f"Redirected to a different domain: {current_domain}. Returning to root domain: {root_domain}.")
             _visit_page(root_web_page, stage)
 
@@ -560,6 +560,8 @@ def _canonical_domain(netloc: str) -> str:
 
      Returns:
          str: The normalized domain name.
+
+     The crawler is treating www.example.com and example.com as the same domain by removing the leading "www." so that links such as http://www.example.com/foo and http://example.com/foo are recognized as internal links on the same site. Without this normalization, the crawler might treat example.com and www.example.com as different domains, causing it to skip or mishandle links that only differ by the "www." prefix.
      """
     domain = netloc.lower()
     domain = re.sub(r'^www\.', '', domain)
