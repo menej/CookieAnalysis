@@ -1,4 +1,4 @@
-from src.core.crawler.processors.heuristic_llm_v02.entities.enums.BannerInteraction import BannerInteraction
+from src.core.crawler.processors.heuristic_llm.entities.enums.BannerInteraction import BannerInteraction
 
 
 def get_interaction_screenshot_filename(

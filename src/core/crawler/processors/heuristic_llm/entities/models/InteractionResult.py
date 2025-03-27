@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.core.crawler.processors.heuristic_llm_v02.entities.enums.InteractionStatus import InteractionStatus
+from src.core.crawler.processors.heuristic_llm.entities.enums.InteractionStatus import InteractionStatus
 
 
 @dataclass

@@ -14,13 +14,13 @@ from playwright.sync_api import sync_playwright, Playwright, Browser, BrowserCon
 from playwright.sync_api import TimeoutError
 
 from src.core.common import loader
-from src.core.crawler.processors.heuristic_llm_v02.business import processor_helper
-from src.core.crawler.processors.heuristic_llm_v02.entities.enums.BannerInteraction import BannerInteraction
-from src.core.crawler.processors.heuristic_llm_v02.entities.enums.InteractionStatus import InteractionStatus
-from src.core.crawler.processors.heuristic_llm_v02.entities.enums.StageOutcome import StageOutcome
-from src.core.crawler.processors.heuristic_llm_v02.entities.models.InteractionResult import InteractionResult
-from src.core.crawler.processors.heuristic_llm_v02.entities.models.MissingLLMResponseKeyError import MissingLLMResponseKeyError
-from src.core.crawler.processors.heuristic_llm_v02.entities.models.StageMetadata import initialize_metadata_accept_stage, initialize_metadata_decline_stage
+from src.core.crawler.processors.heuristic_llm.business import processor_helper
+from src.core.crawler.processors.heuristic_llm.entities.enums.BannerInteraction import BannerInteraction
+from src.core.crawler.processors.heuristic_llm.entities.enums.InteractionStatus import InteractionStatus
+from src.core.crawler.processors.heuristic_llm.entities.enums.StageOutcome import StageOutcome
+from src.core.crawler.processors.heuristic_llm.entities.models.InteractionResult import InteractionResult
+from src.core.crawler.processors.heuristic_llm.entities.models.MissingLLMResponseKeyError import MissingLLMResponseKeyError
+from src.core.crawler.processors.heuristic_llm.entities.models.StageMetadata import initialize_metadata_accept_stage, initialize_metadata_decline_stage
 from src.entities.enums.BrowserProvider import BrowserProvider
 from src.entities.enums.VisitStage import VisitStage
 from src.entities.models.Stage import Stage
