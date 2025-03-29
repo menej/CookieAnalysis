@@ -1246,10 +1246,14 @@ def _query_llm_client(system_prompt: str, user_prompt: str) -> Optional[str]:
     try:
         client = OpenAI(api_key=local_config["openai_token"])
         session_token = str(uuid.uuid4())[:8]
-        modified_prompt = f"[Session: {session_token}] {user_prompt}"
+        timestamp = datetime.now(timezone.utc).isoformat()
+
+        modified_system_prompt = f"[Session: {session_token} | Time: {timestamp} UTC]\n{system_prompt}"
+
+        modified_user_prompt = f"[Session: {session_token}] {user_prompt}"
         messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": modified_prompt}
+            {"role": "system", "content": modified_system_prompt},
+            {"role": "user", "content": modified_user_prompt}
         ]
 
         completion = client.chat.completions.create(
