@@ -38,7 +38,14 @@ def process_crawl(crawl: WebsiteCrawl):
                 }
                 continue
 
-            platform, cookie_category = _categorize(name)
+            categorizer_type = global_config["categorizer_configuration"]["categorizer_type"]
+
+            if categorizer_type == "MATCHING":
+                platform, cookie_category = _categorize_matching(name)
+            elif categorizer_type == "CASCADE":
+                platform, cookie_category = _categorize_cascade(name)
+            else:
+                raise Exception(f"Unknown categorizer type: {categorizer_type}")
 
             cookie['categorization'] = {
                 'platform': platform,
@@ -180,7 +187,7 @@ def _create_cookie_name_variations(cookie_name: str) -> list[str]:
     pass
 
 
-def _categorize(cookie_name) -> tuple[str, CookieCategory]:
+def _categorize_cascade(cookie_name) -> tuple[str, CookieCategory]:
     # First check if we've already categorized this cookie (including UNKNOWN ones)
     df = loader.load_cookie_db_local()
     existing_cookie = df[df["Cookie name"] == cookie_name]
@@ -209,7 +216,125 @@ def _categorize(cookie_name) -> tuple[str, CookieCategory]:
     return "Cookie Analysis", CookieCategory.UNKNOWN
 
 
-def _write_cookie_to_local(cookie_name: str, category: CookieCategory, platform: str, is_wildcard=False, wildcard_name=''):
+def _categorize_matching(cookie_name) -> tuple[str, CookieCategory]:
+    """
+    Categorizes a specified cookie name by analyzing its matching sources, including local and
+    remote databases. The function determines the category of the given cookie from multiple
+    sources and resolves conflicts in classifications when necessary.
+
+    The categorization process involves:
+    1. Checking if the cookie is already locally categorized.
+    2. Querying several remote cookie databases (Open Cookie Database, Cookie Database,
+       and Cookiepedia) for classifications.
+    3. Consolidating results from multiple sources and handling cases such as:
+       - All sources returning "UNKNOWN".
+       - Only one source identifying a category.
+       - Multiple sources agreeing on a single category.
+       - Conflicting categories, which require manual review.
+
+    This function ensures a standardized method of classifying cookies and writes the results
+    to a local database for efficient future retrieval.
+
+    Args:
+        cookie_name (str): The name of the cookie to be categorized.
+
+    Returns:
+        tuple[str, CookieCategory, str]: A tuple consisting of:
+            - The platform(s) identifying the category, e.g., "Open Cookie Database".
+            - The determined CookieCategory, which is either a specific category or an
+              indicator of manual review or unknown classification.
+            - Additional information, which may include details like wildcard pattern
+              matches or descriptions of conflicting results.
+    """
+    # Check if we have already categorized this cookie locally
+    df = loader.load_cookie_db_local()
+    existing = df[df["Cookie name"] == cookie_name]
+    if not existing.empty:
+        return (
+            existing["Platform"].iloc[0],
+            CookieCategory(existing["Category"].iloc[0])
+        )
+
+    # Query all remote sources
+    cat_ocd, is_wildcard, wildcard_name = _categorize_cookie_db_open(cookie_name)
+    cat_cd = _categorize_cookie_cookiedatabase(cookie_name)
+    cat_cp = _categorize_cookie_cookiepedia(cookie_name)
+
+    categories = {
+        "Open Cookie Database": cat_ocd,
+        "Cookie Database": cat_cd,
+        "Cookiepedia": cat_cp,
+    }
+
+    non_unknown = {p: c for p, c in categories.items() if c is not CookieCategory.UNKNOWN}
+
+    # CASE 1 – All UNKNOWN -> save UNKNOWN/Cookie Analysis
+    if not non_unknown:
+        _write_cookie_to_local(cookie_name, CookieCategory.UNKNOWN, "Cookie Analysis")
+        return "Cookie Analysis", CookieCategory.UNKNOWN
+
+    # CASE 2 – Exactly one source classified it
+    if len(non_unknown) == 1:
+        platform, category = next(iter(non_unknown.items()))
+        additional_info = ""
+
+        if platform == "Open Cookie Database":
+            additional_info = (
+                f"OCD wildcard pattern '{wildcard_name}'" if is_wildcard and wildcard_name else ""
+            )
+            _write_cookie_to_local(
+                cookie_name,
+                category,
+                platform,
+                is_wildcard=is_wildcard,
+                wildcard_name=wildcard_name,
+                additional_info=additional_info,
+            )
+        else:
+            _write_cookie_to_local(cookie_name, category, platform)
+
+        return platform, category
+
+    # CASE 3 – Two or three sources agree on the SAME category
+    category_set = set(non_unknown.values())
+    if len(category_set) == 1:
+        category = next(iter(category_set))
+        agreeing_platforms = [p for p, c in non_unknown.items() if c == category]
+        platform_str = "; ".join(agreeing_platforms)
+
+        ocd_included = "Open Cookie Database" in agreeing_platforms
+        _write_cookie_to_local(
+            cookie_name,
+            category,
+            platform_str,
+            is_wildcard=is_wildcard if ocd_included else False,
+            wildcard_name=wildcard_name if ocd_included else "",
+            additional_info=(
+                f"OCD wildcard pattern '{wildcard_name}'" if ocd_included and is_wildcard and wildcard_name else ""
+            ),
+        )
+
+        return platform_str, category
+
+    # CASE 4 – Conflicting non‑UNKNOWN categories -> MANUAL_REVIEW
+    platform_str = "; ".join(non_unknown.keys())
+    detail_parts = [f"{p}={c.name}" for p, c in non_unknown.items()]
+    additional_info = "Conflicting categories: " + ", ".join(detail_parts)
+
+    _write_cookie_to_local(
+        cookie_name,
+        CookieCategory.MANUAL_REVIEW,
+        platform_str,
+        is_wildcard=is_wildcard,
+        wildcard_name=wildcard_name,
+        additional_info=additional_info,
+    )
+
+    return platform_str, CookieCategory.MANUAL_REVIEW
+
+
+
+def _write_cookie_to_local(cookie_name: str, category: CookieCategory, platform: str, is_wildcard=False, wildcard_name='', additional_info=''):
     df = loader.load_cookie_db_local()
 
     # Only write if not already exists
@@ -219,9 +344,10 @@ def _write_cookie_to_local(cookie_name: str, category: CookieCategory, platform:
             "Platform": platform,
             "Category": category.name,
             "Cookie name": cookie_name,
-            "Is Wildcard": is_wildcard,
-            "Wildcard Name": wildcard_name,
+            "OCD Is Wildcard": is_wildcard,
+            "OCD Wildcard Name": wildcard_name,
             "Timestamp": datetime.now(timezone.utc).isoformat(),  # Timezone-aware UTC timestamp
+            "Additional Info": additional_info,
         }
 
         df = pd.concat([df, pd.DataFrame([new_cookie])], ignore_index=True)
