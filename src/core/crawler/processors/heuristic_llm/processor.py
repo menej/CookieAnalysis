@@ -1194,7 +1194,7 @@ def execute_decline_operator(stage: Stage, attempt: int) -> InteractionStatus:
         return InteractionStatus.FAILED
 
     stage_metadata.settings_level.save_settings_attempt = True
-    stage_metadata.settings_level.settings_decline_element_text = save_settings_text
+    stage_metadata.settings_level.save_settings_element_text = save_settings_text
 
     interaction_state = execute_interaction(
         stage,
