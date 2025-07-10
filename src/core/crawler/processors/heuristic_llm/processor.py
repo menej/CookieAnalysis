@@ -275,7 +275,7 @@ def _process_normal_stage() -> Stage:
 
     Notes:
         - `VisitStage.NORMAL_INITIAL_VISIT` represents cookies collected before navigation.
-        - `VisitStage.NORMAL_AFTER_TRAVERSIAL` represents cookies collected after limited internal navigation.
+        - `VisitStage.NORMAL_AFTER_TRAVERSAL` represents cookies collected after limited internal navigation.
         - The `max_pages` parameter is set to 1 to minimize crawling depth during this stage.
     """
     global page
@@ -288,7 +288,7 @@ def _process_normal_stage() -> Stage:
     _visit_page(root_web_page, stage)
     _collect_cookies(stage, VisitStage.NORMAL_INITIAL_VISIT)
     _crawl_internal_pages(stage)
-    _collect_cookies(stage, VisitStage.NORMAL_AFTER_TRAVERSIAL)
+    _collect_cookies(stage, VisitStage.NORMAL_AFTER_TRAVERSAL)
 
     stage.stop()
 
@@ -299,7 +299,7 @@ def _process_accept_stage() -> Stage:
     Process the "Accept All Cookies" stage of the website crawl.
 
     This function simulates a user accepting all cookies and collects cookie data
-    before the interaction, after the interaction and after traversial.
+    before the interaction, after the interaction and after traversal.
     It follows these steps:
 
     1. Initializes a new `Stage` object and assigns it to `website_crawl.accept_stage`.
@@ -317,7 +317,7 @@ def _process_accept_stage() -> Stage:
     Notes:
         - `VisitStage.ACCEPT_INITIAL_VISIT` represents cookies collected before clicking "Accept".
         - `VisitStage.ACCEPT_AFTER_ACTION` represents cookies collected immediately after clicking "Accept".
-        - `VisitStage.ACCEPT_AFTER_TRAVERSIAL` represents cookies collected after internal navigation.
+        - `VisitStage.ACCEPT_AFTER_TRAVERSAL` represents cookies collected after internal navigation.
         - The `_interact_with_accept()` function simulates the user accepting cookies.
     """
     global page
@@ -332,7 +332,7 @@ def _process_accept_stage() -> Stage:
     execute_accept_initializer(stage)
     _collect_cookies(stage, VisitStage.ACCEPT_AFTER_ACTION)
     _crawl_internal_pages(stage)
-    _collect_cookies(stage, VisitStage.ACCEPT_AFTER_TRAVERSIAL)
+    _collect_cookies(stage, VisitStage.ACCEPT_AFTER_TRAVERSAL)
 
     stage.stop()
 
@@ -351,7 +351,7 @@ def _process_decline_stage() -> Stage:
     execute_decline_initializer(stage)
     _collect_cookies(stage, VisitStage.DECLINE_AFTER_ACTION)
     _crawl_internal_pages(stage)
-    _collect_cookies(stage, VisitStage.DECLINE_AFTER_TRAVERSIAL)
+    _collect_cookies(stage, VisitStage.DECLINE_AFTER_TRAVERSAL)
 
     stage.stop()
 
