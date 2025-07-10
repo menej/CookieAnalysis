@@ -249,11 +249,11 @@ def _categorize_cookie_cookiepedia(cookie_name: str) -> CookieCategory:
             if content_left is not None:
 
                 second_paragraph = content_left.find_all('p')[1]
-                cookie_category = second_paragraph.get_text(strip=True).split(":")[1]
                 found_cookie_name = soup.find('div', id='content').find('h1').get_text(strip=True).split(":")[1].strip()
 
                 if cookie_name == found_cookie_name:
-                    cookie_category = _determine_category_cp(cookie_category)
+                    cookiepedia_cookie_category = second_paragraph.get_text(strip=True).split(":")[1]
+                    cookie_category = _determine_category_cp(cookiepedia_cookie_category)
                 else:
                     logger.warning(f"COOKIEPEDIA: Cookie name dont match. Expected ({cookie_name}) got ({found_cookie_name})")
             else:
