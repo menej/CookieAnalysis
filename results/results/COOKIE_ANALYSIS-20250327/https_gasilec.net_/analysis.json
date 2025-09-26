@@ -1,0 +1,845 @@
+{
+    "web_page": "https://gasilec.net/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T19:12:29.283462",
+    "timestamp_stop": "2025-03-28T19:14:50.325312",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://gasilec.net/",
+            "https://gasilec.net/zakonodaja/",
+            "https://gasilec.net/marche/",
+            "https://gasilec.net/zakonodaja/#1605739193338-0fc55c81-ae53"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_N9FRR629JK",
+                    "value": "GS1.1.1743185551.1.0.1743185551.0.0.0",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745551.90989,
+                    "expires_date": "2026-05-02T18:12:31.909890+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.878614781.1743185552",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745551.910373,
+                    "expires_date": "2026-05-02T18:12:31.910373+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_test_cookie",
+                    "value": "WP+Cookie+check",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "4aec60763ab70fbda8f51b9dd9147078",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.878614781.1743185552",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745575.463912,
+                    "expires_date": "2026-05-02T18:12:55.463912+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_test_cookie",
+                    "value": "WP+Cookie+check",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "4aec60763ab70fbda8f51b9dd9147078",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_N9FRR629JK",
+                    "value": "GS1.1.1743185551.1.1.1743185575.0.0.0",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745575.524062,
+                    "expires_date": "2026-05-02T18:12:55.524062+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T19:12:30.673324",
+        "timestamp_stop": "2025-03-28T19:13:03.106929"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (V redu)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://gasilec.net/",
+            "https://gasilec.net/zakonodaja/",
+            "https://gasilec.net/marche/",
+            "https://gasilec.net/zakonodaja/#1605739193338-0fc55c81-ae53"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_N9FRR629JK",
+                    "value": "GS1.1.1743185585.1.0.1743185585.0.0.0",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745585.941611,
+                    "expires_date": "2026-05-02T18:13:05.941611+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.378982391.1743185586",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745585.94229,
+                    "expires_date": "2026-05-02T18:13:05.942290+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_test_cookie",
+                    "value": "WP+Cookie+check",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "9d385c60f16405532c8e1caf3a862023",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_N9FRR629JK",
+                    "value": "GS1.1.1743185585.1.0.1743185585.0.0.0",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745585.941611,
+                    "expires_date": "2026-05-02T18:13:05.941611+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.378982391.1743185586",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745585.94229,
+                    "expires_date": "2026-05-02T18:13:05.942290+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_test_cookie",
+                    "value": "WP+Cookie+check",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "9d385c60f16405532c8e1caf3a862023",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "true",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": 1745777608,
+                    "expires_date": "2025-04-27T18:13:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.378982391.1743185586",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745629.642732,
+                    "expires_date": "2026-05-02T18:13:49.642732+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_test_cookie",
+                    "value": "WP+Cookie+check",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "9d385c60f16405532c8e1caf3a862023",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "true",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": 1745777608,
+                    "expires_date": "2025-04-27T18:13:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_N9FRR629JK",
+                    "value": "GS1.1.1743185585.1.1.1743185629.0.0.0",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745629.682991,
+                    "expires_date": "2026-05-02T18:13:49.682991+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na spletnih straneh Gasilske zveze Slovenije za beleženje obiska uporabljamo piškotke. Z nadaljnjo uporabo spletnega mesta soglašate s piškotki.V reduPiškotki",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [V redu]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button \"[V redu]\" is a generic phrase that can signify acceptance, while there are no buttons for accepting or declining cookies or managing settings present.",
+                "llm_response_parsed": {
+                    "Accept": "V redu",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button \"V redu\" is a generic phrase that can signify acceptance, while there are no buttons for accepting or declining cookies or managing settings present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "V redu",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T19:13:04.669168",
+        "timestamp_stop": "2025-03-28T19:13:57.312082"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://gasilec.net/",
+            "https://gasilec.net/zakonodaja/",
+            "https://gasilec.net/marche/",
+            "https://gasilec.net/zakonodaja/#1605739193338-0fc55c81-ae53"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_N9FRR629JK",
+                    "value": "GS1.1.1743185640.1.0.1743185640.0.0.0",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745640.166807,
+                    "expires_date": "2026-05-02T18:14:00.166807+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2084912554.1743185640",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745640.167418,
+                    "expires_date": "2026-05-02T18:14:00.167418+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_test_cookie",
+                    "value": "WP+Cookie+check",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "383c0ec251b3b54e4ef1323903f70c03",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_N9FRR629JK",
+                    "value": "GS1.1.1743185640.1.0.1743185640.0.0.0",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745640.166807,
+                    "expires_date": "2026-05-02T18:14:00.166807+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2084912554.1743185640",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745640.167418,
+                    "expires_date": "2026-05-02T18:14:00.167418+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_test_cookie",
+                    "value": "WP+Cookie+check",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "383c0ec251b3b54e4ef1323903f70c03",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2084912554.1743185640",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745682.469398,
+                    "expires_date": "2026-05-02T18:14:42.469398+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_test_cookie",
+                    "value": "WP+Cookie+check",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "383c0ec251b3b54e4ef1323903f70c03",
+                    "domain": "gasilec.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_N9FRR629JK",
+                    "value": "GS1.1.1743185640.1.1.1743185682.0.0.0",
+                    "domain": ".gasilec.net",
+                    "path": "/",
+                    "expires": 1777745682.547966,
+                    "expires_date": "2026-05-02T18:14:42.547966+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na spletnih straneh Gasilske zveze Slovenije za beleženje obiska uporabljamo piškotke. Z nadaljnjo uporabo spletnega mesta soglašate s piškotki.V reduPiškotki",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [V redu]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: The text \"[V redu]\" is ambiguous and can be interpreted as an acceptance, while there are no clear buttons for accepting all cookies, declining cookies, or managing settings.",
+                "llm_response_parsed": {
+                    "Accept": "V redu",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The text \"V redu\" is ambiguous and can be interpreted as an acceptance, while there are no clear buttons for accepting all cookies, declining cookies, or managing settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T19:13:58.902439",
+        "timestamp_stop": "2025-03-28T19:14:50.069030"
+    }
+}

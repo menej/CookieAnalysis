@@ -1,0 +1,487 @@
+{
+    "web_page": "https://arriva.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T09:06:25.434679",
+    "timestamp_stop": "2025-03-28T09:08:56.797512",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://arriva.si/",
+            "https://arriva.si/avtobusni-prevozi/linijski-avtobusni-prevozi/",
+            "https://arriva.si/avtobusni-prevozi/ijpp/",
+            "https://arriva.si/skupina-arriva/kariera/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "wp-wpml_current_language",
+                    "value": "sl",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "wp-wpml_current_language",
+                    "value": "sl",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T09:06:26.782314",
+        "timestamp_stop": "2025-03-28T09:06:56.284908"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli vse piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://arriva.si/",
+            "https://arriva.si/avtobusni-prevozi/linijski-avtobusni-prevozi/",
+            "https://arriva.si/avtobusni-prevozi/ijpp/",
+            "https://arriva.si/skupina-arriva/kariera/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "wp-wpml_current_language",
+                    "value": "sl",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "wp-wpml_current_language",
+                    "value": "sl",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%27oybOo6c1fc7Wmx9C9Nv6WH3a0rfn14YHMEMmVjQ91pjflTq+vmTMuw==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743149250614%2Cregion:%27si%27}",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": 1774685250,
+                    "expires_date": "2026-03-28T08:07:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1951055097.1743149251",
+                    "domain": ".arriva.si",
+                    "path": "/",
+                    "expires": 1743235651,
+                    "expires_date": "2025-03-29T08:07:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-133229168-1",
+                    "value": "1",
+                    "domain": ".arriva.si",
+                    "path": "/",
+                    "expires": 1743149311,
+                    "expires_date": "2025-03-28T08:08:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JGH365KB1V",
+                    "value": "GS1.1.1743149251.1.0.1743149251.0.0.0",
+                    "domain": ".arriva.si",
+                    "path": "/",
+                    "expires": 1777709251.373803,
+                    "expires_date": "2026-05-02T08:07:31.373803+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.210824280.1743149251",
+                    "domain": ".arriva.si",
+                    "path": "/",
+                    "expires": 1777709251.37448,
+                    "expires_date": "2026-05-02T08:07:31.374480+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "wp-wpml_current_language",
+                    "value": "sl",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%27oybOo6c1fc7Wmx9C9Nv6WH3a0rfn14YHMEMmVjQ91pjflTq+vmTMuw==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743149250614%2Cregion:%27si%27}",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": 1774685250,
+                    "expires_date": "2026-03-28T08:07:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1951055097.1743149251",
+                    "domain": ".arriva.si",
+                    "path": "/",
+                    "expires": 1743235669,
+                    "expires_date": "2025-03-29T08:07:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-133229168-1",
+                    "value": "1",
+                    "domain": ".arriva.si",
+                    "path": "/",
+                    "expires": 1743149311,
+                    "expires_date": "2025-03-28T08:08:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JGH365KB1V",
+                    "value": "GS1.1.1743149251.1.1.1743149269.0.0.0",
+                    "domain": ".arriva.si",
+                    "path": "/",
+                    "expires": 1777709269.408797,
+                    "expires_date": "2026-05-02T08:07:49.408797+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.210824280.1743149251",
+                    "domain": ".arriva.si",
+                    "path": "/",
+                    "expires": 1777709269.409358,
+                    "expires_date": "2026-05-02T08:07:49.409358+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Potrdi Podrobnosti[#IABV2SETTINGS#]O piškotkih Ta spletna stran vsebuje piškotkePiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije  o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev. Če želite še naprej uporabljati našo spletno stran, se morate strinjati z uporabo piškotkov.Consent SelectionZahtevani Funkcionalni Statistika Trženje Prikaži podrobnostiPodrobnostiZahtevani  6 Zahtevani piškotki naredijo spletno stran uporabno, saj omogočajo osnovne funkcije, kot so navigacija po strani in dostop do varnih območij spletne strani. Spletna stran brez teh piškotkov ne deluje pravilno.  Cookiebot2Preberi še več o tem ponudnikuCookieConsentShrani stanje privolitve uporabnikovega piškotka za trenutno dom",
+                "banner_z_index": 2147483631,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: [Potrdi]\nAmbiguousLabel2: None\nGenericLabel3: [Prilagodi]\nExplanation: \"Dovoli vse piškotke\" clearly indicates acceptance of all cookies, fitting GenericLabel1. There is no button for declining, hence GenericLabel2 is None. \"Potrdi\" is generic and signifies acceptance, so it fits AmbiguousLabel1. \"Prilagodi\" relates to managing settings, fitting GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Potrdi",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": "Prilagodi",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse piškotke\" clearly indicates acceptance of all cookies, fitting GenericLabel1. There is no button for declining, hence GenericLabel2 is None. \"Potrdi\" is generic and signifies acceptance, so it fits AmbiguousLabel1. \"Prilagodi\" relates to managing settings, fitting GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Dovoli vse piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T09:06:58.002449",
+        "timestamp_stop": "2025-03-28T09:07:55.684122"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Potrdi)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://arriva.si/",
+            "https://arriva.si/avtobusni-prevozi/linijski-avtobusni-prevozi/",
+            "https://arriva.si/avtobusni-prevozi/ijpp/",
+            "https://arriva.si/skupina-arriva/kariera/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "wp-wpml_current_language",
+                    "value": "sl",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "wp-wpml_current_language",
+                    "value": "sl",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "wp-wpml_current_language",
+                    "value": "sl",
+                    "domain": "arriva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Potrdi Podrobnosti[#IABV2SETTINGS#]O piškotkih Ta spletna stran vsebuje piškotkePiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije  o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev. Če želite še naprej uporabljati našo spletno stran, se morate strinjati z uporabo piškotkov.Consent SelectionZahtevani Funkcionalni Statistika Trženje Prikaži podrobnostiPodrobnostiZahtevani  6 Zahtevani piškotki naredijo spletno stran uporabno, saj omogočajo osnovne funkcije, kot so navigacija po strani in dostop do varnih območij spletne strani. Spletna stran brez teh piškotkov ne deluje pravilno.  Cookiebot2Preberi še več o tem ponudnikuCookieConsentShrani stanje privolitve uporabnikovega piškotka za trenutno dom",
+                "banner_z_index": 2147483631,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: [Potrdi]\nAmbiguousLabel2: None\nGenericLabel3: [Prilagodi]\nExplanation: The button \"Dovoli vse piškotke\" clearly indicates accepting all cookies, assigned to GenericLabel1. \"Potrdi\" is an ambiguous acceptance phrase, so it is assigned to AmbiguousLabel1. \"Prilagodi\" relates to managing settings, thus it is placed in GenericLabel3. There are no relevant buttons for declining cookies or ambiguous declines.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Potrdi",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": "Prilagodi",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Dovoli vse piškotke\" clearly indicates accepting all cookies, assigned to GenericLabel1. \"Potrdi\" is an ambiguous acceptance phrase, so it is assigned to AmbiguousLabel1. \"Prilagodi\" relates to managing settings, thus it is placed in GenericLabel3. There are no relevant buttons for declining cookies or ambiguous declines."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Potrdi",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T09:07:57.283936",
+        "timestamp_stop": "2025-03-28T09:08:56.485592"
+    }
+}

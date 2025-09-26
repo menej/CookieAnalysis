@@ -1,0 +1,395 @@
+{
+    "web_page": "https://www.morel.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T05:56:06.175149",
+    "timestamp_stop": "2025-03-28T05:59:41.275757",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.morel.si/",
+            "https://www.morel.si/svetovni-pregled/golob-danes-na-neformalnem-srecanju-voditeljev-o-miru-in-varnosti-za-ukrajino-v-parizu/",
+            "https://www.morel.si/svetovni-pregled/novi-ruski-veleposlanik-v-zda/",
+            "https://www.morel.si/Notranja_politika/smo-vkljucujoci-kot-se-nikoli-doslej/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "morel",
+                    "value": "7519ftk7asa8mr6m7vogrig1vf",
+                    "domain": "www.morel.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "morel",
+                    "value": "7519ftk7asa8mr6m7vogrig1vf",
+                    "domain": "www.morel.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T05:56:07.520834",
+        "timestamp_stop": "2025-03-28T05:56:56.868410"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.morel.si/",
+            "https://www.morel.si/svetovni-pregled/golob-danes-na-neformalnem-srecanju-voditeljev-o-miru-in-varnosti-za-ukrajino-v-parizu/",
+            "https://www.morel.si/svetovni-pregled/novi-ruski-veleposlanik-v-zda/",
+            "https://www.morel.si/Notranja_politika/smo-vkljucujoci-kot-se-nikoli-doslej/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "morel",
+                    "value": "5d21q0bg2l2n8c9ohs45juu74v",
+                    "domain": "www.morel.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "morel",
+                    "value": "5d21q0bg2l2n8c9ohs45juu74v",
+                    "domain": "www.morel.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "morel",
+                    "value": "5d21q0bg2l2n8c9ohs45juu74v",
+                    "domain": "www.morel.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "PozdravljeniTo spletno mesto zahteva vaše soglasje za uporabo vaših podatkovOsebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 132 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 65 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v nastavitvah zasebnosti in piškotkov.SoglasjeNe soglašamUpravljanje možnostiNast",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne soglašam]  \nAmbiguousLabel1: None  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje možnosti]  \nExplanation: The button [Ne soglašam] indicates a decline to all or some cookies, thereby fitting GenericLabel2. The button [Upravljanje možnosti] relates to managing settings, fitting GenericLabel3. Other phrases do not match the required categories.",
+                "llm_response_parsed": {
+                    "Accept": null,
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": null,
+                    "Decline": "Ne soglašam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Upravljanje možnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Ne soglašam indicates a decline to all or some cookies, thereby fitting GenericLabel2. The button Upravljanje možnosti relates to managing settings, fitting GenericLabel3. Other phrases do not match the required categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T05:56:58.503091",
+        "timestamp_stop": "2025-03-28T05:58:30.730512"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Ne soglašam)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.morel.si/",
+            "https://www.morel.si/svetovni-pregled/golob-danes-na-neformalnem-srecanju-voditeljev-o-miru-in-varnosti-za-ukrajino-v-parizu/",
+            "https://www.morel.si/svetovni-pregled/novi-ruski-veleposlanik-v-zda/",
+            "https://www.morel.si/Notranja_politika/smo-vkljucujoci-kot-se-nikoli-doslej/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "morel",
+                    "value": "08s7nldcct02q3db3pjt2rohfl",
+                    "domain": "www.morel.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "morel",
+                    "value": "08s7nldcct02q3db3pjt2rohfl",
+                    "domain": "www.morel.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO-wEAQO-wEAEsACBSLBjFgAAAAAEPgACRAAAANVSD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAA%22%2C%222~~dv.70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778%22%2C%2237F3407A-4CF6-4E6F-8764-7B7872460051%22%5D%5D",
+                    "domain": ".morel.si",
+                    "path": "/",
+                    "expires": 1776833956,
+                    "expires_date": "2026-04-22T04:59:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=f6d9b74de6d4b84e:T=1743137939:RT=1743137939:S=AA-AfjZB8YX9E3N7rFJMwtl-674X",
+                    "domain": ".morel.si",
+                    "path": "/",
+                    "expires": 1758689939,
+                    "expires_date": "2025-09-24T04:58:59+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "morel",
+                    "value": "08s7nldcct02q3db3pjt2rohfl",
+                    "domain": "www.morel.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO-wEAQO-wEAEsACBSLBjFgAAAAAEPgACRAAAANVSD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAA%22%2C%222~~dv.70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778%22%2C%2237F3407A-4CF6-4E6F-8764-7B7872460051%22%5D%5D",
+                    "domain": ".morel.si",
+                    "path": "/",
+                    "expires": 1776833956,
+                    "expires_date": "2026-04-22T04:59:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=f6d9b74de6d4b84e:T=1743137939:RT=1743137939:S=AA-AfjZB8YX9E3N7rFJMwtl-674X",
+                    "domain": ".morel.si",
+                    "path": "/",
+                    "expires": 1758689939,
+                    "expires_date": "2025-09-24T04:58:59+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "003_decline_init_1.png",
+            "004_decline_best_candidate_1.png",
+            "005_decline_interaction_1_click_1.png",
+            "006_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "PozdravljeniTo spletno mesto zahteva vaše soglasje za uporabo vaših podatkovOsebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 132 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 65 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v nastavitvah zasebnosti in piškotkov.SoglasjeNe soglašamUpravljanje možnostiNast",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne soglašam]  \nAmbiguousLabel1: None  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje možnosti]  \nExplanation: The button \"Ne soglašam\" indicates a rejection of all cookies and is categorized under GenericLabel2. \"Upravljanje možnosti\" is related to managing settings, thus assigned to GenericLabel3. Other phrases do not fit into the specified categories.",
+                "llm_response_parsed": {
+                    "Accept": null,
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": null,
+                    "Decline": "Ne soglašam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Upravljanje možnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Ne soglašam\" indicates a rejection of all cookies and is categorized under GenericLabel2. \"Upravljanje možnosti\" is related to managing settings, thus assigned to GenericLabel3. Other phrases do not fit into the specified categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Ne soglašam",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T05:58:32.360319",
+        "timestamp_stop": "2025-03-28T05:59:40.936510"
+    }
+}

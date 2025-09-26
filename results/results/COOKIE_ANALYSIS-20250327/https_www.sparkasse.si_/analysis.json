@@ -1,0 +1,952 @@
+{
+    "web_page": "https://www.sparkasse.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T06:13:24.471027",
+    "timestamp_stop": "2025-03-28T06:16:03.231126",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.sparkasse.si/",
+            "https://www.sparkasse.si/#home-novice",
+            "https://www.sparkasse.si/sl/lizing",
+            "https://www.sparkasse.si/sl/lizing/poslovalnice-bankomati"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "s",
+                    "value": "2FFD4322C6F30DB6",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/11F339242E033486",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "51629553C55CE68A",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774695758.319274,
+                    "expires_date": "2026-03-28T11:02:38.319274+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2251629553C55CE68A%22",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "pageCheckpoint",
+                    "value": "/sl/prebivalstvo",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674806,
+                    "expires_date": "2026-03-28T05:13:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__mauuid",
+                    "value": "ada52abf-2c30-4878-b5b1-19792fda52f3",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698806.838695,
+                    "expires_date": "2026-05-02T05:13:26.838695+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "s",
+                    "value": "2FFD4322C6F30DB6",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/11F339242E033486",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "51629553C55CE68A",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774695772.550069,
+                    "expires_date": "2026-03-28T11:02:52.550069+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2251629553C55CE68A%22",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__mauuid",
+                    "value": "ada52abf-2c30-4878-b5b1-19792fda52f3",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698820.608827,
+                    "expires_date": "2026-05-02T05:13:40.608827+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "678A3E0F362C19A6AA5CCCFD784A2212",
+                    "domain": "isl.podpora.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674813,
+                    "expires_date": "2026-03-28T05:13:33+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T06:13:25.893960",
+        "timestamp_stop": "2025-03-28T06:13:54.294027"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.sparkasse.si/",
+            "https://www.sparkasse.si/#home-novice",
+            "https://www.sparkasse.si/sl/lizing",
+            "https://www.sparkasse.si/sl/lizing/poslovalnice-bankomati"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "s",
+                    "value": "7FAE0A33AC4FBAD8",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/11F339242E033486",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "73B60E217CE38281",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774695788.40703,
+                    "expires_date": "2026-03-28T11:03:08.407030+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2273B60E217CE38281%22",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "pageCheckpoint",
+                    "value": "/sl/prebivalstvo",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674836,
+                    "expires_date": "2026-03-28T05:13:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__mauuid",
+                    "value": "b3902698-0693-42b4-ae23-19792f037c6d",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698836.961631,
+                    "expires_date": "2026-05-02T05:13:56.961631+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "s",
+                    "value": "7FAE0A33AC4FBAD8",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/11F339242E033486",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "73B60E217CE38281",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774695788.40703,
+                    "expires_date": "2026-03-28T11:03:08.407030+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2273B60E217CE38281%22",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%27YN9+yeNZBW1MomyeDJ7/MpLNJUsSTzCN9iCpr9DB00FcIcNWWzAnoQ==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743138873244%2Cregion:%27si%27}",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674873,
+                    "expires_date": "2026-03-28T05:14:33+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_41QERM4MLY",
+                    "value": "GS1.1.1743138873.1.0.1743138873.60.0.0",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698873.595646,
+                    "expires_date": "2026-05-02T05:14:33.595646+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.817640308.1743138874",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698873.596095,
+                    "expires_date": "2026-05-02T05:14:33.596095+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743138873705.30577029984280098",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": 1750914873,
+                    "expires_date": "2025-06-26T05:14:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743139773.743609,
+                    "expires_date": "2025-03-28T05:29:33.743609+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747418202",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774674873.854026,
+                    "expires_date": "2026-03-28T05:14:33.854026+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "s",
+                    "value": "7FAE0A33AC4FBAD8",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/11F339242E033486",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "73B60E217CE38281",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774695836.866374,
+                    "expires_date": "2026-03-28T11:03:56.866374+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2273B60E217CE38281%22",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%27YN9+yeNZBW1MomyeDJ7/MpLNJUsSTzCN9iCpr9DB00FcIcNWWzAnoQ==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743138873244%2Cregion:%27si%27}",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674873,
+                    "expires_date": "2026-03-28T05:14:33+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.817640308.1743138874",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698885.06878,
+                    "expires_date": "2026-05-02T05:14:45.068780+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743138873705.30577029984280098",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": 1750914885,
+                    "expires_date": "2025-06-26T05:14:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743139773.743609,
+                    "expires_date": "2025-03-28T05:29:33.743609+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747418202",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774674885.230163,
+                    "expires_date": "2026-03-28T05:14:45.230163+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__mauuid",
+                    "value": "aacf1bb1-a510-421e-b51c-19792ff8f1e0",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698884.898935,
+                    "expires_date": "2026-05-02T05:14:44.898935+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "678A3E0FFF6893BD1F755A34B445046A",
+                    "domain": "isl.podpora.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674878,
+                    "expires_date": "2026-03-28T05:14:38+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_41QERM4MLY",
+                    "value": "GS1.1.1743138873.1.1.1743138891.42.0.0",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698891.53189,
+                    "expires_date": "2026-05-02T05:14:51.531890+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Potrdi Podrobnosti[#IABV2SETTINGS#]O piškotkih Ta spletna stran vsebuje piškotkePiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije  o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev. Politika piškotkov.Consent SelectionObvezni piškotki Namestitveni piškotki Analitični piškotki Piškotki za ciljno usmerjenost Prikaži podrobnostiPodrobnostiObvezni piškotki  7 Obvezni piškotki naredijo spletno stran uporabno, saj omogočajo osnovne funkcije, kot so navigacija po strani in dostop do varnih območij spletne strani. Spletna stran brez teh piškotkov ne deluje pravilno.  Cookiebot2Preberi še več o tem ponudniku1.gifUporablja se za štetje števila sej na spletni strani, kar je potrebno za optimizacijo dostav",
+                "banner_z_index": 2147483631,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Dovoli izbor]\nAmbiguousLabel2: None\nGenericLabel3: [Prikaži podrobnosti]\nExplanation: \"Dovoli vse\" is categorized under accepting all cookies, while \"Zavrni\" is for declining all cookies. \"Dovoli izbor\" is an ambiguous phrase that could suggest acceptance of specific choices. \"Prikaži podrobnosti\" is related to managing settings, hence categorized under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Prikaži podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" is categorized under accepting all cookies, while \"Zavrni\" is for declining all cookies. \"Dovoli izbor\" is an ambiguous phrase that could suggest acceptance of specific choices. \"Prikaži podrobnosti\" is related to managing settings, hence categorized under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T06:13:55.871791",
+        "timestamp_stop": "2025-03-28T06:14:58.090896"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.sparkasse.si/",
+            "https://www.sparkasse.si/#home-novice",
+            "https://www.sparkasse.si/sl/lizing",
+            "https://www.sparkasse.si/sl/lizing/poslovalnice-bankomati"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "s",
+                    "value": "7FF26680B8DB03C6",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/11F339242E033486",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "7D837A76BBE87599",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774695852.125374,
+                    "expires_date": "2026-03-28T11:04:12.125374+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%227D837A76BBE87599%22",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "pageCheckpoint",
+                    "value": "/sl/prebivalstvo",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674900,
+                    "expires_date": "2026-03-28T05:15:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__mauuid",
+                    "value": "2f72b4b2-e835-4970-9d24-19792f366643",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698900.604965,
+                    "expires_date": "2026-05-02T05:15:00.604965+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "s",
+                    "value": "7FF26680B8DB03C6",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/11F339242E033486",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "7D837A76BBE87599",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774695852.125374,
+                    "expires_date": "2026-03-28T11:04:12.125374+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%27FU81+qU6+M2SjA516iA1lw9vNdjgkO2wePWaJWsbR5lpqIUdLtSqcQ==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743138938050%2Cregion:%27si%27}",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674938,
+                    "expires_date": "2026-03-28T05:15:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "s",
+                    "value": "7FF26680B8DB03C6",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/11F339242E033486",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "7D837A76BBE87599",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774695901.833831,
+                    "expires_date": "2026-03-28T11:05:01.833831+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%27FU81+qU6+M2SjA516iA1lw9vNdjgkO2wePWaJWsbR5lpqIUdLtSqcQ==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743138938050%2Cregion:%27si%27}",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674938,
+                    "expires_date": "2026-03-28T05:15:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__mauuid",
+                    "value": "7a2b8df2-b361-4558-b843-19792f9ef828",
+                    "domain": "www.sparkasse.si",
+                    "path": "/",
+                    "expires": 1777698949.853458,
+                    "expires_date": "2026-05-02T05:15:49.853458+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%227D837A76BBE87599%22",
+                    "domain": ".sparkasse.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "678A3E0FFAC435FCB0253156768AC1C9",
+                    "domain": "isl.podpora.sparkasse.si",
+                    "path": "/",
+                    "expires": 1774674943,
+                    "expires_date": "2026-03-28T05:15:43+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Potrdi Podrobnosti[#IABV2SETTINGS#]O piškotkih Ta spletna stran vsebuje piškotkePiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije  o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev. Politika piškotkov.Consent SelectionObvezni piškotki Namestitveni piškotki Analitični piškotki Piškotki za ciljno usmerjenost Prikaži podrobnostiPodrobnostiObvezni piškotki  7 Obvezni piškotki naredijo spletno stran uporabno, saj omogočajo osnovne funkcije, kot so navigacija po strani in dostop do varnih območij spletne strani. Spletna stran brez teh piškotkov ne deluje pravilno.  Cookiebot2Preberi še več o tem ponudniku1.gifUporablja se za štetje števila sej na spletni strani, kar je potrebno za optimizacijo dostav",
+                "banner_z_index": 2147483631,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Prikaži podrobnosti]\nExplanation: The button [Dovoli vse] is categorized as accepting all cookies, while [Zavrni] is categorized as declining all cookies. The button [Prikaži podrobnosti] is categorized under settings as it offers more information regarding cookie policies.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Prikaži podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Dovoli vse is categorized as accepting all cookies, while Zavrni is categorized as declining all cookies. The button Prikaži podrobnosti is categorized under settings as it offers more information regarding cookie policies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T06:14:59.761599",
+        "timestamp_stop": "2025-03-28T06:16:02.937352"
+    }
+}

@@ -1,0 +1,894 @@
+{
+    "web_page": "https://www.kolektor.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T16:37:33.964184",
+    "timestamp_stop": "2025-03-28T16:40:08.333052",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kolektor.com/",
+            "https://www.kolektor.com/sl/aktualno/novice/kolektor-sisteh-je-novi-lastnik-podjetja-prinsis-2025-03-18",
+            "https://www.kolektor.com/sl/aktualno/novice/sodelovali-smo-pri-oddaji-o-reki-idrijci-2025-01-15",
+            "https://www.kolektor.com/sl/aktualno/novice/kolektor-sisteh-je-novi-lastnik-podjetja-prinsis-2025-03-18?_locale=en"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "kolektor",
+                    "value": "6ll1eq51oce0a3icnvacer22pp",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "device_view",
+                    "value": "full",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1745851055.641521,
+                    "expires_date": "2025-04-28T14:37:35.641521+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "0GCGi8yeMRW9Nzk64dpqw68DFlapJyAl6CN0AJAKLKk-1743176256-1.0.1.1-kOYseUupkhuYVKSn5NH3ZgOUu0.AJ7zwRcRrKA4xnZVzNliA0KG5xTCiCSxu9hytiLTI4CNQGO8ecvzGt_r2DQ6k_DXOwCBh9V0ToIRa_Bs",
+                    "domain": ".apollo.io",
+                    "path": "/",
+                    "expires": 1743178056.524684,
+                    "expires_date": "2025-03-28T16:07:36.524684+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_C13LP6J97D",
+                    "value": "GS1.1.1743176256.1.0.1743176256.60.0.0",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736256.630295,
+                    "expires_date": "2026-05-02T15:37:36.630295+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1202883661.1743176257",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736256.631745,
+                    "expires_date": "2026-05-02T15:37:36.631745+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "kolektor",
+                    "value": "6ll1eq51oce0a3icnvacer22pp",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "device_view",
+                    "value": "full",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1745851055.641521,
+                    "expires_date": "2025-04-28T14:37:35.641521+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "0GCGi8yeMRW9Nzk64dpqw68DFlapJyAl6CN0AJAKLKk-1743176256-1.0.1.1-kOYseUupkhuYVKSn5NH3ZgOUu0.AJ7zwRcRrKA4xnZVzNliA0KG5xTCiCSxu9hytiLTI4CNQGO8ecvzGt_r2DQ6k_DXOwCBh9V0ToIRa_Bs",
+                    "domain": ".apollo.io",
+                    "path": "/",
+                    "expires": 1743178056.524684,
+                    "expires_date": "2025-03-28T16:07:36.524684+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1202883661.1743176257",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736279.361287,
+                    "expires_date": "2026-05-02T15:37:59.361287+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "selectedLocale",
+                    "value": "en",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1777736278.926264,
+                    "expires_date": "2026-05-02T15:37:58.926264+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_C13LP6J97D",
+                    "value": "GS1.1.1743176256.1.1.1743176286.30.0.0",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736286.408133,
+                    "expires_date": "2026-05-02T15:38:06.408133+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T16:37:35.302914",
+        "timestamp_stop": "2025-03-28T16:38:06.938106"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Strinjam se!)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kolektor.com/",
+            "https://www.kolektor.com/sl/aktualno/novice/kolektor-sisteh-je-novi-lastnik-podjetja-prinsis-2025-03-18",
+            "https://www.kolektor.com/sl/aktualno/novice/sodelovali-smo-pri-oddaji-o-reki-idrijci-2025-01-15",
+            "https://www.kolektor.com/sl/aktualno/novice/kolektor-sisteh-je-novi-lastnik-podjetja-prinsis-2025-03-18?_locale=en"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "kolektor",
+                    "value": "k5r4v057cbh77l5c210a7rsccb",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "device_view",
+                    "value": "full",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1745851088.840867,
+                    "expires_date": "2025-04-28T14:38:08.840867+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "jA7DDeqCrP1ro_zgqq68aGKF0QWeyPl9LS5g4TNJF9o-1743176289-1.0.1.1-p9q0XL5Ek34Yj2iiYps1AMrJv6OnrhlJ3Q173oOm.iC1yv8KMcaEMMwnJ6PRBuiiESNN3C4rBrsTwUJNISatV0ShtwtNGLIspmoGUrKt3lE",
+                    "domain": ".apollo.io",
+                    "path": "/",
+                    "expires": 1743178089.753192,
+                    "expires_date": "2025-03-28T16:08:09.753192+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_C13LP6J97D",
+                    "value": "GS1.1.1743176289.1.0.1743176289.60.0.0",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736289.837921,
+                    "expires_date": "2026-05-02T15:38:09.837921+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.814278580.1743176290",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736289.838532,
+                    "expires_date": "2026-05-02T15:38:09.838532+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "kolektor",
+                    "value": "k5r4v057cbh77l5c210a7rsccb",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "device_view",
+                    "value": "full",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1745851088.840867,
+                    "expires_date": "2025-04-28T14:38:08.840867+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "jA7DDeqCrP1ro_zgqq68aGKF0QWeyPl9LS5g4TNJF9o-1743176289-1.0.1.1-p9q0XL5Ek34Yj2iiYps1AMrJv6OnrhlJ3Q173oOm.iC1yv8KMcaEMMwnJ6PRBuiiESNN3C4rBrsTwUJNISatV0ShtwtNGLIspmoGUrKt3lE",
+                    "domain": ".apollo.io",
+                    "path": "/",
+                    "expires": 1743178089.753192,
+                    "expires_date": "2025-03-28T16:08:09.753192+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_C13LP6J97D",
+                    "value": "GS1.1.1743176289.1.0.1743176289.60.0.0",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736289.837921,
+                    "expires_date": "2026-05-02T15:38:09.837921+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.814278580.1743176290",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736289.838532,
+                    "expires_date": "2026-05-02T15:38:09.838532+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cookiePolicy",
+                    "value": "1_accept_1",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1777736316.804125,
+                    "expires_date": "2026-05-02T15:38:36.804125+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "kolektor",
+                    "value": "k5r4v057cbh77l5c210a7rsccb",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "device_view",
+                    "value": "full",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1745851088.840867,
+                    "expires_date": "2025-04-28T14:38:08.840867+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "jA7DDeqCrP1ro_zgqq68aGKF0QWeyPl9LS5g4TNJF9o-1743176289-1.0.1.1-p9q0XL5Ek34Yj2iiYps1AMrJv6OnrhlJ3Q173oOm.iC1yv8KMcaEMMwnJ6PRBuiiESNN3C4rBrsTwUJNISatV0ShtwtNGLIspmoGUrKt3lE",
+                    "domain": ".apollo.io",
+                    "path": "/",
+                    "expires": 1743178089.753192,
+                    "expires_date": "2025-03-28T16:08:09.753192+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.814278580.1743176290",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736337.565124,
+                    "expires_date": "2026-05-02T15:38:57.565124+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cookiePolicy",
+                    "value": "1_accept_1",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1777736316.804125,
+                    "expires_date": "2026-05-02T15:38:36.804125+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "selectedLocale",
+                    "value": "en",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1777736337.155906,
+                    "expires_date": "2026-05-02T15:38:57.155906+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_C13LP6J97D",
+                    "value": "GS1.1.1743176289.1.1.1743176344.5.0.0",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736344.505766,
+                    "expires_date": "2026-05-02T15:39:04.505766+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotki\n            \n        \n        \n            Spletno mesto za namen izboljšave delovanja uporablja piškotke. Z uporabo strani soglašate z uporabo piškotkov.\n            \n                \n                    Strinjam se!\n                \n                                \n                    Več o piškotkih!\n                \n            \n        \n        \n            Odpri/zapri",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se!]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih!]  \nExplanation: \"Strinjam se!\" is a generic phrase that signifies acceptance, fitting AmbiguousLabel1. \"Več o piškotkih!\" relates to managing settings or information about cookies, fitting GenericLabel3. The other buttons do not fit the specified categories.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se!",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih!",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se!\" is a generic phrase that signifies acceptance, fitting AmbiguousLabel1. \"Več o piškotkih!\" relates to managing settings or information about cookies, fitting GenericLabel3. The other buttons do not fit the specified categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Strinjam se!",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T16:38:08.488025",
+        "timestamp_stop": "2025-03-28T16:39:05.056123"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Več o piškotkih!)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kolektor.com/",
+            "https://www.kolektor.com/",
+            "https://www.kolektor.com/sl/aktualno/novice/kolektor-sisteh-je-novi-lastnik-podjetja-prinsis-2025-03-18",
+            "https://www.kolektor.com/sl/aktualno/novice/sodelovali-smo-pri-oddaji-o-reki-idrijci-2025-01-15",
+            "https://www.kolektor.com/sl/aktualno/novice/kolektor-sisteh-je-novi-lastnik-podjetja-prinsis-2025-03-18?_locale=en"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "kolektor",
+                    "value": "lncghckeu83g27k6sd8q6oasfh",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "device_view",
+                    "value": "full",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1745851147.038802,
+                    "expires_date": "2025-04-28T14:39:07.038802+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "gEGYPwSxu9YPGY.60e6lza8hqZcBXxewkJRq6KaqMKU-1743176348-1.0.1.1-oGsEmcYppiMQxb85FqNcnphcfVztmCvUYn4VTKrWNMCqexZaSuFMT5JAWHYaB1Lio8y.pcTnXvek8WXu.MRNXEnKrQla0GdrMRtTFHNp6Gs",
+                    "domain": ".apollo.io",
+                    "path": "/",
+                    "expires": 1743178147.940782,
+                    "expires_date": "2025-03-28T16:09:07.940782+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_C13LP6J97D",
+                    "value": "GS1.1.1743176348.1.0.1743176348.60.0.0",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736348.056583,
+                    "expires_date": "2026-05-02T15:39:08.056583+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.494188532.1743176348",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736348.057333,
+                    "expires_date": "2026-05-02T15:39:08.057333+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "kolektor",
+                    "value": "lncghckeu83g27k6sd8q6oasfh",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "device_view",
+                    "value": "full",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1745851147.038802,
+                    "expires_date": "2025-04-28T14:39:07.038802+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "gEGYPwSxu9YPGY.60e6lza8hqZcBXxewkJRq6KaqMKU-1743176348-1.0.1.1-oGsEmcYppiMQxb85FqNcnphcfVztmCvUYn4VTKrWNMCqexZaSuFMT5JAWHYaB1Lio8y.pcTnXvek8WXu.MRNXEnKrQla0GdrMRtTFHNp6Gs",
+                    "domain": ".apollo.io",
+                    "path": "/",
+                    "expires": 1743178147.940782,
+                    "expires_date": "2025-03-28T16:09:07.940782+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.494188532.1743176348",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736377.379197,
+                    "expires_date": "2026-05-02T15:39:37.379197+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_C13LP6J97D",
+                    "value": "GS1.1.1743176348.1.1.1743176377.31.0.0",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736377.378148,
+                    "expires_date": "2026-05-02T15:39:37.378148+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "kolektor",
+                    "value": "lncghckeu83g27k6sd8q6oasfh",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "device_view",
+                    "value": "full",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1745851147.038802,
+                    "expires_date": "2025-04-28T14:39:07.038802+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "gEGYPwSxu9YPGY.60e6lza8hqZcBXxewkJRq6KaqMKU-1743176348-1.0.1.1-oGsEmcYppiMQxb85FqNcnphcfVztmCvUYn4VTKrWNMCqexZaSuFMT5JAWHYaB1Lio8y.pcTnXvek8WXu.MRNXEnKrQla0GdrMRtTFHNp6Gs",
+                    "domain": ".apollo.io",
+                    "path": "/",
+                    "expires": 1743178147.940782,
+                    "expires_date": "2025-03-28T16:09:07.940782+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.494188532.1743176348",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736400.529145,
+                    "expires_date": "2026-05-02T15:40:00.529145+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "selectedLocale",
+                    "value": "en",
+                    "domain": "www.kolektor.com",
+                    "path": "/",
+                    "expires": 1777736400.126718,
+                    "expires_date": "2026-05-02T15:40:00.126718+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_C13LP6J97D",
+                    "value": "GS1.1.1743176348.1.1.1743176407.1.0.0",
+                    "domain": ".kolektor.com",
+                    "path": "/",
+                    "expires": 1777736407.491195,
+                    "expires_date": "2026-05-02T15:40:07.491195+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_redirected.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotki\n            \n        \n        \n            Spletno mesto za namen izboljšave delovanja uporablja piškotke. Z uporabo strani soglašate z uporabo piškotkov.\n            \n                \n                    Strinjam se!\n                \n                                \n                    Več o piškotkih!\n                \n            \n        \n        \n            Odpri/zapri",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se!]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih!]  \nExplanation: The button [Strinjam se!] is categorized as an ambiguous accept because it signifies agreement but does not explicitly mention accepting all cookies. The button [Več o piškotkih!] is categorized as a settings management option since it implies seeking more information about cookies. There are no clear accept or decline labels present.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se!",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih!",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Strinjam se! is categorized as an ambiguous accept because it signifies agreement but does not explicitly mention accepting all cookies. The button Več o piškotkih! is categorized as a settings management option since it implies seeking more information about cookies. There are no clear accept or decline labels present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več o piškotkih!",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T16:39:06.662073",
+        "timestamp_stop": "2025-03-28T16:40:08.038605"
+    }
+}

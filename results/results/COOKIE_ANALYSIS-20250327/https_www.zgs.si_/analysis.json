@@ -1,0 +1,517 @@
+{
+    "web_page": "https://www.zgs.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T07:08:30.922932",
+    "timestamp_stop": "2025-03-28T07:11:12.550092",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zgs.si/",
+            "https://www.zgs.si/obmocne-enote/postojna",
+            "https://www.zgs.si/za-obiskovalce/za-sole",
+            "https://www.zgs.si/za-obiskovalce/o-zgs/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "p1kso7hr2vsgigdmi8ld6c63sn",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743746913.284864,
+                    "expires_date": "2025-04-04T06:08:33.284864+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "p1kso7hr2vsgigdmi8ld6c63sn",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743746913.284864,
+                    "expires_date": "2025-04-04T06:08:33.284864+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T07:08:32.205203",
+        "timestamp_stop": "2025-03-28T07:09:04.399988"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zgs.si/",
+            "https://www.zgs.si/obmocne-enote/postojna",
+            "https://www.zgs.si/za-obiskovalce/za-sole",
+            "https://www.zgs.si/za-obiskovalce/o-zgs/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "np3svndtadbja6sof491pj3vi4",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743746946.836967,
+                    "expires_date": "2025-04-04T06:09:06.836967+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "np3svndtadbja6sof491pj3vi4",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743746946.836967,
+                    "expires_date": "2025-04-04T06:09:06.836967+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cc_cookie",
+                    "value": "{\"categories\":[\"necessary\",\"analytics\"],\"level\":[\"necessary\",\"analytics\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false,\"consent_date\":\"2025-03-28T06:09:43.246Z\",\"consent_uuid\":\"ab98e979-120e-4792-b8b7-8d06f420e92d\",\"last_consent_update\":\"2025-03-28T06:09:43.246Z\"}",
+                    "domain": ".www.zgs.si",
+                    "path": "/",
+                    "expires": 1758866983,
+                    "expires_date": "2025-09-26T06:09:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_81Q7P2RNM1",
+                    "value": "GS1.1.1743142183.1.0.1743142183.0.0.0",
+                    "domain": ".zgs.si",
+                    "path": "/",
+                    "expires": 1777702183.496948,
+                    "expires_date": "2026-05-02T06:09:43.496948+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.35920704.1743142183",
+                    "domain": ".zgs.si",
+                    "path": "/",
+                    "expires": 1777702183.497701,
+                    "expires_date": "2026-05-02T06:09:43.497701+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_id.7.bac0",
+                    "value": "daecdd824e118d5d.1743142184.",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1777097384,
+                    "expires_date": "2026-04-25T06:09:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.7.bac0",
+                    "value": "1",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743143983,
+                    "expires_date": "2025-03-28T06:39:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "np3svndtadbja6sof491pj3vi4",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743746946.836967,
+                    "expires_date": "2025-04-04T06:09:06.836967+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cc_cookie",
+                    "value": "{\"categories\":[\"necessary\",\"analytics\"],\"level\":[\"necessary\",\"analytics\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false,\"consent_date\":\"2025-03-28T06:09:43.246Z\",\"consent_uuid\":\"ab98e979-120e-4792-b8b7-8d06f420e92d\",\"last_consent_update\":\"2025-03-28T06:09:43.246Z\"}",
+                    "domain": ".www.zgs.si",
+                    "path": "/",
+                    "expires": 1758866983,
+                    "expires_date": "2025-09-26T06:09:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.35920704.1743142183",
+                    "domain": ".zgs.si",
+                    "path": "/",
+                    "expires": 1777702204.450114,
+                    "expires_date": "2026-05-02T06:10:04.450114+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_id.7.bac0",
+                    "value": "daecdd824e118d5d.1743142184.",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1777097384,
+                    "expires_date": "2026-04-25T06:09:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.7.bac0",
+                    "value": "1",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743144004,
+                    "expires_date": "2025-03-28T06:40:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_81Q7P2RNM1",
+                    "value": "GS1.1.1743142183.1.1.1743142204.0.0.0",
+                    "domain": ".zgs.si",
+                    "path": "/",
+                    "expires": 1777702204.449736,
+                    "expires_date": "2026-05-02T06:10:04.449736+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Uporabljamo piškotke!Pozdravljeni, to spletno mesto uporablja bistvene piškotke za zagotavljanje pravilnega delovanja in sledilne piškotke za razumevanje vaše interakcije z njim. Slednji bodo nastavljeni le po privolitvi. Nastavitve piškotkovSprejmi vseZavrni vse",
+                "banner_z_index": 1,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: \"Sprejmi vse\" fits the criteria for accepting all cookies, while \"Zavrni vse\" fits the criteria for declining all cookies. \"Nastavitve piškotkov\" explicitly indicates settings management.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi vse\" fits the criteria for accepting all cookies, while \"Zavrni vse\" fits the criteria for declining all cookies. \"Nastavitve piškotkov\" explicitly indicates settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T07:09:05.939679",
+        "timestamp_stop": "2025-03-28T07:10:11.411611"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni vse)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zgs.si/",
+            "https://www.zgs.si/obmocne-enote/postojna",
+            "https://www.zgs.si/za-obiskovalce/za-sole",
+            "https://www.zgs.si/za-obiskovalce/o-zgs/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "739adqr0goncfule0cjn67807u",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743747013.846213,
+                    "expires_date": "2025-04-04T06:10:13.846213+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "739adqr0goncfule0cjn67807u",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743747013.846213,
+                    "expires_date": "2025-04-04T06:10:13.846213+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cc_cookie",
+                    "value": "{\"categories\":[\"necessary\"],\"level\":[\"necessary\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false,\"consent_date\":\"2025-03-28T06:10:44.227Z\",\"consent_uuid\":\"15bbafe5-40ab-4b80-8728-1f1e64b62551\",\"last_consent_update\":\"2025-03-28T06:10:44.227Z\"}",
+                    "domain": ".www.zgs.si",
+                    "path": "/",
+                    "expires": 1758867044,
+                    "expires_date": "2025-09-26T06:10:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "739adqr0goncfule0cjn67807u",
+                    "domain": "www.zgs.si",
+                    "path": "/",
+                    "expires": 1743747013.846213,
+                    "expires_date": "2025-04-04T06:10:13.846213+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cc_cookie",
+                    "value": "{\"categories\":[\"necessary\"],\"level\":[\"necessary\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false,\"consent_date\":\"2025-03-28T06:10:44.227Z\",\"consent_uuid\":\"15bbafe5-40ab-4b80-8728-1f1e64b62551\",\"last_consent_update\":\"2025-03-28T06:10:44.227Z\"}",
+                    "domain": ".www.zgs.si",
+                    "path": "/",
+                    "expires": 1758867044,
+                    "expires_date": "2025-09-26T06:10:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Uporabljamo piškotke!Pozdravljeni, to spletno mesto uporablja bistvene piškotke za zagotavljanje pravilnega delovanja in sledilne piškotke za razumevanje vaše interakcije z njim. Slednji bodo nastavljeni le po privolitvi. Nastavitve piškotkovSprejmi vseZavrni vse",
+                "banner_z_index": 1,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button labeled \"Sprejmi vse\" corresponds to accepting all cookies, so it is categorized under GenericLabel1. The button \"Zavrni vse\" corresponds to declining all cookies, so it is categorized under GenericLabel2. The \"Nastavitve piškotkov\" button is related to managing settings, thus it is categorized under GenericLabel3. There are no ambiguous labels present in this case.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button labeled \"Sprejmi vse\" corresponds to accepting all cookies, so it is categorized under GenericLabel1. The button \"Zavrni vse\" corresponds to declining all cookies, so it is categorized under GenericLabel2. The \"Nastavitve piškotkov\" button is related to managing settings, thus it is categorized under GenericLabel3. There are no ambiguous labels present in this case."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T07:10:12.970462",
+        "timestamp_stop": "2025-03-28T07:11:12.290297"
+    }
+}

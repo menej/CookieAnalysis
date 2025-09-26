@@ -1,0 +1,859 @@
+{
+    "web_page": "https://www.pef.uni-lj.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T08:33:37.323302",
+    "timestamp_stop": "2025-03-28T08:37:48.451721",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pef.uni-lj.si/",
+            "https://www.pef.uni-lj.si/studij/mednarodno-sodelovanje/drugi-programi-izmenjav/",
+            "https://www.pef.uni-lj.si/o-fakulteti/zaupne-osebe/",
+            "https://www.pef.uni-lj.si/o-fakulteti/pravni-akti/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683219.214912,
+                    "expires_date": "2026-03-28T07:33:39.214912+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "PJ4KTS4s7Q0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "Z1fCBqjxHPg",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699219.786006,
+                    "expires_date": "2025-09-24T07:33:39.786006+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgLg%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699219.786115,
+                    "expires_date": "2025-09-24T07:33:39.786115+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CKukuov41KitxQEQz_bOtqGsjAMYz_bOtqGsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699219.786186,
+                    "expires_date": "2025-09-24T07:33:39.786186+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683219.214912,
+                    "expires_date": "2026-03-28T07:33:39.214912+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "PJ4KTS4s7Q0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "Z1fCBqjxHPg",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699219.786006,
+                    "expires_date": "2025-09-24T07:33:39.786006+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgLg%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699219.786115,
+                    "expires_date": "2025-09-24T07:33:39.786115+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CKukuov41KitxQEQz_bOtqGsjAMYz_bOtqGsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699219.786186,
+                    "expires_date": "2025-09-24T07:33:39.786186+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T08:33:38.930488",
+        "timestamp_stop": "2025-03-28T08:34:25.341681"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pef.uni-lj.si/",
+            "https://www.pef.uni-lj.si/studij/mednarodno-sodelovanje/drugi-programi-izmenjav/",
+            "https://www.pef.uni-lj.si/o-fakulteti/zaupne-osebe/",
+            "https://www.pef.uni-lj.si/o-fakulteti/pravni-akti/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683267.244063,
+                    "expires_date": "2026-03-28T07:34:27.244063+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "QH7Npk_jpj8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CNn-sPzrwOTFZhCf8MTNoayMAxif8MTNoayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.836984,
+                    "expires_date": "2025-09-24T07:34:27.836984+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "EGj6rjB4DYY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.83727,
+                    "expires_date": "2025-09-24T07:34:27.837270+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgUQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.837308,
+                    "expires_date": "2025-09-24T07:34:27.837308+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683267.244063,
+                    "expires_date": "2026-03-28T07:34:27.244063+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "QH7Npk_jpj8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CNn-sPzrwOTFZhCf8MTNoayMAxif8MTNoayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.836984,
+                    "expires_date": "2025-09-24T07:34:27.836984+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "EGj6rjB4DYY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.83727,
+                    "expires_date": "2025-09-24T07:34:27.837270+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgUQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.837308,
+                    "expires_date": "2025-09-24T07:34:27.837308+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683267.244063,
+                    "expires_date": "2026-03-28T07:34:27.244063+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "QH7Npk_jpj8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CNn-sPzrwOTFZhCf8MTNoayMAxif8MTNoayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.836984,
+                    "expires_date": "2025-09-24T07:34:27.836984+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "EGj6rjB4DYY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.83727,
+                    "expires_date": "2025-09-24T07:34:27.837270+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgUQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699267.837308,
+                    "expires_date": "2025-09-24T07:34:27.837308+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta spletna stran uporablja piškotke. Obvezni piškotki in piškotki, ki ne obdelujejo osebnih podatkov, so že nameščeni. Z vašim soglasjem pa vam bomo naložili tudi piškotke za izboljšanje vaše uporabniške izkušnje. Več informacij o piškotkih si lahko preberite na strani Piškotki, kjer lahko tudi urejate nastavitve.Spremeni nastavitveIzberi obvezneIzberi vse in zapri",
+                "banner_z_index": 999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: None  \nAmbiguousLabel2: None  \nGenericLabel3: [Spremeni nastavitve]  \nExplanation: The only button present is related to managing settings, so it is categorized under GenericLabel3. There are no buttons for accepting all cookies or declining cookies, nor are there ambiguous accept or decline phrases.",
+                "llm_response_parsed": {
+                    "Accept": null,
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": null,
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Spremeni nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The only button present is related to managing settings, so it is categorized under GenericLabel3. There are no buttons for accepting all cookies or declining cookies, nor are there ambiguous accept or decline phrases."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T08:34:26.885881",
+        "timestamp_stop": "2025-03-28T08:35:39.018771"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Spremeni nastavitve)",
+            "Clicking an element of type (button), with text (Sprejmi izbrane)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pef.uni-lj.si/",
+            "https://www.pef.uni-lj.si/studij/mednarodno-sodelovanje/drugi-programi-izmenjav/",
+            "https://www.pef.uni-lj.si/o-fakulteti/zaupne-osebe/",
+            "https://www.pef.uni-lj.si/o-fakulteti/pravni-akti/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683340.906761,
+                    "expires_date": "2026-03-28T07:35:40.906761+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "VlZSvuKQdoM",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "u5Gn-ht_qJY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473014,
+                    "expires_date": "2025-09-24T07:35:41.473014+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiA3",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473173,
+                    "expires_date": "2025-09-24T07:35:41.473173+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "COjStf7m6NGDPxC7ldPwoayMAxi7ldPwoayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473223,
+                    "expires_date": "2025-09-24T07:35:41.473223+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683340.906761,
+                    "expires_date": "2026-03-28T07:35:40.906761+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "VlZSvuKQdoM",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "u5Gn-ht_qJY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473014,
+                    "expires_date": "2025-09-24T07:35:41.473014+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiA3",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473173,
+                    "expires_date": "2025-09-24T07:35:41.473173+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "COjStf7m6NGDPxC7ldPwoayMAxi7ldPwoayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473223,
+                    "expires_date": "2025-09-24T07:35:41.473223+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "klaro",
+                    "value": "%7B%22klaro%22%3Atrue%2C%22google-tag-manager%22%3Afalse%2C%22google-analytics%22%3Afalse%2C%22hotjar%22%3Afalse%2C%22youtube%22%3Afalse%7D",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683423,
+                    "expires_date": "2026-03-28T07:37:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683340.906761,
+                    "expires_date": "2026-03-28T07:35:40.906761+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "VlZSvuKQdoM",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "u5Gn-ht_qJY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473014,
+                    "expires_date": "2025-09-24T07:35:41.473014+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiA3",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473173,
+                    "expires_date": "2025-09-24T07:35:41.473173+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "COjStf7m6NGDPxC7ldPwoayMAxi7ldPwoayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758699341.473223,
+                    "expires_date": "2025-09-24T07:35:41.473223+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "klaro",
+                    "value": "%7B%22klaro%22%3Atrue%2C%22google-tag-manager%22%3Afalse%2C%22google-analytics%22%3Afalse%2C%22hotjar%22%3Afalse%2C%22youtube%22%3Afalse%7D",
+                    "domain": "www.pef.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774683423,
+                    "expires_date": "2026-03-28T07:37:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "003_decline_init_1.png",
+            "004_decline_best_candidate_1.png",
+            "005_decline_interaction_settings_1_click_1.png",
+            "006_decline_interaction_settings_1_SUCCESS.png",
+            "007_decline_settings_best_candidate_1.png",
+            "008_decline_interaction_1_click_1.png",
+            "009_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta spletna stran uporablja piškotke. Obvezni piškotki in piškotki, ki ne obdelujejo osebnih podatkov, so že nameščeni. Z vašim soglasjem pa vam bomo naložili tudi piškotke za izboljšanje vaše uporabniške izkušnje. Več informacij o piškotkih si lahko preberite na strani Piškotki, kjer lahko tudi urejate nastavitve.Spremeni nastavitveIzberi obvezneIzberi vse in zapri",
+                "banner_z_index": 999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: None  \nAmbiguousLabel2: None  \nGenericLabel3: [Spremeni nastavitve]  \nExplanation: The only button that fits the criteria for settings management is [Spremeni nastavitve]. There are no buttons for accepting all cookies or declining cookies, nor any ambiguous responses.",
+                "llm_response_parsed": {
+                    "Accept": null,
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": null,
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Spremeni nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The only button that fits the criteria for settings management is Spremeni nastavitve. There are no buttons for accepting all cookies or declining cookies, nor any ambiguous responses."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "Spremeni nastavitve",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "ZapriRaba piškotkovTa spletna stran uporablja piškotke. Obvezni piškotki in piškotki, ki ne obdelujejo osebnih podatkov, so že nameščeni. Z vašim soglasjem pa vam bomo naložili tudi piškotke za izboljšanje vaše uporabniške izkušnje. Več informacij o piškotkih si lahko preberite na strani Piškotki, kjer lahko tudi urejate nastavitve.Obvezni piškotkiNujno potrebni↓ 1 storitevKlaroNujno potrebniVedno zahtevani, potrebni za delovanjeNamen uporabe: Obvezni piškotkiAnalitični piškotki↓ 3 storitevGoogle Tag ManagerNamen uporabe: Analitični piškotkiGoogle analitikaUporaba piškotkov v analitične nameneNamen uporabe: Analitični piškotkiHotjarUporaba piškotkov v analitične nameneNamen uporabe: Analitični piškotkiPiškotki tretjih oseb↓ 1 storitevYoutubeNamen uporabe: Piškotki tretjih osebIzberi vseOmogoči/onemogoči vse nenujne piškotkeIzberi obvezneSprejmi izbraneSprejmi vse in zapriZagotavlja: Klaro",
+                "banner_z_index": 1001,
+                "banner_position": "relative",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Sprejmi vse in zapri]\nGenericLabel2: None\nAmbiguousLabel1: [Sprejmi izbrane]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button [Sprejmi vse in zapri] clearly indicates accepting all cookies, thus categorized under GenericLabel1. The button [Sprejmi izbrane] signifies an acceptance of selected cookies, which is ambiguous, so it falls under AmbiguousLabel1. There are no buttons for declining all cookies or managing settings present.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Sprejmi vse in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmi izbrane",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button Sprejmi vse in zapri clearly indicates accepting all cookies, thus categorized under GenericLabel1. The button Sprejmi izbrane signifies an acceptance of selected cookies, which is ambiguous, so it falls under AmbiguousLabel1. There are no buttons for declining all cookies or managing settings present."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Sprejmi izbrane",
+                "settings_decline_element_ambiguous": true,
+                "settings_decline_element_evidence": "AmbiguousLabel1",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T08:35:40.577659",
+        "timestamp_stop": "2025-03-28T08:37:48.208643"
+    }
+}

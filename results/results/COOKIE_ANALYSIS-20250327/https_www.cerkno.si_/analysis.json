@@ -1,0 +1,318 @@
+{
+    "web_page": "https://www.cerkno.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T09:28:09.745125",
+    "timestamp_stop": "2025-03-28T09:31:23.689006",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.cerkno.si/",
+            "https://www.cerkno.si/cerkljanske-novice/",
+            "https://www.cerkno.si/pooblasceni-za-odlocanje/",
+            "https://www.cerkno.si/ceniki-storitev/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T09:28:11.031156",
+        "timestamp_stop": "2025-03-28T09:28:43.029500"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Strinjam se)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.cerkno.si/",
+            "https://www.cerkno.si/cerkljanske-novice/",
+            "https://www.cerkno.si/pooblasceni-za-odlocanje/",
+            "https://www.cerkno.si/ceniki-storitev/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "aviaCookieConsent",
+                    "value": "130ca31b7a3964a56fa1a1d7c0f6d096||v1.0",
+                    "domain": "www.cerkno.si",
+                    "path": "/",
+                    "expires": 1774686550,
+                    "expires_date": "2026-03-28T08:29:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "aviaPrivacyRefuseCookiesHideBar",
+                    "value": "true",
+                    "domain": "www.cerkno.si",
+                    "path": "/",
+                    "expires": 1774254550,
+                    "expires_date": "2026-03-23T08:29:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "aviaPrivacyEssentialCookiesEnabled",
+                    "value": "true",
+                    "domain": "www.cerkno.si",
+                    "path": "/",
+                    "expires": 1774254550,
+                    "expires_date": "2026-03-23T08:29:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "aviaCookieConsent",
+                    "value": "130ca31b7a3964a56fa1a1d7c0f6d096||v1.0",
+                    "domain": "www.cerkno.si",
+                    "path": "/",
+                    "expires": 1774686550,
+                    "expires_date": "2026-03-28T08:29:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "aviaPrivacyRefuseCookiesHideBar",
+                    "value": "true",
+                    "domain": "www.cerkno.si",
+                    "path": "/",
+                    "expires": 1774254550,
+                    "expires_date": "2026-03-23T08:29:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "aviaPrivacyEssentialCookiesEnabled",
+                    "value": "true",
+                    "domain": "www.cerkno.si",
+                    "path": "/",
+                    "expires": 1774254550,
+                    "expires_date": "2026-03-23T08:29:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "To spletno mesto uporablja piškotke za boljšo uporabniško izkušnjo. Če boste spletno mesto uporabljali še naprej, s tem privolite v njihovo nadaljnjo uporabo.PodrobnostiStrinjam se",
+                "banner_z_index": 999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Podrobnosti]  \nExplanation: \"Strinjam se\" is an ambiguous phrase suggesting acceptance, so it's categorized under AmbiguousLabel1. \"Podrobnosti\" relates to settings or further information, thus it's categorized under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is an ambiguous phrase suggesting acceptance, so it's categorized under AmbiguousLabel1. \"Podrobnosti\" relates to settings or further information, thus it's categorized under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Strinjam se",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T09:28:44.572048",
+        "timestamp_stop": "2025-03-28T09:29:39.425301"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Podrobnosti)",
+            "Clicking an element of type (a), with text (Ne strinjam se)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.cerkno.si/",
+            "https://www.cerkno.si/cerkljanske-novice/",
+            "https://www.cerkno.si/pooblasceni-za-odlocanje/",
+            "https://www.cerkno.si/ceniki-storitev/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [],
+            "DECLINE_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "To spletno mesto uporablja piškotke za boljšo uporabniško izkušnjo. Če boste spletno mesto uporabljali še naprej, s tem privolite v njihovo nadaljnjo uporabo.PodrobnostiStrinjam se",
+                "banner_z_index": 999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: None\nGenericLabel3: [Podrobnosti]\nExplanation: \"Strinjam se\" is an ambiguous phrase signifying acceptance, while \"Podrobnosti\" refers to settings or additional information. There were no definitive buttons for accepting or declining all cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is an ambiguous phrase signifying acceptance, while \"Podrobnosti\" refers to settings or additional information. There were no definitive buttons for accepting or declining all cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Podrobnosti",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#top .av-special-heading.av-av_heading-29bf40b187a9f0b7ab67afbfd85d36a1{\nmargin:10px 0 0 0;\npadding-bottom:10px;\n}\nbody .av-special-heading.av-av_heading-29bf40b187a9f0b7ab67afbfd85d36a1 .av-special-heading-tag .heading-char{\nfont-size:25px;\n}\n.av-special-heading.av-av_heading-29bf40b187a9f0b7ab67afbfd85d36a1 .av-subheading{\nfont-size:15px;\n}\n\nPiškotki in nastavitve zasebnosti\n\n#top .hr.av-jhe1dyat-381e073337cc8512c616f9ce78cc22d9{\nmargin-top:0px;\nmargin-bottom:0px;\n}\n.hr.av-jhe1dyat-381e073337cc8512c616f9ce78cc22d9 .hr-inner{\nwidth:100%;\n}\n\nUporaba piškotkovBistveni piškotkiPiškotki Google AnalyticsOstali zunanji servisiPolitika zasebnostiUporaba piškotkovSpletna stran uporablja piškotke, ki se lahko namestijo v vašo napravo. Piškotki nam omogočajo beleženje statistike obiska naše spletne strani, obogatijo lahko vašo uporabniško izkušnjo in prilagodijo vašo relacijo do našega spletnega mesta.\nČe želite izvedeti več, vas prosimo, da se sprehodite skozi kategorije spodaj. Posamezne nast",
+                "banner_z_index": 1045,
+                "banner_position": "relative",
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne strinjam se]  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: The button [Ne strinjam se] is categorized as declining all cookies. [Strinjam se] is an ambiguous accept phrase. There are no buttons for accepting all cookies or for managing settings.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Ne strinjam se",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button Ne strinjam se is categorized as declining all cookies. Strinjam se is an ambiguous accept phrase. There are no buttons for accepting all cookies or for managing settings."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Ne strinjam se",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "GenericLabel2",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: None  \nExplanation: No interactive elements indicating saving or confirming the current settings were identified. Found \"Strinjam se\" and \"Ne strinjam se,\" which are recognized as ambiguous phrases but do not relate to saving settings.",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": null,
+                    "Explanation": "No interactive elements indicating saving or confirming the current settings were identified. Found \"Strinjam se\" and \"Ne strinjam se,\" which are recognized as ambiguous phrases but do not relate to saving settings."
+                },
+                "save_settings_llm_consensus_reached": true,
+                "save_settings_llm_consensus_value": 1.0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T09:29:40.971270",
+        "timestamp_stop": "2025-03-28T09:31:23.446327"
+    }
+}

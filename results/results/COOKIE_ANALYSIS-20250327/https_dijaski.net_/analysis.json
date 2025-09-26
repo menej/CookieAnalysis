@@ -1,0 +1,3170 @@
+{
+    "web_page": "https://dijaski.net/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T00:56:52.446097",
+    "timestamp_stop": "2025-03-28T01:00:51.120426",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://dijaski.net/",
+            "https://dijaski.net/gradivo/spa_mat_ita_maturitetna_pola_3_osnovna_raven_spomladanski_rok_2021_v_italijanscini_01",
+            "https://dijaski.net/gradivo/spa_mat_ita_maturitetna_pola_3_osnovna_raven_spomladanski_rok_2021_v_italijanscini_01#page=4",
+            "https://dijaski.net/gradivo/ita_mtp_ita_predmetni_izpitni_katalog_2025_in_2026_01"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImlDakNaQjhDQVJqdDgvYTRjSHFuaEE9PSIsInZhbHVlIjoicllRcnBmVHZrSDFvaEJHQVZtR0o3bWpnY3IyZE9yeUNpNzNKMkMyVzhobVRtK1R3cEMxR2owUzhHbjZjMm1BS2t0ZDJLSlpSdXRkWFVLbTVOVlI0VlZKNWVnbUppMlhtS0s5b0VWeTZ1OTJoUWw1UnRWUjk2NkVTNFp6c0xSTmwiLCJtYWMiOiJkNzY0YzA1NWY1MmJjMmMzOWUxYTIzMjk0YWU4NzQxYWNhNDUyZDdiYWMxNzlhYmRiNmI0OTI1YjA5OTk0ZmMwIiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127014.411598,
+                    "expires_date": "2025-03-28T01:56:54.411598+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6IkpSdUZkS3NFVmUyekhSaFRlWHhETGc9PSIsInZhbHVlIjoibTRTTmFJZ3pOQkYzdFA5QXordUE0QTFxOWZkd1k3RC95ZksyazJUSm5mQUFLeTdHNkhDUFArdVZMUlpnbThjU1lNVktpeG9MTlU1SGZ5bGszWnhOblRhTERDUDY3TmI5UWd3R2R1Q2hzekF4elFPOE4ySkRXV2VqaG1qTjhMM00iLCJtYWMiOiJlNjJjZTRkMjQ0NjgzOWIwZThiNWZlZTg5ZGZiZWZlOWRiNzZhNjExODYwNjliZTMwNTE4OTkwYWE1MDgxMzgzIiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127014.411721,
+                    "expires_date": "2025-03-28T01:56:54.411721+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "0e0328e08610948780b91a2491cd62b3",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1774655814.687052,
+                    "expires_date": "2026-03-27T23:56:54.687052+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"70d586c3-1434-4bba-abd4-824a069e92e2\",\"ts\":1743119814513}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655814,
+                    "expires_date": "2026-03-27T23:56:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655815.141489,
+                    "expires_date": "2026-03-27T23:56:55.141489+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d838900b-b8d9-4e75-83b0-f0bcf7f84572&Created=03/27/2025 23:56:37&UserMode=0&guid=f625f139-e4b1-4904-930b-d546e0dbfd24&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655815.141573,
+                    "expires_date": "2026-03-27T23:56:55.141573+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "CmX/RGfl5bW/u8kRD3alAg==",
+                    "domain": ".hhkld.com",
+                    "path": "/",
+                    "expires": 1774655814.718054,
+                    "expires_date": "2026-03-27T23:56:54.718054+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"e9e9f7bb-ccc6-4124-8509-d963796d507b\",\"ts\":1743119814971}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655814,
+                    "expires_date": "2026-03-27T23:56:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1963353919.1743119815",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679815.011577,
+                    "expires_date": "2026-05-01T23:56:55.011577+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2043461008.1743119815",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743206215,
+                    "expires_date": "2025-03-28T23:56:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-7",
+                    "value": "1",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743119875,
+                    "expires_date": "2025-03-27T23:57:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655815.382223,
+                    "expires_date": "2026-03-27T23:56:55.382223+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=cdd192f2-6234-4c36-b8a5-a34a39940b88&Created=03/27/2025 23:56:38&UserMode=0&guid=ad6f619d-1662-48d6-8569-6461f5b829c4&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655815.38234,
+                    "expires_date": "2026-03-27T23:56:55.382340+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_DYBLKY9EDF",
+                    "value": "GS1.2.1743119815.1.0.1743119815.0.0.0",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679815.291135,
+                    "expires_date": "2026-05-01T23:56:55.291135+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "7f9a4791-f75a-46a2-a3e9-4782479f2585",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655815,
+                    "expires_date": "2026-03-27T23:56:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655815,
+                    "expires_date": "2026-03-27T23:56:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "OAID",
+                    "value": "0e0328e08610948780b91a2491cd62b3",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1774655859.850259,
+                    "expires_date": "2026-03-27T23:57:39.850259+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"70d586c3-1434-4bba-abd4-824a069e92e2\",\"ts\":1743119814513}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655858,
+                    "expires_date": "2026-03-27T23:57:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655859.176194,
+                    "expires_date": "2026-03-27T23:57:39.176194+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d838900b-b8d9-4e75-83b0-f0bcf7f84572&Created=03/27/2025 23:56:37&UserMode=0&guid=f625f139-e4b1-4904-930b-d546e0dbfd24&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655859.176394,
+                    "expires_date": "2026-03-27T23:57:39.176394+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "CmX/RGfl5bW/u8kRD3alAg==",
+                    "domain": ".hhkld.com",
+                    "path": "/",
+                    "expires": 1774655814.718054,
+                    "expires_date": "2026-03-27T23:56:54.718054+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"e9e9f7bb-ccc6-4124-8509-d963796d507b\",\"ts\":1743119814971}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655814,
+                    "expires_date": "2026-03-27T23:56:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1963353919.1743119815",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679858.844154,
+                    "expires_date": "2026-05-01T23:57:38.844154+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2043461008.1743119815",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743206258,
+                    "expires_date": "2025-03-28T23:57:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-7",
+                    "value": "1",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743119875,
+                    "expires_date": "2025-03-27T23:57:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655828.962554,
+                    "expires_date": "2026-03-27T23:57:08.962554+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=cdd192f2-6234-4c36-b8a5-a34a39940b88&Created=03/27/2025 23:56:38&UserMode=0&guid=ad6f619d-1662-48d6-8569-6461f5b829c4&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655828.962644,
+                    "expires_date": "2026-03-27T23:57:08.962644+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "7f9a4791-f75a-46a2-a3e9-4782479f2585",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655830,
+                    "expires_date": "2026-03-27T23:57:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655830,
+                    "expires_date": "2026-03-27T23:57:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1987",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745798230.267039,
+                    "expires_date": "2025-04-27T23:57:10.267039+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "9207599541099030446",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748303859.625553,
+                    "expires_date": "2025-05-26T23:57:39.625553+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247860.549752,
+                    "expires_date": "2026-04-26T23:57:40.549752+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_DYBLKY9EDF",
+                    "value": "GS1.2.1743119815.1.1.1743119858.0.0.0",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679858.945232,
+                    "expires_date": "2026-05-01T23:57:38.945232+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "OACBLOCK",
+                    "value": "1435.1743119813",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1745711859.158474,
+                    "expires_date": "2025-04-26T23:57:39.158474+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "OASCCAP",
+                    "value": "1435.1",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InV1K3BYcDdLQXg0ak9aayswOUM1ZVE9PSIsInZhbHVlIjoiMWNZMW1xbjNNOGk3RUFYM28weXBJd2d1cjQycVlsOUMvV0p2TlczOFQwRzFOejdPYTYzdTdyUTUwcjdVb3VVc0YvMFRvQ0NtRlBZMGN6SGhxVGUyZThFNi80QkRPQUl0R1JQYVNvamUvNEtPZkpobEgvZUxTV3lPcTRra3JZcXAiLCJtYWMiOiIzZWVjMDM1ZjVhZmFmZjFkMjUxNGExZjk3NjAxMGYwMTUzZjkzOTc4OTJlNTNlOGNjMjc4YjVkMzliMzRjNDJkIiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127059.375185,
+                    "expires_date": "2025-03-28T01:57:39.375185+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6InFncitGMlc5UXRPdEpyZnBkMkYvVEE9PSIsInZhbHVlIjoiajg0d0x6RVlwSHBRdjJPT0ZyOW9HTGRvYnpXUEJycnpnMFFySnNITGlXR2JVd3FsTEVzTU1LNHp2WVhJSXJ6b2NzdERxWGg1N2o3dFIzeXhBK21LSk52Mm9jWkRUWXJOOXhwM3hDdTVnTHF1ZlE1aC81OW5ncmJxMXhoYVR4TlMiLCJtYWMiOiJlNzRlZWRiZGMyNzNmYzU2MjdlNjhjODk3OGQyYjAwNjRmN2JlODljYTZhNmY4OWQzMmRhMzQyN2RmZTUzNWMzIiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127059.375287,
+                    "expires_date": "2025-03-28T01:57:39.375287+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_OASCCAP[1435]",
+                    "value": "1",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlxKbRaGQMGG8g3j2BL5u4lUssGMY14cL6nxmGtvY0X_bjaUGsRP0QlGvGQpUfT8SsL8RDcGFsCBY8la",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247860.549857,
+                    "expires_date": "2026-04-26T23:57:40.549857+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "mRJ1UkOeM49bc7V2N.nazhdvWGZefu8wv.mADzbxOa7.L7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247860.549904,
+                    "expires_date": "2026-04-26T23:57:40.549904+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T00:56:53.821778",
+        "timestamp_stop": "2025-03-28T00:57:53.107154"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://dijaski.net/",
+            "https://dijaski.net/?page=9",
+            "https://dijaski.net/matura/poklicna-matura",
+            "https://dijaski.net/novice/visjesolski-studij-je-izbira-za-uspesno-in-izpolnjujoco-kariero"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InhwL1JDei9DNFJ4OWgyNzNHSHlJbUE9PSIsInZhbHVlIjoiMDFCdFJIRHNKakdMVmxFbFFTSDZQcFFkN1RwVEZGSWFhbUhhdS9obzNSdE5iSTB2RFZQcGphWVRXS0FLbXNvd2FDY1ZhbW1RdG1uaGVxaHRWMHBiL1FlaDU1amROUFZ6Mm9NZlpOUlp2UmtRbHJzb1lXVEZhcDZvZk1SR2F2WDgiLCJtYWMiOiJmY2RhNDk4MThkM2Q1NzlkNjUwNjI3OGM3ZGFiM2Y2YWFlNDkxYjhiNTlkYTZlZTc0ZWI5YjVjZDFhNzE2MzA2IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127075.382137,
+                    "expires_date": "2025-03-28T01:57:55.382137+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6IkcvcE1VeWcrU2RjSGIybnlUdTVxM1E9PSIsInZhbHVlIjoiclNlNDV3UW1zdnNXWWJuNDNTMEpNNDF2MkdRcVYzQ2hLY21EakhtdllpNlNCSlRKMlpoYTJkcmVVZk9DSkhSWm5sY3FJY3MvdFpHUXV6d0VFalNtM0I5SC9FUk1NT1NjWGNQMk55R3lMTEEzRTd1QWc4bll0d3RkOGhlRXkvNlMiLCJtYWMiOiI4OWRkNjZiZWY1Y2NhY2JjNWIzMjA1M2Q5M2E3ZGU3ZmUwOWZkYWZkODU0ZTI5MWU3NmE4MTExMzkwNjI4NGY1IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127075.382237,
+                    "expires_date": "2025-03-28T01:57:55.382237+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"4c17b992-09f5-47b5-b50d-cda5079455f4\",\"ts\":1743119875521}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655875,
+                    "expires_date": "2026-03-27T23:57:55+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "e3f348e66400420705faf944ca5b944a",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1774655875.820325,
+                    "expires_date": "2026-03-27T23:57:55.820325+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655876.197471,
+                    "expires_date": "2026-03-27T23:57:56.197471+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=60460e04-4795-4abb-b328-306e4dc3ca23&Created=03/27/2025 23:57:38&UserMode=0&guid=d6635e3c-2303-4351-980f-d215f00c2021&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655876.19762,
+                    "expires_date": "2026-03-27T23:57:56.197620+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "CmX/hGfl5fKhv0XVGFDvAg==",
+                    "domain": ".hhkld.com",
+                    "path": "/",
+                    "expires": 1774655875.723505,
+                    "expires_date": "2026-03-27T23:57:55.723505+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"9c330f6b-e8ef-4eb6-a4da-fcf0df4b8505\",\"ts\":1743119876041}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655876,
+                    "expires_date": "2026-03-27T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655876.819489,
+                    "expires_date": "2026-03-27T23:57:56.819489+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=2ae8a2f8-40b2-41fc-9625-1da21bc34c49&Created=03/27/2025 23:57:39&UserMode=0&guid=1c8cd0b4-0cfc-4b7f-a7e4-95e2f5dd0dbe&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655876.819567,
+                    "expires_date": "2026-03-27T23:57:56.819567+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.559463480.1743119876",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679876.162489,
+                    "expires_date": "2026-05-01T23:57:56.162489+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1312169942.1743119876",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743206276,
+                    "expires_date": "2025-03-28T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-7",
+                    "value": "1",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743119936,
+                    "expires_date": "2025-03-27T23:58:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247877.787496,
+                    "expires_date": "2026-04-26T23:57:57.787496+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_DYBLKY9EDF",
+                    "value": "GS1.2.1743119876.1.0.1743119876.0.0.0",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679876.546488,
+                    "expires_date": "2026-05-01T23:57:56.546488+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "472378f9-c8d6-4ac6-b1f0-32cf49b53ee7",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655876,
+                    "expires_date": "2026-03-27T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655876,
+                    "expires_date": "2026-03-27T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlSzBRXGQMGG52F6MULWu4lUssGMf14cL6nxmGtftehly0aUGsRP0QlGvGQpUfT8SsL8RDcGFsCB07l8MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247877.787635,
+                    "expires_date": "2026-04-26T23:57:57.787635+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "UuGH9IyjS4wKe2QwKT7OkACb5xBTZwtn6Av0LZdyeiL.c7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247877.787712,
+                    "expires_date": "2026-04-26T23:57:57.787712+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InhwL1JDei9DNFJ4OWgyNzNHSHlJbUE9PSIsInZhbHVlIjoiMDFCdFJIRHNKakdMVmxFbFFTSDZQcFFkN1RwVEZGSWFhbUhhdS9obzNSdE5iSTB2RFZQcGphWVRXS0FLbXNvd2FDY1ZhbW1RdG1uaGVxaHRWMHBiL1FlaDU1amROUFZ6Mm9NZlpOUlp2UmtRbHJzb1lXVEZhcDZvZk1SR2F2WDgiLCJtYWMiOiJmY2RhNDk4MThkM2Q1NzlkNjUwNjI3OGM3ZGFiM2Y2YWFlNDkxYjhiNTlkYTZlZTc0ZWI5YjVjZDFhNzE2MzA2IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127075.382137,
+                    "expires_date": "2025-03-28T01:57:55.382137+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6IkcvcE1VeWcrU2RjSGIybnlUdTVxM1E9PSIsInZhbHVlIjoiclNlNDV3UW1zdnNXWWJuNDNTMEpNNDF2MkdRcVYzQ2hLY21EakhtdllpNlNCSlRKMlpoYTJkcmVVZk9DSkhSWm5sY3FJY3MvdFpHUXV6d0VFalNtM0I5SC9FUk1NT1NjWGNQMk55R3lMTEEzRTd1QWc4bll0d3RkOGhlRXkvNlMiLCJtYWMiOiI4OWRkNjZiZWY1Y2NhY2JjNWIzMjA1M2Q5M2E3ZGU3ZmUwOWZkYWZkODU0ZTI5MWU3NmE4MTExMzkwNjI4NGY1IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127075.382237,
+                    "expires_date": "2025-03-28T01:57:55.382237+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"4c17b992-09f5-47b5-b50d-cda5079455f4\",\"ts\":1743119875521}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655875,
+                    "expires_date": "2026-03-27T23:57:55+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "e3f348e66400420705faf944ca5b944a",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1774655875.820325,
+                    "expires_date": "2026-03-27T23:57:55.820325+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655876.197471,
+                    "expires_date": "2026-03-27T23:57:56.197471+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=60460e04-4795-4abb-b328-306e4dc3ca23&Created=03/27/2025 23:57:38&UserMode=0&guid=d6635e3c-2303-4351-980f-d215f00c2021&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655876.19762,
+                    "expires_date": "2026-03-27T23:57:56.197620+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "CmX/hGfl5fKhv0XVGFDvAg==",
+                    "domain": ".hhkld.com",
+                    "path": "/",
+                    "expires": 1774655875.723505,
+                    "expires_date": "2026-03-27T23:57:55.723505+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"9c330f6b-e8ef-4eb6-a4da-fcf0df4b8505\",\"ts\":1743119876041}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655876,
+                    "expires_date": "2026-03-27T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655876.819489,
+                    "expires_date": "2026-03-27T23:57:56.819489+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=2ae8a2f8-40b2-41fc-9625-1da21bc34c49&Created=03/27/2025 23:57:39&UserMode=0&guid=1c8cd0b4-0cfc-4b7f-a7e4-95e2f5dd0dbe&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655876.819567,
+                    "expires_date": "2026-03-27T23:57:56.819567+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.559463480.1743119876",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679876.162489,
+                    "expires_date": "2026-05-01T23:57:56.162489+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1312169942.1743119876",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743206276,
+                    "expires_date": "2025-03-28T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-7",
+                    "value": "1",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743119936,
+                    "expires_date": "2025-03-27T23:58:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247907.803457,
+                    "expires_date": "2026-04-26T23:58:27.803457+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_DYBLKY9EDF",
+                    "value": "GS1.2.1743119876.1.0.1743119876.0.0.0",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679876.546488,
+                    "expires_date": "2026-05-01T23:57:56.546488+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "472378f9-c8d6-4ac6-b1f0-32cf49b53ee7",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655876,
+                    "expires_date": "2026-03-27T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655876,
+                    "expires_date": "2026-03-27T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlSDJRXGQMGG52F6MULWu4lUssGMBxxhFenxmGtftehly0aUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0B88MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247907.803586,
+                    "expires_date": "2026-04-26T23:58:27.803586+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "VCZ6cQPb2dPoX.FHMtlXi_4u_z0X5JLfxpa3zyrq5s7.O7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247907.803635,
+                    "expires_date": "2026-04-26T23:58:27.803635+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"4c17b992-09f5-47b5-b50d-cda5079455f4\",\"ts\":1743119875521}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655958,
+                    "expires_date": "2026-03-27T23:59:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "e3f348e66400420705faf944ca5b944a",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1774655959.19341,
+                    "expires_date": "2026-03-27T23:59:19.193410+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655959.018788,
+                    "expires_date": "2026-03-27T23:59:19.018788+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=60460e04-4795-4abb-b328-306e4dc3ca23&Created=03/27/2025 23:57:38&UserMode=0&guid=d6635e3c-2303-4351-980f-d215f00c2021&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655959.018875,
+                    "expires_date": "2026-03-27T23:59:19.018875+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "CmX/hGfl5fKhv0XVGFDvAg==",
+                    "domain": ".hhkld.com",
+                    "path": "/",
+                    "expires": 1774655875.723505,
+                    "expires_date": "2026-03-27T23:57:55.723505+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"9c330f6b-e8ef-4eb6-a4da-fcf0df4b8505\",\"ts\":1743119876041}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655876,
+                    "expires_date": "2026-03-27T23:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655930.344524,
+                    "expires_date": "2026-03-27T23:58:50.344524+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=2ae8a2f8-40b2-41fc-9625-1da21bc34c49&Created=03/27/2025 23:57:39&UserMode=0&guid=1c8cd0b4-0cfc-4b7f-a7e4-95e2f5dd0dbe&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655930.344579,
+                    "expires_date": "2026-03-27T23:58:50.344579+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.559463480.1743119876",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679958.742703,
+                    "expires_date": "2026-05-01T23:59:18.742703+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1312169942.1743119876",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743206358,
+                    "expires_date": "2025-03-28T23:59:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247958.523226,
+                    "expires_date": "2026-04-26T23:59:18.523226+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "472378f9-c8d6-4ac6-b1f0-32cf49b53ee7",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655945,
+                    "expires_date": "2026-03-27T23:59:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655945,
+                    "expires_date": "2026-03-27T23:59:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-7",
+                    "value": "1",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743120005,
+                    "expires_date": "2025-03-28T00:00:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1990",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745798345.934867,
+                    "expires_date": "2025-04-27T23:59:05.934867+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "5370378631133706623",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748303945.968466,
+                    "expires_date": "2025-05-26T23:59:05.968466+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "Klx4tRMGQMGG52F6MULWu4lUssGMnxPhFenxmGtftehly0aUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0588MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247958.523318,
+                    "expires_date": "2026-04-26T23:59:18.523318+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "QullS1EVq0v0AYXgggUXT4AJqKntGw_Gveh6FzGQDf..G7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247958.523457,
+                    "expires_date": "2026-04-26T23:59:18.523457+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_DYBLKY9EDF",
+                    "value": "GS1.2.1743119876.1.1.1743119958.0.0.0",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679958.791156,
+                    "expires_date": "2026-05-01T23:59:18.791156+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1992",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImdMQVgxdUhETGVzeXFDZGV5YmRtT1E9PSIsInZhbHVlIjoiRDlpZkJHbzB6azNHWWFGem9aUExJbDc3dnZySVA3YUVLZjNaOU9DMTBtK1NOQ25lbEl3cnFmcGhZRnZhbitDN0cyWmxIWFc5TU12Q1hNYTZCU1Q3QTQvWkNOTVRaWktPRERLUFBIK1QxLzRNZEhlOExWZUQyRlVuMitQY2tXbjQiLCJtYWMiOiI1ODE5Y2JkMzYwZTBhMTg1YzI1MzI5ZjJhM2IwMmRjZjZiZWQ5OWYwN2VjOTE2ZTE4ODNkZjAzMGFhODAxNTZlIiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127159.238045,
+                    "expires_date": "2025-03-28T01:59:19.238045+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6IlloKzFhbGR5NlhsUzNtQmVQQ2w4ZHc9PSIsInZhbHVlIjoiWmR6SUJjdklDMEVJVkRnalh4SHFwYk9OeVY2UitoaDhGOXFZbWgva1ZDOFNTTjdhUHJLK1FWM0o2dWRhTE9MTWRvemZtdXhFS3pMQTVrUm9WV1hEUmhvQ1dhdm1ZOElBbENZYWxWMUdLUUVmZmZZQlNCVDdmVEYvR3pOUzBFSjUiLCJtYWMiOiJiODIyY2U3MjM2MDU3ZTNjMjQ3MWYxYmE1MDM5NWIzNWUwOTJlYWYyODNjZTExNjliYjMzNWU4NWZmZjc2NzJkIiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127159.238129,
+                    "expires_date": "2025-03-28T01:59:19.238129+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "PozdravljeniTo spletno mesto zahteva vaše soglasje za uporabo vaših podatkovOsebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 132 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 65 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v nastavitvah zasebnosti in piškotkov.SoglasjeNe soglašamUpravljanje možnostiNast",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne soglašam]  \nAmbiguousLabel1: None  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje možnosti]  \nExplanation: The button \"[Ne soglašam]\" indicates declining all cookies, hence it is categorized under GenericLabel2. \"[Upravljanje možnosti]\" refers to managing settings, so it is categorized under GenericLabel3. There are no buttons for accepting all cookies or ambiguous accept, and no ambiguous decline phrases present.",
+                "llm_response_parsed": {
+                    "Accept": null,
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": null,
+                    "Decline": "Ne soglašam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Upravljanje možnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Ne soglašam\" indicates declining all cookies, hence it is categorized under GenericLabel2. \"Upravljanje možnosti\" refers to managing settings, so it is categorized under GenericLabel3. There are no buttons for accepting all cookies or ambiguous accept, and no ambiguous decline phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T00:57:54.790275",
+        "timestamp_stop": "2025-03-28T00:59:31.930728"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Ne soglašam)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://dijaski.net/",
+            "https://dijaski.net/?page=9",
+            "https://dijaski.net/gradivo/spa_mat_ita_posnetek_za_slusno_razumevanje_spomladanski_rok_2020_v_italijanscini_01",
+            "https://dijaski.net/matura/poklicna-matura"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IjBYWlgySFZXWXpIRy9Yejc5VDFrYkE9PSIsInZhbHVlIjoiazFvMmFTdithZ3MxczF5THVyL3YycitUeXZFTzBwY0U0RXJ2Q082c2FqaHhGUzQ2dHhIWWEyRXhBbzI0ZTAvamozbGd4ZDFBNWZrNkQzL1lNYmhaeWxHbi9sRDlIdkpRemtIdExTeVB1TFZEK2NqNU1QWENCYjE4QmNRQ2h6TUoiLCJtYWMiOiIxMWUwODFiMmM5ODc4MGZiMDRjMWVkYTliYjM2MThlNDgxMTdhOTEyNDVhZDJiYzFkYjY2NWQzYTQ0OTYxNTY1IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127174.18179,
+                    "expires_date": "2025-03-28T01:59:34.181790+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6Imh4QTVpWEgwV0hCS3NYMTBrWW1ma2c9PSIsInZhbHVlIjoia2FyOW84WldHSjVVU0ptYW95ZWNXWlpxTVVxRENWd1BjUUlOVUpxOWhyRzVmd1BwcTBmZERRZkF4ai9kZ2RkS2E5MWRqU1JOSjBoOWJRQWx2Z1pRSjMzRmcwdzFrMU5HTGVxOTZSWi9STDMrenJmaFRQeXJhMzNET0IxRmg3c2siLCJtYWMiOiJkOWMwMzBjNGI2MDA2MzFiODVhNWM1N2JlMDIxOTliYmVjNWI4NGFhNWRkZTA4YzBjYTNkOTIzMDBkNjQ4MTI1IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127174.181872,
+                    "expires_date": "2025-03-28T01:59:34.181872+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"9815656d-f5d2-42c0-b54f-f5b936db991b\",\"ts\":1743119974317}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655974,
+                    "expires_date": "2026-03-27T23:59:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "2667eb9257aedeaa5660db14c7bf4412",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1774655974.588842,
+                    "expires_date": "2026-03-27T23:59:34.588842+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655975.095288,
+                    "expires_date": "2026-03-27T23:59:35.095288+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=41620e76-ec96-4556-8c9a-d1232be005c3&Created=03/27/2025 23:59:17&UserMode=0&guid=a9344fb5-82c4-45b1-a89d-4eb5489f63f5&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655975.095364,
+                    "expires_date": "2026-03-27T23:59:35.095364+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"a6952f2a-53b1-4a38-bc40-171b8ca3f3d3\",\"ts\":1743119974888}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655974,
+                    "expires_date": "2026-03-27T23:59:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655975.379641,
+                    "expires_date": "2026-03-27T23:59:35.379641+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=3dd58258-d294-4e60-baa4-c9cf48ed924d&Created=03/27/2025 23:59:17&UserMode=0&guid=250309c1-01fe-4a75-8160-b62ce2e6d78c&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655975.379749,
+                    "expires_date": "2026-03-27T23:59:35.379749+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1190332905.1743119975",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679975.068872,
+                    "expires_date": "2026-05-01T23:59:35.068872+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.903092878.1743119975",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743206375,
+                    "expires_date": "2025-03-28T23:59:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-7",
+                    "value": "1",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743120035,
+                    "expires_date": "2025-03-28T00:00:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247976.570699,
+                    "expires_date": "2026-04-26T23:59:36.570699+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId410Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "0f4b92ba-0ee7-4e32-98b1-26acbd965d74",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655975,
+                    "expires_date": "2026-03-27T23:59:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655975,
+                    "expires_date": "2026-03-27T23:59:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_DYBLKY9EDF",
+                    "value": "GS1.2.1743119975.1.0.1743119975.0.0.0",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679975.61213,
+                    "expires_date": "2026-05-01T23:59:35.612130+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlQ4KMaGQMQGBbuoyrnmu4lUssGMW1DcL6nxmGtsVCLAbjaUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0788MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247976.570868,
+                    "expires_date": "2026-04-26T23:59:36.570868+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "wV3HXVOtSvxU2kb1vvhypCOPOVYws2L03O0mtttWv13.S7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777247976.570907,
+                    "expires_date": "2026-04-26T23:59:36.570907+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IjBYWlgySFZXWXpIRy9Yejc5VDFrYkE9PSIsInZhbHVlIjoiazFvMmFTdithZ3MxczF5THVyL3YycitUeXZFTzBwY0U0RXJ2Q082c2FqaHhGUzQ2dHhIWWEyRXhBbzI0ZTAvamozbGd4ZDFBNWZrNkQzL1lNYmhaeWxHbi9sRDlIdkpRemtIdExTeVB1TFZEK2NqNU1QWENCYjE4QmNRQ2h6TUoiLCJtYWMiOiIxMWUwODFiMmM5ODc4MGZiMDRjMWVkYTliYjM2MThlNDgxMTdhOTEyNDVhZDJiYzFkYjY2NWQzYTQ0OTYxNTY1IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127174.18179,
+                    "expires_date": "2025-03-28T01:59:34.181790+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6Imh4QTVpWEgwV0hCS3NYMTBrWW1ma2c9PSIsInZhbHVlIjoia2FyOW84WldHSjVVU0ptYW95ZWNXWlpxTVVxRENWd1BjUUlOVUpxOWhyRzVmd1BwcTBmZERRZkF4ai9kZ2RkS2E5MWRqU1JOSjBoOWJRQWx2Z1pRSjMzRmcwdzFrMU5HTGVxOTZSWi9STDMrenJmaFRQeXJhMzNET0IxRmg3c2siLCJtYWMiOiJkOWMwMzBjNGI2MDA2MzFiODVhNWM1N2JlMDIxOTliYmVjNWI4NGFhNWRkZTA4YzBjYTNkOTIzMDBkNjQ4MTI1IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127174.181872,
+                    "expires_date": "2025-03-28T01:59:34.181872+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"9815656d-f5d2-42c0-b54f-f5b936db991b\",\"ts\":1743119974317}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655974,
+                    "expires_date": "2026-03-27T23:59:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "2667eb9257aedeaa5660db14c7bf4412",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1774655974.588842,
+                    "expires_date": "2026-03-27T23:59:34.588842+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655975.095288,
+                    "expires_date": "2026-03-27T23:59:35.095288+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=41620e76-ec96-4556-8c9a-d1232be005c3&Created=03/27/2025 23:59:17&UserMode=0&guid=a9344fb5-82c4-45b1-a89d-4eb5489f63f5&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774655975.095364,
+                    "expires_date": "2026-03-27T23:59:35.095364+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"a6952f2a-53b1-4a38-bc40-171b8ca3f3d3\",\"ts\":1743119974888}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655974,
+                    "expires_date": "2026-03-27T23:59:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655975.379641,
+                    "expires_date": "2026-03-27T23:59:35.379641+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=3dd58258-d294-4e60-baa4-c9cf48ed924d&Created=03/27/2025 23:59:17&UserMode=0&guid=250309c1-01fe-4a75-8160-b62ce2e6d78c&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774655975.379749,
+                    "expires_date": "2026-03-27T23:59:35.379749+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1190332905.1743119975",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679975.068872,
+                    "expires_date": "2026-05-01T23:59:35.068872+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.903092878.1743119975",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743206375,
+                    "expires_date": "2025-03-28T23:59:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-7",
+                    "value": "1",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743120035,
+                    "expires_date": "2025-03-28T00:00:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777248019.349809,
+                    "expires_date": "2026-04-27T00:00:19.349809+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId410Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "0f4b92ba-0ee7-4e32-98b1-26acbd965d74",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655975,
+                    "expires_date": "2026-03-27T23:59:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774655975,
+                    "expires_date": "2026-03-27T23:59:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_DYBLKY9EDF",
+                    "value": "GS1.2.1743119975.1.0.1743119975.0.0.0",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777679975.61213,
+                    "expires_date": "2026-05-01T23:59:35.612130+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO7dIAQO7dIAEsACBSLBjFgAAAAAEPgACRAAAANVSD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAA%22%2C%222~~dv.70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778%22%2C%22DFCDC4C2-FC64-4BD3-ACBB-7EC273BE1D38%22%5D%5D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1776816018,
+                    "expires_date": "2026-04-22T00:00:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlSD8MGGQMQGBbuoyrnmu4lUssGMQ1gcL6nxmGtsVCLAbjaUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0B88MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777248019.349945,
+                    "expires_date": "2026-04-27T00:00:19.349945+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "g.Z7fMYSqQ36Hr.W4N9UdfzN9uxyNfNKbBwi1Wuw3r7.R7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777248019.350017,
+                    "expires_date": "2026-04-27T00:00:19.350017+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=5f6661232e958fa7:T=1743120001:RT=1743120001:S=AA-AfjaTvvHx2guThetRDL5MkAZ5",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1758672001,
+                    "expires_date": "2025-09-24T00:00:01+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"9815656d-f5d2-42c0-b54f-f5b936db991b\",\"ts\":1743119974317}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774656042,
+                    "expires_date": "2026-03-28T00:00:42+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "2667eb9257aedeaa5660db14c7bf4412",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1774656043.343763,
+                    "expires_date": "2026-03-28T00:00:43.343763+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774656042.593093,
+                    "expires_date": "2026-03-28T00:00:42.593093+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=41620e76-ec96-4556-8c9a-d1232be005c3&Created=03/27/2025 23:59:17&UserMode=0&guid=a9344fb5-82c4-45b1-a89d-4eb5489f63f5&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774656042.59317,
+                    "expires_date": "2026-03-28T00:00:42.593170+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"a6952f2a-53b1-4a38-bc40-171b8ca3f3d3\",\"ts\":1743119974888}",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1774655974,
+                    "expires_date": "2026-03-27T23:59:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774656024.203683,
+                    "expires_date": "2026-03-28T00:00:24.203683+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=3dd58258-d294-4e60-baa4-c9cf48ed924d&Created=03/27/2025 23:59:17&UserMode=0&guid=250309c1-01fe-4a75-8160-b62ce2e6d78c&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774656024.203898,
+                    "expires_date": "2026-03-28T00:00:24.203898+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1190332905.1743119975",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777680042.254645,
+                    "expires_date": "2026-05-02T00:00:42.254645+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.903092878.1743119975",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743206442,
+                    "expires_date": "2025-03-29T00:00:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777248041.944345,
+                    "expires_date": "2026-04-27T00:00:41.944345+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId410Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1784Stress",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "0f4b92ba-0ee7-4e32-98b1-26acbd965d74",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774656043,
+                    "expires_date": "2026-03-28T00:00:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1774656043,
+                    "expires_date": "2026-03-28T00:00:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO7dIAQO7dIAEsACBSLBjFgAAAAAEPgACRAAAANVSD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAA%22%2C%222~~dv.70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778%22%2C%22DFCDC4C2-FC64-4BD3-ACBB-7EC273BE1D38%22%5D%5D",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1776816018,
+                    "expires_date": "2026-04-22T00:00:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=5f6661232e958fa7:T=1743120001:RT=1743120001:S=AA-AfjaTvvHx2guThetRDL5MkAZ5",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1758672001,
+                    "expires_date": "2025-09-24T00:00:01+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1987",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "Klxu5MXGQMQGBbuoyrnmu4lUssGMi1gcL6nxmGtsVCLAbjaUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0588MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777248041.94451,
+                    "expires_date": "2026-04-27T00:00:41.944510+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "JD4s1dqQnmDGqUFnoQmUabkvtWyLBQFWSR3hmcxeeDX.G7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777248041.944582,
+                    "expires_date": "2026-04-27T00:00:41.944582+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Ilp3aUVnZkRLMXR6NGxaTHFBM21BVnc9PSIsInZhbHVlIjoiL25vQVc4UlpGa2MvRmZjZ3Y5SjBvdjJxUVJTVVNHQW9CZWdGZGlkVmNocUhpREdQYjB4dTF0eTJzOWNWWjcydWYxeUFMSFJKYnUxK3o5Nkl4aVcvRlBhSVhNVjgwZnFmU0NDdTdIeXptZFVvNkNUaDRpRVU4WHJiTytzZVRxdXAiLCJtYWMiOiIwNjVmNjA0MzJjNjFiZWY3N2M2ZDZlYjc3YmIxNWExMDdjNjkzODM2ZmNjZmQ0ZWY0MDg0MDllZmM1YTk1OGY2IiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127242.151708,
+                    "expires_date": "2025-03-28T02:00:42.151708+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6ImFtNGVtYTAvTG45UGhReEdZcnNoNmc9PSIsInZhbHVlIjoiZUdtV2kxQ0xDRW02OXpub3pjNFduako2SXJkOUNIYVRDbkg4TndQK053ZTdWQVkzbkV1cEJuSlZOdDZDQWlNaXkva1pqcGVaSUFJUjBUSndsV3RnbU96bjZiaHR2Q3RLU3NXYWVSNURHMGljRjlFY21FWFp4SzAxaUduc3BsaksiLCJtYWMiOiI4ZjQ2YmY2MjgwNWJmNDVlZDViNWJlMjFmOGEwZWM3Yzk1ODZlM2QwYTcxODZiMTc1NDc1ZjE0MzA4MjAzZGQxIiwidGFnIjoiIn0%3D",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": 1743127242.151819,
+                    "expires_date": "2025-03-28T02:00:42.151819+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-7",
+                    "value": "1",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1743120102,
+                    "expires_date": "2025-03-28T00:01:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_DYBLKY9EDF",
+                    "value": "GS1.2.1743119975.1.1.1743120042.0.0.0",
+                    "domain": ".dijaski.net",
+                    "path": "/",
+                    "expires": 1777680042.396743,
+                    "expires_date": "2026-05-02T00:00:42.396743+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId410SecId1990",
+                    "value": "1",
+                    "domain": "dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OACBLOCK",
+                    "value": "1435.1743120017",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": 1745712042.87729,
+                    "expires_date": "2025-04-27T00:00:42.877290+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "OASCCAP",
+                    "value": "1435.1",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_OASCCAP[1435]",
+                    "value": "1",
+                    "domain": "ads.dijaski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "003_decline_init_1.png",
+            "004_decline_best_candidate_1.png",
+            "005_decline_interaction_1_click_1.png",
+            "006_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "PozdravljeniTo spletno mesto zahteva vaše soglasje za uporabo vaših podatkovOsebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 132 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 65 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v nastavitvah zasebnosti in piškotkov.SoglasjeNe soglašamUpravljanje možnostiNast",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne soglašam]  \nAmbiguousLabel1: None  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje možnosti]  \nExplanation: The text \"Ne soglašam\" is categorized under GenericLabel2 as it signifies declining consent. \"Upravljanje možnosti\" falls under GenericLabel3 as it refers to managing options/settings. There are no buttons for accepting all cookies or ambiguous accept.",
+                "llm_response_parsed": {
+                    "Accept": null,
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": null,
+                    "Decline": "Ne soglašam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Upravljanje možnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The text \"Ne soglašam\" is categorized under GenericLabel2 as it signifies declining consent. \"Upravljanje možnosti\" falls under GenericLabel3 as it refers to managing options/settings. There are no buttons for accepting all cookies or ambiguous accept."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Ne soglašam",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T00:59:33.558526",
+        "timestamp_stop": "2025-03-28T01:00:50.746622"
+    }
+}

@@ -1,0 +1,831 @@
+{
+    "web_page": "https://www.upr.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T05:17:21.666250",
+    "timestamp_stop": "2025-03-28T05:20:22.989398",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.upr.si/",
+            "https://www.upr.si/si/up--okolje/nebap-hub/",
+            "https://www.upr.si/si/studij--vpis/izbirnost-med-clanicami-univerze/",
+            "https://www.upr.si/si/up--okolje/dodatno-izpopolnjevanje-/ponudba-vzu-na-up/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "ngnSession",
+                    "value": "7d09de24976c970f9e13cfbb48e9d9c1",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnSession",
+                    "value": "7170e83db15564492e9df05e152a0edf",
+                    "domain": ".cookies.ngn.media",
+                    "path": "/",
+                    "expires": 1777695443.977888,
+                    "expires_date": "2026-05-02T04:17:23.977888+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnGDPR",
+                    "value": "7170e83db15564492e9df05e152a0edf",
+                    "domain": "www.upr.si",
+                    "path": "/",
+                    "expires": 1777695444.336817,
+                    "expires_date": "2026-05-02T04:17:24.336817+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_D1G04H02D4",
+                    "value": "GS1.1.1743135444.1.0.1743135444.0.0.0",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695444.821238,
+                    "expires_date": "2026-05-02T04:17:24.821238+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.7170e83db15564492e9df05e152a0edf",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695444.821997,
+                    "expires_date": "2026-05-02T04:17:24.821997+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ngnSession",
+                    "value": "7d09de24976c970f9e13cfbb48e9d9c1",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnSession",
+                    "value": "7170e83db15564492e9df05e152a0edf",
+                    "domain": ".cookies.ngn.media",
+                    "path": "/",
+                    "expires": 1777695443.977888,
+                    "expires_date": "2026-05-02T04:17:23.977888+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnGDPR",
+                    "value": "7170e83db15564492e9df05e152a0edf",
+                    "domain": "www.upr.si",
+                    "path": "/",
+                    "expires": 1777695444.336817,
+                    "expires_date": "2026-05-02T04:17:24.336817+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.7170e83db15564492e9df05e152a0edf",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695469.567442,
+                    "expires_date": "2026-05-02T04:17:49.567442+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_D1G04H02D4",
+                    "value": "GS1.1.1743135444.1.1.1743135469.0.0.0",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695469.567018,
+                    "expires_date": "2026-05-02T04:17:49.567018+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T05:17:23.049874",
+        "timestamp_stop": "2025-03-28T05:17:57.698515"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Strinjam se)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.upr.si/",
+            "https://www.upr.si/si/up--okolje/nebap-hub/",
+            "https://www.upr.si/si/studij--vpis/izbirnost-med-clanicami-univerze/",
+            "https://www.upr.si/si/up--okolje/dodatno-izpopolnjevanje-/ponudba-vzu-na-up/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "ngnSession",
+                    "value": "848a56f97ade290ebf4d640d439459ec",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnSession",
+                    "value": "bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": ".cookies.ngn.media",
+                    "path": "/",
+                    "expires": 1777695480.485087,
+                    "expires_date": "2026-05-02T04:18:00.485087+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnGDPR",
+                    "value": "bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": "www.upr.si",
+                    "path": "/",
+                    "expires": 1777695480.758602,
+                    "expires_date": "2026-05-02T04:18:00.758602+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_D1G04H02D4",
+                    "value": "GS1.1.1743135481.1.0.1743135481.0.0.0",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695481.283378,
+                    "expires_date": "2026-05-02T04:18:01.283378+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695481.283939,
+                    "expires_date": "2026-05-02T04:18:01.283939+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "ngnSession",
+                    "value": "848a56f97ade290ebf4d640d439459ec",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnSession",
+                    "value": "bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": ".cookies.ngn.media",
+                    "path": "/",
+                    "expires": 1777695480.485087,
+                    "expires_date": "2026-05-02T04:18:00.485087+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnGDPR",
+                    "value": "bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": "www.upr.si",
+                    "path": "/",
+                    "expires": 1777695480.758602,
+                    "expires_date": "2026-05-02T04:18:00.758602+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695506.328265,
+                    "expires_date": "2026-05-02T04:18:26.328265+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_D1G04H02D4",
+                    "value": "GS1.1.1743135481.1.1.1743135506.0.0.0",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695506.327859,
+                    "expires_date": "2026-05-02T04:18:26.327859+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ngnSession",
+                    "value": "848a56f97ade290ebf4d640d439459ec",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnSession",
+                    "value": "bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": ".cookies.ngn.media",
+                    "path": "/",
+                    "expires": 1777695480.485087,
+                    "expires_date": "2026-05-02T04:18:00.485087+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnGDPR",
+                    "value": "bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": "www.upr.si",
+                    "path": "/",
+                    "expires": 1777695480.758602,
+                    "expires_date": "2026-05-02T04:18:00.758602+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.bc8728c218cc95a0e1d71f8e5832a258",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695527.793562,
+                    "expires_date": "2026-05-02T04:18:47.793562+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_D1G04H02D4",
+                    "value": "GS1.1.1743135481.1.1.1743135527.0.0.0",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695527.793148,
+                    "expires_date": "2026-05-02T04:18:47.793148+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto uporablja piškotke, ki omogočajo boljšo uporabniško izkušnjo in analizo spletne strani. Prosimo označite s klikom na gumb »Strinjam se«, če se strinjate z njihovo namestitvijo. Vaše nastavitve lahko kadarkoli spremenite. Več | Nastavitve Strinjam seXPrekliči piškotke",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Nastavitve]  \nExplanation: The button [Strinjam se] is ambiguous and can signify acceptance, while [Nastavitve] is clearly related to settings management. There are no clear accept or decline buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Strinjam se is ambiguous and can signify acceptance, while Nastavitve is clearly related to settings management. There are no clear accept or decline buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Strinjam se",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T05:17:59.355472",
+        "timestamp_stop": "2025-03-28T05:18:55.829268"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Nastavitve)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.upr.si/",
+            "https://www.upr.si/si/up--okolje/nebap-hub/",
+            "https://www.upr.si/si/studij--vpis/izbirnost-med-clanicami-univerze/",
+            "https://www.upr.si/si/up--okolje/dodatno-izpopolnjevanje-/ponudba-vzu-na-up/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "ngnSession",
+                    "value": "cd6f6962ad3701505b19cdd4130996b3",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnSession",
+                    "value": "5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": ".cookies.ngn.media",
+                    "path": "/",
+                    "expires": 1777695538.73658,
+                    "expires_date": "2026-05-02T04:18:58.736580+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnGDPR",
+                    "value": "5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": "www.upr.si",
+                    "path": "/",
+                    "expires": 1777695538.780921,
+                    "expires_date": "2026-05-02T04:18:58.780921+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_D1G04H02D4",
+                    "value": "GS1.1.1743135539.1.0.1743135539.0.0.0",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695539.502595,
+                    "expires_date": "2026-05-02T04:18:59.502595+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695539.503308,
+                    "expires_date": "2026-05-02T04:18:59.503308+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "ngnSession",
+                    "value": "cd6f6962ad3701505b19cdd4130996b3",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnSession",
+                    "value": "5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": ".cookies.ngn.media",
+                    "path": "/",
+                    "expires": 1777695538.73658,
+                    "expires_date": "2026-05-02T04:18:58.736580+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnGDPR",
+                    "value": "5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": "www.upr.si",
+                    "path": "/",
+                    "expires": 1777695538.780921,
+                    "expires_date": "2026-05-02T04:18:58.780921+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_D1G04H02D4",
+                    "value": "GS1.1.1743135539.1.0.1743135539.0.0.0",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695539.502595,
+                    "expires_date": "2026-05-02T04:18:59.502595+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695539.503308,
+                    "expires_date": "2026-05-02T04:18:59.503308+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ngnSession",
+                    "value": "cd6f6962ad3701505b19cdd4130996b3",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnSession",
+                    "value": "5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": ".cookies.ngn.media",
+                    "path": "/",
+                    "expires": 1777695538.73658,
+                    "expires_date": "2026-05-02T04:18:58.736580+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ngnGDPR",
+                    "value": "5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": "www.upr.si",
+                    "path": "/",
+                    "expires": 1777695538.780921,
+                    "expires_date": "2026-05-02T04:18:58.780921+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.5ad1e39ba691443187f5a8c9b3f4657f",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695614.620939,
+                    "expires_date": "2026-05-02T04:20:14.620939+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_D1G04H02D4",
+                    "value": "GS1.1.1743135539.1.1.1743135614.0.0.0",
+                    "domain": ".upr.si",
+                    "path": "/",
+                    "expires": 1777695614.620284,
+                    "expires_date": "2026-05-02T04:20:14.620284+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto uporablja piškotke, ki omogočajo boljšo uporabniško izkušnjo in analizo spletne strani. Prosimo označite s klikom na gumb »Strinjam se«, če se strinjate z njihovo namestitvijo. Vaše nastavitve lahko kadarkoli spremenite. Več | Nastavitve Strinjam seXPrekliči piškotke",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Nastavitve]  \nExplanation: \"Strinjam se\" is an ambiguous phrase that signifies acceptance, while \"Nastavitve\" is clearly related to managing settings. There are no specific buttons for accepting or declining all cookies in the provided text.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is an ambiguous phrase that signifies acceptance, while \"Nastavitve\" is clearly related to managing settings. There are no specific buttons for accepting or declining all cookies in the provided text."
+                },
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0.5714285714285714,
+                "element_text": "Nastavitve",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Označite, s katero vrsto piškotkov soglašate. Na naši spletni strani uporabljamo naslednje piškotke:       Nujno potrebni piškotki za delovanje spletnega mesta   Delovanje spletne strani ni mogoče brez namestitve teh piškotkov, zato vaša privolitev v tem primeru ni potrebna. Soglašam z uporabo Soglašam z uporabo       Piškotki spletne analitike   Piškotki omogočajo beleženje podatkov, vezanih na analitiko spletne strani in omogočajo izboljšanje bodoče uporabniške izkušnje. Soglašam z uporabo Zavračam uporabo Soglašam z uporabo     Posodobi Close",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Soglašam z uporabo]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: The text \"Soglašam z uporabo\" is an ambiguous phrase that suggests acceptance but is not a clear acceptance of all cookies. There are no explicit buttons for accepting or declining all cookies or managing settings.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Soglašam z uporabo",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The text \"Soglašam z uporabo\" is an ambiguous phrase that suggests acceptance but is not a clear acceptance of all cookies. There are no explicit buttons for accepting or declining all cookies or managing settings."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: None  \nExplanation: No interactive elements indicating saving or confirming current settings were identified. Found \"Soglašam z uporabo,\" which does not fit the criteria for saving settings.",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": null,
+                    "Explanation": "No interactive elements indicating saving or confirming current settings were identified. Found \"Soglašam z uporabo,\" which does not fit the criteria for saving settings."
+                },
+                "save_settings_llm_consensus_reached": true,
+                "save_settings_llm_consensus_value": 1.0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T05:18:57.506177",
+        "timestamp_stop": "2025-03-28T05:20:22.652467"
+    }
+}

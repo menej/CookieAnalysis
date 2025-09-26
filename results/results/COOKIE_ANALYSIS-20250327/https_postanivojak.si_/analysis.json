@@ -1,0 +1,834 @@
+{
+    "web_page": "https://postanivojak.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T22:47:21.267706",
+    "timestamp_stop": "2025-03-28T22:51:19.878218",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://postanivojak.si/",
+            "https://postanivojak.si/zelim-se-prijaviti/usposabljanje/",
+            "https://postanivojak.si/zelim-se-prijaviti/zdravniski-pregled/",
+            "https://postanivojak.si/poklici-v-slovenski-vojski/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoy2JSVKj2o5DBXKjCVYAv1FrdwVqWW3kZ9QAh4LML5aSA6XhkqlJxN_jJQjVz5Q0TemyBK2isKFK2Y4oQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758750446.573541,
+                    "expires_date": "2025-09-24T21:47:26.573541+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "hba1g6keh6b51m4in4p038ob4v",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqVBFLHLHbzkH8e8T7lu6Y1KeB04r1P2kIeNWMdJgmrHezDZz4nHc5y0eBS1PO4ueKhEKjrOtsSXEDgvz4",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758750470.029651,
+                    "expires_date": "2025-09-24T21:47:50.029651+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "hba1g6keh6b51m4in4p038ob4v",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "7fKLmBVYMl0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "EagFZi8yt2Y",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750454.78723,
+                    "expires_date": "2025-09-24T21:47:34.787230+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgJg%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750454.78731,
+                    "expires_date": "2025-09-24T21:47:34.787310+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CLbhtpLn0unvCRDd7b2l4K2MAxjoyfKo4K2MAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750461.932846,
+                    "expires_date": "2025-09-24T21:47:41.932846+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T22:47:22.611407",
+        "timestamp_stop": "2025-03-28T22:47:55.839246"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Forcing a click on an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://postanivojak.si/",
+            "https://postanivojak.si/zelim-se-prijaviti/usposabljanje/",
+            "https://postanivojak.si/zelim-se-prijaviti/zdravniski-pregled/",
+            "https://postanivojak.si/poklici-v-slovenski-vojski/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoJso5RngXSvN_kmFocOvraWtPVec0vOUMwBkh-evFMM2_RqfCYG7XZ2D02I6LWKvrKwl7CV7OC32ruYRk",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758750481.26581,
+                    "expires_date": "2025-09-24T21:48:01.265810+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "1mvbl02eiqh3qf866s272b89hn",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoJso5RngXSvN_kmFocOvraWtPVec0vOUMwBkh-evFMM2_RqfCYG7XZ2D02I6LWKvrKwl7CV7OC32ruYRk",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758750481.26581,
+                    "expires_date": "2025-09-24T21:48:01.265810+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "1mvbl02eiqh3qf866s272b89hn",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%221%22%2C%22advanced%22%3A%221%22%7D",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": 1774734544,
+                    "expires_date": "2026-03-28T21:49:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743198544767.168509414153204613",
+                    "domain": ".postanivojak.si",
+                    "path": "/",
+                    "expires": 1750974544,
+                    "expires_date": "2025-06-26T21:49:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_MRRQFVXY2Y",
+                    "value": "GS1.1.1743198544.1.0.1743198544.60.0.0",
+                    "domain": ".postanivojak.si",
+                    "path": "/",
+                    "expires": 1777758544.838522,
+                    "expires_date": "2026-05-02T21:49:04.838522+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1319344473.1743198545",
+                    "domain": ".postanivojak.si",
+                    "path": "/",
+                    "expires": 1777758544.839158,
+                    "expires_date": "2026-05-02T21:49:04.839158+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743199444.976467,
+                    "expires_date": "2025-03-28T22:04:04.976467+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypPinBf6Ug-wDMQDLuS9weF5aEN3J-A7fKuSpCmzo5qdRRIVmIjgs1TRYNloe23lvMEnlKzct11AImSpKo",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758750566.129677,
+                    "expires_date": "2025-09-24T21:49:26.129677+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "1mvbl02eiqh3qf866s272b89hn",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%221%22%2C%22advanced%22%3A%221%22%7D",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": 1774734544,
+                    "expires_date": "2026-03-28T21:49:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743198544767.168509414153204613",
+                    "domain": ".postanivojak.si",
+                    "path": "/",
+                    "expires": 1750974565,
+                    "expires_date": "2025-06-26T21:49:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1319344473.1743198545",
+                    "domain": ".postanivojak.si",
+                    "path": "/",
+                    "expires": 1777758565.31516,
+                    "expires_date": "2026-05-02T21:49:25.315160+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743199444.976467,
+                    "expires_date": "2025-03-28T22:04:04.976467+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "1zNFl9a4bzs",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "VIKSP9bQCLU",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750550.712649,
+                    "expires_date": "2025-09-24T21:49:10.712649+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiBm",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750550.712709,
+                    "expires_date": "2025-09-24T21:49:10.712709+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CIP-i9_T4ODKeBDXq53T4K2MAxjnxNvW4K2MAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750558.028863,
+                    "expires_date": "2025-09-24T21:49:18.028863+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_MRRQFVXY2Y",
+                    "value": "GS1.1.1743198544.1.1.1743198565.39.0.0",
+                    "domain": ".postanivojak.si",
+                    "path": "/",
+                    "expires": 1777758565.31472,
+                    "expires_date": "2026-05-02T21:49:25.314720+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto uporablja piškotke za zagotavljanje boljše uporabniške izkušnje in spremljanje statistike obiska.\nStrinjanje potrdite z izbiro ”Sprejmi vse”. Nastavitve lahko kadarkoli spremenite.\n\n        \n\n\t\t  Sprejmi vse",
+                "banner_z_index": 9900,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": true,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [spremenite]\nExplanation: \"Sprejmi vse\" clearly indicates acceptance of all cookies, which is why it is categorized under GenericLabel1. The button \"spremenite\" implies managing or changing settings, so it is categorized under GenericLabel3. There are no other buttons fitting the other categories.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "spremenite",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi vse\" clearly indicates acceptance of all cookies, which is why it is categorized under GenericLabel1. The button \"spremenite\" implies managing or changing settings, so it is categorized under GenericLabel3. There are no other buttons fitting the other categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T22:47:57.514522",
+        "timestamp_stop": "2025-03-28T22:49:32.017586"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (spremenite)",
+            "Forcing a click on an element of type (button), with text (spremenite)",
+            "Clicking an element of type (button), with text (Shrani nastavitve)",
+            "Forcing a click on an element of type (button), with text (Shrani nastavitve)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://postanivojak.si/",
+            "https://postanivojak.si/zelim-se-prijaviti/usposabljanje/",
+            "https://postanivojak.si/zelim-se-prijaviti/zdravniski-pregled/",
+            "https://postanivojak.si/poklici-v-slovenski-vojski/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqkTJKpE-_TXyQRNjX_rFQtRrMMqIbrEg6A1okA3N1hOwoi8iiyjLOAuaYVegJq_mBl52Vqbsl8TrrLkd0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758750577.436316,
+                    "expires_date": "2025-09-24T21:49:37.436316+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "am7k6130c222c17ptdcl4gbl45",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqkTJKpE-_TXyQRNjX_rFQtRrMMqIbrEg6A1okA3N1hOwoi8iiyjLOAuaYVegJq_mBl52Vqbsl8TrrLkd0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758750577.436316,
+                    "expires_date": "2025-09-24T21:49:37.436316+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "am7k6130c222c17ptdcl4gbl45",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%220%22%2C%22advanced%22%3A%220%22%7D",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": 1774734651,
+                    "expires_date": "2026-03-28T21:50:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyodLjUmO4-_Dq85SvDYZfnj-cssUo1LmRRoGYKKdZ2gmqXSa_Bd60XE4oJkKsfvYvwBhEBEMQwT5SK4t4g",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758750673.732587,
+                    "expires_date": "2025-09-24T21:51:13.732587+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "am7k6130c222c17ptdcl4gbl45",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%220%22%2C%22advanced%22%3A%220%22%7D",
+                    "domain": "postanivojak.si",
+                    "path": "/",
+                    "expires": 1774734651,
+                    "expires_date": "2026-03-28T21:50:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "jXbHL85YDAo",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "soJhwgw45AA",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750658.199789,
+                    "expires_date": "2025-09-24T21:50:58.199789+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgOA%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750658.200924,
+                    "expires_date": "2025-09-24T21:50:58.200924+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CK2-7uORjeHI4AEQtcW9huGtjAMYz635ieGtjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758750665.46957,
+                    "expires_date": "2025-09-24T21:51:05.469570+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto uporablja piškotke za zagotavljanje boljše uporabniške izkušnje in spremljanje statistike obiska.\nStrinjanje potrdite z izbiro ”Sprejmi vse”. Nastavitve lahko kadarkoli spremenite.\n\n        \n\n\t\t  Sprejmi vse",
+                "banner_z_index": 9900,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": true,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [spremenite]\nExplanation: \"Sprejmi vse\" is categorized under GenericLabel1 as it clearly indicates acceptance of all cookies. \"spremenite\" refers to changing settings, so it is categorized under GenericLabel3. There are no buttons for declining or ambiguous responses present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "spremenite",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi vse\" is categorized under GenericLabel1 as it clearly indicates acceptance of all cookies. \"spremenite\" refers to changing settings, so it is categorized under GenericLabel3. There are no buttons for declining or ambiguous responses present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "spremenite",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Close GDPR Cookie Settings\n          \n        \n            \n        \n\n  \n\n        \n          \n\n  \n    O piškotkih\n  \n\n\n  \n    \n      Nujni\n    \n  \n\n\n  \n    \n      Piškotki spletne analitike\n    \n  \n\n  \n    \n      Oglaševalski piškotki\n    \n  \n\n        \n        \n\n  \t\tPodprto z  GDPR Cookie Compliance\n\t\t\n      \n      \n      \n        \n           \n        \n        \n        \n\n          \n            \n\n      O piškotkih\n    \n  \tPiškotki so majhne tekstovne datoteke, ki jih portal naloži na vaš računalnik. Nekateri piškotki so nujno potrebni za delovanje spletnih strani. Piškotki ne vsebujejo nobenih osebnih ali drugih podatkov, ki bi jih bilo mogoče uporabiti za identifikacijo uporabnika, zato priporočamo, da v njihovo uporabo privolite.\nVeč o piškotkih.\n  \t  \n  \n\n\n            \n  \n    Nujni\n    \n      Funkcionalni piškotki, ki so namenjeni hranjenju uporabnikove privolitve o uporabi piškotkov.\n      \n        \n          \n                \n              Enable or Disable Cookies        \n        ",
+                "banner_z_index": 9993,
+                "banner_position": "static",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": true,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: None\nAmbiguousLabel1: [Shrani nastavitve]\nAmbiguousLabel2: None\nGenericLabel3: [O piškotkih]\nExplanation: The button [Sprejmi vse] is classified as accepting all cookies. The button [Shrani nastavitve] is treated as an ambiguous accept because it suggests saving the settings but does not clearly state acceptance. The button [O piškotkih] is related to managing settings and provides information about cookies, thus categorized under GenericLabel3. There are no buttons for declining all cookies or ambiguous declines in the input.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Shrani nastavitve",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": "O piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is classified as accepting all cookies. The button Shrani nastavitve is treated as an ambiguous accept because it suggests saving the settings but does not clearly state acceptance. The button O piškotkih is related to managing settings and provides information about cookies, thus categorized under GenericLabel3. There are no buttons for declining all cookies or ambiguous declines in the input."
+                },
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0.5714285714285714,
+                "settings_decline_element_text": "Shrani nastavitve",
+                "settings_decline_element_ambiguous": true,
+                "settings_decline_element_evidence": "AmbiguousLabel1",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T22:49:33.655789",
+        "timestamp_stop": "2025-03-28T22:51:19.581663"
+    }
+}

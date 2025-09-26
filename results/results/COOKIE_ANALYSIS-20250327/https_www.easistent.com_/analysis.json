@@ -1,0 +1,333 @@
+{
+    "web_page": "https://www.easistent.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T14:26:14.685260",
+    "timestamp_stop": "2025-03-28T14:29:15.002021",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.easistent.com/",
+            "https://www.easistent.com/stran/pogosta-vprasanja/",
+            "https://www.easistent.com/stran/vrtci",
+            "https://www.easistent.com/stran/vizitka-podjetja/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T14:26:16.057620",
+        "timestamp_stop": "2025-03-28T14:26:43.760606"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.easistent.com/",
+            "https://www.easistent.com/stran/pogosta-vprasanja/",
+            "https://www.easistent.com/stran/vrtci",
+            "https://www.easistent.com/stran/vizitka-podjetja/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "true",
+                    "domain": "www.easistent.com",
+                    "path": "/",
+                    "expires": 1774704458,
+                    "expires_date": "2026-03-28T13:27:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "true",
+                    "domain": "www.easistent.com",
+                    "path": "/",
+                    "expires": 1774704458,
+                    "expires_date": "2026-03-28T13:27:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pk_id.1.6808",
+                    "value": "943f271b1b642ccd.1743168463.",
+                    "domain": "www.easistent.com",
+                    "path": "/",
+                    "expires": 1777123663,
+                    "expires_date": "2026-04-25T13:27:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.1.6808",
+                    "value": "1",
+                    "domain": "www.easistent.com",
+                    "path": "/",
+                    "expires": 1743170276,
+                    "expires_date": "2025-03-28T13:57:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_id.3.6808",
+                    "value": "dfee1147d702a211.1743168470.",
+                    "domain": "www.easistent.com",
+                    "path": "/",
+                    "expires": 1777123670,
+                    "expires_date": "2026-04-25T13:27:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.3.6808",
+                    "value": "1",
+                    "domain": "www.easistent.com",
+                    "path": "/",
+                    "expires": 1743170269,
+                    "expires_date": "2025-03-28T13:57:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na našem spletnem mestu uporabljamo piškotke za izboljšanje vaše uporabniške izkušnje in analizo prometa. S klikom na “Sprejmi vse” sprejmete vse piškotke ali pa izberete “Sprejmi samo nujne” za uporabo le nujnih piškotkov. Za več informacij kliknite na gumb \"Več\".Sprejmi vseSprejmi samo nujneVeč",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Sprejmi samo nujne]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več]\nExplanation: The button [Sprejmi vse] is categorized as accepting all cookies. The button [Sprejmi samo nujne] is categorized as declining all non-essential cookies. The button [Več] indicates settings or more options, thus it fits into GenericLabel3. There are no ambiguous accept or decline phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmi samo nujne",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized as accepting all cookies. The button Sprejmi samo nujne is categorized as declining all non-essential cookies. The button Več indicates settings or more options, thus it fits into GenericLabel3. There are no ambiguous accept or decline phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T14:26:45.384302",
+        "timestamp_stop": "2025-03-28T14:28:03.285267"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Sprejmi samo nujne)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.easistent.com/",
+            "https://www.easistent.com/stran/pogosta-vprasanja/",
+            "https://www.easistent.com/stran/vrtci",
+            "https://www.easistent.com/stran/vizitka-podjetja/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "false",
+                    "domain": "www.easistent.com",
+                    "path": "/",
+                    "expires": 1743773330,
+                    "expires_date": "2025-04-04T13:28:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "false",
+                    "domain": "www.easistent.com",
+                    "path": "/",
+                    "expires": 1743773330,
+                    "expires_date": "2025-04-04T13:28:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na našem spletnem mestu uporabljamo piškotke za izboljšanje vaše uporabniške izkušnje in analizo prometa. S klikom na “Sprejmi vse” sprejmete vse piškotke ali pa izberete “Sprejmi samo nujne” za uporabo le nujnih piškotkov. Za več informacij kliknite na gumb \"Več\".Sprejmi vseSprejmi samo nujneVeč",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Sprejmi samo nujne]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več]\nExplanation: The button [Sprejmi vse] is categorized as accepting all cookies, while [Sprejmi samo nujne] is for declining all except necessary cookies. The button [Več] is for managing settings.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmi samo nujne",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized as accepting all cookies, while Sprejmi samo nujne is for declining all except necessary cookies. The button Več is for managing settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Sprejmi samo nujne",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T14:28:04.839896",
+        "timestamp_stop": "2025-03-28T14:29:14.729344"
+    }
+}

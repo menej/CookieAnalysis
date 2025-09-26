@@ -1,0 +1,757 @@
+{
+    "web_page": "https://www.l-m.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T19:03:52.942120",
+    "timestamp_stop": "2025-03-28T19:06:20.111433",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.l-m.si/",
+            "https://www.l-m.si/recepti/seznam-receptov/?filter=predjedi",
+            "https://www.l-m.si/recipe/kakijeva-nevesta/?lity=1",
+            "https://www.l-m.si/recipe/panakota-z-belo-cokolado-in-penino/?lity=1"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.l-m.si",
+                    "path": "/",
+                    "expires": 1774721035,
+                    "expires_date": "2026-03-28T18:03:55+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRlY2MtMGFiYi02MzRmLWFmZGQtNzNlOGNmNTJjNDEwIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDM6NTUuNDM1WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjAzOjU1LjQzN1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803835,
+                    "expires_date": "2026-03-29T17:03:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.l-m.si",
+                    "path": "/",
+                    "expires": 1774721057,
+                    "expires_date": "2026-03-28T18:04:17+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRlY2MtMGFiYi02MzRmLWFmZGQtNzNlOGNmNTJjNDEwIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDM6NTUuNDM1WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjAzOjU1LjQzN1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803835,
+                    "expires_date": "2026-03-29T17:03:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T19:03:54.322469",
+        "timestamp_stop": "2025-03-28T19:04:23.669853"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi in zapri)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.l-m.si/",
+            "https://www.l-m.si/recepti/seznam-receptov/?filter=predjedi",
+            "https://www.l-m.si/recipe/kakijeva-nevesta/?lity=1",
+            "https://www.l-m.si/recipe/panakota-z-belo-cokolado-in-penino/?lity=1"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.l-m.si",
+                    "path": "/",
+                    "expires": 1774721066,
+                    "expires_date": "2026-03-28T18:04:26+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRlZDMtOTRjMi02NGM5LTlkYzMtZmVmYjYxOWJiZjk0IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDQ6MjYuMzE2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA0OjI2LjMxOFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803866,
+                    "expires_date": "2026-03-29T17:04:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.l-m.si",
+                    "path": "/",
+                    "expires": 1774721066,
+                    "expires_date": "2026-03-28T18:04:26+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRlZDMtOTRjMi02NGM5LTlkYzMtZmVmYjYxOWJiZjk0IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDQ6MjYuMzE2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA0OjUyLjIxM1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzp5b3V0dWJlIiwiYzp0eXBla2l0LWJ5LWFkb2JlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOmRvdWJsZWNsaWMtVmtyeU1GR2YiLCJjOmdvb2dsZXN0YS1mUEVCVEZpYyIsImM6Y29udGVudGV4LWREV2tXNnhkIiwiYzphdnN0dWRpby04ek1YS0FyUSJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvX2FkcyIsImdlb2xvY2F0aW9uX2RhdGEiLCJnZW9fbWFya2V0aW5nX3N0dWRpZXMiXX0sInZlcnNpb24iOjJ9",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803892,
+                    "expires_date": "2026-03-29T17:04:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFsAP_AAAAAACRAF5wAgAZALzAAAAIOgBAAyAXmSgAgLzKQAgAZALzCQAgAZALz.f_gAAAAAAAAA",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803892,
+                    "expires_date": "2026-03-29T17:04:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "UUqNC0-Q5Lg",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "wEJWf4-pl1s",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758737092.349796,
+                    "expires_date": "2025-09-24T18:04:52.349796+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgZQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758737092.34985,
+                    "expires_date": "2025-09-24T18:04:52.349850+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CMOl8LS-tJ2cgAEQ2cTbwa6tjAMY2cTbwa6tjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758737092.349882,
+                    "expires_date": "2025-09-24T18:04:52.349882+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.560614286.1743185092",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1743271492,
+                    "expires_date": "2025-03-29T18:04:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1743185152,
+                    "expires_date": "2025-03-28T18:05:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_DPWFN0VDMG",
+                    "value": "GS1.1.1743185092.1.0.1743185092.60.0.0",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1777745093.016235,
+                    "expires_date": "2026-05-02T18:04:53.016235+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.552839232.1743185092",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1777745093.016898,
+                    "expires_date": "2026-05-02T18:04:53.016898+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.l-m.si",
+                    "path": "/",
+                    "expires": 1774721113,
+                    "expires_date": "2026-03-28T18:05:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRlZDMtOTRjMi02NGM5LTlkYzMtZmVmYjYxOWJiZjk0IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDQ6MjYuMzE2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA0OjUyLjIxM1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzp5b3V0dWJlIiwiYzp0eXBla2l0LWJ5LWFkb2JlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOmRvdWJsZWNsaWMtVmtyeU1GR2YiLCJjOmdvb2dsZXN0YS1mUEVCVEZpYyIsImM6Y29udGVudGV4LWREV2tXNnhkIiwiYzphdnN0dWRpby04ek1YS0FyUSJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvX2FkcyIsImdlb2xvY2F0aW9uX2RhdGEiLCJnZW9fbWFya2V0aW5nX3N0dWRpZXMiXX0sInZlcnNpb24iOjJ9",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803892,
+                    "expires_date": "2026-03-29T17:04:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFsAP_AAAAAACRAF5wAgAZALzAAAAIOgBAAyAXmSgAgLzKQAgAZALzCQAgAZALz.f_gAAAAAAAAA",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803892,
+                    "expires_date": "2026-03-29T17:04:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "UUqNC0-Q5Lg",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "wEJWf4-pl1s",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758737092.349796,
+                    "expires_date": "2025-09-24T18:04:52.349796+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgZQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758737092.34985,
+                    "expires_date": "2025-09-24T18:04:52.349850+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.560614286.1743185092",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1743271497,
+                    "expires_date": "2025-03-29T18:04:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1743185152,
+                    "expires_date": "2025-03-28T18:05:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CMOl8LS-tJ2cgAEQ2cTbwa6tjAMYq62dxK6tjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758737097.621251,
+                    "expires_date": "2025-09-24T18:04:57.621251+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.552839232.1743185092",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1777745098.152165,
+                    "expires_date": "2026-05-02T18:04:58.152165+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_DPWFN0VDMG",
+                    "value": "GS1.1.1743185092.1.1.1743185106.46.0.0",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1777745106.959611,
+                    "expires_date": "2026-05-02T18:05:06.959611+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Z vašim soglasjem mi in  naši partnerji (9) uporabljamo piškotke ali podobne tehnologije za shranjevanje nastavitev in drugih podatkov v vašem brskalniku, statistične in oglaševalske namene. Vašo privolitev lahko kadarkoli prekličete s klikom na gumb \"Več\" ali na povezavi NASTAVITVE PIŠKOTKOV v nogi te spletne strani.Več →Ne sprejmi in zapriSprejmi in zapri",
+                "banner_z_index": 2147483640,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi in zapri]\nGenericLabel2: [Ne sprejmi in zapri]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več →]\nExplanation: \"Sprejmi in zapri\" is categorized under accepting all cookies, while \"Ne sprejmi in zapri\" is for declining all cookies. \"Več →\" indicates an option to manage settings, fulfilling the criteria for GenericLabel3. There were no ambiguous phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne sprejmi in zapri",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi in zapri\" is categorized under accepting all cookies, while \"Ne sprejmi in zapri\" is for declining all cookies. \"Več →\" indicates an option to manage settings, fulfilling the criteria for GenericLabel3. There were no ambiguous phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi in zapri",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T19:04:25.211063",
+        "timestamp_stop": "2025-03-28T19:05:18.934806"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Ne sprejmi in zapri)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.l-m.si/",
+            "https://www.l-m.si/recepti/seznam-receptov/?filter=predjedi",
+            "https://www.l-m.si/recipe/kakijeva-nevesta/?lity=1",
+            "https://www.l-m.si/recipe/panakota-z-belo-cokolado-in-penino/?lity=1"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.l-m.si",
+                    "path": "/",
+                    "expires": 1774721121,
+                    "expires_date": "2026-03-28T18:05:21+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRlZTEtMTRhNy02YWVhLThjMTMtMTFiYTk1MzhkN2NjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDU6MjEuNjEwWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA1OjIxLjYxMVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803921,
+                    "expires_date": "2026-03-29T17:05:21+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.l-m.si",
+                    "path": "/",
+                    "expires": 1774721121,
+                    "expires_date": "2026-03-28T18:05:21+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRlZTEtMTRhNy02YWVhLThjMTMtMTFiYTk1MzhkN2NjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDU6MjEuNjEwWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA1OjUzLjIyNFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6eW91dHViZSIsImM6dHlwZWtpdC1ieS1hZG9iZSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpkb3VibGVjbGljLVZrcnlNRkdmIiwiYzpnb29nbGVzdGEtZlBFQlRGaWMiLCJjOmNvbnRlbnRleC1kRFdrVzZ4ZCIsImM6YXZzdHVkaW8tOHpNWEtBclEiXX0sInB1cnBvc2VzIjp7ImRpc2FibGVkIjpbImRldmljZV9jaGFyYWN0ZXJpc3RpY3MiLCJnZW9fYWRzIiwiZ2VvbG9jYXRpb25fZGF0YSIsImdlb19tYXJrZXRpbmdfc3R1ZGllcyJdfSwidmVyc2lvbiI6Mn0=",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803953,
+                    "expires_date": "2026-03-29T17:05:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFgAAAAAAAAACRAAAAAAACDoAQAMgF5koAIC8ykAIAGQC8wkAIAGQC8wAAA.YAAAAAAAAAAA",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803953,
+                    "expires_date": "2026-03-29T17:05:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "pll_language",
+                    "value": "sl",
+                    "domain": "www.l-m.si",
+                    "path": "/",
+                    "expires": 1774721173,
+                    "expires_date": "2026-03-28T18:06:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRlZTEtMTRhNy02YWVhLThjMTMtMTFiYTk1MzhkN2NjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDU6MjEuNjEwWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA1OjUzLjIyNFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6eW91dHViZSIsImM6dHlwZWtpdC1ieS1hZG9iZSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpkb3VibGVjbGljLVZrcnlNRkdmIiwiYzpnb29nbGVzdGEtZlBFQlRGaWMiLCJjOmNvbnRlbnRleC1kRFdrVzZ4ZCIsImM6YXZzdHVkaW8tOHpNWEtBclEiXX0sInB1cnBvc2VzIjp7ImRpc2FibGVkIjpbImRldmljZV9jaGFyYWN0ZXJpc3RpY3MiLCJnZW9fYWRzIiwiZ2VvbG9jYXRpb25fZGF0YSIsImdlb19tYXJrZXRpbmdfc3R1ZGllcyJdfSwidmVyc2lvbiI6Mn0=",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803953,
+                    "expires_date": "2026-03-29T17:05:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFgAAAAAAAAACRAAAAAAACDoAQAMgF5koAIC8ykAIAGQC8wkAIAGQC8wAAA.YAAAAAAAAAAA",
+                    "domain": ".l-m.si",
+                    "path": "/",
+                    "expires": 1774803953,
+                    "expires_date": "2026-03-29T17:05:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Z vašim soglasjem mi in  naši partnerji (9) uporabljamo piškotke ali podobne tehnologije za shranjevanje nastavitev in drugih podatkov v vašem brskalniku, statistične in oglaševalske namene. Vašo privolitev lahko kadarkoli prekličete s klikom na gumb \"Več\" ali na povezavi NASTAVITVE PIŠKOTKOV v nogi te spletne strani.Več →Ne sprejmi in zapriSprejmi in zapri",
+                "banner_z_index": 2147483640,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi in zapri]\nGenericLabel2: [Ne sprejmi in zapri]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več →]\nExplanation: \"Sprejmi in zapri\" is categorized under GenericLabel1 as it indicates acceptance of all cookies. \"Ne sprejmi in zapri\" fits GenericLabel2 as it indicates declining. \"Več →\" is categorized under GenericLabel3 as it implies a link to manage settings or see more information.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne sprejmi in zapri",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi in zapri\" is categorized under GenericLabel1 as it indicates acceptance of all cookies. \"Ne sprejmi in zapri\" fits GenericLabel2 as it indicates declining. \"Več →\" is categorized under GenericLabel3 as it implies a link to manage settings or see more information."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Ne sprejmi in zapri",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T19:05:20.482691",
+        "timestamp_stop": "2025-03-28T19:06:19.851461"
+    }
+}

@@ -1,0 +1,2496 @@
+{
+    "web_page": "https://www.a1.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T22:13:30.132030",
+    "timestamp_stop": "2025-03-28T22:16:47.005369",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.a1.si/",
+            "https://www.a1.si/predplacniski-paketi/a1-simpl",
+            "https://www.a1.si/smucarski-dnevi",
+            "https://www.a1.si/omrezje/o-omrezju"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "263A9E9375898797F5EF3F663612BD58",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "COOKIE_SUPPORT",
+                    "value": "true",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732411.838129,
+                    "expires_date": "2026-03-28T21:13:31.838129+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_xxx.b1.tj-qspe",
+                    "value": "ffffffff0970d8b745525d5f4f58455e445a4a4229a0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1743197004.598608,
+                    "expires_date": "2025-03-28T21:23:24.598608+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+22%3A13%3A33+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4f330d25-a931-4921-a319-2311f636f3b7&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.a1.si%2F&groups=1%3A1%2C3%3A1%2C2%3A0%2C4%3A0",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732413,
+                    "expires_date": "2026-03-28T21:13:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486971586029792000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "LFR_SESSION_STATE_20102",
+                    "value": "1743196413912",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sgid",
+                    "value": "tzx37awwyoflgjp4biaakaacontqeeecfmqhadazchykenacikwbeaapbq",
+                    "domain": "service.giosg.com",
+                    "path": "/",
+                    "expires": 1777756414.366667,
+                    "expires_date": "2026-05-02T21:13:34.366667+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_chat_id_8533",
+                    "value": "nqwtggqeq2pychmwreaaoht746yqa3xrrycjugmtalziuyym",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732414,
+                    "expires_date": "2026-03-28T21:13:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_sgid_8533",
+                    "value": "tzx37awwyoflgjp4biaakaacontqeeecfmqhadazchykenacikwbeaapbq",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732414,
+                    "expires_date": "2026-03-28T21:13:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "263A9E9375898797F5EF3F663612BD58",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "COOKIE_SUPPORT",
+                    "value": "true",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732411.838129,
+                    "expires_date": "2026-03-28T21:13:31.838129+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_xxx.b1.tj-qspe",
+                    "value": "ffffffff0970d8b745525d5f4f58455e445a4a4229a0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1743197029.831474,
+                    "expires_date": "2025-03-28T21:23:49.831474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486971586029792000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "sgid",
+                    "value": "tzx37awwyoflgjp4biaakaacontqeeecfmqhadazchykenacikwbeaapbq",
+                    "domain": "service.giosg.com",
+                    "path": "/",
+                    "expires": 1777756414.366667,
+                    "expires_date": "2026-05-02T21:13:34.366667+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_chat_id_8533",
+                    "value": "nqwtggqeq2pychmwreaaoht746yqa3xrrycjugmtalziuyym",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732441,
+                    "expires_date": "2026-03-28T21:14:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_sgid_8533",
+                    "value": "tzx37awwyoflgjp4biaakaacontqeeecfmqhadazchykenacikwbeaapbq",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732441,
+                    "expires_date": "2026-03-28T21:14:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+22%3A14%3A00+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4f330d25-a931-4921-a319-2311f636f3b7&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A1%2C2%3A0%2C4%3A0&AwaitingReconsent=false",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732440,
+                    "expires_date": "2026-03-28T21:14:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LFR_SESSION_STATE_20102",
+                    "value": "1743196441219",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T22:13:31.554986",
+        "timestamp_stop": "2025-03-28T22:14:09.086108"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmem vse piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.a1.si/",
+            "https://www.a1.si/predplacniski-paketi/a1-simpl",
+            "https://www.a1.si/smucarski-dnevi",
+            "https://www.a1.si/omrezje/o-omrezju"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "B2B4E0DB3DB9CD4401FA75D4DE2D63D0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "COOKIE_SUPPORT",
+                    "value": "true",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732450.931771,
+                    "expires_date": "2026-03-28T21:14:10.931771+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_xxx.b1.tj-qspe",
+                    "value": "ffffffff0970d8b745525d5f4f58455e445a4a4229a0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1743197043.6955,
+                    "expires_date": "2025-03-28T21:24:03.695500+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+22%3A14%3A12+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8b7a412d-19f1-4f73-984b-207649ec8e61&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.a1.si%2F&groups=1%3A1%2C3%3A1%2C2%3A0%2C4%3A0",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732452,
+                    "expires_date": "2026-03-28T21:14:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486971753738185000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "LFR_SESSION_STATE_20102",
+                    "value": "1743196453015",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sgid",
+                    "value": "45fqdxf5qvewr3rqdyaakaacontqeeezoudh4dazchyjmlicikwbeaajbq",
+                    "domain": "service.giosg.com",
+                    "path": "/",
+                    "expires": 1777756453.438229,
+                    "expires_date": "2026-05-02T21:14:13.438229+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_chat_id_8533",
+                    "value": "pss7ys5fl3sr3mutumaaosw2jnnp5tvixjqoej6iz3czabam",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732453,
+                    "expires_date": "2026-03-28T21:14:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_sgid_8533",
+                    "value": "45fqdxf5qvewr3rqdyaakaacontqeeezoudh4dazchyjmlicikwbeaajbq",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732453,
+                    "expires_date": "2026-03-28T21:14:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.sO25imma8ECVlLMthBQ19EoKU3OQbuWOYyxxN7nwaBs%3D.1743196478",
+                    "domain": ".a1.si",
+                    "path": "/khjtgrk/",
+                    "expires": 1777756478.671016,
+                    "expires_date": "2026-05-02T21:14:38.671016+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "QbU4yykRFnsP0M8p5gVViApWVMGbxWXhNM1CcPXdaLjNxsVSxmC6Fnq588Eno8e6gFuQdbEJTIMSa2Scc9ykWG0gvpR05vhnebqtLTn5cane%2FLfO9l4Rw4aPurrLcg%3D%3D",
+                    "domain": ".a1.si",
+                    "path": "/khjtgrk/",
+                    "expires": 1743268478.671118,
+                    "expires_date": "2025-03-29T17:14:38.671118+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "B2B4E0DB3DB9CD4401FA75D4DE2D63D0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "COOKIE_SUPPORT",
+                    "value": "true",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732450.931771,
+                    "expires_date": "2026-03-28T21:14:10.931771+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_xxx.b1.tj-qspe",
+                    "value": "ffffffff0970d8b745525d5f4f58455e445a4a4229a0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1743197043.6955,
+                    "expires_date": "2025-03-28T21:24:03.695500+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486971753738185000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "LFR_SESSION_STATE_20102",
+                    "value": "1743196453015",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sgid",
+                    "value": "45fqdxf5qvewr3rqdyaakaacontqeeezoudh4dazchyjmlicikwbeaajbq",
+                    "domain": "service.giosg.com",
+                    "path": "/",
+                    "expires": 1777756453.438229,
+                    "expires_date": "2026-05-02T21:14:13.438229+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_chat_id_8533",
+                    "value": "pss7ys5fl3sr3mutumaaosw2jnnp5tvixjqoej6iz3czabam",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732453,
+                    "expires_date": "2026-03-28T21:14:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_sgid_8533",
+                    "value": "45fqdxf5qvewr3rqdyaakaacontqeeezoudh4dazchyjmlicikwbeaajbq",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732453,
+                    "expires_date": "2026-03-28T21:14:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T21:14:38.049Z",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732478,
+                    "expires_date": "2026-03-28T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1021980879.1743196478",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1750972478,
+                    "expires_date": "2025-06-26T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+22%3A14%3A38+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8b7a412d-19f1-4f73-984b-207649ec8e61&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=2%3A1%2C4%3A1%2C3%3A1%2C1%3A1&intType=1",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732478,
+                    "expires_date": "2026-03-28T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__rtbh.uid",
+                    "value": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22'unknown'%22%2C%22expiryDate%22%3A%222026-03-28T21%3A14%3A38.310Z%22%7D",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732478,
+                    "expires_date": "2026-03-28T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22ukCop7MsQylqC3Ox6WrU%22%2C%22expiryDate%22%3A%222026-03-28T21%3A14%3A38.311Z%22%7D",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732478,
+                    "expires_date": "2026-03-28T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "value": "2ba1b9e6a8884fab825c73a2f0ab4dc1.20250328.20260328",
+                    "domain": "www.clarity.ms",
+                    "path": "/",
+                    "expires": 1774732478.373752,
+                    "expires_date": "2026-03-28T21:14:38.373752+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uxiA03KJ7X07s6GrnHNVDc7KVg",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750972478.389069,
+                    "expires_date": "2025-06-26T21:14:38.389069+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1428738078.1743196478",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1777756478.461361,
+                    "expires_date": "2026-05-02T21:14:38.461361+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "BIlrdA2ly3Oz8AQ5eQWW_1743196478773",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774732478.536666,
+                    "expires_date": "2026-03-28T21:14:38.536666+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "BIlrdA2ly3Oz8AQ5eQWW_wImgqWV1QHRvV33j0XY6_1743196478773",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774732478.536752,
+                    "expires_date": "2026-03-28T21:14:38.536752+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743196478",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774732478.536897,
+                    "expires_date": "2026-03-28T21:14:38.536897+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_MXXYV0WRST",
+                    "value": "GS1.1.1743196478.1.0.1743196478.0.0.386419914",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1777756478.587178,
+                    "expires_date": "2026-05-02T21:14:38.587178+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745874878.757409,
+                    "expires_date": "2025-04-28T21:14:38.757409+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774732479.766629,
+                    "expires_date": "2026-03-28T21:14:39.766629+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758748478.766705,
+                    "expires_date": "2025-09-24T21:14:38.766705+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743196478859.934789517416472595",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1750972478,
+                    "expires_date": "2025-06-26T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_clck",
+                    "value": "wzaz1u%7C2%7Cful%7C0%7C1913",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732478,
+                    "expires_date": "2026-03-28T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "998007433124209611",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748380478.90686,
+                    "expires_date": "2025-05-27T21:14:38.906860+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1750972479,
+                    "expires_date": "2025-06-26T21:14:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQF9PQGS9GJ7C2QT5EBFHE0G_.tt.1",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1750972479,
+                    "expires_date": "2025-06-26T21:14:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_lb_id",
+                    "value": "7486971753738185000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": 1776892452,
+                    "expires_date": "2026-04-22T21:14:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_lb_ccc",
+                    "value": "1",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": 1776892452,
+                    "expires_date": "2026-04-22T21:14:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "10730158C3A167A538A914E5C2736651",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776892480.062565,
+                    "expires_date": "2026-04-22T21:14:40.062565+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1743801280.062671,
+                    "expires_date": "2025-04-04T21:14:40.062671+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SRM_B",
+                    "value": "10730158C3A167A538A914E5C2736651",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1776892480.062749,
+                    "expires_date": "2026-04-22T21:14:40.062749+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "tfpsi",
+                    "value": "073963f0-1f8d-4138-924f-bd50394d56c2",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1743198279.23884,
+                    "expires_date": "2025-03-28T21:44:39.238840+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SM",
+                    "value": "C",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "10730158C3A167A538A914E5C2736651",
+                    "domain": ".clarity.ms",
+                    "path": "/",
+                    "expires": 1776892480.105592,
+                    "expires_date": "2026-04-22T21:14:40.105592+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743801280.105651,
+                    "expires_date": "2025-04-04T21:14:40.105651+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ANONCHK",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743197080.105679,
+                    "expires_date": "2025-03-28T21:24:40.105679+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "lSHDsLdYGfJsihtg1Fv5PnW0dOE0sAbXQvk9t4nBqom364v44O9GsXGZZFhEBLs8Kz7EdL0HB6Ro3qiT4mpF8rl-fedWcMVAESZgBorXhMM.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750972479.256339,
+                    "expires_date": "2025-06-26T21:14:39.256339+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750972479.256474,
+                    "expires_date": "2025-06-26T21:14:39.256474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "7437272681384095455",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750972479.256537,
+                    "expires_date": "2025-06-26T21:14:39.256537+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUnXHOl-JbrNq18STC1tBMvsTAeBx9EgoSmWrqi3gNHc0kdlx3MEZhbgXkSg",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776892479.224128,
+                    "expires_date": "2026-04-22T21:14:39.224128+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2InAfKyf7!]tbPl@/@8+nOv3U_jlU=9!6c?P/ncI5(4_QTLW5:cDpT_B^#oV[84!aY3cU_%H$6S*!!T_KCL1J:zv63If)y3KL9D3I?+?!_^KJ",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750972479.256439,
+                    "expires_date": "2025-06-26T21:14:39.256439+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_clsk",
+                    "value": "89a4zr%7C1743196479477%7C1%7C1%7Cj.clarity.ms%2Fcollect",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1743282879,
+                    "expires_date": "2025-03-29T21:14:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.sO25imma8ECVlLMthBQ19EoKU3OQbuWOYyxxN7nwaBs%3D.1743196478",
+                    "domain": ".a1.si",
+                    "path": "/khjtgrk/",
+                    "expires": 1777756511.178385,
+                    "expires_date": "2026-05-02T21:15:11.178385+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "4k2ur2gViRoa6GOSgeuXITZYIFke0fPIv9BiTaEMk3zsKdMZpDxHbYxNLbAWMEhIj3OZy0FoDbmGazT5amLnhSkRdZptHetX%2FESkDmh70FRRdcHC%2FEnEEEKQaYR7lg%3D%3D",
+                    "domain": ".a1.si",
+                    "path": "/khjtgrk/",
+                    "expires": 1743268511.178473,
+                    "expires_date": "2025-03-29T17:15:11.178473+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "B2B4E0DB3DB9CD4401FA75D4DE2D63D0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "COOKIE_SUPPORT",
+                    "value": "true",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732450.931771,
+                    "expires_date": "2026-03-28T21:14:10.931771+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_xxx.b1.tj-qspe",
+                    "value": "ffffffff0970d8b745525d5f4f58455e445a4a4229a0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1743197092.172278,
+                    "expires_date": "2025-03-28T21:24:52.172278+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486971753738185000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "sgid",
+                    "value": "45fqdxf5qvewr3rqdyaakaacontqeeezoudh4dazchyjmlicikwbeaajbq",
+                    "domain": "service.giosg.com",
+                    "path": "/",
+                    "expires": 1777756453.438229,
+                    "expires_date": "2026-05-02T21:14:13.438229+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_chat_id_8533",
+                    "value": "pss7ys5fl3sr3mutumaaosw2jnnp5tvixjqoej6iz3czabam",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732504,
+                    "expires_date": "2026-03-28T21:15:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_sgid_8533",
+                    "value": "45fqdxf5qvewr3rqdyaakaacontqeeezoudh4dazchyjmlicikwbeaajbq",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732504,
+                    "expires_date": "2026-03-28T21:15:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T21:14:38.049Z",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732478,
+                    "expires_date": "2026-03-28T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1021980879.1743196478",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1750972478,
+                    "expires_date": "2025-06-26T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "value": "2ba1b9e6a8884fab825c73a2f0ab4dc1.20250328.20260328",
+                    "domain": "www.clarity.ms",
+                    "path": "/",
+                    "expires": 1774732478.373752,
+                    "expires_date": "2026-03-28T21:14:38.373752+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uxiA03KJ7X07s6GrnHNVDc7KVg",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750972503.519695,
+                    "expires_date": "2025-06-26T21:15:03.519695+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1428738078.1743196478",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1777756503.435951,
+                    "expires_date": "2026-05-02T21:15:03.435951+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "BIlrdA2ly3Oz8AQ5eQWW_1743196478773",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774732478.536666,
+                    "expires_date": "2026-03-28T21:14:38.536666+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "BIlrdA2ly3Oz8AQ5eQWW_wImgqWV1QHRvV33j0XY6_1743196478773",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774732478.536752,
+                    "expires_date": "2026-03-28T21:14:38.536752+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743196478",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774732478.536897,
+                    "expires_date": "2026-03-28T21:14:38.536897+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745874878.757409,
+                    "expires_date": "2025-04-28T21:14:38.757409+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774732479.766629,
+                    "expires_date": "2026-03-28T21:14:39.766629+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758748478.766705,
+                    "expires_date": "2025-09-24T21:14:38.766705+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743196478859.934789517416472595",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1750972503,
+                    "expires_date": "2025-06-26T21:15:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_clck",
+                    "value": "wzaz1u%7C2%7Cful%7C0%7C1913",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732478,
+                    "expires_date": "2026-03-28T21:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "998007433124209611",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748380503.707704,
+                    "expires_date": "2025-05-27T21:15:03.707704+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1750972503,
+                    "expires_date": "2025-06-26T21:15:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQF9PQGS9GJ7C2QT5EBFHE0G_.tt.1",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1750972503,
+                    "expires_date": "2025-06-26T21:15:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_lb_id",
+                    "value": "7486971753738185000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": 1776892452,
+                    "expires_date": "2026-04-22T21:14:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_lb_ccc",
+                    "value": "1",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": 1776892452,
+                    "expires_date": "2026-04-22T21:14:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "10730158C3A167A538A914E5C2736651",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776892480.062565,
+                    "expires_date": "2026-04-22T21:14:40.062565+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1743801280.062671,
+                    "expires_date": "2025-04-04T21:14:40.062671+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SRM_B",
+                    "value": "10730158C3A167A538A914E5C2736651",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1776892480.062749,
+                    "expires_date": "2026-04-22T21:14:40.062749+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "tfpsi",
+                    "value": "073963f0-1f8d-4138-924f-bd50394d56c2",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1743198304.390214,
+                    "expires_date": "2025-03-28T21:45:04.390214+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SM",
+                    "value": "C",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "10730158C3A167A538A914E5C2736651",
+                    "domain": ".clarity.ms",
+                    "path": "/",
+                    "expires": 1776892480.105592,
+                    "expires_date": "2026-04-22T21:14:40.105592+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743801280.105651,
+                    "expires_date": "2025-04-04T21:14:40.105651+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ANONCHK",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743197080.105679,
+                    "expires_date": "2025-03-28T21:24:40.105679+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "lSHDsLdYGfJsihtg1Fv5PnW0dOE0sAbXQvk9t4nBqom364v44O9GsXGZZFhEBLs8Kz7EdL0HB6Ro3qiT4mpF8rl-fedWcMVAESZgBorXhMM.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750972479.256339,
+                    "expires_date": "2025-06-26T21:14:39.256339+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750972479.256474,
+                    "expires_date": "2025-06-26T21:14:39.256474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "7437272681384095455",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750972479.256537,
+                    "expires_date": "2025-06-26T21:14:39.256537+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUnXHOl-JbrNq18STC1tBMvsTAeBx9EgoSmWrqi3gNHc0kdlx3MEZhbgXkSg",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776892479.224128,
+                    "expires_date": "2026-04-22T21:14:39.224128+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2InAfKyf7!]tbPl@/@8+nOv3U_jlU=9!6c?P/ncI5(4_QTLW5:cDpT_B^#oV[84!aY3cU_%H$6S*!!T_KCL1J:zv63If)y3KL9D3I?+?!_^KJ",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750972479.256439,
+                    "expires_date": "2025-06-26T21:14:39.256439+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "udmts",
+                    "value": "1743196496.0",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1774732496.165266,
+                    "expires_date": "2026-03-28T21:14:56.165266+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "dt",
+                    "value": "619620E2-A383-387A-9972-30C05AF213D8",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1774732496.165374,
+                    "expires_date": "2026-03-28T21:14:56.165374+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "rtbh",
+                    "value": "fHDsPPbwg1Sa4HdA64hc4JcMwVf3yA7GVK37XKL1SWc",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1750972496.165409,
+                    "expires_date": "2025-06-26T21:14:56.165409+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+22%3A15%3A03+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8b7a412d-19f1-4f73-984b-207649ec8e61&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=2%3A1%2C4%3A1%2C3%3A1%2C1%3A1&intType=1&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732503,
+                    "expires_date": "2026-03-28T21:15:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__rtbh.uid",
+                    "value": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22'unknown'%22%2C%22expiryDate%22%3A%222026-03-28T21%3A15%3A03.458Z%22%7D",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732503,
+                    "expires_date": "2026-03-28T21:15:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22ukCop7MsQylqC3Ox6WrU%22%2C%22expiryDate%22%3A%222026-03-28T21%3A15%3A03.459Z%22%7D",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732503,
+                    "expires_date": "2026-03-28T21:15:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "LFR_SESSION_STATE_20102",
+                    "value": "1743196503701",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_clsk",
+                    "value": "89a4zr%7C1743196504070%7C4%7C1%7Cj.clarity.ms%2Fcollect",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1743282904,
+                    "expires_date": "2025-03-29T21:15:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_MXXYV0WRST",
+                    "value": "GS1.1.1743196478.1.1.1743196511.0.0.386419914",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1777756511.0972,
+                    "expires_date": "2026-05-02T21:15:11.097200+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Vaša zasebnostSpletni mesti a1.si in moj.a1.si uporabljata piškotke, ki so nujno potrebni za delovanje spletne stran in so nameščeni samodejno. Da bi vam lahko nudili čim boljšo spletno uporabniško izkušnjo, uporabljata spletni mesti tudi funkcionalne piškotke, analitične piškotke, piškotke za marketing in analizo brskanja ter piškotke za družbena omrežja. S klikom na gumb \"Sprejmem vse\" soglašate z namestitvijo teh piškotkov. Za izbiro opredelitev do posameznih kategorij piškotkov pa kliknite gumb \"Nastavitve piškotkov\".\n\nVeč informacij o piškotkih na spletnem mestu Sprejmem vse piškotkeNastavitve piškotkov",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmem vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [Sprejmem vse piškotke] fits the category for accepting all cookies, while [Nastavitve piškotkov] is clearly related to managing settings. There are no buttons for declining or ambiguous responses present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmem vse piškotke fits the category for accepting all cookies, while Nastavitve piškotkov is clearly related to managing settings. There are no buttons for declining or ambiguous responses present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmem vse piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T22:14:10.685480",
+        "timestamp_stop": "2025-03-28T22:15:11.606311"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Nastavitve piškotkov)",
+            "Clicking an element of type (button), with text (Sprejmem izbrane)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.a1.si/",
+            "https://www.a1.si/predplacniski-paketi/a1-simpl",
+            "https://www.a1.si/smucarski-dnevi",
+            "https://www.a1.si/omrezje/o-omrezju"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "4C6FEB3CAA1B75227AE5F6B9A413A2F0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "COOKIE_SUPPORT",
+                    "value": "true",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732513.541746,
+                    "expires_date": "2026-03-28T21:15:13.541746+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_xxx.b1.tj-qspe",
+                    "value": "ffffffff0970d8b445525d5f4f58455e445a4a4229a0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1743197105.271169,
+                    "expires_date": "2025-03-28T21:25:05.271169+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+22%3A15%3A15+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=aeff5d9f-771e-424d-89b2-a2f5d6ef5a58&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.a1.si%2F&groups=1%3A1%2C3%3A1%2C2%3A0%2C4%3A0",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732515,
+                    "expires_date": "2026-03-28T21:15:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486972023330079000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "LFR_SESSION_STATE_20102",
+                    "value": "1743196515505",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sgid",
+                    "value": "67fcyexjut7gcaayleaakaacontqeef6yb5mmdazchykneycikwbeaajbq",
+                    "domain": "service.giosg.com",
+                    "path": "/",
+                    "expires": 1777756516.008755,
+                    "expires_date": "2026-05-02T21:15:16.008755+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_chat_id_8533",
+                    "value": "6jbpuicsgxqgksntdeaaowjcfc5r2r3axyossoxnehidgmqm",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732516,
+                    "expires_date": "2026-03-28T21:15:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_sgid_8533",
+                    "value": "67fcyexjut7gcaayleaakaacontqeef6yb5mmdazchykneycikwbeaajbq",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732516,
+                    "expires_date": "2026-03-28T21:15:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "4C6FEB3CAA1B75227AE5F6B9A413A2F0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "COOKIE_SUPPORT",
+                    "value": "true",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732513.541746,
+                    "expires_date": "2026-03-28T21:15:13.541746+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_xxx.b1.tj-qspe",
+                    "value": "ffffffff0970d8b445525d5f4f58455e445a4a4229a0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1743197105.271169,
+                    "expires_date": "2025-03-28T21:25:05.271169+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486972023330079000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "LFR_SESSION_STATE_20102",
+                    "value": "1743196515505",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sgid",
+                    "value": "67fcyexjut7gcaayleaakaacontqeef6yb5mmdazchykneycikwbeaajbq",
+                    "domain": "service.giosg.com",
+                    "path": "/",
+                    "expires": 1777756516.008755,
+                    "expires_date": "2026-05-02T21:15:16.008755+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_chat_id_8533",
+                    "value": "6jbpuicsgxqgksntdeaaowjcfc5r2r3axyossoxnehidgmqm",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732516,
+                    "expires_date": "2026-03-28T21:15:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_sgid_8533",
+                    "value": "67fcyexjut7gcaayleaakaacontqeef6yb5mmdazchykneycikwbeaajbq",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732516,
+                    "expires_date": "2026-03-28T21:15:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T21:16:13.496Z",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732573,
+                    "expires_date": "2026-03-28T21:16:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+22%3A16%3A13+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=aeff5d9f-771e-424d-89b2-a2f5d6ef5a58&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A1%2C2%3A0%2C4%3A0&intType=6",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732573,
+                    "expires_date": "2026-03-28T21:16:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "4C6FEB3CAA1B75227AE5F6B9A413A2F0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "COOKIE_SUPPORT",
+                    "value": "true",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732513.541746,
+                    "expires_date": "2026-03-28T21:15:13.541746+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_xxx.b1.tj-qspe",
+                    "value": "ffffffff0970d8b445525d5f4f58455e445a4a4229a0",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1743197186.343385,
+                    "expires_date": "2025-03-28T21:26:26.343385+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486972023330079000",
+                    "domain": ".www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "sgid",
+                    "value": "67fcyexjut7gcaayleaakaacontqeef6yb5mmdazchykneycikwbeaajbq",
+                    "domain": "service.giosg.com",
+                    "path": "/",
+                    "expires": 1777756516.008755,
+                    "expires_date": "2026-05-02T21:15:16.008755+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_chat_id_8533",
+                    "value": "6jbpuicsgxqgksntdeaaowjcfc5r2r3axyossoxnehidgmqm",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732598,
+                    "expires_date": "2026-03-28T21:16:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "giosg_sgid_8533",
+                    "value": "67fcyexjut7gcaayleaakaacontqeef6yb5mmdazchykneycikwbeaajbq",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": 1774732598,
+                    "expires_date": "2026-03-28T21:16:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T21:16:13.496Z",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732573,
+                    "expires_date": "2026-03-28T21:16:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+22%3A16%3A38+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=aeff5d9f-771e-424d-89b2-a2f5d6ef5a58&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A1%2C2%3A0%2C4%3A0&intType=6&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".a1.si",
+                    "path": "/",
+                    "expires": 1774732598,
+                    "expires_date": "2026-03-28T21:16:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LFR_SESSION_STATE_20102",
+                    "value": "1743196598701",
+                    "domain": "www.a1.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Vaša zasebnostSpletni mesti a1.si in moj.a1.si uporabljata piškotke, ki so nujno potrebni za delovanje spletne stran in so nameščeni samodejno. Da bi vam lahko nudili čim boljšo spletno uporabniško izkušnjo, uporabljata spletni mesti tudi funkcionalne piškotke, analitične piškotke, piškotke za marketing in analizo brskanja ter piškotke za družbena omrežja. S klikom na gumb \"Sprejmem vse\" soglašate z namestitvijo teh piškotkov. Za izbiro opredelitev do posameznih kategorij piškotkov pa kliknite gumb \"Nastavitve piškotkov\".\n\nVeč informacij o piškotkih na spletnem mestu Sprejmem vse piškotkeNastavitve piškotkov",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmem vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The label \"Sprejmem vse piškotke\" clearly indicates acceptance of all cookies, categorizing it under GenericLabel1. There are no labels indicating a decline, ambiguous acceptance, or ambiguous decline. The label \"Nastavitve piškotkov\" is explicitly about settings, fitting under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The label \"Sprejmem vse piškotke\" clearly indicates acceptance of all cookies, categorizing it under GenericLabel1. There are no labels indicating a decline, ambiguous acceptance, or ambiguous decline. The label \"Nastavitve piškotkov\" is explicitly about settings, fitting under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nastavitve piškotkov",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Vaša zasebnostSpletni mesti a1.si in moj.a1.si uporabljata piškotke, ki so nujno potrebni za delovanje spletne stran in so nameščeni samodejno. Da bi vam lahko nudili čim boljšo spletno uporabniško izkušnjo, uporabljata spletni mesti tudi funkcionalne piškotke, analitične piškotke, piškotke za marketing in analizo brskanja ter piškotke za družbena omrežja. S klikom na gumb \"Sprejmem vse\" soglašate z namestitvijo teh piškotkov. Za izbiro opredelitev do posameznih kategorij piškotkov pa kliknite gumb \"Nastavitve piškotkov\".\n\n            Več informacij o piškotkih na spletnem mestuSprejmem vse piškotkeUpravljanje prednostnih nastavitev za podajo soglasijAnalitični piškotki  Analitični piškotki Piškotki za analizo obiska spletnega mesta zbirajo anonimizirane podatke o obisku spletnega mesta. Informacije, ki jih pridobimo s temi piškotki, nam pomagajo razumeti kako obiskovalci uporabljajo spletno mesto. Na podlagi teh statistik se odločamo o splošnih izboljšavah funkcionalnosti in vsebin sp",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Sprejmem vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: [Sprejmem izbrane]\nAmbiguousLabel2: None\nGenericLabel3: [Več informacij o piškotkih na spletnem mestu]\nExplanation: The button [Sprejmem vse piškotke] clearly indicates acceptance of all cookies, categorizing it under GenericLabel1. The label [Sprejmem izbrane] is ambiguous, suggesting acceptance of selected options, thus it falls under AmbiguousLabel1. The button for settings or more information is [Več informacij o piškotkih na spletnem mestu], which fits under GenericLabel3. There are no labels corresponding to GenericLabel2 or AmbiguousLabel2.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Sprejmem vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmem izbrane",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": "Več informacij o piškotkih na spletnem mestu",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmem vse piškotke clearly indicates acceptance of all cookies, categorizing it under GenericLabel1. The label Sprejmem izbrane is ambiguous, suggesting acceptance of selected options, thus it falls under AmbiguousLabel1. The button for settings or more information is Več informacij o piškotkih na spletnem mestu, which fits under GenericLabel3. There are no labels corresponding to GenericLabel2 or AmbiguousLabel2."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Sprejmem izbrane",
+                "settings_decline_element_ambiguous": true,
+                "settings_decline_element_evidence": "AmbiguousLabel1",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T22:15:13.294259",
+        "timestamp_stop": "2025-03-28T22:16:46.692530"
+    }
+}

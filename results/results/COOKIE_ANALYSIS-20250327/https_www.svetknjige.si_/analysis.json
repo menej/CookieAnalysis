@@ -1,0 +1,1655 @@
+{
+    "web_page": "https://www.svetknjige.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T10:29:41.539401",
+    "timestamp_stop": "2025-03-28T10:32:01.611828",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.svetknjige.si/",
+            "https://www.svetknjige.si/admanager.ashx?admanagerbannerviewhashcode=030be471-c1a9-4f20-99fa-a69efff20121",
+            "https://www.svetknjige.si/izdelek/25570/zapeljivec-ostane-zapeljivec",
+            "https://www.svetknjige.si/admanager.ashx?admanagerbannerviewhashcode=b2858891-9ea2-4cfd-adff-92db92812afd"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "s",
+                    "value": "7CDD31702CAF89C3",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/163AC01C8A7F325D",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "g5d2bhi12a22ae4knanw5wdz",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "SK2",
+                    "value": "expires=1.1.0001 0:00:00&localeid=sl-SI&sid=ac68bbf0-1cc0-4686-afa0-e0bb05d14d34",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__track",
+                    "value": "h8khhtm3yYXp2j7",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714184.166159,
+                    "expires_date": "2026-05-02T09:29:44.166159+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "21EC8E85DFB47E7E",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774711136.463768,
+                    "expires_date": "2026-03-28T15:18:56.463768+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2221EC8E85DFB47E7E%22",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743154184669.953448848388474829",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1750930184,
+                    "expires_date": "2025-06-26T09:29:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_52Y58NW2WJ",
+                    "value": "GS1.1.1743154184.1.0.1743154184.0.0.0",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714184.774968,
+                    "expires_date": "2026-05-02T09:29:44.774968+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1198258713.1743154185",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714184.775448,
+                    "expires_date": "2026-05-02T09:29:44.775448+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "s",
+                    "value": "7CDD31702CAF89C3",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/163AC01C8A7F325D",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "g5d2bhi12a22ae4knanw5wdz",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__track",
+                    "value": "h8khhtm3yYXp2j7",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714184.166159,
+                    "expires_date": "2026-05-02T09:29:44.166159+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "21EC8E85DFB47E7E",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774711160.271508,
+                    "expires_date": "2026-03-28T15:19:20.271508+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2221EC8E85DFB47E7E%22",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743154184669.953448848388474829",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1750930208,
+                    "expires_date": "2025-06-26T09:30:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1198258713.1743154185",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714208.288528,
+                    "expires_date": "2026-05-02T09:30:08.288528+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookie_accept",
+                    "value": "cookie_accept",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": 1774690192,
+                    "expires_date": "2026-03-28T09:29:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "6522224.1198258713.1743154185.1743154194.1743154194.1",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714208.373128,
+                    "expires_date": "2026-05-02T09:30:08.373128+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "6522224",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "6522224.1743154194.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1758922208,
+                    "expires_date": "2025-09-26T21:30:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1743154793,
+                    "expires_date": "2025-03-28T09:39:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "SK2",
+                    "value": "expires=28.3.2026 10:30:07&localeid=sl-SI&sid=ac68bbf0-1cc0-4686-afa0-e0bb05d14d34",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": 1774690208.165315,
+                    "expires_date": "2026-03-28T09:30:08.165315+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_52Y58NW2WJ",
+                    "value": "GS1.1.1743154184.1.1.1743154208.0.0.0",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714208.288155,
+                    "expires_date": "2026-05-02T09:30:08.288155+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "6522224.3.10.1743154194",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1743156008,
+                    "expires_date": "2025-03-28T10:00:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T10:29:43.018121",
+        "timestamp_stop": "2025-03-28T10:30:16.249874"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (V redu)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.svetknjige.si/",
+            "https://www.svetknjige.si/izdelek/25570/zapeljivec-ostane-zapeljivec",
+            "https://www.svetknjige.si/admanager.ashx?admanagerbannerviewhashcode=203bf4df-963e-4676-8d2e-31ca0d4fc099",
+            "https://www.svetknjige.si/kategorija/3498/kuhanje"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "s",
+                    "value": "41A827746DEB65B3",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/163AC01C8A7F325D",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "ncdv2m0c5qjijs2m2jmloj5b",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "SK2",
+                    "value": "expires=1.1.0001 0:00:00&localeid=sl-SI&sid=7fafdb36-b7f4-4e50-8b2e-e71c258367ff",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__track",
+                    "value": "iOM25ou6PByuUGK",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714218.551787,
+                    "expires_date": "2026-05-02T09:30:18.551787+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743154219042.569502094753359976",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1750930219,
+                    "expires_date": "2025-06-26T09:30:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "5EA68B7AAC3C7038",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774711171.068228,
+                    "expires_date": "2026-03-28T15:19:31.068228+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_52Y58NW2WJ",
+                    "value": "GS1.1.1743154219.1.0.1743154219.0.0.0",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714219.137697,
+                    "expires_date": "2026-05-02T09:30:19.137697+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1047904046.1743154219",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714219.138156,
+                    "expires_date": "2026-05-02T09:30:19.138156+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%225EA68B7AAC3C7038%22",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "s",
+                    "value": "41A827746DEB65B3",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/163AC01C8A7F325D",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "ncdv2m0c5qjijs2m2jmloj5b",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__track",
+                    "value": "iOM25ou6PByuUGK",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714218.551787,
+                    "expires_date": "2026-05-02T09:30:18.551787+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743154219042.569502094753359976",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1750930241,
+                    "expires_date": "2025-06-26T09:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "5EA68B7AAC3C7038",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774711193.830973,
+                    "expires_date": "2026-03-28T15:19:53.830973+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1047904046.1743154219",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714241.846807,
+                    "expires_date": "2026-05-02T09:30:41.846807+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%225EA68B7AAC3C7038%22",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "cookie_accept",
+                    "value": "cookie_accept",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": 1774690240,
+                    "expires_date": "2026-03-28T09:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "SK2",
+                    "value": "expires=28.3.2026 10:30:41&localeid=sl-SI&sid=7fafdb36-b7f4-4e50-8b2e-e71c258367ff",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": 1774690241.696265,
+                    "expires_date": "2026-03-28T09:30:41.696265+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_52Y58NW2WJ",
+                    "value": "GS1.1.1743154219.1.1.1743154241.0.0.0",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714241.846398,
+                    "expires_date": "2026-05-02T09:30:41.846398+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "6522224.1047904046.1743154219.1743154242.1743154242.1",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714241.990138,
+                    "expires_date": "2026-05-02T09:30:41.990138+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "6522224",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "6522224.1743154242.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1758922241,
+                    "expires_date": "2025-09-26T21:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1743154841,
+                    "expires_date": "2025-03-28T09:40:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "6522224.1.10.1743154242",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1743156041,
+                    "expires_date": "2025-03-28T10:00:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "s",
+                    "value": "41A827746DEB65B3",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/163AC01C8A7F325D",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "ncdv2m0c5qjijs2m2jmloj5b",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__track",
+                    "value": "iOM25ou6PByuUGK",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714218.551787,
+                    "expires_date": "2026-05-02T09:30:18.551787+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743154219042.569502094753359976",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1750930263,
+                    "expires_date": "2025-06-26T09:31:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "5EA68B7AAC3C7038",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774711215.08724,
+                    "expires_date": "2026-03-28T15:20:15.087240+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1047904046.1743154219",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714263.11377,
+                    "expires_date": "2026-05-02T09:31:03.113770+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%225EA68B7AAC3C7038%22",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "cookie_accept",
+                    "value": "cookie_accept",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": 1774690240,
+                    "expires_date": "2026-03-28T09:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "6522224.1047904046.1743154219.1743154242.1743154242.1",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714263.178464,
+                    "expires_date": "2026-05-02T09:31:03.178464+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "6522224",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "6522224.1743154242.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1758922263,
+                    "expires_date": "2025-09-26T21:31:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1743154841,
+                    "expires_date": "2025-03-28T09:40:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "SK2",
+                    "value": "expires=28.3.2026 10:31:01&localeid=sl-SI&sid=7fafdb36-b7f4-4e50-8b2e-e71c258367ff",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": 1774690261.980531,
+                    "expires_date": "2026-03-28T09:31:01.980531+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "6522224.4.10.1743154242",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1743156063,
+                    "expires_date": "2025-03-28T10:01:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_52Y58NW2WJ",
+                    "value": "GS1.1.1743154219.1.1.1743154270.0.0.0",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714270.216447,
+                    "expires_date": "2026-05-02T09:31:10.216447+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran v namen boljše izkušnje in v analitične namene uporablja neškodljive piškote. Z nadaljevanjem se strinjate z njihovo uporabo. Več preberite tukaj. V redu",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [V redu]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The only button present is an ambiguous accept labeled \"V redu,\" which does not clearly indicate acceptance of all cookies. There are no buttons for accepting all cookies, declining all cookies, managing settings, or any other relevant actions.",
+                "llm_response_parsed": {
+                    "Accept": "V redu",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The only button present is an ambiguous accept labeled \"V redu,\" which does not clearly indicate acceptance of all cookies. There are no buttons for accepting all cookies, declining all cookies, managing settings, or any other relevant actions."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "V redu",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T10:30:17.825895",
+        "timestamp_stop": "2025-03-28T10:31:10.464944"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.svetknjige.si/",
+            "https://www.svetknjige.si/izdelek/25570/zapeljivec-ostane-zapeljivec",
+            "https://www.svetknjige.si/admanager.ashx?admanagerbannerviewhashcode=c373ba6d-1ba3-4869-b1ea-ba0cde7cc2dc",
+            "https://www.svetknjige.si/admanager.ashx?admanagerbannerviewhashcode=ce856f6f-972c-406f-a0ed-8fb46cdb89f7"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "s",
+                    "value": "CD8F50B6B518CB9",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/163AC01C8A7F325D",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "5do5fbwx0bgvh12wqt31zfju",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "SK2",
+                    "value": "expires=1.1.0001 0:00:00&localeid=sl-SI&sid=70f1bbec-4178-48d1-ae34-07d0199c6dc6",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__track",
+                    "value": "QLN65EDGlxC3AOq",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714272.685865,
+                    "expires_date": "2026-05-02T09:31:12.685865+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "59B2936AB27B65D8",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774711225.144919,
+                    "expires_date": "2026-03-28T15:20:25.144919+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2259B2936AB27B65D8%22",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga_52Y58NW2WJ",
+                    "value": "GS1.1.1743154273.1.0.1743154273.0.0.0",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714273.291053,
+                    "expires_date": "2026-05-02T09:31:13.291053+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.937373855.1743154273",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714273.292396,
+                    "expires_date": "2026-05-02T09:31:13.292396+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743154273324.279319772590052335",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1750930273,
+                    "expires_date": "2025-06-26T09:31:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "s",
+                    "value": "CD8F50B6B518CB9",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/163AC01C8A7F325D",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "5do5fbwx0bgvh12wqt31zfju",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "SK2",
+                    "value": "expires=1.1.0001 0:00:00&localeid=sl-SI&sid=70f1bbec-4178-48d1-ae34-07d0199c6dc6",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__track",
+                    "value": "QLN65EDGlxC3AOq",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714272.685865,
+                    "expires_date": "2026-05-02T09:31:12.685865+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "59B2936AB27B65D8",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774711225.144919,
+                    "expires_date": "2026-03-28T15:20:25.144919+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2259B2936AB27B65D8%22",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga_52Y58NW2WJ",
+                    "value": "GS1.1.1743154273.1.0.1743154273.0.0.0",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714273.291053,
+                    "expires_date": "2026-05-02T09:31:13.291053+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.937373855.1743154273",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714273.292396,
+                    "expires_date": "2026-05-02T09:31:13.292396+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743154273324.279319772590052335",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1750930273,
+                    "expires_date": "2025-06-26T09:31:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "s",
+                    "value": "CD8F50B6B518CB9",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/merchants/163AC01C8A7F325D",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "5do5fbwx0bgvh12wqt31zfju",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__track",
+                    "value": "QLN65EDGlxC3AOq",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714272.685865,
+                    "expires_date": "2026-05-02T09:31:12.685865+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cdv",
+                    "value": "59B2936AB27B65D8",
+                    "domain": "recommender.scarabresearch.com",
+                    "path": "/",
+                    "expires": 1774711265.392551,
+                    "expires_date": "2026-03-28T15:21:05.392551+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "scarab.visitor",
+                    "value": "%2259B2936AB27B65D8%22",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.937373855.1743154273",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714313.407783,
+                    "expires_date": "2026-05-02T09:31:53.407783+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743154273324.279319772590052335",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1750930313,
+                    "expires_date": "2025-06-26T09:31:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookie_accept",
+                    "value": "cookie_accept",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": 1774690297,
+                    "expires_date": "2026-03-28T09:31:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "6522224.937373855.1743154273.1743154298.1743154298.1",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714313.493284,
+                    "expires_date": "2026-05-02T09:31:53.493284+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "6522224",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "6522224.1743154298.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1758922313,
+                    "expires_date": "2025-09-26T21:31:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1743154898,
+                    "expires_date": "2025-03-28T09:41:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "SK2",
+                    "value": "expires=28.3.2026 10:31:52&localeid=sl-SI&sid=70f1bbec-4178-48d1-ae34-07d0199c6dc6",
+                    "domain": "www.svetknjige.si",
+                    "path": "/",
+                    "expires": 1774690313.287397,
+                    "expires_date": "2026-03-28T09:31:53.287397+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_52Y58NW2WJ",
+                    "value": "GS1.1.1743154273.1.1.1743154313.0.0.0",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1777714313.407431,
+                    "expires_date": "2026-05-02T09:31:53.407431+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "6522224.3.10.1743154298",
+                    "domain": ".svetknjige.si",
+                    "path": "/",
+                    "expires": 1743156113,
+                    "expires_date": "2025-03-28T10:01:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran v namen boljše izkušnje in v analitične namene uporablja neškodljive piškote. Z nadaljevanjem se strinjate z njihovo uporabo. Več preberite tukaj. V redu",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [V redu]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: The button label [V redu] is considered an ambiguous accept phrase, while there are no buttons for accepting all cookies, declining cookies, or managing settings found in the input.",
+                "llm_response_parsed": {
+                    "Accept": "V redu",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button label V redu is considered an ambiguous accept phrase, while there are no buttons for accepting all cookies, declining cookies, or managing settings found in the input."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T10:31:12.008198",
+        "timestamp_stop": "2025-03-28T10:32:01.350312"
+    }
+}

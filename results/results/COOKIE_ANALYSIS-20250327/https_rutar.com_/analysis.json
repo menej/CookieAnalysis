@@ -1,0 +1,1477 @@
+{
+    "web_page": "https://rutar.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T11:30:47.798110",
+    "timestamp_stop": "2025-03-28T11:34:41.075211",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://rutar.com/",
+            "https://rutar.com/rezultat-iskanja?sid=2&pid=12&gid=94",
+            "https://rutar.com/podrobnosti-izdelka?id=201433/1",
+            "https://rutar.com/podrobnosti-izdelka?id=183284/10"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyremaHjkGy-N0L9PzQ8smP6COYg3BGVBHYXUz92MgAuLmXP69FU6xxUm9PV6aj_8-TmTgA5CDbaounrBQE",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758709853.774733,
+                    "expires_date": "2025-09-24T10:30:53.774733+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "31b9474da7a2f4794df397b248c05753",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ip2location_redirection_first_visit",
+                    "value": "1743157849",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1743244249.707101,
+                    "expires_date": "2025-03-29T10:30:49.707101+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1645499077.1743157850",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717850.462332,
+                    "expires_date": "2026-05-02T10:30:50.462332+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.127784127.1743157850",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743244250,
+                    "expires_date": "2025-03-29T10:30:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-7",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743157910,
+                    "expires_date": "2025-03-28T10:31:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-8",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743157910,
+                    "expires_date": "2025-03-28T10:31:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743157850647.684218941600922469",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1750933850,
+                    "expires_date": "2025-06-26T10:30:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_T71GP3000V",
+                    "value": "GS1.2.1743157850.1.0.1743157850.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717850.927847,
+                    "expires_date": "2026-05-02T10:30:50.927847+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750933851.073623,
+                    "expires_date": "2025-06-26T10:30:51.073623+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_BQKM2ZY58F",
+                    "value": "GS1.2.1743157851.1.0.1743157851.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717851.096059,
+                    "expires_date": "2026-05-02T10:30:51.096059+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrnTxiLLsnftKDMKL-lIjKu4_YxOz3OmmmSRLqZ9KPnfdfqKwIe9iBdbpM-ld2RZKiq5WjnzMyYft0m3-0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758709898.811109,
+                    "expires_date": "2025-09-24T10:31:38.811109+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "31b9474da7a2f4794df397b248c05753",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ip2location_redirection_first_visit",
+                    "value": "1743157849",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1743244249.707101,
+                    "expires_date": "2025-03-29T10:30:49.707101+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1645499077.1743157850",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717896.485282,
+                    "expires_date": "2026-05-02T10:31:36.485282+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.127784127.1743157850",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743244296,
+                    "expires_date": "2025-03-29T10:31:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-7",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743157910,
+                    "expires_date": "2025-03-28T10:31:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-8",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743157910,
+                    "expires_date": "2025-03-28T10:31:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743157850647.684218941600922469",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1750933896,
+                    "expires_date": "2025-06-26T10:31:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750933896.617162,
+                    "expires_date": "2025-06-26T10:31:36.617162+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_T71GP3000V",
+                    "value": "GS1.2.1743157850.1.1.1743157896.14.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717896.551241,
+                    "expires_date": "2026-05-02T10:31:36.551241+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BQKM2ZY58F",
+                    "value": "GS1.2.1743157851.1.1.1743157896.15.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717896.607354,
+                    "expires_date": "2026-05-02T10:31:36.607354+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T11:30:49.126238",
+        "timestamp_stop": "2025-03-28T11:31:49.252485"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://rutar.com/",
+            "https://rutar.com/rezultat-iskanja?sid=2&pid=12&gid=94",
+            "https://rutar.com/podrobnosti-izdelka?id=201433/1",
+            "https://rutar.com/podrobnosti-izdelka?id=183284/10"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqA68TVPccAs9VwlVgY6eR7Py-TMee802tD7UMGLkDdhBvIscr1-yxTYPK-qYJgVlIU_oH6Wvw6qI3UGtQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758709915.332841,
+                    "expires_date": "2025-09-24T10:31:55.332841+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "b996735098222214b6ef2ba754f59c18",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ip2location_redirection_first_visit",
+                    "value": "1743157911",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1743244311.383603,
+                    "expires_date": "2025-03-29T10:31:51.383603+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.292338068.1743157912",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717912.132782,
+                    "expires_date": "2026-05-02T10:31:52.132782+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1080375286.1743157912",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743244312,
+                    "expires_date": "2025-03-29T10:31:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-7",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743157972,
+                    "expires_date": "2025-03-28T10:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-8",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743157972,
+                    "expires_date": "2025-03-28T10:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743157912483.67736463580174135",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1750933912,
+                    "expires_date": "2025-06-26T10:31:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_T71GP3000V",
+                    "value": "GS1.2.1743157912.1.0.1743157912.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717912.762507,
+                    "expires_date": "2026-05-02T10:31:52.762507+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BQKM2ZY58F",
+                    "value": "GS1.2.1743157912.1.0.1743157912.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717912.780905,
+                    "expires_date": "2026-05-02T10:31:52.780905+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750933912.905879,
+                    "expires_date": "2025-06-26T10:31:52.905879+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqA68TVPccAs9VwlVgY6eR7Py-TMee802tD7UMGLkDdhBvIscr1-yxTYPK-qYJgVlIU_oH6Wvw6qI3UGtQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758709915.332841,
+                    "expires_date": "2025-09-24T10:31:55.332841+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "b996735098222214b6ef2ba754f59c18",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ip2location_redirection_first_visit",
+                    "value": "1743157911",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1743244311.383603,
+                    "expires_date": "2025-03-29T10:31:51.383603+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.292338068.1743157912",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717912.132782,
+                    "expires_date": "2026-05-02T10:31:52.132782+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1080375286.1743157912",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743244312,
+                    "expires_date": "2025-03-29T10:31:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-7",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743157972,
+                    "expires_date": "2025-03-28T10:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-8",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743157972,
+                    "expires_date": "2025-03-28T10:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743157912483.67736463580174135",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1750933938,
+                    "expires_date": "2025-06-26T10:32:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_T71GP3000V",
+                    "value": "GS1.2.1743157912.1.0.1743157912.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717912.762507,
+                    "expires_date": "2026-05-02T10:31:52.762507+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BQKM2ZY58F",
+                    "value": "GS1.2.1743157912.1.0.1743157912.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717912.780905,
+                    "expires_date": "2026-05-02T10:31:52.780905+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750933912.905879,
+                    "expires_date": "2025-06-26T10:31:52.905879+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%221%22%2C%22advanced%22%3A%221%22%7D",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1774693938,
+                    "expires_date": "2026-03-28T10:32:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqS09WsN94YK7eaRYgeu31v1-sc5xndOX8oHr3IdNW6zZiUZAdMShqE4fQfB_WLgH6DWGthq0J_-LZ_Wus",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758709983.856519,
+                    "expires_date": "2025-09-24T10:33:03.856519+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "b996735098222214b6ef2ba754f59c18",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ip2location_redirection_first_visit",
+                    "value": "1743157911",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1743244311.383603,
+                    "expires_date": "2025-03-29T10:31:51.383603+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.292338068.1743157912",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717980.938019,
+                    "expires_date": "2026-05-02T10:33:00.938019+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1080375286.1743157912",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743244380,
+                    "expires_date": "2025-03-29T10:33:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743157912483.67736463580174135",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1750933981,
+                    "expires_date": "2025-06-26T10:33:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750933981.109701,
+                    "expires_date": "2025-06-26T10:33:01.109701+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%221%22%2C%22advanced%22%3A%221%22%7D",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1774693938,
+                    "expires_date": "2026-03-28T10:32:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-7",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743158040,
+                    "expires_date": "2025-03-28T10:34:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-8",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743158040,
+                    "expires_date": "2025-03-28T10:34:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_T71GP3000V",
+                    "value": "GS1.2.1743157912.1.1.1743157981.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717981.025539,
+                    "expires_date": "2026-05-02T10:33:01.025539+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BQKM2ZY58F",
+                    "value": "GS1.2.1743157912.1.1.1743157981.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717981.031581,
+                    "expires_date": "2026-05-02T10:33:01.031581+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran za boljše delovanje uporablja piškotke.\nZ uporabo naše spletne strani potrjujete, da se z njihovo uporabo strinjate. Več o piškotkih.\n\n        \n\n  Sprejmi\n  \t\t\t\tZavrni",
+                "banner_z_index": 9900,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Zavrni]  \nAmbiguousLabel1: [Sprejmi]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih]  \nExplanation: \"Sprejmi\" is categorized as an ambiguous accept, while \"Zavrni\" is categorized as a decline option. \"Več o piškotkih\" is related to settings or additional information, thus categorized under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več o piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is categorized as an ambiguous accept, while \"Zavrni\" is categorized as a decline option. \"Več o piškotkih\" is related to settings or additional information, thus categorized under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T11:31:50.921196",
+        "timestamp_stop": "2025-03-28T11:33:14.060804"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://rutar.com/",
+            "https://rutar.com/rezultat-iskanja?sid=2&pid=12&gid=94",
+            "https://rutar.com/podrobnosti-izdelka?id=201433/1",
+            "https://rutar.com/podrobnosti-izdelka?id=183284/10"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoXTgpPPGF1Q2a0rH2BZEqRmsD2i1n-0FkPNmDOLedwNSjFSa1VpW974p-183SEL3UAtnPffx1sZKdhTkE",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758710000.121973,
+                    "expires_date": "2025-09-24T10:33:20.121973+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "8921441c5ba9cadd1abe4ac5d0f0e9c0",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ip2location_redirection_first_visit",
+                    "value": "1743157996",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1743244396.150933,
+                    "expires_date": "2025-03-29T10:33:16.150933+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.582219386.1743157997",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717997.2073,
+                    "expires_date": "2026-05-02T10:33:17.207300+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1313337331.1743157997",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743244397,
+                    "expires_date": "2025-03-29T10:33:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-7",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743158057,
+                    "expires_date": "2025-03-28T10:34:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-8",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743158057,
+                    "expires_date": "2025-03-28T10:34:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743157997312.896198829429172794",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1750933997,
+                    "expires_date": "2025-06-26T10:33:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_T71GP3000V",
+                    "value": "GS1.2.1743157997.1.0.1743157997.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717997.80634,
+                    "expires_date": "2026-05-02T10:33:17.806340+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BQKM2ZY58F",
+                    "value": "GS1.2.1743157997.1.0.1743157997.60.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777717997.954637,
+                    "expires_date": "2026-05-02T10:33:17.954637+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750933997.960837,
+                    "expires_date": "2025-06-26T10:33:17.960837+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoXTgpPPGF1Q2a0rH2BZEqRmsD2i1n-0FkPNmDOLedwNSjFSa1VpW974p-183SEL3UAtnPffx1sZKdhTkE",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758710000.121973,
+                    "expires_date": "2025-09-24T10:33:20.121973+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750933997.960837,
+                    "expires_date": "2025-06-26T10:33:17.960837+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%220%22%2C%22advanced%22%3A%220%22%7D",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1774694025,
+                    "expires_date": "2026-03-28T10:33:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "fffcda244a03938e4b3e872d260dc65b",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqA7LQt1fptxpwI5BptNVVRxfleFMqQRerpzoXXoxdOYzkZ9-B1fK3AL7BSX9boxFBo0HDEk4teXpuz2WM",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758710068.824961,
+                    "expires_date": "2025-09-24T10:34:28.824961+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750934067.369986,
+                    "expires_date": "2025-06-26T10:34:27.369986+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%220%22%2C%22advanced%22%3A%220%22%7D",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1774694025,
+                    "expires_date": "2026-03-28T10:33:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "fffcda244a03938e4b3e872d260dc65b",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ip2location_redirection_first_visit",
+                    "value": "1743158037",
+                    "domain": "rutar.com",
+                    "path": "/",
+                    "expires": 1743244437.801959,
+                    "expires_date": "2025-03-29T10:33:57.801959+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1584474622.1743158039",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777718067.215026,
+                    "expires_date": "2026-05-02T10:34:27.215026+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2139955721.1743158039",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743244467,
+                    "expires_date": "2025-03-29T10:34:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-7",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743158098,
+                    "expires_date": "2025-03-28T10:34:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-35806175-8",
+                    "value": "1",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1743158098,
+                    "expires_date": "2025-03-28T10:34:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743158039253.610299461981552300",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1750934067,
+                    "expires_date": "2025-06-26T10:34:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_T71GP3000V",
+                    "value": "GS1.2.1743158039.1.1.1743158067.32.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777718067.294274,
+                    "expires_date": "2026-05-02T10:34:27.294274+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BQKM2ZY58F",
+                    "value": "GS1.2.1743158039.1.1.1743158067.32.0.0",
+                    "domain": ".rutar.com",
+                    "path": "/",
+                    "expires": 1777718067.297963,
+                    "expires_date": "2026-05-02T10:34:27.297963+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran za boljše delovanje uporablja piškotke.\nZ uporabo naše spletne strani potrjujete, da se z njihovo uporabo strinjate. Več o piškotkih.\n\n        \n\n  Sprejmi\n  \t\t\t\tZavrni",
+                "banner_z_index": 9900,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Sprejmi]\nAmbiguousLabel2: None\nGenericLabel3: [Več o piškotkih]\nExplanation: \"Sprejmi\" is a generic acceptance phrase categorized as ambiguous accept. \"Zavrni\" aligns with declining cookies, thus it is categorized under GenericLabel2. \"Več o piškotkih\" refers to more information about cookies, placing it under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več o piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is a generic acceptance phrase categorized as ambiguous accept. \"Zavrni\" aligns with declining cookies, thus it is categorized under GenericLabel2. \"Več o piškotkih\" refers to more information about cookies, placing it under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T11:33:15.716047",
+        "timestamp_stop": "2025-03-28T11:34:40.733404"
+    }
+}

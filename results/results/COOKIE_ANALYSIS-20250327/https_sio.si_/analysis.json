@@ -1,0 +1,517 @@
+{
+    "web_page": "https://sio.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T06:22:15.713815",
+    "timestamp_stop": "2025-03-28T06:24:39.143868",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://sio.si/",
+            "https://sio.si/kako-prispevati/",
+            "https://sio.si/pomoc/",
+            "https://sio.si/pomoc/#content"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "SimpleSAMLSessionID",
+                    "value": "1e09f59801d21693a7504c7c2fa46100",
+                    "domain": ".sio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:Sk5Bb01wcllibUJHaGducjBIYXhWbjZrbWFaaTdDbXc,consent:no,action:,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1774675338,
+                    "expires_date": "2026-03-28T05:22:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "SimpleSAMLSessionID",
+                    "value": "1e09f59801d21693a7504c7c2fa46100",
+                    "domain": ".sio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:Sk5Bb01wcllibUJHaGducjBIYXhWbjZrbWFaaTdDbXc,consent:no,action:,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1774675351,
+                    "expires_date": "2026-03-28T05:22:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T06:22:17.176914",
+        "timestamp_stop": "2025-03-28T06:22:44.713215"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://sio.si/",
+            "https://sio.si/kako-prispevati/",
+            "https://sio.si/pomoc/",
+            "https://sio.si/pomoc/#content"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "SimpleSAMLSessionID",
+                    "value": "5b4ca1eb54a43eabde0d6eca70cd9845",
+                    "domain": ".sio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:aXkyREpwNE41bGdXbXl1TUFEcGtvd29SRmhPTVJsS0Q,consent:no,action:,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1774675367,
+                    "expires_date": "2026-03-28T05:22:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "SimpleSAMLSessionID",
+                    "value": "5b4ca1eb54a43eabde0d6eca70cd9845",
+                    "domain": ".sio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:aXkyREpwNE41bGdXbXl1TUFEcGtvd29SRmhPTVJsS0Q,consent:yes,action:yes,necessary:yes,functional:yes,analytics:yes,performance:yes,advertisement:yes",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1774675397,
+                    "expires_date": "2026-03-28T05:23:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pk_id.1242.c466",
+                    "value": "7670b382c40f5ff8.1743139398.1.1743139398.1743139398.",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1777094598,
+                    "expires_date": "2026-04-25T05:23:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.1242.c466",
+                    "value": "1",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1743141197,
+                    "expires_date": "2025-03-28T05:53:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "SimpleSAMLSessionID",
+                    "value": "5b4ca1eb54a43eabde0d6eca70cd9845",
+                    "domain": ".sio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:aXkyREpwNE41bGdXbXl1TUFEcGtvd29SRmhPTVJsS0Q,consent:yes,action:yes,necessary:yes,functional:yes,analytics:yes,performance:yes,advertisement:yes",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1774675397,
+                    "expires_date": "2026-03-28T05:23:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pk_ses.1242.c466",
+                    "value": "1",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1743141209,
+                    "expires_date": "2025-03-28T05:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_id.1242.c466",
+                    "value": "7670b382c40f5ff8.1743139398.1.1743139409.1743139398.",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1777094598,
+                    "expires_date": "2026-04-25T05:23:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Vaša zasebnost nam je pomembna  Spletišče uporablja piškotke, ki so zapisani v Izjavi o zasebnosti. S klikom na Sprejmi vse se strinjate z uporabo piškotkov na tem spletišču. S klikom na Zavrni vse bodo postavljeni le funkcionalni piškotki, ki so potrebni za delovanje spletišča. Nastavite piškotke s klikom na posamezni gumb na desni strani ekrana. Seznam piškotkov lahko najdete na strani Izjava o zasebnosti.   Zavrni analitiko Sprejmi vse",
+                "banner_z_index": 9999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni analitiko]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Izjava o zasebnosti]\nExplanation: The button [Sprejmi vse] clearly corresponds to accepting all cookies. The button [Zavrni analitiko] indicates declining the analytics cookies. The label [Izjava o zasebnosti] is related to privacy and settings information, thus categorized under GenericLabel3. The other categories do not apply.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni analitiko",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Izjava o zasebnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse clearly corresponds to accepting all cookies. The button Zavrni analitiko indicates declining the analytics cookies. The label Izjava o zasebnosti is related to privacy and settings information, thus categorized under GenericLabel3. The other categories do not apply."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T06:22:46.324076",
+        "timestamp_stop": "2025-03-28T06:23:42.186287"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni analitiko)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://sio.si/",
+            "https://sio.si/kako-prispevati/",
+            "https://sio.si/pomoc/",
+            "https://sio.si/pomoc/#content"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "SimpleSAMLSessionID",
+                    "value": "7b9453d8a8e6f86fc7723ab96f614b00",
+                    "domain": ".sio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:dU91T1BybWY5RFlGRzF3SU1KY0xTMDFkSHhQMGhjelA,consent:no,action:,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1774675424,
+                    "expires_date": "2026-03-28T05:23:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "SimpleSAMLSessionID",
+                    "value": "7b9453d8a8e6f86fc7723ab96f614b00",
+                    "domain": ".sio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:dU91T1BybWY5RFlGRzF3SU1KY0xTMDFkSHhQMGhjelA,consent:no,action:yes,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1774675453,
+                    "expires_date": "2026-03-28T05:24:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "SimpleSAMLSessionID",
+                    "value": "7b9453d8a8e6f86fc7723ab96f614b00",
+                    "domain": ".sio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:dU91T1BybWY5RFlGRzF3SU1KY0xTMDFkSHhQMGhjelA,consent:no,action:yes,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no",
+                    "domain": "sio.si",
+                    "path": "/",
+                    "expires": 1774675453,
+                    "expires_date": "2026-03-28T05:24:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Vaša zasebnost nam je pomembna  Spletišče uporablja piškotke, ki so zapisani v Izjavi o zasebnosti. S klikom na Sprejmi vse se strinjate z uporabo piškotkov na tem spletišču. S klikom na Zavrni vse bodo postavljeni le funkcionalni piškotki, ki so potrebni za delovanje spletišča. Nastavite piškotke s klikom na posamezni gumb na desni strani ekrana. Seznam piškotkov lahko najdete na strani Izjava o zasebnosti.   Zavrni analitiko Sprejmi vse",
+                "banner_z_index": 9999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni analitiko]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Izjava o zasebnosti]\nExplanation: \"Sprejmi vse\" is categorized as accepting all cookies, \"Zavrni analitiko\" is categorizing as declining all cookies, and \"Izjava o zasebnosti\" relates to settings or more information about privacy, fitting into GenericLabel3. There are no ambiguous labels present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni analitiko",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Izjava o zasebnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi vse\" is categorized as accepting all cookies, \"Zavrni analitiko\" is categorizing as declining all cookies, and \"Izjava o zasebnosti\" relates to settings or more information about privacy, fitting into GenericLabel3. There are no ambiguous labels present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Zavrni analitiko",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T06:23:43.833157",
+        "timestamp_stop": "2025-03-28T06:24:38.847455"
+    }
+}

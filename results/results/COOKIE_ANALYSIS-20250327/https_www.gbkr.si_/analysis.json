@@ -1,0 +1,532 @@
+{
+    "web_page": "https://www.gbkr.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-29T00:40:40.309105",
+    "timestamp_stop": "2025-03-29T00:43:01.466341",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.gbkr.si/",
+            "https://www.gbkr.si/debetna-kartica-mastercard/",
+            "https://www.gbkr.si/dokumenti-poslovno/",
+            "https://www.gbkr.si/wp-content/uploads/2021/05/jamstvo-obvestilo-bs-in-zbs.pdf"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyq27CsZW9ztVV6VGaqhBI255KnquL4_M9Wb6CEv48-cHyJKctW-ce9OgLd26MbyVsCMLrR0Jpcm4ptVXsk",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758757244.044007,
+                    "expires_date": "2025-09-24T23:40:44.044007+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyogZF2Lw2AScxlJNodZ_8BR_fnKgWHCDlJRviaJno03mZ5xYEHG7E69vHe5cgZ3A3HNLR73hO0pxxTYeDk",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758757258.353434,
+                    "expires_date": "2025-09-24T23:40:58.353434+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-29T00:40:41.691532",
+        "timestamp_stop": "2025-03-29T00:41:10.640929"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.gbkr.si/",
+            "https://www.gbkr.si/debetna-kartica-mastercard/",
+            "https://www.gbkr.si/dokumenti-poslovno/",
+            "https://www.gbkr.si/wp-content/uploads/2021/05/jamstvo-obvestilo-bs-in-zbs.pdf"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyp9L4a3BrGOIu6c4URMNMyrO8MK4mRasWtoxM3jE2jrpLxHUdNY4haYFnF7loIyahB4vSNnvF9wouKr8UU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758757274.435585,
+                    "expires_date": "2025-09-24T23:41:14.435585+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyp9L4a3BrGOIu6c4URMNMyrO8MK4mRasWtoxM3jE2jrpLxHUdNY4haYFnF7loIyahB4vSNnvF9wouKr8UU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758757274.435585,
+                    "expires_date": "2025-09-24T23:41:14.435585+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%276ZTJYvtc+KS/Zt0l6Pyd137hN/nUiwCJ63xjK0Ufwwi7y82v/vEAWw==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743205301278%2Cregion:%27si%27}",
+                    "domain": "www.gbkr.si",
+                    "path": "/",
+                    "expires": 1774741301,
+                    "expires_date": "2026-03-28T23:41:41+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_9WKZ02QG39",
+                    "value": "GS1.1.1743205301.1.0.1743205301.60.0.0",
+                    "domain": ".gbkr.si",
+                    "path": "/",
+                    "expires": 1777765301.385523,
+                    "expires_date": "2026-05-02T23:41:41.385523+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1282070535.1743205301",
+                    "domain": ".gbkr.si",
+                    "path": "/",
+                    "expires": 1777765301.386003,
+                    "expires_date": "2026-05-02T23:41:41.386003+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743205301476.788818794859398833",
+                    "domain": ".gbkr.si",
+                    "path": "/",
+                    "expires": 1750981301,
+                    "expires_date": "2025-06-26T23:41:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmJ8eANYhVs8bPv9u2kyklOLJYYy0X_ITCORm6we26yD7eS03gBmhZJw-h2",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776901301.623098,
+                    "expires_date": "2026-04-22T23:41:41.623098+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqFFnIMPBeIARgble9g7NaNbTT1RF_lrpfbGU1vT7WpkgnCjM4WipzbfzmmoNAw-0Lk3orf7ddg-7fC5rw",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758757314.380455,
+                    "expires_date": "2025-09-24T23:41:54.380455+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%276ZTJYvtc+KS/Zt0l6Pyd137hN/nUiwCJ63xjK0Ufwwi7y82v/vEAWw==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743205301278%2Cregion:%27si%27}",
+                    "domain": "www.gbkr.si",
+                    "path": "/",
+                    "expires": 1774741301,
+                    "expires_date": "2026-03-28T23:41:41+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1282070535.1743205301",
+                    "domain": ".gbkr.si",
+                    "path": "/",
+                    "expires": 1777765313.785795,
+                    "expires_date": "2026-05-02T23:41:53.785795+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743205301476.788818794859398833",
+                    "domain": ".gbkr.si",
+                    "path": "/",
+                    "expires": 1750981313,
+                    "expires_date": "2025-06-26T23:41:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmJ8eANYhVs8bPv9u2kyklOLJYYy0X_ITCORm6we26yD7eS03gBmhZJw-h2",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776901301.623098,
+                    "expires_date": "2026-04-22T23:41:41.623098+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747423886",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774741313.842001,
+                    "expires_date": "2026-03-28T23:41:53.842001+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_9WKZ02QG39",
+                    "value": "GS1.1.1743205301.1.1.1743205320.41.0.0",
+                    "domain": ".gbkr.si",
+                    "path": "/",
+                    "expires": 1777765320.621246,
+                    "expires_date": "2026-05-02T23:42:00.621246+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Potrdi Podrobnosti[#IABV2SETTINGS#]O piškotkih Ta spletna stran vsebuje piškotkePiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije  o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev.Consent SelectionZahtevano Nastavitve Statistika Trženje Prikaži podrobnostiPodrobnostiZahtevano  15 Zahtevani piškotki naredijo spletno stran uporabno, saj omogočajo osnovne funkcije, kot so navigacija po strani in dostop do varnih območij spletne strani. Spletna stran brez teh piškotkov ne deluje pravilno.Cookiebot1Preberi še več o tem ponudniku1.gifUsed to count the number of sessions to the website, necessary for optimizing CMP product delivery. Najdaljše trajanje shranjevanja: SejaVrsta: Sledilnik slikovnih pikF",
+                "banner_z_index": 2147483631,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Potrdi]\nAmbiguousLabel2: None\nGenericLabel3: [Podrobnosti]\nExplanation: \"Dovoli vse\" is categorized as accepting all cookies, while \"Zavrni\" is for declining all cookies. \"Potrdi\" is ambiguous acceptance, and \"Podrobnosti\" relates to managing settings. \"O piškotkih\" does not fit any category and is not included.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" is categorized as accepting all cookies, while \"Zavrni\" is for declining all cookies. \"Potrdi\" is ambiguous acceptance, and \"Podrobnosti\" relates to managing settings. \"O piškotkih\" does not fit any category and is not included."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-29T00:41:12.282216",
+        "timestamp_stop": "2025-03-29T00:42:06.511847"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.gbkr.si/",
+            "https://www.gbkr.si/debetna-kartica-mastercard/",
+            "https://www.gbkr.si/dokumenti-poslovno/",
+            "https://www.gbkr.si/wp-content/uploads/2021/05/jamstvo-obvestilo-bs-in-zbs.pdf"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqUyn2ocwef9glMErFwx2U1yh16jzoJeU_bNkid8ztav11RvyPTDkxD3e-IDuybfDCpgJq9AOngvwL-9v0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758757330.298141,
+                    "expires_date": "2025-09-24T23:42:10.298141+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqUyn2ocwef9glMErFwx2U1yh16jzoJeU_bNkid8ztav11RvyPTDkxD3e-IDuybfDCpgJq9AOngvwL-9v0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758757330.298141,
+                    "expires_date": "2025-09-24T23:42:10.298141+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%27PYHrEmv6eooe9NP7MnvAHlW701nedk+fouOYp63iFpW9uX6YNyX19A==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743205356071%2Cregion:%27si%27}",
+                    "domain": "www.gbkr.si",
+                    "path": "/",
+                    "expires": 1774741356,
+                    "expires_date": "2026-03-28T23:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyr0c91uvrnaRbojufrF2BYowPXuAOTnZcF5Le8ZlwMsWkHt7sylmDi96fS057f50L58akurA1t4zS7NUmI",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758757369.014897,
+                    "expires_date": "2025-09-24T23:42:49.014897+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsent",
+                    "value": "{stamp:%27PYHrEmv6eooe9NP7MnvAHlW701nedk+fouOYp63iFpW9uX6YNyX19A==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1743205356071%2Cregion:%27si%27}",
+                    "domain": "www.gbkr.si",
+                    "path": "/",
+                    "expires": 1774741356,
+                    "expires_date": "2026-03-28T23:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Potrdi Podrobnosti[#IABV2SETTINGS#]O piškotkih Ta spletna stran vsebuje piškotkePiškotke uporabljamo za prilagoditev vsebin in oglasov, za zagotavljanje funkcij družbenih medijev in za analize našega prometa. Poleg tega delimo informacije  o vaši uporabi našega mesta z našimi partnerji s področja družbenih medijev, oglaševanja in analitike, ki jih morda kombinirajo z drugimi informacijami, ki ste jim jih posredovali ali pa so jih zbrali skozi vašo uporabo njihovih storitev.Consent SelectionZahtevano Nastavitve Statistika Trženje Prikaži podrobnostiPodrobnostiZahtevano  15 Zahtevani piškotki naredijo spletno stran uporabno, saj omogočajo osnovne funkcije, kot so navigacija po strani in dostop do varnih območij spletne strani. Spletna stran brez teh piškotkov ne deluje pravilno.Cookiebot1Preberi še več o tem ponudniku1.gifUsed to count the number of sessions to the website, necessary for optimizing CMP product delivery. Najdaljše trajanje shranjevanja: SejaVrsta: Sledilnik slikovnih pikF",
+                "banner_z_index": 2147483631,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Potrdi]\nAmbiguousLabel2: None\nGenericLabel3: [Podrobnosti]\nExplanation: \"Dovoli vse\" fits the category of accepting all cookies, while \"Zavrni\" is for declining all cookies. \"Potrdi\" is an ambiguous phrase that signifies acceptance. \"Podrobnosti\" is related to managing settings, making it fit under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" fits the category of accepting all cookies, while \"Zavrni\" is for declining all cookies. \"Potrdi\" is an ambiguous phrase that signifies acceptance. \"Podrobnosti\" is related to managing settings, making it fit under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-29T00:42:08.091173",
+        "timestamp_stop": "2025-03-29T00:43:01.165863"
+    }
+}

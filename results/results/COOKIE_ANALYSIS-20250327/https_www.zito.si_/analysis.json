@@ -1,0 +1,517 @@
+{
+    "web_page": "https://www.zito.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T17:37:29.442535",
+    "timestamp_stop": "2025-03-28T17:40:05.969311",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zito.si/",
+            "https://www.zito.si/sl/znamka/zlato-polje",
+            "https://www.zito.si/sl/izdelek/zito-hruskov-drobljenec-moka-recepti",
+            "https://www.zito.si/sl/vsebina/pravila-o-uporabi-piskotkov-50"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "connect.sid",
+                    "value": "s%3AhzRJRfhf69iwueElc0jWe5QbycwIZe0G.gaPqHRnlqe%2BT53FxBlFDqEY5PIQr6eGKTsltrebfDHs",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "connect.sid",
+                    "value": "s%3AhzRJRfhf69iwueElc0jWe5QbycwIZe0G.gaPqHRnlqe%2BT53FxBlFDqEY5PIQr6eGKTsltrebfDHs",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T17:37:30.892714",
+        "timestamp_stop": "2025-03-28T17:38:00.522485"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmem vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zito.si/",
+            "https://www.zito.si/sl/znamka/zlato-polje",
+            "https://www.zito.si/sl/izdelek/zito-hruskov-drobljenec-moka-recepti",
+            "https://www.zito.si/sl/vsebina/pravila-o-uporabi-piskotkov-50"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "connect.sid",
+                    "value": "s%3AAEwuhc6YQn6vm2Sciudv5Ymie0i4zJ0g.jXsXSItjca1vAbPi1tx1LuQxgFQnxfWE9g%2FWaSml32U",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "connect.sid",
+                    "value": "s%3AAEwuhc6YQn6vm2Sciudv5Ymie0i4zJ0g.jXsXSItjca1vAbPi1tx1LuQxgFQnxfWE9g%2FWaSml32U",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cc_cookie",
+                    "value": "%7B%22categories%22%3A%5B%22necessary%22%2C%22analytics%22%5D%2C%22revision%22%3A0%2C%22data%22%3Anull%2C%22consentTimestamp%22%3A%222025-03-28T16%3A38%3A32.491Z%22%2C%22consentId%22%3A%2206eec2a2-eea7-4348-8b94-20a1d4d32c45%22%2C%22services%22%3A%7B%22necessary%22%3A%5B%5D%2C%22analytics%22%3A%5B%22google%22%2C%22facebook%22%2C%22youtube%22%5D%7D%2C%22lastConsentTimestamp%22%3A%222025-03-28T16%3A38%3A32.491Z%22%2C%22expirationTime%22%3A1758904712492%7D",
+                    "domain": ".www.zito.si",
+                    "path": "/",
+                    "expires": 1758904712,
+                    "expires_date": "2025-09-26T16:38:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "im_youtube",
+                    "value": "1",
+                    "domain": ".www.zito.si",
+                    "path": "/",
+                    "expires": 1758904712,
+                    "expires_date": "2025-09-26T16:38:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_settings",
+                    "value": "1%2C2%2C3",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": 1774737512.564779,
+                    "expires_date": "2026-03-28T22:38:32.564779+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "connect.sid",
+                    "value": "s%3AAEwuhc6YQn6vm2Sciudv5Ymie0i4zJ0g.jXsXSItjca1vAbPi1tx1LuQxgFQnxfWE9g%2FWaSml32U",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cc_cookie",
+                    "value": "%7B%22categories%22%3A%5B%22necessary%22%2C%22analytics%22%5D%2C%22revision%22%3A0%2C%22data%22%3Anull%2C%22consentTimestamp%22%3A%222025-03-28T16%3A38%3A32.491Z%22%2C%22consentId%22%3A%2206eec2a2-eea7-4348-8b94-20a1d4d32c45%22%2C%22services%22%3A%7B%22necessary%22%3A%5B%5D%2C%22analytics%22%3A%5B%22google%22%2C%22facebook%22%2C%22youtube%22%5D%7D%2C%22lastConsentTimestamp%22%3A%222025-03-28T16%3A38%3A32.491Z%22%2C%22expirationTime%22%3A1758904712492%7D",
+                    "domain": ".www.zito.si",
+                    "path": "/",
+                    "expires": 1758904712,
+                    "expires_date": "2025-09-26T16:38:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "im_youtube",
+                    "value": "1",
+                    "domain": ".www.zito.si",
+                    "path": "/",
+                    "expires": 1758904712,
+                    "expires_date": "2025-09-26T16:38:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_settings",
+                    "value": "1%2C2%2C3",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": 1774737512.564779,
+                    "expires_date": "2026-03-28T22:38:32.564779+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1852005545.1743179918",
+                    "domain": ".zito.si",
+                    "path": "/",
+                    "expires": 1777739932.643678,
+                    "expires_date": "2026-05-02T16:38:52.643678+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_DJNWMS0YL5",
+                    "value": "GS1.1.1743179917.1.1.1743179932.0.0.0",
+                    "domain": ".zito.si",
+                    "path": "/",
+                    "expires": 1777739932.643236,
+                    "expires_date": "2026-05-02T16:38:52.643236+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spoštujemo Vašo zasebnost!Uporabljamo lastne piškotke in piškotke tretjih oseb, da vam lahko prikažemo spletno stran in razumemo, kako jo uporabljate, z namenom izboljšanja uporabniške izkušnje in razvoja naših izdelkov. Če kliknete »Sprejmem vse«, se bodo naložili vsi piškotki. S klikom na \"Sprejmem le nujne\" se bodo naložili samo tisti piškotki, ki so nujni za pravilno delovanje spletne strani (teh piškotkov ni mogoče izklopiti). Če želite izbrati vrsto piškotka, kliknite na nastavitve piškotkov.Sprejmem vseSprejmem le nujneNastavitve piškotkovPravila zasebnosti\nPogoji uporabe\nPravila o uporabi piškotkov",
+                "banner_z_index": 1,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmem vse]\nGenericLabel2: [Sprejmem le nujne]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [Sprejmem vse] is categorized as accepting all cookies. The button [Sprejmem le nujne] falls under declining all but necessary cookies. The button [Nastavitve piškotkov] is for managing settings. There are no ambiguous buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmem le nujne",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmem vse is categorized as accepting all cookies. The button Sprejmem le nujne falls under declining all but necessary cookies. The button Nastavitve piškotkov is for managing settings. There are no ambiguous buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmem vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T17:38:02.099775",
+        "timestamp_stop": "2025-03-28T17:38:59.026433"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmem le nujne)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zito.si/",
+            "https://www.zito.si/sl/znamka/zlato-polje",
+            "https://www.zito.si/sl/izdelek/zito-hruskov-drobljenec-moka-recepti",
+            "https://www.zito.si/sl/vsebina/pravila-o-uporabi-piskotkov-50"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "connect.sid",
+                    "value": "s%3AUD2aYgbwjVtfRE8JdBfgDc_OGsYZMB0p.lHhKnyim0Le1bQLx2nfjx8EuLup%2Bd%2FRkf4FwfC9oMaY",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "connect.sid",
+                    "value": "s%3AUD2aYgbwjVtfRE8JdBfgDc_OGsYZMB0p.lHhKnyim0Le1bQLx2nfjx8EuLup%2Bd%2FRkf4FwfC9oMaY",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cc_cookie",
+                    "value": "%7B%22categories%22%3A%5B%22necessary%22%5D%2C%22revision%22%3A0%2C%22data%22%3Anull%2C%22consentTimestamp%22%3A%222025-03-28T16%3A39%3A39.353Z%22%2C%22consentId%22%3A%2282b704d5-1993-441b-83a6-f4806f08d534%22%2C%22services%22%3A%7B%22necessary%22%3A%5B%5D%2C%22analytics%22%3A%5B%5D%7D%2C%22lastConsentTimestamp%22%3A%222025-03-28T16%3A39%3A39.353Z%22%2C%22expirationTime%22%3A1758904779354%7D",
+                    "domain": ".www.zito.si",
+                    "path": "/",
+                    "expires": 1758904779,
+                    "expires_date": "2025-09-26T16:39:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_settings",
+                    "value": "1",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": 1774737579.423715,
+                    "expires_date": "2026-03-28T22:39:39.423715+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "connect.sid",
+                    "value": "s%3AUD2aYgbwjVtfRE8JdBfgDc_OGsYZMB0p.lHhKnyim0Le1bQLx2nfjx8EuLup%2Bd%2FRkf4FwfC9oMaY",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cc_cookie",
+                    "value": "%7B%22categories%22%3A%5B%22necessary%22%5D%2C%22revision%22%3A0%2C%22data%22%3Anull%2C%22consentTimestamp%22%3A%222025-03-28T16%3A39%3A39.353Z%22%2C%22consentId%22%3A%2282b704d5-1993-441b-83a6-f4806f08d534%22%2C%22services%22%3A%7B%22necessary%22%3A%5B%5D%2C%22analytics%22%3A%5B%5D%7D%2C%22lastConsentTimestamp%22%3A%222025-03-28T16%3A39%3A39.353Z%22%2C%22expirationTime%22%3A1758904779354%7D",
+                    "domain": ".www.zito.si",
+                    "path": "/",
+                    "expires": 1758904779,
+                    "expires_date": "2025-09-26T16:39:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_settings",
+                    "value": "1",
+                    "domain": "www.zito.si",
+                    "path": "/",
+                    "expires": 1774737579.423715,
+                    "expires_date": "2026-03-28T22:39:39.423715+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spoštujemo Vašo zasebnost!Uporabljamo lastne piškotke in piškotke tretjih oseb, da vam lahko prikažemo spletno stran in razumemo, kako jo uporabljate, z namenom izboljšanja uporabniške izkušnje in razvoja naših izdelkov. Če kliknete »Sprejmem vse«, se bodo naložili vsi piškotki. S klikom na \"Sprejmem le nujne\" se bodo naložili samo tisti piškotki, ki so nujni za pravilno delovanje spletne strani (teh piškotkov ni mogoče izklopiti). Če želite izbrati vrsto piškotka, kliknite na nastavitve piškotkov.Sprejmem vseSprejmem le nujneNastavitve piškotkovPravila zasebnosti\nPogoji uporabe\nPravila o uporabi piškotkov",
+                "banner_z_index": 1,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmem vse]\nGenericLabel2: [Sprejmem le nujne]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The text \"Sprejmem vse\" fits the category for accepting all cookies, while \"Sprejmem le nujne\" fits declining all cookies or only accepting necessary ones. \"Nastavitve piškotkov\" is clearly related to managing settings. There are no ambiguous accept or decline phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmem le nujne",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The text \"Sprejmem vse\" fits the category for accepting all cookies, while \"Sprejmem le nujne\" fits declining all cookies or only accepting necessary ones. \"Nastavitve piškotkov\" is clearly related to managing settings. There are no ambiguous accept or decline phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Sprejmem le nujne",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T17:39:00.613623",
+        "timestamp_stop": "2025-03-28T17:40:05.710221"
+    }
+}

@@ -1,0 +1,2979 @@
+{
+    "web_page": "https://tehnozvezdje.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T01:27:43.317580",
+    "timestamp_stop": "2025-03-28T01:30:38.318654",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://tehnozvezdje.si/",
+            "https://tehnozvezdje.si/kategorija/novosti/",
+            "https://tehnozvezdje.si/kategorija/svetovalnica/",
+            "https://tehnozvezdje.si/page/3/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "UWprdOlpf0GsqxUPqqgNd3Z3CFwgnTd4FMwnxvLtLjY-1743121648-1.0.1.1-YwVsHCbtJGh9yHVGToj6WYwO1bokTxuFrfLETHySlK1jiUJnsTtQFM.Am3Hv3dY7qSq9W76BFwqmKlMqS_tKnJqvxYAh3lp3FNtqWNMHlwU",
+                    "domain": ".onesignal.com",
+                    "path": "/",
+                    "expires": 1743123465.064474,
+                    "expires_date": "2025-03-28T00:57:45.064474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"f97e2719-4645-4f54-b62e-f509b6004304\",\"ts\":1743121665240}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657665,
+                    "expires_date": "2026-03-28T00:27:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "GAD",
+                    "value": "KlQ-IMXGQMQGIYsZ_ixPu4lUssGMXP8c2RySssX6QYL8fX195eIMEaDLaGQsG0gRW7yGNgFtDlnXxgGWi15pmsMQGs..",
+                    "domain": ".sigde.adocean.pl",
+                    "path": "/",
+                    "expires": 1777249665.269771,
+                    "expires_date": "2026-04-27T00:27:45.269771+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657666.1431,
+                    "expires_date": "2026-03-28T00:27:46.143100+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=0d88f224-d5df-4813-ba64-daf57c4b3502&Created=03/28/2025 00:27:28&UserMode=0&guid=3b2123e3-5385-45e0-8c3d-8a8bca4af6ab&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657666.143197,
+                    "expires_date": "2026-03-28T00:27:46.143197+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.749443951.1743121666",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681665.659491,
+                    "expires_date": "2026-05-02T00:27:45.659491+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=8b39b62fbaabc80e:T=1743121648:RT=1743121648:S=AA-Afja2EV8V9FM21CWl7Cl8VUlU",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1758673648,
+                    "expires_date": "2025-09-24T00:27:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"defcd4c8-820f-4ac7-bae2-12b62d6c41f3\",\"ts\":1743121665965}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657665,
+                    "expires_date": "2026-03-28T00:27:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657666.318605,
+                    "expires_date": "2026-03-28T00:27:46.318605+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=527b3372-1d86-4cbe-9907-f83e0fc97b03&Created=03/28/2025 00:27:29&UserMode=0&guid=dc0bfb92-39c3-421e-9331-52769ab6939c&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657666.31872,
+                    "expires_date": "2026-03-28T00:27:46.318720+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId725",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249666.180221,
+                    "expires_date": "2026-04-27T00:27:46.180221+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gtest",
+                    "value": "KlS4cMXGQMQGWTRRiaYPu4lUssGMXP8c25nSGJcAV-D8XBG.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1743726466.117706,
+                    "expires_date": "2025-04-04T00:27:46.117706+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlSItRMGQMQGWTRRiaYPu4lUssGMXP8c25nSGJcAV-D8FRxSG7RrGS6GNgFtFlMQYH8W8jBGqSRxSG8.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249666.180479,
+                    "expires_date": "2026-04-27T00:27:46.180479+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "KcwRzCrVb2_z6ggbkZwUwSrnWR52kCFAb6n8XscNen3.v7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249666.180538,
+                    "expires_date": "2026-04-27T00:27:46.180538+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_VE9DL697FW",
+                    "value": "GS1.1.1743121665.1.0.1743121667.58.0.0",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681667.604335,
+                    "expires_date": "2026-05-02T00:27:47.604335+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "UWprdOlpf0GsqxUPqqgNd3Z3CFwgnTd4FMwnxvLtLjY-1743121648-1.0.1.1-YwVsHCbtJGh9yHVGToj6WYwO1bokTxuFrfLETHySlK1jiUJnsTtQFM.Am3Hv3dY7qSq9W76BFwqmKlMqS_tKnJqvxYAh3lp3FNtqWNMHlwU",
+                    "domain": ".onesignal.com",
+                    "path": "/",
+                    "expires": 1743123465.064474,
+                    "expires_date": "2025-03-28T00:57:45.064474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"f97e2719-4645-4f54-b62e-f509b6004304\",\"ts\":1743121665240}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657687,
+                    "expires_date": "2026-03-28T00:28:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657687.600214,
+                    "expires_date": "2026-03-28T00:28:07.600214+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=0d88f224-d5df-4813-ba64-daf57c4b3502&Created=03/28/2025 00:27:28&UserMode=0&guid=3b2123e3-5385-45e0-8c3d-8a8bca4af6ab&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657687.600443,
+                    "expires_date": "2026-03-28T00:28:07.600443+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.749443951.1743121666",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681687.346081,
+                    "expires_date": "2026-05-02T00:28:07.346081+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=8b39b62fbaabc80e:T=1743121648:RT=1743121648:S=AA-Afja2EV8V9FM21CWl7Cl8VUlU",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1758673648,
+                    "expires_date": "2025-09-24T00:27:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"defcd4c8-820f-4ac7-bae2-12b62d6c41f3\",\"ts\":1743121665965}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657687,
+                    "expires_date": "2026-03-28T00:28:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657687.711091,
+                    "expires_date": "2026-03-28T00:28:07.711091+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=527b3372-1d86-4cbe-9907-f83e0fc97b03&Created=03/28/2025 00:27:29&UserMode=0&guid=dc0bfb92-39c3-421e-9331-52769ab6939c&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657687.711203,
+                    "expires_date": "2026-03-28T00:28:07.711203+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId725",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249687.547609,
+                    "expires_date": "2026-04-27T00:28:07.547609+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId725Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "GAD",
+                    "value": "KlQxcMaGQMQGIYsZ_ixPu4lUssGM11YhFePxGsRP5xbtcMSSS2LsfSVSHivSGaG16njnE8QpUfTsSFGT8npGDJFZMssa",
+                    "domain": ".sigde.adocean.pl",
+                    "path": "/",
+                    "expires": 1777249687.190721,
+                    "expires_date": "2026-04-27T00:28:07.190721+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlQ-uMGGQMQGWTRRiaYPu4lUssGM11YhFenxmGtEtWuwl0aUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0tl8MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249687.547947,
+                    "expires_date": "2026-04-27T00:28:07.547947+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "Fc4sjFwRyQ3UpR0SYGcVHT1ku0aSHMOi.Kw6P5Ox2.r.y7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249687.548022,
+                    "expires_date": "2026-04-27T00:28:07.548022+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_VE9DL697FW",
+                    "value": "GS1.1.1743121665.1.1.1743121689.36.0.0",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681689.285135,
+                    "expires_date": "2026-05-02T00:28:09.285135+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T01:27:44.680089",
+        "timestamp_stop": "2025-03-28T01:28:14.458489"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://tehnozvezdje.si/",
+            "https://tehnozvezdje.si/kategorija/novosti/",
+            "https://tehnozvezdje.si/kategorija/svetovalnica/",
+            "https://tehnozvezdje.si/page/3/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "jsEmgNaT947I.dxMXJA4wylYGzpo0hhA0PBfw3Tg3rs-1743121679-1.0.1.1-jNgyiOnIoj.5uXjroMZHYqDjTsRcYj_lz_f_IKurJc8ORKSoP.Za9j24XcMtJ5vJ6GgJAcUM61rdEdMzCy9Zc1ozt7lGFSqXpdYjzwcFK0k",
+                    "domain": ".onesignal.com",
+                    "path": "/",
+                    "expires": 1743123496.516528,
+                    "expires_date": "2025-03-28T00:58:16.516528+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"fbed180e-f95a-4546-8b26-a42f7bd7225b\",\"ts\":1743121696669}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657696,
+                    "expires_date": "2026-03-28T00:28:16+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "GAD",
+                    "value": "KlSwdRMGQMQGRFGAlPu8u4lUssGMXP8c2RySssX6QYL8fG1OaoIaEaDLaGQsG0gRW7yGNgFtDlnXxgGWi15pmsMQGs..",
+                    "domain": ".sigde.adocean.pl",
+                    "path": "/",
+                    "expires": 1777249696.698803,
+                    "expires_date": "2026-04-27T00:28:16.698803+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657697.639903,
+                    "expires_date": "2026-03-28T00:28:17.639903+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=e5205db7-f6e4-4836-b58a-c70eded9c212&Created=03/28/2025 00:27:59&UserMode=0&guid=526a7730-8641-4f1d-8424-97e8a6a34191&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657697.639985,
+                    "expires_date": "2026-03-28T00:28:17.639985+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1450293243.1743121697",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681697.086859,
+                    "expires_date": "2026-05-02T00:28:17.086859+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=02091fee31c751bc:T=1743121680:RT=1743121680:S=AA-AfjYOXcEZa7bQS_wB5XHttaNR",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1758673680,
+                    "expires_date": "2025-09-24T00:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"60ed2d02-4381-401c-a6e3-8f6a86f57a4a\",\"ts\":1743121697453}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657697,
+                    "expires_date": "2026-03-28T00:28:17+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657697.82941,
+                    "expires_date": "2026-03-28T00:28:17.829410+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=b9708999-3212-44b5-bbab-6bffb7d0a6a7&Created=03/28/2025 00:28:00&UserMode=0&guid=f2edb6be-b26a-416b-aef3-b6928e8fa636&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657697.829529,
+                    "expires_date": "2026-03-28T00:28:17.829529+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249697.643857,
+                    "expires_date": "2026-04-27T00:28:17.643857+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gtest",
+                    "value": "KlG79MaGQMGGipPAuir8u4lUssGMXP8c25nSGDm6U-n5XBG.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1743726497.560785,
+                    "expires_date": "2025-04-04T00:28:17.560785+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlSgCMGGQMGGipPAuir8u4lUssGMXP8c25nSGDm6U-n5FRxSG7RrGS6GNgFtFlMQYH8W8jBGqSRxSG8.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249697.643971,
+                    "expires_date": "2026-04-27T00:28:17.643971+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "xI97HjnpwQLWU6CxuWQdiyQjGrmmzkadHtqnHOa132L.R7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249697.644051,
+                    "expires_date": "2026-04-27T00:28:17.644051+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_VE9DL697FW",
+                    "value": "GS1.1.1743121697.1.0.1743121698.59.0.0",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681698.994707,
+                    "expires_date": "2026-05-02T00:28:18.994707+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "jsEmgNaT947I.dxMXJA4wylYGzpo0hhA0PBfw3Tg3rs-1743121679-1.0.1.1-jNgyiOnIoj.5uXjroMZHYqDjTsRcYj_lz_f_IKurJc8ORKSoP.Za9j24XcMtJ5vJ6GgJAcUM61rdEdMzCy9Zc1ozt7lGFSqXpdYjzwcFK0k",
+                    "domain": ".onesignal.com",
+                    "path": "/",
+                    "expires": 1743123496.516528,
+                    "expires_date": "2025-03-28T00:58:16.516528+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"fbed180e-f95a-4546-8b26-a42f7bd7225b\",\"ts\":1743121696669}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657696,
+                    "expires_date": "2026-03-28T00:28:16+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "GAD",
+                    "value": "KlSwdRMGQMQGRFGAlPu8u4lUssGMXP8c2RySssX6QYL8fG1OaoIaEaDLaGQsG0gRW7yGNgFtDlnXxgGWi15pmsMQGs..",
+                    "domain": ".sigde.adocean.pl",
+                    "path": "/",
+                    "expires": 1777249696.698803,
+                    "expires_date": "2026-04-27T00:28:16.698803+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657697.639903,
+                    "expires_date": "2026-03-28T00:28:17.639903+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=e5205db7-f6e4-4836-b58a-c70eded9c212&Created=03/28/2025 00:27:59&UserMode=0&guid=526a7730-8641-4f1d-8424-97e8a6a34191&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657697.639985,
+                    "expires_date": "2026-03-28T00:28:17.639985+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1450293243.1743121697",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681697.086859,
+                    "expires_date": "2026-05-02T00:28:17.086859+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=02091fee31c751bc:T=1743121680:RT=1743121680:S=AA-AfjYOXcEZa7bQS_wB5XHttaNR",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1758673680,
+                    "expires_date": "2025-09-24T00:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"60ed2d02-4381-401c-a6e3-8f6a86f57a4a\",\"ts\":1743121697453}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657697,
+                    "expires_date": "2026-03-28T00:28:17+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657697.82941,
+                    "expires_date": "2026-03-28T00:28:17.829410+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=b9708999-3212-44b5-bbab-6bffb7d0a6a7&Created=03/28/2025 00:28:00&UserMode=0&guid=f2edb6be-b26a-416b-aef3-b6928e8fa636&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657697.829529,
+                    "expires_date": "2026-03-28T00:28:17.829529+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249697.643857,
+                    "expires_date": "2026-04-27T00:28:17.643857+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gtest",
+                    "value": "KlG79MaGQMGGipPAuir8u4lUssGMXP8c25nSGDm6U-n5XBG.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1743726497.560785,
+                    "expires_date": "2025-04-04T00:28:17.560785+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlSgCMGGQMGGipPAuir8u4lUssGMXP8c25nSGDm6U-n5FRxSG7RrGS6GNgFtFlMQYH8W8jBGqSRxSG8.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249697.643971,
+                    "expires_date": "2026-04-27T00:28:17.643971+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "xI97HjnpwQLWU6CxuWQdiyQjGrmmzkadHtqnHOa132L.R7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249697.644051,
+                    "expires_date": "2026-04-27T00:28:17.644051+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_VE9DL697FW",
+                    "value": "GS1.1.1743121697.1.0.1743121698.59.0.0",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681698.994707,
+                    "expires_date": "2026-05-02T00:28:18.994707+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "25",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "jsEmgNaT947I.dxMXJA4wylYGzpo0hhA0PBfw3Tg3rs-1743121679-1.0.1.1-jNgyiOnIoj.5uXjroMZHYqDjTsRcYj_lz_f_IKurJc8ORKSoP.Za9j24XcMtJ5vJ6GgJAcUM61rdEdMzCy9Zc1ozt7lGFSqXpdYjzwcFK0k",
+                    "domain": ".onesignal.com",
+                    "path": "/",
+                    "expires": 1743123496.516528,
+                    "expires_date": "2025-03-28T00:58:16.516528+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"fbed180e-f95a-4546-8b26-a42f7bd7225b\",\"ts\":1743121696669}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657743,
+                    "expires_date": "2026-03-28T00:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657744.192728,
+                    "expires_date": "2026-03-28T00:29:04.192728+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=e5205db7-f6e4-4836-b58a-c70eded9c212&Created=03/28/2025 00:27:59&UserMode=0&guid=526a7730-8641-4f1d-8424-97e8a6a34191&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657744.194403,
+                    "expires_date": "2026-03-28T00:29:04.194403+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1450293243.1743121697",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681743.906475,
+                    "expires_date": "2026-05-02T00:29:03.906475+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=02091fee31c751bc:T=1743121680:RT=1743121680:S=AA-AfjYOXcEZa7bQS_wB5XHttaNR",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1758673680,
+                    "expires_date": "2025-09-24T00:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"60ed2d02-4381-401c-a6e3-8f6a86f57a4a\",\"ts\":1743121697453}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657744,
+                    "expires_date": "2026-03-28T00:29:04+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657744.322616,
+                    "expires_date": "2026-03-28T00:29:04.322616+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=b9708999-3212-44b5-bbab-6bffb7d0a6a7&Created=03/28/2025 00:28:00&UserMode=0&guid=f2edb6be-b26a-416b-aef3-b6928e8fa636&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657744.322733,
+                    "expires_date": "2026-03-28T00:29:04.322733+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249744.152677,
+                    "expires_date": "2026-04-27T00:29:04.152677+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId725",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "25",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657724,
+                    "expires_date": "2026-03-28T00:28:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "GAD",
+                    "value": "KlSb3MMGQMQGRFGAlPu8u4lUssGMO1LcL6PxGsRP5xbtcMSSS3y0txhSHivSGaG16njnE8QpUfTsSFGT8npGDJFZMssa",
+                    "domain": ".sigde.adocean.pl",
+                    "path": "/",
+                    "expires": 1777249743.755482,
+                    "expires_date": "2026-04-27T00:29:03.755482+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlxhpRaGQMGGipPAuir8u4lUssGMz1LcL6nxmGBlIXVmw0aUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0tl8MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249744.152781,
+                    "expires_date": "2026-04-27T00:29:04.152781+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "_btwa_0AqDXdmBrDVIlNsG0VqBnRVAeNBvUsblk7k9f.w7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249744.152842,
+                    "expires_date": "2026-04-27T00:29:04.152842+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_VE9DL697FW",
+                    "value": "GS1.1.1743121697.1.1.1743121745.12.0.0",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681745.84892,
+                    "expires_date": "2026-05-02T00:29:05.848920+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljanje piškotkov\nZa zagotavljanje najboljših izkušenj uporabljamo piškotke, majhne datoteke, ki služijo shranjevanju in/ali dostopu do podatkov o napravi. Soglasje za te tehnologije nam bo omogočilo obdelavo podatkov, kot so vedenje pri brskanju ali prikaz zunanjih vsebin. Nekateri piškotki, kot je tisti za nastavitev, da nočete (ostalih) piškotkov, so obvezni. Vse druge lahko izključite v nastavitvah. Vseeno pa prosimo, da jih potrdite vsaj zaradi zbiranja statistike o obisku strani.\n\n\n\nFunkcionalni\n\n\n\nFunkcionalni\n\nVedno omogočeni\t\n\n\n\n\n\nTehnična hramba ali dostop sta nujno potrebna za zakonit namen omogočanja uporabe določene storitve, ki jo naročnik ali uporabnik izrecno zahteva, ali izključno za namen prenosa sporočila prek elektronskega komunikacijskega omrežja.\n\n\n\nNastavitve\n\n\nNastavitve\n\n\n\n\n\n\nTehnično shranjevanje ali dostop je potreben za zakonit namen shranjevanja nastavitev, ki jih naročnik ali uporabnik ni zahteval.\n\n\n\nStatistika\n\n\nStatistika\n\n\n\n\n\n\nTehnično shranjevanje",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Sprejmi]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button [Sprejmi] is categorized as an ambiguous acceptance phrase, while [Nastavitve] refers to managing settings. There are no buttons for accepting all cookies or declining cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi is categorized as an ambiguous acceptance phrase, while Nastavitve refers to managing settings. There are no buttons for accepting all cookies or declining cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T01:28:16.154771",
+        "timestamp_stop": "2025-03-28T01:29:11.077832"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Nastavitve)",
+            "Clicking an element of type (button), with text (Shranjevanje nastavitev)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://tehnozvezdje.si/",
+            "https://tehnozvezdje.si/kategorija/novosti/",
+            "https://tehnozvezdje.si/kategorija/svetovalnica/",
+            "https://tehnozvezdje.si/page/3/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Ycj1xME_m4ChWTTvZQFOa6S6Qk48oCtoEBlLd6ZSwbg-1743121736-1.0.1.1-UJLtXxY3PJnSbyfE6an5mwCdmVNnxXhy2EFM1x9XdxFriePT3B7sUCey16zpp9NVxLk3wWTrmmV_sTUDOMYh_KISgcRokHEgO3o.Ja5PkxE",
+                    "domain": ".onesignal.com",
+                    "path": "/",
+                    "expires": 1743123553.17634,
+                    "expires_date": "2025-03-28T00:59:13.176340+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"8fcbc614-a29e-4c18-8bb7-522cd0ee7a9f\",\"ts\":1743121753391}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657753,
+                    "expires_date": "2026-03-28T00:29:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "GAD",
+                    "value": "KlGVUMXGQMQGWlfB-MxBu4lUssGMXP8c2RySssX6QYL8fGMoIJUjEaDLaGQsG0gRW7yGNgFtDlnXxgGWi15pmsMQGs..",
+                    "domain": ".sigde.adocean.pl",
+                    "path": "/",
+                    "expires": 1777249753.412782,
+                    "expires_date": "2026-04-27T00:29:13.412782+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657754.270456,
+                    "expires_date": "2026-03-28T00:29:14.270456+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=64ccdc0c-6142-42cc-8f0f-0c81beed9795&Created=03/28/2025 00:28:56&UserMode=0&guid=1e7a1a33-8a64-483e-8896-4167af828d33&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657754.270874,
+                    "expires_date": "2026-03-28T00:29:14.270874+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.763658803.1743121754",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681753.803913,
+                    "expires_date": "2026-05-02T00:29:13.803913+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=9a62c9c29120b46d:T=1743121736:RT=1743121736:S=AA-AfjYZnFOmcDeTrpYYSrbFyFek",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1758673736,
+                    "expires_date": "2025-09-24T00:28:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"27cafc36-b119-4bd4-b494-aa66164362d2\",\"ts\":1743121754194}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657754,
+                    "expires_date": "2026-03-28T00:29:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657754.546532,
+                    "expires_date": "2026-03-28T00:29:14.546532+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ac9931c8-91b5-4e7c-878b-7a7c343ca053&Created=03/28/2025 00:28:57&UserMode=0&guid=dec703c7-ea7e-4322-8fac-39ffcfd31348&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657754.546665,
+                    "expires_date": "2026-03-28T00:29:14.546665+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249754.471703,
+                    "expires_date": "2026-04-27T00:29:14.471703+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gtest",
+                    "value": "KlQdiRGGQMGGadhAHMhBu4lUssGMXP8c25nSG4B5IKK5XBG.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1743726554.405637,
+                    "expires_date": "2025-04-04T00:29:14.405637+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlxWdMXGQMGGadhAHMhBu4lUssGMXP8c25nSG4B5IKK5FRxSG7RrGS6GNgFtFlMQYH8W8jBGqSRxSG8.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249754.471832,
+                    "expires_date": "2026-04-27T00:29:14.471832+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "2bAVML2G_4hDjAXbp3rh6i8hh3v0B5K7lFu77Zy2c8P.l7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249754.471861,
+                    "expires_date": "2026-04-27T00:29:14.471861+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_VE9DL697FW",
+                    "value": "GS1.1.1743121753.1.0.1743121755.58.0.0",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681755.841303,
+                    "expires_date": "2026-05-02T00:29:15.841303+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Ycj1xME_m4ChWTTvZQFOa6S6Qk48oCtoEBlLd6ZSwbg-1743121736-1.0.1.1-UJLtXxY3PJnSbyfE6an5mwCdmVNnxXhy2EFM1x9XdxFriePT3B7sUCey16zpp9NVxLk3wWTrmmV_sTUDOMYh_KISgcRokHEgO3o.Ja5PkxE",
+                    "domain": ".onesignal.com",
+                    "path": "/",
+                    "expires": 1743123553.17634,
+                    "expires_date": "2025-03-28T00:59:13.176340+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"8fcbc614-a29e-4c18-8bb7-522cd0ee7a9f\",\"ts\":1743121753391}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657753,
+                    "expires_date": "2026-03-28T00:29:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "GAD",
+                    "value": "KlGVUMXGQMQGWlfB-MxBu4lUssGMXP8c2RySssX6QYL8fGMoIJUjEaDLaGQsG0gRW7yGNgFtDlnXxgGWi15pmsMQGs..",
+                    "domain": ".sigde.adocean.pl",
+                    "path": "/",
+                    "expires": 1777249753.412782,
+                    "expires_date": "2026-04-27T00:29:13.412782+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657754.270456,
+                    "expires_date": "2026-03-28T00:29:14.270456+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=64ccdc0c-6142-42cc-8f0f-0c81beed9795&Created=03/28/2025 00:28:56&UserMode=0&guid=1e7a1a33-8a64-483e-8896-4167af828d33&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657754.270874,
+                    "expires_date": "2026-03-28T00:29:14.270874+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.763658803.1743121754",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681753.803913,
+                    "expires_date": "2026-05-02T00:29:13.803913+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=9a62c9c29120b46d:T=1743121736:RT=1743121736:S=AA-AfjYZnFOmcDeTrpYYSrbFyFek",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1758673736,
+                    "expires_date": "2025-09-24T00:28:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"27cafc36-b119-4bd4-b494-aa66164362d2\",\"ts\":1743121754194}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657754,
+                    "expires_date": "2026-03-28T00:29:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657754.546532,
+                    "expires_date": "2026-03-28T00:29:14.546532+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ac9931c8-91b5-4e7c-878b-7a7c343ca053&Created=03/28/2025 00:28:57&UserMode=0&guid=dec703c7-ea7e-4322-8fac-39ffcfd31348&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657754.546665,
+                    "expires_date": "2026-03-28T00:29:14.546665+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249754.471703,
+                    "expires_date": "2026-04-27T00:29:14.471703+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gtest",
+                    "value": "KlQdiRGGQMGGadhAHMhBu4lUssGMXP8c25nSG4B5IKK5XBG.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1743726554.405637,
+                    "expires_date": "2025-04-04T00:29:14.405637+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlxWdMXGQMGGadhAHMhBu4lUssGMXP8c25nSG4B5IKK5FRxSG7RrGS6GNgFtFlMQYH8W8jBGqSRxSG8.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249754.471832,
+                    "expires_date": "2026-04-27T00:29:14.471832+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "2bAVML2G_4hDjAXbp3rh6i8hh3v0B5K7lFu77Zy2c8P.l7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249754.471861,
+                    "expires_date": "2026-04-27T00:29:14.471861+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_VE9DL697FW",
+                    "value": "GS1.1.1743121753.1.0.1743121755.58.0.0",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681755.841303,
+                    "expires_date": "2026-05-02T00:29:15.841303+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "25",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "deny",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "deny",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "deny",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Ycj1xME_m4ChWTTvZQFOa6S6Qk48oCtoEBlLd6ZSwbg-1743121736-1.0.1.1-UJLtXxY3PJnSbyfE6an5mwCdmVNnxXhy2EFM1x9XdxFriePT3B7sUCey16zpp9NVxLk3wWTrmmV_sTUDOMYh_KISgcRokHEgO3o.Ja5PkxE",
+                    "domain": ".onesignal.com",
+                    "path": "/",
+                    "expires": 1743123553.17634,
+                    "expires_date": "2025-03-28T00:59:13.176340+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"8fcbc614-a29e-4c18-8bb7-522cd0ee7a9f\",\"ts\":1743121753391}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657830,
+                    "expires_date": "2026-03-28T00:30:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657831.012317,
+                    "expires_date": "2026-03-28T00:30:31.012317+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=64ccdc0c-6142-42cc-8f0f-0c81beed9795&Created=03/28/2025 00:28:56&UserMode=0&guid=1e7a1a33-8a64-483e-8896-4167af828d33&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774657831.012424,
+                    "expires_date": "2026-03-28T00:30:31.012424+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.763658803.1743121754",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681830.727331,
+                    "expires_date": "2026-05-02T00:30:30.727331+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=9a62c9c29120b46d:T=1743121736:RT=1743121736:S=AA-AfjYZnFOmcDeTrpYYSrbFyFek",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1758673736,
+                    "expires_date": "2025-09-24T00:28:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"27cafc36-b119-4bd4-b494-aa66164362d2\",\"ts\":1743121754194}",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657830,
+                    "expires_date": "2026-03-28T00:30:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657831.119551,
+                    "expires_date": "2026-03-28T00:30:31.119551+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ac9931c8-91b5-4e7c-878b-7a7c343ca053&Created=03/28/2025 00:28:57&UserMode=0&guid=dec703c7-ea7e-4322-8fac-39ffcfd31348&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774657831.119639,
+                    "expires_date": "2026-03-28T00:30:31.119639+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249830.955905,
+                    "expires_date": "2026-04-27T00:30:30.955905+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId725Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId725SecId4027Stress",
+                    "value": "1",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "25",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "deny",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "deny",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "deny",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1774657810,
+                    "expires_date": "2026-03-28T00:30:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "GAD",
+                    "value": "KlG3lRMGQMQGWlfB-MxBu4lUssGMI1gcL6PxGsRP5xbtcMSSS_FXG1rSHivSGaG16njnE8QpUfTsSFGT8npGDJFZMssa",
+                    "domain": ".sigde.adocean.pl",
+                    "path": "/",
+                    "expires": 1777249830.571258,
+                    "expires_date": "2026-04-27T00:30:30.571258+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlSW-MMGQMGGadhAHMhBu4lUssGMI1gcL6nxmGBorvAAw0aUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0tl8MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249830.956024,
+                    "expires_date": "2026-04-27T00:30:30.956024+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "x0dnSGcHILvMN7iSvKawb0W.iSvIqukYYLYPRL1rSRX.U7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777249830.956077,
+                    "expires_date": "2026-04-27T00:30:30.956077+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_VE9DL697FW",
+                    "value": "GS1.1.1743121753.1.1.1743121832.43.0.0",
+                    "domain": ".tehnozvezdje.si",
+                    "path": "/",
+                    "expires": 1777681832.498771,
+                    "expires_date": "2026-05-02T00:30:32.498771+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_save_1_click_1.png",
+            "010_decline_interaction_save_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_SAVE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljanje piškotkov\nZa zagotavljanje najboljših izkušenj uporabljamo piškotke, majhne datoteke, ki služijo shranjevanju in/ali dostopu do podatkov o napravi. Soglasje za te tehnologije nam bo omogočilo obdelavo podatkov, kot so vedenje pri brskanju ali prikaz zunanjih vsebin. Nekateri piškotki, kot je tisti za nastavitev, da nočete (ostalih) piškotkov, so obvezni. Vse druge lahko izključite v nastavitvah. Vseeno pa prosimo, da jih potrdite vsaj zaradi zbiranja statistike o obisku strani.\n\n\n\nFunkcionalni\n\n\n\nFunkcionalni\n\nVedno omogočeni\t\n\n\n\n\n\nTehnična hramba ali dostop sta nujno potrebna za zakonit namen omogočanja uporabe določene storitve, ki jo naročnik ali uporabnik izrecno zahteva, ali izključno za namen prenosa sporočila prek elektronskega komunikacijskega omrežja.\n\n\n\nNastavitve\n\n\nNastavitve\n\n\n\n\n\n\nTehnično shranjevanje ali dostop je potreben za zakonit namen shranjevanja nastavitev, ki jih naročnik ali uporabnik ni zahteval.\n\n\n\nStatistika\n\n\nStatistika\n\n\n\n\n\n\nTehnično shranjevanje",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi]  \nAmbiguousLabel2: None  \nGenericLabel3: [Nastavitve]  \nExplanation: \"Sprejmi\" is categorized as an ambiguous acceptance because it indicates a general agreement without specifying the type of cookies. \"Nastavitve\" is categorized under settings as it explicitly refers to managing or adjusting preferences.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is categorized as an ambiguous acceptance because it indicates a general agreement without specifying the type of cookies. \"Nastavitve\" is categorized under settings as it explicitly refers to managing or adjusting preferences."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nastavitve",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljanje piškotkov\nZa zagotavljanje najboljših izkušenj uporabljamo piškotke, majhne datoteke, ki služijo shranjevanju in/ali dostopu do podatkov o napravi. Soglasje za te tehnologije nam bo omogočilo obdelavo podatkov, kot so vedenje pri brskanju ali prikaz zunanjih vsebin. Nekateri piškotki, kot je tisti za nastavitev, da nočete (ostalih) piškotkov, so obvezni. Vse druge lahko izključite v nastavitvah. Vseeno pa prosimo, da jih potrdite vsaj zaradi zbiranja statistike o obisku strani.\n\n\n\nFunkcionalni\n\n\n\nFunkcionalni\n\nVedno omogočeni\t\n\n\n\n\n\nTehnična hramba ali dostop sta nujno potrebna za zakonit namen omogočanja uporabe določene storitve, ki jo naročnik ali uporabnik izrecno zahteva, ali izključno za namen prenosa sporočila prek elektronskega komunikacijskega omrežja.\n\n\n\nNastavitve\n\n\nNastavitve\n\n\n\n\n\n\nTehnično shranjevanje ali dostop je potreben za zakonit namen shranjevanja nastavitev, ki jih naročnik ali uporabnik ni zahteval.\n\n\n\nStatistika\n\n\nStatistika\n\n\n\n\n\n\nTehnično shranjevanje",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Sprejmi]\nAmbiguousLabel2: None\nGenericLabel3: [Shranjevanje nastavitev]\nExplanation: \"Sprejmi\" is a generic phrase indicating acceptance but is ambiguous without further context. \"Shranjevanje nastavitev\" refers to saving settings, which fits the criteria for settings management.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Shranjevanje nastavitev",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is a generic phrase indicating acceptance but is ambiguous without further context. \"Shranjevanje nastavitev\" refers to saving settings, which fits the criteria for settings management."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Shranjevanje nastavitev",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": true,
+                "save_settings_num_clicks": 1,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: [Shranjevanje nastavitev]  \nExplanation: Found an explicit save settings button labeled as \"Shranjevanje nastavitev.\"",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": "Shranjevanje nastavitev",
+                    "Explanation": "Found an explicit save settings button labeled as \"Shranjevanje nastavitev.\""
+                },
+                "save_settings_llm_consensus_reached": true,
+                "save_settings_llm_consensus_value": 1.0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T01:29:12.724647",
+        "timestamp_stop": "2025-03-28T01:30:37.974450"
+    }
+}

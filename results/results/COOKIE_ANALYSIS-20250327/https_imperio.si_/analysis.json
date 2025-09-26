@@ -1,0 +1,1718 @@
+{
+    "web_page": "https://imperio.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T22:27:56.168746",
+    "timestamp_stop": "2025-03-28T22:30:09.407234",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://imperio.si/",
+            "https://imperio.si/product/sticky-fingers-a-la-carte/",
+            "https://imperio.si/product/fajitas-plate-a-la-carte/",
+            "https://imperio.si/kontakt/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743200878,
+                    "expires_date": "2025-03-28T22:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197278609.2900848716",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_ZKB8RRMSFP",
+                    "value": "GS1.1.1743197278.1.0.1743197278.0.0.0",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757279.012074,
+                    "expires_date": "2026-05-02T21:27:59.012074+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1725934952.1743197279",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757279.015406,
+                    "expires_date": "2026-05-02T21:27:59.015406+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197278609.2900848716",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1750973279,
+                    "expires_date": "2025-06-26T21:27:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743200878,
+                    "expires_date": "2025-03-28T22:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197278609.2900848716",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798478,
+                    "expires_date": "2025-04-04T20:27:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1725934952.1743197279",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757299.481721,
+                    "expires_date": "2026-05-02T21:28:19.481721+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197278609.2900848716",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1750973299,
+                    "expires_date": "2025-06-26T21:28:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "bcbc61bcb1cb2a468ec2bb3170e9ba67",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woocommerce_recently_viewed",
+                    "value": "1615%7C1662",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_ZKB8RRMSFP",
+                    "value": "GS1.1.1743197278.1.1.1743197304.0.0.0",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757304.725516,
+                    "expires_date": "2026-05-02T21:28:24.725516+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T22:27:57.491332",
+        "timestamp_stop": "2025-03-28T22:28:25.605692"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (V redu)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://imperio.si/",
+            "https://imperio.si/product/sticky-fingers-a-la-carte/",
+            "https://imperio.si/product/fajitas-plate-a-la-carte/",
+            "https://imperio.si/kontakt/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743200908,
+                    "expires_date": "2025-03-28T22:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197308131.5239249837",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_ZKB8RRMSFP",
+                    "value": "GS1.1.1743197308.1.0.1743197308.0.0.0",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757308.578701,
+                    "expires_date": "2026-05-02T21:28:28.578701+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.475685024.1743197309",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757308.579742,
+                    "expires_date": "2026-05-02T21:28:28.579742+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197308131.5239249837",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1750973308,
+                    "expires_date": "2025-06-26T21:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743200908,
+                    "expires_date": "2025-03-28T22:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197308131.5239249837",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.475685024.1743197309",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757308.579742,
+                    "expires_date": "2026-05-02T21:28:28.579742+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197308131.5239249837",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1750973332,
+                    "expires_date": "2025-06-26T21:28:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_ZKB8RRMSFP",
+                    "value": "GS1.1.1743197308.1.1.1743197332.0.0.0",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757332.190947,
+                    "expires_date": "2026-05-02T21:28:52.190947+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743200908,
+                    "expires_date": "2025-03-28T22:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197308131.5239249837",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798508,
+                    "expires_date": "2025-04-04T20:28:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.475685024.1743197309",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757349.137116,
+                    "expires_date": "2026-05-02T21:29:09.137116+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197308131.5239249837",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1750973349,
+                    "expires_date": "2025-06-26T21:29:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_ZKB8RRMSFP",
+                    "value": "GS1.1.1743197308.1.1.1743197354.0.0.0",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757354.236521,
+                    "expires_date": "2026-05-02T21:29:14.236521+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "<img width=\"201\" height=\"200\" src=\"https://imperio.si/wp-content/uploads/2018/05/logo-imperio-mexicano.png\" class=\"attachment-large size-large\" alt=\"\" srcset=\"https://imperio.si/wp-content/uploads/2018/05/logo-imperio-mexicano.png 201w, https://imperio.si/wp-content/uploads/2018/05/logo-imperio-mexicano-100x100.png 100w, https://imperio.si/wp-content/uploads/2018/05/logo-imperio-mexicano-150x150.png 150w\" sizes=\"(max-width: 201px) 100vw, 201px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\tNa spletni strani uporabljamo piškotke, s pomočjo katerih izboljšujemo vašo uporabniško izkušnjo in zagotavljamo kakovost vsebin. Z nadaljnjo uporabo se strinjate z uporabo piškotkov.\nVeč o piškotkih…\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\tV redu",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [V redu]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih…]  \nExplanation: There are no explicit buttons for accepting or declining cookies. \"V redu\" is categorized as an ambiguous acceptance. \"Več o piškotkih…\" indicates more information about cookie settings.",
+                "llm_response_parsed": {
+                    "Accept": "V redu",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih…",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "There are no explicit buttons for accepting or declining cookies. \"V redu\" is categorized as an ambiguous acceptance. \"Več o piškotkih…\" indicates more information about cookie settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "V redu",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T22:28:27.180838",
+        "timestamp_stop": "2025-03-28T22:29:15.069142"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Več o piškotkih…)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://imperio.si/",
+            "https://imperio.si/product/sticky-fingers-a-la-carte/",
+            "https://imperio.si/product/fajitas-plate-a-la-carte/",
+            "https://imperio.si/kontakt/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743200957,
+                    "expires_date": "2025-03-28T22:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197357924.7868836159",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197357924.7868836159",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1750973358,
+                    "expires_date": "2025-06-26T21:29:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_ZKB8RRMSFP",
+                    "value": "GS1.1.1743197358.1.0.1743197358.0.0.0",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757358.821764,
+                    "expires_date": "2026-05-02T21:29:18.821764+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1701396070.1743197359",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757358.822976,
+                    "expires_date": "2026-05-02T21:29:18.822976+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743200957,
+                    "expires_date": "2025-03-28T22:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197357924.7868836159",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197357924.7868836159",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1750973384,
+                    "expires_date": "2025-06-26T21:29:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1701396070.1743197359",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757384.067676,
+                    "expires_date": "2026-05-02T21:29:44.067676+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "c0bba4800e34ae77e86f9c90b565350e",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_ZKB8RRMSFP",
+                    "value": "GS1.1.1743197358.1.1.1743197388.0.0.0",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757388.440813,
+                    "expires_date": "2026-05-02T21:29:48.440813+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743200957,
+                    "expires_date": "2025-03-28T22:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://imperio.si/",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197357924.7868836159",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": 1743798557,
+                    "expires_date": "2025-04-04T20:29:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743197357924.7868836159",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1750973403,
+                    "expires_date": "2025-06-26T21:30:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1701396070.1743197359",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757403.300014,
+                    "expires_date": "2026-05-02T21:30:03.300014+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "c0bba4800e34ae77e86f9c90b565350e",
+                    "domain": "imperio.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_ZKB8RRMSFP",
+                    "value": "GS1.1.1743197358.1.1.1743197408.0.0.0",
+                    "domain": ".imperio.si",
+                    "path": "/",
+                    "expires": 1777757408.349925,
+                    "expires_date": "2026-05-02T21:30:08.349925+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_new_tabs_0.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "<img width=\"201\" height=\"200\" src=\"https://imperio.si/wp-content/uploads/2018/05/logo-imperio-mexicano.png\" class=\"attachment-large size-large\" alt=\"\" srcset=\"https://imperio.si/wp-content/uploads/2018/05/logo-imperio-mexicano.png 201w, https://imperio.si/wp-content/uploads/2018/05/logo-imperio-mexicano-100x100.png 100w, https://imperio.si/wp-content/uploads/2018/05/logo-imperio-mexicano-150x150.png 150w\" sizes=\"(max-width: 201px) 100vw, 201px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\tNa spletni strani uporabljamo piškotke, s pomočjo katerih izboljšujemo vašo uporabniško izkušnjo in zagotavljamo kakovost vsebin. Z nadaljnjo uporabo se strinjate z uporabo piškotkov.\nVeč o piškotkih…\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\tV redu",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [V redu]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih…]  \nExplanation: There are no clear accept or decline buttons present. \"V redu\" is categorized as an ambiguous acceptance, while \"Več o piškotkih…\" is related to managing settings.",
+                "llm_response_parsed": {
+                    "Accept": "V redu",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih…",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "There are no clear accept or decline buttons present. \"V redu\" is categorized as an ambiguous acceptance, while \"Več o piškotkih…\" is related to managing settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več o piškotkih…",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T22:29:16.682346",
+        "timestamp_stop": "2025-03-28T22:30:09.146036"
+    }
+}

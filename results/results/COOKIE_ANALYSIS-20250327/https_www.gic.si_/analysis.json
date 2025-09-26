@@ -1,0 +1,697 @@
+{
+    "web_page": "https://www.gic.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T20:15:34.292271",
+    "timestamp_stop": "2025-03-28T20:18:01.158405",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.gic.si/",
+            "https://www.gic.si/en",
+            "https://www.gic.si/en/trajnost/digitalna-transformacija",
+            "https://www.gic.si/storitve/visoke-gradnje/obnove"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6IkVDWFRtd20rVzhKRHJVdWFUcTk2R2c9PSIsInZhbHVlIjoiMk1BQ09qU1NlQXNzYWc3L0d4UmV1RktxUVUyV3EvYUNRYWZ2elk5MTY5Wm14RkxIcGZlZERtQnl6UW5IVnF5djl4MmUyUE15RDBtZkV1R0QzZDgvTlFZbTJMWGZrVHJzSzJsdERsdzJ4Ung1RnJ1VzZqdG9SUDJwMTRPeUxBYjIiLCJtYWMiOiIxMjhhMWFjYjNlM2QyNmI3NDQ5NDc5ZThhNDA4YzgyNDYzMDgzMWUzMjYzODQyZmFmOTZmNzI4MTYwNjhlYTc3IiwidGFnIjoiIn0%3D",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1743196536.316234,
+                    "expires_date": "2025-03-28T21:15:36.316234+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"firstpage\":\"https://www.gic.si/\"}",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1745781337,
+                    "expires_date": "2025-04-27T19:15:37+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"firstpage\":\"https://www.gic.si/\",\"action\":\"accept\",\"consenttime\":1729768604,\"categories\":\"[\\\"performance\\\",\\\"functionality\\\",\\\"targeting\\\"]\"}",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1745781343,
+                    "expires_date": "2025-04-27T19:15:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1177193872.1743189344",
+                    "domain": ".gic.si",
+                    "path": "/",
+                    "expires": 1777749358.497193,
+                    "expires_date": "2026-05-02T19:15:58.497193+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6IjRhM1EyNFFRakRqRXpyaVh2M2dzc0E9PSIsInZhbHVlIjoiMXFzVnQxSXlGNDByZXZhcmgrcHlQNDFTZG9BQU5TbXVTUFo2SEFkbjBWbW51UmxaS3hGSWpic2dyaDc3QmczbjIzeEVBbWI2NjN0SzV2YkNHSXZ6U2Q5K2orM1U2WjAvZFFQSGdnNWdSQ2tkSzh3Y1lLQkYvUjNseE1QRG02ZXEiLCJtYWMiOiI1OTExZWM0OWI2ODY1OTg5ZmE3YWM5NDViODU1Njc0ODU3Y2E4M2U2NWY1OTZiN2IwOWM1YWU5NDU5NTAwZWU5IiwidGFnIjoiIn0%3D",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1743196558.43763,
+                    "expires_date": "2025-03-28T21:15:58.437630+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_K8T6S2N9G0",
+                    "value": "GS1.1.1743189343.1.1.1743189358.0.0.0",
+                    "domain": ".gic.si",
+                    "path": "/",
+                    "expires": 1777749358.496147,
+                    "expires_date": "2026-05-02T19:15:58.496147+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T20:15:35.723054",
+        "timestamp_stop": "2025-03-28T20:16:05.831082"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (div), with text (Dovoli piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.gic.si/",
+            "https://www.gic.si/en",
+            "https://www.gic.si/en/trajnost/digitalna-transformacija",
+            "https://www.gic.si/storitve/visoke-gradnje/obnove"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6Ii9hZXFzQ1JVSlBtbFcxYkdVSTJUYkE9PSIsInZhbHVlIjoiZ01QZEk3eTh2WVVFQkxTVUpJaDFJVnVKdUlVNEY2cTRrenJ1OWVKOXZGaDhuemdkdXFFeEVDZjFNSHoyeTBwcEtpK0VJTDBKaW5PdEo5Wm5DSWM3WGprUnF4dno4emlMV0lGRlMrU2duQ1NhcUxVbjFkYU5MUFl3RDNITk5ZSmwiLCJtYWMiOiI0NTRiMzI5M2VjNTYzMGUzMzVkNTFlNmRkYTVjNTc4M2RiYmUxNjYxYzIxNjRhOGFiYTQxMjk4MDJkN2U3NDMwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1743196568.230851,
+                    "expires_date": "2025-03-28T21:16:08.230851+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"firstpage\":\"https://www.gic.si/\"}",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1745781369,
+                    "expires_date": "2025-04-27T19:16:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6Ii9hZXFzQ1JVSlBtbFcxYkdVSTJUYkE9PSIsInZhbHVlIjoiZ01QZEk3eTh2WVVFQkxTVUpJaDFJVnVKdUlVNEY2cTRrenJ1OWVKOXZGaDhuemdkdXFFeEVDZjFNSHoyeTBwcEtpK0VJTDBKaW5PdEo5Wm5DSWM3WGprUnF4dno4emlMV0lGRlMrU2duQ1NhcUxVbjFkYU5MUFl3RDNITk5ZSmwiLCJtYWMiOiI0NTRiMzI5M2VjNTYzMGUzMzVkNTFlNmRkYTVjNTc4M2RiYmUxNjYxYzIxNjRhOGFiYTQxMjk4MDJkN2U3NDMwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1743196568.230851,
+                    "expires_date": "2025-03-28T21:16:08.230851+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"firstpage\":\"https://www.gic.si/\",\"action\":\"accept\",\"consenttime\":1729768604,\"categories\":\"[\\\"performance\\\",\\\"functionality\\\",\\\"targeting\\\"]\"}",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1745781396,
+                    "expires_date": "2025-04-27T19:16:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1653493469.1743189369",
+                    "domain": ".gic.si",
+                    "path": "/",
+                    "expires": 1777749396.977483,
+                    "expires_date": "2026-05-02T19:16:36.977483+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_K8T6S2N9G0",
+                    "value": "GS1.1.1743189368.1.1.1743189396.0.0.0",
+                    "domain": ".gic.si",
+                    "path": "/",
+                    "expires": 1777749396.989425,
+                    "expires_date": "2026-05-02T19:16:36.989425+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"firstpage\":\"https://www.gic.si/\",\"action\":\"accept\",\"consenttime\":1729768604,\"categories\":\"[\\\"performance\\\",\\\"functionality\\\",\\\"targeting\\\"]\"}",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1745781402,
+                    "expires_date": "2025-04-27T19:16:42+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1653493469.1743189369",
+                    "domain": ".gic.si",
+                    "path": "/",
+                    "expires": 1777749416.901411,
+                    "expires_date": "2026-05-02T19:16:56.901411+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6ImlpbWRTcGNJMEV3MFM1dEVEa0FTMVE9PSIsInZhbHVlIjoiN3FOK1owdEQ1UVl3WU52K2ZGYmZCNG9jVHcxWXpsWjZWYXQzMHZoLzJTREM4OHhqZ1JXZEIrbHAvUHFDbW95cWpJNVF0TG1MbnlYWEJSOVBYRVR6djAxV3piWERzcTdOWE9wdVA0ZCtURStGUzBnTkkrekl4a0Vxaml0MFdaZlQiLCJtYWMiOiJhYmM4ZjhjYWIxZDY3MjlmMWJkYjZkZWU3YWQxZDdjOWEwODdkZWFjYzk0MTAxOGM2YmE5ZDIyYzcyNDEzMzI1IiwidGFnIjoiIn0%3D",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1743196616.840596,
+                    "expires_date": "2025-03-28T21:16:56.840596+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_K8T6S2N9G0",
+                    "value": "GS1.1.1743189368.1.1.1743189416.0.0.0",
+                    "domain": ".gic.si",
+                    "path": "/",
+                    "expires": 1777749416.900987,
+                    "expires_date": "2026-05-02T19:16:56.900987+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran uporablja piškotke za sledljivost  \n  \n\t    \n      To spletno mesto uporablja piškotke za izboljšanje uporabniške izkušnje. Z uporabo našega spletnega mesta sprejemate vse piškotke v skladu z našo politiko piškotkov.    \n\n          \n  \n          \n        Shranite in zaprite      \n              \n        Dovoli piškotke      \n              \n        Ne dovolim piškotkov      \n      \n\n  \n    \n      \n        \n          \n            \n          \n        \n      \n      \n        Pokaži podrobnosti      \n      \n        Skrij podrobnosti      \n    \n  \n\t\t\n\t\t\t\t\t\n\t\t\n\n\n  \n    \n      Powered by CookieScript",
+                "banner_z_index": 999997,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli piškotke]\nGenericLabel2: [Ne dovolim piškotkov]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Pokaži podrobnosti]\nExplanation: \"Dovoli piškotke\" is categorized as accepting all cookies, while \"Ne dovolim piškotkov\" is a clear refusal of cookies. \"Pokaži podrobnosti\" is related to managing settings and thus falls under GenericLabel3. There are no ambiguous accept or decline phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne dovolim piškotkov",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Pokaži podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli piškotke\" is categorized as accepting all cookies, while \"Ne dovolim piškotkov\" is a clear refusal of cookies. \"Pokaži podrobnosti\" is related to managing settings and thus falls under GenericLabel3. There are no ambiguous accept or decline phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T20:16:07.865193",
+        "timestamp_stop": "2025-03-28T20:17:04.088074"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (div), with text (Ne dovolim piškotkov)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.gic.si/",
+            "https://www.gic.si/en",
+            "https://www.gic.si/en/trajnost/digitalna-transformacija",
+            "https://www.gic.si/storitve/visoke-gradnje/obnove"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6ImJYcjRwYkxjVGFEV0tpQm51UTVjS2c9PSIsInZhbHVlIjoiTklvRm1JL0x3czB1RXZrbWpRM0w2cTYrZWdSRXpTNW5qcndjUjVIQUF5Rk5xWFlXVDZ2YjB1RVo0YmpQWXdWZ25xWDZ6cGxMb3FKSmhVNUNxdVNRTjJKKzM0M25YWk1lOEhpemJBTk93M0FDZTVUVjJIUVFqUUVYNWNkUy82U2MiLCJtYWMiOiJkYjY3MWE3MDIwNTAxZDU0MWFlOTYzZGQ2OTAyM2ViNmVkYmYyMmEyYzZlOGM4NmM5Nzc4ZjU2NTQxY2U0MWJlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1743196626.250325,
+                    "expires_date": "2025-03-28T21:17:06.250325+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"firstpage\":\"https://www.gic.si/\"}",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1745781427,
+                    "expires_date": "2025-04-27T19:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6ImJYcjRwYkxjVGFEV0tpQm51UTVjS2c9PSIsInZhbHVlIjoiTklvRm1JL0x3czB1RXZrbWpRM0w2cTYrZWdSRXpTNW5qcndjUjVIQUF5Rk5xWFlXVDZ2YjB1RVo0YmpQWXdWZ25xWDZ6cGxMb3FKSmhVNUNxdVNRTjJKKzM0M25YWk1lOEhpemJBTk93M0FDZTVUVjJIUVFqUUVYNWNkUy82U2MiLCJtYWMiOiJkYjY3MWE3MDIwNTAxZDU0MWFlOTYzZGQ2OTAyM2ViNmVkYmYyMmEyYzZlOGM4NmM5Nzc4ZjU2NTQxY2U0MWJlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1743196626.250325,
+                    "expires_date": "2025-03-28T21:17:06.250325+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"firstpage\":\"https://www.gic.si/\",\"action\":\"reject\",\"consenttime\":1729768604,\"categories\":\"[]\"}",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1745781454,
+                    "expires_date": "2025-04-27T19:17:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PH_HPXY_CHECK",
+                    "value": "s1",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"firstpage\":\"https://www.gic.si/\",\"action\":\"reject\",\"consenttime\":1729768604,\"categories\":\"[]\"}",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1745781458,
+                    "expires_date": "2025-04-27T19:17:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.902623559.1743189466",
+                    "domain": ".gic.si",
+                    "path": "/",
+                    "expires": 1777749473.591372,
+                    "expires_date": "2026-05-02T19:17:53.591372+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6IlQ4QUhMb05mclNsOHo2RzM0Tkxxb3c9PSIsInZhbHVlIjoiTWNrL29tZWNuTmVkS0d5UzI3MTJVVHFxUFMrOVN0SVIvUC9xclZKSHhaQitXa1Z1SXNCd1RUS3hxOXY1YlNMWEdwMjJ3TC9XZURZVmxKSENHclJIUnpkV3VqaXdSd24wSDMwaEdWSzBFakhQeFB6YVFScnNGQ0VnaEJsem55Qk0iLCJtYWMiOiI3YWU5MWM5YTNhYzE0MTcxZjY2YWJiOGUyZjNmYjM5MDdmMWIwMjg2OTM2MGVkZDMyMjRhNzcwODIwN2QwNmVmIiwidGFnIjoiIn0%3D",
+                    "domain": "www.gic.si",
+                    "path": "/",
+                    "expires": 1743196673.527322,
+                    "expires_date": "2025-03-28T21:17:53.527322+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_K8T6S2N9G0",
+                    "value": "GS1.1.1743189466.1.1.1743189473.0.0.0",
+                    "domain": ".gic.si",
+                    "path": "/",
+                    "expires": 1777749473.590747,
+                    "expires_date": "2026-05-02T19:17:53.590747+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran uporablja piškotke za sledljivost  \n  \n\t    \n      To spletno mesto uporablja piškotke za izboljšanje uporabniške izkušnje. Z uporabo našega spletnega mesta sprejemate vse piškotke v skladu z našo politiko piškotkov.    \n\n          \n  \n          \n        Shranite in zaprite      \n              \n        Dovoli piškotke      \n              \n        Ne dovolim piškotkov      \n      \n\n  \n    \n      \n        \n          \n            \n          \n        \n      \n      \n        Pokaži podrobnosti      \n      \n        Skrij podrobnosti      \n    \n  \n\t\t\n\t\t\t\t\t\n\t\t\n\n\n  \n    \n      Powered by CookieScript",
+                "banner_z_index": 999997,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne dovolim piškotkov]  \nAmbiguousLabel1: [Dovoli piškotke]  \nAmbiguousLabel2: None  \nGenericLabel3: [Pokaži podrobnosti]  \nExplanation: \"Ne dovolim piškotkov\" clearly indicates a refusal to accept cookies, fitting GenericLabel2. \"Dovoli piškotke\" is an ambiguous acceptance phrase, hence assigned to AmbiguousLabel1. \"Pokaži podrobnosti\" relates to managing settings, so it fits GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli piškotke",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Ne dovolim piškotkov",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Pokaži podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Ne dovolim piškotkov\" clearly indicates a refusal to accept cookies, fitting GenericLabel2. \"Dovoli piškotke\" is an ambiguous acceptance phrase, hence assigned to AmbiguousLabel1. \"Pokaži podrobnosti\" relates to managing settings, so it fits GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Ne dovolim piškotkov",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T20:17:05.797228",
+        "timestamp_stop": "2025-03-28T20:18:00.787992"
+    }
+}

@@ -1,0 +1,997 @@
+{
+    "web_page": "https://www.spomincica.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T15:15:03.803559",
+    "timestamp_stop": "2025-03-28T15:17:27.243549",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.spomincica.si/",
+            "https://www.spomincica.si/zgodbe",
+            "https://www.spomincica.si/posvetovalnica",
+            "https://www.spomincica.si/novice/predavanje-vide-drame-orozim-dr-med-na-socialni-zbornici-slovenije"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Imdua01NMnF0WXE4U3VqU1hKR25sZlE9PSIsInZhbHVlIjoieVUvMVB4c2hVK0RMNDlFdHFBUW5Sd0wza1E4WnpmNnlabUQ5OWlKN2hRWlR4d0FXVVdqT0lGOStrbEJPREN1eEZJaEY5elJ3UkRoUlVzODhKNVc1RWNZRmRWOStPdHkxa2YrL00zdmlFR0NlQjN2Tk5SWDgxcFJBWm1OS1pBeWIiLCJtYWMiOiIzMDhlZDE3NWM3NzE4MzFmNTYwNWViMzMxMmNhNmUwOWE5OGU4NjJlZmE4MTRlOGM1ODVjYmY2Nzc0YzRhMmFjIiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178505.649806,
+                    "expires_date": "2025-03-28T16:15:05.649806+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "spomincica_session",
+                    "value": "eyJpdiI6InorSDU2UGtXeTlpUmE4eWdzZ2pkU2c9PSIsInZhbHVlIjoiK1RpWnViUkk2b2NQNlltOXVSUlIyY3Vob0ZZUytYdGx0dXdCOENla0dqQnJiOWY2KzcyZXNKd1JiVkNkRHlMRFlaakdDdHpWa3NZUWJxQm5PdjQ5UGpnZEFCME1tcUtBbVlUMmZ4MW1sRkhxdzZIejRacG80VkR3WHhUcWZXcmwiLCJtYWMiOiIwOGE3MGRkNDY5MTcxYmY2OGRlNjM4MjM1OGY0ZTJhYTQxMGZkNzgyMGQ2ZGRiYjFlYWI2ZjUzNDNiMDdmMzhkIiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178505.650006,
+                    "expires_date": "2025-03-28T16:15:05.650006+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.322056022.1743171306",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743257706,
+                    "expires_date": "2025-03-29T14:15:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_51923729_1",
+                    "value": "1",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743171366,
+                    "expires_date": "2025-03-28T14:16:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_77BDCTBLN1",
+                    "value": "GS1.1.1743171306.1.0.1743171306.0.0.0",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731306.492392,
+                    "expires_date": "2026-05-02T14:15:06.492392+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.243023647.1743171306",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731306.493183,
+                    "expires_date": "2026-05-02T14:15:06.493183+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.322056022.1743171306",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743257727,
+                    "expires_date": "2025-03-29T14:15:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_51923729_1",
+                    "value": "1",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743171366,
+                    "expires_date": "2025-03-28T14:16:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InQ4V1pYQ2J4UGhwdzVNdFQ1ei9FNnc9PSIsInZhbHVlIjoiTi9RVnYyNk14T3VIak9DQ20xYXpsREtIOWZMeHQ1aG4reDRqanZRME5sS0ZhK3VySTJUVVNJNWt5Y3psZnFTeDgxbHEyMFM5R3RvVFJWVEVoSm1seHAzVm1XZ0NBbTJoOWRtRGpkNzlHTmVDU0JXOWowc2trL3JlRnBacWNKcmciLCJtYWMiOiI0ZTMxNWNmMTdkNjYzMmVhYmI0NjlhMTRhZjkyZjhmMWYwYjRjZTA3MDQ4NTA3MmI4YjAwZDFhMjUzMjkzNGVjIiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178527.032093,
+                    "expires_date": "2025-03-28T16:15:27.032093+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "spomincica_session",
+                    "value": "eyJpdiI6ImZsNGtsamg5WHNhZlovZ0Z0R0Jsb1E9PSIsInZhbHVlIjoib3pJUU51MEFRRjZzWmRTdERKbHZYaUxyZ2dXck1TS1dKcGpYMEtsS29mWEcwWks5L2dqRytnT0NrRkkvblV1azNIdXFmVlUwY3hDY1oyVDIxUis5RXNUUFBNVWtud0FmMk81NVgvdFdMTkQweThZdHptUXdLbTRRK0JNeDBWRXkiLCJtYWMiOiIyYzU4YzkyNjA2MjNlNGE5MjhjNjJhMTdkY2U5OWZmMmE4OTI3NTdkNDkyNzYwYzY0YzFiODFiYjU2NTI0YTNlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178527.032208,
+                    "expires_date": "2025-03-28T16:15:27.032208+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_77BDCTBLN1",
+                    "value": "GS1.1.1743171306.1.1.1743171327.0.0.0",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731327.403364,
+                    "expires_date": "2026-05-02T14:15:27.403364+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.243023647.1743171306",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731327.403865,
+                    "expires_date": "2026-05-02T14:15:27.403865+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T15:15:05.182838",
+        "timestamp_stop": "2025-03-28T15:15:33.551742"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (SPREJMI VSE)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.spomincica.si/",
+            "https://www.spomincica.si/zgodbe",
+            "https://www.spomincica.si/posvetovalnica",
+            "https://www.spomincica.si/novice/predavanje-vide-drame-orozim-dr-med-na-socialni-zbornici-slovenije"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IjhVT1d2OVEyWmlXbmJ6L29kc29EWWc9PSIsInZhbHVlIjoiakhIOUhDcVY5cm1kQ252cWRzUldVT1FIQW1SaHQxcHpUQjd4VE1Iejh5UGxnSFo2WTlkOWd5YjlnYUFwMkdZN1hsdDBBZzVRdXRaeXJSRW9QYnRNekZDL1F2UDZLOEc1QzRGdTR4blBPTWNjUnl0Y2s5U3dJZE0zcStjOHBldTYiLCJtYWMiOiIwMzhiN2VlNjgxZTJkNmNlZDQ0NmZlNDE3YjRlZTQwY2E4Nzk1NTQ3MTc5OTU0ODNjODJiZTIwOTNjYTFhYjVkIiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178535.530058,
+                    "expires_date": "2025-03-28T16:15:35.530058+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "spomincica_session",
+                    "value": "eyJpdiI6IjUzcUVhUktaVzN1YUJZcTF5R1FSS2c9PSIsInZhbHVlIjoiNU9LOWpUNFAvUDhyY2JaVUpreTFLa011QWt0WU4rWlk3c1prY1B6K25NRDN6K1RTSXgzY0xtWDhGcDZBRnlGSUhZTU80THJoeHNnekxIdm11eXNmSU1ndCtpbHcxdXRtaGZEUlRKb2ZvZ3llVURNU0NidE0vZ2ZIU0lFQ1Y3MlAiLCJtYWMiOiJhYzE5MmJlNDk3NTI5ODIyZDQ3NTIwOTY2NzhkYjU2Y2I2NjUwNzkxZjlmNzhlODE2MzdmODVmYjY3MmFiMGRlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178535.530263,
+                    "expires_date": "2025-03-28T16:15:35.530263+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.808335688.1743171336",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743257736,
+                    "expires_date": "2025-03-29T14:15:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_51923729_1",
+                    "value": "1",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743171396,
+                    "expires_date": "2025-03-28T14:16:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_77BDCTBLN1",
+                    "value": "GS1.1.1743171336.1.0.1743171336.0.0.0",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731336.373824,
+                    "expires_date": "2026-05-02T14:15:36.373824+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.239473296.1743171336",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731336.374841,
+                    "expires_date": "2026-05-02T14:15:36.374841+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.808335688.1743171336",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743257736,
+                    "expires_date": "2025-03-29T14:15:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_51923729_1",
+                    "value": "1",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743171396,
+                    "expires_date": "2025-03-28T14:16:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_77BDCTBLN1",
+                    "value": "GS1.1.1743171336.1.0.1743171336.0.0.0",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731336.373824,
+                    "expires_date": "2026-05-02T14:15:36.373824+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.239473296.1743171336",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731336.374841,
+                    "expires_date": "2026-05-02T14:15:36.374841+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IllYL2hBZzE2RXpUQmkzdWkveU5TMmc9PSIsInZhbHVlIjoiVXhrVHhMTUN3bHpBQy9iOTBRb3lidUFVZzhtSDdRV2JnenROUTgyL09ISlduK2tpNHN2RGZheG9iUjU2NkMvejlaaXdnLy9zVmtDR2Z1QTdPTTVRUDNwTmxWb2wrcktLc1dmWHY3cStKSGl2bHJvZEYxZ1NhaDdFQk5ad0JxRkIiLCJtYWMiOiI0Y2ZkOGI3MWE1Y2ZjNzgwZjY4MTAwNGI1MThiMDgwMjk0ZGM0YTI4MzBkMDU4ZWE1M2FjNDc0ZjAzNmYwMzI5IiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178566.142884,
+                    "expires_date": "2025-03-28T16:16:06.142884+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "spomincica_session",
+                    "value": "eyJpdiI6IituVDEweFZuYnd4dWpES1J3ajBJRnc9PSIsInZhbHVlIjoibSt4elRKcnZtdWVLdmxxNWNNRnIrQS9DcmNUSExXQkI2aFhLeGh0UWJmWDJ6SWdsUXV5ekhOMjlkNDFPQzRLZzV1T0YyV0VjWVBELzJpM08wS2dpTm9NWnlGZG9HcGNRMUlFNGVyWExzay9rd0NpSmk4T0pPeHc3R2Z1T05LckEiLCJtYWMiOiI1ZmQxZTZhNWY5ZmQ1MTIzM2M1ZTI5YmZjZmYzYjY5OGUyZjU1MDJhNzI4N2JkOGFjMDY4MmQ4MDcxYzE0OGM1IiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178566.144424,
+                    "expires_date": "2025-03-28T16:16:06.144424+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_decision",
+                    "value": "eyJpdiI6IjZ0NFhicEFUajJFNlVkR2NOVGQ3Rnc9PSIsInZhbHVlIjoiT3RrOXZQR0ZmbWxKVUJkVElpN0NkRnpyUDVpR0JlVFlTVmFyTTB4MG0waUR1UU5MTzRybjYzT0FTK3RnZjRaTUFSeEVDdGY5cVZseEVuRi9zTHpINFE9PSIsIm1hYyI6ImY5Y2Q1NWNlMWY2OGI5MTM4NGJlOWY4ZGY3MDY5MGE2OWFhNGQ4ZTViM2JmNjRlYzRiM2YwY2NkOWJjOGE5MWEiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1774707366.144678,
+                    "expires_date": "2026-03-28T14:16:06.144678+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.808335688.1743171336",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743257784,
+                    "expires_date": "2025-03-29T14:16:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_51923729_1",
+                    "value": "1",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743171396,
+                    "expires_date": "2025-03-28T14:16:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookie_decision",
+                    "value": "eyJpdiI6IjZ0NFhicEFUajJFNlVkR2NOVGQ3Rnc9PSIsInZhbHVlIjoiT3RrOXZQR0ZmbWxKVUJkVElpN0NkRnpyUDVpR0JlVFlTVmFyTTB4MG0waUR1UU5MTzRybjYzT0FTK3RnZjRaTUFSeEVDdGY5cVZseEVuRi9zTHpINFE9PSIsIm1hYyI6ImY5Y2Q1NWNlMWY2OGI5MTM4NGJlOWY4ZGY3MDY5MGE2OWFhNGQ4ZTViM2JmNjRlYzRiM2YwY2NkOWJjOGE5MWEiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1774707366.144678,
+                    "expires_date": "2026-03-28T14:16:06.144678+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlprUHJHeTBia0pvMFJNdDUwQUNYamc9PSIsInZhbHVlIjoid2hRcUgrUGtKeitNOXhTS3BSSS9PMEtFY0xUVmVxMU10WHFhQjV5ZVVibCszeUphNVlPMFVKTHNTdjc3RnZZdHpwQkpxVHdZbTcyL0J2NUtVY0o1S2VqSjNiRWEwYUs3SlN0VzJPWDNkaFVzK2REa0NpanZ3Q1p1cmREdTloWEQiLCJtYWMiOiI0MGE0NGNhNDI1MTNmMjBhOGM2Y2VlNTM1MDc4YTBhZjkxYTA3YjNiNGY1MTk5MWJmNGJiYmU1OTBhYWZjYzQ1IiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178584.36446,
+                    "expires_date": "2025-03-28T16:16:24.364460+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "spomincica_session",
+                    "value": "eyJpdiI6Ik9saWNKRVZDMUNZcW5GU0Z4NUg0QVE9PSIsInZhbHVlIjoiSXkwbXVUT3dYLzhIbWs0cGVqQis3VVNJRElsUWdRbU05Qm5SMTJmdllDemQvdFdWbVNZQmxjS0xadlZ2WTVQM3U5UU0zaURoVFBTT3JMYUxQRms5c3lXMmxhL0J6SS9oUyttRVRoSTdjWGpqZW9DMFZJN1NtcitxWW1rdEowbzAiLCJtYWMiOiJkZWE4MTNiZWQ5MDU0MjJiNjUwMWYwOTIwNTM5ODA5ZDhiZjVlZjRhNDE5MTNhODUzN2ZkMTRkZDk1OWQ3NTI5IiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178584.36459,
+                    "expires_date": "2025-03-28T16:16:24.364590+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_77BDCTBLN1",
+                    "value": "GS1.1.1743171336.1.1.1743171384.0.0.0",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731384.734217,
+                    "expires_date": "2026-05-02T14:16:24.734217+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.239473296.1743171336",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731384.734661,
+                    "expires_date": "2026-05-02T14:16:24.734661+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Uporabljamo piškotke!\n                        Ta spletna stran uporablja obvezne piškotke za pravilno delovanje strani in piškotke za\n                            sledenje\n                            ter analizo. Slednji bodo aktivirani šele po vašem soglasju.\n                        Nastavitve\n                    \n                    \n                        SPREJMI VSE\n                        ZAVRNI VSE",
+                "banner_z_index": 1000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [SPREJMI VSE]\nGenericLabel2: [ZAVRNI VSE]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button [SPREJMI VSE] corresponds to accepting all cookies, while [ZAVRNI VSE] corresponds to declining all cookies. [Nastavitve] is related to managing settings.",
+                "llm_response_parsed": {
+                    "Accept": "SPREJMI VSE",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "ZAVRNI VSE",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button SPREJMI VSE corresponds to accepting all cookies, while ZAVRNI VSE corresponds to declining all cookies. Nastavitve is related to managing settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "SPREJMI VSE",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T15:15:35.112450",
+        "timestamp_stop": "2025-03-28T15:16:30.881601"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (ZAVRNI VSE)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.spomincica.si/",
+            "https://www.spomincica.si/zgodbe",
+            "https://www.spomincica.si/posvetovalnica",
+            "https://www.spomincica.si/novice/predavanje-vide-drame-orozim-dr-med-na-socialni-zbornici-slovenije"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlJzc1pVanp1WHo4dWl3NUJaaGlyTXc9PSIsInZhbHVlIjoia0lrTmtqOXM0MGVBL3RZcW95UTM4Q2c3SnI0Q2RXNFo5dG1BNWxMaEZ5ZS9RVkxjTTllL2piSVgxMXEwQ3FpN0h4SEp2KzRBYUZhQXg5THdXNm9Ec3REWDI4Q3d3VklSMXdBMkJYeGxEZDZqaWpXTk91bTcyZkRxalhMYjlBYmciLCJtYWMiOiJkMzM2ODQxMTcwYWIyMWJkZjkxNWQ2MGJiNWQ1YzcwY2Q5MWY0MTM1YTYyMGJmZGM2YzFkMTFiNjRkZDZjYTE5IiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178592.797991,
+                    "expires_date": "2025-03-28T16:16:32.797991+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "spomincica_session",
+                    "value": "eyJpdiI6IndqczBHVE1IK0hlK3NBUDhrRkR2eFE9PSIsInZhbHVlIjoiUUNLNEs2MExYbEJUd0F2Tm1USEliZzJTNmVFbnZoY1lWQjhoWTlkNjVjS0RvbjdhcHJQM2dxaHBEbVhKVmkrWmk5YUtwR1kyRk1oeUZxRkxTMStDdjdkSkdXNE1qWUs2QUN2bDcxbU5EeFNkRHVNV2t6VEdVbjhmYzVCRTE5MEwiLCJtYWMiOiIzNDA0NDdlODI3MWZlM2FiNjUyZDNmYWRkYmYxOTg5NDY0ODg0MGZiNmY1NjM3NDhjOWM1ZGFiZWU2ZmNmYTJmIiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178592.798177,
+                    "expires_date": "2025-03-28T16:16:32.798177+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1449671156.1743171393",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743257793,
+                    "expires_date": "2025-03-29T14:16:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_51923729_1",
+                    "value": "1",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743171453,
+                    "expires_date": "2025-03-28T14:17:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_77BDCTBLN1",
+                    "value": "GS1.1.1743171393.1.0.1743171393.0.0.0",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731393.624538,
+                    "expires_date": "2026-05-02T14:16:33.624538+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2081336045.1743171393",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731393.627554,
+                    "expires_date": "2026-05-02T14:16:33.627554+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1449671156.1743171393",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743257793,
+                    "expires_date": "2025-03-29T14:16:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_51923729_1",
+                    "value": "1",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743171453,
+                    "expires_date": "2025-03-28T14:17:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_77BDCTBLN1",
+                    "value": "GS1.1.1743171393.1.0.1743171393.0.0.0",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731393.624538,
+                    "expires_date": "2026-05-02T14:16:33.624538+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2081336045.1743171393",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731393.627554,
+                    "expires_date": "2026-05-02T14:16:33.627554+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InJZSnFPUnR0OHZSTnR4amlKYWJ6S1E9PSIsInZhbHVlIjoiSEtocUp4NHRUU2YreExQbVVMUy9hajJSR0hiS0RkYldrakt1N2lSVUJGaDZBUU02WHpRdlFjSjJGQTF4ZWIramRJYjdxa1VlOTBFdzgwUEhQdmsySmdHTUNhZW9EcE93VVl0aFdLZUVnM1hKQTZ4ZStIRjlCcjF0QVlBUjRma00iLCJtYWMiOiJjZWIwOTU5NzQzMDE1MWZmZDMxYzg3OGQwNTdjODg3NjE3NDlhZTYxM2IwNjI1MmRjYWM3MjAyZDdhMzg0MjJiIiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178622.147152,
+                    "expires_date": "2025-03-28T16:17:02.147152+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "spomincica_session",
+                    "value": "eyJpdiI6InI4bk1YMzZBYnJpNk9KWGZUU0QwcXc9PSIsInZhbHVlIjoia0JUTnY1U0xNNWV4ek9sL1NTMGN0Skc5azFIRmJjM3F1TjBFNzU5NE80am44bFRLUzY2ZW94cWY4RmdCajloL01iRmZKSnNRSVk2a0NtdXd5NWlqb2hOM0dzR1JGT2lWVXZQZ0d4c3NjTS9zK2d2WnQvakRLMXdyS3FqUEVtbjciLCJtYWMiOiI3ZTIyY2FjMzQ1ZTMyM2I0NDJmMzRjNDAzNzg3Y2FhODQzMjIxN2RlZWNmNzVmNDU5ZDliZjczMGE1NTRmYTI5IiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178622.14728,
+                    "expires_date": "2025-03-28T16:17:02.147280+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_decision",
+                    "value": "eyJpdiI6ImphRm9PMkZWUTNZMS9BakFRdGl0V1E9PSIsInZhbHVlIjoiVER0QlFNUjhkUVdXRGs2TVZQWGpPbWhEVjB3Nnhmam5mV0JIcHZjZXlySW4ranVqZ2srSmNCU2gzRUM0RjlzbTAreTRQSlp5d2hST3d0cG45Z2J5Y2c9PSIsIm1hYyI6IjI3MGMxMWY3MmYzYmQ4NTQ1Mjc4ZDAzYmJjMGNiN2JlYmVjNjhkOTI2MmVlMzZlZjhhMThkZThhY2Y3ZDY0OTYiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1774707422.147326,
+                    "expires_date": "2026-03-28T14:17:02.147326+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1449671156.1743171393",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743257840,
+                    "expires_date": "2025-03-29T14:17:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_51923729_1",
+                    "value": "1",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1743171453,
+                    "expires_date": "2025-03-28T14:17:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookie_decision",
+                    "value": "eyJpdiI6ImphRm9PMkZWUTNZMS9BakFRdGl0V1E9PSIsInZhbHVlIjoiVER0QlFNUjhkUVdXRGs2TVZQWGpPbWhEVjB3Nnhmam5mV0JIcHZjZXlySW4ranVqZ2srSmNCU2gzRUM0RjlzbTAreTRQSlp5d2hST3d0cG45Z2J5Y2c9PSIsIm1hYyI6IjI3MGMxMWY3MmYzYmQ4NTQ1Mjc4ZDAzYmJjMGNiN2JlYmVjNjhkOTI2MmVlMzZlZjhhMThkZThhY2Y3ZDY0OTYiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1774707422.147326,
+                    "expires_date": "2026-03-28T14:17:02.147326+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IjR3VmRRUUlyL1p1bVlsU2NXbDZEclE9PSIsInZhbHVlIjoiNXptZmNKbW5ITzJPa1pmcWFUand6NzdQRGE5UGsvMEtva1hXUDUxZkQ1MlZGVTFiK1doaGdkWGFCSXhQbURNdExlQWZtR0x5SHBNZXZhYWxXNG1IMXFiT0pPcklBZWExNlN3WlNDekZzc0w5ZlFUeWFzSm5JVmVCck1vOG91TFkiLCJtYWMiOiI4YTkwMWE4ZWQ4N2I2MWNlYjFjYjE3ZWFhMTI4MGRlMjY3OTM5MmI4NmM4NTE0ZGY5YjJhMjY1MTE0OTQ3Mjg4IiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178640.446003,
+                    "expires_date": "2025-03-28T16:17:20.446003+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "spomincica_session",
+                    "value": "eyJpdiI6IkFCdDZES0d6UCtPN2ZWQnpaU0p6Y3c9PSIsInZhbHVlIjoiaHhyQWlXTWozTEY5L25mWDBLZHVtVDhpQzVRWm5HR2hXL2p2bzUyWjF6eXJGTVNyUTgyOGg5TlR2QmN4cmdPTEl0VmUwclFOS0tGWFdnZlZVRHlHd3lNcEtERk92UGdyOW9lR1JDVmc0SS84SzAxVi9jOXNvaFlzNGU2YTNQc0EiLCJtYWMiOiJjNjQxNmZkZWFkMmQ2ZTA4MWM4YjBhZWVkZGQ4MDcwZTU2NTBiNWQ2Mjc3N2JjMTNkOWVjY2E4MzA4NTRmMzc0IiwidGFnIjoiIn0%3D",
+                    "domain": "www.spomincica.si",
+                    "path": "/",
+                    "expires": 1743178640.446208,
+                    "expires_date": "2025-03-28T16:17:20.446208+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_77BDCTBLN1",
+                    "value": "GS1.1.1743171393.1.1.1743171440.0.0.0",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731440.774414,
+                    "expires_date": "2026-05-02T14:17:20.774414+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2081336045.1743171393",
+                    "domain": ".spomincica.si",
+                    "path": "/",
+                    "expires": 1777731440.774791,
+                    "expires_date": "2026-05-02T14:17:20.774791+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Uporabljamo piškotke!\n                        Ta spletna stran uporablja obvezne piškotke za pravilno delovanje strani in piškotke za\n                            sledenje\n                            ter analizo. Slednji bodo aktivirani šele po vašem soglasju.\n                        Nastavitve\n                    \n                    \n                        SPREJMI VSE\n                        ZAVRNI VSE",
+                "banner_z_index": 1000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [SPREJMI VSE]\nGenericLabel2: [ZAVRNI VSE]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button [SPREJMI VSE] is categorized as accepting all cookies, while [ZAVRNI VSE] is categorized as declining all cookies. [Nastavitve] indicates settings management, thus it is assigned to GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "SPREJMI VSE",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "ZAVRNI VSE",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button SPREJMI VSE is categorized as accepting all cookies, while ZAVRNI VSE is categorized as declining all cookies. Nastavitve indicates settings management, thus it is assigned to GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "ZAVRNI VSE",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T15:16:32.457731",
+        "timestamp_stop": "2025-03-28T15:17:26.998935"
+    }
+}

@@ -1,0 +1,577 @@
+{
+    "web_page": "https://www.mf.uni-lj.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T08:23:53.303386",
+    "timestamp_stop": "2025-03-28T08:26:27.626179",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mf.uni-lj.si/",
+            "https://www.mf.uni-lj.si/o-studiju/doktorski-studij",
+            "https://www.mf.uni-lj.si/o-studiju/drugi-studijski-programi/laboratorijska-biomedicina/anatomija-histologija",
+            "https://www.mf.uni-lj.si/stalne-povezave/top-menu/intranet"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "CONCRETE5",
+                    "value": "1abbbca999dd124d64b35b922c311e04",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "CONCRETE5",
+                    "value": "1abbbca999dd124d64b35b922c311e04",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T08:23:54.666111",
+        "timestamp_stop": "2025-03-28T08:24:29.407961"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mf.uni-lj.si/",
+            "https://www.mf.uni-lj.si/o-studiju/doktorski-studij",
+            "https://www.mf.uni-lj.si/o-studiju/drugi-studijski-programi/laboratorijska-biomedicina/anatomija-histologija",
+            "https://www.mf.uni-lj.si/stalne-povezave/top-menu/intranet"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "CONCRETE5",
+                    "value": "dbc6db39c9254d3b699d1367f23917fd",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "CONCRETE5",
+                    "value": "dbc6db39c9254d3b699d1367f23917fd",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookie_consent_user_accepted",
+                    "value": "true",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": 1748503501,
+                    "expires_date": "2025-05-29T07:25:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.311916989.1743146702",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1743233102,
+                    "expires_date": "2025-03-29T07:25:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_131838622_1",
+                    "value": "1",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1743146762,
+                    "expires_date": "2025-03-28T07:26:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookie_consent_level",
+                    "value": "%7B%22strictly-necessary%22%3Atrue%2C%22functionality%22%3Atrue%2C%22tracking%22%3Atrue%2C%22targeting%22%3Atrue%7D",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": 1748503502,
+                    "expires_date": "2025-05-29T07:25:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_RMN3EWYS5J",
+                    "value": "GS1.1.1743146702.1.1.1743146702.0.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777706702.430832,
+                    "expires_date": "2026-05-02T07:25:02.430832+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.834467138.1743146702",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777706702.431165,
+                    "expires_date": "2026-05-02T07:25:02.431165+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "CONCRETE5",
+                    "value": "dbc6db39c9254d3b699d1367f23917fd",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookie_consent_user_accepted",
+                    "value": "true",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": 1748503501,
+                    "expires_date": "2025-05-29T07:25:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.311916989.1743146702",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1743233124,
+                    "expires_date": "2025-03-29T07:25:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_131838622_1",
+                    "value": "1",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1743146762,
+                    "expires_date": "2025-03-28T07:26:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookie_consent_level",
+                    "value": "%7B%22strictly-necessary%22%3Atrue%2C%22functionality%22%3Atrue%2C%22tracking%22%3Atrue%2C%22targeting%22%3Atrue%7D",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": 1748503524,
+                    "expires_date": "2025-05-29T07:25:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_RMN3EWYS5J",
+                    "value": "GS1.1.1743146702.1.1.1743146724.0.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777706724.073151,
+                    "expires_date": "2026-05-02T07:25:24.073151+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.834467138.1743146702",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777706724.073606,
+                    "expires_date": "2026-05-02T07:25:24.073606+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Uporabljamo piškotkeSpletna stran Univerze v Ljubljani, Medicinske fakultete uporablja piškotke. Nujni piškotki bodo naloženi s klikom na »Dovoli samo nujne«. Za potrditev funkcionalnih in analitičnih piškotkov kliknite na »Dovoli vse«.Več informacij in nastavitve najdete na spletni strani Nastavitve zasebnosti.Dovoli vseDovoli samo nujneNastavitve",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Dovoli samo nujne]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: \"Dovoli vse\" is classified as accepting all cookies, while \"Dovoli samo nujne\" indicates declining all but necessary cookies. \"Nastavitve\" refers to settings management. No ambiguous labels were found.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Dovoli samo nujne",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" is classified as accepting all cookies, while \"Dovoli samo nujne\" indicates declining all but necessary cookies. \"Nastavitve\" refers to settings management. No ambiguous labels were found."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T08:24:30.936554",
+        "timestamp_stop": "2025-03-28T08:25:31.188726"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli samo nujne)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mf.uni-lj.si/",
+            "https://www.mf.uni-lj.si/o-studiju/doktorski-studij",
+            "https://www.mf.uni-lj.si/o-studiju/drugi-studijski-programi/laboratorijska-biomedicina/anatomija-histologija",
+            "https://www.mf.uni-lj.si/stalne-povezave/top-menu/intranet"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "CONCRETE5",
+                    "value": "2409d22dc7b675dcd565991c10bea12e",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "CONCRETE5",
+                    "value": "2409d22dc7b675dcd565991c10bea12e",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookie_consent_user_accepted",
+                    "value": "true",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": 1748503558,
+                    "expires_date": "2025-05-29T07:25:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_consent_level",
+                    "value": "%7B%22strictly-necessary%22%3Atrue%2C%22functionality%22%3Afalse%2C%22tracking%22%3Afalse%2C%22targeting%22%3Afalse%7D",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": 1748503558,
+                    "expires_date": "2025-05-29T07:25:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "CONCRETE5",
+                    "value": "2409d22dc7b675dcd565991c10bea12e",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookie_consent_user_accepted",
+                    "value": "true",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": 1748503558,
+                    "expires_date": "2025-05-29T07:25:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_consent_level",
+                    "value": "%7B%22strictly-necessary%22%3Atrue%2C%22functionality%22%3Afalse%2C%22tracking%22%3Afalse%2C%22targeting%22%3Afalse%7D",
+                    "domain": "www.mf.uni-lj.si",
+                    "path": "/",
+                    "expires": 1748503580,
+                    "expires_date": "2025-05-29T07:26:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Uporabljamo piškotkeSpletna stran Univerze v Ljubljani, Medicinske fakultete uporablja piškotke. Nujni piškotki bodo naloženi s klikom na »Dovoli samo nujne«. Za potrditev funkcionalnih in analitičnih piškotkov kliknite na »Dovoli vse«.Več informacij in nastavitve najdete na spletni strani Nastavitve zasebnosti.Dovoli vseDovoli samo nujneNastavitve",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Dovoli samo nujne]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: \"Dovoli vse\" is categorized under accepting all cookies, while \"Dovoli samo nujne\" is categorized under declining all or only accepting necessary cookies. \"Nastavitve\" is specifically about managing settings. There are no ambiguous phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Dovoli samo nujne",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" is categorized under accepting all cookies, while \"Dovoli samo nujne\" is categorized under declining all or only accepting necessary cookies. \"Nastavitve\" is specifically about managing settings. There are no ambiguous phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli samo nujne",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T08:25:32.715676",
+        "timestamp_stop": "2025-03-28T08:26:27.361031"
+    }
+}

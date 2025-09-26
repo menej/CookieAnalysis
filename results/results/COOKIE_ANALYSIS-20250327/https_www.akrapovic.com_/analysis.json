@@ -1,0 +1,697 @@
+{
+    "web_page": "https://www.akrapovic.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T09:08:56.797512",
+    "timestamp_stop": "2025-03-28T09:11:07.568236",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.akrapovic.com/",
+            "https://www.akrapovic.com/en/racing-service/car",
+            "https://www.akrapovic.com/en/car",
+            "https://www.akrapovic.com/en/moto/scooter"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "TiPMix",
+                    "value": "91.70552540441805",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152938.593592,
+                    "expires_date": "2025-03-28T09:08:58.593592+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "x-ms-routing-name",
+                    "value": "self",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152938.593839,
+                    "expires_date": "2025-03-28T09:08:58.593839+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_WXWS93TZ7W",
+                    "value": "GS1.1.1743149339.1.0.1743149339.0.0.0",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709339.507354,
+                    "expires_date": "2026-05-02T08:08:59.507354+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.412368460.1743149339",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709339.507928,
+                    "expires_date": "2026-05-02T08:08:59.507928+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "TiPMix",
+                    "value": "91.70552540441805",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152938.593592,
+                    "expires_date": "2025-03-28T09:08:58.593592+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "x-ms-routing-name",
+                    "value": "self",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152938.593839,
+                    "expires_date": "2025-03-28T09:08:58.593839+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.412368460.1743149339",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709358.862624,
+                    "expires_date": "2026-05-02T08:09:18.862624+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_WXWS93TZ7W",
+                    "value": "GS1.1.1743149339.1.1.1743149358.0.0.0",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709358.867404,
+                    "expires_date": "2026-05-02T08:09:18.867404+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T09:08:58.174908",
+        "timestamp_stop": "2025-03-28T09:09:25.235406"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (ACCEPT ALL COOKIES)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.akrapovic.com/",
+            "https://www.akrapovic.com/en/racing-service/car",
+            "https://www.akrapovic.com/en/car",
+            "https://www.akrapovic.com/en/moto/scooter"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "TiPMix",
+                    "value": "73.81386397609381",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152967.727441,
+                    "expires_date": "2025-03-28T09:09:27.727441+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "x-ms-routing-name",
+                    "value": "self",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152967.727725,
+                    "expires_date": "2025-03-28T09:09:27.727725+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.272139764.1743149368",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709368.496022,
+                    "expires_date": "2026-05-02T08:09:28.496022+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_WXWS93TZ7W",
+                    "value": "GS1.1.1743149368.1.1.1743149369.0.0.0",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709369.542871,
+                    "expires_date": "2026-05-02T08:09:29.542871+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "TiPMix",
+                    "value": "73.81386397609381",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152967.727441,
+                    "expires_date": "2025-03-28T09:09:27.727441+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "x-ms-routing-name",
+                    "value": "self",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152967.727725,
+                    "expires_date": "2025-03-28T09:09:27.727725+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.272139764.1743149368",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709368.496022,
+                    "expires_date": "2026-05-02T08:09:28.496022+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_WXWS93TZ7W",
+                    "value": "GS1.1.1743149368.1.1.1743149369.0.0.0",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709369.542871,
+                    "expires_date": "2026-05-02T08:09:29.542871+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "TiPMix",
+                    "value": "73.81386397609381",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152967.727441,
+                    "expires_date": "2025-03-28T09:09:27.727441+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "x-ms-routing-name",
+                    "value": "self",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743152967.727725,
+                    "expires_date": "2025-03-28T09:09:27.727725+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.272139764.1743149368",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709409.036228,
+                    "expires_date": "2026-05-02T08:10:09.036228+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_WXWS93TZ7W",
+                    "value": "GS1.1.1743149368.1.1.1743149409.0.0.0",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709409.044226,
+                    "expires_date": "2026-05-02T08:10:09.044226+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Dear visitor to the Akrapovič website! Our website uses cookies to store your preferences and other information in order to monitor the frequency of visits and to allow you to share content via social media, all with the aim of improving the user experience. Please read more about cookies in our Policy on Cookies.REJECT OPTIONAL COOKIESACCEPT ALL COOKIES",
+                "banner_z_index": 150,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [ACCEPT ALL COOKIES]\nGenericLabel2: [REJECT OPTIONAL COOKIES]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button labeled \"ACCEPT ALL COOKIES\" is categorized under GenericLabel1 as it signifies accepting all cookies. The button labeled \"REJECT OPTIONAL COOKIES\" is categorized under GenericLabel2 as it indicates a decline of optional cookies. There are no ambiguous buttons present in this case.",
+                "llm_response_parsed": {
+                    "Accept": "ACCEPT ALL COOKIES",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "REJECT OPTIONAL COOKIES",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button labeled \"ACCEPT ALL COOKIES\" is categorized under GenericLabel1 as it signifies accepting all cookies. The button labeled \"REJECT OPTIONAL COOKIES\" is categorized under GenericLabel2 as it indicates a decline of optional cookies. There are no ambiguous buttons present in this case."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "ACCEPT ALL COOKIES",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T09:09:26.849383",
+        "timestamp_stop": "2025-03-28T09:10:15.369640"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (REJECT OPTIONAL COOKIES)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.akrapovic.com/",
+            "https://www.akrapovic.com/en/racing-service/car",
+            "https://www.akrapovic.com/en/car",
+            "https://www.akrapovic.com/en/moto/scooter"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "TiPMix",
+                    "value": "17.667661460558282",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743153017.451967,
+                    "expires_date": "2025-03-28T09:10:17.451967+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "x-ms-routing-name",
+                    "value": "self",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743153017.452257,
+                    "expires_date": "2025-03-28T09:10:17.452257+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_WXWS93TZ7W",
+                    "value": "GS1.1.1743149418.1.0.1743149418.0.0.0",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709418.4158,
+                    "expires_date": "2026-05-02T08:10:18.415800+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.757167093.1743149418",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709418.417283,
+                    "expires_date": "2026-05-02T08:10:18.417283+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "TiPMix",
+                    "value": "17.667661460558282",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743153017.451967,
+                    "expires_date": "2025-03-28T09:10:17.451967+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "x-ms-routing-name",
+                    "value": "self",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743153017.452257,
+                    "expires_date": "2025-03-28T09:10:17.452257+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_WXWS93TZ7W",
+                    "value": "GS1.1.1743149418.1.0.1743149418.0.0.0",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709418.4158,
+                    "expires_date": "2026-05-02T08:10:18.415800+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.757167093.1743149418",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709418.417283,
+                    "expires_date": "2026-05-02T08:10:18.417283+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "TiPMix",
+                    "value": "17.667661460558282",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743153017.451967,
+                    "expires_date": "2025-03-28T09:10:17.451967+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "x-ms-routing-name",
+                    "value": "self",
+                    "domain": ".www.akrapovic.com",
+                    "path": "/",
+                    "expires": 1743153017.452257,
+                    "expires_date": "2025-03-28T09:10:17.452257+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.757167093.1743149418",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709460.844939,
+                    "expires_date": "2026-05-02T08:11:00.844939+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_WXWS93TZ7W",
+                    "value": "GS1.1.1743149418.1.1.1743149460.0.0.0",
+                    "domain": ".akrapovic.com",
+                    "path": "/",
+                    "expires": 1777709460.849147,
+                    "expires_date": "2026-05-02T08:11:00.849147+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Dear visitor to the Akrapovič website! Our website uses cookies to store your preferences and other information in order to monitor the frequency of visits and to allow you to share content via social media, all with the aim of improving the user experience. Please read more about cookies in our Policy on Cookies.REJECT OPTIONAL COOKIESACCEPT ALL COOKIES",
+                "banner_z_index": 150,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [ACCEPT ALL COOKIES]\nGenericLabel2: [REJECT OPTIONAL COOKIES]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button for accepting all cookies is categorized under GenericLabel1 and the button for rejecting optional cookies is categorized under GenericLabel2. There are no ambiguous or settings buttons present in the input.",
+                "llm_response_parsed": {
+                    "Accept": "ACCEPT ALL COOKIES",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "REJECT OPTIONAL COOKIES",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button for accepting all cookies is categorized under GenericLabel1 and the button for rejecting optional cookies is categorized under GenericLabel2. There are no ambiguous or settings buttons present in the input."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "REJECT OPTIONAL COOKIES",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T09:10:17.111873",
+        "timestamp_stop": "2025-03-28T09:11:07.236883"
+    }
+}

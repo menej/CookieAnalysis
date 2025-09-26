@@ -1,0 +1,577 @@
+{
+    "web_page": "https://www.rks.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T13:51:35.304562",
+    "timestamp_stop": "2025-03-28T13:54:21.710176",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.rks.si/",
+            "https://www.rks.si/sl/Novice/",
+            "https://www.rks.si/sl/Julij-2021/",
+            "https://www.rks.si/sl/Knjige/Clovek---nasa-prva-skrb-----/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "rks",
+                    "value": "a0i4ct6ca2rqqerik6jtd20r87",
+                    "domain": "www.rks.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "rks",
+                    "value": "a0i4ct6ca2rqqerik6jtd20r87",
+                    "domain": "www.rks.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T13:51:36.655482",
+        "timestamp_stop": "2025-03-28T13:52:14.433545"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Strinjam se)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.rks.si/",
+            "https://www.rks.si/sl/Novice/",
+            "https://www.rks.si/sl/Julij-2021/",
+            "https://www.rks.si/sl/Knjige/Clovek---nasa-prva-skrb-----/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "rks",
+                    "value": "aapaq5glcdlrnti4415u4sb4m7",
+                    "domain": "www.rks.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "rks",
+                    "value": "aapaq5glcdlrnti4415u4sb4m7",
+                    "domain": "www.rks.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bcms_cookie_accepted",
+                    "value": "2025-03-28",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1774702363.117191,
+                    "expires_date": "2026-03-28T12:52:43.117191+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.904772891.1743166364",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1743252764,
+                    "expires_date": "2025-03-29T12:52:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1743166424,
+                    "expires_date": "2025-03-28T12:53:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743166364420.150299812373874615",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1750942364,
+                    "expires_date": "2025-06-26T12:52:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_192P5XLM7J",
+                    "value": "GS1.1.1743166364.1.0.1743166364.60.0.718020830",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1777726364.479694,
+                    "expires_date": "2026-05-02T12:52:44.479694+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.284925279.1743166364",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1777726364.480299,
+                    "expires_date": "2026-05-02T12:52:44.480299+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.601272440.1743166365",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1750942364,
+                    "expires_date": "2025-06-26T12:52:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "rks",
+                    "value": "aapaq5glcdlrnti4415u4sb4m7",
+                    "domain": "www.rks.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bcms_cookie_accepted",
+                    "value": "2025-03-28",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1774702363.117191,
+                    "expires_date": "2026-03-28T12:52:43.117191+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.904772891.1743166364",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1743252789,
+                    "expires_date": "2025-03-29T12:53:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1743166424,
+                    "expires_date": "2025-03-28T12:53:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743166364420.150299812373874615",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1750942389,
+                    "expires_date": "2025-06-26T12:53:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.601272440.1743166365",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1750942365,
+                    "expires_date": "2025-06-26T12:52:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_192P5XLM7J",
+                    "value": "GS1.1.1743166364.1.1.1743166389.35.0.718020830",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1777726389.549143,
+                    "expires_date": "2026-05-02T12:53:09.549143+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.284925279.1743166364",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1777726389.549502,
+                    "expires_date": "2026-05-02T12:53:09.549502+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran uporablja piškotke. Z uporabo piškotkov omogočamo boljšo uporabniško izkušnjo.\n  Obvezni piškotki – Posamezni piškotki so nujni za delovanje spletne strani in jih ni moč onemogočiti.\n  Statistika – Dovoljujem anonimno spremljanje statistike obiska.\nVeč o uporabi piškotkovStrinjam seNe strinjam se",
+                "banner_z_index": 1999999999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne strinjam se]  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o uporabi piškotkov]  \nExplanation: The label [Ne strinjam se] is categorized as declining all cookies, while [Strinjam se] is treated as an ambiguous accept. The button [Več o uporabi piškotkov] relates to managing settings or obtaining more information about cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Ne strinjam se",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več o uporabi piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The label Ne strinjam se is categorized as declining all cookies, while Strinjam se is treated as an ambiguous accept. The button Več o uporabi piškotkov relates to managing settings or obtaining more information about cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Strinjam se",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T13:52:16.023463",
+        "timestamp_stop": "2025-03-28T13:53:18.171306"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Ne strinjam se)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.rks.si/",
+            "https://www.rks.si/sl/Novice/",
+            "https://www.rks.si/sl/Julij-2021/",
+            "https://www.rks.si/sl/Knjige/Clovek---nasa-prva-skrb-----/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "rks",
+                    "value": "41nu2rg42b9c58f07m04rmgn60",
+                    "domain": "www.rks.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "rks",
+                    "value": "41nu2rg42b9c58f07m04rmgn60",
+                    "domain": "www.rks.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bcms_cookie_declined",
+                    "value": "2025-03-28",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1774702426.642783,
+                    "expires_date": "2026-03-28T12:53:46.642783+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "rks",
+                    "value": "41nu2rg42b9c58f07m04rmgn60",
+                    "domain": "www.rks.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bcms_cookie_declined",
+                    "value": "2025-03-28",
+                    "domain": ".rks.si",
+                    "path": "/",
+                    "expires": 1774702426.642783,
+                    "expires_date": "2026-03-28T12:53:46.642783+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran uporablja piškotke. Z uporabo piškotkov omogočamo boljšo uporabniško izkušnjo.\n  Obvezni piškotki – Posamezni piškotki so nujni za delovanje spletne strani in jih ni moč onemogočiti.\n  Statistika – Dovoljujem anonimno spremljanje statistike obiska.\nVeč o uporabi piškotkovStrinjam seNe strinjam se",
+                "banner_z_index": 1999999999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: [Ne strinjam se]\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: None\nGenericLabel3: [Več o uporabi piškotkov]\nExplanation: \"Strinjam se\" is categorized as an ambiguous accept, while \"Ne strinjam se\" fits the decline category. \"Več o uporabi piškotkov\" is related to managing settings or seeking more information about cookie usage.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Ne strinjam se",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več o uporabi piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is categorized as an ambiguous accept, while \"Ne strinjam se\" fits the decline category. \"Več o uporabi piškotkov\" is related to managing settings or seeking more information about cookie usage."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Ne strinjam se",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T13:53:19.742781",
+        "timestamp_stop": "2025-03-28T13:54:21.459975"
+    }
+}

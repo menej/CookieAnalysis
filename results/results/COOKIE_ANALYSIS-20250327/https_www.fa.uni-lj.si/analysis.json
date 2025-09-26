@@ -1,0 +1,303 @@
+{
+    "web_page": "https://www.fa.uni-lj.si",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T16:42:53.865300",
+    "timestamp_stop": "2025-03-28T16:45:13.858214",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fa.uni-lj.si",
+            "https://www.fa.uni-lj.si/oglasna-deska/seminar-architecture-design-and-research-2025-which-will-be-delivered-by-franceso-maranelli-and-is-entitled-architecture-computers-and-politics-in-the-italian-sixties-this/",
+            "https://www.fa.uni-lj.si/seminar/juvancic/",
+            "https://www.fa.uni-lj.si/seminar/desman/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T16:42:55.196671",
+        "timestamp_stop": "2025-03-28T16:43:25.349855"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fa.uni-lj.si",
+            "https://www.fa.uni-lj.si/oglasna-deska/seminar-architecture-design-and-research-2025-which-will-be-delivered-by-franceso-maranelli-and-is-entitled-architecture-computers-and-politics-in-the-italian-sixties-this/",
+            "https://www.fa.uni-lj.si/seminar/juvancic/",
+            "https://www.fa.uni-lj.si/seminar/desman/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "fa_piskotki_2024",
+                    "value": "[\"essential\",\"preferences\",\"analytics\"]",
+                    "domain": "www.fa.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774712632,
+                    "expires_date": "2026-03-28T15:43:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "fa_piskotki_2024",
+                    "value": "[\"essential\",\"preferences\",\"analytics\"]",
+                    "domain": "www.fa.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774712632,
+                    "expires_date": "2026-03-28T15:43:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pk_id.2.8d47",
+                    "value": "203acc993d77ff13.1743176638.",
+                    "domain": "www.fa.uni-lj.si",
+                    "path": "/",
+                    "expires": 1777131838,
+                    "expires_date": "2026-04-25T15:43:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.2.8d47",
+                    "value": "1",
+                    "domain": "www.fa.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743178452,
+                    "expires_date": "2025-03-28T16:14:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran Fakultete za arhitekturo UL uporablja piškotke.Piškotke uporabljamo za shranjevanje vaših nastavitev in za spremljanje obiska. Nujne, ki so potrebni za nemoteno delovanje spletne strani, smo že naložili. Za več informacij preberite pojasnila o piškotkih.Nujni piškotkiPiškotki, ki so bistveni za pravilno delovanje spletnega mesta.NastavitveS temi piškotki zapišemo vaše nastavitve, recimo jezik spletne strani.StatistikaPiškotki za spremljanje vašega obiska strani.Shrani izbraneSprejmi vseZavrni vsePodrobno",
+                "banner_z_index": 0,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Podrobno]\nExplanation: The button [Sprejmi vse] is categorized as accepting all cookies, while [Zavrni vse] is for declining all cookies. [Podrobno] indicates more information, fitting the settings category.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Podrobno",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized as accepting all cookies, while Zavrni vse is for declining all cookies. Podrobno indicates more information, fitting the settings category."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T16:43:26.864593",
+        "timestamp_stop": "2025-03-28T16:44:18.798811"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni vse)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fa.uni-lj.si",
+            "https://www.fa.uni-lj.si/oglasna-deska/seminar-architecture-design-and-research-2025-which-will-be-delivered-by-franceso-maranelli-and-is-entitled-architecture-computers-and-politics-in-the-italian-sixties-this/",
+            "https://www.fa.uni-lj.si/seminar/juvancic/",
+            "https://www.fa.uni-lj.si/seminar/desman/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "fa_piskotki_2024",
+                    "value": "[\"essential\"]",
+                    "domain": "www.fa.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774712687,
+                    "expires_date": "2026-03-28T15:44:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "fa_piskotki_2024",
+                    "value": "[\"essential\"]",
+                    "domain": "www.fa.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774712687,
+                    "expires_date": "2026-03-28T15:44:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran Fakultete za arhitekturo UL uporablja piškotke.Piškotke uporabljamo za shranjevanje vaših nastavitev in za spremljanje obiska. Nujne, ki so potrebni za nemoteno delovanje spletne strani, smo že naložili. Za več informacij preberite pojasnila o piškotkih.Nujni piškotkiPiškotki, ki so bistveni za pravilno delovanje spletnega mesta.NastavitveS temi piškotki zapišemo vaše nastavitve, recimo jezik spletne strani.StatistikaPiškotki za spremljanje vašega obiska strani.Shrani izbraneSprejmi vseZavrni vsePodrobno",
+                "banner_z_index": 0,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Podrobno]\nExplanation: The button [Sprejmi vse] clearly indicates accepting all cookies and is categorized under GenericLabel1. The button [Zavrni vse] indicates declining all cookies and is categorized under GenericLabel2. The button [Podrobno] relates to more information about settings and is categorized under GenericLabel3. There are no ambiguous buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Podrobno",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse clearly indicates accepting all cookies and is categorized under GenericLabel1. The button Zavrni vse indicates declining all cookies and is categorized under GenericLabel2. The button Podrobno relates to more information about settings and is categorized under GenericLabel3. There are no ambiguous buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T16:44:20.374408",
+        "timestamp_stop": "2025-03-28T16:45:13.601633"
+    }
+}

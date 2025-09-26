@@ -1,0 +1,1001 @@
+{
+    "web_page": "https://www.skb.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T18:41:12.183110",
+    "timestamp_stop": "2025-03-28T18:44:32.620096",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.skb.si/",
+            "https://www.skb.si/paket-komplet?utm_source=homepagebox&utm_medium=paketkomplet&utm_campaign=July2022",
+            "https://www.skb.si/",
+            "https://www.skb.si/izracun-kredita?utm_source=homepagebox&utm_medium=housingloan&utm_campaign=July2022",
+            "https://www.skb.si/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "sOTP",
+                    "value": "jdrtnwrg4k0bawcd0dgkfeqg",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OTP",
+                    "value": "expires=28. 03. 2026 18:41:04&localeid=sl-SI&sid=186993e6-48ea-4af9-a49d-7e1ca9a3e54d",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719673.875709,
+                    "expires_date": "2026-03-28T17:41:13.875709+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743183674764.974778736889958901",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1750959674,
+                    "expires_date": "2025-06-26T17:41:14+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookiesettingdefault",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719674,
+                    "expires_date": "2026-03-28T17:41:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettinganalytics",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719674,
+                    "expires_date": "2026-03-28T17:41:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettingother",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719674,
+                    "expires_date": "2026-03-28T17:41:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "sOTP",
+                    "value": "jdrtnwrg4k0bawcd0dgkfeqg",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743183674764.974778736889958901",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1750959706,
+                    "expires_date": "2025-06-26T17:41:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookiesettingdefault",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719674,
+                    "expires_date": "2026-03-28T17:41:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettinganalytics",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719674,
+                    "expires_date": "2026-03-28T17:41:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettingother",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719674,
+                    "expires_date": "2026-03-28T17:41:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OTP",
+                    "value": "expires=28. 03. 2026 18:41:36&localeid=sl-SI&sid=186993e6-48ea-4af9-a49d-7e1ca9a3e54d",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719706.699597,
+                    "expires_date": "2026-03-28T17:41:46.699597+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T18:41:13.557743",
+        "timestamp_stop": "2025-03-28T18:41:55.773359"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Soglašam z vsemi)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.skb.si/",
+            "https://www.skb.si/paket-komplet?utm_source=homepagebox&utm_medium=paketkomplet&utm_campaign=July2022",
+            "https://www.skb.si/",
+            "https://www.skb.si/izracun-kredita?utm_source=homepagebox&utm_medium=housingloan&utm_campaign=July2022",
+            "https://www.skb.si/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "sOTP",
+                    "value": "vggpmgqoakmmpxzby4ix1gix",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OTP",
+                    "value": "expires=28. 03. 2026 18:41:47&localeid=sl-SI&sid=8230d864-944e-4558-82db-a6dfc8d151a4",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719717.70138,
+                    "expires_date": "2026-03-28T17:41:57.701380+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743183718527.939699837937274090",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1750959718,
+                    "expires_date": "2025-06-26T17:41:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookiesettingdefault",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719718,
+                    "expires_date": "2026-03-28T17:41:58+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettinganalytics",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719718,
+                    "expires_date": "2026-03-28T17:41:58+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettingother",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719718,
+                    "expires_date": "2026-03-28T17:41:58+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "sOTP",
+                    "value": "vggpmgqoakmmpxzby4ix1gix",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OTP",
+                    "value": "expires=28. 03. 2026 18:41:47&localeid=sl-SI&sid=8230d864-944e-4558-82db-a6dfc8d151a4",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719717.70138,
+                    "expires_date": "2026-03-28T17:41:57.701380+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743183718527.939699837937274090",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1750959718,
+                    "expires_date": "2025-06-26T17:41:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookiesettingdefault",
+                    "value": "yes",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719756,
+                    "expires_date": "2026-03-28T17:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettinganalytics",
+                    "value": "yes",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719756,
+                    "expires_date": "2026-03-28T17:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettingother",
+                    "value": "yes",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719756,
+                    "expires_date": "2026-03-28T17:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_accept",
+                    "value": "cookie_accept_all",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719756,
+                    "expires_date": "2026-03-28T17:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "sOTP",
+                    "value": "vggpmgqoakmmpxzby4ix1gix",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743183718527.939699837937274090",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1750959783,
+                    "expires_date": "2025-06-26T17:43:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookiesettingdefault",
+                    "value": "yes",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719756,
+                    "expires_date": "2026-03-28T17:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettinganalytics",
+                    "value": "yes",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719756,
+                    "expires_date": "2026-03-28T17:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettingother",
+                    "value": "yes",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719756,
+                    "expires_date": "2026-03-28T17:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_accept",
+                    "value": "cookie_accept_all",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719756,
+                    "expires_date": "2026-03-28T17:42:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1032034026.1743183763",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1777743783.773796,
+                    "expires_date": "2026-05-02T17:43:03.773796+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "OTP",
+                    "value": "expires=28. 03. 2026 18:42:48&localeid=sl-SI&sid=8230d864-944e-4558-82db-a6dfc8d151a4",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719779.105764,
+                    "expires_date": "2026-03-28T17:42:59.105764+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_8C31T1C4LL",
+                    "value": "GS1.1.1743183763.1.1.1743183783.0.0.0",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1777743783.773482,
+                    "expires_date": "2026-05-02T17:43:03.773482+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljanje s piškotki  \n Po Zakonu o elektronskih komunikacijah (ZEKom-2) je za uporabo določenih piškotkov potrebna privolitev uporabnika. Uporabo piškotkov lahko tudi kadarkoli zavrnete. Po zavrnitvi boste našo spletno mesto še vedno lahko obiskali, vendar spletna stran morda ne bo delovala na predviden način. Svoje odločitve o sprejetju ali zavrnitvi piškotkov lahko naknadno spremenite preko brskalnika.\n\nObičajno se sprememba te nastavitve nahaja v menijski vrstici brskalnika Orodja > Internetne možnosti, razdelek »zasebnost« ali »varnost«. Tam nastavite katere vrste piškotkov želite blokirati ali omogočiti.\n\nPiškotke lahko izbrišete in sicer prav tako preko brskalnika. Izbris je v večini brskalnikov dosegljiv v orodjih imenovanih »izbriši podatke brskanja« ali »izbriši zgodovino brskanja« (okno običajno prikličete tudi s kombinacijo tipk CTRL+Shift+Del) ter izberete izbris piškotkov.\n\nNekateri brskalniki ponujajo tudi možnost nastavitve »ne sledi mi« ali »do-not-track«, kar pomeni",
+                "banner_z_index": 10003,
+                "banner_position": "absolute",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Soglašam z vsemi]\nGenericLabel2: [Ne soglašam]\nAmbiguousLabel1: [Soglašam]\nAmbiguousLabel2: [Potrjujem izbiro]\nGenericLabel3: [Prikaži več]\nExplanation: \"Soglašam z vsemi\" is categorized as accepting all cookies. \"Ne soglašam\" corresponds to declining all cookies. \"Soglašam\" is an ambiguous acceptance phrase, while \"Potrjujem izbiro\" suggests confirmation of a selection, which is also ambiguous. The \"Prikaži več\" button indicates managing settings or accessing more options.",
+                "llm_response_parsed": {
+                    "Accept": "Soglašam z vsemi",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne soglašam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Prikaži več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Soglašam z vsemi\" is categorized as accepting all cookies. \"Ne soglašam\" corresponds to declining all cookies. \"Soglašam\" is an ambiguous acceptance phrase, while \"Potrjujem izbiro\" suggests confirmation of a selection, which is also ambiguous. The \"Prikaži več\" button indicates managing settings or accessing more options."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Soglašam z vsemi",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T18:41:57.379530",
+        "timestamp_stop": "2025-03-28T18:43:12.533210"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (span), with text (Ne soglašam)",
+            "Clicking an element of type (span), with text (Ne soglašam)",
+            "Clicking an element of type (span), with text (Ne soglašam)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.skb.si/",
+            "https://www.skb.si/paket-komplet?utm_source=homepagebox&utm_medium=paketkomplet&utm_campaign=July2022",
+            "https://www.skb.si/",
+            "https://www.skb.si/izracun-kredita?utm_source=homepagebox&utm_medium=housingloan&utm_campaign=July2022",
+            "https://www.skb.si/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "sOTP",
+                    "value": "eofrtztlgyqqegjnlkbth2i4",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OTP",
+                    "value": "expires=28. 03. 2026 18:43:04&localeid=sl-SI&sid=3f7d8121-226f-4e6c-8569-42b67efdca8e",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719794.406632,
+                    "expires_date": "2026-03-28T17:43:14.406632+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743183795266.479403942390294736",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1750959795,
+                    "expires_date": "2025-06-26T17:43:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookiesettingdefault",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719795,
+                    "expires_date": "2026-03-28T17:43:15+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettinganalytics",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719795,
+                    "expires_date": "2026-03-28T17:43:15+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettingother",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719795,
+                    "expires_date": "2026-03-28T17:43:15+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "sOTP",
+                    "value": "eofrtztlgyqqegjnlkbth2i4",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OTP",
+                    "value": "expires=28. 03. 2026 18:43:04&localeid=sl-SI&sid=3f7d8121-226f-4e6c-8569-42b67efdca8e",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719794.406632,
+                    "expires_date": "2026-03-28T17:43:14.406632+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743183795266.479403942390294736",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1750959795,
+                    "expires_date": "2025-06-26T17:43:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookiesettingdefault",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719830,
+                    "expires_date": "2026-03-28T17:43:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettinganalytics",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719833,
+                    "expires_date": "2026-03-28T17:43:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettingother",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719836,
+                    "expires_date": "2026-03-28T17:43:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "sOTP",
+                    "value": "eofrtztlgyqqegjnlkbth2i4",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743183795266.479403942390294736",
+                    "domain": ".otpbanka.si",
+                    "path": "/",
+                    "expires": 1750959863,
+                    "expires_date": "2025-06-26T17:44:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookiesettingdefault",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719830,
+                    "expires_date": "2026-03-28T17:43:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettinganalytics",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719833,
+                    "expires_date": "2026-03-28T17:43:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookiesettingother",
+                    "value": "no",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719836,
+                    "expires_date": "2026-03-28T17:43:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OTP",
+                    "value": "expires=28. 03. 2026 18:44:08&localeid=sl-SI&sid=3f7d8121-226f-4e6c-8569-42b67efdca8e",
+                    "domain": "www.otpbanka.si",
+                    "path": "/",
+                    "expires": 1774719858.745718,
+                    "expires_date": "2026-03-28T17:44:18.745718+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_click_2.png",
+            "008_decline_interaction_1_click_3.png",
+            "009_decline_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljanje s piškotki  \n Po Zakonu o elektronskih komunikacijah (ZEKom-2) je za uporabo določenih piškotkov potrebna privolitev uporabnika. Uporabo piškotkov lahko tudi kadarkoli zavrnete. Po zavrnitvi boste našo spletno mesto še vedno lahko obiskali, vendar spletna stran morda ne bo delovala na predviden način. Svoje odločitve o sprejetju ali zavrnitvi piškotkov lahko naknadno spremenite preko brskalnika.\n\nObičajno se sprememba te nastavitve nahaja v menijski vrstici brskalnika Orodja > Internetne možnosti, razdelek »zasebnost« ali »varnost«. Tam nastavite katere vrste piškotkov želite blokirati ali omogočiti.\n\nPiškotke lahko izbrišete in sicer prav tako preko brskalnika. Izbris je v večini brskalnikov dosegljiv v orodjih imenovanih »izbriši podatke brskanja« ali »izbriši zgodovino brskanja« (okno običajno prikličete tudi s kombinacijo tipk CTRL+Shift+Del) ter izberete izbris piškotkov.\n\nNekateri brskalniki ponujajo tudi možnost nastavitve »ne sledi mi« ali »do-not-track«, kar pomeni",
+                "banner_z_index": 10003,
+                "banner_position": "absolute",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 3,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Soglašam z vsemi]\nGenericLabel2: [Ne soglašam]\nAmbiguousLabel1: [Soglašam]\nAmbiguousLabel2: [Potrjujem izbiro]\nGenericLabel3: [Prikaži več]\nExplanation: The button [Soglašam z vsemi] is categorized as accepting all cookies, while [Ne soglašam] is for declining. [Soglašam] is ambiguous acceptance and [Potrjujem izbiro] is also included as an ambiguous acceptance. Lastly, [Prikaži več] relates to managing settings or preferences.",
+                "llm_response_parsed": {
+                    "Accept": "Soglašam z vsemi",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne soglašam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Prikaži več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Soglašam z vsemi is categorized as accepting all cookies, while Ne soglašam is for declining. Soglašam is ambiguous acceptance and Potrjujem izbiro is also included as an ambiguous acceptance. Lastly, Prikaži več relates to managing settings or preferences."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Ne soglašam",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T18:43:14.122545",
+        "timestamp_stop": "2025-03-28T18:44:32.348610"
+    }
+}

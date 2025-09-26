@@ -1,0 +1,2062 @@
+{
+    "web_page": "https://www.enduro.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T03:39:25.697203",
+    "timestamp_stop": "2025-03-28T03:43:30.359702",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.enduro.si/",
+            "https://www.enduro.si/majice-zenska-kolesarska-oblacila/",
+            "https://www.enduro.si/izdelek/zenska-majica-fox-defend-ls-olive-green/",
+            "https://www.enduro.si/zenska-tekaska-oblacila/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_http_accept:image/webp",
+                    "value": "1",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743129568717.246054253908893862",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1750905568,
+                    "expires_date": "2025-06-26T02:39:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2002%3A39%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2002%3A39%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.enduro.si%2F",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743131368,
+                    "expires_date": "2025-03-28T03:09:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "woosw_key",
+                    "value": "CTPUOG",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1743734369,
+                    "expires_date": "2025-04-04T02:39:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.469186570.1743129571",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743215971,
+                    "expires_date": "2025-03-29T02:39:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_156797733_1",
+                    "value": "1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743129631,
+                    "expires_date": "2025-03-28T02:40:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_M66BGCN881",
+                    "value": "GS1.1.1743129571.1.0.1743129571.60.0.0",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689571.376491,
+                    "expires_date": "2026-05-02T02:39:31.376491+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1524960845.1743129571",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689571.377193,
+                    "expires_date": "2026-05-02T02:39:31.377193+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_http_accept:image/webp",
+                    "value": "1",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743129568717.246054253908893862",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1750905617,
+                    "expires_date": "2025-06-26T02:40:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2002%3A39%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2002%3A39%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "woosw_key",
+                    "value": "CTPUOG",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1743734369,
+                    "expires_date": "2025-04-04T02:39:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.469186570.1743129571",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743216019,
+                    "expires_date": "2025-03-29T02:40:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "5a25628e-3fc2-4912-88bd-29b0a98fe77e49a247",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777689608.329587,
+                    "expires_date": "2026-05-02T02:40:08.329587+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "3318494e-1ab5-4270-a4c2-f6a71c5004aec594c4",
+                    "domain": ".www.enduro.si",
+                    "path": "/",
+                    "expires": 1774665608,
+                    "expires_date": "2026-03-28T02:40:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "b9cf53c1-36b7-4406-b02b-c6d94a5f87c106f79d",
+                    "domain": ".www.enduro.si",
+                    "path": "/",
+                    "expires": 1743131408,
+                    "expires_date": "2025-03-28T03:10:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D4%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.enduro.si%2Fzenska-tekaska-oblacila%2F",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743131417,
+                    "expires_date": "2025-03-28T03:10:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_M66BGCN881",
+                    "value": "GS1.1.1743129571.1.1.1743129619.12.0.0",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689620.002092,
+                    "expires_date": "2026-05-02T02:40:20.002092+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1524960845.1743129571",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689620.002623,
+                    "expires_date": "2026-05-02T02:40:20.002623+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T03:39:26.962830",
+        "timestamp_stop": "2025-03-28T03:40:32.266159"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.enduro.si/",
+            "https://www.enduro.si/majice-zenska-kolesarska-oblacila/",
+            "https://www.enduro.si/izdelek/zenska-majica-fox-defend-ls-olive-green/",
+            "https://www.enduro.si/zenska-tekaska-oblacila/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_http_accept:image/webp",
+                    "value": "1",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743129635454.168172630106652035",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1750905635,
+                    "expires_date": "2025-06-26T02:40:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2002%3A40%3A35%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2002%3A40%3A35%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.enduro.si%2F",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743131435,
+                    "expires_date": "2025-03-28T03:10:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "woosw_key",
+                    "value": "0E8UOW",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1743734435,
+                    "expires_date": "2025-04-04T02:40:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.435938493.1743129638",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743216038,
+                    "expires_date": "2025-03-29T02:40:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_156797733_1",
+                    "value": "1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743129698,
+                    "expires_date": "2025-03-28T02:41:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_M66BGCN881",
+                    "value": "GS1.1.1743129638.1.0.1743129638.60.0.0",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689638.123972,
+                    "expires_date": "2026-05-02T02:40:38.123972+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1295057624.1743129638",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689638.12464,
+                    "expires_date": "2026-05-02T02:40:38.124640+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_http_accept:image/webp",
+                    "value": "1",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743129635454.168172630106652035",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1750905660,
+                    "expires_date": "2025-06-26T02:41:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2002%3A40%3A35%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2002%3A40%3A35%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.enduro.si%2F",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743131435,
+                    "expires_date": "2025-03-28T03:10:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "woosw_key",
+                    "value": "0E8UOW",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1743734435,
+                    "expires_date": "2025-04-04T02:40:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.435938493.1743129638",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743216038,
+                    "expires_date": "2025-03-29T02:40:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_156797733_1",
+                    "value": "1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743129698,
+                    "expires_date": "2025-03-28T02:41:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_M66BGCN881",
+                    "value": "GS1.1.1743129638.1.0.1743129638.60.0.0",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689638.123972,
+                    "expires_date": "2026-05-02T02:40:38.123972+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1295057624.1743129638",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689638.12464,
+                    "expires_date": "2026-05-02T02:40:38.124640+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%221%22%2C%22advanced%22%3A%221%22%7D",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1774665660,
+                    "expires_date": "2026-03-28T02:41:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_http_accept:image/webp",
+                    "value": "1",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743129635454.168172630106652035",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1750905705,
+                    "expires_date": "2025-06-26T02:41:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2002%3A40%3A35%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2002%3A40%3A35%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "woosw_key",
+                    "value": "0E8UOW",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1743734435,
+                    "expires_date": "2025-04-04T02:40:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.435938493.1743129638",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743216108,
+                    "expires_date": "2025-03-29T02:41:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%221%22%2C%22advanced%22%3A%221%22%7D",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1774665660,
+                    "expires_date": "2026-03-28T02:41:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "2dea8570-d85b-4b42-9d84-9c0441e69d807ad971",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777689696.463038,
+                    "expires_date": "2026-05-02T02:41:36.463038+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "8c0ac2d9-b59a-4d24-bc02-288303e3e373e1a6bf",
+                    "domain": ".www.enduro.si",
+                    "path": "/",
+                    "expires": 1774665696,
+                    "expires_date": "2026-03-28T02:41:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "b3d4648d-8d74-4c6d-b3dc-39199b506c704fc342",
+                    "domain": ".www.enduro.si",
+                    "path": "/",
+                    "expires": 1743131496,
+                    "expires_date": "2025-03-28T03:11:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D4%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.enduro.si%2Fzenska-tekaska-oblacila%2F",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743131505,
+                    "expires_date": "2025-03-28T03:11:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_156797733_1",
+                    "value": "1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743129768,
+                    "expires_date": "2025-03-28T02:42:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_M66BGCN881",
+                    "value": "GS1.1.1743129638.1.1.1743129708.57.0.0",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689708.025119,
+                    "expires_date": "2026-05-02T02:41:48.025119+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1295057624.1743129638",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689708.025646,
+                    "expires_date": "2026-05-02T02:41:48.025646+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran uporablja piškotke z namenom zagotavljanja spletne storitve, analizo uporabe, oglasnih sistemov in funkcionalnosti, ki jih brez piškotkov ne bi mogli nuditi. Nastavitve.\n\n        \n\n\t\t  Sprejmi\n\t  \t\t\t\tZavrni\n\t\t\t\t\t\t\tNastavitve",
+                "banner_z_index": 9900,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: \"Sprejmi\" is categorized as accepting all cookies, \"Zavrni\" is categorized as declining all cookies, and \"Nastavitve\" refers to settings management. There are no ambiguous phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is categorized as accepting all cookies, \"Zavrni\" is categorized as declining all cookies, and \"Nastavitve\" refers to settings management. There are no ambiguous phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T03:40:33.901459",
+        "timestamp_stop": "2025-03-28T03:42:00.283729"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.enduro.si/",
+            "https://www.enduro.si/majice-zenska-kolesarska-oblacila/",
+            "https://www.enduro.si/izdelek/zenska-majica-fox-defend-ls-olive-green/",
+            "https://www.enduro.si/zenska-tekaska-oblacila/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_http_accept:image/webp",
+                    "value": "1",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743129723380.492661875718933915",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1750905723,
+                    "expires_date": "2025-06-26T02:42:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2002%3A42%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2002%3A42%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.enduro.si%2F",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743131523,
+                    "expires_date": "2025-03-28T03:12:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "woosw_key",
+                    "value": "PM0P4J",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1743734523,
+                    "expires_date": "2025-04-04T02:42:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_M66BGCN881",
+                    "value": "GS1.1.1743129726.1.0.1743129726.60.0.0",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689726.105346,
+                    "expires_date": "2026-05-02T02:42:06.105346+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.703000951.1743129726",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689726.13973,
+                    "expires_date": "2026-05-02T02:42:06.139730+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1008553313.1743129726",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743216126,
+                    "expires_date": "2025-03-29T02:42:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_156797733_1",
+                    "value": "1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743129786,
+                    "expires_date": "2025-03-28T02:43:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_http_accept:image/webp",
+                    "value": "1",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743129723380.492661875718933915",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1750905750,
+                    "expires_date": "2025-06-26T02:42:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2002%3A42%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2002%3A42%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "woosw_key",
+                    "value": "PM0P4J",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1743734523,
+                    "expires_date": "2025-04-04T02:42:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.703000951.1743129726",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689726.13973,
+                    "expires_date": "2026-05-02T02:42:06.139730+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1008553313.1743129726",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743216126,
+                    "expires_date": "2025-03-29T02:42:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_156797733_1",
+                    "value": "1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743129786,
+                    "expires_date": "2025-03-28T02:43:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%220%22%2C%22advanced%22%3A%220%22%7D",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1774665749,
+                    "expires_date": "2026-03-28T02:42:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_M66BGCN881",
+                    "value": "GS1.1.1743129726.1.1.1743129750.36.0.0",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689750.799511,
+                    "expires_date": "2026-05-02T02:42:30.799511+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D2%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.enduro.si%2F",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743131551,
+                    "expires_date": "2025-03-28T03:12:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_http_accept:image/webp",
+                    "value": "1",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743129723380.492661875718933915",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1750905795,
+                    "expires_date": "2025-06-26T02:43:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2002%3A42%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2002%3A42%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.enduro.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "woosw_key",
+                    "value": "PM0P4J",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1743734523,
+                    "expires_date": "2025-04-04T02:42:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.703000951.1743129726",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689726.13973,
+                    "expires_date": "2026-05-02T02:42:06.139730+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1008553313.1743129726",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743216126,
+                    "expires_date": "2025-03-29T02:42:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "moove_gdpr_popup",
+                    "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%220%22%2C%22advanced%22%3A%220%22%7D",
+                    "domain": "www.enduro.si",
+                    "path": "/",
+                    "expires": 1774665749,
+                    "expires_date": "2026-03-28T02:42:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_M66BGCN881",
+                    "value": "GS1.1.1743129726.1.1.1743129750.36.0.0",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1777689750.799511,
+                    "expires_date": "2026-05-02T02:42:30.799511+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "370ed004-8a61-4248-b43a-dd3728221e61c20fc3",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777689786.188268,
+                    "expires_date": "2026-05-02T02:43:06.188268+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "3f49351c-2f0a-4404-93a7-6ea4060ec7f00509f6",
+                    "domain": ".www.enduro.si",
+                    "path": "/",
+                    "expires": 1774665786,
+                    "expires_date": "2026-03-28T02:43:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "4c65136b-62bc-4bda-8505-634992211760f160dd",
+                    "domain": ".www.enduro.si",
+                    "path": "/",
+                    "expires": 1743131586,
+                    "expires_date": "2025-03-28T03:13:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D5%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.enduro.si%2Fzenska-tekaska-oblacila%2F",
+                    "domain": ".enduro.si",
+                    "path": "/",
+                    "expires": 1743131595,
+                    "expires_date": "2025-03-28T03:13:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran uporablja piškotke z namenom zagotavljanja spletne storitve, analizo uporabe, oglasnih sistemov in funkcionalnosti, ki jih brez piškotkov ne bi mogli nuditi. Nastavitve.\n\n        \n\n\t\t  Sprejmi\n\t  \t\t\t\tZavrni\n\t\t\t\t\t\t\tNastavitve",
+                "banner_z_index": 9900,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [None]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Sprejmi]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: \"Zavrni\" is classified as declining all cookies, while \"Sprejmi\" is an ambiguous phrase that signifies acceptance. \"Nastavitve\" is explicitly related to settings management, so it is classified under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Zavrni\" is classified as declining all cookies, while \"Sprejmi\" is an ambiguous phrase that signifies acceptance. \"Nastavitve\" is explicitly related to settings management, so it is classified under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T03:42:01.916308",
+        "timestamp_stop": "2025-03-28T03:43:30.055481"
+    }
+}

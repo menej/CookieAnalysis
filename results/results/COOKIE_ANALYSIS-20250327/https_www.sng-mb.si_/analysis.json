@@ -1,0 +1,487 @@
+{
+    "web_page": "https://www.sng-mb.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-29T00:09:19.883372",
+    "timestamp_stop": "2025-03-29T00:12:21.984723",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.sng-mb.si/",
+            "https://www.sng-mb.si/event/in-ljubezen-tudi/",
+            "https://www.sng-mb.si/abonmaji/?lang=sl",
+            "https://www.sng-mb.si/content/uploads/2024/05/07-scaled.jpg"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "has_visited_site",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "has_visited_site",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "iu7bfluOohFdyeL4hnT4SvZfaUjPFm0AKGmIsYGV",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1743210592.685728,
+                    "expires_date": "2025-03-29T01:09:52.685728+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "themosis_session",
+                    "value": "Xmq17Lmjt3DLGBP6TqZW4NEL6t9h9TP2yLAW1fBD",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1743210592.685818,
+                    "expires_date": "2025-03-29T01:09:52.685818+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-29T00:09:21.421648",
+        "timestamp_stop": "2025-03-29T00:10:05.585237"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Strinjam se)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.sng-mb.si/",
+            "https://www.sng-mb.si/event/in-ljubezen-tudi/",
+            "https://www.sng-mb.si/abonmaji/?lang=sl",
+            "https://www.sng-mb.si/content/uploads/2024/05/07-scaled.jpg"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "has_visited_site",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "has_visited_site",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1745795437,
+                    "expires_date": "2025-04-27T23:10:37+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "has_visited_site",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1745795437,
+                    "expires_date": "2025-04-27T23:10:37+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "rmZ7KgNZMeb3qUxliY4yD2bRsF2iZoZHYQnCV1Wn",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1743210659.956396,
+                    "expires_date": "2025-03-29T01:10:59.956396+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "themosis_session",
+                    "value": "AnmkFPBuXkJG18IagLlKFnO22xPIwcOjuZd4SZ57",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1743210659.956492,
+                    "expires_date": "2025-03-29T01:10:59.956492+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran uporablja piškotke s pomočjo katerih omogoča uporabo vtičnikov družbenih medijev, izboljšuje in prilagaja uporabniško izkušnjo ter analizira promet. Potrdite, da se strinjate z njihovo uporabo.Strinjam seNe strinjam se",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: [Ne strinjam se]\nGenericLabel3: None\nExplanation: \"Strinjam se\" is categorized as an ambiguous accept, while \"Ne strinjam se\" is categorized as an ambiguous decline. No clear accept or decline buttons were found.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Ne strinjam se",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel2",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Strinjam se\" is categorized as an ambiguous accept, while \"Ne strinjam se\" is categorized as an ambiguous decline. No clear accept or decline buttons were found."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Strinjam se",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-29T00:10:07.206529",
+        "timestamp_stop": "2025-03-29T00:11:12.892125"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Ne strinjam se)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.sng-mb.si/",
+            "https://www.sng-mb.si/event/in-ljubezen-tudi/",
+            "https://www.sng-mb.si/abonmaji/?lang=sl",
+            "https://www.sng-mb.si/content/uploads/2024/05/07-scaled.jpg"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "has_visited_site",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "has_visited_site",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "false",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1745795505,
+                    "expires_date": "2025-04-27T23:11:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "has_visited_site",
+                    "value": "true",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "false",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1745795505,
+                    "expires_date": "2025-04-27T23:11:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "ssRS3wSmyAMgxUdECUzsogX8BrIs9CzwgaZHq26z",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1743210728.753245,
+                    "expires_date": "2025-03-29T01:12:08.753245+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "themosis_session",
+                    "value": "OQCzbejc063JwVTA6Xub8ultHXnXcaSZoJvyWLsu",
+                    "domain": "www.sng-mb.si",
+                    "path": "/",
+                    "expires": 1743210728.753337,
+                    "expires_date": "2025-03-29T01:12:08.753337+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran uporablja piškotke s pomočjo katerih omogoča uporabo vtičnikov družbenih medijev, izboljšuje in prilagaja uporabniško izkušnjo ter analizira promet. Potrdite, da se strinjate z njihovo uporabo.Strinjam seNe strinjam se",
+                "banner_z_index": 100000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: [Ne strinjam se]\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: \"Strinjam se\" is a generic phrase indicating acceptance but is not a clear call to action for accepting all cookies, thus classified as an ambiguous accept. \"Ne strinjam se\" clearly indicates a decline, hence categorized as a decline option. No buttons for accepting all cookies or managing settings were found.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Ne strinjam se",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Strinjam se\" is a generic phrase indicating acceptance but is not a clear call to action for accepting all cookies, thus classified as an ambiguous accept. \"Ne strinjam se\" clearly indicates a decline, hence categorized as a decline option. No buttons for accepting all cookies or managing settings were found."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Ne strinjam se",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-29T00:11:14.517806",
+        "timestamp_stop": "2025-03-29T00:12:21.691349"
+    }
+}

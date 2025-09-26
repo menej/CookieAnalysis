@@ -1,0 +1,1177 @@
+{
+    "web_page": "https://www.lidl.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T21:19:07.038714",
+    "timestamp_stop": "2025-03-28T21:21:38.393076",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lidl.si/",
+            "https://www.lidl.si/c/knjizna-polica/a10024386",
+            "https://www.lidl.si/c/ponudba-lupilu/s10020854",
+            "https://www.lidl.si/c/ideje-za-izlete/s10025067"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "LidlID",
+                    "value": "60921ccc-649d-4964-9daa-9e5158a87e4c",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774753149.604889,
+                    "expires_date": "2026-03-29T02:59:09.604889+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A19%3A10+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=409198f4-4f87-471a-86d0-ec21c3801af9&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.lidl.si%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729150,
+                    "expires_date": "2026-03-28T20:19:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "LidlID",
+                    "value": "60921ccc-649d-4964-9daa-9e5158a87e4c",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774753149.604889,
+                    "expires_date": "2026-03-29T02:59:09.604889+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A19%3A32+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=409198f4-4f87-471a-86d0-ec21c3801af9&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0&AwaitingReconsent=false",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729172,
+                    "expires_date": "2026-03-28T20:19:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T21:19:08.434767",
+        "timestamp_stop": "2025-03-28T21:19:39.256381"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (STRINJAM SE)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lidl.si/",
+            "https://www.lidl.si/c/knjizna-polica/a10024386",
+            "https://www.lidl.si/c/ponudba-lupilu/s10020854",
+            "https://www.lidl.si/c/ideje-za-izlete/s10025067"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "LidlID",
+                    "value": "a23003ec-1024-41a0-a4dc-ec1f407639d4",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774753181.749351,
+                    "expires_date": "2026-03-29T02:59:41.749351+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A19%3A42+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0c2d1ea6-26a7-45a9-b0d3-fad227c6f2bb&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.lidl.si%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729182,
+                    "expires_date": "2026-03-28T20:19:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "LidlID",
+                    "value": "a23003ec-1024-41a0-a4dc-ec1f407639d4",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774753181.749351,
+                    "expires_date": "2026-03-29T02:59:41.749351+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T20:20:12.660Z",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729212,
+                    "expires_date": "2026-03-28T20:20:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kameleoonVisitorCode",
+                    "value": "pvf0s6pgmfq3p38j",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729212,
+                    "expires_date": "2026-03-28T20:20:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A20%3A12+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0c2d1ea6-26a7-45a9-b0d3-fad227c6f2bb&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=1",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729212,
+                    "expires_date": "2026-03-28T20:20:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1610633655.1743193213",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1750969213,
+                    "expires_date": "2025-06-26T20:20:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "UserVisits",
+                    "value": "current_visit_date:28.03.2025",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774729213,
+                    "expires_date": "2026-03-28T20:20:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "adSessionId",
+                    "value": "D6DA3CAB-8970-4FFF-9C40-58EE79525FAC",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1777753213.785741,
+                    "expires_date": "2026-05-02T20:20:13.785741+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "value": "d98aea73b77d46efa70566e05971ac16.20250328.20260328",
+                    "domain": "www.clarity.ms",
+                    "path": "/",
+                    "expires": 1774729213.977663,
+                    "expires_date": "2026-03-28T20:20:13.977663+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tfpsi",
+                    "value": "795121a1-ca37-4616-a6ec-1b8d9e0cd8ce",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1743195014.258653,
+                    "expires_date": "2025-03-28T20:50:14.258653+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_clck",
+                    "value": "19d3ky2%7C2%7Cful%7C1%7C1913",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729214,
+                    "expires_date": "2026-03-28T20:20:14+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.829855694.1743193214",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1777753214.183527,
+                    "expires_date": "2026-05-02T20:20:14.183527+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_1ZH014YC50",
+                    "value": "GS1.1.1743193214.1.0.1743193214.0.0.703240942",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1777753214.248351,
+                    "expires_date": "2026-05-02T20:20:14.248351+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "29D01895EEF3688324500D28EF216926",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776889215.288859,
+                    "expires_date": "2026-04-22T20:20:15.288859+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1743798015.288944,
+                    "expires_date": "2025-04-04T20:20:15.288944+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SRM_B",
+                    "value": "29D01895EEF3688324500D28EF216926",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1776889215.288978,
+                    "expires_date": "2026-04-22T20:20:15.288978+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.pYmcxMfMePIm1vTF%2BaCbJ8mXazxdX7axYrzXQDe27mk%3D.1743193214",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1777753214.69958,
+                    "expires_date": "2026-05-02T20:20:14.699580+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "SM",
+                    "value": "C",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "29D01895EEF3688324500D28EF216926",
+                    "domain": ".clarity.ms",
+                    "path": "/",
+                    "expires": 1776889215.340005,
+                    "expires_date": "2026-04-22T20:20:15.340005+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743798015.34006,
+                    "expires_date": "2025-04-04T20:20:15.340060+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ANONCHK",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743193815.34008,
+                    "expires_date": "2025-03-28T20:30:15.340080+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193214697.400596645365816418",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1750969214,
+                    "expires_date": "2025-06-26T20:20:14+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPGSID",
+                    "value": "1.1743193214.1743193214.G-1ZH014YC50.RDECOs3qI23SDp9_bWEYGw",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1743195014.699129,
+                    "expires_date": "2025-03-28T20:50:14.699129+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "A65ICSYZmWQbnBhk4pS3gCT4Lu7xmVSRsLD3gzskAwZiZ86x5bCTDiaM9NP9DIKk0KttAqjOl8k1YP%2BJC9rdYPNvb8AvutW0%2FwtQyAXtHQ8R%2BghTQPTIEBPuAfjwyw%3D%3D",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1743265214.699641,
+                    "expires_date": "2025-03-29T16:20:14.699641+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmyAYPdUweNEfP2uJPegFRG4kkOAtj9k2PuUrggflYekb_-T6UgdbS4ZdbZ",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776889214.72651,
+                    "expires_date": "2026-04-22T20:20:14.726510+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_clsk",
+                    "value": "1gkkfuu%7C1743193215033%7C1%7C1%7Cj.clarity.ms%2Fcollect",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1743279615,
+                    "expires_date": "2025-03-29T20:20:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "LidlID",
+                    "value": "a23003ec-1024-41a0-a4dc-ec1f407639d4",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774753181.749351,
+                    "expires_date": "2026-03-29T02:59:41.749351+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T20:20:12.660Z",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729212,
+                    "expires_date": "2026-03-28T20:20:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kameleoonVisitorCode",
+                    "value": "pvf0s6pgmfq3p38j",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729232,
+                    "expires_date": "2026-03-28T20:20:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1610633655.1743193213",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1750969213,
+                    "expires_date": "2025-06-26T20:20:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "adSessionId",
+                    "value": "D6DA3CAB-8970-4FFF-9C40-58EE79525FAC",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1777753213.785741,
+                    "expires_date": "2026-05-02T20:20:13.785741+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "value": "d98aea73b77d46efa70566e05971ac16.20250328.20260328",
+                    "domain": "www.clarity.ms",
+                    "path": "/",
+                    "expires": 1774729213.977663,
+                    "expires_date": "2026-03-28T20:20:13.977663+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tfpsi",
+                    "value": "795121a1-ca37-4616-a6ec-1b8d9e0cd8ce",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1743195033.328827,
+                    "expires_date": "2025-03-28T20:50:33.328827+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_clck",
+                    "value": "19d3ky2%7C2%7Cful%7C1%7C1913",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729214,
+                    "expires_date": "2026-03-28T20:20:14+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.829855694.1743193214",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1777753232.964754,
+                    "expires_date": "2026-05-02T20:20:32.964754+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "29D01895EEF3688324500D28EF216926",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776889215.288859,
+                    "expires_date": "2026-04-22T20:20:15.288859+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1743798015.288944,
+                    "expires_date": "2025-04-04T20:20:15.288944+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SRM_B",
+                    "value": "29D01895EEF3688324500D28EF216926",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1776889215.288978,
+                    "expires_date": "2026-04-22T20:20:15.288978+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.pYmcxMfMePIm1vTF%2BaCbJ8mXazxdX7axYrzXQDe27mk%3D.1743193214",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1777753240.038474,
+                    "expires_date": "2026-05-02T20:20:40.038474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "SM",
+                    "value": "C",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "29D01895EEF3688324500D28EF216926",
+                    "domain": ".clarity.ms",
+                    "path": "/",
+                    "expires": 1776889215.340005,
+                    "expires_date": "2026-04-22T20:20:15.340005+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743798015.34006,
+                    "expires_date": "2025-04-04T20:20:15.340060+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ANONCHK",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743193815.34008,
+                    "expires_date": "2025-03-28T20:30:15.340080+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193214697.400596645365816418",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1750969233,
+                    "expires_date": "2025-06-26T20:20:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPGSID",
+                    "value": "1.1743193214.1743193214.G-1ZH014YC50.RDECOs3qI23SDp9_bWEYGw",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1743195014.699129,
+                    "expires_date": "2025-03-28T20:50:14.699129+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "A65ICSYZmWQbnBhk4pS3gCT4Lu7xmVSRsLD3gzskAwZiZ86x5bCTDiaM9NP9DIKk0KttAqjOl8k1YP%2BJC9rdYPNvb8AvutW0%2FwtQyAXtHQ8R%2BghTQPTIEBPuAfjwyw%3D%3D",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1743265214.699641,
+                    "expires_date": "2025-03-29T16:20:14.699641+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmyAYPdUweNEfP2uJPegFRG4kkOAtj9k2PuUrggflYekb_-T6UgdbS4ZdbZ",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776889214.72651,
+                    "expires_date": "2026-04-22T20:20:14.726510+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "UserVisits",
+                    "value": "current_visit_date:28.03.2025|last_visit_date:28.03.2025",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774729232,
+                    "expires_date": "2026-03-28T20:20:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A20%3A33+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0c2d1ea6-26a7-45a9-b0d3-fad227c6f2bb&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=1&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729233,
+                    "expires_date": "2026-03-28T20:20:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_clsk",
+                    "value": "1gkkfuu%7C1743193233461%7C4%7C1%7Cj.clarity.ms%2Fcollect",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1743279633,
+                    "expires_date": "2025-03-29T20:20:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_1ZH014YC50",
+                    "value": "GS1.1.1743193214.1.1.1743193239.0.0.703240942",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1777753239.960795,
+                    "expires_date": "2026-05-02T20:20:39.960795+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Preden nadaljujemo:  Nekaj informacij o obdelavi vaših podatkovVaše podatke na naših spletnih mestih obdelujemo z različnimi tehnologijami (vključno s piškotki). Nekatere od njih so tehnično potrebne, druge pa uporabljamo mi ali tretje osebe za udobne nastavitve spletnega mesta, za zbiranje statističnih podatkov ali za prilagojene (oglaševalske) ukrepe. To vključuje tudi prenos podatkov v države zunaj EU brez zadostne ravni zaščite. V razdelku \"Zavrni\" lahko dovolite le uporabo nujno potrebnih tehnik. V razdelku \"Prilagodi\" pa lahko dovolite uporabo za posamezne namene. Dodatne informacije, vključno s pravico, da privolitev kadar koli prekličete, so na voljo v naših informacijah o varstvu podatkov. Informacije o podjetju lahko najdete tukaj.\n\n\n\n\n\n\nZAVRAČAM  STRINJAM SEPRILAGODI",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [ZAVRAČAM]  \nAmbiguousLabel1: [STRINJAM SE]  \nAmbiguousLabel2: None  \nGenericLabel3: [PRILAGODI]  \nExplanation: \"ZAVRAČAM\" is classified under GenericLabel2 as it signifies declining all cookies. \"STRINJAM SE\" is classified under AmbiguousLabel1 as it suggests acceptance but is unclear. \"PRILAGODI\" is classified under GenericLabel3 as it relates to managing settings.",
+                "llm_response_parsed": {
+                    "Accept": "STRINJAM SE",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "ZAVRAČAM",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "PRILAGODI",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"ZAVRAČAM\" is classified under GenericLabel2 as it signifies declining all cookies. \"STRINJAM SE\" is classified under AmbiguousLabel1 as it suggests acceptance but is unclear. \"PRILAGODI\" is classified under GenericLabel3 as it relates to managing settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "STRINJAM SE",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T21:19:40.790173",
+        "timestamp_stop": "2025-03-28T21:20:40.169225"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (ZAVRAČAM)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lidl.si/",
+            "https://www.lidl.si/c/knjizna-polica/a10024386",
+            "https://www.lidl.si/c/ponudba-lupilu/s10020854",
+            "https://www.lidl.si/c/ideje-za-izlete/s10025067"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "LidlID",
+                    "value": "037e8cb6-2712-45e8-91dd-b5a1ee134085",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774753243.071957,
+                    "expires_date": "2026-03-29T03:00:43.071957+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A20%3A43+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=14031732-ecb0-4b15-a387-5c66c626878e&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.lidl.si%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729243,
+                    "expires_date": "2026-03-28T20:20:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "LidlID",
+                    "value": "037e8cb6-2712-45e8-91dd-b5a1ee134085",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774753243.071957,
+                    "expires_date": "2026-03-29T03:00:43.071957+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T20:21:11.058Z",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729271,
+                    "expires_date": "2026-03-28T20:21:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A21%3A11+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=14031732-ecb0-4b15-a387-5c66c626878e&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0&intType=2",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729271,
+                    "expires_date": "2026-03-28T20:21:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "LidlID",
+                    "value": "037e8cb6-2712-45e8-91dd-b5a1ee134085",
+                    "domain": "www.lidl.si",
+                    "path": "/",
+                    "expires": 1774753243.071957,
+                    "expires_date": "2026-03-29T03:00:43.071957+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T20:21:11.058Z",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729271,
+                    "expires_date": "2026-03-28T20:21:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A21%3A31+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=14031732-ecb0-4b15-a387-5c66c626878e&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0&intType=2&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".lidl.si",
+                    "path": "/",
+                    "expires": 1774729291,
+                    "expires_date": "2026-03-28T20:21:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Preden nadaljujemo:  Nekaj informacij o obdelavi vaših podatkovVaše podatke na naših spletnih mestih obdelujemo z različnimi tehnologijami (vključno s piškotki). Nekatere od njih so tehnično potrebne, druge pa uporabljamo mi ali tretje osebe za udobne nastavitve spletnega mesta, za zbiranje statističnih podatkov ali za prilagojene (oglaševalske) ukrepe. To vključuje tudi prenos podatkov v države zunaj EU brez zadostne ravni zaščite. V razdelku \"Zavrni\" lahko dovolite le uporabo nujno potrebnih tehnik. V razdelku \"Prilagodi\" pa lahko dovolite uporabo za posamezne namene. Dodatne informacije, vključno s pravico, da privolitev kadar koli prekličete, so na voljo v naših informacijah o varstvu podatkov. Informacije o podjetju lahko najdete tukaj.\n\n\n\n\n\n\nZAVRAČAM  STRINJAM SEPRILAGODI",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [ZAVRAČAM]  \nAmbiguousLabel1: [STRINJAM SE]  \nAmbiguousLabel2: None  \nGenericLabel3: [PRILAGODI]  \nExplanation: \"ZAVRAČAM\" is categorized under GenericLabel2 as it signifies declining all cookies. \"STRINJAM SE\" is categorized under AmbiguousLabel1 as it is a generic phrase that can signify acceptance. \"PRILAGODI\" is assigned to GenericLabel3 as it indicates managing settings.",
+                "llm_response_parsed": {
+                    "Accept": "STRINJAM SE",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "ZAVRAČAM",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "PRILAGODI",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"ZAVRAČAM\" is categorized under GenericLabel2 as it signifies declining all cookies. \"STRINJAM SE\" is categorized under AmbiguousLabel1 as it is a generic phrase that can signify acceptance. \"PRILAGODI\" is assigned to GenericLabel3 as it indicates managing settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "ZAVRAČAM",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T21:20:41.777614",
+        "timestamp_stop": "2025-03-28T21:21:38.134789"
+    }
+}

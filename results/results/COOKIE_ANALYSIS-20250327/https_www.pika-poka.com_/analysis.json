@@ -1,0 +1,801 @@
+{
+    "web_page": "https://www.pika-poka.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T03:00:07.813576",
+    "timestamp_stop": "2025-03-28T03:01:59.014769",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pika-poka.com/",
+            "https://www.pika-poka.com/category/ustvarjalni-paketi",
+            "https://www.pika-poka.com/darilne-kuverte",
+            "https://www.pika-poka.com/privacy-policy"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743127210439.878445328539972687",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1750903210,
+                    "expires_date": "2025-06-26T02:00:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2027286670.1743127211",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743213610,
+                    "expires_date": "2025-03-29T02:00:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_162616535_1",
+                    "value": "1",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743127270,
+                    "expires_date": "2025-03-28T02:01:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JF85WY0T0F",
+                    "value": "GS1.1.1743127210.1.0.1743127210.0.0.0",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687210.566706,
+                    "expires_date": "2026-05-02T02:00:10.566706+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.567487885.1743127211",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687210.567198,
+                    "expires_date": "2026-05-02T02:00:10.567198+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743127210439.878445328539972687",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1750903229,
+                    "expires_date": "2025-06-26T02:00:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2027286670.1743127211",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743213629,
+                    "expires_date": "2025-03-29T02:00:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_162616535_1",
+                    "value": "1",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743127270,
+                    "expires_date": "2025-03-28T02:01:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JF85WY0T0F",
+                    "value": "GS1.1.1743127210.1.1.1743127229.0.0.0",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687229.110508,
+                    "expires_date": "2026-05-02T02:00:29.110508+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.567487885.1743127211",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687229.110875,
+                    "expires_date": "2026-05-02T02:00:29.110875+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T03:00:09.144041",
+        "timestamp_stop": "2025-03-28T03:00:35.122745"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pika-poka.com/",
+            "https://www.pika-poka.com/category/ustvarjalni-paketi",
+            "https://www.pika-poka.com/darilne-kuverte",
+            "https://www.pika-poka.com/kontakt",
+            "https://www.pika-poka.com/privacy-policy",
+            "https://www.pika-poka.com/vabila"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743127237852.370072403433261635",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1750903237,
+                    "expires_date": "2025-06-26T02:00:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.126970285.1743127238",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743213637,
+                    "expires_date": "2025-03-29T02:00:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_162616535_1",
+                    "value": "1",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743127297,
+                    "expires_date": "2025-03-28T02:01:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JF85WY0T0F",
+                    "value": "GS1.1.1743127238.1.0.1743127238.0.0.0",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687238.051012,
+                    "expires_date": "2026-05-02T02:00:38.051012+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1788242167.1743127238",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687238.051595,
+                    "expires_date": "2026-05-02T02:00:38.051595+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743127237852.370072403433261635",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1750903251,
+                    "expires_date": "2025-06-26T02:00:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.126970285.1743127238",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743213651,
+                    "expires_date": "2025-03-29T02:00:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_162616535_1",
+                    "value": "1",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743127297,
+                    "expires_date": "2025-03-28T02:01:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JF85WY0T0F",
+                    "value": "GS1.1.1743127238.1.1.1743127251.0.0.0",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687251.289157,
+                    "expires_date": "2026-05-02T02:00:51.289157+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1788242167.1743127238",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687251.289733,
+                    "expires_date": "2026-05-02T02:00:51.289733+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743127237852.370072403433261635",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1750903270,
+                    "expires_date": "2025-06-26T02:01:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.126970285.1743127238",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743213670,
+                    "expires_date": "2025-03-29T02:01:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_162616535_1",
+                    "value": "1",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743127297,
+                    "expires_date": "2025-03-28T02:01:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JF85WY0T0F",
+                    "value": "GS1.1.1743127238.1.1.1743127270.0.0.0",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687270.903084,
+                    "expires_date": "2026-05-02T02:01:10.903084+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1788242167.1743127238",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687270.903415,
+                    "expires_date": "2026-05-02T02:01:10.903415+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T03:00:36.751642",
+        "timestamp_stop": "2025-03-28T03:01:16.912091"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pika-poka.com/",
+            "https://www.pika-poka.com/category/ustvarjalni-paketi",
+            "https://www.pika-poka.com/darilne-kuverte",
+            "https://www.pika-poka.com/kontakt",
+            "https://www.pika-poka.com/privacy-policy",
+            "https://www.pika-poka.com/vabila"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743127279315.524536162353973445",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1750903279,
+                    "expires_date": "2025-06-26T02:01:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2141925059.1743127280",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743213679,
+                    "expires_date": "2025-03-29T02:01:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_162616535_1",
+                    "value": "1",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743127339,
+                    "expires_date": "2025-03-28T02:02:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JF85WY0T0F",
+                    "value": "GS1.1.1743127279.1.0.1743127279.0.0.0",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687279.84799,
+                    "expires_date": "2026-05-02T02:01:19.847990+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.136346088.1743127280",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687279.84868,
+                    "expires_date": "2026-05-02T02:01:19.848680+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743127279315.524536162353973445",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1750903293,
+                    "expires_date": "2025-06-26T02:01:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2141925059.1743127280",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743213693,
+                    "expires_date": "2025-03-29T02:01:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_162616535_1",
+                    "value": "1",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743127339,
+                    "expires_date": "2025-03-28T02:02:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JF85WY0T0F",
+                    "value": "GS1.1.1743127279.1.1.1743127293.0.0.0",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687293.244691,
+                    "expires_date": "2026-05-02T02:01:33.244691+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.136346088.1743127280",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687293.246298,
+                    "expires_date": "2026-05-02T02:01:33.246298+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743127279315.524536162353973445",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1750903312,
+                    "expires_date": "2025-06-26T02:01:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2141925059.1743127280",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743213712,
+                    "expires_date": "2025-03-29T02:01:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_162616535_1",
+                    "value": "1",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1743127339,
+                    "expires_date": "2025-03-28T02:02:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JF85WY0T0F",
+                    "value": "GS1.1.1743127279.1.1.1743127312.0.0.0",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687312.682386,
+                    "expires_date": "2026-05-02T02:01:52.682386+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.136346088.1743127280",
+                    "domain": ".pika-poka.com",
+                    "path": "/",
+                    "expires": 1777687312.684742,
+                    "expires_date": "2026-05-02T02:01:52.684742+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "002_decline_init_1.png",
+            "003_decline_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T03:01:18.556043",
+        "timestamp_stop": "2025-03-28T03:01:58.748891"
+    }
+}

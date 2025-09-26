@@ -1,0 +1,667 @@
+{
+    "web_page": "https://mcdonalds.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T08:26:27.626179",
+    "timestamp_stop": "2025-03-28T08:28:46.978885",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://mcdonalds.si/",
+            "https://mcdonalds.si/prenesi-si-aplikacijo",
+            "https://mcdonalds.si/piscanec-za-vse/#vprasalnik",
+            "https://mcdonalds.si/ponudba/glavne-jedi/mcchicken"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImluakVqYW9QOFVpZDdEcXBEVHBlS0E9PSIsInZhbHVlIjoiSTBieTF1dGtoZGQzSS8zWDQxUUc5UEU4ZWM4TzhFdktVamtQNnFTRWs2WVJ6MjFWcXZsNG5MVHovUklpa2lJdmZ3ZTd5SFg2amFmYVZIam5JczFOSCs0a1VOdUMycWc4Mnl4VEJPME53Z29nN2JlRElkVmx6REpxME1sV0ZoRnUiLCJtYWMiOiJlNjM0YzFlZDU5YmZhYTcyYjY4YjAzNDlkMmRmYThmNzY3MjIwMjUxZTM5NmMwZTFhZmM3NDI5NWQ3ZjZhNTM4IiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743153989.215636,
+                    "expires_date": "2025-03-28T09:26:29.215636+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mcdonalds_session",
+                    "value": "eyJpdiI6InBaTVJ3MmNBVVlLWHIxWVgrdUI1K1E9PSIsInZhbHVlIjoiVndFNzVPa0Z5bVdwNXFZNFMxWFVmSzl3ZlN3TW9VN0FYVnVWdjJlV1B4bG4xK0Y2UzRid0NjNmFjb09PY2xXWGlKR2N1dUpVZXBaU3g1YmJXTEcrYU9qL3d0M3Q4Tk9wMEZiK2xQL1hVajBGbDRzclFwNFVGMkNpUmJaSWtvSTUiLCJtYWMiOiI1NTYxOTY1NTRiNzc0Nzg4NzA5M2UyNjhkNmJjMmVlNmRiOGEyZTIwZDAwYzVjOGQyZjE4M2E3ZjI3MDA3MGU3IiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743153989.215982,
+                    "expires_date": "2025-03-28T09:26:29.215982+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlJORzNoMk9ZdGg5cTRIZml3SS9EeWc9PSIsInZhbHVlIjoiZldaSmdBcDFwTHF5TUsxMXlWN09qWWEvdjdUMHN3TkZDbUtVVUh4dldsZnBLUzIxcy82akU4TzV0QmdLNjkzK0JSMnNXUzdYUTN0TFQwOGtDam5IQUREQjJoa3YvZGsyOENlK0RaYXZUVHpUdFBmNUJ3UWFvcE5kTDNTQU56SHYiLCJtYWMiOiIzNDVjYjYwYWU3NWY0NjMyNDMxZDAzNmYxZTg5ZWI2Y2IxNDhjYTkxYWRiYzM0YzZlNDkyNjY4Yjc0MDg1ZjI5IiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154010.251874,
+                    "expires_date": "2025-03-28T09:26:50.251874+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mcdonalds_session",
+                    "value": "eyJpdiI6InRlWVpGcTNxanhXbm5Wc3l4aDdmaFE9PSIsInZhbHVlIjoibmdNMHBuK000M09LbkpHaStVMm5aNm9nNzhVeWRweVpJdTlkRnpITVRVWDFabU5NbFNyR1YzRW5USWU1ZFFzWVZ5cTFqZGpyRDVXMzdQaERHOExvRnF2dWNPZFRxWW9VbER2RklPdCtWT250aElwSTZwU2o1VFNSeSsyRkFvQjgiLCJtYWMiOiIxN2FjYTU1M2FjOWY3ZmJkNTQxMjBiN2RlOWFjNDU5ZTI1MTUwMTFlOWZmNGEwMWVkZmQwNDM3NGJmMzUzMWUzIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154010.251958,
+                    "expires_date": "2025-03-28T09:26:50.251958+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T08:26:28.883264",
+        "timestamp_stop": "2025-03-28T08:26:57.342424"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Nadaljuj z vsemi piškotki)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://mcdonalds.si/",
+            "https://mcdonalds.si/prenesi-si-aplikacijo",
+            "https://mcdonalds.si/piscanec-za-vse/#vprasalnik",
+            "https://mcdonalds.si/ponudba/glavne-jedi/mcchicken"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InM4bW95Sk80SGF3RE40M0VEQW1Jd3c9PSIsInZhbHVlIjoiUldEbTVxbEw1emd4QlVxalU4NDIwQ0ZLRzZzaHF5dEhaV1B4R1pGYzZqdllTNmlHemYvcThhMWcvbW5GNmJXUXgxWVJDcGUxa1JFVzJNVUgvSGFnLzRkZTZKZDd4eGJvOXdUN2wxR3c0ekFCbS9kYWpia2hvNlMxSnJpdk1IeHAiLCJtYWMiOiI3NzdlOTEyOGZjMzJkZTA2NzMzZTFhY2IzOWE1NDAyYWVjYjNlNzYxZjdmYzkyMzU5Mjk2NTA5MzMyNmNjOWNmIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154019.196934,
+                    "expires_date": "2025-03-28T09:26:59.196934+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mcdonalds_session",
+                    "value": "eyJpdiI6IkhRWkIyOC9yZzYwL01xSDY2OThIVmc9PSIsInZhbHVlIjoiUTI4ME9ja21pUnRmSUZXdVBnNFBOVVE0eFI4NVlOWTIxYWhKSUgvTElnazQ1aXRiOFNGL3ZhNUc5dkJCL3ZvSWJIeFlzdllNMWszWlpoZFhpNVJPbWgvWVVzU0JzSGdHNzJ2QzR1YXE4dWk5WU5CbXZtSmRjTWZ5NXJ1RzRMMCsiLCJtYWMiOiIxY2EwNmMwOGY5OGRjMWFiZTRkYWJjZGYzNjljOTkzMmQyYmI3Mzg3YzFkOGZhNDIwMDJhMmM0MTg4ZTgwNmZjIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154019.197134,
+                    "expires_date": "2025-03-28T09:26:59.197134+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InM4bW95Sk80SGF3RE40M0VEQW1Jd3c9PSIsInZhbHVlIjoiUldEbTVxbEw1emd4QlVxalU4NDIwQ0ZLRzZzaHF5dEhaV1B4R1pGYzZqdllTNmlHemYvcThhMWcvbW5GNmJXUXgxWVJDcGUxa1JFVzJNVUgvSGFnLzRkZTZKZDd4eGJvOXdUN2wxR3c0ekFCbS9kYWpia2hvNlMxSnJpdk1IeHAiLCJtYWMiOiI3NzdlOTEyOGZjMzJkZTA2NzMzZTFhY2IzOWE1NDAyYWVjYjNlNzYxZjdmYzkyMzU5Mjk2NTA5MzMyNmNjOWNmIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154019.196934,
+                    "expires_date": "2025-03-28T09:26:59.196934+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mcdonalds_session",
+                    "value": "eyJpdiI6IkhRWkIyOC9yZzYwL01xSDY2OThIVmc9PSIsInZhbHVlIjoiUTI4ME9ja21pUnRmSUZXdVBnNFBOVVE0eFI4NVlOWTIxYWhKSUgvTElnazQ1aXRiOFNGL3ZhNUc5dkJCL3ZvSWJIeFlzdllNMWszWlpoZFhpNVJPbWgvWVVzU0JzSGdHNzJ2QzR1YXE4dWk5WU5CbXZtSmRjTWZ5NXJ1RzRMMCsiLCJtYWMiOiIxY2EwNmMwOGY5OGRjMWFiZTRkYWJjZGYzNjljOTkzMmQyYmI3Mzg3YzFkOGZhNDIwMDJhMmM0MTg4ZTgwNmZjIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154019.197134,
+                    "expires_date": "2025-03-28T09:26:59.197134+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional|analytics|advertisement|all_cookies",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": 1777706845.362084,
+                    "expires_date": "2026-05-02T07:27:25.362084+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_V9N3WP6V72",
+                    "value": "GS1.1.1743146845.1.0.1743146845.60.0.0",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": 1777706845.609171,
+                    "expires_date": "2026-05-02T07:27:25.609171+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.92124548.1743146846",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": 1777706845.609646,
+                    "expires_date": "2026-05-02T07:27:25.609646+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743146845691.129416596360258138",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": 1750922845,
+                    "expires_date": "2025-06-26T07:27:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional|analytics|advertisement|all_cookies",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": 1777706863.813424,
+                    "expires_date": "2026-05-02T07:27:43.813424+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.92124548.1743146846",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": 1777706864.340612,
+                    "expires_date": "2026-05-02T07:27:44.340612+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743146845691.129416596360258138",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": 1750922864,
+                    "expires_date": "2025-06-26T07:27:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IkxmM1NycE9CQWpBTnNZZUR0OTRIVVE9PSIsInZhbHVlIjoiVFRjVk96OW0wRGVOMHFra08vUk9LYS9HZ3NCanMwTzlmSGk1bGtqcDdpcnFkY3E5NFpXbDB4YnY2VnNBZTZCYXhLQVIrS0R4WmpZVVpDYm1ORG5zWVVoaUllREF1ZUFybEhHbUJpODEvV0xkZTR1VDNpQ2VoWk1Lb2J6Tm15dEciLCJtYWMiOiJhNWNhNmExMzRjNWQwOTBiZTdmNDEzN2Y5MzdlYzk0ZmM0YTY1ZTFjOWE0ZmJlMjllMGIyNzllNGE5YWQ1NDdmIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154063.780992,
+                    "expires_date": "2025-03-28T09:27:43.780992+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mcdonalds_session",
+                    "value": "eyJpdiI6IndMUEZqSWtFVEZ1UzFNUnZLS05Obmc9PSIsInZhbHVlIjoiU0pZYzZxd3dFdDVXWEQ2dXFmZEVVbWlEd2xHcU5tWCtSRUZjQzJpT1BOd2RLV0NrVkxQRnZkZC9jMGFmZmRack14TS9KdDZ1dUZZVUdwMGY4ZGRKR29ERVh6ZmVtR09QWjlQd3BxV0dWdGtOd3lGdFB6TnZyQmlRdWFKbzQvK0ciLCJtYWMiOiJmYTYxOTE0MDUzYzRiNjBiNDZjOTdlZTBlZDMxMTI2YTljODk4NTUwMDQ1NWJkMGU2OTQ0NjJiYjM2YTI5MTQwIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154063.781073,
+                    "expires_date": "2025-03-28T09:27:43.781073+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_V9N3WP6V72",
+                    "value": "GS1.1.1743146845.1.1.1743146870.35.0.0",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": 1777706870.587028,
+                    "expires_date": "2026-05-02T07:27:50.587028+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke\n            Kužki bi jih z veseljem pojedli, mačke bi jih morda samo povohale, so pa naši piškotki okusni in nujno potrebni za sodelovanje v nagradni igri. Sprejmite jih.\n            \n                \n\t\n\t\t\n\t\t\n\t\n\tNujni piškotki\n\n                \n\t\n\t\t\n\t\t\n\t\n\tAnalitični piškotki\n\n                \n\t\n\t\t\n\t\t\n\t\n\tOglaševalski piškotki\n\n            \n            \n                \n\t\t\n\n\tShrani nastavitve\n\n\n\t\t\n\t\t                \n\t\t\n\n\tNadaljuj z vsemi piškotki\n\n\n\t\t\n\t\t            \n            \n                                    Piškotki\n                                             \n                                                        Splošni pogoji\n                                             \n                                                        Politika zasebnosti",
+                "banner_z_index": 100,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Nadaljuj z vsemi piškotki]\nGenericLabel2: None\nAmbiguousLabel1: [Shrani nastavitve]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: \"Nadaljuj z vsemi piškotki\" is categorized under GenericLabel1 as it signifies accepting all cookies. \"Shrani nastavitve\" is categorized under AmbiguousLabel1 as it implies saving the settings, which could be interpreted as an acceptance action. There are no labels for declining cookies or settings management.",
+                "llm_response_parsed": {
+                    "Accept": "Nadaljuj z vsemi piškotki",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Shrani nastavitve",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Nadaljuj z vsemi piškotki\" is categorized under GenericLabel1 as it signifies accepting all cookies. \"Shrani nastavitve\" is categorized under AmbiguousLabel1 as it implies saving the settings, which could be interpreted as an acceptance action. There are no labels for declining cookies or settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "Nadaljuj z vsemi piškotki",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T08:26:58.922921",
+        "timestamp_stop": "2025-03-28T08:27:50.826049"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Shrani nastavitve)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://mcdonalds.si/",
+            "https://mcdonalds.si/prenesi-si-aplikacijo",
+            "https://mcdonalds.si/piscanec-za-vse/#vprasalnik",
+            "https://mcdonalds.si/ponudba/glavne-jedi/mcchicken"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImVNTWFwSnM0S0NwMnhWT0FDZ2lxbHc9PSIsInZhbHVlIjoiMXB3b010aWhtbWd2Q1NENGtrZGhMZUJnc0tyd0kwTmx4UWJ6bmk3WVhJUkc1TUNFQ2NSUDJyRnRTT05wcTdzSkc5UFlKVkRETnBIZWh6bkhYS2F5V2xTMzFacUZ5SjJ1dkxCMUxiSUo0VkhFUXFKa3hiYUUwSXdjSi9pWWhQSmwiLCJtYWMiOiI1NWViM2FjZDY4ZmIwNTI5MmQxNmNjYzg5NGVjOTkxNzFmZWI5YmZjYjI3MGI2YTI2MGQxYjc2MjgzM2FkYWI5IiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154072.63507,
+                    "expires_date": "2025-03-28T09:27:52.635070+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mcdonalds_session",
+                    "value": "eyJpdiI6InRERmpNejF3K1o3bHo2WVJwN0hnOXc9PSIsInZhbHVlIjoiSVgxMXRmYTNrOVhWb0RxMi8ydTJYOGVYT3RvTlg2cm9JQVZZYlhud2VaRmdNSnJ2K1hiRktZTXo0eDVzS0NnUjBPYm5RMFZuSWtzZ3A3Z3krNUtzWGd2ZHJBZVJoeHJBVm5uaXk3UkNPTFJGWjJvaFZBWVlmSkQyd3FPclVIZjIiLCJtYWMiOiIxMzgwZDcxMjhiMDg1YWI5NjRlNjk0ODY3YzQ0ZWVhNzA2ZjRlZTMzZWUwOWFhYmYzOTYwNjJlOWYzMzY5NTQyIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154072.635232,
+                    "expires_date": "2025-03-28T09:27:52.635232+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImVNTWFwSnM0S0NwMnhWT0FDZ2lxbHc9PSIsInZhbHVlIjoiMXB3b010aWhtbWd2Q1NENGtrZGhMZUJnc0tyd0kwTmx4UWJ6bmk3WVhJUkc1TUNFQ2NSUDJyRnRTT05wcTdzSkc5UFlKVkRETnBIZWh6bkhYS2F5V2xTMzFacUZ5SjJ1dkxCMUxiSUo0VkhFUXFKa3hiYUUwSXdjSi9pWWhQSmwiLCJtYWMiOiI1NWViM2FjZDY4ZmIwNTI5MmQxNmNjYzg5NGVjOTkxNzFmZWI5YmZjYjI3MGI2YTI2MGQxYjc2MjgzM2FkYWI5IiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154072.63507,
+                    "expires_date": "2025-03-28T09:27:52.635070+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mcdonalds_session",
+                    "value": "eyJpdiI6InRERmpNejF3K1o3bHo2WVJwN0hnOXc9PSIsInZhbHVlIjoiSVgxMXRmYTNrOVhWb0RxMi8ydTJYOGVYT3RvTlg2cm9JQVZZYlhud2VaRmdNSnJ2K1hiRktZTXo0eDVzS0NnUjBPYm5RMFZuSWtzZ3A3Z3krNUtzWGd2ZHJBZVJoeHJBVm5uaXk3UkNPTFJGWjJvaFZBWVlmSkQyd3FPclVIZjIiLCJtYWMiOiIxMzgwZDcxMjhiMDg1YWI5NjRlNjk0ODY3YzQ0ZWVhNzA2ZjRlZTMzZWUwOWFhYmYzOTYwNjJlOWYzMzY5NTQyIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154072.635232,
+                    "expires_date": "2025-03-28T09:27:52.635232+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".mcdonalds.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IjdiZC9rQzRMM2xlUVpNNDBTVUhacmc9PSIsInZhbHVlIjoiUFV5Uzc3V21sNFRuM3o1WlZ6RUl1VnZYV1BiSDlIUjJoaDFjbWN2eHVUdTMrWHl2WTQvUmxwM3M2NXJqRU1XckNZSm9RSmQ0SFBpeDRmVDlzcE0weUh0YkZvditMbmMzbVN2T1BXWlJuRHMzM2svZTloamJyT21BeGJZUGx3R0wiLCJtYWMiOiI5YWMwMTE2ZmU4NTYwODhkNTMzMjA5OGU0YmNlODgxOWJjMmQzOTU4MjdlNThkYWFhMjZhZDAzZDQ3YTc0MzE5IiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154119.669054,
+                    "expires_date": "2025-03-28T09:28:39.669054+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mcdonalds_session",
+                    "value": "eyJpdiI6Imxja0xVRllKVHZQdExxcEREZFViS1E9PSIsInZhbHVlIjoiUEdsa0JzeWVCdzY0TFJXbk1VUTQxTkhNcjlwVEd4eThTNXpEVVZRSXJlMGFyRUQ0TzVHNGlSN0trdjRuNCtHUmViK0Z3cTFxYUdTL2NySkFIa3A1bEd2bHk2bmFoRDhERzBvVndtZHFURmR1Z0ptcXhrMTJMUnh6dXcxOVFpMEUiLCJtYWMiOiI1NDJmMjA2ZDg3ZmMxNDAzNzRlYzhmMmM2ZDdhNjlkMzI1NzYyZTI5MWY3MGMyMDM1OGMzZDUxNzQ3MDRkNWFmIiwidGFnIjoiIn0%3D",
+                    "domain": "mcdonalds.si",
+                    "path": "/",
+                    "expires": 1743154119.669128,
+                    "expires_date": "2025-03-28T09:28:39.669128+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke\n            Kužki bi jih z veseljem pojedli, mačke bi jih morda samo povohale, so pa naši piškotki okusni in nujno potrebni za sodelovanje v nagradni igri. Sprejmite jih.\n            \n                \n\t\n\t\t\n\t\t\n\t\n\tNujni piškotki\n\n                \n\t\n\t\t\n\t\t\n\t\n\tAnalitični piškotki\n\n                \n\t\n\t\t\n\t\t\n\t\n\tOglaševalski piškotki\n\n            \n            \n                \n\t\t\n\n\tShrani nastavitve\n\n\n\t\t\n\t\t                \n\t\t\n\n\tNadaljuj z vsemi piškotki\n\n\n\t\t\n\t\t            \n            \n                                    Piškotki\n                                             \n                                                        Splošni pogoji\n                                             \n                                                        Politika zasebnosti",
+                "banner_z_index": 100,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Nadaljuj z vsemi piškotki]\nGenericLabel2: None\nAmbiguousLabel1: [Shrani nastavitve]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button \"Nadaljuj z vsemi piškotki\" is categorized as accepting all cookies. \"Shrani nastavitve\" is considered an ambiguous accept because it indicates saving settings which could imply agreement. There are no buttons for declining all cookies or settings explicitly stated.",
+                "llm_response_parsed": {
+                    "Accept": "Nadaljuj z vsemi piškotki",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Shrani nastavitve",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button \"Nadaljuj z vsemi piškotki\" is categorized as accepting all cookies. \"Shrani nastavitve\" is considered an ambiguous accept because it indicates saving settings which could imply agreement. There are no buttons for declining all cookies or settings explicitly stated."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "Shrani nastavitve",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T08:27:52.381930",
+        "timestamp_stop": "2025-03-28T08:28:46.708469"
+    }
+}

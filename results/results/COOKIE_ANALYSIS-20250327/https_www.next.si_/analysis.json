@@ -1,0 +1,3442 @@
+{
+    "web_page": "https://www.next.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T09:19:16.727634",
+    "timestamp_stop": "2025-03-28T09:23:29.379872",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.next.si/",
+            "https://www.next.si/sl/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-youngerboys-gender-youngergirls-category-jeans-category-joggers-0",
+            "https://www.next.si/sl/shop/gender-women-category-dresses/length-midi",
+            "https://www.next.si/sl/shop/gender-newbornboys-gender-newbornunisex-gender-olderboys-gender-youngerboys-productaffiliation-holidayshop/category-sunglasses"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "NSC_JO0q5jt2cooguzobc55rmrdd0tc1teq",
+                    "value": "ffffffff660282c145525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_wtsw_ofyu.dp.vl_iuuq2",
+                    "value": "ffffffff66028f1445525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743152360.414087,
+                    "expires_date": "2025-03-28T08:59:20.414087+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NextDeviceType",
+                    "value": "Desktop",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743160760.414057,
+                    "expires_date": "2025-03-28T11:19:20.414057+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=26~id=67be2b37015473a415c285854e4e54f1",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "635FC257988001ADEAAA56D95200AA40~000000000000000000000000000000~YAAQIX4ZuI+9V7KVAQAACYXV2xsmD1tLE2ngO3bHh/FQmREpz79Z0xWFa5DKi5Ogn+G1xva8ZEYJpOHHpxErWVTh8jmIbDVufLMBHoVwFFSZMbmzyoOHkTT/5Vhu0EhIZD1HzZ6OqBESpz2UHKKJbzaD8HhYG97C3RPXj6i2Gcz+fR478co0d+2xw086WXeZpE3AyEgn34LXJxG1zfOI1QnYTR/acLV9v7/f4m1mGUr5bc0IAQ/meieN1vVUHTlBcVbylrnmgFCdfSjkWBOpQtQwSYOCmChXhoXVJIoqrwzjdV1gAqqDYDRwBXEj9CZ9hBfzR9C1bFCwheZfltCy4jqzc10YoPdpJorw3qBEVKHj2LTKRh2kd6ZeijiPRKO5RvTT8p0B81k=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157158.309458,
+                    "expires_date": "2025-03-28T10:19:18.309458+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "5A83C05947219028AC5A140B1B9CC0F9~YAAQIX4ZuLm9V7KVAQAAWYXV2xs1C1oESloaxl2Q6CVHo5vg45giMOfXrvIwpLj+JqDOTHq6ozulfC4ZbgQ3f4JlrPqgzALiGE2Pl6fAmZMK/ZZjiOUFYmq9Ej1mpX149zHleuDnYAoYgLMunRSAAxgnl7O5IeWztTkhz/m+RCZEp5aDX4CDix343oGbOpqsEqp8Obz98yMctTUFQ4zyiZlt/1TpsXqComT842EeeXbRIqFJ8qUMBlXwwREQrcXedBy7+OApTuVlHuLDaQ2enPAyRQfKu2Pn8LYeVaiDQka0RAPGt1Akke6Q9xe3QbeB983wQKZqJXaKLyc/UNK9GCwEF0JCj8Cu8U7bXzVrzRTyAqmOgUitja6UhAG6ZZIyD+DfoQL6R2VpDGGhzBiEoQ==~4538948~3748422",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743164358.391743,
+                    "expires_date": "2025-03-28T12:19:18.391743+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Queue-it-0b6a8275-62c3-4b92-859d-2dc73e699c05",
+                    "value": "WasRedirected=false&i=638787467593723134",
+                    "domain": "next.queue-it.net",
+                    "path": "/",
+                    "expires": 1743153559.291411,
+                    "expires_date": "2025-03-28T09:19:19.291411+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "QueueITAccepted-SDFrts345E-V3_nextintmainsitelive",
+                    "value": "EventId%3Dnextintmainsitelive%26QueueId%3D0b6a8275-62c3-4b92-859d-2dc73e699c05%26RedirectType%3Dsafetynet%26IssueTime%3D1743149959%26Hash%3Dbed61a9912548ba14f3d4e813ad2746c6bb7e1d4c15abbda185b63c6c80bfcb2",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151159,
+                    "expires_date": "2025-03-28T08:39:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "x-next-realm-entrypoint",
+                    "value": "next",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151760,
+                    "expires_date": "2025-03-28T08:49:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+09%3A19%3A20+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9cde4dd6-4dee-4d65-8d95-c4185ac8e5e5&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.next.si%2Fsl&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758701960,
+                    "expires_date": "2025-09-24T08:19:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "1y4llbm2ixdnrxyl5s4ybye3",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IdentityReqParams",
+                    "value": "CountryCode=si&LanguageCode=sl&Domain=www.next.si",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743751160.414114,
+                    "expires_date": "2025-04-04T07:19:20.414114+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextSessionVariables",
+                    "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738360.414133,
+                    "expires_date": "2025-04-27T07:19:20.414133+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextVisitor",
+                    "value": "LatestSessionID=c49622e077b349c8b5650b5d6b9595e0&LatestSessionTimestamp=28/03/2025 08:19:20&ID=547cbf605f5e4f27a928543925ad3d50",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758925160.414151,
+                    "expires_date": "2025-09-26T22:19:20.414151+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": "ID=c49622e077b349c8b5650b5d6b9595e0",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "A9BE053AA33BACCDC5B4F477D71E23C8~-1~YAAQIX4ZuMHBV7KVAQAApI/V2w3wcRZK05mJeELJ4QwBaa/Ku8yt68BVyQomDoux27w4Bluz88LUaa/LDXRCAYh3QE0DSGdewME/4yVdy3AsNqN+VhLPBwJOMKIinD/7GSAgH7ohEfS4ybZaBtGhBJfwBkHdEhb3LHrc0a09DSzL5z0hKwYUAeqM8uXbySwbwl9e1C5cKNpW302RRBXu3W7dumkzZ0h9WpH4vwcUu6NpQZzNhq9vrP4+8izSvoJyk0Qajuhnn2MNNIIH8NV3HkmVQ8wgV012+Nkv6R0IgVGMTfBM1v0QBJoP7ORmX/Lda2Lt2X/omunLF35RIb2C6o25H/uxQFfYW+usHizWUqZ6FgyA98k7Yp4QwRVsTDsxMFA0hyN8d/2mfQOBaeO8NKwrMlOGNAi3IMHrN7aoevuibvTmHDFH8GUlzWIzLOGgGA93d6zHbtMQnQSO+A7OP4BeWo9sEVlO3zxqZVpRUcwdwH9fSpVbZJ8UX/3kVCely5WxJrLitKBdZaBBHfpCyO24mg1UXQfL~-1~||0||~1743153559",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774685961.024658,
+                    "expires_date": "2026-03-28T08:19:21.024658+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "NSC_JO0q5jt2cooguzobc55rmrdd0tc1teq",
+                    "value": "ffffffff660282c145525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_wtsw_ofyu.dp.vl_iuuq2",
+                    "value": "ffffffff66028f1445525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743152407.679008,
+                    "expires_date": "2025-03-28T09:00:07.679008+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NextDeviceType",
+                    "value": "Desktop",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743160807.678972,
+                    "expires_date": "2025-03-28T11:20:07.678972+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=26~id=67be2b37015473a415c285854e4e54f1",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "635FC257988001ADEAAA56D95200AA40~000000000000000000000000000000~YAAQIX4ZuI+9V7KVAQAACYXV2xsmD1tLE2ngO3bHh/FQmREpz79Z0xWFa5DKi5Ogn+G1xva8ZEYJpOHHpxErWVTh8jmIbDVufLMBHoVwFFSZMbmzyoOHkTT/5Vhu0EhIZD1HzZ6OqBESpz2UHKKJbzaD8HhYG97C3RPXj6i2Gcz+fR478co0d+2xw086WXeZpE3AyEgn34LXJxG1zfOI1QnYTR/acLV9v7/f4m1mGUr5bc0IAQ/meieN1vVUHTlBcVbylrnmgFCdfSjkWBOpQtQwSYOCmChXhoXVJIoqrwzjdV1gAqqDYDRwBXEj9CZ9hBfzR9C1bFCwheZfltCy4jqzc10YoPdpJorw3qBEVKHj2LTKRh2kd6ZeijiPRKO5RvTT8p0B81k=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157158.309458,
+                    "expires_date": "2025-03-28T10:19:18.309458+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Queue-it-0b6a8275-62c3-4b92-859d-2dc73e699c05",
+                    "value": "WasRedirected=false&i=638787467593723134",
+                    "domain": "next.queue-it.net",
+                    "path": "/",
+                    "expires": 1743153559.291411,
+                    "expires_date": "2025-03-28T09:19:19.291411+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "QueueITAccepted-SDFrts345E-V3_nextintmainsitelive",
+                    "value": "EventId%3Dnextintmainsitelive%26QueueId%3D0b6a8275-62c3-4b92-859d-2dc73e699c05%26RedirectType%3Dsafetynet%26IssueTime%3D1743149959%26Hash%3Dbed61a9912548ba14f3d4e813ad2746c6bb7e1d4c15abbda185b63c6c80bfcb2",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151207,
+                    "expires_date": "2025-03-28T08:40:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "x-next-realm-entrypoint",
+                    "value": "next",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151808,
+                    "expires_date": "2025-03-28T08:50:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "1y4llbm2ixdnrxyl5s4ybye3",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IdentityReqParams",
+                    "value": "CountryCode=si&LanguageCode=sl&Domain=www.next.si",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743751207.679052,
+                    "expires_date": "2025-04-04T07:20:07.679052+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextSessionVariables",
+                    "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738407.679094,
+                    "expires_date": "2025-04-27T07:20:07.679094+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": "ID=c49622e077b349c8b5650b5d6b9595e0",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "5A83C05947219028AC5A140B1B9CC0F9~YAAQIX4ZuGcHWLKVAQAA6UHW2xvZyjaP6CNuClUPckVz7AdIeSR466L2DDxJ5pg+pQdrdNLlDda52ASgOD7/+etpE1p2CdXjGAXBsNHJumgrtYosJQ+gVRSIqVNtgS7+1RrfbBVVfBJARt8JhkWXK5yoYIEg7lOEPyd//Ixen57pyHq0RnNmULUmsw7SpyqEz/iN7UJkQisf/EMbhwMhTnR4/k86RcEIN3MYX6mcTPYMNPpSl/Mb2sR+bb3V5UFnEO5cGSU2XYnBWMaAP99rz1DVEx5rbqCJwD+Kyh4l2OvNKPy0HNQ9BYJOSgct0auKs5HNSPBZ/kzPKGCioy9My8Taps3KNzKK1n4CvBZXVYj00ko6KSIN5oNvCKoJfpUp/AtegAjrNtrN02bTncK8WES+V8qKCpLPm3bndLgzUGE2QjQ=~4538948~3748422",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743164358.661716,
+                    "expires_date": "2025-03-28T12:19:18.661716+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PIM-SESSION-ID",
+                    "value": "w4Vn6JU8UJuhFdKb",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextVisitor",
+                    "value": "LatestSessionID=c49622e077b349c8b5650b5d6b9595e0&LatestSessionTimestamp=28/03/2025 08:20:07&ID=547cbf605f5e4f27a928543925ad3d50",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758925207.679132,
+                    "expires_date": "2025-09-26T22:20:07.679132+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+09%3A20%3A08+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9cde4dd6-4dee-4d65-8d95-c4185ac8e5e5&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1&AwaitingReconsent=false",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702008,
+                    "expires_date": "2025-09-24T08:20:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "A9BE053AA33BACCDC5B4F477D71E23C8~-1~YAAQIX4ZuEkKWLKVAQAAe0nW2w0WhEAYcdSJod/ZUEoVLeEOTvUD96cITmaF4mPEcapHfg6mlQOqE/qUb2NMYTzDOU/hGp5T6kOwIRIbOqPcU9RvMjkL5AaLUFsFYGdXp5AQBLTrMDx5oDSL6wg39yLnC6cTxhjkC11z1kZgqWmHEx3T19N+eDH+Eg8++aI0AdGEyPwN/SKIXeS5N11QX+w/eFLkzUNyi97fSV1yrx2toO+rfxzGz+VtwgURHb689MP54WXAm7ir70gZcqIlnFKkKLBq8Wxr3728pHF191nnfpnzprZHNcWvFKFpsyiqClUMUKO+WviN+TcFW5hapafPraWqwpTC2kG0gWu+Vfa+QecbpY8Ot5wg5HgYXbjvu8biuZeOIOsvU2HDZ+QjcTc0XCXwirKsDKZUQRfR7FE4FrzHaP3D3YcUsl6diBG0jhXB7VTmYDj1+6FtGwNhYA/ORi1ioSoJDpoEaOU2ERku1gtacQY8C3Y25BAUKArFBhYiE/t61iNtqGgLikWI9B8Uk0wGRBTDRVuVDI7Oy+tgl4kjvkSCOAwXzQVJt94=~-1~||0||~1743153559",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686008.604124,
+                    "expires_date": "2026-03-28T08:20:08.604124+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T09:19:18.071960",
+        "timestamp_stop": "2025-03-28T09:20:21.085202"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi Vse Piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.next.si/",
+            "https://www.next.si/sl/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-youngerboys-gender-youngergirls-category-jeans-category-joggers-0",
+            "https://www.next.si/sl/shop/gender-women-category-dresses/length-midi",
+            "https://www.next.si/sl/shop/gender-newbornboys-gender-newbornunisex-gender-olderboys-gender-youngerboys-productaffiliation-holidayshop/category-sunglasses"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "NSC_JO0q5jt2cooguzobc55rmrdd0tc1teq",
+                    "value": "ffffffff660282c245525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_wtsw_ofyu.dp.vl_iuuq2",
+                    "value": "ffffffff66028f1445525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743152425.165189,
+                    "expires_date": "2025-03-28T09:00:25.165189+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NextDeviceType",
+                    "value": "Desktop",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743160825.165038,
+                    "expires_date": "2025-03-28T11:20:25.165038+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=62~id=c40e85dca19a055eaae72fb053d67001",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "CAA530B4B9C34E54F8DDBFD408145DB9~000000000000000000000000000000~YAAQIX4ZuEkfWLKVAQAA4YHW2xutBZRYVozPVaF4mNn8qQd28mRZFBgtFHiQNDmq2azzfelfH4BKjWQ3dcR+yh8gsodAlFLQq8J2zA6FnM4E6mCyK2xUUWuF21xvYheZ8nRBJxuKigbxe+xYrcT2cKlWlnyEKv8tKNDFw9v8Y8y8fCin7VVFJ1gndR+rchMF2dF+ven+FuyyGlSQsd/XQSYCxJnh+4uK2/2itlMMQh9gdWXQjoDExGndNyFlQFctj/BYd2SUhd7OJx42NGG7VLGSfAC1/QEj8d4aYpTg0XTU22YQvAZ2FP6evYsPELv64Wun/MPpF0IBmnSlSheg+JAB65oPpqZlSsLvDg/bozW7rnOdX8p/dZfodCuraAYdzNb/nnpzsJM=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157222.036643,
+                    "expires_date": "2025-03-28T10:20:22.036643+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "996A534EC4FAD506E5729628FBB03F27~YAAQIX4ZuKYfWLKVAQAAzYLW2xujSrNCq16ihKQt7NDHIIDjZGWf778bb9qzTig+7vBzfWU+j3xuroZnPURA6pNbTFmzCoKcKqllD4EzhRhxT4MPPMin6gPyHMYoWcGStWIhageWRCpmd+FGaQ8T3qFwKTfSNKqc03fShvll8E35ps8Qo7pyF7HBuTVgiby0sb4UswZOFtuT7N+vTJtruR30AX8fXHuTMECJK1bHmkbhlWabNeRGu669ccU74CeM3tS3OnmHYABCHeJuLn8SLsZuBjbsZeidybSpDwf5iUGfoADaCp3cxU0n4ZfUGGqQLtcr5YRTatHsofdmcu4xP/CZe1F6PhRJSdcycEZuqrtIjwAdA9UkNWqG9kTdTyK3vGhUZmODAIYU6/0Eo8h7RQ==~3425089~3684421",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743164422.272651,
+                    "expires_date": "2025-03-28T12:20:22.272651+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Queue-it-f2536cfa-d809-44ad-84ea-647d7b8a6a64",
+                    "value": "WasRedirected=false&i=638787468241050918",
+                    "domain": "next.queue-it.net",
+                    "path": "/",
+                    "expires": 1743153624.022766,
+                    "expires_date": "2025-03-28T09:20:24.022766+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "QueueITAccepted-SDFrts345E-V3_nextintmainsitelive",
+                    "value": "EventId%3Dnextintmainsitelive%26QueueId%3Df2536cfa-d809-44ad-84ea-647d7b8a6a64%26RedirectType%3Dsafetynet%26IssueTime%3D1743150024%26Hash%3D8f09e8fbd4b3db983cc0c382b5a1008f066cf8c15ef098a3f6841a44b44b222e",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151224,
+                    "expires_date": "2025-03-28T08:40:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "x-next-realm-entrypoint",
+                    "value": "next",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151825,
+                    "expires_date": "2025-03-28T08:50:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "hodonbaeder45onw0sf0wtm0",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IdentityReqParams",
+                    "value": "CountryCode=si&LanguageCode=sl&Domain=www.next.si",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743751225.165438,
+                    "expires_date": "2025-04-04T07:20:25.165438+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextSessionVariables",
+                    "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738425.165608,
+                    "expires_date": "2025-04-27T07:20:25.165608+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextVisitor",
+                    "value": "LatestSessionID=7e683189ddab400b94c0c8acfd8f131c&LatestSessionTimestamp=28/03/2025 08:20:25&ID=12649d4c846a4eb59179dc2655518d2e",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758925225.165755,
+                    "expires_date": "2025-09-26T22:20:25.165755+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": "ID=7e683189ddab400b94c0c8acfd8f131c",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "RPId",
+                    "value": "ID=5152969306",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738425.166001,
+                    "expires_date": "2025-04-27T07:20:25.166001+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+09%3A20%3A25+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=702e0b6a-b9f1-472b-8736-7a4c1ffec5e1&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.next.si%2Fsl&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702025,
+                    "expires_date": "2025-09-24T08:20:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2E67441A74E20C1C8C9AE664DA7BCE77~-1~YAAQIX4ZuPsjWLKVAQAANY3W2w09XwQt+dShYR5foTRPj2aNyNZXGYBT1ElSWYCE8At3MQzk1c+7LBE1nmV9ZpWJ7H0gbpQk79c46nb9h50o6QsvomLGrlBcllSm/vrVRsandMpATC32oRVFXPxEXByYOyyr0R5j0+HVtN1UjdNCQG09C1ygQBQuq+UcPr8BCpn4w374vptEJ7pcDRq6DOVyNZxul6z/7/RYgcBzdOq144QWh+n03W0G1C0XH8Axexlj5N2GDaG68yn86fEOYhzXaIpk4vRuDKwZMRodZ85Y/f3BwFnaRHrb3iGW+au7no9rZQ40UlaZhbJQCFYvWiO/4NA7CQV7tmxM1elL0GS5u+1i6DrrEw1Rwmve7jPuARr9oaAx6oAsS6n2HdcGKBfYpRpZeCGCgvL50ZMlGgoXy6IuXMuOJDqMbA7YhDEWTrLBiZgjhrQJmhyIIg4nngWKtGwiXczKaKd2LO2i4j1eDlKRnseXzGXi9fWUSy4BKjVUQoNC6RRrsQOfVF/5Ivxf5Rn4XDVe~-1~||0||~1743153624",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686025.938222,
+                    "expires_date": "2026-03-28T08:20:25.938222+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "X-AB",
+                    "value": "816d8d4b831046308b307b2eab4e110d",
+                    "domain": "sc-static.net",
+                    "path": "/scevent.min.js",
+                    "expires": 1743236457.297527,
+                    "expires_date": "2025-03-29T08:20:57.297527+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_JO0q5jt2cooguzobc55rmrdd0tc1teq",
+                    "value": "ffffffff660282c245525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_wtsw_ofyu.dp.vl_iuuq2",
+                    "value": "ffffffff66028f1445525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743152425.165189,
+                    "expires_date": "2025-03-28T09:00:25.165189+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NextDeviceType",
+                    "value": "Desktop",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743160825.165038,
+                    "expires_date": "2025-03-28T11:20:25.165038+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=62~id=c40e85dca19a055eaae72fb053d67001",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "CAA530B4B9C34E54F8DDBFD408145DB9~000000000000000000000000000000~YAAQIX4ZuEkfWLKVAQAA4YHW2xutBZRYVozPVaF4mNn8qQd28mRZFBgtFHiQNDmq2azzfelfH4BKjWQ3dcR+yh8gsodAlFLQq8J2zA6FnM4E6mCyK2xUUWuF21xvYheZ8nRBJxuKigbxe+xYrcT2cKlWlnyEKv8tKNDFw9v8Y8y8fCin7VVFJ1gndR+rchMF2dF+ven+FuyyGlSQsd/XQSYCxJnh+4uK2/2itlMMQh9gdWXQjoDExGndNyFlQFctj/BYd2SUhd7OJx42NGG7VLGSfAC1/QEj8d4aYpTg0XTU22YQvAZ2FP6evYsPELv64Wun/MPpF0IBmnSlSheg+JAB65oPpqZlSsLvDg/bozW7rnOdX8p/dZfodCuraAYdzNb/nnpzsJM=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157222.036643,
+                    "expires_date": "2025-03-28T10:20:22.036643+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "996A534EC4FAD506E5729628FBB03F27~YAAQIX4ZuKYfWLKVAQAAzYLW2xujSrNCq16ihKQt7NDHIIDjZGWf778bb9qzTig+7vBzfWU+j3xuroZnPURA6pNbTFmzCoKcKqllD4EzhRhxT4MPPMin6gPyHMYoWcGStWIhageWRCpmd+FGaQ8T3qFwKTfSNKqc03fShvll8E35ps8Qo7pyF7HBuTVgiby0sb4UswZOFtuT7N+vTJtruR30AX8fXHuTMECJK1bHmkbhlWabNeRGu669ccU74CeM3tS3OnmHYABCHeJuLn8SLsZuBjbsZeidybSpDwf5iUGfoADaCp3cxU0n4ZfUGGqQLtcr5YRTatHsofdmcu4xP/CZe1F6PhRJSdcycEZuqrtIjwAdA9UkNWqG9kTdTyK3vGhUZmODAIYU6/0Eo8h7RQ==~3425089~3684421",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743164422.272651,
+                    "expires_date": "2025-03-28T12:20:22.272651+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Queue-it-f2536cfa-d809-44ad-84ea-647d7b8a6a64",
+                    "value": "WasRedirected=false&i=638787468241050918",
+                    "domain": "next.queue-it.net",
+                    "path": "/",
+                    "expires": 1743153624.022766,
+                    "expires_date": "2025-03-28T09:20:24.022766+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "QueueITAccepted-SDFrts345E-V3_nextintmainsitelive",
+                    "value": "EventId%3Dnextintmainsitelive%26QueueId%3Df2536cfa-d809-44ad-84ea-647d7b8a6a64%26RedirectType%3Dsafetynet%26IssueTime%3D1743150024%26Hash%3D8f09e8fbd4b3db983cc0c382b5a1008f066cf8c15ef098a3f6841a44b44b222e",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151224,
+                    "expires_date": "2025-03-28T08:40:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "x-next-realm-entrypoint",
+                    "value": "next",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151825,
+                    "expires_date": "2025-03-28T08:50:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "hodonbaeder45onw0sf0wtm0",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IdentityReqParams",
+                    "value": "CountryCode=si&LanguageCode=sl&Domain=www.next.si",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743751225.165438,
+                    "expires_date": "2025-04-04T07:20:25.165438+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextSessionVariables",
+                    "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738425.165608,
+                    "expires_date": "2025-04-27T07:20:25.165608+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextVisitor",
+                    "value": "LatestSessionID=7e683189ddab400b94c0c8acfd8f131c&LatestSessionTimestamp=28/03/2025 08:20:25&ID=12649d4c846a4eb59179dc2655518d2e",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758925225.165755,
+                    "expires_date": "2025-09-26T22:20:25.165755+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": "ID=7e683189ddab400b94c0c8acfd8f131c",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "RPId",
+                    "value": "ID=5152969306",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738425.166001,
+                    "expires_date": "2025-04-27T07:20:25.166001+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T08:20:56.066Z",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702056,
+                    "expires_date": "2025-09-24T08:20:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1902165866.1743150056",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1750926056,
+                    "expires_date": "2025-06-26T08:20:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1471090339.1743150026",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758918057,
+                    "expires_date": "2025-09-26T20:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743150956.225067,
+                    "expires_date": "2025-03-28T08:35:56.225067+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2E67441A74E20C1C8C9AE664DA7BCE77~-1~YAAQIX4ZuHhSWLKVAQAAqgPX2w04WGpt3liVY3eHQVBOCnqhP3QBgBCqC6rAqd60Z2KQ0C6L0IkDWqSYa22tKUoHj7ajcKaPLWp3z2sMU8mn5Qmg96ywbz4Y+HlbpdwmFg8Op5ViffrRaInAZlQb5QTrOEsi9zaa88SZxlMkZRIwaintOtxf6TW8IxyNSnP2JQ/EqpdTBX8MNitz9cB9K0dg87b3mO6BL7bjl2E0D2BihACWJHW/dvh7x2+mntjMmFWABFxlRimlPgkESIv7k7qs2NZ0yT4FP2OXkchRtAaIWJCCFzyCiRCVCzrMW9j9T+5wXcdWqVUInIZiISGJ5knbUwwrqb6piKvphpsWWryEUBB9rHW1B4Hnbi4HCqFy/0bBeMqcUYt9nqV8MzNmtyqsuNyZ6RrzLPFyOzbssuaPyAYS/ep9O+DY9feiiGHsnA5VjqQujIyCJ/+YdFZX96NYI+GrlA2gnyExqoVjtL3I44RvZVquRJM6JThNEsbiMY5EoRG7mOT9qNF7hndsfvMdWArbPP2I~-1~||0||~1743153624",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686056.268532,
+                    "expires_date": "2026-03-28T08:20:56.268532+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_CPNG9GPPKM",
+                    "value": "GS1.1.1743150025.1.1.1743150056.60.0.1175170196",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777710056.461794,
+                    "expires_date": "2026-05-02T08:20:56.461794+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+09%3A20%3A56+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=702e0b6a-b9f1-472b-8736-7a4c1ffec5e1&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=Targt%3A1%2COntgt%3A1%2CPerf%3A1%2CStNec%3A1&intType=1",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702056,
+                    "expires_date": "2025-09-24T08:20:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptUCMOnsiteConsent",
+                    "value": "true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758874856,
+                    "expires_date": "2025-09-26T08:20:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_0MCQTK8RLH",
+                    "value": "GS1.1.1743150056.1.1.1743150056.0.0.187412441",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758918056,
+                    "expires_date": "2025-09-26T20:20:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.GoQyTp40zqcTMmMB1jQJb42VRDOcxp5x7yXYg1UHwIY%3D.1743150026",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758930058.011519,
+                    "expires_date": "2025-09-26T23:40:58.011519+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.1.1902165866.1743150056",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1750926056.011614,
+                    "expires_date": "2025-06-26T08:20:56.011614+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPGSID",
+                    "value": "1.1743150057.1743150057.G-0MCQTK8RLH.1E8F-VQNDnbRq4hFmV0MhQ",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743151856.995543,
+                    "expires_date": "2025-03-28T08:50:56.995543+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "B4rzmZsdGXlWJAr%2FtcW04o4ymKf210%2F02eMHCroBOwV1i%2FHmZhByVTAM8AzHVAVm%2BbQxEgYSS10rpDHFEUiat8ntZ%2BuLYHnxeoR%2BAVdQPS3WtD9Y7yY5CAQL46eo8Q%3D%3D",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743222057.157529,
+                    "expires_date": "2025-03-29T04:20:57.157529+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "exponeaRpid",
+                    "value": "5152969306",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1758702057,
+                    "expires_date": "2025-09-24T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_br_uid_2",
+                    "value": "uid%3D914127179838%3Av%3D13.0%3Ats%3D1743150057367%3Ahc%3D2",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777710057.373886,
+                    "expires_date": "2026-05-02T08:20:57.373886+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "rxVisitor",
+                    "value": "1743150057382NSEQCO2U47BCC8DFHTVF591V2DJ5IIE0",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "dtSa",
+                    "value": "-",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_scid",
+                    "value": "z4TljgmGFFIJDGoILIl6ceiZoQvhm28W",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777336755,
+                    "expires_date": "2026-04-28T00:39:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_scid_r",
+                    "value": "z4TljgmGFFIJDGoILIl6ceiZoQvhm28W",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777336755,
+                    "expires_date": "2026-04-28T00:39:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_EZDM0TQ1LB",
+                    "value": "GS1.1.1743150057.1.0.1743150057.0.1.787842150",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758918057,
+                    "expires_date": "2025-09-26T20:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_s",
+                    "value": "Xj1Fflp7MlABrJu%2BkPHhdEkHBFMQAx6yxrMXTMy3q1992F1RHQ6zB0MmUNAEYMSg",
+                    "domain": ".app.link",
+                    "path": "/",
+                    "expires": 1774686057.693292,
+                    "expires_date": "2026-03-28T08:20:57.693292+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743150057780.634439870580826204",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1750926057,
+                    "expires_date": "2025-06-26T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_mibhv",
+                    "value": "anon-1743150057903-6346704481_7116",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1758702057,
+                    "expires_date": "2025-09-24T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "xnpe_edabaf92-ebd7-11eb-942d-1648dad0cdd5",
+                    "value": "aaeaeb9e-2c4e-4925-8ded-208c804560aa",
+                    "domain": "api.e.nextdirect.com",
+                    "path": "/",
+                    "expires": 1758702055.923269,
+                    "expires_date": "2025-09-24T08:20:55.923269+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ScCbts",
+                    "value": "%5B%5D",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743754857,
+                    "expires_date": "2025-04-04T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__exponea_time2__",
+                    "value": "0.10546183586120605",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702057,
+                    "expires_date": "2025-09-24T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__exponea_etc__",
+                    "value": "aaeaeb9e-2c4e-4925-8ded-208c804560aa",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702057,
+                    "expires_date": "2025-09-24T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".pinterest.com",
+                    "path": "/",
+                    "expires": 1774686057.943253,
+                    "expires_date": "2026-03-28T08:20:57.943253+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pin_unauth",
+                    "value": "dWlkPU5EQTVPREJtTkdVdE9EWXlZeTAwTkRRM0xUZzRZakF0TmpWaU5tUmxOemt6TnpneA",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686057,
+                    "expires_date": "2026-03-28T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=89~id=72d34f8f770673c4098bbe39e2fe3377",
+                    "domain": "www.next.co.uk",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "dtCookie",
+                    "value": "v_4_srv_18_sn_S5EOIVL2PD522PLM1FU7SICR8411JPV4_app-3A7c9820df73aee557_1_ol_0_perc_100000_mul_1_rcs-3Acss_0",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "CE6289E07EB6C9C765BE36A3E7725895~YAAQrSkSAkMNw9SVAQAAfgrX2xsOsQlt+O1P8fm0ZgeBP/NshhgRgO6N/GQGAJZ37LnCIh0NIJUf3SL3nrbH833khFUsZ+SYnU50jj7YgL7WJ3Jz2aUjWtd9jEjkrg1rZh9XdvzuKIu9xmho6uL4pqZNud6ttYKk4310CumOVAQEXQ/8ZiiA9FkIVzJ3ud0MQY3PpEDNbVat/Ikjkxv41KbaYAlk7VzP1ub3Q7sGAPEwqPS31AXHIR44aN4Q~1",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157257.011673,
+                    "expires_date": "2025-03-28T10:20:57.011673+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TDID",
+                    "value": "b0d7b86e-db9f-41b3-a738-8b0b93f72606",
+                    "domain": ".adsrvr.org",
+                    "path": "/",
+                    "expires": 1774686058.064696,
+                    "expires_date": "2026-03-28T08:20:58.064696+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "dtPC",
+                    "value": "18$150057378_6h-vCBTHKCUKUKBHEUVBACGHLKMKGRHMRQQV-0e0",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "rxvt",
+                    "value": "1743151859464|1743150057384",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "X-AB",
+                    "value": "816d8d4b831046308b307b2eab4e110d",
+                    "domain": "sc-static.net",
+                    "path": "/scevent.min.js",
+                    "expires": 1743236457.297527,
+                    "expires_date": "2025-03-29T08:20:57.297527+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_JO0q5jt2cooguzobc55rmrdd0tc1teq",
+                    "value": "ffffffff660282c245525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_wtsw_ofyu.dp.vl_iuuq2",
+                    "value": "ffffffff66028f1445525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743152503.869061,
+                    "expires_date": "2025-03-28T09:01:43.869061+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NextDeviceType",
+                    "value": "Desktop",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743160903.869033,
+                    "expires_date": "2025-03-28T11:21:43.869033+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=62~id=c40e85dca19a055eaae72fb053d67001",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "CAA530B4B9C34E54F8DDBFD408145DB9~000000000000000000000000000000~YAAQIX4ZuEkfWLKVAQAA4YHW2xutBZRYVozPVaF4mNn8qQd28mRZFBgtFHiQNDmq2azzfelfH4BKjWQ3dcR+yh8gsodAlFLQq8J2zA6FnM4E6mCyK2xUUWuF21xvYheZ8nRBJxuKigbxe+xYrcT2cKlWlnyEKv8tKNDFw9v8Y8y8fCin7VVFJ1gndR+rchMF2dF+ven+FuyyGlSQsd/XQSYCxJnh+4uK2/2itlMMQh9gdWXQjoDExGndNyFlQFctj/BYd2SUhd7OJx42NGG7VLGSfAC1/QEj8d4aYpTg0XTU22YQvAZ2FP6evYsPELv64Wun/MPpF0IBmnSlSheg+JAB65oPpqZlSsLvDg/bozW7rnOdX8p/dZfodCuraAYdzNb/nnpzsJM=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157222.036643,
+                    "expires_date": "2025-03-28T10:20:22.036643+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Queue-it-f2536cfa-d809-44ad-84ea-647d7b8a6a64",
+                    "value": "WasRedirected=false&i=638787468241050918",
+                    "domain": "next.queue-it.net",
+                    "path": "/",
+                    "expires": 1743153624.022766,
+                    "expires_date": "2025-03-28T09:20:24.022766+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "QueueITAccepted-SDFrts345E-V3_nextintmainsitelive",
+                    "value": "EventId%3Dnextintmainsitelive%26QueueId%3Df2536cfa-d809-44ad-84ea-647d7b8a6a64%26RedirectType%3Dsafetynet%26IssueTime%3D1743150024%26Hash%3D8f09e8fbd4b3db983cc0c382b5a1008f066cf8c15ef098a3f6841a44b44b222e",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151302,
+                    "expires_date": "2025-03-28T08:41:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "x-next-realm-entrypoint",
+                    "value": "next",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151904,
+                    "expires_date": "2025-03-28T08:51:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "hodonbaeder45onw0sf0wtm0",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IdentityReqParams",
+                    "value": "CountryCode=si&LanguageCode=sl&Domain=www.next.si",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743751303.869094,
+                    "expires_date": "2025-04-04T07:21:43.869094+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextSessionVariables",
+                    "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738503.869144,
+                    "expires_date": "2025-04-27T07:21:43.869144+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": "ID=7e683189ddab400b94c0c8acfd8f131c",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "RPId",
+                    "value": "ID=5152969306",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738503.868879,
+                    "expires_date": "2025-04-27T07:21:43.868879+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T08:20:56.066Z",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702056,
+                    "expires_date": "2025-09-24T08:20:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1902165866.1743150056",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1750926056,
+                    "expires_date": "2025-06-26T08:20:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1471090339.1743150026",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777710104.753285,
+                    "expires_date": "2026-05-02T08:21:44.753285+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "OptUCMOnsiteConsent",
+                    "value": "true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758874856,
+                    "expires_date": "2025-09-26T08:20:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.GoQyTp40zqcTMmMB1jQJb42VRDOcxp5x7yXYg1UHwIY%3D.1743150026",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758930104.49617,
+                    "expires_date": "2025-09-26T23:41:44.496170+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.1.1902165866.1743150056",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1750926056.496283,
+                    "expires_date": "2025-06-26T08:20:56.496283+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPGSID",
+                    "value": "1.1743150057.1743150057.G-0MCQTK8RLH.1E8F-VQNDnbRq4hFmV0MhQ",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743151856.995543,
+                    "expires_date": "2025-03-28T08:50:56.995543+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "exponeaRpid",
+                    "value": "5152969306",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1758702057,
+                    "expires_date": "2025-09-24T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "rxVisitor",
+                    "value": "1743150057382NSEQCO2U47BCC8DFHTVF591V2DJ5IIE0",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_scid",
+                    "value": "z4TljgmGFFIJDGoILIl6ceiZoQvhm28W",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777336755,
+                    "expires_date": "2026-04-28T00:39:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_s",
+                    "value": "Xj1Fflp7MlABrJu%2BkPHhdEkHBFMQAx6yxrMXTMy3q1992F1RHQ6zB0MmUNAEYMSg",
+                    "domain": ".app.link",
+                    "path": "/",
+                    "expires": 1758874904.497741,
+                    "expires_date": "2025-09-26T08:21:44.497741+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743150057780.634439870580826204",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1750926116,
+                    "expires_date": "2025-06-26T08:21:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_mibhv",
+                    "value": "anon-1743150057903-6346704481_7116",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1758702105,
+                    "expires_date": "2025-09-24T08:21:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "xnpe_edabaf92-ebd7-11eb-942d-1648dad0cdd5",
+                    "value": "aaeaeb9e-2c4e-4925-8ded-208c804560aa",
+                    "domain": "api.e.nextdirect.com",
+                    "path": "/",
+                    "expires": 1758702102.842523,
+                    "expires_date": "2025-09-24T08:21:42.842523+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ScCbts",
+                    "value": "%5B%5D",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743754857,
+                    "expires_date": "2025-04-04T08:20:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__exponea_time2__",
+                    "value": "0.10546183586120605",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702103,
+                    "expires_date": "2025-09-24T08:21:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__exponea_etc__",
+                    "value": "aaeaeb9e-2c4e-4925-8ded-208c804560aa",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702103,
+                    "expires_date": "2025-09-24T08:21:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".pinterest.com",
+                    "path": "/",
+                    "expires": 1774686117.213332,
+                    "expires_date": "2026-03-28T08:21:57.213332+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pin_unauth",
+                    "value": "dWlkPU5EQTVPREJtTkdVdE9EWXlZeTAwTkRRM0xUZzRZakF0TmpWaU5tUmxOemt6TnpneA",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686104,
+                    "expires_date": "2026-03-28T08:21:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=89~id=72d34f8f770673c4098bbe39e2fe3377",
+                    "domain": "www.next.co.uk",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "dtCookie",
+                    "value": "v_4_srv_18_sn_S5EOIVL2PD522PLM1FU7SICR8411JPV4_app-3A7c9820df73aee557_1_ol_0_perc_100000_mul_1_rcs-3Acss_0",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "TDID",
+                    "value": "b0d7b86e-db9f-41b3-a738-8b0b93f72606",
+                    "domain": ".adsrvr.org",
+                    "path": "/",
+                    "expires": 1774686105.359221,
+                    "expires_date": "2026-03-28T08:21:45.359221+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "%2BJAQEfqdsklBILS8WjEKePpCSHK5lpwHQarXz90ADvdGWGUFDP%2FSndLI7xfSlByCcq0df5iTKE10wOU8YFZxhzrrh5LNdsGUDlOc%2Bue%2B2IdW5l4TW%2Fwk7xj4FhC0gw%3D%3D",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743222061.933486,
+                    "expires_date": "2025-03-29T04:21:01.933486+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_0MCQTK8RLH",
+                    "value": "GS1.1.1743150056.1.1.1743150069.0.0.187412441",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758918069,
+                    "expires_date": "2025-09-26T20:21:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MASId",
+                    "value": "ID=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738503.869121,
+                    "expires_date": "2025-04-27T07:21:43.869121+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmX6EhgHrackRycBQjUnUt_peUX0sDrsiHM2jZ_V79KNVBdFtgFrHVJJ22k",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776846072.630773,
+                    "expires_date": "2026-04-22T08:21:12.630773+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_br_mt_search",
+                    "value": "_br_var_2",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743236506,
+                    "expires_date": "2025-03-29T08:21:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "996A534EC4FAD506E5729628FBB03F27~YAAQIX4ZuCWaWLKVAQAAPrnX2xteKFTNmJDwWYQSqJExf8lqPvR1o4A2bxhSd0X3hzHN/xUkv4ZRDE8GLQt1Wqc45iAhFeU4z/pWvLQ+xgkL0ivukMjA/JFeDNOZrtykZp3iS6GtWLLLluciqtVx0PL3J3ASlWO0UC+0HBtAP4qO0pASBJcdzqlCxmLUWPY7+LgZyHWJKipynRND3cEFzB4CzMAhuWxTN8ccUvUakfSMIg2OeyWYKQZIqFeQ0kBbxa3NsVDKWfPklSiN7wviW/7sBu16B/QzOyQdCdBghRkKAo0XZtaAj6rxVrXAvWrdyR8k/WeMRkRxVqtjoA8cVtKa36KUyNACb0eJFOHmodtGPV3Igiw9sQdOuCPtXKwUex7eeDJo9rgvA+FzMoTiKq5Y/Qfy1aqKc9Zaux82U4P/jvo=~3425089~3684421",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743164422.745353,
+                    "expires_date": "2025-03-28T12:20:22.745353+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "NextVisitor",
+                    "value": "LatestSessionID=7e683189ddab400b94c0c8acfd8f131c&LatestSessionTimestamp=28/03/2025 08:21:43&ID=12649d4c846a4eb59179dc2655518d2e",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758925303.869168,
+                    "expires_date": "2025-09-26T22:21:43.869168+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "dtSa",
+                    "value": "-",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_scid_r",
+                    "value": "2gTljgmGFFIJDGoILIl6ceiZoQvhm28W53GHsg",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777336802,
+                    "expires_date": "2026-04-28T00:40:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_EZDM0TQ1LB",
+                    "value": "GS1.1.1743150057.1.1.1743150104.0.1.787842150",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758918104,
+                    "expires_date": "2025-09-26T20:21:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+09%3A21%3A44+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=702e0b6a-b9f1-472b-8736-7a4c1ffec5e1&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=Targt%3A1%2COntgt%3A1%2CPerf%3A1%2CStNec%3A1&intType=1&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702104,
+                    "expires_date": "2025-09-24T08:21:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "CE6289E07EB6C9C765BE36A3E7725895~YAAQrSkSAvYNw9SVAQAAE8DX2xsO4IgdDC26k9GsaDBCKcRVlD3iVcuxxz2J8umgziIj1QoHCjlbkIGwhyH1ncZZ3KRbWXrLGfGWIyxD8xn3xpR82UpmhuGCAivtQhjS5t7xDOuaPGoFcF6OXOQTSsQI77Tuk5hsqSkkqcA/00wjr38bTgIZZ8iKaFExGYG2KYIa1D5QBmzYZSAkghGAcbxx9NxFXunsWEiK+FBDn3h8sCi2WVG3l+FIN7TkLQ==~1",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157257.496354,
+                    "expires_date": "2025-03-28T10:20:57.496354+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_CPNG9GPPKM",
+                    "value": "GS1.1.1743150025.1.1.1743150104.12.0.1175170196",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777710104.792174,
+                    "expires_date": "2026-05-02T08:21:44.792174+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_br_uid_2",
+                    "value": "uid%3D914127179838%3Av%3D13.0%3Ats%3D1743150057367%3Ahc%3D8",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1777710105.077376,
+                    "expires_date": "2026-05-02T08:21:45.077376+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2E67441A74E20C1C8C9AE664DA7BCE77~-1~YAAQIX4ZuLadWLKVAQAAncLX2w1Lign9fRyqGpTo0PgVApLd3QcG2A05f5xA5B0RyfVbO7IcfoPZiQ3ayO2jLlBFnRiQkps3H2I0FG3WZrZa8zX8ICfaU5gnEx0dLWwSko69QEexQZegYEADw1sR9C5U67cfVZHJzzhLNBJsZV3f1mn1QfUKZaAncDO1PlSpBQJKGeYXQREACUHtZKMCGhqpMSpFUa+PJnzr4ah6BL4BZIvPM/zVJc48sNhsCtGu6c2uDqE3GW9C1a9uQtr7A7lAcEU4+Ux82bnCLmMj9gp9Gga5kZc2C568KMwo/qSjChDuIa8iBem4whhPikgO8gwkWleuoA30tPP9lfDRaj9A7AN0HcfNDg0iBCmG/KrHuSVNnONBdJ+m3tiUrX2fLiDWVrCy6ozYj5IE7WgJ321Vht0QM25pKWPBTqzImuCefdxD+F+4qZ0wtltnmwH4lFaHKC8/G33kXxaReip9uKHtbTdsq9/pT4Y5nZ+U9c66pOgoO8SwmIMbdbQhn8rWqFhdIBaZMqAO~-1~||0||~1743153624",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686105.143491,
+                    "expires_date": "2026-03-28T08:21:45.143491+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TDCPM",
+                    "value": "CAEYBSgDMgsIlrOI8Yn39j0QBUIPIg0IARIJCgV0aWVyMRABWgdnMmVoNGp1YAE.",
+                    "domain": ".adsrvr.org",
+                    "path": "/",
+                    "expires": 1774686105.359356,
+                    "expires_date": "2026-03-28T08:21:45.359356+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pinterest_ct_ua",
+                    "value": "\"TWc9PSZaU055ZWNvQlFpS1NOcTQyTmxVbndlejdQTVowbkFNRVlmQlhlbFF2S1VaRGNXZVVvVGFUMDFYSENwK05oNkg3eUx5eUplU1d3amtacHNwUS9WaVV5K1k4VVVNcU1BMWI0cENzV2pNcGUwYz0mOTdpVndleXB1K1NidUZrTWc2bXd5OUEycG5BPQ==\"",
+                    "domain": ".ct.pinterest.com",
+                    "path": "/",
+                    "expires": 1774686117.213425,
+                    "expires_date": "2026-03-28T08:21:57.213425+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "rxvt",
+                    "value": "1743151917368|1743150057384",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "dtPC",
+                    "value": "18$150104004_185h26vCBTHKCUKUKBHEUVBACGHLKMKGRHMRQQV-0e0",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran uporablja piškotkePiškotki nam pomagajo zagotoviti varno delovanje naše spletne strani, nenehno izboljševanje in prilagajanje vaše nakupovalne izkušnje.\n \n Kliknite »Sprejmi Vse Piškotke«, da dobite najboljšo nakupovalno izkušnjo. Te nastavitve lahko kadar koli spremenite tako, da spodaj kliknete »Ročno upravljaj piškotke«.\n\nZa več informacij si oglejte našo politiko zasebnosti in pravilnik o piškotkih.Zavrni Nebistvene Piškotke Sprejmi Vse PiškotkeRočno Upravljaj Piškotke",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi Vse Piškotke]\nGenericLabel2: [Zavrni Nebistvene Piškotke]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Ročno Upravljaj Piškotke]\nExplanation: \"Sprejmi Vse Piškotke\" fits as accepting all cookies, while \"Zavrni Nebistvene Piškotke\" is for declining non-essential cookies. \"Ročno Upravljaj Piškotke\" clearly relates to managing settings. There are no ambiguous buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi Vse Piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni Nebistvene Piškotke",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Ročno Upravljaj Piškotke",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi Vse Piškotke\" fits as accepting all cookies, while \"Zavrni Nebistvene Piškotke\" is for declining non-essential cookies. \"Ročno Upravljaj Piškotke\" clearly relates to managing settings. There are no ambiguous buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi Vse Piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T09:20:22.744571",
+        "timestamp_stop": "2025-03-28T09:21:57.543953"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni Nebistvene Piškotke)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.next.si/",
+            "https://www.next.si/sl/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-youngerboys-gender-youngergirls-category-jeans-category-joggers-0",
+            "https://www.next.si/sl/shop/gender-women-category-dresses/length-midi",
+            "https://www.next.si/sl/shop/gender-newbornboys-gender-newbornunisex-gender-olderboys-gender-youngerboys-productaffiliation-holidayshop/category-sunglasses"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "NSC_JO0q5jt2cooguzobc55rmrdd0tc1teq",
+                    "value": "ffffffff660282db45525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_wtsw_ofyu.dp.vl_iuuq2",
+                    "value": "ffffffff66028f1445525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743152522.522286,
+                    "expires_date": "2025-03-28T09:02:02.522286+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NextDeviceType",
+                    "value": "Desktop",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743160922.522179,
+                    "expires_date": "2025-03-28T11:22:02.522179+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=91~id=d1996fe5d165d6ce587bb9315b64fc35",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "FEE6FD88C6F839FC9F089BFFF120FCE2~000000000000000000000000000000~YAAQIX4ZuCO1WLKVAQAArPvX2xtjyPJaqInrYLw82YruXmGpDL/CwydtqgrdkDCbfjFUGWifyg/54Alz1ILYgUyCnm7QOVLOj+VgExZwvPqaAlTDI3huib3/hmYPxIH0ntoctNhbAf1Qs8wagREy5g1jELxyIP/1QZ+u/fqLLsJxJc+a8s7s1Ap/SVHbj1iqnolCAKo33auvc7aK5TbzBEDy+bl7Xt698BEriloOx964CZfUGmHSrGMeWcgQGcH1ylzM4m7xrZPz0AgsYX2vqSBZMTgUnTRI9SAyggbhIEQKgmYLsqmpNgtzugwniwBvMzvhg31hBZp6EMZayTuN/pXQKpvKKPXWcz8sh4HhMHL2Mpbpo6RrGVOcQGhL+usTr4BYzWXbp7o=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157319.753272,
+                    "expires_date": "2025-03-28T10:21:59.753272+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "B18A7483C1384CA56CFF097C25F8F1B0~YAAQIX4ZuEu1WLKVAQAACvzX2xv7Kk32rhLBO3GhbkjxDA2E0SSzYeOzUrwnDuzVGLj1KjbCD97+8k5883loMfwWQgSUpOWxsL60i8hvSXYQJ/Bka6SEpEP8mmffiWc+oq+CeWZ2gEOQl+ImkKp4xQjRxKsOJRXOPYpyYblHUXkHlmNSd7z4D8KQo7/u7ROM98Fr7mDBKWxl1CQjvWwCZCmBXUwNED6DgCzL5mzUJvlsHnTBXhhM/AXp+NmdRE91XqpekXWVQsd+0Rci7s5rm6pXPUxtAZaTpFpHofkdaN+mRls8cOSflCaH91gXk83NrvZ+zZ2CQR1Un9se/1mbtLN80B0xIKjXsL2ixpoM8qLiIIItHUFUTA3JDp7hGvxgiq0NO7TTtCEYdnmVj+q7sQ==~4272185~3683126",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743164519.845991,
+                    "expires_date": "2025-03-28T12:21:59.845991+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Queue-it-2ff16d29-c7a4-4e39-b81f-463ce5919c1b",
+                    "value": "WasRedirected=false&i=638787469206660344",
+                    "domain": "next.queue-it.net",
+                    "path": "/",
+                    "expires": 1743153720.598706,
+                    "expires_date": "2025-03-28T09:22:00.598706+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "QueueITAccepted-SDFrts345E-V3_nextintmainsitelive",
+                    "value": "EventId%3Dnextintmainsitelive%26QueueId%3D2ff16d29-c7a4-4e39-b81f-463ce5919c1b%26RedirectType%3Dsafetynet%26IssueTime%3D1743150120%26Hash%3D84da31fc82e2d696fa620856b5a68228b88ebe6b2fe6314c3ad88f64eb50050c",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151320,
+                    "expires_date": "2025-03-28T08:42:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "x-next-realm-entrypoint",
+                    "value": "next",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151922,
+                    "expires_date": "2025-03-28T08:52:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+09%3A22%3A01+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2b8f9736-71a8-42a2-b3ff-3423d71e7c9b&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.next.si%2Fsl&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702121,
+                    "expires_date": "2025-09-24T08:22:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "7E69D30DDE9B737CCA77DCCF471BBC6C~-1~YAAQIX4ZuIS5WLKVAQAAHgbY2w1LN5p+/5f7xtbxOlWD+JbA64HBdG6jloocu9G/b/fu8Xb4MOKkLjlqEz6Ng8obOl0bDtADE8zAb4sXiw08vDJHfd7B3ZP9Iz1sIVK0nC8DBew4L9Cj+pSL97cg95G/pa+GyK4kpl3bdJaWws36o8242xMhqie7rNTllZSTyd51GnpK9UjTDAMYtXvlc4lR5jNLvTkLg3f8zvMeEPjFAoETXZ+Nte6coaKAZbkF657CboOYIQvQiT37zFcoo1onlfKe81W1ll//Avyomm9IKcYjJ4QzJd6++Bpq0ZuCrvLgYfKZfi6TXGveUR7uit1+diYVjEXPOso1FiDgQylFjxXaQOIigw0QqLkOUd9cBDC2wwZWVLF4M5lzDzjZ21NBqbpQ4Vz8+xGp62VxEXIx3SIxmuhSq1bgtQiuEr1glPxbLjA32hg6PNEqipTSol4ngoOluM9vXzIdZiFu4OiWQkCyimdhZhbu9IU8OZT7Z8iJJ43qWcCazfDLLjH03sA9ZzWCI0tF~-1~||0||~1743153721",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686122.425377,
+                    "expires_date": "2026-03-28T08:22:02.425377+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "vmsnmcidifqexm53uswtwuld",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IdentityReqParams",
+                    "value": "CountryCode=si&LanguageCode=sl&Domain=www.next.si",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743751322.522344,
+                    "expires_date": "2025-04-04T07:22:02.522344+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextSessionVariables",
+                    "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738522.522372,
+                    "expires_date": "2025-04-27T07:22:02.522372+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextVisitor",
+                    "value": "LatestSessionID=0d472c7978eb474abf64d0cb94e1cc55&LatestSessionTimestamp=28/03/2025 08:22:02&ID=ce25a217f0d046eb8562e986d7448057",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758925322.522395,
+                    "expires_date": "2025-09-26T22:22:02.522395+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": "ID=0d472c7978eb474abf64d0cb94e1cc55",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "NSC_JO0q5jt2cooguzobc55rmrdd0tc1teq",
+                    "value": "ffffffff660282db45525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_wtsw_ofyu.dp.vl_iuuq2",
+                    "value": "ffffffff66028f1445525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743152553.497452,
+                    "expires_date": "2025-03-28T09:02:33.497452+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NextDeviceType",
+                    "value": "Desktop",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743160922.522179,
+                    "expires_date": "2025-03-28T11:22:02.522179+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=91~id=d1996fe5d165d6ce587bb9315b64fc35",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "FEE6FD88C6F839FC9F089BFFF120FCE2~000000000000000000000000000000~YAAQIX4ZuCO1WLKVAQAArPvX2xtjyPJaqInrYLw82YruXmGpDL/CwydtqgrdkDCbfjFUGWifyg/54Alz1ILYgUyCnm7QOVLOj+VgExZwvPqaAlTDI3huib3/hmYPxIH0ntoctNhbAf1Qs8wagREy5g1jELxyIP/1QZ+u/fqLLsJxJc+a8s7s1Ap/SVHbj1iqnolCAKo33auvc7aK5TbzBEDy+bl7Xt698BEriloOx964CZfUGmHSrGMeWcgQGcH1ylzM4m7xrZPz0AgsYX2vqSBZMTgUnTRI9SAyggbhIEQKgmYLsqmpNgtzugwniwBvMzvhg31hBZp6EMZayTuN/pXQKpvKKPXWcz8sh4HhMHL2Mpbpo6RrGVOcQGhL+usTr4BYzWXbp7o=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157319.753272,
+                    "expires_date": "2025-03-28T10:21:59.753272+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "B18A7483C1384CA56CFF097C25F8F1B0~YAAQIX4ZuEu1WLKVAQAACvzX2xv7Kk32rhLBO3GhbkjxDA2E0SSzYeOzUrwnDuzVGLj1KjbCD97+8k5883loMfwWQgSUpOWxsL60i8hvSXYQJ/Bka6SEpEP8mmffiWc+oq+CeWZ2gEOQl+ImkKp4xQjRxKsOJRXOPYpyYblHUXkHlmNSd7z4D8KQo7/u7ROM98Fr7mDBKWxl1CQjvWwCZCmBXUwNED6DgCzL5mzUJvlsHnTBXhhM/AXp+NmdRE91XqpekXWVQsd+0Rci7s5rm6pXPUxtAZaTpFpHofkdaN+mRls8cOSflCaH91gXk83NrvZ+zZ2CQR1Un9se/1mbtLN80B0xIKjXsL2ixpoM8qLiIIItHUFUTA3JDp7hGvxgiq0NO7TTtCEYdnmVj+q7sQ==~4272185~3683126",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743164519.845991,
+                    "expires_date": "2025-03-28T12:21:59.845991+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Queue-it-2ff16d29-c7a4-4e39-b81f-463ce5919c1b",
+                    "value": "WasRedirected=false&i=638787469206660344",
+                    "domain": "next.queue-it.net",
+                    "path": "/",
+                    "expires": 1743153720.598706,
+                    "expires_date": "2025-03-28T09:22:00.598706+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "QueueITAccepted-SDFrts345E-V3_nextintmainsitelive",
+                    "value": "EventId%3Dnextintmainsitelive%26QueueId%3D2ff16d29-c7a4-4e39-b81f-463ce5919c1b%26RedirectType%3Dsafetynet%26IssueTime%3D1743150120%26Hash%3D84da31fc82e2d696fa620856b5a68228b88ebe6b2fe6314c3ad88f64eb50050c",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151320,
+                    "expires_date": "2025-03-28T08:42:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "x-next-realm-entrypoint",
+                    "value": "next",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151922,
+                    "expires_date": "2025-03-28T08:52:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "vmsnmcidifqexm53uswtwuld",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IdentityReqParams",
+                    "value": "CountryCode=si&LanguageCode=sl&Domain=www.next.si",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743751322.522344,
+                    "expires_date": "2025-04-04T07:22:02.522344+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextSessionVariables",
+                    "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738522.522372,
+                    "expires_date": "2025-04-27T07:22:02.522372+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextVisitor",
+                    "value": "LatestSessionID=0d472c7978eb474abf64d0cb94e1cc55&LatestSessionTimestamp=28/03/2025 08:22:02&ID=ce25a217f0d046eb8562e986d7448057",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758925322.522395,
+                    "expires_date": "2025-09-26T22:22:02.522395+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": "ID=0d472c7978eb474abf64d0cb94e1cc55",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T08:22:33.206Z",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702153,
+                    "expires_date": "2025-09-24T08:22:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+09%3A22%3A33+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2b8f9736-71a8-42a2-b3ff-3423d71e7c9b&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1&intType=2",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702153,
+                    "expires_date": "2025-09-24T08:22:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "7E69D30DDE9B737CCA77DCCF471BBC6C~-1~YAAQIX4ZuBztWLKVAQAAKn/Y2w1CXBMm5wHo5ZlbYOwB9nd+TD2Y0wOtO8cYNLmOsDISCvJ314v3borUrYbcIaXFSJL7I/EqgsAxExR33FR1uZjlhELFGr6oumLcaoYgkyubYAELtHSl2ucouA8xZJZTQQbx/0/otrqziZcOzsLy85nvN31vR4RmFI0CxFRd0PnoAF7qzjehLLJJCUpVwWpEM0jX9Z7L1ClJVIAuh4v0/FIsn/X1aDp639wAU+BOchVHWr7fd320NoDdfuMDuG2AXDfHfaBRA4g4PrtVf0uBF83ETk8+S5Xaxne+8zOJJGGGLcGbdk1BNP9gV/SkZy0T8xlzKaH+LMHcpXFnwiOP/lXgANqx4IKi/V0UXNkeXK8a+mI4VcsHD8Hr3ugIJTGbhnjmsdQ8kww2g6jafOWk+VK62kxyg/nzSBiimWwFopsshyiZ3Ee8Uq1vzHL6qKwm7BSkgbJbwcAxuyP9ZaDQ+UbO7DGf+bklkzNBohKMqv1TZhiYaBx5SY9OGhExEaETYW2UjvVk~-1~||0||~1743153721",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686153.417738,
+                    "expires_date": "2026-03-28T08:22:33.417738+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonReset",
+                    "value": "2025-04-27T08:22:33.408Z",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758874953,
+                    "expires_date": "2025-09-26T08:22:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptUCMOnsiteConsent",
+                    "value": "false",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758874953,
+                    "expires_date": "2025-09-26T08:22:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "UcmOptOutStatus",
+                    "value": "reason=Rejected&parentVisitorId=ce25a217f0d046eb8562e986d7448057&visitorIds=[\"ce25a217f0d046eb8562e986d7448057\"]",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1759044153.497367,
+                    "expires_date": "2025-09-28T07:22:33.497367+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "0F1868FFDE47FCBC3311A78DFC327392~YAAQrSkSAl4Ow9SVAQAA0IDY2xuvlnHe8cLpLWxlcg3blkLJgfCxCWZD5J0ke6qlfTahxTDTmL6/lEakN3nb2lXecN97s7MQA+CW2tuL0r25YBgWFOjB1S2aWng22qlEhTo/vX4aQadp4Fk8stuMkuujxkNxKKZGRzU495A4j+a3FT5mJGnrKO6bQ5KfauuhcTDhGD60yXINXZskf5EeWKeTK+rKcwly8wwiqqMVn1FLhh6tXJGzDSKLqvX5~1",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157353.835918,
+                    "expires_date": "2025-03-28T10:22:33.835918+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "NSC_JO0q5jt2cooguzobc55rmrdd0tc1teq",
+                    "value": "ffffffff660282db45525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NSC_wtsw_ofyu.dp.vl_iuuq2",
+                    "value": "ffffffff66028f1445525d5f4f58455e445a4a423660",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743152595.590934,
+                    "expires_date": "2025-03-28T09:03:15.590934+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NextDeviceType",
+                    "value": "Desktop",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743160995.590824,
+                    "expires_date": "2025-03-28T11:23:15.590824+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "akaas_MEGANAV_2022_PD",
+                    "value": "2147483647~rv=91~id=d1996fe5d165d6ce587bb9315b64fc35",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "FEE6FD88C6F839FC9F089BFFF120FCE2~000000000000000000000000000000~YAAQIX4ZuCO1WLKVAQAArPvX2xtjyPJaqInrYLw82YruXmGpDL/CwydtqgrdkDCbfjFUGWifyg/54Alz1ILYgUyCnm7QOVLOj+VgExZwvPqaAlTDI3huib3/hmYPxIH0ntoctNhbAf1Qs8wagREy5g1jELxyIP/1QZ+u/fqLLsJxJc+a8s7s1Ap/SVHbj1iqnolCAKo33auvc7aK5TbzBEDy+bl7Xt698BEriloOx964CZfUGmHSrGMeWcgQGcH1ylzM4m7xrZPz0AgsYX2vqSBZMTgUnTRI9SAyggbhIEQKgmYLsqmpNgtzugwniwBvMzvhg31hBZp6EMZayTuN/pXQKpvKKPXWcz8sh4HhMHL2Mpbpo6RrGVOcQGhL+usTr4BYzWXbp7o=",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157319.753272,
+                    "expires_date": "2025-03-28T10:21:59.753272+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Queue-it-2ff16d29-c7a4-4e39-b81f-463ce5919c1b",
+                    "value": "WasRedirected=false&i=638787469206660344",
+                    "domain": "next.queue-it.net",
+                    "path": "/",
+                    "expires": 1743153720.598706,
+                    "expires_date": "2025-03-28T09:22:00.598706+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "QueueITAccepted-SDFrts345E-V3_nextintmainsitelive",
+                    "value": "EventId%3Dnextintmainsitelive%26QueueId%3D2ff16d29-c7a4-4e39-b81f-463ce5919c1b%26RedirectType%3Dsafetynet%26IssueTime%3D1743150120%26Hash%3D84da31fc82e2d696fa620856b5a68228b88ebe6b2fe6314c3ad88f64eb50050c",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151394,
+                    "expires_date": "2025-03-28T08:43:14+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "x-next-realm-entrypoint",
+                    "value": "next",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": 1743151995,
+                    "expires_date": "2025-03-28T08:53:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "vmsnmcidifqexm53uswtwuld",
+                    "domain": "www.next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IdentityReqParams",
+                    "value": "CountryCode=si&LanguageCode=sl&Domain=www.next.si",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743751395.590996,
+                    "expires_date": "2025-04-04T07:23:15.590996+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextSessionVariables",
+                    "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738595.591056,
+                    "expires_date": "2025-04-27T07:23:15.591056+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Next",
+                    "value": "ID=0d472c7978eb474abf64d0cb94e1cc55",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T08:22:33.206Z",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702153,
+                    "expires_date": "2025-09-24T08:22:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonReset",
+                    "value": "2025-04-27T08:22:33.408Z",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758874953,
+                    "expires_date": "2025-09-26T08:22:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptUCMOnsiteConsent",
+                    "value": "false",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758874953,
+                    "expires_date": "2025-09-26T08:22:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "UcmOptOutStatus",
+                    "value": "reason=Rejected&parentVisitorId=ce25a217f0d046eb8562e986d7448057&visitorIds=[\"ce25a217f0d046eb8562e986d7448057\"]",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1759044153.497367,
+                    "expires_date": "2025-09-28T07:22:33.497367+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "0F1868FFDE47FCBC3311A78DFC327392~YAAQrSkSAmkOw9SVAQAA8ZPY2xu8OpBtba8EA+9dt5zx0OQNiLfcl70dLTCbVyrm6swv5K6WYXqolOCrb0KF++7lIBEpI18fo3pS/ttxbaNj3LdyAIXyK+YChcqZBTvNjLgDwb4uD5A3wlQaKHYEoGh3nsgcBaFiHAL6NFOyKWVrpOykz5m4sbcrvU98O71eHLU3VgdpQQbIp4QFHdYsKVMJ2YSHZgmRXOhc7nctGyrlbXqoPR477JQ43O19~1",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743157353.732127,
+                    "expires_date": "2025-03-28T10:22:33.732127+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "B18A7483C1384CA56CFF097C25F8F1B0~YAAQIX4ZuEsyWbKVAQAAgSDZ2xsSJ+PNS4AckBPH20bxAgiPGjKqkGlyE05GlRFmHf/PimLQ7pQNDIdJklso/IHzr15oEwzFs+hrO6xqfhp2nBM8VKKEonVTqSKayPyQ1CKScLw0tmIvWVNvTYHLqjrJm7wWxb8NbTZQ4z/xJljRqX4g812xhkKe1otj0dIoS47RR1XWwT1yQtB3L3zLt5KdBu1kFoprOvdYgWXJv3AbZFHKhpRf0bbkCZLKMf4xnuIAMA4mknFKyer+kkv66/uSmMkVVbbkDcMacCbZ3EX+SZpuDXazW2Zxwt9xs9slSxnzOqXQCH6vj486srCWXxx5T/13o3QT6jZbUGzhj88ZvdrHruNC1gyTC6DPBgRbOMRYdLUMnqRrZJFJGu5yVumKmIBs9u0boTfDi8kIPnOdGqM=~4272185~3683126",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1743164519.715415,
+                    "expires_date": "2025-03-28T12:21:59.715415+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "RPId",
+                    "value": "ID=5152977092",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1745738595.590647,
+                    "expires_date": "2025-04-27T07:23:15.590647+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "NextVisitor",
+                    "value": "LatestSessionID=0d472c7978eb474abf64d0cb94e1cc55&LatestSessionTimestamp=28/03/2025 08:23:15&ID=ce25a217f0d046eb8562e986d7448057",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758925395.591104,
+                    "expires_date": "2025-09-26T22:23:15.591104+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+09%3A23%3A15+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2b8f9736-71a8-42a2-b3ff-3423d71e7c9b&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1&intType=2&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1758702195,
+                    "expires_date": "2025-09-24T08:23:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "7E69D30DDE9B737CCA77DCCF471BBC6C~-1~YAAQIX4ZuAE1WbKVAQAAQyfZ2w1LYv8LQYDY7WFTPBnXZO2g8R7V18zMeE1B9I1JjYGwUEUkEKefTMR7yKlXlO1rME6wo7SiQg/6KN4yDIoHyBMHAqbzr6VwSrXjmXwtSSQKyUqHzKMhCn5JQaEbzgqUdrDXXbMxX6PCX0/dHdwsMs0YLJ4p2PXVGAq2ipC2yUKRS73XczTGy8eg1R5Bacu46LKyzCljIhcpF6S7Gol3JvRFBrM41M+BzCTY6/DSWF/TVNedm4xs2cZOy2aMU8ZdErPsQCfrLCE9t28hnmZq5mrzdMxjW1Y0wLYHyWQuSwgNVvlMXia+U0ig6IUTzw5ej8wpj1Z85rKNmePhXM/M5N+zpWOewYPglIgL1f2Tg+iuH6CjeTT42qb/sOY/L3h5fJPfpn7+n8E3zFZ5zY/vMxc0behkjASBt8iTIPqcheWQsc1Z/ncb/J4CVxyWn3w1iBUg4BR2HF4c6YBOgqC+Cw1F7FA+qLldGRol7ox96ePO7uqDHZpHQc3i0DNys7iI84l54SSY~-1~||0||~1743153721",
+                    "domain": ".next.si",
+                    "path": "/",
+                    "expires": 1774686196.44578,
+                    "expires_date": "2026-03-28T08:23:16.445780+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran uporablja piškotkePiškotki nam pomagajo zagotoviti varno delovanje naše spletne strani, nenehno izboljševanje in prilagajanje vaše nakupovalne izkušnje.\n \n Kliknite »Sprejmi Vse Piškotke«, da dobite najboljšo nakupovalno izkušnjo. Te nastavitve lahko kadar koli spremenite tako, da spodaj kliknete »Ročno upravljaj piškotke«.\n\nZa več informacij si oglejte našo politiko zasebnosti in pravilnik o piškotkih.Zavrni Nebistvene Piškotke Sprejmi Vse PiškotkeRočno Upravljaj Piškotke",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi Vse Piškotke]\nGenericLabel2: [Zavrni Nebistvene Piškotke]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Ročno Upravljaj Piškotke]\nExplanation: The button [Sprejmi Vse Piškotke] is classified under GenericLabel1 for accepting all cookies. [Zavrni Nebistvene Piškotke] fits under GenericLabel2 as it signifies declining non-essential cookies. [Ročno Upravljaj Piškotke] is categorized under GenericLabel3 for managing cookie settings. There are no ambiguous labels present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi Vse Piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni Nebistvene Piškotke",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Ročno Upravljaj Piškotke",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi Vse Piškotke is classified under GenericLabel1 for accepting all cookies. Zavrni Nebistvene Piškotke fits under GenericLabel2 as it signifies declining non-essential cookies. Ročno Upravljaj Piškotke is categorized under GenericLabel3 for managing cookie settings. There are no ambiguous labels present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni Nebistvene Piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T09:21:59.546954",
+        "timestamp_stop": "2025-03-28T09:23:29.075618"
+    }
+}

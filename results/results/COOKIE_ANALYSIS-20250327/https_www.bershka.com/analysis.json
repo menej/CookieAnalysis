@@ -1,0 +1,2079 @@
+{
+    "web_page": "https://www.bershka.com",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T21:31:02.588981",
+    "timestamp_stop": "2025-03-28T21:34:27.056954",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bershka.com",
+            "https://www.bershka.com/es/h-woman.html",
+            "https://www.bershka.com/es/pag/bershkastyle.html?gender=66486573"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "ITXSESSIONID",
+                    "value": "1ca9825ef4b391a79cf8059855ce9efe",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195667.252753,
+                    "expires_date": "2025-03-28T21:01:07.252753+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BSKSESSION",
+                    "value": "56bb404472798718e28f82b8394f1333",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195667.252844,
+                    "expires_date": "2025-03-28T21:01:07.252844+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_mi",
+                    "value": "3A875850C73BC5D793C8FFE0AFBFCAC5~YAAQxRdlX5BM3q2VAQAAKXlz3huukW09Xh13zHCiMYnCv2iuMJea+CaWOoGOPbESTLsNxMg4RXwdjKMeZG20urRoP5nwjIbML24krAJ2tDvIfE2ziQ0hFD00FVNDbkv8jZUS78PUXg6+h75WcuW52uteSgfYvkpiVsq5wqZwkEAcGmKhbkRt7Kzg537q38l5GMuYdu3d7WJjeJZMMT579+EmffRIkAe61xeOKA7aXCDq/3TQxOPnZOFUDn3sNjxitKTpMJZ518FfLSX79naLgK1KsCaKkrrJSUrCGsXgJmaKewHxcwgdfXLNSQ34SZ4=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201064.267388,
+                    "expires_date": "2025-03-28T22:31:04.267388+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "8A0D2A297DFC7B8524E61199DE947A46~YAAQxRdlX5JM3q2VAQAAKXlz3hvwm/6guVEuqOn9cTtzFfuVRGkk4B0spxb+eNIIHVUlPi+DgzPLLvgCcmJq3QUDfl2CeZM/+vZ4AjHw44rJWPKpEwcetVaqIocLAjd1SWjX9EMlKkdq1g5t0YBfSpBYDBSIavlGM/N9L2vV3FY2eaWstbYZYnJDdfiKZksiKPWxx7cJPDjNj7tH90r8GP/cqpfD6iTU9BnuB3v2fRC61KbVJZmMZg9ERMkYndkcqHp+xCZ9+1mYZm/ErZX+PJXiNFswv+KZ8z6h5eMyeQqcgJjcEEmoP1AWShCXptHmF0VxsaAN+8n9/KdsJOPnlWFAj6prTpA9+bAtEMsZHYGGqYX5IYH/+33GVD19TffSzOmZZbkbX/7bufa+u8G5x3fvRnQT8CJIpTw9RkWz+zwrMj6dxQ==~4277826~3290694",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743208264.267447,
+                    "expires_date": "2025-03-29T00:31:04.267447+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "6F6F4E7A9828107447014CF0F09E060D~000000000000000000000000000000~YAAQxRdlX8FM3q2VAQAA335z3htqXaU2zpEwgaxzPrlgsgC/uP2jIowszZSMw/b9XQhLH07ffHQxzosaIY5qGciynl7o2TbcxFoAL0Au5C6AKzDLLcM1ylEzwwWVM89j1sc2Qn5UggKbyzBimNC83uweOV3b+MGNfTgoSqEi5XDXPK7PCN29kW7j/W4lFcHoZw3sRKtEm2DhRUfGWuXbgKxdgloq9WJL1+3YFM9yY4E6/dYK+bscekOoWHBtOgRPPiUlcMQtwCE9XwjvjmIUhPXQhqcFXvSs53FKg9ZJVGdJROya75ugKPVEdlXVe/AjkSJ7HKUbLx5AM9AGXs8tO5XuGOktd+UvsKECyv2yZGTWz8ziSZcl5eAsI6d8bYHhlL5jZVWJk8Dqygmu75M8fsL+dvbdEXo7JkV9dzlBLTIHsNiGiKi1dxbjPqBMHeNsgH+j1R0sUyl+pQS7gkb77N9y94IV5Y/lcCqGEvGi8Vs1zjIU+1gHEuuFToja+0LfYQRY0hze1rbS4Vebq4VHV3HZXEHJkwS4jnpHPWA9fiY3wjVuQHnexyBqNFFj7HUp0buPJYPKOa2eoedwVbTOhmVzndzJRAau7MyZILSH5Ig=",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201064.729793,
+                    "expires_date": "2025-03-28T22:31:04.729793+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "69D0E849C953B9F0094EA183F85E5EE6~-1~YAAQxRdlX+FM3q2VAQAAtoFz3g2rMNB2Ih8bcKvkRWrnOdiBL/OcoQZIH/yjn3xa/2FGKN28BmR6OqxV1aT/2Z6ArcFiXq2hezAd1SuuPixF0CSXBaT7TTKzm/VoqsmF4mjImVvDTMQj/XFFEKTaauODhGSOl+huj4q9jKGBGDjqy9Tm/nXxuZcT3Z1QN5hDxZBgKFR1iqqrW/5Ep+Qi+v0MCdUz7v+efjAtY54iB0d9kWA4GPqgCNPDDJXkbk0pBOey0TOB8Mx3JBQulzuGvsiUz4Rml/z+V5ZJTCdlrKNgfLu9FuFutqVlUVZcUE4+tbfXdKObn9p0bZhR5ivmQfISGjrd69jzdlggCyJYS2DNIdX8T8q5fvy8Ug2ks+Rddf6iWMDgojG6I4qviAXzt+L9ftcjmhP0dzTXUwzFaDUJcTjwhespeH9YqmQpIXNT4AAqOdvU5p5lNqkrEurPeaBusP57jEyHCN6W47uAT2fAOXTqJuvffYTYhdqoAVcJIOcUtyNehBwnuExPB8xg~-1~||0||~1743197465",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729866.456376,
+                    "expires_date": "2026-03-28T20:31:06.456376+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A31%3A06+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202302.1.0&isIABGlobal=false&hosts=&consentId=6719bdf5-c8d4-4665-8de1-8b236b4442db&interactionCount=0&landingPath=https%3A%2F%2Fwww.bershka.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774729866,
+                    "expires_date": "2026-03-28T20:31:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "905EB1A1F873F6C5A6167A85770A0293~YAAQxRdlX/tM3q2VAQAAPoRz3hub15l4FfNTeJxKfbIIB3ZZfOAf7NkRvzyfxPmC5kzewkxs7Aboh4MvpiVwQLbg4sGbyL4whP5thRqphGI5YJadifsSvewIFvpA5oEpSvXjW9Hj4KlaYrobtM9iFuKfwX9C/nujuAJMWKIqIIVuEEtVAikJnWqYqU4y0GUiE7Eg/0kF8VQXcXFKxerBtV+2pQQ6B6d1l9pjSOOddIw4eyF89rJI3+E19WT6ikDvGQ==~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201064.103687,
+                    "expires_date": "2025-03-28T22:31:04.103687+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ITXSESSIONID",
+                    "value": "1ca9825ef4b391a79cf8059855ce9efe",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195688.179672,
+                    "expires_date": "2025-03-28T21:01:28.179672+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BSKSESSION",
+                    "value": "56bb404472798718e28f82b8394f1333",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195688.179733,
+                    "expires_date": "2025-03-28T21:01:28.179733+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_mi",
+                    "value": "3A875850C73BC5D793C8FFE0AFBFCAC5~YAAQxRdlX5BM3q2VAQAAKXlz3huukW09Xh13zHCiMYnCv2iuMJea+CaWOoGOPbESTLsNxMg4RXwdjKMeZG20urRoP5nwjIbML24krAJ2tDvIfE2ziQ0hFD00FVNDbkv8jZUS78PUXg6+h75WcuW52uteSgfYvkpiVsq5wqZwkEAcGmKhbkRt7Kzg537q38l5GMuYdu3d7WJjeJZMMT579+EmffRIkAe61xeOKA7aXCDq/3TQxOPnZOFUDn3sNjxitKTpMJZ518FfLSX79naLgK1KsCaKkrrJSUrCGsXgJmaKewHxcwgdfXLNSQ34SZ4=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201064.267388,
+                    "expires_date": "2025-03-28T22:31:04.267388+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "6F6F4E7A9828107447014CF0F09E060D~000000000000000000000000000000~YAAQxRdlX8FM3q2VAQAA335z3htqXaU2zpEwgaxzPrlgsgC/uP2jIowszZSMw/b9XQhLH07ffHQxzosaIY5qGciynl7o2TbcxFoAL0Au5C6AKzDLLcM1ylEzwwWVM89j1sc2Qn5UggKbyzBimNC83uweOV3b+MGNfTgoSqEi5XDXPK7PCN29kW7j/W4lFcHoZw3sRKtEm2DhRUfGWuXbgKxdgloq9WJL1+3YFM9yY4E6/dYK+bscekOoWHBtOgRPPiUlcMQtwCE9XwjvjmIUhPXQhqcFXvSs53FKg9ZJVGdJROya75ugKPVEdlXVe/AjkSJ7HKUbLx5AM9AGXs8tO5XuGOktd+UvsKECyv2yZGTWz8ziSZcl5eAsI6d8bYHhlL5jZVWJk8Dqygmu75M8fsL+dvbdEXo7JkV9dzlBLTIHsNiGiKi1dxbjPqBMHeNsgH+j1R0sUyl+pQS7gkb77N9y94IV5Y/lcCqGEvGi8Vs1zjIU+1gHEuuFToja+0LfYQRY0hze1rbS4Vebq4VHV3HZXEHJkwS4jnpHPWA9fiY3wjVuQHnexyBqNFFj7HUp0buPJYPKOa2eoedwVbTOhmVzndzJRAau7MyZILSH5Ig=",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201064.729793,
+                    "expires_date": "2025-03-28T22:31:04.729793+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDROSTA",
+                    "value": "f670bd07eaf4:1174ea61a495b4f97af505498",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195682.079027,
+                    "expires_date": "2025-03-28T21:01:22.079027+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "UAITXID",
+                    "value": "2d0049c6cbb639033d08503e3fa40a158a7462cbb7c82d9edd3758659bbc6f90",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729882.079114,
+                    "expires_date": "2026-03-28T20:31:22.079114+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "69D0E849C953B9F0094EA183F85E5EE6~-1~YAAQxRdlXxZP3q2VAQAAdr5z3g15U0AHfR6grcHFx+xSTUwnSPgjdDnceg+TPtBg2cCCMFMqfLDe6HHyF9NFbr+uXH1n86aVfIZODdozXoxycTHEWFf/DAfzIlDJDArj9f9gSjm+cz/+9CU4W31djkGEYVr6nHuTNvYrE6auUjn8JdNSRvzhNKz6Jr42/rv425hSC5VmtqtRAO58KgpOFV/ApfMqGSM0L+7ExFzemh12f9Ji/6QKU5Nj87FpVBQ1eRs8qG/S3RU1tf01nZf4WViLswhEL04rC3Q0HBd3jfvnQRPXjY8lVUUP4tR5Jja6GJlFl8ktU/hGpLPrKjYO/4s/qdayyv2zkC7bYJjGSSoKEr6YzBTyQxTCGoIeTm3slfWplwunKO9UgaZTSl9zqrIZ+hfdDW6elZYQQ78JIpaapztR5g+v7ENDyHSBdh4TlYazSuwFE8CsRPvf9bTwcYbtytEZoacaPA/fBkmAvxXf5TVM783vNa100cFC4FCQgwBdocCmmoN7LiAGkpHS~-1~||0||~1743197465",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729882.009098,
+                    "expires_date": "2026-03-28T20:31:22.009098+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS01a8c9e3",
+                    "value": "01b752f41ed54fe633a3d1ba9ac96fe472d677ea647e45199e3558bd3008831372819c1e90c097d116c1477790e062ade4face4662",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "905EB1A1F873F6C5A6167A85770A0293~YAAQxRdlX1RP3q2VAQAAQNZz3hsPNM5xpHC/mgxomhXBwzbAZs5wz9cHqZ2Rv7pfXHUUxOU15NSHNWhg/Le276TsRQ/g0/BZu2FC2rEccLuAbjTH7enNhs2QF7IIU54ce7nPAeaobtioTZ1dboEWEJgrLXRzJLO13rDzxDTh6iWZx/YWzYzPDZLA4U3T4JKPJ6q9oIXWBdc+UYOcwFgCKPjVfc5jTy1EqHJ7TMoQ3VvZQLQjckth9BdpzbV+WlY9v+A=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201064.098691,
+                    "expires_date": "2025-03-28T22:31:04.098691+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "8A0D2A297DFC7B8524E61199DE947A46~YAAQxRdlX1VP3q2VAQAAQNZz3huukuuIOvrnPAXiQS8DS+paPBSN2/WsBphlARIIaH2ywht1m/2cd9d6AmZ/48XtxgFXfg5/Yu+0VDC6QrD3D8pcBu6IJfGOwv+7EQXTYy31KAfFiNPpY2ehhZpDVgJIGKdOIaIA8nZE8CCchWZYEDjaHekphEi70QHzcNaMCHDhhE7QJZQ2+b/BR+SwazjIP8dvsuH2Q6z2/1qThijouh4CLh84ZK6w4N99Gmtd94HImhShuqJDrlRtLcq1UcSXSdzFQ9xtl+dmgF6oeTyrVu2RSN7KbI7h4/NawFURMp3tZd7pRAAPm6eQzr6x1jO0BmaanYBaITrkez9q672MGPm9V4wbVx2GHE9ERnKmM4MuXcPHuUkQUZOmJDLoF3ddITx75YJe6O+iHpfUOvPSC4JRATP+2Iql1kcirK4adbz8dkPi~4277826~3290694",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743208264.098754,
+                    "expires_date": "2025-03-29T00:31:04.098754+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A31%3A28+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202302.1.0&isIABGlobal=false&hosts=&consentId=6719bdf5-c8d4-4665-8de1-8b236b4442db&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0&AwaitingReconsent=false",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774729888,
+                    "expires_date": "2026-03-28T20:31:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [
+            "Failed to visit page 'https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html': Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html\", waiting until \"domcontentloaded\"\n",
+            "Exception occurred while visiting page https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html\", waiting until \"domcontentloaded\"\n"
+        ],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T21:31:04.018901",
+        "timestamp_stop": "2025-03-28T21:31:58.022072"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse piškote)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bershka.com",
+            "https://www.bershka.com/es/h-woman.html",
+            "https://www.bershka.com/es/pag/bershkastyle.html?gender=66486573"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "ITXSESSIONID",
+                    "value": "359e93a3a19497bcf08509b03e30680f",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195722.793695,
+                    "expires_date": "2025-03-28T21:02:02.793695+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BSKSESSION",
+                    "value": "d7621c2e6fc6c048926126118872f779",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195722.793813,
+                    "expires_date": "2025-03-28T21:02:02.793813+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_mi",
+                    "value": "483AF05A854D0A76555D8885499DC887~YAAQxRdlX89S3q2VAQAAVFJ03hvDnAMtxSYsNL9G4tC7F0fDl5ui1/Nf7nw7bifrhLih0z5DwGLs4flrTCfcyal17R412f7SYY/93xCPtfwU5KZx3vnoIm/w8sYDhfeuzdxxFP9L6u+JYxJ3jbNjFO77q3KLLuHUBPGR4VCBZrz38gOaON5hEZKTQvKgRKQTLhdy5OTV7WpKWpBxWXfGWzb15z9dAooTRLYpd0FeBkNLp9if+tO7VfWQrMQV12p0sWUn1aHuinseLSTTOpuNrMAUzIdOj31AmRnENwruM9pzb2dy3iyCBlDx1zgGvRw=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201118.862539,
+                    "expires_date": "2025-03-28T22:31:58.862539+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "32C2C10D3B3F1D3B005D1168D55B80C1~YAAQxRdlX9FS3q2VAQAAVFJ03htLyAv2pQLMO0bDlwM6vLpMeejGkF0DtG8UadaPBw1/LQEsP0DhUDQnPiJ54YoRaaDACAzCpJ8q90BST8dqJBmG/nSIH/IyBB5d7JdysyyvHJYJ4jRue5d84z7FEnayekveJojimFF+1r/YciFZxsE5o2vw3N1iNmvI4I8hwxDdBJrsqVPx2SPkWvKWSoIs1BaRJi3KPbCG5wWQS2B0SIvjA/Ec3PMwo8Gof7iulHc9ZmVhuRiAcX/HwzmX5aeED4d8EWlna8M7JpgNE8vdZ4FU2ha9DYInCHnmt768Xu6/aU3HJlz2CwCl6sgXeJpGok8pHDp3DLUSOKYGOkbqAvBJXpfjk+SgCVOLDQ26pYxrnKKRN8UAq4IowY9H6PxJ/9DELkcOqXN/ml5sYdOg9rQZhg==~4338488~4536373",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743208319.862576,
+                    "expires_date": "2025-03-29T00:31:59.862576+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "093B7554FB2CF2D753338F81A76717BF~000000000000000000000000000000~YAAQxRdlX2ZT3q2VAQAAE1h03hvJG5f/qA+IICjz/HwW1xzfG2gRPsiBAimuLi8Azs8fWEE6EK/lls1lr93/WPcPFqFFGxTtC6EtY6wJ2eSh4dbFiNLjRaseAyxBsZQA9Fec0BW/sgUILm+TwNio6z2+R1Zdjputybiozs0Vbsyu0sVqPAlgGpxGWSoU3G4uQodID4kex7BfpKlkxYCbO8nMNKYLgKPNeqUXB6ssy6Js0I0bC8ZwWsxsbLJw5lPqNZDr9+2hyLtuLoVqaoU9F423AwwNGsq22JIMNiKHijLIU8fwAQuB5hfgLNcuSEys8j8VwFx9w6MJfE0qgWpherAvx0rKdNMwFqFxIBlR5VLTyT5yIMUEPWy85tj32iFU2AnRmc7rRgcHnB490H5UEtqqVJdYG1xx9fNQZ+f/jpwrEmhDD/kmpem8YUt5gn8gvgMbXHF20A1jQfrHL1qMw21SC9exlWLJfa6P7NYKqMw9AYAJ8O9xn3LnQVy9jZDzpzSn/ykv3lnSS6kOuXiNRoMEHvR+fzMpjjOmcw3FMZ27XebK+uAk7r6thWnowNQneCg4wvKlbw66pxP4BAoslG6GXC7sBaA/tPKo3Y585xM=",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201119.333178,
+                    "expires_date": "2025-03-28T22:31:59.333178+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2BB08C9ADC64220B503427E6A0E0A4B8~-1~YAAQxRdlX3JT3q2VAQAAKFp03g3pnOeEn9uCQaKL6f7SACuLW3QkIWXsVst2Dl+MG1wlH+kBpfCQfTb4G8zOyxGjh4Lz9D54huXw9BenIjasboJQwSZ+LipvQDdjs5iaJSecoTS/rErYvxfFojbaOAppo7Il5SJMTjhBGMbRX0b+0ORQNEv/lNqcgsirWcm4gMrwfZ197Xev6mSa1SBfOqwWwLwEw1cR43hHEggBkhyPcV8YoP/AbcXNoeDZfMdQ1cMH4pYmCTY2pbJ+oV5TtZErvO/tW+EU2OD4umUMmr6/A34Je7UUHVkrUzIdMPy7HYzc0+4ZBYUdHwCMgTP62Riw5tJr3f8NcQMpStkjspnxc4Fc8cDijn5SZR3Eh4At+z787NBBDH2l6ZjzC3UWmBMtIIv8i4FN3K0IT55uPI2n2Pk8qRIaRaANi2Z5XyU7yN/T8QQteCOgfI1OhwzsKqNTXi0e2bxKAInNZzrGePMdkJ7HwheZQTFUYloxGO9IcQy/0cJ2Y9EZUwqxN7gn~-1~||0||~1743197521",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729921.866361,
+                    "expires_date": "2026-03-28T20:32:01.866361+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A32%3A02+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202302.1.0&isIABGlobal=false&hosts=&consentId=3edc3859-df11-4390-a473-8753077620c9&interactionCount=0&landingPath=https%3A%2F%2Fwww.bershka.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774729922,
+                    "expires_date": "2026-03-28T20:32:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "B29B8D52BFDA53E41EA5E9177BF3F1B5~YAAQxRdlX3tT3q2VAQAAaF103hsC7C/dF3x6iC5fyjAr5rUe4MuRI2wHI2uLtku044H1LHRlqzZDHJ/sYeyWTaIXe4MNnuiYTUvSMoWdfJ+E4N2k5NlU07EbpRdzIVPHBjyKwOUNmg2U235ANOm+qiCzH3gD+IZC+3p8tefcHxDvgbLYdg4aKb3m3RbNG9fNdxomVQ5Fan/NyGrbcwu8osY1pDNUgNRPuN5eX8Eb7to0vq2Bh1ZTEdFhy2phe3bqdQ==~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201120.704299,
+                    "expires_date": "2025-03-28T22:32:00.704299+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "ITXSESSIONID",
+                    "value": "359e93a3a19497bcf08509b03e30680f",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195752.509041,
+                    "expires_date": "2025-03-28T21:02:32.509041+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BSKSESSION",
+                    "value": "d7621c2e6fc6c048926126118872f779",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195752.509156,
+                    "expires_date": "2025-03-28T21:02:32.509156+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_mi",
+                    "value": "483AF05A854D0A76555D8885499DC887~YAAQxRdlX89S3q2VAQAAVFJ03hvDnAMtxSYsNL9G4tC7F0fDl5ui1/Nf7nw7bifrhLih0z5DwGLs4flrTCfcyal17R412f7SYY/93xCPtfwU5KZx3vnoIm/w8sYDhfeuzdxxFP9L6u+JYxJ3jbNjFO77q3KLLuHUBPGR4VCBZrz38gOaON5hEZKTQvKgRKQTLhdy5OTV7WpKWpBxWXfGWzb15z9dAooTRLYpd0FeBkNLp9if+tO7VfWQrMQV12p0sWUn1aHuinseLSTTOpuNrMAUzIdOj31AmRnENwruM9pzb2dy3iyCBlDx1zgGvRw=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201118.862539,
+                    "expires_date": "2025-03-28T22:31:58.862539+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "32C2C10D3B3F1D3B005D1168D55B80C1~YAAQxRdlX9FS3q2VAQAAVFJ03htLyAv2pQLMO0bDlwM6vLpMeejGkF0DtG8UadaPBw1/LQEsP0DhUDQnPiJ54YoRaaDACAzCpJ8q90BST8dqJBmG/nSIH/IyBB5d7JdysyyvHJYJ4jRue5d84z7FEnayekveJojimFF+1r/YciFZxsE5o2vw3N1iNmvI4I8hwxDdBJrsqVPx2SPkWvKWSoIs1BaRJi3KPbCG5wWQS2B0SIvjA/Ec3PMwo8Gof7iulHc9ZmVhuRiAcX/HwzmX5aeED4d8EWlna8M7JpgNE8vdZ4FU2ha9DYInCHnmt768Xu6/aU3HJlz2CwCl6sgXeJpGok8pHDp3DLUSOKYGOkbqAvBJXpfjk+SgCVOLDQ26pYxrnKKRN8UAq4IowY9H6PxJ/9DELkcOqXN/ml5sYdOg9rQZhg==~4338488~4536373",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743208319.862576,
+                    "expires_date": "2025-03-29T00:31:59.862576+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "093B7554FB2CF2D753338F81A76717BF~000000000000000000000000000000~YAAQxRdlX2ZT3q2VAQAAE1h03hvJG5f/qA+IICjz/HwW1xzfG2gRPsiBAimuLi8Azs8fWEE6EK/lls1lr93/WPcPFqFFGxTtC6EtY6wJ2eSh4dbFiNLjRaseAyxBsZQA9Fec0BW/sgUILm+TwNio6z2+R1Zdjputybiozs0Vbsyu0sVqPAlgGpxGWSoU3G4uQodID4kex7BfpKlkxYCbO8nMNKYLgKPNeqUXB6ssy6Js0I0bC8ZwWsxsbLJw5lPqNZDr9+2hyLtuLoVqaoU9F423AwwNGsq22JIMNiKHijLIU8fwAQuB5hfgLNcuSEys8j8VwFx9w6MJfE0qgWpherAvx0rKdNMwFqFxIBlR5VLTyT5yIMUEPWy85tj32iFU2AnRmc7rRgcHnB490H5UEtqqVJdYG1xx9fNQZ+f/jpwrEmhDD/kmpem8YUt5gn8gvgMbXHF20A1jQfrHL1qMw21SC9exlWLJfa6P7NYKqMw9AYAJ8O9xn3LnQVy9jZDzpzSn/ykv3lnSS6kOuXiNRoMEHvR+fzMpjjOmcw3FMZ27XebK+uAk7r6thWnowNQneCg4wvKlbw66pxP4BAoslG6GXC7sBaA/tPKo3Y585xM=",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201119.333178,
+                    "expires_date": "2025-03-28T22:31:59.333178+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "B29B8D52BFDA53E41EA5E9177BF3F1B5~YAAQxRdlX3tT3q2VAQAAaF103hsC7C/dF3x6iC5fyjAr5rUe4MuRI2wHI2uLtku044H1LHRlqzZDHJ/sYeyWTaIXe4MNnuiYTUvSMoWdfJ+E4N2k5NlU07EbpRdzIVPHBjyKwOUNmg2U235ANOm+qiCzH3gD+IZC+3p8tefcHxDvgbLYdg4aKb3m3RbNG9fNdxomVQ5Fan/NyGrbcwu8osY1pDNUgNRPuN5eX8Eb7to0vq2Bh1ZTEdFhy2phe3bqdQ==~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201120.704299,
+                    "expires_date": "2025-03-28T22:32:00.704299+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T20:32:32.224Z",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774729952,
+                    "expires_date": "2026-03-28T20:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A32%3A32+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202302.1.0&isIABGlobal=false&hosts=&consentId=3edc3859-df11-4390-a473-8753077620c9&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1%2CC0005%3A1",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774729952,
+                    "expires_date": "2026-03-28T20:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dyid",
+                    "value": "4656722978516961088",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782352,
+                    "expires_date": "2025-04-27T19:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dyjsession",
+                    "value": "sxvqv3hnm9dm7j3a39hhbwwd738ibs0n",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195752.283746,
+                    "expires_date": "2025-03-28T21:02:32.283746+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dy_soct",
+                    "value": "1743193920!!",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729952,
+                    "expires_date": "2026-03-28T20:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "dy_fs_page",
+                    "value": "www.bershka.com",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dy_toffset",
+                    "value": "-1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782352,
+                    "expires_date": "2025-04-27T19:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dy_df_geo",
+                    "value": "Slovenia..Ljubljana",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782352,
+                    "expires_date": "2025-04-27T19:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_dy_geo",
+                    "value": "SI.EU.SI_061.SI_061_Ljubljana",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782352,
+                    "expires_date": "2025-04-27T19:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_dycnst",
+                    "value": "dg",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782352,
+                    "expires_date": "2025-04-27T19:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dycst",
+                    "value": "dk.w.c.ws.fst.",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782352,
+                    "expires_date": "2025-04-27T19:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2BB08C9ADC64220B503427E6A0E0A4B8~-1~YAAQxRdlX8VW3q2VAQAA2tF03g2yDftD58X7eo1n28MHKM4heKG+2kbTd/asHSm6lIUrV7S/OtAcroxTOonvDSQosMtPOA42bVI9yBwZVC5pGGYvi9xpgKUvWsyvJBkD2sV+xnhQSV3ZzwN2Q8eta7E6vjWzw/FYnIW0jfYR6dbiw+2nD6gp3vGLsh7pKpV3kp1VFMIZyWX//8e+DTK2FHzAPZ6D4WLUf0/lT8pL2ZAOYCpEGeF89flOUgplElUFuByc5Or/+jpx/RKll2dwEMwfmBGkgvkTXO9Uaik9QRiVgK5ig8gS+jEuQoJMjggtfu0Gv4OHT7eNBbh9AZSeYO3yX/MfbIIyFYSOeAlzipx6RY+5BTiBk9tbvvBxnxxSKGUmth6cVhHVX3wkW1TKrBMq12/oEXDBXKr7sY7ROfrzTI/eyJTzBx/IrCPhMPs6a5ox/4tJWZJu3akk/H2thUL36zNYsogDumrBNikzgtw1dKVizWJkSw5Z2TBKsGnjih6T/1PZ6ruSPDsl7dfX~-1~||0||~1743197521",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729952.509213,
+                    "expires_date": "2026-03-28T20:32:32.509213+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_3W4Z1T7RNM",
+                    "value": "GS1.1.1743193952.1.0.1743193952.60.0.0",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774733952,
+                    "expires_date": "2026-03-28T21:39:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.919986988.1743193953",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774733952,
+                    "expires_date": "2026-03-28T21:39:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743194852.701413,
+                    "expires_date": "2025-03-28T20:47:32.701413+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "optimizelyEndUserId",
+                    "value": "oeu1743193952732r0.19303269573212511",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1758745952,
+                    "expires_date": "2025-09-24T20:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPC",
+                    "value": "id=99077652-6d8d-4463-b73e-b80c8115745f",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1777753952.863887,
+                    "expires_date": "2026-05-02T20:32:32.863887+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "X-AB",
+                    "value": "816d8d4b831046308b307b2eab4e110d",
+                    "domain": "sc-static.net",
+                    "path": "/scevent.min.js",
+                    "expires": 1743280358.161514,
+                    "expires_date": "2025-03-29T20:32:38.161514+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ITXSESSIONID",
+                    "value": "359e93a3a19497bcf08509b03e30680f",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195772.693137,
+                    "expires_date": "2025-03-28T21:02:52.693137+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BSKSESSION",
+                    "value": "d7621c2e6fc6c048926126118872f779",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195772.693251,
+                    "expires_date": "2025-03-28T21:02:52.693251+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_mi",
+                    "value": "483AF05A854D0A76555D8885499DC887~YAAQxRdlX89S3q2VAQAAVFJ03hvDnAMtxSYsNL9G4tC7F0fDl5ui1/Nf7nw7bifrhLih0z5DwGLs4flrTCfcyal17R412f7SYY/93xCPtfwU5KZx3vnoIm/w8sYDhfeuzdxxFP9L6u+JYxJ3jbNjFO77q3KLLuHUBPGR4VCBZrz38gOaON5hEZKTQvKgRKQTLhdy5OTV7WpKWpBxWXfGWzb15z9dAooTRLYpd0FeBkNLp9if+tO7VfWQrMQV12p0sWUn1aHuinseLSTTOpuNrMAUzIdOj31AmRnENwruM9pzb2dy3iyCBlDx1zgGvRw=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201118.862539,
+                    "expires_date": "2025-03-28T22:31:58.862539+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "093B7554FB2CF2D753338F81A76717BF~000000000000000000000000000000~YAAQxRdlX2ZT3q2VAQAAE1h03hvJG5f/qA+IICjz/HwW1xzfG2gRPsiBAimuLi8Azs8fWEE6EK/lls1lr93/WPcPFqFFGxTtC6EtY6wJ2eSh4dbFiNLjRaseAyxBsZQA9Fec0BW/sgUILm+TwNio6z2+R1Zdjputybiozs0Vbsyu0sVqPAlgGpxGWSoU3G4uQodID4kex7BfpKlkxYCbO8nMNKYLgKPNeqUXB6ssy6Js0I0bC8ZwWsxsbLJw5lPqNZDr9+2hyLtuLoVqaoU9F423AwwNGsq22JIMNiKHijLIU8fwAQuB5hfgLNcuSEys8j8VwFx9w6MJfE0qgWpherAvx0rKdNMwFqFxIBlR5VLTyT5yIMUEPWy85tj32iFU2AnRmc7rRgcHnB490H5UEtqqVJdYG1xx9fNQZ+f/jpwrEmhDD/kmpem8YUt5gn8gvgMbXHF20A1jQfrHL1qMw21SC9exlWLJfa6P7NYKqMw9AYAJ8O9xn3LnQVy9jZDzpzSn/ykv3lnSS6kOuXiNRoMEHvR+fzMpjjOmcw3FMZ27XebK+uAk7r6thWnowNQneCg4wvKlbw66pxP4BAoslG6GXC7sBaA/tPKo3Y585xM=",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201119.333178,
+                    "expires_date": "2025-03-28T22:31:59.333178+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T20:32:32.224Z",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774729952,
+                    "expires_date": "2026-03-28T20:32:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dyid",
+                    "value": "4656722978516961088",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782372,
+                    "expires_date": "2025-04-27T19:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dyjsession",
+                    "value": "sxvqv3hnm9dm7j3a39hhbwwd738ibs0n",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195772.696816,
+                    "expires_date": "2025-03-28T21:02:52.696816+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "dy_fs_page",
+                    "value": "www.bershka.com",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dy_df_geo",
+                    "value": "Slovenia..Ljubljana",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782372,
+                    "expires_date": "2025-04-27T19:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_dy_geo",
+                    "value": "SI.EU.SI_061.SI_061_Ljubljana",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782372,
+                    "expires_date": "2025-04-27T19:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_dycnst",
+                    "value": "dg",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782372,
+                    "expires_date": "2025-04-27T19:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dycst",
+                    "value": "dk.w.c.ws.fst.",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782372,
+                    "expires_date": "2025-04-27T19:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.919986988.1743193953",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774733967,
+                    "expires_date": "2026-03-28T21:39:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "optimizelyEndUserId",
+                    "value": "oeu1743193952732r0.19303269573212511",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1758745967,
+                    "expires_date": "2025-09-24T20:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPC",
+                    "value": "id=99077652-6d8d-4463-b73e-b80c8115745f",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1777753967.43559,
+                    "expires_date": "2026-05-02T20:32:47.435590+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDROSTA",
+                    "value": "c34bf98c6b12:1b1735d38505a9aff7bf47834",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195766.819307,
+                    "expires_date": "2025-03-28T21:02:46.819307+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "UAITXID",
+                    "value": "1e137062de8d4c6d5306476ff1ad58d4d527f367b03d39c3ec9e8d7db03963bb",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729966.81935,
+                    "expires_date": "2026-03-28T20:32:46.819350+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BershkaGenderCategoryKey",
+                    "value": "BERSHKA_WOMAN",
+                    "domain": "www.bershka.com",
+                    "path": "/",
+                    "expires": 1774729957,
+                    "expires_date": "2026-03-28T20:32:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uxd3M81iJ4v8hFBiYOlebu15v2",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750969967.100329,
+                    "expires_date": "2025-06-26T20:32:47.100329+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_scid",
+                    "value": "jbvFs8wwUoUeHQqx-FYZGZfAgTCn4o2I",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1777380656,
+                    "expires_date": "2026-04-28T12:50:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193958848.443267104913193851",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1750969967,
+                    "expires_date": "2025-06-26T20:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "3BC34FFC011E696A3FDC5A41001E6858",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776889959.918076,
+                    "expires_date": "2026-04-22T20:32:39.918076+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1750969967,
+                    "expires_date": "2025-06-26T20:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQF79TK0QR380GK8KFX9FRCE_.tt.1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1750969967,
+                    "expires_date": "2025-06-26T20:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "67e707670eb8d6001aa9fc0d",
+                    "domain": ".marvellousmachine.net",
+                    "path": "/",
+                    "expires": 1774729967.562941,
+                    "expires_date": "2026-03-28T20:32:47.562941+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ScCbts",
+                    "value": "%5B%5D",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743798759,
+                    "expires_date": "2025-04-04T20:32:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUkLJAA71cxKs-R0HHKzfjQIrXTGq3yo3sfjANcfMwQMu7WHiJN2iVUBhfTRgxQ",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776889959.122049,
+                    "expires_date": "2026-04-22T20:32:39.122049+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1745785959.201968,
+                    "expires_date": "2025-04-27T20:32:39.201968+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1758745959.202042,
+                    "expires_date": "2025-09-24T20:32:39.202042+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "fingerprint",
+                    "value": "ty%3D0%26cokdate%3D03%2F28%2F2025+20%3A32%3A39%26vsranka%3D0%26vsrankb%3D0%26userid%3Dc14231ba-6638-42f3-ba48-4ff04d7d981b%26p%3D%5B%7B%22c%22%3A%22td_brs_es%7Cami_brs_es%7Ctd_bhk_it%7Ctd_brs_uk%7Ctd_brs_fr%7Ctd_brs_nl%7Ctd_brs_be%7Ctd_brs_de%7Ctd_brs_pl%7Cppm_pnp_eur%22%2C%22hh%22%3A5%2C%22H%22%3A5%2C%22L%22%3A5%2C%22pp%22%3A9%2C%22P%22%3A5%7D%5D%26isadblock%3D0%26icount%3D0%26icrank%3D1000%26rank%3D100%26ccount%3D0%26csrankb%3D0%26csranka%3D0",
+                    "domain": ".tangooserver.com",
+                    "path": "/",
+                    "expires": 1774729959.238895,
+                    "expires_date": "2026-03-28T20:32:39.238895+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "MSPTC",
+                    "value": "Xin9qhtG_I8T8apsU9abAA5ZKeAHJGhogx8sycDHR64",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776889964.598522,
+                    "expires_date": "2026-04-22T20:32:44.598522+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2BB08C9ADC64220B503427E6A0E0A4B8~-1~YAAQxRdlXyRY3q2VAQAAqwh13g09OtKjnbZmQ4yTiurYV+X3u6lDhuokBVUxlOD/7TOljLtZcfnFZtQpAn6ApNxK6AFdhioM3mPQUXEZcpq7Pc6vfqYTquHuiLa1Jdkr1byAFOPaTgYjVPRVGy4kbcGBaeuB2Z6QoMgdt2NcmwADPWiw9q+R2DAVuDyG71t8eIfKfCWd/X4WyYJKPqOQDPlsHCArdRQ69EXU2SKK1HPebQ5OcFVuk7SFSqojubt43nUkaUMpK2vycycolbniXOzGIQX0z+sz39HKSNsvQbELEtCa5fy4agEsh+DbhSZPDfm3wfczYegForA9AnL/U+poLdwCyIXEOY0WGBbNqKVIgNYke8DONI8rkdmRtIEC+mdjoGimPQsbXeu1WG7aq7pA0oJZH0gCZ+EKisQwaCvkGWtmpgZu3BjTyrEbnkrgV4vPBoWcBVR57lqHlu5WBI+D82N5WWuo5GSzuXHOibQ26tjfF+AvWMm2SlE4n21ZcvIHXB0JC0Vy4h468tUY~-1~||0||~1743197521",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729966.547493,
+                    "expires_date": "2026-03-28T20:32:46.547493+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS01a8c9e3",
+                    "value": "01e7ba8b97c35c44e1c7d1eaa54488d76530002a88cb8daba13cec6124a691badf1a1a86ddacbf1a787c9f6a0e0f6e193bb7af1cce",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_scid_r",
+                    "value": "ljvFs8wwUoUeHQqx-FYZGZfAgTCn4o2Is04mWA",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1777380665,
+                    "expires_date": "2026-04-28T12:51:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "optimizelySession",
+                    "value": "1743193967254",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1758745967,
+                    "expires_date": "2025-09-24T20:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_uetsid",
+                    "value": "ca6df5000c1311f09312bbe0f30ea3e4",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743280367,
+                    "expires_date": "2025-03-29T20:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_uetvid",
+                    "value": "ca6e24700c1311f09ebc63d7b1a24111",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1776889967,
+                    "expires_date": "2026-04-22T20:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_3W4Z1T7RNM",
+                    "value": "GS1.1.1743193952.1.1.1743193972.40.0.0",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774733972,
+                    "expires_date": "2026-03-28T21:39:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "B29B8D52BFDA53E41EA5E9177BF3F1B5~YAAQxRdlX49Y3q2VAQAAWCB13htpx1qijFbxoFZ7Fg9Li9i5y3Mqd4d8lJG77lL9z+NJ5P6k1v6kDX7XAvJuRbh+YyLYHrEP4KF8dRhctRBBwmGMg2IincAD+lh9Rxcdd+gXxuVezeyt0zCSjEXeYcXs4XCwdbmqHV/UOU51unzZ1iUYHUCaN1ht8w9jjc7upGT4y4b1qXtl34BgTJo2FXUHhL3aqyb2Br/087uyH680RBhmcgvv5O0xxVIdFXSz/Wg=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201120.601507,
+                    "expires_date": "2025-03-28T22:32:00.601507+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "32C2C10D3B3F1D3B005D1168D55B80C1~YAAQxRdlX5BY3q2VAQAAWCB13hvXq9qBSgNJVEAdUP2EPrdGRALJmxUhCtJ5EF6UIGLXfUe++XL7Z0kBIyRRXOfm3Tmk279u9LwZYw2Ptk9CPCxFvNQVHFCx3df3IbFN+9eGMQJNuhY6DcLZvLwK7FKtWn6YQoqLl7YDMxKnSDeU0WWiP6aWULvwSyAptnSjvCH8HOQyBC3N40y7InHJVrQOXUg1bVngdKfTIF5gOCVyZexCN3yq1vE/OBAQ9DGXlP/q9epOX/ZGNHQeNuqtYFH0uoab9ekTIzl2TOj8XZnfJRLHcyccaErTcwbhPEIaUPWSTDXB5+1qpHiIkE+lWQ5coigy1sHp5FFHiaAH0EQZx5gxwGSLXo9sxWsKx3s5BWXVHjG9ppxW3rkFIyHqcxd9HsamcF5J8SKdua+IiBHjKod8vSishFvIgAVTQyrqWqIL+3mA~4338488~4536373",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743208320.601534,
+                    "expires_date": "2025-03-29T00:32:00.601534+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_NOTFORGA4TRACKING",
+                    "value": "GS1.1.1743193955.1.0.1743193972.0.0.1436586399",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1777753972.609251,
+                    "expires_date": "2026-05-02T20:32:52.609251+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_dy_soct",
+                    "value": "1743193972!!sxvqv3hnm9dm7j3a39hhbwwd738ibs0n~1096124.-16'1113871.-17'1202086.-17",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774729972,
+                    "expires_date": "2026-03-28T20:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A32%3A52+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202302.1.0&isIABGlobal=false&hosts=&consentId=3edc3859-df11-4390-a473-8753077620c9&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1%2CC0005%3A1&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774729972,
+                    "expires_date": "2026-03-28T20:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_dy_toffset",
+                    "value": "1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1745782372,
+                    "expires_date": "2025-04-27T19:32:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [
+            "Failed to visit page 'https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html': Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html\", waiting until \"domcontentloaded\"\n",
+            "Exception occurred while visiting page https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html\", waiting until \"domcontentloaded\"\n"
+        ],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotke prve stranke in tretjih oseb uporabljamo za razumevanje uporabe naše spletne trgovine in za njeno izboljšanje, prilagajanje vsebine vašim željam ter prilagajanje naših oglasov, trženja in objav v družabnih omrežjih. Vse lahko sprejmete, zavrnete ali izberete svojo konfiguracijo s klikom na ustrezne gumbe. Upoštevajte, da lahko zavrnitev piškotkov vpliva na vašo nakupovalno izkušnjo. Za več informacij si oglejte našoPolitiko o piškotkih.Zavrnite neobvezne piškotke Sprejmi vse piškoteNastavitve piškotkov",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškote]\nGenericLabel2: [Zavrnite neobvezne piškotke]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button \"[Sprejmi vse piškote]\" clearly indicates acceptance of all cookies, thus categorized under GenericLabel1. \"[Zavrnite neobvezne piškotke]\" indicates a decline of non-essential cookies, fitting GenericLabel2. There are no ambiguous accept or decline phrases present, but \"[Nastavitve piškotkov]\" pertains to managing cookie settings, categorized under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškote",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrnite neobvezne piškotke",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi vse piškote\" clearly indicates acceptance of all cookies, thus categorized under GenericLabel1. \"Zavrnite neobvezne piškotke\" indicates a decline of non-essential cookies, fitting GenericLabel2. There are no ambiguous accept or decline phrases present, but \"Nastavitve piškotkov\" pertains to managing cookie settings, categorized under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse piškote",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T21:31:59.602606",
+        "timestamp_stop": "2025-03-28T21:33:22.552492"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrnite neobvezne piškotke)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bershka.com",
+            "https://www.bershka.com/es/h-woman.html",
+            "https://www.bershka.com/es/pag/bershkastyle.html?gender=66486573",
+            "https://www.bershka.com/es/mujer/ropa/camisas-y-blusas-n3860.html"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "ITXSESSIONID",
+                    "value": "603a7cd7da5aa42cb49f7057784b1211",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195807.284975,
+                    "expires_date": "2025-03-28T21:03:27.284975+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BSKSESSION",
+                    "value": "5afc0db2150c7bf33cb417636652a061",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195807.285093,
+                    "expires_date": "2025-03-28T21:03:27.285093+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_mi",
+                    "value": "7113DF2F1520CEA1BFEED01E9AAED8DA~YAAQxRdlX8td3q2VAQAAiZx13htHh+ewWBx+dsYUbcMU1RQ3XPzH5TmSHKzvOLWIOYisRaTrqu9g7HD5bFUp9YRrBaFQz7NL1j0UYUjzsiTI7ZSlQQU4zFmON/bOySvkXybUCi9JFR0FiNTOj+oIUxzQrNOuRZqa+QcwEBSRSBARjGs4yktHQ6tX69cFlh22WEkvG/K3jqCynIGMOQJESRrd/QpPk8R8U0lOeiliD1YZYHLc4R7nkdoI37fb/PixcmWdB4WMGDqhBsmjSK/+kCw+Gq/iiqM4HtpJzXJcE9mTVQ63e5u91c/2D/YP7b8=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201204.395724,
+                    "expires_date": "2025-03-28T22:33:24.395724+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "FDF3ACCF688348AACCA9EBCD99508E3B~YAAQxRdlX81d3q2VAQAAiZx13hu3oxDFrVnKEN0z2IFV9WBWRw0xgLbHsEyq+hnghJ+Vg4QtiDGJm+fpSGjPmx43GtfmXTl+ekOu4lEXBsU5uip4Ud/JwW0nqn/nVzefrpzmaUrq7+fth1ts0miOiGzT4qlLnnjSl0aI3SUvBLThin++D6FzwpGRspxfXhF3s3DgBgPgGRhkFgpYlyQb73QriISnAQDF4+iYVpeSGP/g1IzRqMgwU28yOSPdByB81L2FCRyxilEi2xlXQsQln+wg7BhrvL/xcP0Mk/vbGxzHfR9oOjBtrTtAuJ6kXm6jXiulf6sAQ/STZ6sZmX7agALFP1dIUP9GuwbmT5m8QBdaMUr4Gl70iTNVg0mcypvxlC5J+UbRXBZmTNKgQyz65Btqr8PSPxME46v3hoE1oc8+qz/VyA==~3224889~4535605",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743208404.395838,
+                    "expires_date": "2025-03-29T00:33:24.395838+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "22BA92F0AD899CBE1CF143D7E9A80C6A~000000000000000000000000000000~YAAQxRdlX+Vd3q2VAQAALqJ13huHLNZU8PsjVUG4xzYXNOXgc2744i2AkmbWKCb58goLTbTCttfNobeE9oIePSyDuj+ItBLGycigrMYw5+MVk99W1I82mGFyjckj2O8gtTKFteY5y4LJITON5p5QEubjnSH1Lqz3My2MH/NT6HeJJf0Aj0vLUIHmpISenwr1dZd5gfG3BCwur7ix8SnJWpZcITLUVVkK/hXDsBKMvTBbYPktm+gzmLu+pmZVgKUxRskkCNKKzqtxdXpgjxlVUdHor8mTMNYVo1CFfTUh5jZ0GlKREu2/qgbonTY5FCWPobBNibs4emZ7iWeGK4gkGnL77/1MNl9WR4jyBzXuYAgrswkWfobdxRS0LQsI/k/tAj4gsfAsr9eRxezFvCDaQ9Ei2Z5d6r6eyEuIpaIjbVp2mMxaIlbrxiq8pYWtTH9fQnMVa1+tuZS87zozaQVbyc7UqjH4gn54QdTGxIcxg4+DK0UECBrSEONEKyYDWMGoQ125Fv0fGRav8GStGdgazHPXTq+tvQL6MfomfRnUCQQp71DLOu/QsSfxwwQSM/DzFfhhmmksfX/cFVWleNYMjD6/pjxk5lmM5Z2oecJa5vA=",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201203.839513,
+                    "expires_date": "2025-03-28T22:33:23.839513+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A33%3A26+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202302.1.0&isIABGlobal=false&hosts=&consentId=a1783378-bc44-4db6-bbbd-8a854056874f&interactionCount=0&landingPath=https%3A%2F%2Fwww.bershka.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774730006,
+                    "expires_date": "2026-03-28T20:33:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2D1FC2013291D8DF1BF03E7906653426~-1~YAAQxRdlX/Jd3q2VAQAAWqR13g0jbLJw9D89AIiCEjltpaHK2QPj+2+n4M6vh1XJJIVR8uTeZX8qUjUPAfhhZzOtht3oIvBo0GRsmhRUn+T+DOZHEiAJQpcHaYLPqAA/mHhDYEySEAvdLWxeoloO3xjHcCAuN4UBhShPU6uOJMPC7Mh6Wx2jHvmgoiYt/y0oabXL5W3B6308QZMfITtrHmED8Zix+qsxXYz9CHPOPkxfzNmIT1ya7lw9bS464wSCX3zZKDTntxMLdaCmmgAdURZ5w7Jqkdp8kJM8kVIWSUDMSfm+enVIkOPJqLbJwlm43XF49Vb9EkyaBcNx5YJLtLat/uJ0PEyRB3aUV6AMDHvazEy33bxIzmzm6826yDRqcDXQcjPnxuI8auJlxf4Wk/1XABTc6stuHlhc6HHVwAcIrIIAWJJ6XRI1BVwLyvhK7e060tnpif8/nI9XqHGES4waI4jjyTDGBYaN+MkMaOzODFR7Xts12RiLjTobaRJJXsvPk+Q+xybE92RK1gJO~-1~||0||~1743197605",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774730006.39581,
+                    "expires_date": "2026-03-28T20:33:26.395810+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "5715D6EF771270D032664FFA47E4D2FB~YAAQxRdlX1Fe3q2VAQAAN6d13hv9P0W8JwLf9WaNEjTp20u7HM+Q8FuCRK6SajbWKuypKFQcnzpFJlVMS/Jd/KNcpH7preFOc3Lk7+/szHK8aGglatLfSzX4p3wFE4Lwa/Yh3kOpJSFWPbUK36cvi1nxGgcyujY95VqY0KD5rbtPzMcqC1ZnNQdqktOAdxp5bQLn42Z3uox2diwCKGHwRheShPvOviYEVYz0PKngYloQKKpXyy62ZvXD4FsO7GEjRw==~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201204.135178,
+                    "expires_date": "2025-03-28T22:33:24.135178+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "ITXSESSIONID",
+                    "value": "603a7cd7da5aa42cb49f7057784b1211",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195835.558224,
+                    "expires_date": "2025-03-28T21:03:55.558224+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BSKSESSION",
+                    "value": "5afc0db2150c7bf33cb417636652a061",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195835.558479,
+                    "expires_date": "2025-03-28T21:03:55.558479+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_mi",
+                    "value": "7113DF2F1520CEA1BFEED01E9AAED8DA~YAAQxRdlX8td3q2VAQAAiZx13htHh+ewWBx+dsYUbcMU1RQ3XPzH5TmSHKzvOLWIOYisRaTrqu9g7HD5bFUp9YRrBaFQz7NL1j0UYUjzsiTI7ZSlQQU4zFmON/bOySvkXybUCi9JFR0FiNTOj+oIUxzQrNOuRZqa+QcwEBSRSBARjGs4yktHQ6tX69cFlh22WEkvG/K3jqCynIGMOQJESRrd/QpPk8R8U0lOeiliD1YZYHLc4R7nkdoI37fb/PixcmWdB4WMGDqhBsmjSK/+kCw+Gq/iiqM4HtpJzXJcE9mTVQ63e5u91c/2D/YP7b8=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201204.395724,
+                    "expires_date": "2025-03-28T22:33:24.395724+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "FDF3ACCF688348AACCA9EBCD99508E3B~YAAQxRdlX81d3q2VAQAAiZx13hu3oxDFrVnKEN0z2IFV9WBWRw0xgLbHsEyq+hnghJ+Vg4QtiDGJm+fpSGjPmx43GtfmXTl+ekOu4lEXBsU5uip4Ud/JwW0nqn/nVzefrpzmaUrq7+fth1ts0miOiGzT4qlLnnjSl0aI3SUvBLThin++D6FzwpGRspxfXhF3s3DgBgPgGRhkFgpYlyQb73QriISnAQDF4+iYVpeSGP/g1IzRqMgwU28yOSPdByB81L2FCRyxilEi2xlXQsQln+wg7BhrvL/xcP0Mk/vbGxzHfR9oOjBtrTtAuJ6kXm6jXiulf6sAQ/STZ6sZmX7agALFP1dIUP9GuwbmT5m8QBdaMUr4Gl70iTNVg0mcypvxlC5J+UbRXBZmTNKgQyz65Btqr8PSPxME46v3hoE1oc8+qz/VyA==~3224889~4535605",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743208404.395838,
+                    "expires_date": "2025-03-29T00:33:24.395838+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "22BA92F0AD899CBE1CF143D7E9A80C6A~000000000000000000000000000000~YAAQxRdlX+Vd3q2VAQAALqJ13huHLNZU8PsjVUG4xzYXNOXgc2744i2AkmbWKCb58goLTbTCttfNobeE9oIePSyDuj+ItBLGycigrMYw5+MVk99W1I82mGFyjckj2O8gtTKFteY5y4LJITON5p5QEubjnSH1Lqz3My2MH/NT6HeJJf0Aj0vLUIHmpISenwr1dZd5gfG3BCwur7ix8SnJWpZcITLUVVkK/hXDsBKMvTBbYPktm+gzmLu+pmZVgKUxRskkCNKKzqtxdXpgjxlVUdHor8mTMNYVo1CFfTUh5jZ0GlKREu2/qgbonTY5FCWPobBNibs4emZ7iWeGK4gkGnL77/1MNl9WR4jyBzXuYAgrswkWfobdxRS0LQsI/k/tAj4gsfAsr9eRxezFvCDaQ9Ei2Z5d6r6eyEuIpaIjbVp2mMxaIlbrxiq8pYWtTH9fQnMVa1+tuZS87zozaQVbyc7UqjH4gn54QdTGxIcxg4+DK0UECBrSEONEKyYDWMGoQ125Fv0fGRav8GStGdgazHPXTq+tvQL6MfomfRnUCQQp71DLOu/QsSfxwwQSM/DzFfhhmmksfX/cFVWleNYMjD6/pjxk5lmM5Z2oecJa5vA=",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201203.839513,
+                    "expires_date": "2025-03-28T22:33:23.839513+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "5715D6EF771270D032664FFA47E4D2FB~YAAQxRdlX1Fe3q2VAQAAN6d13hv9P0W8JwLf9WaNEjTp20u7HM+Q8FuCRK6SajbWKuypKFQcnzpFJlVMS/Jd/KNcpH7preFOc3Lk7+/szHK8aGglatLfSzX4p3wFE4Lwa/Yh3kOpJSFWPbUK36cvi1nxGgcyujY95VqY0KD5rbtPzMcqC1ZnNQdqktOAdxp5bQLn42Z3uox2diwCKGHwRheShPvOviYEVYz0PKngYloQKKpXyy62ZvXD4FsO7GEjRw==~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201204.135178,
+                    "expires_date": "2025-03-28T22:33:24.135178+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T20:33:55.423Z",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774730035,
+                    "expires_date": "2026-03-28T20:33:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A33%3A55+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202302.1.0&isIABGlobal=false&hosts=&consentId=a1783378-bc44-4db6-bbbd-8a854056874f&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774730035,
+                    "expires_date": "2026-03-28T20:33:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2D1FC2013291D8DF1BF03E7906653426~-1~YAAQxRdlX5Ri3q2VAQAARRZ23g0Gy289YfOmzB5ZVn5xlWCWtDCfw8v8y7gGkd18g0sFxKM7Kc4rYzM0Zv7Am5dM8gO0AWJ+J7iTscB3retuas5n0IzFtTpTTe+MIiyLe8k1KwQfdAwI8o0oaoR4tO6eF08Qh89S4FNGXwrD4sc+fsfAsEppEIgJMBBpng0adL8EukfNOLossLKxLIUv1hogmt2BnCX+TZkzg8JftPmTekSF62duuok34psqYCXTUSS07LYxLFyrcdKkaMEUhoYv02WFN4lqiBNXDNs6JZZAkh7TmcOym6GAjNR0a8uaaYAhkoYVYOnXAG9ZFsycQdKLTvA5EWSk83+U62Ud/8i5wfy/GwoNTpkWwPB9msBHlOIHMrsGs6X8FiCMpuNM1uUTFuyXn4w7Qx/nP468hpm9GeoUqGjixrH/XnzTRtHVSTV5U3sNINPhWrVEhhNqsYg80IHx6fyxsWcj75FvzsgrXyX/yG5oh2zL9POiTzh9kxD95j2/di3ELtlC3vOS~-1~||0||~1743197605",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774730035.558557,
+                    "expires_date": "2026-03-28T20:33:55.558557+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ITXSESSIONID",
+                    "value": "603a7cd7da5aa42cb49f7057784b1211",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195865.947098,
+                    "expires_date": "2025-03-28T21:04:25.947098+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BSKSESSION",
+                    "value": "5afc0db2150c7bf33cb417636652a061",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195865.947155,
+                    "expires_date": "2025-03-28T21:04:25.947155+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_mi",
+                    "value": "7113DF2F1520CEA1BFEED01E9AAED8DA~YAAQxRdlX8td3q2VAQAAiZx13htHh+ewWBx+dsYUbcMU1RQ3XPzH5TmSHKzvOLWIOYisRaTrqu9g7HD5bFUp9YRrBaFQz7NL1j0UYUjzsiTI7ZSlQQU4zFmON/bOySvkXybUCi9JFR0FiNTOj+oIUxzQrNOuRZqa+QcwEBSRSBARjGs4yktHQ6tX69cFlh22WEkvG/K3jqCynIGMOQJESRrd/QpPk8R8U0lOeiliD1YZYHLc4R7nkdoI37fb/PixcmWdB4WMGDqhBsmjSK/+kCw+Gq/iiqM4HtpJzXJcE9mTVQ63e5u91c/2D/YP7b8=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201204.395724,
+                    "expires_date": "2025-03-28T22:33:24.395724+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ak_bmsc",
+                    "value": "22BA92F0AD899CBE1CF143D7E9A80C6A~000000000000000000000000000000~YAAQxRdlX+Vd3q2VAQAALqJ13huHLNZU8PsjVUG4xzYXNOXgc2744i2AkmbWKCb58goLTbTCttfNobeE9oIePSyDuj+ItBLGycigrMYw5+MVk99W1I82mGFyjckj2O8gtTKFteY5y4LJITON5p5QEubjnSH1Lqz3My2MH/NT6HeJJf0Aj0vLUIHmpISenwr1dZd5gfG3BCwur7ix8SnJWpZcITLUVVkK/hXDsBKMvTBbYPktm+gzmLu+pmZVgKUxRskkCNKKzqtxdXpgjxlVUdHor8mTMNYVo1CFfTUh5jZ0GlKREu2/qgbonTY5FCWPobBNibs4emZ7iWeGK4gkGnL77/1MNl9WR4jyBzXuYAgrswkWfobdxRS0LQsI/k/tAj4gsfAsr9eRxezFvCDaQ9Ei2Z5d6r6eyEuIpaIjbVp2mMxaIlbrxiq8pYWtTH9fQnMVa1+tuZS87zozaQVbyc7UqjH4gn54QdTGxIcxg4+DK0UECBrSEONEKyYDWMGoQ125Fv0fGRav8GStGdgazHPXTq+tvQL6MfomfRnUCQQp71DLOu/QsSfxwwQSM/DzFfhhmmksfX/cFVWleNYMjD6/pjxk5lmM5Z2oecJa5vA=",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201203.839513,
+                    "expires_date": "2025-03-28T22:33:23.839513+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T20:33:55.423Z",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774730035,
+                    "expires_date": "2026-03-28T20:33:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDROSTA",
+                    "value": "559a7edc6a94:20f8eb1951f4216a04ac88487",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743195860.146821,
+                    "expires_date": "2025-03-28T21:04:20.146821+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "UAITXID",
+                    "value": "15a167ace2a21a20bded873cb9f2de66f3e903cb2a4280accae8489bab63a03b",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774730060.146872,
+                    "expires_date": "2026-03-28T20:34:20.146872+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "bm_sz",
+                    "value": "FDF3ACCF688348AACCA9EBCD99508E3B~YAAQxRdlXxFl3q2VAQAA2GN23htfWnY60BJZ/zFvYXbeRhTDVGTYWBpTSOyB/5VIHLm3Yi+YFHTndgnYw5emGcqQpHwoIumG7L5JyH8Rmm7qn+pqofRAGMm+SIGBaBRwQQZ9ehmbY9ne2SG8fLH4uOATTXJkrMI1ormRWOJ7u2roA4ZEAh64Ns1TDgT3D76S9RVNeBz1d+GfblN+JFbzIfWLT7zb17uJ7zE9ZtQ0nQU5Wd+wCiu2zpyjG1GowKQvr1xmvIuVShVIKwVURc8irIncTpni/79J07ICrqib9IReqI/2yKPKHJmYk1pn8uv97qPdkU7T49BGyjFD+3rE8PnpbuzaZYwE/KvXNwGMuKWADXMfyihgn+dki8Z9dEx0B+sdkGK9zaGFvUgrOK6IXvuL/PiJAq9o8d8r54skimeT84ufR8g3pABk3ga4+2M8RS5s+MQr~3224889~4535605",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743208404.41743,
+                    "expires_date": "2025-03-29T00:33:24.417430+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+21%3A34%3A18+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202302.1.0&isIABGlobal=false&hosts=&consentId=a1783378-bc44-4db6-bbbd-8a854056874f&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": 1774730058,
+                    "expires_date": "2026-03-28T20:34:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_abck",
+                    "value": "2D1FC2013291D8DF1BF03E7906653426~-1~YAAQxRdlX4Rl3q2VAQAAOnR23g2LahAnhb3Oylbylj8EoeqeX8yczTA0OySL1D/2gpgGT2dqKKfaa3m0kMH047ZmJFAXhAP85Z7lhfWY+uPe1Z5FTipczR5mIFM+ZBYNO2A4uu9fWy4IDvzfdC3uE3mbYTkG5WjpX+BjXGSqAw4ldt2aA/0UAUbITSR2K+D7pxHVeaf1U4YaZllRCH41aRgNY00WQU2T4mfB6US9Ssm1vKyEueMCIQt55FPYif/oP/Hrfm80HHrdkZ/03Zc6SyzxzrkHHAaUxpEYzwFjmlPiVjoM8FNVx1DogYROalolEwDnfkxr3xBQeBjQ+vDKlEUIhZEX/R1Zsr/KCLH98b7PV7rhOqjByGhc11olf5yjkIe2bU4sSyCL/IgYYV8BXCYNY8swpldyGqhJRvmyXqyh6URojVLoF+L32MzIBALHm50pmifecfvwC4vPP5Ime+1C2RfqKjz5UYzwwJAQH00MhZ82EzaZt/cR2MOMa4jAOsR9V591guXSsjMbebZs~-1~||0||~1743197605",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1774730059.612525,
+                    "expires_date": "2026-03-28T20:34:19.612525+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS01a8c9e3",
+                    "value": "01aee7bf319195f499ae8b99ec25f42e7490bf21433bdf8002155e437dfa2664dc5b4cb79a427b09cb659c5b48f600ce014b8e88c2",
+                    "domain": ".www.bershka.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bm_sv",
+                    "value": "5715D6EF771270D032664FFA47E4D2FB~YAAQxRdlXyVm3q2VAQAA+4x23hv1dEdeEn6ODBciPEj8aZZDLg46LRF9Lav52zuHyOiVW0GNgzotWUOscX+NIxUh38oVOD+ScRTBYuvpCUNpHNNAlQtPj3Yw0oKma2vc7G+5zRnhAzqjkTJHdcD2xzWxsPDpST802khs6qxo3EfJJMe1SR9O16zcpp3FgUQ2wznUZKrrctGwcIkRXFOiqtfMzCr5ooBoSI9t5VZI6Fy2GyW0vNkuC3JUJLwuPkUPT2E=~1",
+                    "domain": ".bershka.com",
+                    "path": "/",
+                    "expires": 1743201203.947193,
+                    "expires_date": "2025-03-28T22:33:23.947193+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotke prve stranke in tretjih oseb uporabljamo za razumevanje uporabe naše spletne trgovine in za njeno izboljšanje, prilagajanje vsebine vašim željam ter prilagajanje naših oglasov, trženja in objav v družabnih omrežjih. Vse lahko sprejmete, zavrnete ali izberete svojo konfiguracijo s klikom na ustrezne gumbe. Upoštevajte, da lahko zavrnitev piškotkov vpliva na vašo nakupovalno izkušnjo. Za več informacij si oglejte našoPolitiko o piškotkih.Zavrnite neobvezne piškotke Sprejmi vse piškoteNastavitve piškotkov",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškote]\nGenericLabel2: [Zavrnite neobvezne piškotke]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button \"Sprejmi vse piškote\" is categorized under accepting all cookies, while \"Zavrnite neobvezne piškotke\" is for declining non-essential cookies. The \"Nastavitve piškotkov\" button pertains to managing cookie settings. There are no ambiguous accept or decline buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškote",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrnite neobvezne piškotke",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi vse piškote\" is categorized under accepting all cookies, while \"Zavrnite neobvezne piškotke\" is for declining non-essential cookies. The \"Nastavitve piškotkov\" button pertains to managing cookie settings. There are no ambiguous accept or decline buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrnite neobvezne piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T21:33:24.108870",
+        "timestamp_stop": "2025-03-28T21:34:26.276324"
+    }
+}

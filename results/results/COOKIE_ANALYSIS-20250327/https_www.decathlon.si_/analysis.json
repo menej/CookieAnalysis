@@ -1,0 +1,2287 @@
+{
+    "web_page": "https://www.decathlon.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T19:08:45.837300",
+    "timestamp_stop": "2025-03-28T19:12:29.283462",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.decathlon.si/",
+            "https://www.decathlon.si/7225-svetilke",
+            "https://www.decathlon.si/4778-moske-vodoodporne-jakne",
+            "https://www.decathlon.si/content/178-decathlon-aplikacija"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "__cf_bm",
+                    "value": "QXC98vuzPrKTN8NQ5iR_Jpa1D1ASzxm.jOB66j8CqXA-1743185327-1.0.1.1-i973CVIkHwa7hokEEdPmk.4SHFYuTVTNB4BGoeDyjYRkfaekECQvnqQzIIShZPQoI3Ihp4mPGWWHFgMVS0NU78H.qenS4PP5Hmva5joU2ik",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1743187127.351166,
+                    "expires_date": "2025-03-28T18:38:47.351166+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "Kr_2v0.oLeQxzUORNGWMUdIuikP_S8ub9BuJsKud3Uc-1743185327467-0.0.1.1-604800000",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRmMTMtNjU4My02YmMwLTkzMTQtOWQ5YmM1YjExNDlkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDg6NDcuNzA0WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA4OjQ3LjcwNVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804127,
+                    "expires_date": "2026-03-29T17:08:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AUTH_STATE",
+                    "value": "eyJzdGF0ZSI6ImxvZ291dCIsImFwcCI6Im9uZXNob3AifQ%3D%3D",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744394928.357882,
+                    "expires_date": "2025-04-11T18:08:48.357882+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "X-ETag",
+                    "value": "noxetag",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913328.257864,
+                    "expires_date": "2025-04-17T18:08:48.257864+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__Host-PHPSESSID",
+                    "value": "UM6BMiJCbit8vWVXIT1WOYHskS4jOrjtwQ3dJYYM%2CZQCBgV2",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1777745328.357809,
+                    "expires_date": "2026-05-02T18:08:48.357809+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PrestaShop-c3c49a9e9f736ed231db83046db92f3a",
+                    "value": "def50200c8c66d9b42b495ec31a0d27b8027e2c85a9d89c73f281454aff0708db5f6bff2070b8be3334751f9f43277410ef2355da998845c3f7308eb107bd4de76c8d9c7e58b723ce26119af15151524400477f9ecc81166cdc75a611c19ae412992056f388d41cd61adab785dc4c7935f20057d31b0ca42be7278116e055ffa77976a7e62350e8d79f9a6006e147a0c0a627363578f791871f0d193f4c9e5f18649cc74fe8a316b639b1ee1b81e328791cd4ceea12ce537d4f8d6536821de1cc5e733c4d7e8619455881f0f65711a92c62532d8a12371efcdf5d830d8440e3cf5425edc552a821fd221dc1f2ff8b05d72305579be81032acf0f16343b9595e0d72aeda236ea550eb2bcc275cf8001eb2d5d33dbf603a7fc535a125a4b03ebd9f2b4d880555d6f18976d5e827fbee4fd9820a34543494d5f268b554263c41f2c67294c5c6828c821b4af6443039f9a067e0c527e",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913328.357904,
+                    "expires_date": "2025-04-17T18:08:48.357904+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cart_token",
+                    "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5N2NjODBhOC1kODdiLTRjYjMtOTMzMC05NDFmMDM2YzEwNzAiLCJleHAiOjE3NDQ5OTk3MjksImlzcyI6Ik9DIiwiaWF0IjoxNzQzMTg1MzI5fQ.TdUwWlo-t1CC9G6PABnSHQZesBvoyOdL0TZAhsP2b00CHPywqtl2OxBc9LKeP3K3jH-oYos9Kzjn3VQo93ZPAQ",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744999719,
+                    "expires_date": "2025-04-18T18:08:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "__cf_bm",
+                    "value": "QXC98vuzPrKTN8NQ5iR_Jpa1D1ASzxm.jOB66j8CqXA-1743185327-1.0.1.1-i973CVIkHwa7hokEEdPmk.4SHFYuTVTNB4BGoeDyjYRkfaekECQvnqQzIIShZPQoI3Ihp4mPGWWHFgMVS0NU78H.qenS4PP5Hmva5joU2ik",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1743187127.351166,
+                    "expires_date": "2025-03-28T18:38:47.351166+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "Kr_2v0.oLeQxzUORNGWMUdIuikP_S8ub9BuJsKud3Uc-1743185327467-0.0.1.1-604800000",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRmMTMtNjU4My02YmMwLTkzMTQtOWQ5YmM1YjExNDlkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDg6NDcuNzA0WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA4OjQ3LjcwNVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804127,
+                    "expires_date": "2026-03-29T17:08:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AUTH_STATE",
+                    "value": "eyJzdGF0ZSI6ImxvZ291dCIsImFwcCI6Im9uZXNob3AifQ%3D%3D",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744394955.837131,
+                    "expires_date": "2025-04-11T18:09:15.837131+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "X-ETag",
+                    "value": "noxetag",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913328.257864,
+                    "expires_date": "2025-04-17T18:08:48.257864+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__Host-PHPSESSID",
+                    "value": "UM6BMiJCbit8vWVXIT1WOYHskS4jOrjtwQ3dJYYM%2CZQCBgV2",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1777745328.357809,
+                    "expires_date": "2026-05-02T18:08:48.357809+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cart_token",
+                    "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5N2NjODBhOC1kODdiLTRjYjMtOTMzMC05NDFmMDM2YzEwNzAiLCJleHAiOjE3NDQ5OTk3MjksImlzcyI6Ik9DIiwiaWF0IjoxNzQzMTg1MzI5fQ.TdUwWlo-t1CC9G6PABnSHQZesBvoyOdL0TZAhsP2b00CHPywqtl2OxBc9LKeP3K3jH-oYos9Kzjn3VQo93ZPAQ",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744999719,
+                    "expires_date": "2025-04-18T18:08:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PrestaShop-c3c49a9e9f736ed231db83046db92f3a",
+                    "value": "def5020037a1240219bfaf5161ab100f856d2b49ea1de55e9820b6c114e5eed7bd7c32905a1684e625d0ab74ef0a0f8565e3de582746d844487f3597dcdfe566817b2b44fa3e17c2e913e63cd64eb179815f189ec0fb3b9afa9bbd1c8b116087bcf2743e4bf1c750e59944bb415bb9e810b36c3b82b00404fa9461d4ac4eb7f154b9cf62a00cdbe05be7cccf453a70fc33d8b68d558d6fb7f1fe4be8769d5b6b3e1cea30ed55156b6b6de2e215394cf093d5c83a7fdc600856da17476778f2d4f540a8f0e1db32a6d96b658af7494100c1358902a1dd71df988ea4030852187f455ab37d050f745f6a6ebaa9ad7c37ebadc51019405ceb9c4e40bf9451521c29eaddfb1c88fac302576287e4d8dc1456b7ee8a7bf7e8a01444094431d8999ba8e8eae4c70563394b2dd81d5993d518e69d1487b83d35f0994217dbca24ee301be7dabded2bb38d171231c03b18d1eb663070c5c384cb0728e8a0ece61b9c20baf4fa9a",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913335.903946,
+                    "expires_date": "2025-04-17T18:08:55.903946+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T19:08:47.145015",
+        "timestamp_stop": "2025-03-28T19:09:23.800278"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi in zapri)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.decathlon.si/",
+            "https://www.decathlon.si/7225-svetilke",
+            "https://www.decathlon.si/4778-moske-vodoodporne-jakne",
+            "https://www.decathlon.si/content/178-decathlon-aplikacija"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "__cf_bm",
+                    "value": "iHEYF7spLfB1bnoDs8xHwxeDrfmIMU.Aa1ze7P3.sNw-1743185365-1.0.1.1-wPvTt09zzFhbtyKSTdG46O50rL5qiBUFBg3.EexaqbrqLj7huamurjjiIBftEAvSmz2wMV4eyVpxntdrO2LnyLTbNJbw3j.Ue7qjA3eQ2Xo",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1743187165.618658,
+                    "expires_date": "2025-03-28T18:39:25.618658+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "1vH6VtuuBUjEMXPQ.xvGJsnJ2R4ad_pk8jettuExwGU-1743185365695-0.0.1.1-604800000",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRmMWMtY2FlMy02MzA5LWE2NDctODQ2ZDQzZDg4N2Q4IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDk6MjYuMTkxWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA5OjI2LjE5MVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804166,
+                    "expires_date": "2026-03-29T17:09:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AUTH_STATE",
+                    "value": "eyJzdGF0ZSI6ImxvZ291dCIsImFwcCI6Im9uZXNob3AifQ%3D%3D",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744394966.576349,
+                    "expires_date": "2025-04-11T18:09:26.576349+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "X-ETag",
+                    "value": "noxetag",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913366.474669,
+                    "expires_date": "2025-04-17T18:09:26.474669+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__Host-PHPSESSID",
+                    "value": "Ks07W-o9i7%2CUDC9eiJEGgmV7kViuxElK7gr5E81rhj0i6dT%2C",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1777745366.576271,
+                    "expires_date": "2026-05-02T18:09:26.576271+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PrestaShop-c3c49a9e9f736ed231db83046db92f3a",
+                    "value": "def5020061f2ee1a7dd9d347902539d5934490ff4c3e7cf2baa68d626d624faba55933f4d5820b417f70671eeb6211b25aed97a52f806704ae046170fdcab8b58e90d7d787ade99896be5bb280be1ff2b0953884b305d2dda93339dababc6a181d8be6c7c2359b8592abf59b59a947262ced61c05adf689f7f96d9c1c0d36da711816e8e23d68a7ab40b8ee3a5283500a8f01678a0242aa27d70731200001c2ad930c559d753c07cce109a6be4eb78b9e2d8059de2cca6cf9c13f5066b5f64816ee78ef5cb0d50cee1250ebe14f17986fe09f39bbcbbb3fd719f50f7025a8bf165e1015994cfce7bd405f2465818b31f63a6c2ced40a8bdd585b4df4ca38685f2f6556c977a6d40c3bd93033f4f3e1e1f7d940f14c9da20202cb8d9ee574746edc95caa1d86cb1ff48b542eec3593252182ddaf556f20f9469803787dc0dc18521caba6f47fb2ddcc017c1898dc85959f9a35a14",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913366.576379,
+                    "expires_date": "2025-04-17T18:09:26.576379+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cart_token",
+                    "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiZjZkODcwNC1iZmVjLTQyYWYtODU4Zi0yZDczYzEwZWIxZTAiLCJleHAiOjE3NDQ5OTk3NjcsImlzcyI6Ik9DIiwiaWF0IjoxNzQzMTg1MzY3fQ.yX9mU0-DZ9WmEbc4PGJLxSHaJ11VvzbECS7GDEejw4TjZ7kuwTi2oQp68Pc23AqVV1MFIIuoNrcrMw58IROvIQ",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744999757,
+                    "expires_date": "2025-04-18T18:09:17+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "cee",
+                    "value": "7R8XCWRd7H43Vv21rezYDWH5P5NCdzDPSRA6dcKunfM%3D.%7B%7D",
+                    "domain": ".capig.stape.org",
+                    "path": "/events/88b982e637f09b04b72916a4b8472995bb9ad1aa4f3ce05845b5c61cbed8a1c8",
+                    "expires": 1750961392.640911,
+                    "expires_date": "2025-06-26T18:09:52.640911+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "iHEYF7spLfB1bnoDs8xHwxeDrfmIMU.Aa1ze7P3.sNw-1743185365-1.0.1.1-wPvTt09zzFhbtyKSTdG46O50rL5qiBUFBg3.EexaqbrqLj7huamurjjiIBftEAvSmz2wMV4eyVpxntdrO2LnyLTbNJbw3j.Ue7qjA3eQ2Xo",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1743187165.618658,
+                    "expires_date": "2025-03-28T18:39:25.618658+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "1vH6VtuuBUjEMXPQ.xvGJsnJ2R4ad_pk8jettuExwGU-1743185365695-0.0.1.1-604800000",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AUTH_STATE",
+                    "value": "eyJzdGF0ZSI6ImxvZ291dCIsImFwcCI6Im9uZXNob3AifQ%3D%3D",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744394966.576349,
+                    "expires_date": "2025-04-11T18:09:26.576349+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "X-ETag",
+                    "value": "noxetag",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913366.474669,
+                    "expires_date": "2025-04-17T18:09:26.474669+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__Host-PHPSESSID",
+                    "value": "Ks07W-o9i7%2CUDC9eiJEGgmV7kViuxElK7gr5E81rhj0i6dT%2C",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1777745366.576271,
+                    "expires_date": "2026-05-02T18:09:26.576271+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PrestaShop-c3c49a9e9f736ed231db83046db92f3a",
+                    "value": "def5020061f2ee1a7dd9d347902539d5934490ff4c3e7cf2baa68d626d624faba55933f4d5820b417f70671eeb6211b25aed97a52f806704ae046170fdcab8b58e90d7d787ade99896be5bb280be1ff2b0953884b305d2dda93339dababc6a181d8be6c7c2359b8592abf59b59a947262ced61c05adf689f7f96d9c1c0d36da711816e8e23d68a7ab40b8ee3a5283500a8f01678a0242aa27d70731200001c2ad930c559d753c07cce109a6be4eb78b9e2d8059de2cca6cf9c13f5066b5f64816ee78ef5cb0d50cee1250ebe14f17986fe09f39bbcbbb3fd719f50f7025a8bf165e1015994cfce7bd405f2465818b31f63a6c2ced40a8bdd585b4df4ca38685f2f6556c977a6d40c3bd93033f4f3e1e1f7d940f14c9da20202cb8d9ee574746edc95caa1d86cb1ff48b542eec3593252182ddaf556f20f9469803787dc0dc18521caba6f47fb2ddcc017c1898dc85959f9a35a14",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913366.576379,
+                    "expires_date": "2025-04-17T18:09:26.576379+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cart_token",
+                    "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiZjZkODcwNC1iZmVjLTQyYWYtODU4Zi0yZDczYzEwZWIxZTAiLCJleHAiOjE3NDQ5OTk3NjcsImlzcyI6Ik9DIiwiaWF0IjoxNzQzMTg1MzY3fQ.yX9mU0-DZ9WmEbc4PGJLxSHaJ11VvzbECS7GDEejw4TjZ7kuwTi2oQp68Pc23AqVV1MFIIuoNrcrMw58IROvIQ",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744999757,
+                    "expires_date": "2025-04-18T18:09:17+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRmMWMtY2FlMy02MzA5LWE2NDctODQ2ZDQzZDg4N2Q4IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDk6MjYuMTkxWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA5OjUxLjQ0OFoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiYzp5c2FuY2UtM3h3Rng5ZTciLCJjOmZhY2Vib29rYS1ReU1ETEdKUSIsImM6c3luZXJpc2UtTkFqZ2pKbXAiLCJjOmdvb2dsZWFkcy1BazMyVFBEQSIsImM6bWljcm9zb2Z0LUxlcER0RkNjIiwiYzpjb250ZW50c3EtVnhRY016cEgiLCJjOmlhZHZpemUtWk5jQmU2aDgiLCJjOnN0YXRzaWctcWJlQzI3QjgiLCJjOmFsZ29saWEta2QzNHlDeEEiLCJjOmFtcGxpdHVkZS1xNlpmSlRMYSIsImM6YW1wbGl0dWRlLXlieTc2cHBMIiwiYzphbXBsaXR1ZGUtWHo3UVBqRDkiLCJjOm1lZGFsbGlhLXdtRDhaZjloIiwiYzpkYXRhZG9nLXdjclY2SEZYIiwiYzpjb29raWVzYW4tYVk3V2VrS3IiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsibWFya2V0aW5nLU1SWlZwcmVhIiwicGVyc29uYWxpcy10ZjhwWlRWSCIsImFuYWx5dGljcy1HTWdCV0dUaCJdfSwidmVyc2lvbiI6Mn0=",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804191,
+                    "expires_date": "2026-03-29T17:09:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804191,
+                    "expires_date": "2026-03-29T17:09:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.180517927.1743185392",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1750961391,
+                    "expires_date": "2025-06-26T18:09:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "value": "6282bef9d45c45e6bc8e727d003fa23f.20250328.20260328",
+                    "domain": "www.clarity.ms",
+                    "path": "/",
+                    "expires": 1774721390.878649,
+                    "expires_date": "2026-03-28T18:09:50.878649+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_0L6PMQG54B",
+                    "value": "GS1.1.1743185392.1.0.1743185392.60.0.0",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745392.320226,
+                    "expires_date": "2026-05-02T18:09:52.320226+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.45229572.1743185392",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745392.320737,
+                    "expires_date": "2026-05-02T18:09:52.320737+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "AMP_MKTG_4238361716",
+                    "value": "JTdCJTdE",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUm3BXnrXRtd5jFfa9ZXZ38gmGAeNrZhzVI-XltOhdbkVps8UYlQIdEyDQkc",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776881392.405361,
+                    "expires_date": "2026-04-22T18:09:52.405361+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "30BC11852FE164E331C004382E33651F",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776881392.434957,
+                    "expires_date": "2026-04-22T18:09:52.434957+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1743790192.435042,
+                    "expires_date": "2025-04-04T18:09:52.435042+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SRM_B",
+                    "value": "30BC11852FE164E331C004382E33651F",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1776881392.435067,
+                    "expires_date": "2026-04-22T18:09:52.435067+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743185392503.199490409760875876",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1750961392,
+                    "expires_date": "2025-06-26T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_uetsid",
+                    "value": "d8817e800bff11f0862eb390aa7f6052",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743271792,
+                    "expires_date": "2025-03-29T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_uetvid",
+                    "value": "d88192f00bff11f0b59ced1d88be1f7e",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1776881392,
+                    "expires_date": "2026-04-22T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SM",
+                    "value": "C",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "30BC11852FE164E331C004382E33651F",
+                    "domain": ".clarity.ms",
+                    "path": "/",
+                    "expires": 1776881392.559436,
+                    "expires_date": "2026-04-22T18:09:52.559436+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743790192.5595,
+                    "expires_date": "2025-04-04T18:09:52.559500+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ANONCHK",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743185992.559529,
+                    "expires_date": "2025-03-28T18:19:52.559529+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MSPTC",
+                    "value": "L-ylufJotuZowgFjUxK-te1WSW0lBhIZ9cfYL56aMQc",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776881392.593078,
+                    "expires_date": "2026-04-22T18:09:52.593078+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__ywtfpcvuid",
+                    "value": "33046726081743185392549",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777345392.710739,
+                    "expires_date": "2026-04-28T03:03:12.710739+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__ywtfpcsuid",
+                    "value": "16118424361743185392549",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743187192,
+                    "expires_date": "2025-03-28T18:39:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_clck",
+                    "value": "9n1o1j%7C2%7Cful%7C0%7C1913",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "kampyle_userid",
+                    "value": "d353-108a-101a-ae22-7bfc-ea67-0065-753f",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "kampyleUserSession",
+                    "value": "1743185392665",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "kampyleUserSessionsCount",
+                    "value": "1",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "kampyleSessionPageCounter",
+                    "value": "1",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_snrs_sb",
+                    "value": "ssuid:3feff4d0-48b3-46e7-8da8-fcda5efb9260&leaves:1743185393",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743187192,
+                    "expires_date": "2025-03-28T18:39:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tfpsi",
+                    "value": "b9c6e67e-1661-4327-a00a-fbeaa8f278a2",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743187192.846985,
+                    "expires_date": "2025-03-28T18:39:52.846985+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__ywtfpcvuid_refresh",
+                    "value": "1743703792724",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743790192,
+                    "expires_date": "2025-04-04T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_snrs_sa",
+                    "value": "ssuid:3feff4d0-48b3-46e7-8da8-fcda5efb9260&appear:1743185392&sessionVisits:1",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743187192,
+                    "expires_date": "2025-03-28T18:39:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_snrs_uuid",
+                    "value": "6b621197-0ac9-45a7-8abf-43a7926a7f4d",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745392,
+                    "expires_date": "2026-05-02T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_snrs_puuid",
+                    "value": "6b621197-0ac9-45a7-8abf-43a7926a7f4d",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745392,
+                    "expires_date": "2026-05-02T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "AMP_4238361716",
+                    "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJkMmI0NWMyOS00OWI3LTQzNTQtOTJlMS04YjUwMTdlZTY2YzYlMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjIlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzQzMTg1MzkyMzgwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc0MzE4NTM5Mjc1MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNiUyQyUyMnBhZ2VDb3VudGVyJTIyJTNBMCU3RA==",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_snrs_p",
+                    "value": "host:www.decathlon.si&permUuid:6b621197-0ac9-45a7-8abf-43a7926a7f4d&uuid:6b621197-0ac9-45a7-8abf-43a7926a7f4d&identityHash:&user_hash:&init:1743185393&last:1743185393&current:1743185393&uniqueVisits:1&allVisits:1&globalControlGroup:false",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745393,
+                    "expires_date": "2026-05-02T18:09:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_clsk",
+                    "value": "546ldm%7C1743185393100%7C1%7C1%7Cq.clarity.ms%2Fcollect",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743271793,
+                    "expires_date": "2025-03-29T18:09:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cee",
+                    "value": "7R8XCWRd7H43Vv21rezYDWH5P5NCdzDPSRA6dcKunfM%3D.%7B%7D",
+                    "domain": ".capig.stape.org",
+                    "path": "/events/88b982e637f09b04b72916a4b8472995bb9ad1aa4f3ce05845b5c61cbed8a1c8",
+                    "expires": 1750961420.069721,
+                    "expires_date": "2025-06-26T18:10:20.069721+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "iHEYF7spLfB1bnoDs8xHwxeDrfmIMU.Aa1ze7P3.sNw-1743185365-1.0.1.1-wPvTt09zzFhbtyKSTdG46O50rL5qiBUFBg3.EexaqbrqLj7huamurjjiIBftEAvSmz2wMV4eyVpxntdrO2LnyLTbNJbw3j.Ue7qjA3eQ2Xo",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1743187165.618658,
+                    "expires_date": "2025-03-28T18:39:25.618658+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "1vH6VtuuBUjEMXPQ.xvGJsnJ2R4ad_pk8jettuExwGU-1743185365695-0.0.1.1-604800000",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AUTH_STATE",
+                    "value": "eyJzdGF0ZSI6ImxvZ291dCIsImFwcCI6Im9uZXNob3AifQ%3D%3D",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744395020.679359,
+                    "expires_date": "2025-04-11T18:10:20.679359+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "X-ETag",
+                    "value": "noxetag",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913366.474669,
+                    "expires_date": "2025-04-17T18:09:26.474669+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__Host-PHPSESSID",
+                    "value": "Ks07W-o9i7%2CUDC9eiJEGgmV7kViuxElK7gr5E81rhj0i6dT%2C",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1777745366.576271,
+                    "expires_date": "2026-05-02T18:09:26.576271+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cart_token",
+                    "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiZjZkODcwNC1iZmVjLTQyYWYtODU4Zi0yZDczYzEwZWIxZTAiLCJleHAiOjE3NDQ5OTk3NjcsImlzcyI6Ik9DIiwiaWF0IjoxNzQzMTg1MzY3fQ.yX9mU0-DZ9WmEbc4PGJLxSHaJ11VvzbECS7GDEejw4TjZ7kuwTi2oQp68Pc23AqVV1MFIIuoNrcrMw58IROvIQ",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744999757,
+                    "expires_date": "2025-04-18T18:09:17+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRmMWMtY2FlMy02MzA5LWE2NDctODQ2ZDQzZDg4N2Q4IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MDk6MjYuMTkxWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjA5OjUxLjQ0OFoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiYzp5c2FuY2UtM3h3Rng5ZTciLCJjOmZhY2Vib29rYS1ReU1ETEdKUSIsImM6c3luZXJpc2UtTkFqZ2pKbXAiLCJjOmdvb2dsZWFkcy1BazMyVFBEQSIsImM6bWljcm9zb2Z0LUxlcER0RkNjIiwiYzpjb250ZW50c3EtVnhRY016cEgiLCJjOmlhZHZpemUtWk5jQmU2aDgiLCJjOnN0YXRzaWctcWJlQzI3QjgiLCJjOmFsZ29saWEta2QzNHlDeEEiLCJjOmFtcGxpdHVkZS1xNlpmSlRMYSIsImM6YW1wbGl0dWRlLXlieTc2cHBMIiwiYzphbXBsaXR1ZGUtWHo3UVBqRDkiLCJjOm1lZGFsbGlhLXdtRDhaZjloIiwiYzpkYXRhZG9nLXdjclY2SEZYIiwiYzpjb29raWVzYW4tYVk3V2VrS3IiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsibWFya2V0aW5nLU1SWlZwcmVhIiwicGVyc29uYWxpcy10ZjhwWlRWSCIsImFuYWx5dGljcy1HTWdCV0dUaCJdfSwidmVyc2lvbiI6Mn0=",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804191,
+                    "expires_date": "2026-03-29T17:09:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804191,
+                    "expires_date": "2026-03-29T17:09:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.180517927.1743185392",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1750961392,
+                    "expires_date": "2025-06-26T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "value": "6282bef9d45c45e6bc8e727d003fa23f.20250328.20260328",
+                    "domain": "www.clarity.ms",
+                    "path": "/",
+                    "expires": 1774721390.878649,
+                    "expires_date": "2026-03-28T18:09:50.878649+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.45229572.1743185392",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745420.032491,
+                    "expires_date": "2026-05-02T18:10:20.032491+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "AMP_MKTG_4238361716",
+                    "value": "JTdCJTdE",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUm3BXnrXRtd5jFfa9ZXZ38gmGAeNrZhzVI-XltOhdbkVps8UYlQIdEyDQkc",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776881392.405361,
+                    "expires_date": "2026-04-22T18:09:52.405361+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "30BC11852FE164E331C004382E33651F",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776881392.434957,
+                    "expires_date": "2026-04-22T18:09:52.434957+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1743790192.435042,
+                    "expires_date": "2025-04-04T18:09:52.435042+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SRM_B",
+                    "value": "30BC11852FE164E331C004382E33651F",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1776881392.435067,
+                    "expires_date": "2026-04-22T18:09:52.435067+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743185392503.199490409760875876",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1750961420,
+                    "expires_date": "2025-06-26T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SM",
+                    "value": "C",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "30BC11852FE164E331C004382E33651F",
+                    "domain": ".clarity.ms",
+                    "path": "/",
+                    "expires": 1776881392.559436,
+                    "expires_date": "2026-04-22T18:09:52.559436+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743790192.5595,
+                    "expires_date": "2025-04-04T18:09:52.559500+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ANONCHK",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743185992.559529,
+                    "expires_date": "2025-03-28T18:19:52.559529+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MSPTC",
+                    "value": "L-ylufJotuZowgFjUxK-te1WSW0lBhIZ9cfYL56aMQc",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776881392.593078,
+                    "expires_date": "2026-04-22T18:09:52.593078+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__ywtfpcvuid",
+                    "value": "33046726081743185392549",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777345392.710739,
+                    "expires_date": "2026-04-28T03:03:12.710739+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__ywtfpcsuid",
+                    "value": "16118424361743185392549",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743187220,
+                    "expires_date": "2025-03-28T18:40:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_clck",
+                    "value": "9n1o1j%7C2%7Cful%7C0%7C1913",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "kampyle_userid",
+                    "value": "d353-108a-101a-ae22-7bfc-ea67-0065-753f",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1774721392,
+                    "expires_date": "2026-03-28T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "tfpsi",
+                    "value": "b9c6e67e-1661-4327-a00a-fbeaa8f278a2",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743187220.370771,
+                    "expires_date": "2025-03-28T18:40:20.370771+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__ywtfpcvuid_refresh",
+                    "value": "1743703792724",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743790192,
+                    "expires_date": "2025-04-04T18:09:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_snrs_uuid",
+                    "value": "6b621197-0ac9-45a7-8abf-43a7926a7f4d",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745420,
+                    "expires_date": "2026-05-02T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_snrs_puuid",
+                    "value": "6b621197-0ac9-45a7-8abf-43a7926a7f4d",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745420,
+                    "expires_date": "2026-05-02T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PrestaShop-c3c49a9e9f736ed231db83046db92f3a",
+                    "value": "def50200ccaec1d17869dc5f8aa82440f01cb6e3ddcf82b00df53e8ec919b0415a801bd8f0b50dec78019ff3f0989eaafbcd2a6fe7a83dd13471dd02fbb02097475d646dd114ef7aecc7739fdf8ba37ebf80370007b0c56ea20c90ca84a16f6d55409236cd6bfb86ccb72b7f2df66938da1a3d6e5ffd831cdf26dabfd8ca9cfe2faafde39ede9a7520438e550e05f48d35fab2db02f05d7f7c43f4b1cfdf7a8e6c4bf66b24f7ac46ee756748e489f504a43c026b2614513f10307dfcc6c7e56e97edd719cee99e9cbbecdb778614df4046011d5cc313cc158d4b5ff262b634f959d7fca713a155113c995147d299fbfe025aaac6724ddec6543d3b78cf124fe00a0d202fb414c4becdb1f68db56dd678f9ce9fcc90b7c037ddab9ef81bd4ce5305b9be6de182f513217ba46c5aa455a80811be6f1b817d5d8368270f19c2025b8f4e92b673a648ce2cb18b18058dbfb0f3e99203e1917d4f7261ee231400860c99a3f9",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913399.014561,
+                    "expires_date": "2025-04-17T18:09:59.014561+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_snrs_sb",
+                    "value": "ssuid:3feff4d0-48b3-46e7-8da8-fcda5efb9260&leaves:1743185420",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743187220,
+                    "expires_date": "2025-03-28T18:40:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_0L6PMQG54B",
+                    "value": "GS1.1.1743185392.1.1.1743185420.32.0.0",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745420.032118,
+                    "expires_date": "2026-05-02T18:10:20.032118+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_snrs_sa",
+                    "value": "ssuid:3feff4d0-48b3-46e7-8da8-fcda5efb9260&appear:1743185392&sessionVisits:4",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743187220,
+                    "expires_date": "2025-03-28T18:40:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_snrs_p",
+                    "value": "host:www.decathlon.si&permUuid:6b621197-0ac9-45a7-8abf-43a7926a7f4d&uuid:6b621197-0ac9-45a7-8abf-43a7926a7f4d&identityHash:&user_hash:&init:1743185393&last:1743185393&current:1743185420&uniqueVisits:1&allVisits:4&globalControlGroup:false",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1777745420,
+                    "expires_date": "2026-05-02T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_clsk",
+                    "value": "546ldm%7C1743185420359%7C4%7C1%7Cq.clarity.ms%2Fcollect",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743271820,
+                    "expires_date": "2025-03-29T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_uetsid",
+                    "value": "d8817e800bff11f0862eb390aa7f6052",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1743271820,
+                    "expires_date": "2025-03-29T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_uetvid",
+                    "value": "d88192f00bff11f0b59ced1d88be1f7e",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1776881420,
+                    "expires_date": "2026-04-22T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "kampyleUserSession",
+                    "value": "1743185420678",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1774721420,
+                    "expires_date": "2026-03-28T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "kampyleUserSessionsCount",
+                    "value": "4",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1774721420,
+                    "expires_date": "2026-03-28T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "kampyleSessionPageCounter",
+                    "value": "1",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1774721420,
+                    "expires_date": "2026-03-28T18:10:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "AMP_4238361716",
+                    "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJkMmI0NWMyOS00OWI3LTQzNTQtOTJlMS04YjUwMTdlZTY2YzYlMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjIlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzQzMTg1MzkyMzgwJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc0MzE4NTQyODQ2MiUyQyUyMmxhc3RFdmVudElkJTIyJTNBMzElMkMlMjJwYWdlQ291bnRlciUyMiUzQTAlN0Q=",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774721428,
+                    "expires_date": "2026-03-28T18:10:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Z vašim soglasjem mi in  naših 15 partnerjev uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov. Nekateri partnerji ne zahtevajo vašega soglasja za obdelavo vaših podatkov in se zanašajo na svoj zakoniti poslovni interes. Kadar koli lahko prekličete svoje soglasje ali ugovarjate obdelavi podatkov na podlagi zakonitega interesa, tako da kliknete \"Več o tem\" ali v našem pravilniku o zasebnosti na tej spletni strani.Mi in naši partnerji opravljamo naslednje obdelovanje podatkov:Analitika, Marketing, PersonalizacijaVeč →Sprejmi in zapri",
+                "banner_z_index": 2147483640,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi in zapri]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več →]  \nExplanation: \"Sprejmi in zapri\" indicates an ambiguous acceptance, while \"Več →\" can refer to settings or more options, thus fitting into GenericLabel3. There are no clear accept or decline all buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi in zapri\" indicates an ambiguous acceptance, while \"Več →\" can refer to settings or more options, thus fitting into GenericLabel3. There are no clear accept or decline all buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi in zapri",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T19:09:25.374169",
+        "timestamp_stop": "2025-03-28T19:10:28.520285"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Več →)",
+            "Clicking an element of type (button), with text (Ne strinjam se)",
+            "Clicking an element of type (button), with text (Ne strinjam se)",
+            "Clicking an element of type (button), with text (Ne strinjam se)",
+            "Clicking an element of type (span), with text (Ne strinjam se)",
+            "Clicking an element of type (span), with text (Ne strinjam se)",
+            "Clicking an element of type (span), with text (Ne strinjam se)",
+            "Clicking an element of type (button), with text (Shrani)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.decathlon.si/",
+            "https://www.decathlon.si/7225-svetilke",
+            "https://www.decathlon.si/4778-moske-vodoodporne-jakne",
+            "https://www.decathlon.si/content/178-decathlon-aplikacija"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "__cf_bm",
+                    "value": ".DimZCO_kW9NRE2xwZefxMkQWwJ3TX5H3qpLOE.DJXk-1743185430-1.0.1.1-WNP_2TdXT4I4KqmCZh5vKxsalHAWgLrUFtpjvU9EoZeOB_uwbiM4wh3.TLumPTDD_4bXV7Qhxtgviy6oIiS36_UuRjLLgawf8V9UQbX5Kc8",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1743187230.385536,
+                    "expires_date": "2025-03-28T18:40:30.385536+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "3IqB_R7LkSLVRQd7uyeUonPnmn3a6b6VcxHl6vVAy78-1743185430508-0.0.1.1-604800000",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRmMmMtOGI4NC02MDI4LWFhMzctMjQyMTNhMDM4ZTcwIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MTA6MzAuNzEyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjEwOjMwLjcxMloiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804230,
+                    "expires_date": "2026-03-29T17:10:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AUTH_STATE",
+                    "value": "eyJzdGF0ZSI6ImxvZ291dCIsImFwcCI6Im9uZXNob3AifQ%3D%3D",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744395031.682271,
+                    "expires_date": "2025-04-11T18:10:31.682271+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__Host-PHPSESSID",
+                    "value": "SxvlfHPB79th92xuSm0GEEqvUL6C9u0pToFmTMG%2CHZdKratM",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1777745431.297004,
+                    "expires_date": "2026-05-02T18:10:31.297004+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "X-ETag",
+                    "value": "noxetag",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913431.299182,
+                    "expires_date": "2025-04-17T18:10:31.299182+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PrestaShop-c3c49a9e9f736ed231db83046db92f3a",
+                    "value": "def50200dcee20655da71d211decb4d50a890a62bf424e90a9350363bf90576a3c9bd5b920b52d1e656fb5922f766d61fb888934dc9a3f22677021802d47ba018eaaeeca3c8426b0274618e003d9f6598958218f84907bb118a9c505d9720f4555be9edf6d390e599e7ab30db77a3438ca784ef95cd778a30d5a88aff454aadadacec8668ffabf88310c37c64da6183688313d047fac998634cc6b6077261aa00beef5169df1217123bf96f440ed4d204020d7e53e0c4153aa7067474fdd974faa2130ecad19aed0a552b97b35d54cde17d63d7b16b6abf9cca62cd9751ec9414053ac75fbd664700c04139e9018c27331cf6fb7fc9500f4f7e370d9e21ef9e31dcca006e55c78cab779f460cb78f0e34c0c2a77640c96cbb74fb0e5824e0c6a9ab0b948cececa95074dae85e04a6cb7063397b809269c861c3bd253c97217e3f895740aa14919e560aecdf04922bfe67c2c8be741830672483c6b827e44b06fd5a9e8",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913431.682349,
+                    "expires_date": "2025-04-17T18:10:31.682349+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cart_token",
+                    "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlMjljOTI3OS04ZWE2LTQ1NTUtYTVmMy04NzE2Mjg0MjgwOTciLCJleHAiOjE3NDQ5OTk4MzIsImlzcyI6Ik9DIiwiaWF0IjoxNzQzMTg1NDMyfQ.4ctpoTXIZ3FXZ7NGBGXe5PKcJCHkfDZhe3OwYMmEvadki71gMxyQSnWWkE7aUsRu2O13h-BHqtQhAMbm5n0xrA",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744999822,
+                    "expires_date": "2025-04-18T18:10:22+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "__cf_bm",
+                    "value": ".DimZCO_kW9NRE2xwZefxMkQWwJ3TX5H3qpLOE.DJXk-1743185430-1.0.1.1-WNP_2TdXT4I4KqmCZh5vKxsalHAWgLrUFtpjvU9EoZeOB_uwbiM4wh3.TLumPTDD_4bXV7Qhxtgviy6oIiS36_UuRjLLgawf8V9UQbX5Kc8",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1743187230.385536,
+                    "expires_date": "2025-03-28T18:40:30.385536+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "3IqB_R7LkSLVRQd7uyeUonPnmn3a6b6VcxHl6vVAy78-1743185430508-0.0.1.1-604800000",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AUTH_STATE",
+                    "value": "eyJzdGF0ZSI6ImxvZ291dCIsImFwcCI6Im9uZXNob3AifQ%3D%3D",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744395031.682271,
+                    "expires_date": "2025-04-11T18:10:31.682271+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__Host-PHPSESSID",
+                    "value": "SxvlfHPB79th92xuSm0GEEqvUL6C9u0pToFmTMG%2CHZdKratM",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1777745431.297004,
+                    "expires_date": "2026-05-02T18:10:31.297004+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "X-ETag",
+                    "value": "noxetag",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913431.299182,
+                    "expires_date": "2025-04-17T18:10:31.299182+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PrestaShop-c3c49a9e9f736ed231db83046db92f3a",
+                    "value": "def50200dcee20655da71d211decb4d50a890a62bf424e90a9350363bf90576a3c9bd5b920b52d1e656fb5922f766d61fb888934dc9a3f22677021802d47ba018eaaeeca3c8426b0274618e003d9f6598958218f84907bb118a9c505d9720f4555be9edf6d390e599e7ab30db77a3438ca784ef95cd778a30d5a88aff454aadadacec8668ffabf88310c37c64da6183688313d047fac998634cc6b6077261aa00beef5169df1217123bf96f440ed4d204020d7e53e0c4153aa7067474fdd974faa2130ecad19aed0a552b97b35d54cde17d63d7b16b6abf9cca62cd9751ec9414053ac75fbd664700c04139e9018c27331cf6fb7fc9500f4f7e370d9e21ef9e31dcca006e55c78cab779f460cb78f0e34c0c2a77640c96cbb74fb0e5824e0c6a9ab0b948cececa95074dae85e04a6cb7063397b809269c861c3bd253c97217e3f895740aa14919e560aecdf04922bfe67c2c8be741830672483c6b827e44b06fd5a9e8",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913431.682349,
+                    "expires_date": "2025-04-17T18:10:31.682349+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cart_token",
+                    "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlMjljOTI3OS04ZWE2LTQ1NTUtYTVmMy04NzE2Mjg0MjgwOTciLCJleHAiOjE3NDQ5OTk4MzIsImlzcyI6Ik9DIiwiaWF0IjoxNzQzMTg1NDMyfQ.4ctpoTXIZ3FXZ7NGBGXe5PKcJCHkfDZhe3OwYMmEvadki71gMxyQSnWWkE7aUsRu2O13h-BHqtQhAMbm5n0xrA",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744999822,
+                    "expires_date": "2025-04-18T18:10:22+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRmMmMtOGI4NC02MDI4LWFhMzctMjQyMTNhMDM4ZTcwIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MTA6MzAuNzEyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjExOjU1LjExNVoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImM6eXNhbmNlLTN4d0Z4OWU3IiwiYzpmYWNlYm9va2EtUXlNRExHSlEiLCJjOnN5bmVyaXNlLU5BamdqSm1wIiwiYzpnb29nbGVhZHMtQWszMlRQREEiLCJjOm1pY3Jvc29mdC1MZXBEdEZDYyIsImM6Y29udGVudHNxLVZ4UWNNenBIIiwiYzppYWR2aXplLVpOY0JlNmg4IiwiYzpzdGF0c2lnLXFiZUMyN0I4IiwiYzphbGdvbGlhLWtkMzR5Q3hBIiwiYzphbXBsaXR1ZGUtcTZaZkpUTGEiLCJjOmFtcGxpdHVkZS15Ynk3NnBwTCIsImM6YW1wbGl0dWRlLVh6N1FQakQ5IiwiYzptZWRhbGxpYS13bUQ4WmY5aCIsImM6ZGF0YWRvZy13Y3JWNkhGWCIsImM6Y29va2llc2FuLWFZN1dla0tyIl19LCJwdXJwb3NlcyI6eyJkaXNhYmxlZCI6WyJtYXJrZXRpbmctTVJaVnByZWEiLCJwZXJzb25hbGlzLXRmOHBaVFZIIiwiYW5hbHl0aWNzLUdNZ0JXR1RoIl19LCJ2ZXJzaW9uIjoyfQ==",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804315,
+                    "expires_date": "2026-03-29T17:11:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804315,
+                    "expires_date": "2026-03-29T17:11:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "__cf_bm",
+                    "value": ".DimZCO_kW9NRE2xwZefxMkQWwJ3TX5H3qpLOE.DJXk-1743185430-1.0.1.1-WNP_2TdXT4I4KqmCZh5vKxsalHAWgLrUFtpjvU9EoZeOB_uwbiM4wh3.TLumPTDD_4bXV7Qhxtgviy6oIiS36_UuRjLLgawf8V9UQbX5Kc8",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1743187230.385536,
+                    "expires_date": "2025-03-28T18:40:30.385536+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "3IqB_R7LkSLVRQd7uyeUonPnmn3a6b6VcxHl6vVAy78-1743185430508-0.0.1.1-604800000",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AUTH_STATE",
+                    "value": "eyJzdGF0ZSI6ImxvZ291dCIsImFwcCI6Im9uZXNob3AifQ%3D%3D",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744395141.202735,
+                    "expires_date": "2025-04-11T18:12:21.202735+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__Host-PHPSESSID",
+                    "value": "SxvlfHPB79th92xuSm0GEEqvUL6C9u0pToFmTMG%2CHZdKratM",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1777745431.297004,
+                    "expires_date": "2026-05-02T18:10:31.297004+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "X-ETag",
+                    "value": "noxetag",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913431.299182,
+                    "expires_date": "2025-04-17T18:10:31.299182+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PrestaShop-c3c49a9e9f736ed231db83046db92f3a",
+                    "value": "def50200dcee20655da71d211decb4d50a890a62bf424e90a9350363bf90576a3c9bd5b920b52d1e656fb5922f766d61fb888934dc9a3f22677021802d47ba018eaaeeca3c8426b0274618e003d9f6598958218f84907bb118a9c505d9720f4555be9edf6d390e599e7ab30db77a3438ca784ef95cd778a30d5a88aff454aadadacec8668ffabf88310c37c64da6183688313d047fac998634cc6b6077261aa00beef5169df1217123bf96f440ed4d204020d7e53e0c4153aa7067474fdd974faa2130ecad19aed0a552b97b35d54cde17d63d7b16b6abf9cca62cd9751ec9414053ac75fbd664700c04139e9018c27331cf6fb7fc9500f4f7e370d9e21ef9e31dcca006e55c78cab779f460cb78f0e34c0c2a77640c96cbb74fb0e5824e0c6a9ab0b948cececa95074dae85e04a6cb7063397b809269c861c3bd253c97217e3f895740aa14919e560aecdf04922bfe67c2c8be741830672483c6b827e44b06fd5a9e8",
+                    "domain": ".www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744913431.682349,
+                    "expires_date": "2025-04-17T18:10:31.682349+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cart_token",
+                    "value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlMjljOTI3OS04ZWE2LTQ1NTUtYTVmMy04NzE2Mjg0MjgwOTciLCJleHAiOjE3NDQ5OTk4MzIsImlzcyI6Ik9DIiwiaWF0IjoxNzQzMTg1NDMyfQ.4ctpoTXIZ3FXZ7NGBGXe5PKcJCHkfDZhe3OwYMmEvadki71gMxyQSnWWkE7aUsRu2O13h-BHqtQhAMbm5n0xrA",
+                    "domain": "www.decathlon.si",
+                    "path": "/",
+                    "expires": 1744999822,
+                    "expires_date": "2025-04-18T18:10:22+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGRmMmMtOGI4NC02MDI4LWFhMzctMjQyMTNhMDM4ZTcwIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMTg6MTA6MzAuNzEyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDE4OjExOjU1LjExNVoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImM6eXNhbmNlLTN4d0Z4OWU3IiwiYzpmYWNlYm9va2EtUXlNRExHSlEiLCJjOnN5bmVyaXNlLU5BamdqSm1wIiwiYzpnb29nbGVhZHMtQWszMlRQREEiLCJjOm1pY3Jvc29mdC1MZXBEdEZDYyIsImM6Y29udGVudHNxLVZ4UWNNenBIIiwiYzppYWR2aXplLVpOY0JlNmg4IiwiYzpzdGF0c2lnLXFiZUMyN0I4IiwiYzphbGdvbGlhLWtkMzR5Q3hBIiwiYzphbXBsaXR1ZGUtcTZaZkpUTGEiLCJjOmFtcGxpdHVkZS15Ynk3NnBwTCIsImM6YW1wbGl0dWRlLVh6N1FQakQ5IiwiYzptZWRhbGxpYS13bUQ4WmY5aCIsImM6ZGF0YWRvZy13Y3JWNkhGWCIsImM6Y29va2llc2FuLWFZN1dla0tyIl19LCJwdXJwb3NlcyI6eyJkaXNhYmxlZCI6WyJtYXJrZXRpbmctTVJaVnByZWEiLCJwZXJzb25hbGlzLXRmOHBaVFZIIiwiYW5hbHl0aWNzLUdNZ0JXR1RoIl19LCJ2ZXJzaW9uIjoyfQ==",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804315,
+                    "expires_date": "2026-03-29T17:11:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA",
+                    "domain": ".decathlon.si",
+                    "path": "/",
+                    "expires": 1774804315,
+                    "expires_date": "2026-03-29T17:11:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_click_2.png",
+            "011_decline_interaction_1_click_3.png",
+            "012_decline_interaction_1_click_4.png",
+            "013_decline_interaction_1_click_5.png",
+            "014_decline_interaction_1_click_6.png",
+            "015_decline_interaction_1_FAIL.png",
+            "016_decline_interaction_save_1_click_1.png",
+            "017_decline_interaction_save_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_SAVE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Z vašim soglasjem mi in  naših 15 partnerjev uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov. Nekateri partnerji ne zahtevajo vašega soglasja za obdelavo vaših podatkov in se zanašajo na svoj zakoniti poslovni interes. Kadar koli lahko prekličete svoje soglasje ali ugovarjate obdelavi podatkov na podlagi zakonitega interesa, tako da kliknete \"Več o tem\" ali v našem pravilniku o zasebnosti na tej spletni strani.Mi in naši partnerji opravljamo naslednje obdelovanje podatkov:Analitika, Marketing, PersonalizacijaVeč →Sprejmi in zapri",
+                "banner_z_index": 2147483640,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi in zapri]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več →]  \nExplanation: The button [Sprejmi in zapri] is categorized as an ambiguous acceptance because it indicates agreement but isn't a clear \"accept all\" label. The button [Več →] suggests additional settings or options, fitting under the settings management category. There are no clear labels for accepting or declining all cookies present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi in zapri is categorized as an ambiguous acceptance because it indicates agreement but isn't a clear \"accept all\" label. The button Več → suggests additional settings or options, fitting under the settings management category. There are no clear labels for accepting or declining all cookies present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več →",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(0,125,188,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(0,125,188,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      Dobrodošli na Decathlon Slovenija Upravljanje soglasja×Skupaj z našimi partnerji namestimo piškotke in v vaši napravi dostopamo do informacij, ki niso občutljive narave, ter jih uporabljamo za izboljšavo naših izdelkov ter prilagoditev oglasov in druge vsebine na tem spletnem mestu. Sprejmete lahko vse ali nekatere od teh dejavnosti. Če želite izvedeti več o piškotkih, partnerjih in o tem, kako uporabljamo vaše podatke za ogled možnosti ali dejavnosti posameznega partnerja, preberite naš pravilnik o zasebnosti.Dovolite+AnalitikaTi piškotki zbirajo informacije o tem, kako uporabljate sple",
+                "banner_z_index": 2147483642,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 6,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne strinjam se]  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Shrani]  \nExplanation: The response categorizes \"Ne strinjam se\" as the option to decline all cookies. \"Strinjam se\" is considered an ambiguous acceptance phrase. \"Shrani\" is treated as a button for saving settings, which fits the category for managing settings.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Ne strinjam se",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Shrani",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The response categorizes \"Ne strinjam se\" as the option to decline all cookies. \"Strinjam se\" is considered an ambiguous acceptance phrase. \"Shrani\" is treated as a button for saving settings, which fits the category for managing settings."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Shrani",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "GenericLabel2",
+                "save_settings_attempt": true,
+                "save_settings_num_clicks": 1,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: [Shrani]\nExplanation: Found an explicit save settings button labeled \"Shrani\".",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": "Shrani",
+                    "Explanation": "Found an explicit save settings button labeled \"Shrani\"."
+                },
+                "save_settings_llm_consensus_reached": true,
+                "save_settings_llm_consensus_value": 1.0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T19:10:30.153805",
+        "timestamp_stop": "2025-03-28T19:12:29.008454"
+    }
+}

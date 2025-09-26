@@ -1,0 +1,423 @@
+{
+    "web_page": "https://www.supernova-ljubljana.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T22:25:23.020797",
+    "timestamp_stop": "2025-03-28T22:27:56.168746",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.supernova-ljubljana.si/",
+            "https://www.supernova-ljubljana.si/trgovina/ca/",
+            "https://www.supernova-ljubljana.si/trgovina/telemach/",
+            "https://www.supernova-ljubljana.si/trgovina/deichmann/#discounts"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T22:25:24.393418",
+        "timestamp_stop": "2025-03-28T22:25:57.280922"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.supernova-ljubljana.si/",
+            "https://www.supernova-ljubljana.si/trgovina/ca/",
+            "https://www.supernova-ljubljana.si/trgovina/telemach/",
+            "https://www.supernova-ljubljana.si/trgovina/deichmann/#discounts"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "dp_cookieconsent_status",
+                    "value": "{\"status\":\"approved\",\"checkboxes\":[{\"name\":\"statistics\",\"checked\":true},{\"name\":\"marketing\",\"checked\":true}]}",
+                    "domain": "www.supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1774733190,
+                    "expires_date": "2026-03-28T21:26:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_SQK7WHPE8Q",
+                    "value": "GS1.1.1743197190.1.0.1743197190.0.0.0",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1777757190.899529,
+                    "expires_date": "2026-05-02T21:26:30.899529+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1994523339.1743197191",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1743283590,
+                    "expires_date": "2025-03-29T21:26:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_224106397_2",
+                    "value": "1",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1743197250,
+                    "expires_date": "2025-03-28T21:27:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_CSNRCNJZNG",
+                    "value": "GS1.1.1743197191.1.0.1743197191.0.0.0",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1777757191.015845,
+                    "expires_date": "2026-05-02T21:26:31.015845+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.186791099.1743197191",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1777757191.016382,
+                    "expires_date": "2026-05-02T21:26:31.016382+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "dp_cookieconsent_status",
+                    "value": "{\"status\":\"approved\",\"checkboxes\":[{\"name\":\"statistics\",\"checked\":true},{\"name\":\"marketing\",\"checked\":true}]}",
+                    "domain": "www.supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1774733212,
+                    "expires_date": "2026-03-28T21:26:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1994523339.1743197191",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1743283612,
+                    "expires_date": "2025-03-29T21:26:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_224106397_2",
+                    "value": "1",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1743197250,
+                    "expires_date": "2025-03-28T21:27:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_CSNRCNJZNG",
+                    "value": "GS1.1.1743197191.1.1.1743197212.0.0.0",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1777757212.954529,
+                    "expires_date": "2026-05-02T21:26:52.954529+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.186791099.1743197191",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1777757212.95912,
+                    "expires_date": "2026-05-02T21:26:52.959120+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_SQK7WHPE8Q",
+                    "value": "GS1.1.1743197190.1.1.1743197220.0.0.0",
+                    "domain": ".supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1777757220.288928,
+                    "expires_date": "2026-05-02T21:27:00.288928+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Za prilagajanje in izboljšanje vaše izkušnje uporabljamo piškotke in druge tehnologije sledenja. Z nadaljnjo uporabo naše spletne strani se s tem strinjate.\n\n\n    \n\n        Več informacij\n    \n\n\n\n        \n    \n\n\n    \n        \n        funkcionalni\n    \n    \n        \n        statistika\n    \n    \n        \n        marketing\n    \n\n\n\n    \n    \n        \n    Dovoli vse\n\n\n        \n    Shrani\n\n\n        \n    Zavrni",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Shrani]\nAmbiguousLabel2: None\nGenericLabel3: [Več informacij]\nExplanation: \"Dovoli vse\" fits the label for accepting all cookies. \"Zavrni\" aligns with declining all cookies. \"Shrani\" is considered an ambiguous accept due to its nature of saving settings without explicitly indicating acceptance of cookies. \"Več informacij\" is classified under settings management as it invites the user to see more information.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več informacij",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" fits the label for accepting all cookies. \"Zavrni\" aligns with declining all cookies. \"Shrani\" is considered an ambiguous accept due to its nature of saving settings without explicitly indicating acceptance of cookies. \"Več informacij\" is classified under settings management as it invites the user to see more information."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T22:25:58.858764",
+        "timestamp_stop": "2025-03-28T22:27:00.529402"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.supernova-ljubljana.si/",
+            "https://www.supernova-ljubljana.si/trgovina/ca/",
+            "https://www.supernova-ljubljana.si/trgovina/telemach/",
+            "https://www.supernova-ljubljana.si/trgovina/deichmann/#discounts"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "dp_cookieconsent_status",
+                    "value": "{\"status\":\"approved\",\"checkboxes\":[{\"name\":\"statistics\",\"checked\":false},{\"name\":\"marketing\",\"checked\":false}]}",
+                    "domain": "www.supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1774733245,
+                    "expires_date": "2026-03-28T21:27:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "dp_cookieconsent_status",
+                    "value": "{\"status\":\"approved\",\"checkboxes\":[{\"name\":\"statistics\",\"checked\":false},{\"name\":\"marketing\",\"checked\":false}]}",
+                    "domain": "www.supernova-ljubljana.si",
+                    "path": "/",
+                    "expires": 1774733267,
+                    "expires_date": "2026-03-28T21:27:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Za prilagajanje in izboljšanje vaše izkušnje uporabljamo piškotke in druge tehnologije sledenja. Z nadaljnjo uporabo naše spletne strani se s tem strinjate.\n\n\n    \n\n        Več informacij\n    \n\n\n\n        \n    \n\n\n    \n        \n        funkcionalni\n    \n    \n        \n        statistika\n    \n    \n        \n        marketing\n    \n\n\n\n    \n    \n        \n    Dovoli vse\n\n\n        \n    Shrani\n\n\n        \n    Zavrni",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Shrani]\nAmbiguousLabel2: None\nGenericLabel3: [Več informacij]\nExplanation: \"Dovoli vse\" is classified as accepting all cookies, while \"Zavrni\" is classified as declining all cookies. \"Shrani\" is considered an ambiguous accept because it indicates saving settings, and \"Več informacij\" is categorized under settings as it implies more information is available.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več informacij",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" is classified as accepting all cookies, while \"Zavrni\" is classified as declining all cookies. \"Shrani\" is considered an ambiguous accept because it indicates saving settings, and \"Več informacij\" is categorized under settings as it implies more information is available."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T22:27:02.085104",
+        "timestamp_stop": "2025-03-28T22:27:55.890644"
+    }
+}

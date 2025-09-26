@@ -1,0 +1,879 @@
+{
+    "web_page": "https://www.companywall.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T04:59:09.328771",
+    "timestamp_stop": "2025-03-28T05:02:04.397932",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.companywall.si/",
+            "https://www.companywall.si/Home/SetCurrency?currencyCode=CHF",
+            "https://www.companywall.si/pomoc",
+            "https://www.companywall.si/podjetje/elea-ic-doo/MMol5ND"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "login.companywall.com",
+                    "path": "/realms/master/protocol/openid-connect/3p-cookies",
+                    "expires": 1743134412.121628,
+                    "expires_date": "2025-03-28T04:00:12.121628+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqsahpBwmUey6DF80xB2XX2HPI7OfXQCMZKWP5jRTIvdJkh7L-04asXnLajlOAK73E_BJP9DfdkBbx0ZBU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758686353.387895,
+                    "expires_date": "2025-09-24T03:59:13.387895+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNetCore.Antiforgery.BGncOQExYIg",
+                    "value": "CfDJ8PaziV9mwEBFouMtCnlQm2ue0esYHRlCAZYLC8PlnpsD_Vh9b6du1U5Davxhql7x6_hfLrKMyqMtFkSMWDwCbmHatgiiitHOQE7Va9qGM582-GiyO8FuBS7GmN-ENjhEFFEr_Rlg2zd47ZHdze1dMg0",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "RecaptchaToken",
+                    "value": "03AFcWeA7qVp3Re2_KU7AT0tLNBY7w4hfRtiy5Y4nE0hvEKuNQIyOZNj6bSgxHua9tZnOaSQqdAv-wEZnwW6vGTS39ZjaJxpcSbrsFZP7g0y3xs1IayA5aYWzpgXLE5Htd-jmhmIdX3QKithsIz3MfeU6ale0O972V2RDbL_jovoSN4mgv_wjcufBhKiq4d2B-Vxu_IjawwL1kF7dx6RzLc4HTwbQXu4jcgBFr4uy5RhTqp02KTtBPNR7eS0QHnM597a_48CGTyYFFY0RBbprapm_zXU0Aeut2vRQqSCyQAfmXwojULfwDB5mIqH7C3pK_VHROIvq5Mx5jbO_F_K89FiwfosXV5ZnFCvN3iPd-7aglSCocKHuGrM66fggKYMtLS0b5Wvl8hBsYAS8lG0NQoJ1z8pgUzUVNd46Sph6EEamWPcMe9Za9E3u6kUkYnID10lp2-jmXcwLkvz3nE8cPznzVurl4VuTVboGxyFODiBvSqP9aGcEvXuBqKEqCECG3tmf0vMXu85Zw9RDvSlV6OI64MQ9ybO7WjsT-9R1JtyZKx87afMbPYzhWhLqNhfD8_1CxFl7y274rSlB58OUjiK44BZnsneoR31WW5Kfn704a4AusndQcre5SaUZ6v-TsOfOzCJGdLK8UT6ABnb3ysfWbTz3jSDHkodGKT7jpvlZd-ug2GWPasGemU-7IjavDO8EqYgPKjZxbpA2xIo0KVAjeqJzgDtb0koAmqctjsz3o2S5NEwu3pGZafIjt6DpHzyTh7gnP-z4qFF5kttlkxfKBcWNe3oH914J6lFPbWvLkUURRO8TZBjroWAT2pzmXsKC7l4KyZT7tYe436r_6By-DlREw7y54NeeedzJIr600R7R6R0vp5F1VA5HDb1FE8avKovp7YiU3Zc7zn51NryAP9HEpFUJG4cpey09pRbDq74yDj9suEumCcQaCR5oo8MHKVLIRDW8hGyMdLoldmXoQrmZFOeZ6bG6vAB7FTEhj1ToKMlv8n5fIpQrdRKBrlxH9BYaSxCwH",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "login.companywall.com",
+                    "path": "/realms/master/protocol/openid-connect/3p-cookies",
+                    "expires": 1743134435.731183,
+                    "expires_date": "2025-03-28T04:00:35.731183+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoAop6rbqDoZYp6jsi399UKUoAxAxKxHL2meAYWHhuyRKfMZOom4Bl30WiDNY1mt3v65VpNtb-fWaXY-Ns",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758686376.540354,
+                    "expires_date": "2025-09-24T03:59:36.540354+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNetCore.Antiforgery.BGncOQExYIg",
+                    "value": "CfDJ8PaziV9mwEBFouMtCnlQm2ue0esYHRlCAZYLC8PlnpsD_Vh9b6du1U5Davxhql7x6_hfLrKMyqMtFkSMWDwCbmHatgiiitHOQE7Va9qGM582-GiyO8FuBS7GmN-ENjhEFFEr_Rlg2zd47ZHdze1dMg0",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_currency",
+                    "value": "CHF",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": 1774670359.85279,
+                    "expires_date": "2026-03-28T03:59:19.852790+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "RecaptchaToken",
+                    "value": "03AFcWeA44U9B6ueyjxU5YX4vixPJviyKUtF3I29TtC1kQil0w_ZOM0frOuhhPx0kYEbma7ZSxUu4ppsaSyuSYh7tJg8Vuq35Kid2jD168GgJgjc-VD0BaevLqvbMD35FIR-0etSPx6OA8nOl4sHraAU-PP1s0AySi92ptgKPw_DuRI25juGplHnqhaLRPQ8oyOT-YDhFrDTlvYOvtlfh0y400gQYvKLx43ckMgXGopge_lVuEhcwq2-ciWtrQ-8UHwPlUWki08pYaWERQ6iJx_1oD74YxP7UklRaMnEOCHx6Nhf_-1F4u4jinB_TS5zitiQPjUIcX8j1rGRCn_AuEpnEB96v-Orz28dvxxBISaJOKLAE0K6jopxCrNMR4GXXkjUcxWJMcizNDCkJtMVdG3a5_1hSOt0o2Rnq6Ewy_M4FtMSl0pLAIwp58mbBjjr1YC0v5AkffB_-mRXBYDkIHAkw62Nxw6scDM5NuVmPLiVFKrnAHKWTRTgvl5YIhGW_-ZZqlS8-U8S01YFXk1kQuUkCrl9Dl8tn1evSoJ2If5Q8f5IHIoLon_ovZOM5yUsk2W-CbD1VmybbCzZIxh-IOkLNILpLoq_Esz3gVhFbSeBfDynrjGQCAtjumAyY9MB-dx472REF1wP4MTEFtA8TY-HIWA9kJ7hYKldP1zKs6G4dkRAT9WsFEXQVJMrGYJIAuW-ASfVj7P5BWE8kT9bsQyAsVNyxo7DL4SF0K8TXlTr7XsBkXIiND6PjoyrwKEtdmkLJP2olgHPhBFAqv6nyI6nrPOiLNaIbnU4ER82iv6m5d7oEL_wZl88hxIUq072p5Ww06FBs98tLIt9ET4JfnbPxf2-kML5nFc6JgZF-DUGX3-Iq0FdPw5OHq-0GMx52MBpTH-WEyzIywruF0uHsPL6dJx5PTWU-G8cMLjZjiKX4L9omg0TujdGUH3B6UZ8JWtXX6LYWF_z8X_YWVb00VUAdD5klf6b0xQKcDMdGhXu8V4uX495HA-YE1K_3pfJ29KB015AXY_7Xt",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T04:59:10.678322",
+        "timestamp_stop": "2025-03-28T04:59:42.908231"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmem)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.companywall.si/",
+            "https://www.companywall.si/Home/SetCurrency?currencyCode=CHF",
+            "https://www.companywall.si/pomoc",
+            "https://www.companywall.si/podjetje/elea-ic-doo/MMol5ND"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "login.companywall.com",
+                    "path": "/realms/master/protocol/openid-connect/3p-cookies",
+                    "expires": 1743134445.708876,
+                    "expires_date": "2025-03-28T04:00:45.708876+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoWQVFwAsFwnncm8DKU1WWjcSaoU9ZNBe_dQbK_0rrTM_JPkg4FB8-Lx4aOE0kIE87dpdFgMXXquK5pIKc",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758686387.125895,
+                    "expires_date": "2025-09-24T03:59:47.125895+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNetCore.Antiforgery.BGncOQExYIg",
+                    "value": "CfDJ8PaziV9mwEBFouMtCnlQm2vCqOpEozuvtb3fHavcPybFnavri8vme93_VUMOZoqqGK4eTLGo-7HW2oopjqoIbZwjaZ89rYlb56-IjiKeKa2-u1uZErQxtt8Gw_IdgCpgt1BoRPjY8bM0ryjFmXXp23c",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "RecaptchaToken",
+                    "value": "03AFcWeA7XUQQ8WVK8A5LA25LhwVbt8993FkOq8poW_mZURf7_HDOIiM8yD8ErKhY8PyofpM3UbDFSrqjpNTLMbFykjq6HfWPm6RmjeITrD2fsvDqXGMQE7GaTEWTGOskmoCPUi1pl7hJH3uEs5U8rVkjjf0F6-ucvkrjKU5ZGG6XhZgVLUx08hmYoRAx4UOPLmVR-zJA7OB5NPglURbi5uf-opNHY-eXqnvsKekBjYktO3A7CyqyizHgyrsf-vLNhJTMTlsHnrYjhDn-XW3TY4pJEF1VAcWMmoSe-BSWqekbh4yew-s1ZmGn31vXphCA-mzITY5I1zX58L_EWYMNqy0L07DWobO5xmb1YLfJvexFvRpziZOaNHR_f7x-IT4kLpNyExIg9LzENvp9TRqUWXAVZwYgKzw7o31mCDKACcfheXy4hyMiJFRlkYbHr2miftPwHbSHxnsBLXjMc1yoa2-pMoM_9ID1owSLpqeb-nmV9zBP3_3nODrSu_l-K2KKip5FnLdeuzpQawQayZeaT4nqVSKAGL3sXLFFMbW_HCCF0uMBGbMTYl7aimPM6q5wOvql2p1lkdWYYaa0YDWjQNrQeTd_FjBkLkSGuyZ8NzNOPrRIXtFs31aJGPLRuI69X5ucN-nnzpQ3pMBycC3tfmLIjN-Xzds6xT9v9AIo1liQ4gB3QXjuPn4C_aJnnxZdCCwvDyFyvSEi_aXaeipTekLaXd3ze2BhNFtHgdYXfBb_TNywgaylq9sPRSb2-t5Z2AV-elC5GRnYLV84z7XLQLZ7DxUyex-EaqkUFLPvj6H5CGsd_reMPVx0ah03SpmRjiwJasvak_Jgolfm_iO-KOkwfzGmf5_mNH8g3ZoOvjFERWcaDyFl2vFZGFBFwdI6I5eCuKX44rq6EFmY_FDlmz9S98yBLu6t5jur2o4x74THYFVur9Vgi749xA9jtaaA69lVbANBrxjrywqwNGwjbCQQ5aJyO6StbtelEpPctf_IqKQrSwqrZryxvuk56b9sAbYvyEs1cI7KZ",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "login.companywall.com",
+                    "path": "/realms/master/protocol/openid-connect/3p-cookies",
+                    "expires": 1743134445.708876,
+                    "expires_date": "2025-03-28T04:00:45.708876+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoWQVFwAsFwnncm8DKU1WWjcSaoU9ZNBe_dQbK_0rrTM_JPkg4FB8-Lx4aOE0kIE87dpdFgMXXquK5pIKc",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758686387.125895,
+                    "expires_date": "2025-09-24T03:59:47.125895+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNetCore.Antiforgery.BGncOQExYIg",
+                    "value": "CfDJ8PaziV9mwEBFouMtCnlQm2vCqOpEozuvtb3fHavcPybFnavri8vme93_VUMOZoqqGK4eTLGo-7HW2oopjqoIbZwjaZ89rYlb56-IjiKeKa2-u1uZErQxtt8Gw_IdgCpgt1BoRPjY8bM0ryjFmXXp23c",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "RecaptchaToken",
+                    "value": "03AFcWeA7XUQQ8WVK8A5LA25LhwVbt8993FkOq8poW_mZURf7_HDOIiM8yD8ErKhY8PyofpM3UbDFSrqjpNTLMbFykjq6HfWPm6RmjeITrD2fsvDqXGMQE7GaTEWTGOskmoCPUi1pl7hJH3uEs5U8rVkjjf0F6-ucvkrjKU5ZGG6XhZgVLUx08hmYoRAx4UOPLmVR-zJA7OB5NPglURbi5uf-opNHY-eXqnvsKekBjYktO3A7CyqyizHgyrsf-vLNhJTMTlsHnrYjhDn-XW3TY4pJEF1VAcWMmoSe-BSWqekbh4yew-s1ZmGn31vXphCA-mzITY5I1zX58L_EWYMNqy0L07DWobO5xmb1YLfJvexFvRpziZOaNHR_f7x-IT4kLpNyExIg9LzENvp9TRqUWXAVZwYgKzw7o31mCDKACcfheXy4hyMiJFRlkYbHr2miftPwHbSHxnsBLXjMc1yoa2-pMoM_9ID1owSLpqeb-nmV9zBP3_3nODrSu_l-K2KKip5FnLdeuzpQawQayZeaT4nqVSKAGL3sXLFFMbW_HCCF0uMBGbMTYl7aimPM6q5wOvql2p1lkdWYYaa0YDWjQNrQeTd_FjBkLkSGuyZ8NzNOPrRIXtFs31aJGPLRuI69X5ucN-nnzpQ3pMBycC3tfmLIjN-Xzds6xT9v9AIo1liQ4gB3QXjuPn4C_aJnnxZdCCwvDyFyvSEi_aXaeipTekLaXd3ze2BhNFtHgdYXfBb_TNywgaylq9sPRSb2-t5Z2AV-elC5GRnYLV84z7XLQLZ7DxUyex-EaqkUFLPvj6H5CGsd_reMPVx0ah03SpmRjiwJasvak_Jgolfm_iO-KOkwfzGmf5_mNH8g3ZoOvjFERWcaDyFl2vFZGFBFwdI6I5eCuKX44rq6EFmY_FDlmz9S98yBLu6t5jur2o4x74THYFVur9Vgi749xA9jtaaA69lVbANBrxjrywqwNGwjbCQQ5aJyO6StbtelEpPctf_IqKQrSwqrZryxvuk56b9sAbYvyEs1cI7KZ",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_QV9MJQMTH7",
+                    "value": "GS1.1.1743134407.1.0.1743134407.0.0.0",
+                    "domain": ".companywall.si",
+                    "path": "/",
+                    "expires": 1777694407.962562,
+                    "expires_date": "2026-05-02T04:00:07.962562+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1497744586.1743134408",
+                    "domain": ".companywall.si",
+                    "path": "/",
+                    "expires": 1777694407.963193,
+                    "expires_date": "2026-05-02T04:00:07.963193+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": ".AspNet.Consent",
+                    "value": "yes",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": 1777694407.9695,
+                    "expires_date": "2026-05-02T04:00:07.969500+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "login.companywall.com",
+                    "path": "/realms/master/protocol/openid-connect/3p-cookies",
+                    "expires": 1743134489.662363,
+                    "expires_date": "2025-03-28T04:01:29.662363+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqHeA1-h3_GKWStu7wcSvJWMYa6zW1EXJ0q3ZgNEZonxpB4a4LioJuttaFx7dULrW-IWAOjmUUPPpN3Y3M",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758686430.45506,
+                    "expires_date": "2025-09-24T04:00:30.455060+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNetCore.Antiforgery.BGncOQExYIg",
+                    "value": "CfDJ8PaziV9mwEBFouMtCnlQm2vCqOpEozuvtb3fHavcPybFnavri8vme93_VUMOZoqqGK4eTLGo-7HW2oopjqoIbZwjaZ89rYlb56-IjiKeKa2-u1uZErQxtt8Gw_IdgCpgt1BoRPjY8bM0ryjFmXXp23c",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1497744586.1743134408",
+                    "domain": ".companywall.si",
+                    "path": "/",
+                    "expires": 1777694407.963193,
+                    "expires_date": "2026-05-02T04:00:07.963193+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": ".AspNet.Consent",
+                    "value": "yes",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": 1777694407.9695,
+                    "expires_date": "2026-05-02T04:00:07.969500+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_currency",
+                    "value": "CHF",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": 1774670412.994819,
+                    "expires_date": "2026-03-28T04:00:12.994819+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_QV9MJQMTH7",
+                    "value": "GS1.1.1743134407.1.0.1743134413.0.0.0",
+                    "domain": ".companywall.si",
+                    "path": "/",
+                    "expires": 1777694413.417275,
+                    "expires_date": "2026-05-02T04:00:13.417275+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "RecaptchaToken",
+                    "value": "03AFcWeA7Rp_vI7c-zw30WXSt6X_GUMIIC9uSZzOQ5dVgx_nwTUIHaIPuVL1gkfrGIHiR1MtNuFNJOtY2DR8HeE-kroEG5ED2y86LBhank8Je12u7Zp-q-cYrdpfuOuvKPzZggScM2YRO4R2ZekhVntOoJQ4nst9SKbskESCHnTY4-mON-syBAkw3rT_DGz3wMO428j7g2C_UKJkc3CuuuUuqruck93NunxhDY-piAdBUa8s3qwXST7jZesBAVk0jNwKN-6H1a5B9ezHLtmNnfDOPdq-5-Mf-XW-xN_PxKdpGgcjnHgHQrfH3U0MssxT6e22Yhe-Aq8rSsPJ7ERu9gaRaVoV55NuSkFBV8ZEjf6Gbkb027_oWJ57wc-Ej9NZ3X1JTag6m76RC8i-vYltneLcx_yixV-tqcibPaxNr4u2UoneyVA9R9Ag9Qjp9Q7oWg0QQ8IYmE4SijdptTA8F-j1zhMiBWzSvEM0pBuJpQIMOvzhg3DF3O9HhSf_CeqQQBg21CSN-6YCh9iOry6ApeXiIpMlSS5-1rrmY8DpLMuMMXa5Ad8aI3ZiFdHlfo360EScEvSBD2EubtZA2V3faDsuGL708oIIg9Y4zNbXH_hAw-N7IQgMrFyK70e_ogSLvEpqKHX7Pb3z4aurANX6TBtBrdUmjNljFplPNBF3eEd6LmsFSKbEXyPFva3wvc1PvTFYPuMnR9x22ClZP02rK_D_T5fHzqoAEPvedZ9rKup4BMc09VmCXtgrFIBpWfldRWLMvLSuXtBPlXU_z8CZ0Ydquy5frw9NzOG43d_bnQmsoeDPl6wIliNTj5vwpaoI0qMQlzp9q1It5Fu4g3uIDbLcRe_w3JdbMNZmRM0Kp6obx9LWkmjezj559e-onX25t90DGIHDpOAVcOi7QpLjZXovyvl7-EeNL16AscivDd7Snp3HQ_WLydS-vCOlBJtnIBecsFPBXu0G7pyQzhbe17LHSM9YNe0bm9NFCPe6b0VM85-5fsAIofoZKGYRc_haWA4drJTZApPgLF",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Cenimo vašo zasebnost\n    \n    \n        Podjetje Companywall Business uporablja piškotke za pravilno delovanje, za čim bolj preprosto in najboljšo uporabniško izkušnjo, za statistične in analitične namene ter za izboljšanje funkcionalnosti spletnega mesta. Z spletne strani portala Companywall Business se strinjate z uporabo piškotkov. Nastavitve piškotkov lahko prilagodite v svojem internetnem brskalniku. Preberite več o piškotkih in kako jih uporabljamo ter kako jih onemogočiti tukaj Izjava o zasebnosti\n    \n    \n        \n            Nastavitve piškotkov\n        \n        \n            Sprejmem",
+                "banner_z_index": 10,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmem]  \nAmbiguousLabel2: None  \nGenericLabel3: [Nastavitve piškotkov]  \nExplanation: The button [Sprejmem] is an ambiguous acceptance phrase. The button [Nastavitve piškotkov] relates to managing settings, thus categorized under GenericLabel3. There are no clear accept or decline buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmem is an ambiguous acceptance phrase. The button Nastavitve piškotkov relates to managing settings, thus categorized under GenericLabel3. There are no clear accept or decline buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmem",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T04:59:44.515733",
+        "timestamp_stop": "2025-03-28T05:00:36.724272"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Nastavitve piškotkov)",
+            "Clicking an element of type (button), with text (Potrdi izbor)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.companywall.si/",
+            "https://www.companywall.si/Home/SetCurrency?currencyCode=CHF",
+            "https://www.companywall.si/pomoc",
+            "https://www.companywall.si/podjetje/elea-ic-doo/MMol5ND"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "login.companywall.com",
+                    "path": "/realms/master/protocol/openid-connect/3p-cookies",
+                    "expires": 1743134499.581282,
+                    "expires_date": "2025-03-28T04:01:39.581282+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrrtzgRShhRTBctCt5hIc1jYZm9ds8495zHT_-UZGB7dWekL32BQTQnM6TYGzUBF2C0666HRN0D13gfgsQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758686440.981574,
+                    "expires_date": "2025-09-24T04:00:40.981574+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNetCore.Antiforgery.BGncOQExYIg",
+                    "value": "CfDJ8PaziV9mwEBFouMtCnlQm2v2Sm4dZX9YVHOaMMvgDGaBGToHROic_1FLQaWqBiM3qPr6ry1-N-qFw5au8p9rAwvy8byGvA6t7xM45caGH3zBpEYc19oMigAsd72nNm87-PTnSzXEhu9EN93ZQsYbNzo",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "RecaptchaToken",
+                    "value": "03AFcWeA6Lkhf6Xx5iG6hIpuVV7gDwq6wSfcOwkn3UzCzFNeTiz235R18fMlk6IqSREtoMrw_zinFKVthGt09dXXK4TW4ximQomTfUYtQSQGs_sjw34zgrBIVwLyb1cwoahSHnopUGh8YVjSKogvvTjMldslHgEqRzIK241X01sJznkkDYMt7jyfy6lhuOVnUmTg4b6ATClUUVDKNVxsjwX_shMamugMRkog3HdhZJ6jZl0McVxxwD8YqdaqSlyXCYuvWbDH4wN1oFIxB_204obRvf_I7ZwVt__EUdRgGjDjKD1qu_rnM0Hoe8fGBi_g0QxtoyIwiZaHjzr-akICQBaxQ134u7z6uGH-dJ9ppKdMhPkQjfZaBQITbsBfz9tGIgL6LWLoFtjmamCPVUjz2d6snYQvIqsDFvldPck0Uo371H63KLJvLzR7z4CE-3r_hgDyuEs5xyHH3dH0YOq2ztuWNxBhV_gAYMSDNPFp3scoafSZEL3XYQ_yfKBPqeYajJNdoEVZAfFgTT636_qgCfa6EXQdB6zp9Rd4sdlCWR8JHTsH2p-vZrw1rEckaDKZr9KjuFfXrjOHm2ihdXs2GvmbeykRQ6zORyVhUV1QGR6irmsc0yk38ip4wdiGnOMPfH5cShbDKVEKi1SblY4_B4Bs7xIV8eOjvFog6wPVe5W5kNcaTjbo4fvlcENdfthjzUEsI46r7_hJk4b3fejRhBosipi8xTiFbrsZNLo_Or99olr4IiLvGexIHz8PdgVSdRQ_XeJFXPa24YHl2J1VBJ3QB2gdsHA22olD_JCrRkooCw7WDqPYq4vPgwFj8xzKm5Vhq870SuZGea7qztCuaGfPfhsjGSPF_gdY1NROqtr9QuRT7l8Lmlnme1YJM7Zm4ONXAXHZocUEcATDs0TnKnxqxpUKB6p9bA4kVsLvBmAJqF8jzjz9dWrXeCgbnHj3-WA1uUyQO30IIMtdFbgKNxZq01AgPaJkQCgZRhEsqEsbQgI_TRBAo_VfIUwC1g6DKk3SXhbZpGoRlF",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "login.companywall.com",
+                    "path": "/realms/master/protocol/openid-connect/3p-cookies",
+                    "expires": 1743134499.581282,
+                    "expires_date": "2025-03-28T04:01:39.581282+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrrtzgRShhRTBctCt5hIc1jYZm9ds8495zHT_-UZGB7dWekL32BQTQnM6TYGzUBF2C0666HRN0D13gfgsQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758686440.981574,
+                    "expires_date": "2025-09-24T04:00:40.981574+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNetCore.Antiforgery.BGncOQExYIg",
+                    "value": "CfDJ8PaziV9mwEBFouMtCnlQm2v2Sm4dZX9YVHOaMMvgDGaBGToHROic_1FLQaWqBiM3qPr6ry1-N-qFw5au8p9rAwvy8byGvA6t7xM45caGH3zBpEYc19oMigAsd72nNm87-PTnSzXEhu9EN93ZQsYbNzo",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "RecaptchaToken",
+                    "value": "03AFcWeA6Lkhf6Xx5iG6hIpuVV7gDwq6wSfcOwkn3UzCzFNeTiz235R18fMlk6IqSREtoMrw_zinFKVthGt09dXXK4TW4ximQomTfUYtQSQGs_sjw34zgrBIVwLyb1cwoahSHnopUGh8YVjSKogvvTjMldslHgEqRzIK241X01sJznkkDYMt7jyfy6lhuOVnUmTg4b6ATClUUVDKNVxsjwX_shMamugMRkog3HdhZJ6jZl0McVxxwD8YqdaqSlyXCYuvWbDH4wN1oFIxB_204obRvf_I7ZwVt__EUdRgGjDjKD1qu_rnM0Hoe8fGBi_g0QxtoyIwiZaHjzr-akICQBaxQ134u7z6uGH-dJ9ppKdMhPkQjfZaBQITbsBfz9tGIgL6LWLoFtjmamCPVUjz2d6snYQvIqsDFvldPck0Uo371H63KLJvLzR7z4CE-3r_hgDyuEs5xyHH3dH0YOq2ztuWNxBhV_gAYMSDNPFp3scoafSZEL3XYQ_yfKBPqeYajJNdoEVZAfFgTT636_qgCfa6EXQdB6zp9Rd4sdlCWR8JHTsH2p-vZrw1rEckaDKZr9KjuFfXrjOHm2ihdXs2GvmbeykRQ6zORyVhUV1QGR6irmsc0yk38ip4wdiGnOMPfH5cShbDKVEKi1SblY4_B4Bs7xIV8eOjvFog6wPVe5W5kNcaTjbo4fvlcENdfthjzUEsI46r7_hJk4b3fejRhBosipi8xTiFbrsZNLo_Or99olr4IiLvGexIHz8PdgVSdRQ_XeJFXPa24YHl2J1VBJ3QB2gdsHA22olD_JCrRkooCw7WDqPYq4vPgwFj8xzKm5Vhq870SuZGea7qztCuaGfPfhsjGSPF_gdY1NROqtr9QuRT7l8Lmlnme1YJM7Zm4ONXAXHZocUEcATDs0TnKnxqxpUKB6p9bA4kVsLvBmAJqF8jzjz9dWrXeCgbnHj3-WA1uUyQO30IIMtdFbgKNxZq01AgPaJkQCgZRhEsqEsbQgI_TRBAo_VfIUwC1g6DKk3SXhbZpGoRlF",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": ".AspNet.Consent",
+                    "value": "yes",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": 1777694495.415683,
+                    "expires_date": "2026-05-02T04:01:35.415683+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "login.companywall.com",
+                    "path": "/realms/master/protocol/openid-connect/3p-cookies",
+                    "expires": 1743134576.996714,
+                    "expires_date": "2025-03-28T04:02:56.996714+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqBY3mqCTEgZnWhlG0pZUEU1F-BZQeADD6GLIsIuekPv1FrZH4Wu7mp85F9TiMxBbXFubmMTj0kwWqyqM8",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758686517.837143,
+                    "expires_date": "2025-09-24T04:01:57.837143+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNetCore.Antiforgery.BGncOQExYIg",
+                    "value": "CfDJ8PaziV9mwEBFouMtCnlQm2v2Sm4dZX9YVHOaMMvgDGaBGToHROic_1FLQaWqBiM3qPr6ry1-N-qFw5au8p9rAwvy8byGvA6t7xM45caGH3zBpEYc19oMigAsd72nNm87-PTnSzXEhu9EN93ZQsYbNzo",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".AspNet.Consent",
+                    "value": "yes",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": 1777694495.415683,
+                    "expires_date": "2026-05-02T04:01:35.415683+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_currency",
+                    "value": "CHF",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": 1774670501.295283,
+                    "expires_date": "2026-03-28T04:01:41.295283+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "RecaptchaToken",
+                    "value": "03AFcWeA4E-QosnWmmQ63DhKa6fLgzY27yv1O0djVEZsWJYk97FEmxm30tpqn49Kz4Uq_JCAfc625kM2ERs0jNmqj7TmEyZTUNXLAf1Zo2ozgQYWpM05Yw2BGnpF32eyv_4JNp3-HDsajSxWcURCDEPqUZEgUqdtciD5Zy8wy5ERomcCVEcQfCdHmwsy7971xgjA5F359llGGz5rvLC_Cq9q9T0QFj9IjeDZKgGsIls4nsjSHAwFQpb31cHw4kJf0HxyJayAuqdxNP7rCVxsnBGVQ1AEjL3eXQ4MmDpisD3JG4N6bWmcRfbz5xqslL1XWP5Hwow1JMwhxDSIXyzZ3fvElr8ouhB4da1_Rmq0x9wWCCE5BqnrnsJbwOd1oBVtfWUPz4p9UxKvcyiRcu5II3pWp452QL7ls6hEIe-vuloKa_bNrbN0xQcQY0X1a68fzdNMkJMPoOCP9M09663n4Sqbqa_ydZXmuki3Ijw0MLmcFaVpi8HkHMpm_cJTlWJfPIClhHwfCQcZj-sfySUk2kVDhqWMsJcE9aXWHuNtA1Ygbq9K3JsO7tlo6mgKRBbTlqpUNv8XkcfT9p4j-Qu9xnFI-uEHdJCpNKzOWh5wGOigR0GX4d3xMJI2hzlK5KdgW4FQSpEy7CRZnuIA1bri-ZZBaa5BLXGkxVLJOXrzZWML1hi6iWBmM7UOWhSjcTUEwntoa7YziHoeWHtl7Kq3RnccKYlBRTjAzUtCLhSB-vmKagcNGhWi37jMQXJpUUWKftaTCWeupvyneJYKxGIUD21FcOolAlhBnhfNRPY2THjOlEUpTxyC90QkxpPCtHB0wSkQBO3qeG1nJj0732xYNDLwvkNxVAN5yl2AeSaL0GFrETF7qBT9jtKI9p0W0TDs0rL8z52eTBr3gJRivuCW_UqPck6EeYvfB-E6L1AmrbrxV18KN__5Y4yqUOoBurDFWeyfce4vlLjD5pBGo_C6CdwpGcmeoG-x9RXb-Ga4Mvt85UpxnT-MEvhHutKg7KTAgFF5ifAs3lPWcG",
+                    "domain": "www.companywall.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_save_1_click_1.png",
+            "010_decline_interaction_save_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_SAVE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Cenimo vašo zasebnost\n    \n    \n        Podjetje Companywall Business uporablja piškotke za pravilno delovanje, za čim bolj preprosto in najboljšo uporabniško izkušnjo, za statistične in analitične namene ter za izboljšanje funkcionalnosti spletnega mesta. Z spletne strani portala Companywall Business se strinjate z uporabo piškotkov. Nastavitve piškotkov lahko prilagodite v svojem internetnem brskalniku. Preberite več o piškotkih in kako jih uporabljamo ter kako jih onemogočiti tukaj Izjava o zasebnosti\n    \n    \n        \n            Nastavitve piškotkov\n        \n        \n            Sprejmem",
+                "banner_z_index": 10,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Sprejmem]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [Sprejmem] is treated as an ambiguous accept. The label [Nastavitve piškotkov] indicates settings, so it is categorized under GenericLabel3. There are no clear accept all or decline all buttons in the provided text.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmem is treated as an ambiguous accept. The label Nastavitve piškotkov indicates settings, so it is categorized under GenericLabel3. There are no clear accept all or decline all buttons in the provided text."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nastavitve piškotkov",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Nastavitve piškotkov\n            \n\n            \n                Companywall Business uporablja neizogibne piškotke za zagotavljannje delovanja spletnega mesta. Te piškotki ne zbirajo informacij o vas.\n            \n\n            \n                Google Analytics piškotki zbirajo informacije o vašem IP naslovu, vrsti vašega brskalnika ter vrsti vaše naprave. Google Analytics ne zbira občutljivih osebnih podatkov.\n            \n\n            \n                \n                    \n                        Obvezni piškotki\n                    \n                    \n                        \n                            \n                            \n                        \n                    \n                \n                \n                    \n                        Google Analytics\n                    \n                    \n                        \n                            \n                            \n                        \n                    \n                \n            \n\n           ",
+                "banner_z_index": 10,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Potrdi izbor]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: \"Potrdi izbor\" is an ambiguous phrase that could indicate acceptance, but it is not explicitly accepting all cookies, hence it falls under AmbiguousLabel1. There are no other buttons related to accepting or declining all cookies or managing settings present.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Potrdi izbor",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Potrdi izbor\" is an ambiguous phrase that could indicate acceptance, but it is not explicitly accepting all cookies, hence it falls under AmbiguousLabel1. There are no other buttons related to accepting or declining all cookies or managing settings present."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Potrdi izbor",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": true,
+                "save_settings_num_clicks": 1,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: [Potrdi izbor]  \nExplanation: Found an explicit button indicating confirmation of selection, which suggests saving the current settings.",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": "Potrdi izbor",
+                    "Explanation": "Found an explicit button indicating confirmation of selection, which suggests saving the current settings."
+                },
+                "save_settings_llm_consensus_reached": true,
+                "save_settings_llm_consensus_value": 1.0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T05:00:38.292017",
+        "timestamp_stop": "2025-03-28T05:02:04.096415"
+    }
+}

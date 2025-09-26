@@ -1,0 +1,698 @@
+{
+    "web_page": "https://lokalnojeobetavno.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T23:03:53.118414",
+    "timestamp_stop": "2025-03-28T23:06:11.717433",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://lokalnojeobetavno.si/",
+            "https://lokalnojeobetavno.si/products/bucna-semena-500g",
+            "https://lokalnojeobetavno.si/products/prosena-kasa-1kg",
+            "https://lokalnojeobetavno.si/#recover"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "keep_alive",
+                    "value": "f72c6119-631a-4a7a-9d91-544c9813866a",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1743201235.241724,
+                    "expires_date": "2025-03-28T22:33:55.241724+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "secure_customer_sig",
+                    "value": "",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735435.241964,
+                    "expires_date": "2026-03-28T22:03:55.241964+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "localization",
+                    "value": "SI",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735435.242014,
+                    "expires_date": "2026-03-28T22:03:55.242014+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tracking_consent",
+                    "value": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22SI061%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22p%22%3Afalse%2C%22a%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Atrue%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%2221A1AEB6-d566-4FEF-b7c5-664eebd7340e%22%7D",
+                    "domain": ".lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735435.242043,
+                    "expires_date": "2026-03-28T22:03:55.242043+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "secure_customer_sig",
+                    "value": "",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735457.979475,
+                    "expires_date": "2026-03-28T22:04:17.979475+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "localization",
+                    "value": "SI",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735457.979504,
+                    "expires_date": "2026-03-28T22:04:17.979504+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tracking_consent",
+                    "value": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22SI061%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22p%22%3Afalse%2C%22a%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Atrue%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%2221A1AEB6-d566-4FEF-b7c5-664eebd7340e%22%7D",
+                    "domain": ".lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735435.242043,
+                    "expires_date": "2026-03-28T22:03:55.242043+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "keep_alive",
+                    "value": "b5439140-4219-4065-824e-71664dfadff2",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1743201257.97939,
+                    "expires_date": "2025-03-28T22:34:17.979390+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T23:03:54.464259",
+        "timestamp_stop": "2025-03-28T23:04:26.338427"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Želim nadaljevati)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://lokalnojeobetavno.si/",
+            "https://lokalnojeobetavno.si/products/bucna-semena-500g",
+            "https://lokalnojeobetavno.si/products/prosena-kasa-1kg",
+            "https://lokalnojeobetavno.si/#recover"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "keep_alive",
+                    "value": "7a672b98-0b1c-429c-b8b5-8821af80c754",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1743201268.108264,
+                    "expires_date": "2025-03-28T22:34:28.108264+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "secure_customer_sig",
+                    "value": "",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735468.108444,
+                    "expires_date": "2026-03-28T22:04:28.108444+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "localization",
+                    "value": "SI",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735468.108493,
+                    "expires_date": "2026-03-28T22:04:28.108493+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tracking_consent",
+                    "value": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22SI061%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22p%22%3Afalse%2C%22a%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Atrue%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%22D818E378-19cc-440F-9f82-8974ee4c8be9%22%7D",
+                    "domain": ".lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735468.10851,
+                    "expires_date": "2026-03-28T22:04:28.108510+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "keep_alive",
+                    "value": "7a672b98-0b1c-429c-b8b5-8821af80c754",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1743201268.108264,
+                    "expires_date": "2025-03-28T22:34:28.108264+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "secure_customer_sig",
+                    "value": "",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735468.108444,
+                    "expires_date": "2026-03-28T22:04:28.108444+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "localization",
+                    "value": "SI",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735468.108493,
+                    "expires_date": "2026-03-28T22:04:28.108493+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tracking_consent",
+                    "value": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22SI061%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22p%22%3Afalse%2C%22a%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Atrue%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%22D818E378-19cc-440F-9f82-8974ee4c8be9%22%7D",
+                    "domain": ".lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735468.10851,
+                    "expires_date": "2026-03-28T22:04:28.108510+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "secure_customer_sig",
+                    "value": "",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735509.69496,
+                    "expires_date": "2026-03-28T22:05:09.694960+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "localization",
+                    "value": "SI",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735509.694987,
+                    "expires_date": "2026-03-28T22:05:09.694987+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tracking_consent",
+                    "value": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22SI061%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22p%22%3Afalse%2C%22a%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Atrue%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%22D818E378-19cc-440F-9f82-8974ee4c8be9%22%7D",
+                    "domain": ".lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735468.10851,
+                    "expires_date": "2026-03-28T22:04:28.108510+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "keep_alive",
+                    "value": "2a4947a6-2780-4991-b7b2-779656c0b42b",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1743201309.694876,
+                    "expires_date": "2025-03-28T22:35:09.694876+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta spletna stran uporablja piškotke, da vam zagotovi najboljšo izkušnjo na naši spletni strani.  Izvedi več.Želim nadaljevati",
+                "banner_z_index": 9998,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Želim nadaljevati]  \nAmbiguousLabel2: None  \nGenericLabel3: [Izvedi več.]  \nExplanation: The button \"Želim nadaljevati\" is ambiguous as it indicates a willingness to proceed, which could be interpreted as an acceptance. \"Izvedi več.\" is related to settings or more information, fitting under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Želim nadaljevati",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Izvedi več.",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Želim nadaljevati\" is ambiguous as it indicates a willingness to proceed, which could be interpreted as an acceptance. \"Izvedi več.\" is related to settings or more information, fitting under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Želim nadaljevati",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T23:04:27.941181",
+        "timestamp_stop": "2025-03-28T23:05:17.970381"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Izvedi več.)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://lokalnojeobetavno.si/",
+            "https://lokalnojeobetavno.si/products/bucna-semena-500g",
+            "https://lokalnojeobetavno.si/products/prosena-kasa-1kg",
+            "https://lokalnojeobetavno.si/#recover"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "keep_alive",
+                    "value": "2f90ae43-0383-4000-9ae9-d4e35e120e04",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1743201319.766186,
+                    "expires_date": "2025-03-28T22:35:19.766186+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "secure_customer_sig",
+                    "value": "",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735519.766597,
+                    "expires_date": "2026-03-28T22:05:19.766597+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "localization",
+                    "value": "SI",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735519.766676,
+                    "expires_date": "2026-03-28T22:05:19.766676+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tracking_consent",
+                    "value": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22SI061%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22p%22%3Afalse%2C%22a%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Atrue%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%220F3D3B08-363f-4AFF-92ef-963ebc923531%22%7D",
+                    "domain": ".lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735519.76686,
+                    "expires_date": "2026-03-28T22:05:19.766860+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "secure_customer_sig",
+                    "value": "",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735540.774852,
+                    "expires_date": "2026-03-28T22:05:40.774852+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "localization",
+                    "value": "SI",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735540.774875,
+                    "expires_date": "2026-03-28T22:05:40.774875+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tracking_consent",
+                    "value": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22SI061%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22p%22%3Afalse%2C%22a%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Atrue%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%220F3D3B08-363f-4AFF-92ef-963ebc923531%22%7D",
+                    "domain": ".lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735519.76686,
+                    "expires_date": "2026-03-28T22:05:19.766860+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "keep_alive",
+                    "value": "1ca33506-5239-42d8-ae47-85c58cf5552d",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1743201339.774781,
+                    "expires_date": "2025-03-28T22:35:39.774781+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "secure_customer_sig",
+                    "value": "",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735563.113688,
+                    "expires_date": "2026-03-28T22:06:03.113688+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "localization",
+                    "value": "SI",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735563.113713,
+                    "expires_date": "2026-03-28T22:06:03.113713+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tracking_consent",
+                    "value": "%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22SI061%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22p%22%3Afalse%2C%22a%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Atrue%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%220F3D3B08-363f-4AFF-92ef-963ebc923531%22%7D",
+                    "domain": ".lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1774735519.76686,
+                    "expires_date": "2026-03-28T22:05:19.766860+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "keep_alive",
+                    "value": "ed57e2d6-4e79-4128-a984-461bf6287577",
+                    "domain": "lokalnojeobetavno.si",
+                    "path": "/",
+                    "expires": 1743201363.113606,
+                    "expires_date": "2025-03-28T22:36:03.113606+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_new_tabs_0.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta spletna stran uporablja piškotke, da vam zagotovi najboljšo izkušnjo na naši spletni strani.  Izvedi več.Želim nadaljevati",
+                "banner_z_index": 9998,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Želim nadaljevati]\nAmbiguousLabel2: None\nGenericLabel3: [Izvedi več.]\nExplanation: The label \"Želim nadaljevati\" is ambiguous but suggests a willingness to proceed, fitting AmbiguousLabel1. \"Izvedi več\" relates to managing settings or seeking more information, fitting GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Želim nadaljevati",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Izvedi več.",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The label \"Želim nadaljevati\" is ambiguous but suggests a willingness to proceed, fitting AmbiguousLabel1. \"Izvedi več\" relates to managing settings or seeking more information, fitting GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Izvedi več.",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T23:05:19.580502",
+        "timestamp_stop": "2025-03-28T23:06:11.435342"
+    }
+}

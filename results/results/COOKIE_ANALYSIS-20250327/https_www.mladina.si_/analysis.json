@@ -1,0 +1,1614 @@
+{
+    "web_page": "https://www.mladina.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T00:35:29.635880",
+    "timestamp_stop": "2025-03-28T00:38:39.697179",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mladina.si/",
+            "https://www.mladina.si/kolumne/ekonomija/",
+            "https://www.mladina.si/podjetje/",
+            "https://www.mladina.si/kolumne/?c=143"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "ASPSESSIONIDSQRDSSAC",
+                    "value": "MGFDMNKCNENEPJOIIECLLGAM",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"6a02d090-c795-4a9c-a6c7-52bae577177e\",\"ts\":1743118531538}",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654531,
+                    "expires_date": "2026-03-27T23:35:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654531.883535,
+                    "expires_date": "2026-03-27T23:35:31.883535+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ff079e50-4802-441f-aac9-cc249beb211d&Created=03/27/2025 23:35:14&UserMode=0&guid=1108ac49-5541-427b-991a-4989bffa6945&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654531.883578,
+                    "expires_date": "2026-03-27T23:35:31.883578+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId474",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2066",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASPSESSIONIDSQRDSSAC",
+                    "value": "MGFDMNKCNENEPJOIIECLLGAM",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"6a02d090-c795-4a9c-a6c7-52bae577177e\",\"ts\":1743118531538}",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654552,
+                    "expires_date": "2026-03-27T23:35:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654552.888723,
+                    "expires_date": "2026-03-27T23:35:52.888723+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ff079e50-4802-441f-aac9-cc249beb211d&Created=03/27/2025 23:35:14&UserMode=0&guid=1108ac49-5541-427b-991a-4989bffa6945&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654552.888839,
+                    "expires_date": "2026-03-27T23:35:52.888839+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId474",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2066",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2057",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId4519",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T00:35:31.004420",
+        "timestamp_stop": "2025-03-28T00:36:01.203279"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (input), with text (Strinjam se)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mladina.si/",
+            "https://www.mladina.si/kolumne/ekonomija/",
+            "https://www.mladina.si/podjetje/",
+            "https://www.mladina.si/kolumne/?c=143"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "ASPSESSIONIDSQRDSSAC",
+                    "value": "AJFDMNKCJDAAEJIMGMPCEFGO",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"c29c67b6-e722-453b-8e44-0a22340ad96f\",\"ts\":1743118563320}",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654563,
+                    "expires_date": "2026-03-27T23:36:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654563.666805,
+                    "expires_date": "2026-03-27T23:36:03.666805+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=18937ff4-729f-4f65-8ec3-106bcbeba6dc&Created=03/27/2025 23:35:46&UserMode=0&guid=0af5679a-ad8b-4300-bd35-6fc68e9777d8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654563.666883,
+                    "expires_date": "2026-03-27T23:36:03.666883+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId474",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2066",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "ASPSESSIONIDSQRDSSAC",
+                    "value": "AJFDMNKCJDAAEJIMGMPCEFGO",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"c29c67b6-e722-453b-8e44-0a22340ad96f\",\"ts\":1743118563320}",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654608,
+                    "expires_date": "2026-03-27T23:36:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654609.35807,
+                    "expires_date": "2026-03-27T23:36:49.358070+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=18937ff4-729f-4f65-8ec3-106bcbeba6dc&Created=03/27/2025 23:35:46&UserMode=0&guid=0af5679a-ad8b-4300-bd35-6fc68e9777d8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654609.358159,
+                    "expires_date": "2026-03-27T23:36:49.358159+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId474",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2066",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "piskoteu",
+                    "value": "%23g%23%2C%23s%23%2C%23a%23%2DX%2D",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774652445.540009,
+                    "expires_date": "2026-03-27T23:00:45.540009+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747489091",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774654609.338576,
+                    "expires_date": "2026-03-27T23:36:49.338576+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ifpcid",
+                    "value": "997928241812566",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654609,
+                    "expires_date": "2026-03-27T23:36:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "uOZUg703OMxc_UfKOQxHxnhcVnDoWx6S2miyEK3gR4Q-1743118592-1.0.1.1-.hCTmhGI_6aje4qkoQjhrmwDgiLqiv4ofwI_tdSziDIjuKuDbN5qw0VYhIqq7uIwKhKn85_ldoOqmnauWry4UzJp9vbnBV1xIJgFBix7sFE",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743120409.476647,
+                    "expires_date": "2025-03-28T00:06:49.476647+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "d1c1a493-5123-4261-86f2-688ce82f74a4",
+                    "domain": ".mladina.si",
+                    "path": "/",
+                    "expires": 1774654609,
+                    "expires_date": "2026-03-27T23:36:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".mladina.si",
+                    "path": "/",
+                    "expires": 1774654609,
+                    "expires_date": "2026-03-27T23:36:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_R998HEVQ00",
+                    "value": "GS1.1.1743118609.1.0.1743118609.60.0.0",
+                    "domain": ".mladina.si",
+                    "path": "/",
+                    "expires": 1777678609.562752,
+                    "expires_date": "2026-05-01T23:36:49.562752+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.5fee432fc2d719086362",
+                    "domain": ".mladina.si",
+                    "path": "/",
+                    "expires": 1777678609.563692,
+                    "expires_date": "2026-05-01T23:36:49.563692+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745797010.800482,
+                    "expires_date": "2025-04-27T23:36:50.800482+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "7515945907622817143",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748302610.829701,
+                    "expires_date": "2025-05-26T23:36:50.829701+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "OAGEO",
+                    "value": "2%7CSI%7CEU%7C1%7CMenges%7C1234%7C46.1638%7C14.5677%7C5%7CEurope%2FLjubljana%7C%7C072%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7CTelekom+Slovenije%7CTelekom+Slovenije%7C%7C5603%7CTelekom+Slovenije%2C+d.d.",
+                    "domain": "new.dnetwork.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "01000111010001000101000001010010",
+                    "domain": "new.dnetwork.si",
+                    "path": "/",
+                    "expires": 1774654611.002518,
+                    "expires_date": "2026-03-27T23:36:51.002518+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777246611.472717,
+                    "expires_date": "2026-04-26T23:36:51.472717+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlxDGRaGQMQGxOEcDSa8u4lUssGMXP8c28ySssX6nsGfGKfwHb2xSjGor2x1G0F6QoSaiHXKR_R6Ss8.",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777246611.47288,
+                    "expires_date": "2026-04-26T23:36:51.472880+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "HhZnEaIhPWpxX8mA2rWQkv8eyne82zh1S0iClO5F2bb.Q7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777246611.472935,
+                    "expires_date": "2026-04-26T23:36:51.472935+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "",
+                    "value": "cx_test",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cx_id",
+                    "value": "67e5e0ff495d3c65c0ff51f6",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1777678614.400381,
+                    "expires_date": "2026-05-01T23:36:54.400381+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cx_last_match",
+                    "value": "1743118614401",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1777678614.401259,
+                    "expires_date": "2026-05-01T23:36:54.401259+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASPSESSIONIDSQRDSSAC",
+                    "value": "AJFDMNKCJDAAEJIMGMPCEFGO",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"c29c67b6-e722-453b-8e44-0a22340ad96f\",\"ts\":1743118563320}",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654632,
+                    "expires_date": "2026-03-27T23:37:12+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654632.382319,
+                    "expires_date": "2026-03-27T23:37:12.382319+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=18937ff4-729f-4f65-8ec3-106bcbeba6dc&Created=03/27/2025 23:35:46&UserMode=0&guid=0af5679a-ad8b-4300-bd35-6fc68e9777d8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654632.382396,
+                    "expires_date": "2026-03-27T23:37:12.382396+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId474",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2066",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "piskoteu",
+                    "value": "%23g%23%2C%23s%23%2C%23a%23%2DX%2D",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774652445.540009,
+                    "expires_date": "2026-03-27T23:00:45.540009+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747489091",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774654632.133145,
+                    "expires_date": "2026-03-27T23:37:12.133145+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ifpcid",
+                    "value": "997928241812566",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654609,
+                    "expires_date": "2026-03-27T23:36:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "uOZUg703OMxc_UfKOQxHxnhcVnDoWx6S2miyEK3gR4Q-1743118592-1.0.1.1-.hCTmhGI_6aje4qkoQjhrmwDgiLqiv4ofwI_tdSziDIjuKuDbN5qw0VYhIqq7uIwKhKn85_ldoOqmnauWry4UzJp9vbnBV1xIJgFBix7sFE",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743120409.476647,
+                    "expires_date": "2025-03-28T00:06:49.476647+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "d1c1a493-5123-4261-86f2-688ce82f74a4",
+                    "domain": ".mladina.si",
+                    "path": "/",
+                    "expires": 1774654632,
+                    "expires_date": "2026-03-27T23:37:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".mladina.si",
+                    "path": "/",
+                    "expires": 1774654632,
+                    "expires_date": "2026-03-27T23:37:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.5fee432fc2d719086362",
+                    "domain": ".mladina.si",
+                    "path": "/",
+                    "expires": 1777678632.646821,
+                    "expires_date": "2026-05-01T23:37:12.646821+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745797010.800482,
+                    "expires_date": "2025-04-27T23:36:50.800482+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "7515945907622817143",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748302633.675022,
+                    "expires_date": "2025-05-26T23:37:13.675022+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "OAGEO",
+                    "value": "2%7CSI%7CEU%7C1%7CMenges%7C1234%7C46.1638%7C14.5677%7C5%7CEurope%2FLjubljana%7C%7C072%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7CTelekom+Slovenije%7CTelekom+Slovenije%7C%7C5603%7CTelekom+Slovenije%2C+d.d.",
+                    "domain": "new.dnetwork.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "01000111010001000101000001010010",
+                    "domain": "new.dnetwork.si",
+                    "path": "/",
+                    "expires": 1774654633.383344,
+                    "expires_date": "2026-03-27T23:37:13.383344+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777246627.110626,
+                    "expires_date": "2026-04-26T23:37:07.110626+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "",
+                    "value": "cx_test",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cx_id",
+                    "value": "67e5e0ff495d3c65c0ff51f6",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1777678614.400381,
+                    "expires_date": "2026-05-01T23:36:54.400381+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cx_last_match",
+                    "value": "1743118614401",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1777678614.401259,
+                    "expires_date": "2026-05-01T23:36:54.401259+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cx_id",
+                    "value": "67e5e0ff495d3c65c0ff51f6",
+                    "domain": ".contentexchange.me",
+                    "path": "/",
+                    "expires": 1777678614.508395,
+                    "expires_date": "2026-05-01T23:36:54.508395+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cf_clearance",
+                    "value": "by9zKjWAq_7FV4mNTqRTMeueR8Uo0gwzriYf_Q9iE7I-1743118598-1.2.1.1-VSt4xFgDzZudEZSYekmgi0GlKCQ0qOGMyWTKW0Pcrh6GqgMVR77OSv7IlMMLfM_rtpu4BP8kKAWiAu95ygL7AM6gB7VxQB2EpGZl99avV1uPKB5rn_dkbVzOv80sN5b4zcyQcrx_hubs_Ca_I6989IDlOqrWnlhqTJjCqJIgPXn11wda4TpfTGifmYorKiETNKkli3.l9JqQxIdQn9crKrQAYBmOfmgcjvFZhHfF9o39xC5AXnUvEvSHpxN9.JnGJrtTmVPg2uvqM3HxQYx4Ji0sxtQYjEHGgNxxQlvoumbB9j5njQrQhm4TuscYSCk.OuXXty_JxD_QBix2W3paevNKsndpzKqwEM9ARtTMRS8",
+                    "domain": ".contentexchange.me",
+                    "path": "/",
+                    "expires": 1774654615.039331,
+                    "expires_date": "2026-03-27T23:36:55.039331+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2057",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId4519",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlxVmRaGQMQGxOEcDSa8u4lUssGMB1LcL6nxGsRP5xbtGKGGqXOELGl8lej2GSfPgK4aGQeSttUX3qFiMG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777246627.110734,
+                    "expires_date": "2026-04-26T23:37:07.110734+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "NV7Apx_EmpCb9xUQnJiRT2gMh1Nk_2xA9cPDvJKBgzj.v7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777246627.110783,
+                    "expires_date": "2026-04-26T23:37:07.110783+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_R998HEVQ00",
+                    "value": "GS1.1.1743118609.1.1.1743118632.37.0.0",
+                    "domain": ".mladina.si",
+                    "path": "/",
+                    "expires": 1777678632.646312,
+                    "expires_date": "2026-05-01T23:37:12.646312+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto uporablja piškotke z namenom zagotavljanja spletne storitve, \n        oglasnih sistemov in funkcionalnosti, ki jih brez piškotkov ne bi mogli nuditi. \n        Z obiskom in uporabo spletnega mesta soglašate s piškotki.\n      \n    \n      \n        \n        \n        \n      \n      \n      \n      \n      \n        Več o piškotkih in nastavitve piškotkov",
+                "banner_z_index": 100,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih in nastavitve piškotkov]  \nExplanation: \"Strinjam se\" is an ambiguous phrase signifying acceptance, hence categorized under AmbiguousLabel1. The phrase \"Več o piškotkih in nastavitve piškotkov\" implies managing settings or obtaining more information about cookies, fitting under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih in nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is an ambiguous phrase signifying acceptance, hence categorized under AmbiguousLabel1. The phrase \"Več o piškotkih in nastavitve piškotkov\" implies managing settings or obtaining more information about cookies, fitting under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Strinjam se",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T00:36:02.810634",
+        "timestamp_stop": "2025-03-28T00:37:21.008809"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Več o piškotkih in nastavitve piškotkov)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mladina.si/",
+            "https://www.mladina.si/",
+            "https://www.mladina.si/kolumne/ekonomija/",
+            "https://www.mladina.si/podjetje/",
+            "https://www.mladina.si/kolumne/?c=143"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "ASPSESSIONIDSQRDSSAC",
+                    "value": "HAGDMNKCPLCMKKEEIELNPEPH",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"b95333f5-7811-4468-af4f-86c1aa723808\",\"ts\":1743118643265}",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654643,
+                    "expires_date": "2026-03-27T23:37:23+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654643.59629,
+                    "expires_date": "2026-03-27T23:37:23.596290+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=f6db7a88-92b8-4991-aa30-75978d0ba1d3&Created=03/27/2025 23:37:06&UserMode=0&guid=c217c5d6-9956-4269-96be-e6bccedd2c4a&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654643.596374,
+                    "expires_date": "2026-03-27T23:37:23.596374+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId474",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2066",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "ASPSESSIONIDSQRDSSAC",
+                    "value": "HAGDMNKCPLCMKKEEIELNPEPH",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"b95333f5-7811-4468-af4f-86c1aa723808\",\"ts\":1743118643265}",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654689,
+                    "expires_date": "2026-03-27T23:38:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654689.866413,
+                    "expires_date": "2026-03-27T23:38:09.866413+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=f6db7a88-92b8-4991-aa30-75978d0ba1d3&Created=03/27/2025 23:37:06&UserMode=0&guid=c217c5d6-9956-4269-96be-e6bccedd2c4a&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654689.8665,
+                    "expires_date": "2026-03-27T23:38:09.866500+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId474",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2066",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId4519",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASPSESSIONIDSQRDSSAC",
+                    "value": "HAGDMNKCPLCMKKEEIELNPEPH",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"b95333f5-7811-4468-af4f-86c1aa723808\",\"ts\":1743118643265}",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": 1774654710,
+                    "expires_date": "2026-03-27T23:38:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654711.120737,
+                    "expires_date": "2026-03-27T23:38:31.120737+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=f6db7a88-92b8-4991-aa30-75978d0ba1d3&Created=03/27/2025 23:37:06&UserMode=0&guid=c217c5d6-9956-4269-96be-e6bccedd2c4a&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654711.120861,
+                    "expires_date": "2026-03-27T23:38:31.120861+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId474",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2066",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId4519",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId474SecId2057",
+                    "value": "1",
+                    "domain": "www.mladina.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_redirected.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto uporablja piškotke z namenom zagotavljanja spletne storitve, \n        oglasnih sistemov in funkcionalnosti, ki jih brez piškotkov ne bi mogli nuditi. \n        Z obiskom in uporabo spletnega mesta soglašate s piškotki.\n      \n    \n      \n        \n        \n        \n      \n      \n      \n      \n      \n        Več o piškotkih in nastavitve piškotkov",
+                "banner_z_index": 100,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih in nastavitve piškotkov]  \nExplanation: The button [Strinjam se] is classified as an ambiguous acceptance phrase. The button [Več o piškotkih in nastavitve piškotkov] relates to managing settings, thus it is categorized under GenericLabel3. There are no clear accept or decline buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih in nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Strinjam se is classified as an ambiguous acceptance phrase. The button Več o piškotkih in nastavitve piškotkov relates to managing settings, thus it is categorized under GenericLabel3. There are no clear accept or decline buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več o piškotkih in nastavitve piškotkov",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T00:37:22.720738",
+        "timestamp_stop": "2025-03-28T00:38:39.435725"
+    }
+}

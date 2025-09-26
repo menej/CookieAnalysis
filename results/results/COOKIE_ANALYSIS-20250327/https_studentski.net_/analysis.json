@@ -1,0 +1,2870 @@
+{
+    "web_page": "https://studentski.net/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T01:40:09.004740",
+    "timestamp_stop": "2025-03-28T01:44:16.848770",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://studentski.net/",
+            "https://studentski.net/studij/visje-sole-v-sloveniji",
+            "https://studentski.net/studij/visje-sole/lc-vss",
+            "https://studentski.net/?page=63"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"5fc519b8-f508-46dc-8869-c02bb4f9f639\",\"ts\":1743122411044}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658411,
+                    "expires_date": "2026-03-28T00:40:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "61c5a74a2c3200afd96f4cd131b38804",
+                    "domain": "ads.studentski.net",
+                    "path": "/",
+                    "expires": 1774658411.254331,
+                    "expires_date": "2026-03-28T00:40:11.254331+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658411.684943,
+                    "expires_date": "2026-03-28T00:40:11.684943+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=e3f33cfd-ab50-40c1-8bab-2aa74a0f9eb6&Created=03/28/2025 00:39:54&UserMode=0&guid=296622ba-d4b1-4190-b3fa-e0c71673c3e3&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658411.685028,
+                    "expires_date": "2026-03-28T00:40:11.685028+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IndyOUFuZ0gxN3BxTjc4RUlEclpLMVE9PSIsInZhbHVlIjoiRnNIWjk4U3JWSk51Nit2NjNZc3phK2ZsbzdHRzc3YzRyZlNCK2ZsUUcyOWUrWEUrTVFocDB2NVpkNFpEeHQvYWNWZUlaNzJVYml4Yit6MDAvbGxmeWlMY2NSVmV2RWR2b2JyYVV6OVZlUXpFc1lNSmlMQ1RMTmplT3gxZ1pHYUIiLCJtYWMiOiI3YTE1NDhjYWM5ZGQ3ODE4MTUyMjUxNjMyNjNiMDU1MGMwMTRhMGMyN2E0MGIwYmRkN2FkZmI1Yzc1ZTBkOTY0IiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129611.252046,
+                    "expires_date": "2025-03-28T02:40:11.252046+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6IkNPdVNtL3hYUUMxaXcwQlRpcHdkb3c9PSIsInZhbHVlIjoiWTIvSUZQSktOYjBVMmI2Nmx3VDZNWU5mOVBkWUxnRFV1RjlkUHdYU3JGSGNoSVZKZkQ4QkUzNEg1K0ZIWE5iVlVaTXowVlZ3Qng4Zmd6TDJIclFKRDNLbVc4OEtTcTE3eVhSOXNoanVvbTdrMkRyaXEzc2FsVzRYb1NDK3JLU3MiLCJtYWMiOiI1NjU5NzYyZjc1MTY4YzcxMTkwMDMzYmQxZWQ0Y2NhNjJmN2Q5ZjhhZjc2ZWEzOWExYzc2ZmYxZGM0OWQyOWRkIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129611.252138,
+                    "expires_date": "2025-03-28T02:40:11.252138+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"4c148759-baec-4473-9ba8-c0db37472309\",\"ts\":1743122411479}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658411,
+                    "expires_date": "2026-03-28T00:40:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658411.969384,
+                    "expires_date": "2026-03-28T00:40:11.969384+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=24a61b32-1da2-488d-b78e-a800329c827c&Created=03/28/2025 00:39:54&UserMode=0&guid=5857ee3e-ddf6-48dd-a6bc-0f1da64af482&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658411.969502,
+                    "expires_date": "2026-03-28T00:40:11.969502+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1181604131.1743122412",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682411.539774,
+                    "expires_date": "2026-05-02T00:40:11.539774+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.885409417.1743122412",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743208811,
+                    "expires_date": "2025-03-29T00:40:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-8",
+                    "value": "1",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743122471,
+                    "expires_date": "2025-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_ST1RXDRPC8",
+                    "value": "GS1.2.1743122411.1.0.1743122411.0.0.0",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682411.813762,
+                    "expires_date": "2026-05-02T00:40:11.813762+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "ea9d6d05-2afb-44cc-b744-76a0baab5b10",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658412,
+                    "expires_date": "2026-03-28T00:40:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658412,
+                    "expires_date": "2026-03-28T00:40:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250412.39737,
+                    "expires_date": "2026-04-27T00:40:12.397370+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gtest",
+                    "value": "KlxztMXGQMGGKVRy9KYZu4lUssGMXP8c25nSGuxoGIui2MbG",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1743727212.323572,
+                    "expires_date": "2025-04-04T00:40:12.323572+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlGI8RGGQMGGKVRy9KYZu4lUssGMXP8c25nSGuxoGIui2GySssX6nsGfGKfwHyExSQGgr2xaG0F6Sssa",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250412.397505,
+                    "expires_date": "2026-04-27T00:40:12.397505+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "IorcURv5NjUZ5KBz88yidkrfGC3UBT2UrmKw.q21sAb.u7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250412.397538,
+                    "expires_date": "2026-04-27T00:40:12.397538+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"5fc519b8-f508-46dc-8869-c02bb4f9f639\",\"ts\":1743122411044}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658455,
+                    "expires_date": "2026-03-28T00:40:55+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "61c5a74a2c3200afd96f4cd131b38804",
+                    "domain": "ads.studentski.net",
+                    "path": "/",
+                    "expires": 1774658456.232324,
+                    "expires_date": "2026-03-28T00:40:56.232324+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658456.011214,
+                    "expires_date": "2026-03-28T00:40:56.011214+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=e3f33cfd-ab50-40c1-8bab-2aa74a0f9eb6&Created=03/28/2025 00:39:54&UserMode=0&guid=296622ba-d4b1-4190-b3fa-e0c71673c3e3&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658456.011317,
+                    "expires_date": "2026-03-28T00:40:56.011317+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"4c148759-baec-4473-9ba8-c0db37472309\",\"ts\":1743122411479}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658411,
+                    "expires_date": "2026-03-28T00:40:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658424.759122,
+                    "expires_date": "2026-03-28T00:40:24.759122+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=24a61b32-1da2-488d-b78e-a800329c827c&Created=03/28/2025 00:39:54&UserMode=0&guid=5857ee3e-ddf6-48dd-a6bc-0f1da64af482&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658424.759227,
+                    "expires_date": "2026-03-28T00:40:24.759227+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1181604131.1743122412",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682455.720314,
+                    "expires_date": "2026-05-02T00:40:55.720314+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.885409417.1743122412",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743208855,
+                    "expires_date": "2025-03-29T00:40:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-8",
+                    "value": "1",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743122471,
+                    "expires_date": "2025-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "ea9d6d05-2afb-44cc-b744-76a0baab5b10",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658456,
+                    "expires_date": "2026-03-28T00:40:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658456,
+                    "expires_date": "2026-03-28T00:40:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250424.729053,
+                    "expires_date": "2026-04-27T00:40:24.729053+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlGg-MGGQMGGKVRy9KYZu4lUssGMh14cL6nxmG7sf8jfFQeSssX9hmFGvGQpUfT8SsL8RDcGFsCBm788MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250424.729435,
+                    "expires_date": "2026-04-27T00:40:24.729435+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "AZR1hoaU_W5lsprWQxT2PIRy1zgTFIH9FYF6y02iSKH.j7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250424.729496,
+                    "expires_date": "2026-04-27T00:40:24.729496+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1995",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745800825.824215,
+                    "expires_date": "2025-04-28T00:40:25.824215+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "4109133413130187913",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748306442.871483,
+                    "expires_date": "2025-05-27T00:40:42.871483+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Ik9maHBvT3N6dmNoNC9IZmVnWUVJQlE9PSIsInZhbHVlIjoiRG5JbUlzVm1HTGc4Wk9LbTBFb0hYYW02YXllc1h1RzJMY3p6Z2NSdGxidXBFVGdiVFBBUUhZMGZlSG1DV0QzN2FGOWNNeGhYdUIydzdDb21QNEJxckg4ZjVJRUVlM09CYUZxQ1ZuOE41eUNKc1dhUzN2VTJIVC9obGJpTDZkblYiLCJtYWMiOiIyNTU4YzlhNTk1ZTIwOTI3MTExYmM0YTRhODgzYTJjOWQ3Yjg2NWE4NWI1ZmVlYzQxNGI4ZjgzZjNmZjQ0ODljIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129655.629664,
+                    "expires_date": "2025-03-28T02:40:55.629664+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6InE1dFYyMnFENElEdTNWRW5lbTQ2dmc9PSIsInZhbHVlIjoiS20yd0loejZYM3lKRW5HUHpHeUNmWEFvRVJTcHE4TUxWZnRyd2VHcVEwbEFFWTFIUWxUNDgrbkR2THhXTWdkRWJSQXg3QTBKOURZL25NQ3ZxakJpMTR0MFNCeFRDeU1yMkVzREtmay9CQ2pTNHI1c2ErdDBQR050OUx0czV5djUiLCJtYWMiOiJkY2Q5M2QyOGRmYmEzNTkxNDEyNWQ4NGVmYmQ2MDYwYTdmZmNhYWZkNGEzNTMxNmVhOTI0MDUwMGVjN2RlOTAzIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129655.629901,
+                    "expires_date": "2025-03-28T02:40:55.629901+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_ST1RXDRPC8",
+                    "value": "GS1.2.1743122411.1.1.1743122455.0.0.0",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682455.780966,
+                    "expires_date": "2026-05-02T00:40:55.780966+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T01:40:10.270396",
+        "timestamp_stop": "2025-03-28T01:41:08.859038"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://studentski.net/",
+            "https://studentski.net/studij/visje-sole-v-sloveniji",
+            "https://studentski.net/studij/visje-sole/lc-vss",
+            "https://studentski.net/?page=63"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImZOTUdOQ2l4dzdPdC9lZUtGWStKcHc9PSIsInZhbHVlIjoiZGlKRGRVUTgvWmh5TzJIbWJiS2cyN0pHdDVPYU9HejNxUlNIMFkxd081R3YzbEQ1THhwbDF3VEc3M1dZQUdTZTZTTVJud2pRTVJPelZkYjNpd0Z1dDBrL3dpZWJjMFkzY3BwVnl2OGwxNE4wTmUzNnU0MGo4S21zUVRmNU80YysiLCJtYWMiOiIwYjQ5MDNhZTc4NTdhMDczYzJkMjdkYjQ1MmJiNzRjNTlkMWE2YzQzYjZhYjk1ZTNhNzcxZDMyYTczNDJkYzNjIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129671.108225,
+                    "expires_date": "2025-03-28T02:41:11.108225+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6IlRseWhLcWRyUHhzZW9TNk96Qjh0eEE9PSIsInZhbHVlIjoiNzhoWER0c28yVHJ3SXJWMnJWcFR0M1JFTWZkRWJocjcrWGZyeVBPbHE3RTBCWGsvdTByZmVqOUYyRUZBS2psS1F0N3JzY2R0a0FJeDQ1aXdPN1JSQWhHdk1vT1haeG9uWG9oME5qVlAya0ErOXlhdzNwV1BpbnZBZ2paUGZkaFYiLCJtYWMiOiIxOTQxZTZkMGMwODBjNWIzMWU2M2FiNTg2MDVkOWUzOGI4YTA4MDBjN2Q5MzA2MWJlYzMzZjUzYjZjOThiODM1IiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129671.108352,
+                    "expires_date": "2025-03-28T02:41:11.108352+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"1ded8800-57d7-4bcf-9d3d-7ee57e1a5a2f\",\"ts\":1743122471256}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "acef3a03a690bc89aed4f0fe54d1a19e",
+                    "domain": "ads.studentski.net",
+                    "path": "/",
+                    "expires": 1774658471.497886,
+                    "expires_date": "2026-03-28T00:41:11.497886+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658471.853497,
+                    "expires_date": "2026-03-28T00:41:11.853497+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=a60d72d6-6614-460c-af9e-c97c6358b896&Created=03/28/2025 00:40:54&UserMode=0&guid=72dc0d1f-26fe-470c-8d3c-2c1831df70c8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658471.853599,
+                    "expires_date": "2026-03-28T00:41:11.853599+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"2e3a8dd5-47e6-4e59-a668-add34a244c1f\",\"ts\":1743122471664}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.177344857.1743122472",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682471.70168,
+                    "expires_date": "2026-05-02T00:41:11.701680+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1820738017.1743122472",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743208871,
+                    "expires_date": "2025-03-29T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-8",
+                    "value": "1",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743122531,
+                    "expires_date": "2025-03-28T00:42:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658472.033802,
+                    "expires_date": "2026-03-28T00:41:12.033802+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=8d6ab930-23e3-4bc8-a329-312dc02b552b&Created=03/28/2025 00:40:54&UserMode=0&guid=53ffb988-0b1a-433f-88da-f1152c82c2cb&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658472.033909,
+                    "expires_date": "2026-03-28T00:41:12.033909+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745800871.88988,
+                    "expires_date": "2025-04-28T00:41:11.889880+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "105b530e-1f90-4b7a-b338-5bb2d0d87da9",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_ST1RXDRPC8",
+                    "value": "GS1.2.1743122472.1.0.1743122472.0.0.0",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682472.024221,
+                    "expires_date": "2026-05-02T00:41:12.024221+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "350536191649419160",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748306472.042899,
+                    "expires_date": "2025-05-27T00:41:12.042899+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImZOTUdOQ2l4dzdPdC9lZUtGWStKcHc9PSIsInZhbHVlIjoiZGlKRGRVUTgvWmh5TzJIbWJiS2cyN0pHdDVPYU9HejNxUlNIMFkxd081R3YzbEQ1THhwbDF3VEc3M1dZQUdTZTZTTVJud2pRTVJPelZkYjNpd0Z1dDBrL3dpZWJjMFkzY3BwVnl2OGwxNE4wTmUzNnU0MGo4S21zUVRmNU80YysiLCJtYWMiOiIwYjQ5MDNhZTc4NTdhMDczYzJkMjdkYjQ1MmJiNzRjNTlkMWE2YzQzYjZhYjk1ZTNhNzcxZDMyYTczNDJkYzNjIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129671.108225,
+                    "expires_date": "2025-03-28T02:41:11.108225+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6IlRseWhLcWRyUHhzZW9TNk96Qjh0eEE9PSIsInZhbHVlIjoiNzhoWER0c28yVHJ3SXJWMnJWcFR0M1JFTWZkRWJocjcrWGZyeVBPbHE3RTBCWGsvdTByZmVqOUYyRUZBS2psS1F0N3JzY2R0a0FJeDQ1aXdPN1JSQWhHdk1vT1haeG9uWG9oME5qVlAya0ErOXlhdzNwV1BpbnZBZ2paUGZkaFYiLCJtYWMiOiIxOTQxZTZkMGMwODBjNWIzMWU2M2FiNTg2MDVkOWUzOGI4YTA4MDBjN2Q5MzA2MWJlYzMzZjUzYjZjOThiODM1IiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129671.108352,
+                    "expires_date": "2025-03-28T02:41:11.108352+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"1ded8800-57d7-4bcf-9d3d-7ee57e1a5a2f\",\"ts\":1743122471256}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "acef3a03a690bc89aed4f0fe54d1a19e",
+                    "domain": "ads.studentski.net",
+                    "path": "/",
+                    "expires": 1774658471.497886,
+                    "expires_date": "2026-03-28T00:41:11.497886+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658471.853497,
+                    "expires_date": "2026-03-28T00:41:11.853497+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=a60d72d6-6614-460c-af9e-c97c6358b896&Created=03/28/2025 00:40:54&UserMode=0&guid=72dc0d1f-26fe-470c-8d3c-2c1831df70c8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658471.853599,
+                    "expires_date": "2026-03-28T00:41:11.853599+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"2e3a8dd5-47e6-4e59-a668-add34a244c1f\",\"ts\":1743122471664}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.177344857.1743122472",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682471.70168,
+                    "expires_date": "2026-05-02T00:41:11.701680+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1820738017.1743122472",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743208871,
+                    "expires_date": "2025-03-29T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-8",
+                    "value": "1",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743122531,
+                    "expires_date": "2025-03-28T00:42:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658472.033802,
+                    "expires_date": "2026-03-28T00:41:12.033802+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=8d6ab930-23e3-4bc8-a329-312dc02b552b&Created=03/28/2025 00:40:54&UserMode=0&guid=53ffb988-0b1a-433f-88da-f1152c82c2cb&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658472.033909,
+                    "expires_date": "2026-03-28T00:41:12.033909+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745800871.88988,
+                    "expires_date": "2025-04-28T00:41:11.889880+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "105b530e-1f90-4b7a-b338-5bb2d0d87da9",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_ST1RXDRPC8",
+                    "value": "GS1.2.1743122472.1.0.1743122472.0.0.0",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682472.024221,
+                    "expires_date": "2026-05-02T00:41:12.024221+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "350536191649419160",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748306472.042899,
+                    "expires_date": "2025-05-27T00:41:12.042899+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"1ded8800-57d7-4bcf-9d3d-7ee57e1a5a2f\",\"ts\":1743122471256}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658558,
+                    "expires_date": "2026-03-28T00:42:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "acef3a03a690bc89aed4f0fe54d1a19e",
+                    "domain": "ads.studentski.net",
+                    "path": "/",
+                    "expires": 1774658558.737981,
+                    "expires_date": "2026-03-28T00:42:38.737981+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658558.541667,
+                    "expires_date": "2026-03-28T00:42:38.541667+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=a60d72d6-6614-460c-af9e-c97c6358b896&Created=03/28/2025 00:40:54&UserMode=0&guid=72dc0d1f-26fe-470c-8d3c-2c1831df70c8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658558.542083,
+                    "expires_date": "2026-03-28T00:42:38.542083+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"2e3a8dd5-47e6-4e59-a668-add34a244c1f\",\"ts\":1743122471664}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658471,
+                    "expires_date": "2026-03-28T00:41:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.177344857.1743122472",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682558.262547,
+                    "expires_date": "2026-05-02T00:42:38.262547+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1820738017.1743122472",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743208958,
+                    "expires_date": "2025-03-29T00:42:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658527.243305,
+                    "expires_date": "2026-03-28T00:42:07.243305+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=8d6ab930-23e3-4bc8-a329-312dc02b552b&Created=03/28/2025 00:40:54&UserMode=0&guid=53ffb988-0b1a-433f-88da-f1152c82c2cb&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658527.243438,
+                    "expires_date": "2026-03-28T00:42:07.243438+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745800871.88988,
+                    "expires_date": "2025-04-28T00:41:11.889880+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "105b530e-1f90-4b7a-b338-5bb2d0d87da9",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658558,
+                    "expires_date": "2026-03-28T00:42:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658558,
+                    "expires_date": "2026-03-28T00:42:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "350536191649419160",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748306528.290176,
+                    "expires_date": "2025-05-27T00:42:08.290176+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1995",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-8",
+                    "value": "1",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743122604,
+                    "expires_date": "2025-03-28T00:43:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250558.030733,
+                    "expires_date": "2026-04-27T00:42:38.030733+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlxkhMMGQMQGB3af5G9xudwGssrvKxwxfQnSGG76Cjmh6jaUGsRP0QlGvGQpUfT8SsL8RDcGFsCB0788MG..",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250558.030892,
+                    "expires_date": "2026-04-27T00:42:38.030892+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "cTx14mwRbfqEVbVBgo1sS4JSeiuL89.pH35s.HM2pET.D7",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777250558.030935,
+                    "expires_date": "2026-04-27T00:42:38.030935+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InVDOE9Ga3Q4V1JHZit5QVVqbjMyMFE9PSIsInZhbHVlIjoiaStndE0rWlNESmFMWUpoSnN0TWs5YS9wb01HbjQrQ1A3Y2pxNkQrZDJpMEZ6bSs1eFlxYWRLOUhsdnY5S1R5M25BeERRU3hWKzJNaVkrcDRBS1AwUDA3MjhIcVpTWGdrMDFqQXZzbkZxbnE4ZC8zV0dSVFFxTlU1ek1VRGt2RDMiLCJtYWMiOiIzMGY1NzAxMTJiNjJiNjliZTBkYjc1ZTExOTY1ZmYxMDk0NjllMWIzMDljN2Y2M2FhMmFiYzYyNDU5MDgxNWY3IiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129758.14374,
+                    "expires_date": "2025-03-28T02:42:38.143740+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6IkdIWkhZbjdXdGRhOWlINi9kV3UvcGc9PSIsInZhbHVlIjoiVHozVmowWFFGMFBndlk2ZmVyVjJ5KzE4QU1WcThRT0lBUy9ReEpFVDBQZFRsbmVRVVN6cG1DZDc3NmhnckF3OUhINUc4emxSQ2JwbTZPU1JFNG5kN09sRmgrTnZkd2NKU3lEc043M1M2L2NqaDJLZlUzcnF3aGRjSjRqalJiZTIiLCJtYWMiOiJkODUyNWIwZDE2OTFjOTM2MjZlY2UwZWM2NzQ0Y2MxMGViYTJjZDFmN2JlNmEwODYxYjc2NmNkYzFmYzk4YjE5IiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129758.143953,
+                    "expires_date": "2025-03-28T02:42:38.143953+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_ST1RXDRPC8",
+                    "value": "GS1.2.1743122472.1.1.1743122558.0.0.0",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682558.321045,
+                    "expires_date": "2026-05-02T00:42:38.321045+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "PozdravljeniTo spletno mesto zahteva vaše soglasje za uporabo vaših podatkovOsebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 132 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 65 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v nastavitvah zasebnosti in piškotkov.SoglasjeNe soglašamUpravljanje možnostiNast",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne soglašam]  \nAmbiguousLabel1: None  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje možnosti]  \nExplanation: The label \"[Ne soglašam]\" indicates a decline of all cookies, so it is categorized under GenericLabel2. The label \"[Upravljanje možnosti]\" indicates managing options/settings, so it is assigned to GenericLabel3. There are no labels for accepting all cookies or any ambiguous accept or decline phrases present.",
+                "llm_response_parsed": {
+                    "Accept": null,
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": null,
+                    "Decline": "Ne soglašam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Upravljanje možnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The label \"Ne soglašam\" indicates a decline of all cookies, so it is categorized under GenericLabel2. The label \"Upravljanje možnosti\" indicates managing options/settings, so it is assigned to GenericLabel3. There are no labels for accepting all cookies or any ambiguous accept or decline phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T01:41:10.532949",
+        "timestamp_stop": "2025-03-28T01:42:51.987001"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Ne soglašam)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://studentski.net/",
+            "https://studentski.net/studij/visje-sole-v-sloveniji",
+            "https://studentski.net/studij/visje-sole/lc-vss",
+            "https://studentski.net/?page=63"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InFmNm9GcnBqN2k2V1VTTnNYUU1rNlE9PSIsInZhbHVlIjoiQVdIWlJDRXBnSVo2NTA3aC94clhrOG9Tc0VqcGVRVnZRaUNhbWdvSzY2RHpRdi9oSkhNWERiNS9qWVFJdDg0d3RaS2RySkw3QlNwSStiUHJteDdQOUZmd25vMEh3aEx5bWxBTnNrNjRtT0JSb1AybTlXQnl5cy9Qdm5nTGx5NmMiLCJtYWMiOiJlNWQwMTQ3MWExNWY0ODYwNTI1ZDE0ZDc4NDFkNWQyNjMwY2U0MDAxODdjNDJkNzVhZWFiYzEyYWU3M2EwZjhmIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129774.193103,
+                    "expires_date": "2025-03-28T02:42:54.193103+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6InFCTU5iZHpkc0g0UUZnYXhzeXdWWmc9PSIsInZhbHVlIjoidnBzRjMwcFpmdTIwaGRQZnh0MEVmcHVNQ3lXS2pWa0tHWG1DWUlLUXoyN2ZEak82VjNoNDVhdTFaM1F3VHBraGpZVHNMcm9WVy9QMHR5cVdFS0VIbC82cHpNV2VrVlA1aHVJRjJSUWxMb3lrQWhUdWppT0VBbFpWWjdOTVFIcWMiLCJtYWMiOiI3YTc5OTBmYTkwNDdhYjJkNzQ4ZjI5YmY4MTNhOGU3MTA2MTlhYjI3ZWNlNmZlZWQ3YTJhMjYyZmExYzI4ZjM1IiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129774.193177,
+                    "expires_date": "2025-03-28T02:42:54.193177+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "0a023401f65e704327f4db57b7627cfe",
+                    "domain": "ads.studentski.net",
+                    "path": "/",
+                    "expires": 1774658574.602955,
+                    "expires_date": "2026-03-28T00:42:54.602955+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"4c4a1ff8-fb63-4ec2-9edd-b499d9e68a0a\",\"ts\":1743122574330}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658574,
+                    "expires_date": "2026-03-28T00:42:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658574.935589,
+                    "expires_date": "2026-03-28T00:42:54.935589+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=bb31c5d1-1a88-4b99-9e66-e7122f8bc7db&Created=03/28/2025 00:42:37&UserMode=0&guid=f1932778-8f95-47a4-8f9a-b278f3088378&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658574.935677,
+                    "expires_date": "2026-03-28T00:42:54.935677+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"559254be-2efb-4bdb-9ddd-3365853ec92c\",\"ts\":1743122574721}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658574,
+                    "expires_date": "2026-03-28T00:42:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1943610725.1743122575",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682574.748592,
+                    "expires_date": "2026-05-02T00:42:54.748592+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.14473408.1743122575",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743208974,
+                    "expires_date": "2025-03-29T00:42:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-8",
+                    "value": "1",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743122634,
+                    "expires_date": "2025-03-28T00:43:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658575.243214,
+                    "expires_date": "2026-03-28T00:42:55.243214+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d5ad8ba2-759c-4c04-8db3-8452879a126e&Created=03/28/2025 00:42:37&UserMode=0&guid=31f67447-03b0-4db3-9960-a9c26b9bae40&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658575.243303,
+                    "expires_date": "2026-03-28T00:42:55.243303+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_ST1RXDRPC8",
+                    "value": "GS1.2.1743122574.1.0.1743122574.0.0.0",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682574.962298,
+                    "expires_date": "2026-05-02T00:42:54.962298+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "6983f713-0c9e-4416-ae84-1bab02d19b3d",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658575,
+                    "expires_date": "2026-03-28T00:42:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658575,
+                    "expires_date": "2026-03-28T00:42:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InFmNm9GcnBqN2k2V1VTTnNYUU1rNlE9PSIsInZhbHVlIjoiQVdIWlJDRXBnSVo2NTA3aC94clhrOG9Tc0VqcGVRVnZRaUNhbWdvSzY2RHpRdi9oSkhNWERiNS9qWVFJdDg0d3RaS2RySkw3QlNwSStiUHJteDdQOUZmd25vMEh3aEx5bWxBTnNrNjRtT0JSb1AybTlXQnl5cy9Qdm5nTGx5NmMiLCJtYWMiOiJlNWQwMTQ3MWExNWY0ODYwNTI1ZDE0ZDc4NDFkNWQyNjMwY2U0MDAxODdjNDJkNzVhZWFiYzEyYWU3M2EwZjhmIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129774.193103,
+                    "expires_date": "2025-03-28T02:42:54.193103+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6InFCTU5iZHpkc0g0UUZnYXhzeXdWWmc9PSIsInZhbHVlIjoidnBzRjMwcFpmdTIwaGRQZnh0MEVmcHVNQ3lXS2pWa0tHWG1DWUlLUXoyN2ZEak82VjNoNDVhdTFaM1F3VHBraGpZVHNMcm9WVy9QMHR5cVdFS0VIbC82cHpNV2VrVlA1aHVJRjJSUWxMb3lrQWhUdWppT0VBbFpWWjdOTVFIcWMiLCJtYWMiOiI3YTc5OTBmYTkwNDdhYjJkNzQ4ZjI5YmY4MTNhOGU3MTA2MTlhYjI3ZWNlNmZlZWQ3YTJhMjYyZmExYzI4ZjM1IiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129774.193177,
+                    "expires_date": "2025-03-28T02:42:54.193177+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OAID",
+                    "value": "0a023401f65e704327f4db57b7627cfe",
+                    "domain": "ads.studentski.net",
+                    "path": "/",
+                    "expires": 1774658574.602955,
+                    "expires_date": "2026-03-28T00:42:54.602955+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"4c4a1ff8-fb63-4ec2-9edd-b499d9e68a0a\",\"ts\":1743122574330}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658574,
+                    "expires_date": "2026-03-28T00:42:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658574.935589,
+                    "expires_date": "2026-03-28T00:42:54.935589+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=bb31c5d1-1a88-4b99-9e66-e7122f8bc7db&Created=03/28/2025 00:42:37&UserMode=0&guid=f1932778-8f95-47a4-8f9a-b278f3088378&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658574.935677,
+                    "expires_date": "2026-03-28T00:42:54.935677+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"559254be-2efb-4bdb-9ddd-3365853ec92c\",\"ts\":1743122574721}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658574,
+                    "expires_date": "2026-03-28T00:42:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1943610725.1743122575",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682574.748592,
+                    "expires_date": "2026-05-02T00:42:54.748592+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.14473408.1743122575",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743208974,
+                    "expires_date": "2025-03-29T00:42:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-8",
+                    "value": "1",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743122634,
+                    "expires_date": "2025-03-28T00:43:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658575.243214,
+                    "expires_date": "2026-03-28T00:42:55.243214+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d5ad8ba2-759c-4c04-8db3-8452879a126e&Created=03/28/2025 00:42:37&UserMode=0&guid=31f67447-03b0-4db3-9960-a9c26b9bae40&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658575.243303,
+                    "expires_date": "2026-03-28T00:42:55.243303+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_ST1RXDRPC8",
+                    "value": "GS1.2.1743122574.1.0.1743122574.0.0.0",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682574.962298,
+                    "expires_date": "2026-05-02T00:42:54.962298+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "6983f713-0c9e-4416-ae84-1bab02d19b3d",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658575,
+                    "expires_date": "2026-03-28T00:42:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658575,
+                    "expires_date": "2026-03-28T00:42:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO-wEAQO-wEAEsACBSLBjFgAAAAAEPgACRAAAANVSD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAA%22%2C%222~~dv.70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778%22%2C%22E510F469-896C-403D-9CE3-206F9442A750%22%5D%5D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1776818622,
+                    "expires_date": "2026-04-22T00:43:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=ec1f29ab0e97b4d7:T=1743122605:RT=1743122605:S=AA-AfjYo3ieORn7F92gxokTUmKig",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1758674605,
+                    "expires_date": "2025-09-24T00:43:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "OAID",
+                    "value": "0a023401f65e704327f4db57b7627cfe",
+                    "domain": "ads.studentski.net",
+                    "path": "/",
+                    "expires": 1774658648.985351,
+                    "expires_date": "2026-03-28T00:44:08.985351+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"4c4a1ff8-fb63-4ec2-9edd-b499d9e68a0a\",\"ts\":1743122574330}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658648,
+                    "expires_date": "2026-03-28T00:44:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658648.839312,
+                    "expires_date": "2026-03-28T00:44:08.839312+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=bb31c5d1-1a88-4b99-9e66-e7122f8bc7db&Created=03/28/2025 00:42:37&UserMode=0&guid=f1932778-8f95-47a4-8f9a-b278f3088378&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658648.839393,
+                    "expires_date": "2026-03-28T00:44:08.839393+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"559254be-2efb-4bdb-9ddd-3365853ec92c\",\"ts\":1743122574721}",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1774658574,
+                    "expires_date": "2026-03-28T00:42:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1943610725.1743122575",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682648.532374,
+                    "expires_date": "2026-05-02T00:44:08.532374+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.14473408.1743122575",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743209048,
+                    "expires_date": "2025-03-29T00:44:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658628.01746,
+                    "expires_date": "2026-03-28T00:43:48.017460+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d5ad8ba2-759c-4c04-8db3-8452879a126e&Created=03/28/2025 00:42:37&UserMode=0&guid=31f67447-03b0-4db3-9960-a9c26b9bae40&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774658628.01756,
+                    "expires_date": "2026-03-28T00:43:48.017560+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId411",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pubcid",
+                    "value": "6983f713-0c9e-4416-ae84-1bab02d19b3d",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658649,
+                    "expires_date": "2026-03-28T00:44:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pubcid_cst",
+                    "value": "zix7LPQsHA%3D%3D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1774658649,
+                    "expires_date": "2026-03-28T00:44:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1785Stress",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO-wEAQO-wEAEsACBSLBjFgAAAAAEPgACRAAAANVSD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAA%22%2C%222~~dv.70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778%22%2C%22E510F469-896C-403D-9CE3-206F9442A750%22%5D%5D",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1776818622,
+                    "expires_date": "2026-04-22T00:43:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=ec1f29ab0e97b4d7:T=1743122605:RT=1743122605:S=AA-AfjYo3ieORn7F92gxokTUmKig",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1758674605,
+                    "expires_date": "2025-09-24T00:43:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId411SecId1995",
+                    "value": "1",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat_UA-1075557-8",
+                    "value": "1",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1743122700,
+                    "expires_date": "2025-03-28T00:45:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_ST1RXDRPC8",
+                    "value": "GS1.2.1743122574.1.1.1743122648.0.0.0",
+                    "domain": ".studentski.net",
+                    "path": "/",
+                    "expires": 1777682648.587867,
+                    "expires_date": "2026-05-02T00:44:08.587867+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IkhvWWgrSGhOQVVoc09UeFk1UG5YbVE9PSIsInZhbHVlIjoiSzMwOVJjMDhtQ3VLYXVzaGVIVytGeFB3Ym5pMFNxeFFUbkpXUmwxeXA3ZzRtU0ZrelFpZThGSEVvYzkrWXJZbHZnYnQzcE0rOENBYWgreHNCNTNFQVZTRWF5UG4zZElSdEVVNFk3QmEwSHZRNmRTWVFLQ3FFK2pMdTV2WFhrUDIiLCJtYWMiOiJmOTNjZjEyYWNkZjMyMzVmNjg4MmJlYjM2N2RhNDM1Mzk5MGY4NjFmOTlmZDY4MzU2MTM2NjFlYzA0MzY3Y2IyIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129856.267954,
+                    "expires_date": "2025-03-28T02:44:16.267954+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ex_session",
+                    "value": "eyJpdiI6InQ0V3VUZEhxL0VFdTdQZU1NRkwvcHc9PSIsInZhbHVlIjoiQ1dFY1BqclYyQWE1TTVRSmVrQUcyZ3ZWT2FOZXlmTWo2UGtXbmhyOTBXSjI4Y1FjNWxNWmxWQ1dXR0VSaTBhc0lyd2wyOVpMVEIvZGNENnhTU3lxdkhDOW9RcTMzWWxyejRwN3J5QW9VWFlWQThNYmVVT0tRbzM4N0lkYjRoZkgiLCJtYWMiOiJiNzg0YzI2ZDFjOGIyZTMwNWY5NDk3ZTg2OGEyNWEyZWQ0NjIxZDVhMjFkZDg2MWE2YTRkNmJmMjFkNTI1MmVmIiwidGFnIjoiIn0%3D",
+                    "domain": "studentski.net",
+                    "path": "/",
+                    "expires": 1743129856.268068,
+                    "expires_date": "2025-03-28T02:44:16.268068+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "003_decline_init_1.png",
+            "004_decline_best_candidate_1.png",
+            "005_decline_interaction_1_click_1.png",
+            "006_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "PozdravljeniTo spletno mesto zahteva vaše soglasje za uporabo vaših podatkovOsebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 132 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 65 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v nastavitvah zasebnosti in piškotkov.SoglasjeNe soglašamUpravljanje možnostiNast",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Ne soglašam]  \nAmbiguousLabel1: None  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje možnosti]  \nExplanation: The text [Ne soglašam] is categorized as declining all cookies, and [Upravljanje možnosti] is categorized under settings management. There are no accepting or ambiguous acceptance phrases present.",
+                "llm_response_parsed": {
+                    "Accept": null,
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": null,
+                    "Decline": "Ne soglašam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Upravljanje možnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The text Ne soglašam is categorized as declining all cookies, and Upravljanje možnosti is categorized under settings management. There are no accepting or ambiguous acceptance phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Ne soglašam",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T01:42:53.629351",
+        "timestamp_stop": "2025-03-28T01:44:16.515128"
+    }
+}

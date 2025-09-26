@@ -1,0 +1,696 @@
+{
+    "web_page": "https://www.e-stave.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T18:44:32.620096",
+    "timestamp_stop": "2025-03-28T18:48:15.676275",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.e-stave.com/",
+            "https://www.e-stave.com/Identifikacija/IdentifikacijaListka.aspx",
+            "https://www.e-stave.com/Stave/LiveScores.aspx",
+            "https://www.e-stave.com/top5/rezultati/default.aspx"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "p41o0ima15ykee5ohhfvknqt",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NapravaId",
+                    "value": "d89f0a7d-cc94-4d05-a043-1dc478f8d7eb",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743874.910786,
+                    "expires_date": "2026-05-02T17:44:34.910786+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TS01c14dfd",
+                    "value": "01a29f7da1ef14c49cf45a166a4d4f673c8fbece8b2c97370b3d468569b20994fce4f606117cbb44a4a7ca483f015e941748b12f47f81650a4e5f85989fbfc20051bfadfaa9c6353772b219c858085f0036e7ea98c",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyreICdLrARJEXRlcN9l4DVpglNov43MZCd0U5HdDF744M4dQ74K3_zvRBk-yRWizDADPDzAa9EOXlfW1PQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758735882.975687,
+                    "expires_date": "2025-09-24T17:44:42.975687+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "p41o0ima15ykee5ohhfvknqt",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NapravaId",
+                    "value": "d89f0a7d-cc94-4d05-a043-1dc478f8d7eb",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743874.910786,
+                    "expires_date": "2026-05-02T17:44:34.910786+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TS01c14dfd",
+                    "value": "01a29f7da1ef14c49cf45a166a4d4f673c8fbece8b2c97370b3d468569b20994fce4f606117cbb44a4a7ca483f015e941748b12f47f81650a4e5f85989fbfc20051bfadfaa9c6353772b219c858085f0036e7ea98c",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T18:44:34.031247",
+        "timestamp_stop": "2025-03-28T18:45:02.421304"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Sprejmi vse piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.e-stave.com/",
+            "https://www.e-stave.com/Identifikacija/IdentifikacijaListka.aspx",
+            "https://www.e-stave.com/Stave/LiveScores.aspx",
+            "https://www.e-stave.com/top5/rezultati/default.aspx"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "io3kz1sacy23xe2mawvulrzw",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NapravaId",
+                    "value": "1c49b5b7-8876-42a8-8cb7-3120b915cda8",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743904.727294,
+                    "expires_date": "2026-05-02T17:45:04.727294+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TS01c14dfd",
+                    "value": "01a29f7da1f8ed357824103b855a74c160db790f6ac7b081ac05a54aa93c22d6c9f3ef6eb2b0bf19ec4f8a752005e0003a5fe5cc3e8f4fbb9353f528e1f1b383e642e28e9f85c20b4c92f978cd86ed5b9aa5d5b1eb",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "io3kz1sacy23xe2mawvulrzw",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NapravaId",
+                    "value": "1c49b5b7-8876-42a8-8cb7-3120b915cda8",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743904.727294,
+                    "expires_date": "2026-05-02T17:45:04.727294+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TS01c14dfd",
+                    "value": "01a29f7da1f8ed357824103b855a74c160db790f6ac7b081ac05a54aa93c22d6c9f3ef6eb2b0bf19ec4f8a752005e0003a5fe5cc3e8f4fbb9353f528e1f1b383e642e28e9f85c20b4c92f978cd86ed5b9aa5d5b1eb",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NastavitvePiskotkov",
+                    "value": "1%231%231",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743949.298209,
+                    "expires_date": "2026-05-02T17:45:49.298209+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrgC1MXRC9teARBj2p6vmGjefNL-MQ_1_7W2JAalpcjh5IMrfeZVO0iD1nS3X473a7sW-NMmveyYtOwCDY",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758735954.920298,
+                    "expires_date": "2025-09-24T17:45:54.920298+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "io3kz1sacy23xe2mawvulrzw",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NapravaId",
+                    "value": "1c49b5b7-8876-42a8-8cb7-3120b915cda8",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743904.727294,
+                    "expires_date": "2026-05-02T17:45:04.727294+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TS01c14dfd",
+                    "value": "01a29f7da1f8ed357824103b855a74c160db790f6ac7b081ac05a54aa93c22d6c9f3ef6eb2b0bf19ec4f8a752005e0003a5fe5cc3e8f4fbb9353f528e1f1b383e642e28e9f85c20b4c92f978cd86ed5b9aa5d5b1eb",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NastavitvePiskotkov",
+                    "value": "1%231%231",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743949.298209,
+                    "expires_date": "2026-05-02T17:45:49.298209+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Obvestilo o uporabi piškotkov\n\t\t\tŠportna loterija d.d. na spletni strani uporablja piškotke, ki se shranijo na napravo, s katero dostopate do spletne strani. Poleg piškotkov, ki so nujno potrebni za delovanje, uporabljamo tudi izbirne piškotke, s katerimi anonimno spremljamo vašo uporabo spletne strani.\n\n\t\t\tVeč o varovanju zasebnosti in uporabi piškotkov si lahko preberete v Izjavi o zasebnosti.\n\n\t\t\tČe se strinjate z namestitvijo vseh piškotkov, kliknite »Sprejmi vse piškotke« ali pa jih uredite v »Nastavitvah«.\n\n            \n                Nastavitve piškotkov\n\t\t\t    Sprejmi vse piškotke\n            \n\t\t\n\t\n\n\n    $(document).ready(function () {\n\n        $(\"#message\").slideToggle(\"slow\");\n\n        $(\"#ctl08_Piskotki_Obvestilo1_LinkPotrdi\").click(\n            function () {\n                PotrdiPiskotke();\n                $(\"#message\").slideToggle(\"medium\");\n                return false;\n            }\n        );\n\n        $(\"#ctl08_Piskotki_Obvestilo1_LinkNastavitve\").click(\n            f",
+                "banner_z_index": 20,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [Sprejmi vse piškotke] is categorized as accepting all cookies. There is no button for declining or managing settings that fits the other categories provided, but [Nastavitve piškotkov] explicitly mentions settings management, so it is categorized under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse piškotke is categorized as accepting all cookies. There is no button for declining or managing settings that fits the other categories provided, but Nastavitve piškotkov explicitly mentions settings management, so it is categorized under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T18:45:04.002328",
+        "timestamp_stop": "2025-03-28T18:46:14.085501"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Nastavitve piškotkov)",
+            "Clicking an element of type (span), with text (Potrdi moje izbire)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.e-stave.com/",
+            "https://www.e-stave.com/Identifikacija/IdentifikacijaListka.aspx",
+            "https://www.e-stave.com/Stave/LiveScores.aspx",
+            "https://www.e-stave.com/top5/rezultati/default.aspx"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "2mbcetkwkj2f0op5dec4x021",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NapravaId",
+                    "value": "ed1ef5db-a809-4218-84b4-d2a814a5f25c",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743976.383474,
+                    "expires_date": "2026-05-02T17:46:16.383474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TS01c14dfd",
+                    "value": "01a29f7da10822fb54a923a4e2f2eb95bb0de9044d1ac2fa21a1bf4d897e9f2ee9a1f99a949c0b16c4b716e4e2cf7102a4159265ad0fe8e312fff3cdff97a233e59756194f3262274cc4fcd9a890da904dc553eee5",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "2mbcetkwkj2f0op5dec4x021",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NapravaId",
+                    "value": "ed1ef5db-a809-4218-84b4-d2a814a5f25c",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743976.383474,
+                    "expires_date": "2026-05-02T17:46:16.383474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TS01c14dfd",
+                    "value": "01a29f7da10822fb54a923a4e2f2eb95bb0de9044d1ac2fa21a1bf4d897e9f2ee9a1f99a949c0b16c4b716e4e2cf7102a4159265ad0fe8e312fff3cdff97a233e59756194f3262274cc4fcd9a890da904dc553eee5",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NastavitvePiskotkov",
+                    "value": "1#0#0",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777744070.702621,
+                    "expires_date": "2026-05-02T17:47:50.702621+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypK-p8_hbVaA2fqFjvsY1zVya6hpSL5JUtXoyc504PVC10QadkyGPC69ucpNCtOeS4dHeZVvZt6PoSdo24",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758736076.204618,
+                    "expires_date": "2025-09-24T17:47:56.204618+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "2mbcetkwkj2f0op5dec4x021",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NapravaId",
+                    "value": "ed1ef5db-a809-4218-84b4-d2a814a5f25c",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777743976.383474,
+                    "expires_date": "2026-05-02T17:46:16.383474+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TS01c14dfd",
+                    "value": "01a29f7da10822fb54a923a4e2f2eb95bb0de9044d1ac2fa21a1bf4d897e9f2ee9a1f99a949c0b16c4b716e4e2cf7102a4159265ad0fe8e312fff3cdff97a233e59756194f3262274cc4fcd9a890da904dc553eee5",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "NastavitvePiskotkov",
+                    "value": "1#0#0",
+                    "domain": "www.e-stave.com",
+                    "path": "/",
+                    "expires": 1777744070.702621,
+                    "expires_date": "2026-05-02T17:47:50.702621+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Obvestilo o uporabi piškotkov\n\t\t\tŠportna loterija d.d. na spletni strani uporablja piškotke, ki se shranijo na napravo, s katero dostopate do spletne strani. Poleg piškotkov, ki so nujno potrebni za delovanje, uporabljamo tudi izbirne piškotke, s katerimi anonimno spremljamo vašo uporabo spletne strani.\n\n\t\t\tVeč o varovanju zasebnosti in uporabi piškotkov si lahko preberete v Izjavi o zasebnosti.\n\n\t\t\tČe se strinjate z namestitvijo vseh piškotkov, kliknite »Sprejmi vse piškotke« ali pa jih uredite v »Nastavitvah«.\n\n            \n                Nastavitve piškotkov\n\t\t\t    Sprejmi vse piškotke\n            \n\t\t\n\t\n\n\n    $(document).ready(function () {\n\n        $(\"#message\").slideToggle(\"slow\");\n\n        $(\"#ctl08_Piskotki_Obvestilo1_LinkPotrdi\").click(\n            function () {\n                PotrdiPiskotke();\n                $(\"#message\").slideToggle(\"medium\");\n                return false;\n            }\n        );\n\n        $(\"#ctl08_Piskotki_Obvestilo1_LinkNastavitve\").click(\n            f",
+                "banner_z_index": 20,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button \"Sprejmi vse piškotke\" fits the label for accepting all cookies. \"Nastavitve piškotkov\" is related to managing cookie preferences. There are no buttons for declining or ambiguous accepting/declining.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi vse piškotke\" fits the label for accepting all cookies. \"Nastavitve piškotkov\" is related to managing cookie preferences. There are no buttons for declining or ambiguous accepting/declining."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nastavitve piškotkov",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Nastavitve piškotkov\n                \n            \n            \n                Nujno potrebni piškotki  Vedno aktivni  Ti piškotki so nujni za delovanje spletnega mesta, zato jih v naših sistemih ni mogoče izklopiti. Spletna stran jih potrebuje za pravilno delovanje iger in storitev.Podrobnosti o piškotkih Piškotki za učinkovitost delovanja  S temi piškotki štejemo obiske in izvor prometa, da lahko merimo in izboljšamo učinkovitost delovanja našega spletnega mesta. Z njimi prepoznamo, katera mesta so najbolj in najmanj priljubljena, in opazujemo, kako se obiskovalci pomikajo po spletnem mestu. Podatki, ki jih piškotki zbirajo, so združeni in anonimni.Podrobnosti o piškotkih Piškotki za ciljno usmerjenost  Te piškotke nastavijo naši oglaševalski partnerji. Partnerska oglaševalska podjetja jih lahko uporabljajo za izdelavo profila vaših interesov, ki ga nato uporabijo za prikazovanje ustreznih oglasov na drugih spletnih mestih. Pri delu uporabljajo edinstveno prepoznavanje vašega brskal",
+                "banner_z_index": 996,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: None\nAmbiguousLabel1: [Potrdi moje izbire]\nAmbiguousLabel2: None\nGenericLabel3: [Podrobnosti o piškotkih]\nExplanation: \"Sprejmi vse\" categorizes under accepting all cookies, while \"Potrdi moje izbire\" is an ambiguous acceptance phrase. \"Podrobnosti o piškotkih\" is related to managing settings, thus categorized under GenericLabel3.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Potrdi moje izbire",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": "Podrobnosti o piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi vse\" categorizes under accepting all cookies, while \"Potrdi moje izbire\" is an ambiguous acceptance phrase. \"Podrobnosti o piškotkih\" is related to managing settings, thus categorized under GenericLabel3."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Potrdi moje izbire",
+                "settings_decline_element_ambiguous": true,
+                "settings_decline_element_evidence": "AmbiguousLabel1",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T18:46:15.632862",
+        "timestamp_stop": "2025-03-28T18:48:15.395020"
+    }
+}

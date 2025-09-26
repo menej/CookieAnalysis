@@ -1,0 +1,1985 @@
+{
+    "web_page": "https://kupilokalno.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T14:38:02.453211",
+    "timestamp_stop": "2025-03-28T14:40:45.156628",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://kupilokalno.si/",
+            "https://kupilokalno.si/trgovina/?filter_regija=severna-primorska",
+            "https://kupilokalno.si/trgovina/?add_to_wishlist=7975&_wpnonce=88eb87bec3",
+            "https://kupilokalno.si/izdelek/kraljevi-hlebcek-500g-hlebcek/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypMelMbZgMV_mrqpoEgSA2sL8TeBSkXxfUn7H53RBQ2YhAkD8vW9iiMA5OvQBdEhUlvB0P1PuMcS-GZtOE",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758721090.419959,
+                    "expires_date": "2025-09-24T13:38:10.419959+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_R2CHP9WSN3",
+                    "value": "GS1.1.1743169087.1.0.1743169087.60.0.0",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729087.751085,
+                    "expires_date": "2026-05-02T13:38:07.751085+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.908741745.1743169088",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729087.751588,
+                    "expires_date": "2026-05-02T13:38:07.751588+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A08%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A08%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fkupilokalno.si%2F",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170888,
+                    "expires_date": "2025-03-28T14:08:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_or",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729088.467271,
+                    "expires_date": "2026-05-02T13:38:08.467271+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tk_r3d",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743428288,
+                    "expires_date": "2025-03-31T13:38:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_lr",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1774705088,
+                    "expires_date": "2026-03-28T13:38:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypdhhw_xkHAimBg8oQF6ETUUJsRWEV7U3MoavH381hBHs_nRwmCl2-4UQIyu_By9lv0B3cgozCHNon2A6E",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758721118.783702,
+                    "expires_date": "2025-09-24T13:38:38.783702+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.908741745.1743169088",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729116.845781,
+                    "expires_date": "2026-05-02T13:38:36.845781+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A08%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A08%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_or",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729117.521899,
+                    "expires_date": "2026-05-02T13:38:37.521899+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tk_r3d",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743428317,
+                    "expires_date": "2025-03-31T13:38:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_lr",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1774705117,
+                    "expires_date": "2026-03-28T13:38:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "yith_wcwl_session_3851700dfbfc4cc3e441e4b7b36f89f5",
+                    "value": "%7B%22session_id%22%3A%22d939a5910917e787446403aadfae998f%22%2C%22session_expiration%22%3A1745761106%2C%22session_expiring%22%3A1745757506%2C%22cookie_hash%22%3A%22a0c6c1027446a7bce3ca2a34432f1fb3%22%7D",
+                    "domain": "kupilokalno.si",
+                    "path": "/",
+                    "expires": 1745761106.062871,
+                    "expires_date": "2025-04-27T13:38:26.062871+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "woocommerce_recently_viewed",
+                    "value": "7946",
+                    "domain": "kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_R2CHP9WSN3",
+                    "value": "GS1.1.1743169087.1.1.1743169116.31.0.0",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729116.845374,
+                    "expires_date": "2026-05-02T13:38:36.845374+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D4%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fkupilokalno.si%2Fizdelek%2Fkraljevi-hlebcek-500g-hlebcek%2F",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170917,
+                    "expires_date": "2025-03-28T14:08:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_ai",
+                    "value": "jAN%2FHTNPY%2FzmFhpAFs9sGNXg",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729117.941232,
+                    "expires_date": "2026-05-02T13:38:37.941232+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "tk_qs",
+                    "value": "",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170918,
+                    "expires_date": "2025-03-28T14:08:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T14:38:03.728186",
+        "timestamp_stop": "2025-03-28T14:38:44.870564"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Sprejmem)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://kupilokalno.si/",
+            "https://kupilokalno.si/trgovina/?filter_regija=severna-primorska",
+            "https://kupilokalno.si/trgovina/?add_to_wishlist=7975&_wpnonce=88eb87bec3",
+            "https://kupilokalno.si/izdelek/kraljevi-hlebcek-500g-hlebcek/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqtxiUL_etCTQp18aMdLJJDRuYqB71UG3fbINcwZ8Tp12yHGvR3wEmDgldNrunmwaZaPyO1YhieySyBqNU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758721130.312915,
+                    "expires_date": "2025-09-24T13:38:50.312915+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_R2CHP9WSN3",
+                    "value": "GS1.1.1743169127.1.0.1743169127.60.0.0",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729127.989128,
+                    "expires_date": "2026-05-02T13:38:47.989128+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1406493932.1743169128",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729127.989648,
+                    "expires_date": "2026-05-02T13:38:47.989648+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A48%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A48%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fkupilokalno.si%2F",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170928,
+                    "expires_date": "2025-03-28T14:08:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_or",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729128.334709,
+                    "expires_date": "2026-05-02T13:38:48.334709+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tk_r3d",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743428328,
+                    "expires_date": "2025-03-31T13:38:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_lr",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1774705128,
+                    "expires_date": "2026-03-28T13:38:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqtxiUL_etCTQp18aMdLJJDRuYqB71UG3fbINcwZ8Tp12yHGvR3wEmDgldNrunmwaZaPyO1YhieySyBqNU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758721130.312915,
+                    "expires_date": "2025-09-24T13:38:50.312915+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_R2CHP9WSN3",
+                    "value": "GS1.1.1743169127.1.0.1743169127.60.0.0",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729127.989128,
+                    "expires_date": "2026-05-02T13:38:47.989128+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1406493932.1743169128",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729127.989648,
+                    "expires_date": "2026-05-02T13:38:47.989648+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A48%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A48%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fkupilokalno.si%2F",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170928,
+                    "expires_date": "2025-03-28T14:08:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_or",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729128.334709,
+                    "expires_date": "2026-05-02T13:38:48.334709+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tk_r3d",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743428328,
+                    "expires_date": "2025-03-31T13:38:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_lr",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1774705128,
+                    "expires_date": "2026-03-28T13:38:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "true",
+                    "domain": "kupilokalno.si",
+                    "path": "/",
+                    "expires": 1745761154,
+                    "expires_date": "2025-04-27T13:39:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqs148ra7H2Eq1zxPpnz1a1HERCZz6Oye1QvblWsa2znV32dDymWRJRElWB4FWQ8_KVrw3vFyZqjtyg_7w",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758721182.123435,
+                    "expires_date": "2025-09-24T13:39:42.123435+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1406493932.1743169128",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729180.103193,
+                    "expires_date": "2026-05-02T13:39:40.103193+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A48%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2013%3A38%3A48%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_or",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729180.859222,
+                    "expires_date": "2026-05-02T13:39:40.859222+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tk_r3d",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743428380,
+                    "expires_date": "2025-03-31T13:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_lr",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1774705180,
+                    "expires_date": "2026-03-28T13:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookie_notice_accepted",
+                    "value": "true",
+                    "domain": "kupilokalno.si",
+                    "path": "/",
+                    "expires": 1745761154,
+                    "expires_date": "2025-04-27T13:39:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "yith_wcwl_session_3851700dfbfc4cc3e441e4b7b36f89f5",
+                    "value": "%7B%22session_id%22%3A%2210227622c8322a8516447b6937f9d5b9%22%2C%22session_expiration%22%3A1745761169%2C%22session_expiring%22%3A1745757569%2C%22cookie_hash%22%3A%2232023bb53f4d861cc68c86515dc55f5d%22%7D",
+                    "domain": "kupilokalno.si",
+                    "path": "/",
+                    "expires": 1745761169.438319,
+                    "expires_date": "2025-04-27T13:39:29.438319+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "woocommerce_recently_viewed",
+                    "value": "7946",
+                    "domain": "kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_R2CHP9WSN3",
+                    "value": "GS1.1.1743169127.1.1.1743169180.7.0.0",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729180.10288,
+                    "expires_date": "2026-05-02T13:39:40.102880+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D4%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fkupilokalno.si%2Fizdelek%2Fkraljevi-hlebcek-500g-hlebcek%2F",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170980,
+                    "expires_date": "2025-03-28T14:09:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_ai",
+                    "value": "gmUOFXymiXPyVSUijps2EKSX",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729181.27491,
+                    "expires_date": "2026-05-02T13:39:41.274910+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "tk_qs",
+                    "value": "",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170981,
+                    "expires_date": "2025-03-28T14:09:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Za zagotavljanje boljše uporabniške izkušnje ta stran uporablja piškotke.Sprejmem",
+                "banner_z_index": 1000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmem]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: \"Sprejmem\" is a generic phrase that signifies acceptance but does not clearly indicate acceptance of all cookies, hence it is classified under ambiguous accept. There are no other button labels present in the input for further classification.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Sprejmem\" is a generic phrase that signifies acceptance but does not clearly indicate acceptance of all cookies, hence it is classified under ambiguous accept. There are no other button labels present in the input for further classification."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmem",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T14:38:46.509346",
+        "timestamp_stop": "2025-03-28T14:39:48.214976"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://kupilokalno.si/",
+            "https://kupilokalno.si/trgovina/?filter_regija=severna-primorska",
+            "https://kupilokalno.si/trgovina/?add_to_wishlist=7975&_wpnonce=88eb87bec3",
+            "https://kupilokalno.si/izdelek/kraljevi-hlebcek-500g-hlebcek/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoRwe3tc2YMmNMAV3SPykfRbyhAE2Z-CepJtwG-ndrzWXW0cqk8Y_MJVueOKodS1sy2DgXIRmbYI3DuUc0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758721193.64467,
+                    "expires_date": "2025-09-24T13:39:53.644670+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_R2CHP9WSN3",
+                    "value": "GS1.1.1743169191.1.0.1743169191.60.0.0",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729191.20926,
+                    "expires_date": "2026-05-02T13:39:51.209260+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.715937801.1743169191",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729191.209792,
+                    "expires_date": "2026-05-02T13:39:51.209792+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2013%3A39%3A51%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2013%3A39%3A51%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fkupilokalno.si%2F",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170991,
+                    "expires_date": "2025-03-28T14:09:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_or",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729191.608615,
+                    "expires_date": "2026-05-02T13:39:51.608615+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tk_r3d",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743428391,
+                    "expires_date": "2025-03-31T13:39:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_lr",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1774705191,
+                    "expires_date": "2026-03-28T13:39:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoRwe3tc2YMmNMAV3SPykfRbyhAE2Z-CepJtwG-ndrzWXW0cqk8Y_MJVueOKodS1sy2DgXIRmbYI3DuUc0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758721193.64467,
+                    "expires_date": "2025-09-24T13:39:53.644670+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_R2CHP9WSN3",
+                    "value": "GS1.1.1743169191.1.0.1743169191.60.0.0",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729191.20926,
+                    "expires_date": "2026-05-02T13:39:51.209260+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.715937801.1743169191",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729191.209792,
+                    "expires_date": "2026-05-02T13:39:51.209792+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2013%3A39%3A51%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2013%3A39%3A51%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fkupilokalno.si%2F",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743170991,
+                    "expires_date": "2025-03-28T14:09:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_or",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729191.608615,
+                    "expires_date": "2026-05-02T13:39:51.608615+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tk_r3d",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743428391,
+                    "expires_date": "2025-03-31T13:39:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_lr",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1774705191,
+                    "expires_date": "2026-03-28T13:39:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyo1pKr4Cr-uqMaQiMkta7iXyB97ACf_1a7MlC37hA3Mi9i_ITPw4Ef8VjwfTHbqnkBTHfQIHNzPKyd3jAU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758721238.781086,
+                    "expires_date": "2025-09-24T13:40:38.781086+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.715937801.1743169191",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729236.816661,
+                    "expires_date": "2026-05-02T13:40:36.816661+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2013%3A39%3A51%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2013%3A39%3A51%7C%7C%7Cep%3Dhttps%3A%2F%2Fkupilokalno.si%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_or",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729237.498653,
+                    "expires_date": "2026-05-02T13:40:37.498653+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tk_r3d",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743428437,
+                    "expires_date": "2025-03-31T13:40:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_lr",
+                    "value": "%22%22",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1774705237,
+                    "expires_date": "2026-03-28T13:40:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "yith_wcwl_session_3851700dfbfc4cc3e441e4b7b36f89f5",
+                    "value": "%7B%22session_id%22%3A%22dcdffdc744f41c8bdba8a12205638750%22%2C%22session_expiration%22%3A1745761226%2C%22session_expiring%22%3A1745757626%2C%22cookie_hash%22%3A%2204d917c8b0ea7489081a7839e470a113%22%7D",
+                    "domain": "kupilokalno.si",
+                    "path": "/",
+                    "expires": 1745761225.959741,
+                    "expires_date": "2025-04-27T13:40:25.959741+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "woocommerce_recently_viewed",
+                    "value": "7946",
+                    "domain": "kupilokalno.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_R2CHP9WSN3",
+                    "value": "GS1.1.1743169191.1.1.1743169236.15.0.0",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729236.816047,
+                    "expires_date": "2026-05-02T13:40:36.816047+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D4%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fkupilokalno.si%2Fizdelek%2Fkraljevi-hlebcek-500g-hlebcek%2F",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743171037,
+                    "expires_date": "2025-03-28T14:10:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tk_ai",
+                    "value": "25MoqfdG2ynBaTIcQ2M1RlzL",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1777729237.944259,
+                    "expires_date": "2026-05-02T13:40:37.944259+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "tk_qs",
+                    "value": "",
+                    "domain": ".kupilokalno.si",
+                    "path": "/",
+                    "expires": 1743171038,
+                    "expires_date": "2025-03-28T14:10:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Za zagotavljanje boljše uporabniške izkušnje ta stran uporablja piškotke.Sprejmem",
+                "banner_z_index": 1000,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmem]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: \"Sprejmem\" is an ambiguous phrase that could signify acceptance but does not explicitly indicate the acceptance of all cookies. There are no other relevant buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Sprejmem\" is an ambiguous phrase that could signify acceptance but does not explicitly indicate the acceptance of all cookies. There are no other relevant buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T14:39:49.830307",
+        "timestamp_stop": "2025-03-28T14:40:44.846256"
+    }
+}

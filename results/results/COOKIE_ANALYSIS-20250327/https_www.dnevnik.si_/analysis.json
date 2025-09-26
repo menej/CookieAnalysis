@@ -1,0 +1,2864 @@
+{
+    "web_page": "https://www.dnevnik.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-27T23:07:24.515282",
+    "timestamp_stop": "2025-03-27T23:11:01.279817",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dnevnik.si/",
+            "https://www.dnevnik.si/novice/ljubljana/vec-kot-2100-parkirnih-mest-za-kolesav-javni-kolesarnici-2724273/",
+            "https://www.dnevnik.si/mnenja/odprta-stran",
+            "https://www.dnevnik.si/novice/lokalno"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"37fffb41-e9fa-4d31-849a-5efca1e64f11\",\"ts\":1743113246854}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649246,
+                    "expires_date": "2026-03-27T22:07:26+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649247.765176,
+                    "expires_date": "2026-03-27T22:07:27.765176+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=32df1305-5260-4521-821a-dbfaa5852dfd&Created=03/27/2025 22:07:09&UserMode=0&guid=a9d3fef6-a4d5-4df6-9dd5-2edc39d67894&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649247.765307,
+                    "expires_date": "2026-03-27T22:07:27.765307+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlhNTUtYTkxMy02YzcxLWIwYTgtNzA2NzAxMjBkY2NkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MDc6MjcuMzc3WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjA3OjI3LjM3OFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735647,
+                    "expires_date": "2026-03-28T22:07:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "lOuCW36BouZ8PlwOntGxsSdCFkdB1VhXvvKkSgw36uw-1743113230-1.0.1.1-t2lCyDUlQ6rAVSpqcgPoUTML6hEk8de.71Aouv7snNpfUXsWkNovohkmDkn.ar2vM0GBbgG7ZXQ6cjQ9ZqwMG6cNOyNDcELqnYSEUDTNNlk",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743115047.482369,
+                    "expires_date": "2025-03-27T22:37:27.482369+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId2121",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rwmdwl:sKhTyS2pdYdIOHZZylPqgAZeBQZXACJq",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115047.722971,
+                    "expires_date": "2025-03-27T22:37:27.722971+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rwmdwl:qrmV9MiM7l67HntOZBJ5BGBGCnnhGYM8",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665247.723142,
+                    "expires_date": "2025-09-23T22:07:27.723142+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"37fffb41-e9fa-4d31-849a-5efca1e64f11\",\"ts\":1743113246854}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649268,
+                    "expires_date": "2026-03-27T22:07:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649268.232178,
+                    "expires_date": "2026-03-27T22:07:48.232178+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=32df1305-5260-4521-821a-dbfaa5852dfd&Created=03/27/2025 22:07:09&UserMode=0&guid=a9d3fef6-a4d5-4df6-9dd5-2edc39d67894&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649268.232331,
+                    "expires_date": "2026-03-27T22:07:48.232331+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlhNTUtYTkxMy02YzcxLWIwYTgtNzA2NzAxMjBkY2NkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MDc6MjcuMzc3WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjA3OjI3LjM3OFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735647,
+                    "expires_date": "2026-03-28T22:07:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "lOuCW36BouZ8PlwOntGxsSdCFkdB1VhXvvKkSgw36uw-1743113230-1.0.1.1-t2lCyDUlQ6rAVSpqcgPoUTML6hEk8de.71Aouv7snNpfUXsWkNovohkmDkn.ar2vM0GBbgG7ZXQ6cjQ9ZqwMG6cNOyNDcELqnYSEUDTNNlk",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743115047.482369,
+                    "expires_date": "2025-03-27T22:37:27.482369+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId2121",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rwmdwl:sKhTyS2pdYdIOHZZylPqgAZeBQZXACJq",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115068.090124,
+                    "expires_date": "2025-03-27T22:37:48.090124+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rwmdwl:qrmV9MiM7l67HntOZBJ5BGBGCnnhGYM8",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665268.090284,
+                    "expires_date": "2025-09-23T22:07:48.090284+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ain_cid",
+                    "value": "1743113254043.446668847.3034659",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115054,
+                    "expires_date": "2025-03-27T22:37:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ain_uid",
+                    "value": "1743113254044.956357262.2793934",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665254,
+                    "expires_date": "2025-09-23T22:07:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId15399",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1649951803.1743113261",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1750889261,
+                    "expires_date": "2025-06-25T22:07:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1838411536.1743113261",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1777673267.755947,
+                    "expires_date": "2026-05-01T22:07:47.755947+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId1922",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_QJKNK792YE",
+                    "value": "GS1.1.1743113260.1.1.1743113267.0.0.0",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1777673267.785772,
+                    "expires_date": "2026-05-01T22:07:47.785772+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-27T23:07:25.814663",
+        "timestamp_stop": "2025-03-27T23:07:54.674180"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi in zapri)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dnevnik.si/",
+            "https://www.dnevnik.si/novice/ljubljana/vec-kot-2100-parkirnih-mest-za-kolesav-javni-kolesarnici-2724273/",
+            "https://www.dnevnik.si/mnenja/odprta-stran",
+            "https://www.dnevnik.si/novice/lokalno"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"e5ba2fab-de0a-43f8-9341-99440bb199e9\",\"ts\":1743113277187}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649277,
+                    "expires_date": "2026-03-27T22:07:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649278.163122,
+                    "expires_date": "2026-03-27T22:07:58.163122+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=4900e1c1-0326-4ddc-a54f-38586dad8d21&Created=03/27/2025 22:07:40&UserMode=0&guid=33e986a6-bde1-41a5-a192-5fd75b183997&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649278.163211,
+                    "expires_date": "2026-03-27T22:07:58.163211+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlhNWQtMTY5OC02NTAyLTkyNGQtYzllNTMzMTE2YjhjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MDc6NTcuODAxWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjA3OjU3LjgwMloiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735677,
+                    "expires_date": "2026-03-28T22:07:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "DqUy41baqVlazNyg1lyA2AAKvPQL_8hDZ0nmgIl1XrY-1743113261-1.0.1.1-OzcSO9fWinrt1FXanH3294x4lTqUoj.hqEhBtcrbT8EhEwV5kgpBq.9ruMNg6eH.wIAC8iQDBZXpY2pIZQJ7ItnJJS_DOJ5aZfV5eZNCo8s",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743115078.107232,
+                    "expires_date": "2025-03-27T22:37:58.107232+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId2121",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rwn1f2:J9dXoCFhCuCN4OE_bCzN7r0C92zBF0EN",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115078.204825,
+                    "expires_date": "2025-03-27T22:37:58.204825+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rwn1f2:nayUCd5Cv6mfZpPB4y202pCMOdqVFZYH",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665278.205165,
+                    "expires_date": "2025-09-23T22:07:58.205165+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"e5ba2fab-de0a-43f8-9341-99440bb199e9\",\"ts\":1743113277187}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649277,
+                    "expires_date": "2026-03-27T22:07:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649278.163122,
+                    "expires_date": "2026-03-27T22:07:58.163122+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=4900e1c1-0326-4ddc-a54f-38586dad8d21&Created=03/27/2025 22:07:40&UserMode=0&guid=33e986a6-bde1-41a5-a192-5fd75b183997&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649278.163211,
+                    "expires_date": "2026-03-27T22:07:58.163211+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "DqUy41baqVlazNyg1lyA2AAKvPQL_8hDZ0nmgIl1XrY-1743113261-1.0.1.1-OzcSO9fWinrt1FXanH3294x4lTqUoj.hqEhBtcrbT8EhEwV5kgpBq.9ruMNg6eH.wIAC8iQDBZXpY2pIZQJ7ItnJJS_DOJ5aZfV5eZNCo8s",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743115078.107232,
+                    "expires_date": "2025-03-27T22:37:58.107232+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId2121",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rwn1f2:J9dXoCFhCuCN4OE_bCzN7r0C92zBF0EN",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115078.204825,
+                    "expires_date": "2025-03-27T22:37:58.204825+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rwn1f2:nayUCd5Cv6mfZpPB4y202pCMOdqVFZYH",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665278.205165,
+                    "expires_date": "2025-09-23T22:07:58.205165+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlhNWQtMTY5OC02NTAyLTkyNGQtYzllNTMzMTE2YjhjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MDc6NTcuODAxWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjA4OjI4LjM4NloiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOnVwc2NvcmVnbS1ZZFlDV3BISyJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSIsImM6dXBzY29yZWdtLVlkWUNXcEhLIl19LCJ2ZXJzaW9uIjoyfQ==",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735708,
+                    "expires_date": "2026-03-28T22:08:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAEPgACRAK8tX_G__bWlr8T73aftkeY1P99h77sQxBgbJE-4FzLvW_JwXx2E5NAz6tqIKmRIAu3TBIQNlHJDURVCgaogVrSDMaEyUoTNKJ6BkiFMRI2dYCFxvm4tjeQCY5vr991cx2B-t7dr83dzyy4hHn3a5_2S1WJCdAYetDfv9bROb-9IOd_x8v4v4_F7pE2-eS1l_tWvp7D9-Yts_9X299_bbff5Pn__ul_-_X_vf_n37v942CvIBJhoVEEZYEgIRKBhBAgBUFYQEUCAIAAEgaICAEwYFOQMAF1hIgBACgAGCAEAAIMAAQAAAQAIRABQAUCAACAQKAAMACAYCAAgYAAQAWAgEAAIDoGKYEEAgWACRmRQaYEoACQQEtlQgkAQIK4QhFngEACImCgAAAAAKQABAeCwOJJASoSCALiCaAAAgAACCAAoQScmAAIAzZag8GT6MrTAMHzBIgpgGQBEEZCQaEJvWgAAA.f_wACHwAAAAA",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735708,
+                    "expires_date": "2026-03-28T22:08:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "___nrbic",
+                    "value": "%7B%22isNewUser%22%3Atrue%2C%22previousVisit%22%3A1743113278%2C%22lastBeat%22%3A1743113278%2C%22currentVisitStarted%22%3A1743113278%2C%22sessionId%22%3A%22d735f64e-a731-4c43-93a3-6911e9db9971%22%2C%22sessionVars%22%3A%5B%5D%2C%22visitedInThisSession%22%3Atrue%2C%22pagesViewed%22%3A1%2C%22landingPage%22%3A%22https%3A//www.dnevnik.si/%22%2C%22referrer%22%3A%22%22%2C%22lpti%22%3Anull%7D",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1758661708,
+                    "expires_date": "2025-09-23T21:08:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "___nrbi",
+                    "value": "%7B%22firstVisit%22%3A1743113278%2C%22userId%22%3A%224135f6f8-ace5-42a7-bc9f-6afe269a6462%22%2C%22userVars%22%3A%5B%5D%2C%22futurePreviousVisit%22%3A1743113278%2C%22timesVisited%22%3A1%7D",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1758661708,
+                    "expires_date": "2025-09-23T21:08:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "compass_uid",
+                    "value": "4135f6f8-ace5-42a7-bc9f-6afe269a6462",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1758661708,
+                    "expires_date": "2025-09-23T21:08:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1033409970.1743113309",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1750889308,
+                    "expires_date": "2025-06-25T22:08:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.301524954.1743113278",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1777673308.619851,
+                    "expires_date": "2026-05-01T22:08:28.619851+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_QJKNK792YE",
+                    "value": "GS1.1.1743113277.1.1.1743113308.0.0.0",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1777673308.633705,
+                    "expires_date": "2026-05-01T22:08:28.633705+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".googleadservices.com",
+                    "path": "/",
+                    "expires": 1750889310.408746,
+                    "expires_date": "2025-06-25T22:08:30.408746+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "8001_u",
+                    "value": "4135f6f8-ace5-42a7-bc9f-6afe269a6462",
+                    "domain": "events.newsroom.bi",
+                    "path": "/",
+                    "expires": 1758665311.127561,
+                    "expires_date": "2025-09-23T22:08:31.127561+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "8001_s",
+                    "value": "d735f64e-a731-4c43-93a3-6911e9db9971",
+                    "domain": "events.newsroom.bi",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "8001_lv",
+                    "value": "null",
+                    "domain": "events.newsroom.bi",
+                    "path": "/",
+                    "expires": 1745705311.127689,
+                    "expires_date": "2025-04-26T22:08:31.127689+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "8001_ut",
+                    "value": "0",
+                    "domain": "events.newsroom.bi",
+                    "path": "/",
+                    "expires": 1745705311.12772,
+                    "expires_date": "2025-04-26T22:08:31.127720+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776809308.754678,
+                    "expires_date": "2026-04-21T22:08:28.754678+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": "measurement-api.criteo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "660f8dca-c0a7-4692-90b3-ef8d22883ebc",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776809308.953442,
+                    "expires_date": "2026-04-21T22:08:28.953442+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=1023e4fe8e874da3:T=1743113291:RT=1743113291:S=ALNI_MacnMN3-5MEOSMPN5wVLezMTHMnBg",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1776809291,
+                    "expires_date": "2026-04-21T22:08:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072dc775f23:T=1743113291:RT=1743113291:S=ALNI_MYLRHmNahCzO6ZiUrjRK8GTm3_G7A",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1776809291,
+                    "expires_date": "2026-04-21T22:08:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=502463a4215aa2dd:T=1743113291:RT=1743113291:S=AA-AfjYGs7Zz_QNNdbDhMcGGmE8q",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665291,
+                    "expires_date": "2025-09-23T22:08:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUl8bw3A297ulJDeK0lztST2jmNHhDcuxgL9JJWY0QCDeSwI7mpdK5Lq0lrR3Nw",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776809308.861763,
+                    "expires_date": "2026-04-21T22:08:28.861763+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tt_viewer",
+                    "value": "698a8a24-bd72-4416-a9e8-0cb277662769",
+                    "domain": ".teads.tv",
+                    "path": "/",
+                    "expires": 1774562911.245882,
+                    "expires_date": "2026-03-26T22:08:31.245882+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "MRpXmF8ybE4xV2lVUEx0TlpQdUVmNEpSOWNQaWZtSWFFNURTalJKYkVPQlAzbDZhUkZDNiUyRnhPdUFINFFQUDRpMnZrVDElMkJpNmgxUVZnQUU5SzUwVnU2ZmU5MllMQkVnWHYlMkJialpGSmg1VGRIRXM3WkloRTdMVnVOcURjOXJ1ekU5OVlCVEJpRGFtcWVrUW1pTDNCS3h4eXNGZEElM0QlM0Q",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776809310.269914,
+                    "expires_date": "2026-04-21T22:08:30.269914+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&cdf0afc7-7e20-4ea4-8498-0ad44ec3bba7\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774649311.343111,
+                    "expires_date": "2026-03-27T22:08:31.343111+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxMTMyOTQ7MjswMjFaw0/BsOu/87HnUUtlcX918zNEU56tGvUnG1Qs1IbJeg==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758665311.343249,
+                    "expires_date": "2025-09-23T22:08:31.343249+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=VGST00:s=V:r=V:a=V:p=V:g=3599:u=1:x=1:i=1743113294:t=1743199694:v=2:sig=AQFYIfK2i15IXaCkA4zEHdxuNqNJOdw-\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743199711.343298,
+                    "expires_date": "2025-03-28T22:08:31.343298+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bito",
+                    "value": "AAD6Rk7Py5kAABsydiiOJQ",
+                    "domain": ".bidr.io",
+                    "path": "/",
+                    "expires": 1777226911.407035,
+                    "expires_date": "2026-04-26T18:08:31.407035+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bitoIsSecure",
+                    "value": "ok",
+                    "domain": ".bidr.io",
+                    "path": "/",
+                    "expires": 1777226911.40712,
+                    "expires_date": "2026-04-26T18:08:31.407120+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ADK_EX_11",
+                    "value": "1",
+                    "domain": ".adkernel.com",
+                    "path": "/",
+                    "expires": 1744322911.47543,
+                    "expires_date": "2025-04-10T22:08:31.475430+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ADKUID",
+                    "value": "A6134536381052066873",
+                    "domain": ".adkernel.com",
+                    "path": "/",
+                    "expires": 1745705311.475505,
+                    "expires_date": "2025-04-26T22:08:31.475505+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__uis",
+                    "value": "7a4923d1-7dc5-4041-961f-5dddc8241d2a",
+                    "domain": ".go.sonobi.com",
+                    "path": "/",
+                    "expires": 1774649310.533997,
+                    "expires_date": "2026-03-27T22:08:30.533997+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "HAPLB8G",
+                    "value": "s86123|Z+XMU",
+                    "domain": ".go.sonobi.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"e5ba2fab-de0a-43f8-9341-99440bb199e9\",\"ts\":1743113277187}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649328,
+                    "expires_date": "2026-03-27T22:08:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649328.878456,
+                    "expires_date": "2026-03-27T22:08:48.878456+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=4900e1c1-0326-4ddc-a54f-38586dad8d21&Created=03/27/2025 22:07:40&UserMode=0&guid=33e986a6-bde1-41a5-a192-5fd75b183997&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649328.878555,
+                    "expires_date": "2026-03-27T22:08:48.878555+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "DqUy41baqVlazNyg1lyA2AAKvPQL_8hDZ0nmgIl1XrY-1743113261-1.0.1.1-OzcSO9fWinrt1FXanH3294x4lTqUoj.hqEhBtcrbT8EhEwV5kgpBq.9ruMNg6eH.wIAC8iQDBZXpY2pIZQJ7ItnJJS_DOJ5aZfV5eZNCo8s",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743115078.107232,
+                    "expires_date": "2025-03-27T22:37:58.107232+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId2121",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rwn1f2:J9dXoCFhCuCN4OE_bCzN7r0C92zBF0EN",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115128.686837,
+                    "expires_date": "2025-03-27T22:38:48.686837+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rwn1f2:nayUCd5Cv6mfZpPB4y202pCMOdqVFZYH",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665328.687224,
+                    "expires_date": "2025-09-23T22:08:48.687224+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlhNWQtMTY5OC02NTAyLTkyNGQtYzllNTMzMTE2YjhjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MDc6NTcuODAxWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjA4OjI4LjM4NloiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOnVwc2NvcmVnbS1ZZFlDV3BISyJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSIsImM6dXBzY29yZWdtLVlkWUNXcEhLIl19LCJ2ZXJzaW9uIjoyfQ==",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735708,
+                    "expires_date": "2026-03-28T22:08:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAEPgACRAK8tX_G__bWlr8T73aftkeY1P99h77sQxBgbJE-4FzLvW_JwXx2E5NAz6tqIKmRIAu3TBIQNlHJDURVCgaogVrSDMaEyUoTNKJ6BkiFMRI2dYCFxvm4tjeQCY5vr991cx2B-t7dr83dzyy4hHn3a5_2S1WJCdAYetDfv9bROb-9IOd_x8v4v4_F7pE2-eS1l_tWvp7D9-Yts_9X299_bbff5Pn__ul_-_X_vf_n37v942CvIBJhoVEEZYEgIRKBhBAgBUFYQEUCAIAAEgaICAEwYFOQMAF1hIgBACgAGCAEAAIMAAQAAAQAIRABQAUCAACAQKAAMACAYCAAgYAAQAWAgEAAIDoGKYEEAgWACRmRQaYEoACQQEtlQgkAQIK4QhFngEACImCgAAAAAKQABAeCwOJJASoSCALiCaAAAgAACCAAoQScmAAIAzZag8GT6MrTAMHzBIgpgGQBEEZCQaEJvWgAAA.f_wACHwAAAAA",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735708,
+                    "expires_date": "2026-03-28T22:08:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "___nrbi",
+                    "value": "%7B%22firstVisit%22%3A1743113278%2C%22userId%22%3A%224135f6f8-ace5-42a7-bc9f-6afe269a6462%22%2C%22userVars%22%3A%5B%5D%2C%22futurePreviousVisit%22%3A1743113278%2C%22timesVisited%22%3A1%7D",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1758661728,
+                    "expires_date": "2025-09-23T21:08:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "compass_uid",
+                    "value": "4135f6f8-ace5-42a7-bc9f-6afe269a6462",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1758661728,
+                    "expires_date": "2025-09-23T21:08:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1033409970.1743113309",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1750889309,
+                    "expires_date": "2025-06-25T22:08:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.301524954.1743113278",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1777673328.347359,
+                    "expires_date": "2026-05-01T22:08:48.347359+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".googleadservices.com",
+                    "path": "/",
+                    "expires": 1750889329.651823,
+                    "expires_date": "2025-06-25T22:08:49.651823+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "8001_u",
+                    "value": "4135f6f8-ace5-42a7-bc9f-6afe269a6462",
+                    "domain": "events.newsroom.bi",
+                    "path": "/",
+                    "expires": 1758665329.811814,
+                    "expires_date": "2025-09-23T22:08:49.811814+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "8001_lv",
+                    "value": "null",
+                    "domain": "events.newsroom.bi",
+                    "path": "/",
+                    "expires": 1745705329.81197,
+                    "expires_date": "2025-04-26T22:08:49.811970+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "8001_ut",
+                    "value": "0",
+                    "domain": "events.newsroom.bi",
+                    "path": "/",
+                    "expires": 1745705329.812013,
+                    "expires_date": "2025-04-26T22:08:49.812013+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776809308.754678,
+                    "expires_date": "2026-04-21T22:08:28.754678+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": "measurement-api.criteo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "660f8dca-c0a7-4692-90b3-ef8d22883ebc",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776809308.953442,
+                    "expires_date": "2026-04-21T22:08:28.953442+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=1023e4fe8e874da3:T=1743113291:RT=1743113291:S=ALNI_MacnMN3-5MEOSMPN5wVLezMTHMnBg",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1776809291,
+                    "expires_date": "2026-04-21T22:08:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072dc775f23:T=1743113291:RT=1743113291:S=ALNI_MYLRHmNahCzO6ZiUrjRK8GTm3_G7A",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1776809291,
+                    "expires_date": "2026-04-21T22:08:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=502463a4215aa2dd:T=1743113291:RT=1743113291:S=AA-AfjYGs7Zz_QNNdbDhMcGGmE8q",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665291,
+                    "expires_date": "2025-09-23T22:08:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUl8bw3A297ulJDeK0lztST2jmNHhDcuxgL9JJWY0QCDeSwI7mpdK5Lq0lrR3Nw",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776809308.861763,
+                    "expires_date": "2026-04-21T22:08:28.861763+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tt_viewer",
+                    "value": "698a8a24-bd72-4416-a9e8-0cb277662769",
+                    "domain": ".teads.tv",
+                    "path": "/",
+                    "expires": 1774562911.245882,
+                    "expires_date": "2026-03-26T22:08:31.245882+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "MRpXmF8ybE4xV2lVUEx0TlpQdUVmNEpSOWNQaWZtSWFFNURTalJKYkVPQlAzbDZhUkZDNiUyRnhPdUFINFFQUDRpMnZrVDElMkJpNmgxUVZnQUU5SzUwVnU2ZmU5MllMQkVnWHYlMkJialpGSmg1VGRIRXM3WkloRTdMVnVOcURjOXJ1ekU5OVlCVEJpRGFtcWVrUW1pTDNCS3h4eXNGZEElM0QlM0Q",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776809310.269914,
+                    "expires_date": "2026-04-21T22:08:30.269914+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&cdf0afc7-7e20-4ea4-8498-0ad44ec3bba7\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774649311.343111,
+                    "expires_date": "2026-03-27T22:08:31.343111+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxMTMyOTQ7MjswMjFaw0/BsOu/87HnUUtlcX918zNEU56tGvUnG1Qs1IbJeg==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758665311.343249,
+                    "expires_date": "2025-09-23T22:08:31.343249+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=VGST00:s=V:r=V:a=V:p=V:g=3599:u=1:x=1:i=1743113294:t=1743199694:v=2:sig=AQFYIfK2i15IXaCkA4zEHdxuNqNJOdw-\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743199711.343298,
+                    "expires_date": "2025-03-28T22:08:31.343298+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bito",
+                    "value": "AAD6Rk7Py5kAABsydiiOJQ",
+                    "domain": ".bidr.io",
+                    "path": "/",
+                    "expires": 1777226911.407035,
+                    "expires_date": "2026-04-26T18:08:31.407035+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bitoIsSecure",
+                    "value": "ok",
+                    "domain": ".bidr.io",
+                    "path": "/",
+                    "expires": 1777226911.40712,
+                    "expires_date": "2026-04-26T18:08:31.407120+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ADK_EX_11",
+                    "value": "1",
+                    "domain": ".adkernel.com",
+                    "path": "/",
+                    "expires": 1744322911.47543,
+                    "expires_date": "2025-04-10T22:08:31.475430+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ADKUID",
+                    "value": "A6134536381052066873",
+                    "domain": ".adkernel.com",
+                    "path": "/",
+                    "expires": 1745705311.475505,
+                    "expires_date": "2025-04-26T22:08:31.475505+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__uis",
+                    "value": "7a4923d1-7dc5-4041-961f-5dddc8241d2a",
+                    "domain": ".go.sonobi.com",
+                    "path": "/",
+                    "expires": 1774649310.533997,
+                    "expires_date": "2026-03-27T22:08:30.533997+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "HAPLB8G",
+                    "value": "s86123|Z+XMU",
+                    "domain": ".go.sonobi.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "linker-conversion-881402",
+                    "value": "69",
+                    "domain": "d.linker-network.com",
+                    "path": "/",
+                    "expires": 1745701714.445554,
+                    "expires_date": "2025-04-26T21:08:34.445554+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"fa5855ff-b90f-4d8a-93ff-91affedd376e\",\"ts\":1743113314511}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649328,
+                    "expires_date": "2026-03-27T22:08:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ain_cid",
+                    "value": "1743113314513.4004094.627388266",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115114,
+                    "expires_date": "2025-03-27T22:38:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ain_uid",
+                    "value": "1743113314515.304892983.5122993",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665314,
+                    "expires_date": "2025-09-23T22:08:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774649329.130904,
+                    "expires_date": "2026-03-27T22:08:49.130904+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=83a704ab-d6da-45c6-b86e-285481fdfdf2&Created=03/27/2025 22:08:17&UserMode=0&guid=6bf51657-868f-49e9-8876-120137336a0e&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774649329.130992,
+                    "expires_date": "2026-03-27T22:08:49.130992+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId15399",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466Stress",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId15399Stress",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1745705315.298978,
+                    "expires_date": "2025-04-26T22:08:35.298978+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1758665315.299079,
+                    "expires_date": "2025-09-23T22:08:35.299079+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CMID",
+                    "value": "Z.XMUrmqPnYAHha8AgPv1wAA",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1774649315.502958,
+                    "expires_date": "2026-03-27T22:08:35.502958+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CMPS",
+                    "value": "5096",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1750889315.222869,
+                    "expires_date": "2025-06-25T22:08:35.222869+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CMPRO",
+                    "value": "5096",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1750889315.503037,
+                    "expires_date": "2025-06-25T22:08:35.503037+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750889315.353943,
+                    "expires_date": "2025-06-25T22:08:35.353943+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "KpUmj39B_ILd5WV3jR7pjTgo7yV4wLd_QIoG2tU10_lKDMRFC3cSTxgJqsQRdlkXN4u6DwUjxhmspgBg8RvCtqTQFbMMqjUwNnccrd-09mM.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750889315.353852,
+                    "expires_date": "2025-06-25T22:08:35.353852+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "1449149895740961126",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750889315.354063,
+                    "expires_date": "2025-06-25T22:08:35.354063+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M41.D>6NRF']wIg2GTvo4=d(!]tbPl1M>e)ZlrFUfJ+tGXxoL?6i(uMu0=WHqW]vK(fRRI*]+p]5*TPj.c4C3If)y3KL9D3I?+O$t<Y(",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750889315.352834,
+                    "expires_date": "2025-06-25T22:08:35.352834+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "rud",
+                    "value": "H4sIAAAAAAAA_-MSNjO2MDU0tzA0MjczMDA0MDc1NRPiM9RNMnMxDEyM0C1Ozc8GAGOnHGUlAAAA",
+                    "domain": ".rfihub.com",
+                    "path": "/",
+                    "expires": 1776809316.866521,
+                    "expires_date": "2026-04-21T22:08:36.866521+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "euds",
+                    "value": "H4sIAAAAAAAA_-OSMXR2dA129XOtSjXJzw9K93Av1TX2N_APMo0sKwYAM6u3Kh4AAAA",
+                    "domain": ".rfihub.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ruds",
+                    "value": "H4sIAAAAAAAA_-MSNjO2MDU0tzA0MjczMDA0MDc1NRPiM9RNMnMxDEyM0C1Ozc8GAGOnHGUlAAAA",
+                    "domain": ".rfihub.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DSID",
+                    "value": "NO_DATA",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743116916.846939,
+                    "expires_date": "2025-03-27T23:08:36.846939+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "eud",
+                    "value": "H4sIAAAAAAAA_-OSMXR2dA129XOtSjXJzw9K93Av1TX2N_APMo0sKw7iNTQ3MTY0NDaytDS3NH_FiMoHAOv5Xpk9AAAA",
+                    "domain": ".rfihub.com",
+                    "path": "/",
+                    "expires": 1776809316.86664,
+                    "expires_date": "2026-04-21T22:08:36.866640+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "8001_s",
+                    "value": "d735f64e-a731-4c43-93a3-6911e9db9971",
+                    "domain": "events.newsroom.bi",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "ovzjCv4OwYpbkNp54KlX_1743113300026",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774649317.098515,
+                    "expires_date": "2026-03-27T22:08:37.098515+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743113300",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774649317.098576,
+                    "expires_date": "2026-03-27T22:08:37.098576+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId1922",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId1922Stress",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "___nrbic",
+                    "value": "%7B%22isNewUser%22%3Atrue%2C%22previousVisit%22%3A1743113278%2C%22lastBeat%22%3A1743113328%2C%22currentVisitStarted%22%3A1743113278%2C%22sessionId%22%3A%22d735f64e-a731-4c43-93a3-6911e9db9971%22%2C%22sessionVars%22%3A%5B%5D%2C%22visitedInThisSession%22%3Atrue%2C%22pagesViewed%22%3A4%2C%22landingPage%22%3A%22https%3A//www.dnevnik.si/%22%2C%22referrer%22%3A%22%22%2C%22lpti%22%3Anull%7D",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1758661728,
+                    "expires_date": "2025-09-23T21:08:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_QJKNK792YE",
+                    "value": "GS1.1.1743113277.1.1.1743113335.0.0.0",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1777673335.131385,
+                    "expires_date": "2026-05-01T22:08:55.131385+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(239,65,35,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(239,65,35,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Z vašim soglasjem mi in  naših 882 partnerjev  uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov. Nekateri partnerji ne zahtevajo vašega soglasja za obdelavo vaših podatkov in se zanašajo na svoj zakoniti poslovni interes.\nKadar koli lahko prekličete svoje soglasje ali u",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi in zapri]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več →]  \nExplanation: The button \"[Sprejmi in zapri]\" is categorized as an ambiguous acceptance phrase, while \"[Več →]\" is related to managing settings or seeing more information. Other elements do not fit the defined categories.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi in zapri\" is categorized as an ambiguous acceptance phrase, while \"Več →\" is related to managing settings or seeing more information. Other elements do not fit the defined categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi in zapri",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-27T23:07:56.285325",
+        "timestamp_stop": "2025-03-27T23:08:55.382139"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Več →)",
+            "Clicking an element of type (button), with text (Ne strinjam se z vsem)",
+            "Clicking an element of type (span), with text (Ne strinjam se z vsem)",
+            "Clicking an element of type (button), with text (Shrani)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dnevnik.si/",
+            "https://www.dnevnik.si/novice/ljubljana/vec-kot-2100-parkirnih-mest-za-kolesav-javni-kolesarnici-2724273/",
+            "https://www.dnevnik.si/mnenja/odprta-stran",
+            "https://www.dnevnik.si/novice/lokalno"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"c6a99b3f-8235-41bf-bc28-670515bf8275\",\"ts\":1743113337955}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649337,
+                    "expires_date": "2026-03-27T22:08:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649338.963184,
+                    "expires_date": "2026-03-27T22:08:58.963184+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=dfc42f56-50c9-4340-bbad-a9766ce1f15f&Created=03/27/2025 22:08:40&UserMode=0&guid=c17332e8-6304-4932-8ee5-e84fb699c21c&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649338.963301,
+                    "expires_date": "2026-03-27T22:08:58.963301+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlhNmItZTc2Ny02M2VlLWE4ZGItZDcyMTc0MjBlMDNkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MDg6NTguNDg2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjA4OjU4LjQ4N1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735738,
+                    "expires_date": "2026-03-28T22:08:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "9XwVcv85PiBhpCqH_QCZTThgVd5Ll6Iapc3T4i.74_s-1743113321-1.0.1.1-NPQTrVZtL5q7wvinHGf9cW5Q.Yyj0JchhVC35kyhDZwP2AT.O4T5.FJKFvR1.On4X_sfJvwIlBB1PO0AEA7oO41uFaP45ufLL__qnGNA6Y0",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743115138.597547,
+                    "expires_date": "2025-03-27T22:38:58.597547+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId2121",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rwoccc:_xpai970dy6MoU~~GaN7lOOYF9U3skiZ",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115139.008834,
+                    "expires_date": "2025-03-27T22:38:59.008834+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rwoccc:FO7ixNyKPNsftTn8qVwbkbmf4tsBjO2Y",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665339.008953,
+                    "expires_date": "2025-09-23T22:08:59.008953+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"c6a99b3f-8235-41bf-bc28-670515bf8275\",\"ts\":1743113337955}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649337,
+                    "expires_date": "2026-03-27T22:08:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649338.963184,
+                    "expires_date": "2026-03-27T22:08:58.963184+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=dfc42f56-50c9-4340-bbad-a9766ce1f15f&Created=03/27/2025 22:08:40&UserMode=0&guid=c17332e8-6304-4932-8ee5-e84fb699c21c&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649338.963301,
+                    "expires_date": "2026-03-27T22:08:58.963301+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "9XwVcv85PiBhpCqH_QCZTThgVd5Ll6Iapc3T4i.74_s-1743113321-1.0.1.1-NPQTrVZtL5q7wvinHGf9cW5Q.Yyj0JchhVC35kyhDZwP2AT.O4T5.FJKFvR1.On4X_sfJvwIlBB1PO0AEA7oO41uFaP45ufLL__qnGNA6Y0",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743115138.597547,
+                    "expires_date": "2025-03-27T22:38:58.597547+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId2121",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rwoccc:_xpai970dy6MoU~~GaN7lOOYF9U3skiZ",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115139.008834,
+                    "expires_date": "2025-03-27T22:38:59.008834+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rwoccc:FO7ixNyKPNsftTn8qVwbkbmf4tsBjO2Y",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665339.008953,
+                    "expires_date": "2025-09-23T22:08:59.008953+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlhNmItZTc2Ny02M2VlLWE4ZGItZDcyMTc0MjBlMDNkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MDg6NTguNDg2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjEwOjM0LjYyNFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzp1cHNjb3JlZ20tWWRZQ1dwSEsiXX0sInB1cnBvc2VzIjp7ImRpc2FibGVkIjpbImRldmljZV9jaGFyYWN0ZXJpc3RpY3MiLCJnZW9sb2NhdGlvbl9kYXRhIl19LCJ2ZW5kb3JzX2xpIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6dXBzY29yZWdtLVlkWUNXcEhLIl19LCJ2ZXJzaW9uIjoyfQ==",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735834,
+                    "expires_date": "2026-03-28T22:10:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFgAAAAAAAAACRAAAAAAAAA.YAAAAAAAAAAA",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735834,
+                    "expires_date": "2026-03-28T22:10:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"c6a99b3f-8235-41bf-bc28-670515bf8275\",\"ts\":1743113337955}",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1774649454,
+                    "expires_date": "2026-03-27T22:10:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649454.535534,
+                    "expires_date": "2026-03-27T22:10:54.535534+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=dfc42f56-50c9-4340-bbad-a9766ce1f15f&Created=03/27/2025 22:08:40&UserMode=0&guid=c17332e8-6304-4932-8ee5-e84fb699c21c&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774649454.535652,
+                    "expires_date": "2026-03-27T22:10:54.535652+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "9XwVcv85PiBhpCqH_QCZTThgVd5Ll6Iapc3T4i.74_s-1743113321-1.0.1.1-NPQTrVZtL5q7wvinHGf9cW5Q.Yyj0JchhVC35kyhDZwP2AT.O4T5.FJKFvR1.On4X_sfJvwIlBB1PO0AEA7oO41uFaP45ufLL__qnGNA6Y0",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743115138.597547,
+                    "expires_date": "2025-03-27T22:38:58.597547+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId2121",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rwoccc:_xpai970dy6MoU~~GaN7lOOYF9U3skiZ",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115254.443792,
+                    "expires_date": "2025-03-27T22:40:54.443792+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rwoccc:FO7ixNyKPNsftTn8qVwbkbmf4tsBjO2Y",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665454.444255,
+                    "expires_date": "2025-09-23T22:10:54.444255+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlhNmItZTc2Ny02M2VlLWE4ZGItZDcyMTc0MjBlMDNkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MDg6NTguNDg2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjEwOjM0LjYyNFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzp1cHNjb3JlZ20tWWRZQ1dwSEsiXX0sInB1cnBvc2VzIjp7ImRpc2FibGVkIjpbImRldmljZV9jaGFyYWN0ZXJpc3RpY3MiLCJnZW9sb2NhdGlvbl9kYXRhIl19LCJ2ZW5kb3JzX2xpIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6dXBzY29yZWdtLVlkWUNXcEhLIl19LCJ2ZXJzaW9uIjoyfQ==",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735834,
+                    "expires_date": "2026-03-28T22:10:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFgAAAAAAAAACRAAAAAAAAA.YAAAAAAAAAAA",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1774735834,
+                    "expires_date": "2026-03-28T22:10:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId15399",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ain_cid",
+                    "value": "1743113440452.363518533.5755837",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1743115240,
+                    "expires_date": "2025-03-27T22:40:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ain_uid",
+                    "value": "1743113440453.509395240.009483",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": 1758665440,
+                    "expires_date": "2025-09-23T22:10:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1139654009.1743113447",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1750889447,
+                    "expires_date": "2025-06-25T22:10:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1819728464.1743113447",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1777673454.076493,
+                    "expires_date": "2026-05-01T22:10:54.076493+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId466SecId1922",
+                    "value": "1",
+                    "domain": "www.dnevnik.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_QJKNK792YE",
+                    "value": "GS1.1.1743113446.1.1.1743113454.0.0.0",
+                    "domain": ".dnevnik.si",
+                    "path": "/",
+                    "expires": 1777673454.113049,
+                    "expires_date": "2026-05-01T22:10:54.113049+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_click_2.png",
+            "011_decline_interaction_1_FAIL.png",
+            "012_decline_interaction_save_1_click_1.png",
+            "013_decline_interaction_save_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_SAVE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(239,65,35,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(239,65,35,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Z vašim soglasjem mi in  naših 882 partnerjev  uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov. Nekateri partnerji ne zahtevajo vašega soglasja za obdelavo vaših podatkov in se zanašajo na svoj zakoniti poslovni interes.\nKadar koli lahko prekličete svoje soglasje ali u",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi in zapri]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več →]\nExplanation: The button [Sprejmi in zapri] suggests accepting cookies, thus categorizing it under GenericLabel1. There is no button for declining cookies found, hence GenericLabel2 is None. There are no ambiguous accept or decline phrases, and [Več →] is categorized under GenericLabel3 as it relates to managing settings or seeing more options.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi in zapri suggests accepting cookies, thus categorizing it under GenericLabel1. There is no button for declining cookies found, hence GenericLabel2 is None. There are no ambiguous accept or decline phrases, and Več → is categorized under GenericLabel3 as it relates to managing settings or seeing more options."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več →",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(239,65,35,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(239,65,35,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      Dobrodošli na Dnevnik Mediji d.o.o. Upravljanje soglasja×Skupaj z našimi partnerji namestimo piškotke in v vaši napravi dostopamo do informacij, ki niso občutljive narave, ter jih uporabljamo za izboljšavo naših izdelkov ter prilagoditev oglasov in druge vsebine na tem spletnem mestu. Sprejmete lahko vse ali nekatere od teh dejavnosti. Če želite izvedeti več o piškotkih, partnerjih in o tem, kako uporabljamo vaše podatke za ogled možnosti ali dejavnosti posameznega partnerja, preberite naš pravilnik o zasebnosti.DovoliteNe strinjam se z vsemStrinjam se z vsem+Shranjevanje in/ali dostop d",
+                "banner_z_index": 2147483642,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 2,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Strinjam se z vsem]\nGenericLabel2: [Ne strinjam se z vsem]\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: [Ne strinjam se]\nGenericLabel3: [Shrani]\nExplanation: \"Strinjam se z vsem\" is categorized as accepting all cookies, while \"Ne strinjam se z vsem\" is categorized as declining all cookies. \"Strinjam se\" is an ambiguous acceptance phrase, and \"Ne strinjam se\" is an ambiguous decline phrase. \"Shrani\" is considered a settings label as it relates to saving selections.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Strinjam se z vsem",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne strinjam se z vsem",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Shrani",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se z vsem\" is categorized as accepting all cookies, while \"Ne strinjam se z vsem\" is categorized as declining all cookies. \"Strinjam se\" is an ambiguous acceptance phrase, and \"Ne strinjam se\" is an ambiguous decline phrase. \"Shrani\" is considered a settings label as it relates to saving selections."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Shrani",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "GenericLabel2",
+                "save_settings_attempt": true,
+                "save_settings_num_clicks": 1,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: [Shrani]\nExplanation: Found an explicit save settings button.",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": "Shrani",
+                    "Explanation": "Found an explicit save settings button."
+                },
+                "save_settings_llm_consensus_reached": true,
+                "save_settings_llm_consensus_value": 1.0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-27T23:08:57.020671",
+        "timestamp_stop": "2025-03-27T23:11:00.982677"
+    }
+}

@@ -1,0 +1,1027 @@
+{
+    "web_page": "https://www.prva.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T06:26:52.094047",
+    "timestamp_stop": "2025-03-28T06:29:18.284779",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.prva.si/",
+            "https://www.prva.si/zivljensko-zavarovanje/prva-varnost-senior/",
+            "https://www.prva.si/zivljensko-zavarovanje/prva-varnost-senior/#collapse-kaj-je-kronicna-bolezen-poskodba-ali-bolezensko-stanje",
+            "https://www.prva.si/nezgodno-zavarovanje/zavarovanje-otrok-in-mladine/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "9b16d77171662e16583df64ed96fcf62",
+                    "domain": "www.prva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gcc_analytics",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675614.030063,
+                    "expires_date": "2026-03-28T05:26:54.030063+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_preferences",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675614.030227,
+                    "expires_date": "2026-03-28T05:26:54.030227+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_marketing",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675614.030264,
+                    "expires_date": "2026-03-28T05:26:54.030264+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "h7ro2510ZLqPbBUxWv6luyslLZxXnhjbAXqryyKQlxnQnaR5h7b0pdUDM0zPB6Zpf5rfRqyTG9VSUSbN0OmdX0khj3B4+cEhNRFdqdG0lf3Xcic9V8GWKJwVuFiW",
+                    "domain": "conversations-widget.brevo.com",
+                    "path": "/",
+                    "expires": 1743744415.479383,
+                    "expires_date": "2025-04-04T05:26:55.479383+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "gcc_analytics",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675614.030063,
+                    "expires_date": "2026-03-28T05:26:54.030063+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_preferences",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675614.030227,
+                    "expires_date": "2026-03-28T05:26:54.030227+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_marketing",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675614.030264,
+                    "expires_date": "2026-03-28T05:26:54.030264+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "wci7p+E0QaKjW5MQTt+kYC5tkqqL5+bZHul0lsLMYxkMkjdovf9hqQ0QdGrujp7iUu3PfCoGYPbvHDkDlhIx7OelVCx6SNufO8SJLNfG7i0OZUuA3pRA763qWGll",
+                    "domain": "conversations-widget.brevo.com",
+                    "path": "/",
+                    "expires": 1743744436.857429,
+                    "expires_date": "2025-04-04T05:27:16.857429+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "a29dff0a74fb280427c8a9e3331248ef",
+                    "domain": "www.prva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T06:26:53.464715",
+        "timestamp_stop": "2025-03-28T06:27:23.219277"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Potrdi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.prva.si/",
+            "https://www.prva.si/zivljensko-zavarovanje/prva-varnost-senior/",
+            "https://www.prva.si/zivljensko-zavarovanje/prva-varnost-senior/#collapse-kaj-je-kronicna-bolezen-poskodba-ali-bolezensko-stanje",
+            "https://www.prva.si/nezgodno-zavarovanje/zavarovanje-otrok-in-mladine/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "f9dcf1b6c198c67668463994ddcaff83",
+                    "domain": "www.prva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gcc_analytics",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675645.395106,
+                    "expires_date": "2026-03-28T05:27:25.395106+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_preferences",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675645.395169,
+                    "expires_date": "2026-03-28T05:27:25.395169+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_marketing",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675645.395193,
+                    "expires_date": "2026-03-28T05:27:25.395193+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "nwf8QchzJzYtO2XUlP+VKx5L/DhRH8eJiiz0PkARJGHCAalbR0teigJx/oZZAQMUPabvzRwlw0A/OAzeRI0Qk8gO+wLdAEaSwRtj/MgCgNesdIGy2yEO/dqy36Qr",
+                    "domain": "conversations-widget.brevo.com",
+                    "path": "/",
+                    "expires": 1743744446.715098,
+                    "expires_date": "2025-04-04T05:27:26.715098+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "f9dcf1b6c198c67668463994ddcaff83",
+                    "domain": "www.prva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gcc_analytics",
+                    "value": "1",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675673,
+                    "expires_date": "2026-03-28T05:27:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_preferences",
+                    "value": "1",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675673,
+                    "expires_date": "2026-03-28T05:27:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_marketing",
+                    "value": "1",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675673,
+                    "expires_date": "2026-03-28T05:27:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_consent",
+                    "value": "true",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675673,
+                    "expires_date": "2026-03-28T05:27:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1156226697.1743139674",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1777699673.871482,
+                    "expires_date": "2026-05-02T05:27:53.871482+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sib_cuid",
+                    "value": "f84f4536-432a-4d96-847b-7b25308397af",
+                    "domain": ".www.prva.si",
+                    "path": "/",
+                    "expires": 1758839273,
+                    "expires_date": "2025-09-25T22:27:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743139673986.332403068419778559",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1750915673,
+                    "expires_date": "2025-06-26T05:27:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743140574.031898,
+                    "expires_date": "2025-03-28T05:42:54.031898+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "D4LaItCz6us3WXEhkmYk6oY3HKKfbYrwjHiZMgXVQTUsyTNsjfkEcrvcZORV5fofvehhQMzWBdEwhxQ6wcNDItfs4RL4AfM1JbnOc5w5nNYx58CLPnfVY0vMIx1H",
+                    "domain": "conversations-widget.brevo.com",
+                    "path": "/",
+                    "expires": 1743744474.200949,
+                    "expires_date": "2025-04-04T05:27:54.200949+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_S5S9XR58JV",
+                    "value": "GS1.1.1743139673.1.0.1743139674.59.0.0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1777699674.250521,
+                    "expires_date": "2026-05-02T05:27:54.250521+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "f9dcf1b6c198c67668463994ddcaff83",
+                    "domain": "www.prva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gcc_analytics",
+                    "value": "1",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675693,
+                    "expires_date": "2026-03-28T05:28:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_preferences",
+                    "value": "1",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675693,
+                    "expires_date": "2026-03-28T05:28:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_marketing",
+                    "value": "1",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675693,
+                    "expires_date": "2026-03-28T05:28:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_consent",
+                    "value": "true",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675693,
+                    "expires_date": "2026-03-28T05:28:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1156226697.1743139674",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1777699693.051354,
+                    "expires_date": "2026-05-02T05:28:13.051354+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sib_cuid",
+                    "value": "f84f4536-432a-4d96-847b-7b25308397af",
+                    "domain": ".www.prva.si",
+                    "path": "/",
+                    "expires": 1758839273,
+                    "expires_date": "2025-09-25T22:27:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743139673986.332403068419778559",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1750915693,
+                    "expires_date": "2025-06-26T05:28:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743140574.031898,
+                    "expires_date": "2025-03-28T05:42:54.031898+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "zOyDdvKaY7dQZ2aVelOMrA9pY+p+h9TGQMPxMPq1rrRyhKlaH9FqCgMmJZDNRVy6+zIN3jjmFXHpRo6IwkC5njPpv9wK+GYmSZahFkvGrrVqc8HZHx7fq72wvX+M",
+                    "domain": "conversations-widget.brevo.com",
+                    "path": "/",
+                    "expires": 1743744493.660824,
+                    "expires_date": "2025-04-04T05:28:13.660824+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_S5S9XR58JV",
+                    "value": "GS1.1.1743139673.1.1.1743139699.34.0.0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1777699699.645529,
+                    "expires_date": "2026-05-02T05:28:19.645529+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Nastavitve piškotkov\n        \n          \n            \n          \n        \n      \n      \n        Sami lahko izberete, katere vrste piškotkov se bodo namestile na vaši napravi.\nPreden onemogočite določeno vrsto piškotkov, si na strani Razkritje rabe piškotkov preberite, čemu so posamezne vrste piškotkov namenjene in kako jih uporabljamo. Zavrnitev piškotkov lahko namreč povzroči slabšo uporabniško izkušnjo, saj to onemogoči določene funkcionalnosti in pravilen prikaz določenih vsebin.\nS klikom na »Shrani nastavitve«, boste shranili izbrane nastavite piškotkov. Če želite sprejeti vse piškotke, kliknite na »Sprejmi vse piškotke«.\nVašo izbiro boste lahko vedno spremenili.      \n      \n        Nujni\n        Analitika\n                        Oglaševanje\n              \n      \n        Zavrni vse\n        Potrdi izbrano\n        Potrdi vse",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Potrdi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: [Potrdi izbrano]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: \"Potrdi vse\" is categorized as accepting all cookies. \"Zavrni vse\" is clearly declining all cookies. \"Potrdi izbrano\" is an ambiguous acceptance phrase as it indicates confirming selected choices without explicitly stating acceptance of all cookies. There are no settings-related buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Potrdi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Potrdi vse\" is categorized as accepting all cookies. \"Zavrni vse\" is clearly declining all cookies. \"Potrdi izbrano\" is an ambiguous acceptance phrase as it indicates confirming selected choices without explicitly stating acceptance of all cookies. There are no settings-related buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Potrdi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T06:27:24.922435",
+        "timestamp_stop": "2025-03-28T06:28:19.902738"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni vse)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.prva.si/",
+            "https://www.prva.si/zivljensko-zavarovanje/prva-varnost-senior/",
+            "https://www.prva.si/zivljensko-zavarovanje/prva-varnost-senior/#collapse-kaj-je-kronicna-bolezen-poskodba-ali-bolezensko-stanje",
+            "https://www.prva.si/nezgodno-zavarovanje/zavarovanje-otrok-in-mladine/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "c8548191ecfb2ffce7e9ce967f599abd",
+                    "domain": "www.prva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gcc_analytics",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675701.994497,
+                    "expires_date": "2026-03-28T05:28:21.994497+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_preferences",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675701.994567,
+                    "expires_date": "2026-03-28T05:28:21.994567+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_marketing",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675701.994631,
+                    "expires_date": "2026-03-28T05:28:21.994631+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "iVWa7mTEptEqZEqSlKg1MvesEV6iRGJubzJ5VXZqaaMQbx+xeZOYyvomw/dh35L0hXA1CRQfMKBKtypprlb2AZ8WwqN0wkO57nnkEG/a2pPm/pMLHWmen4Wtz5n6",
+                    "domain": "conversations-widget.brevo.com",
+                    "path": "/",
+                    "expires": 1743744503.520704,
+                    "expires_date": "2025-04-04T05:28:23.520704+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "c8548191ecfb2ffce7e9ce967f599abd",
+                    "domain": "www.prva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gcc_analytics",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675731,
+                    "expires_date": "2026-03-28T05:28:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_preferences",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675731,
+                    "expires_date": "2026-03-28T05:28:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_marketing",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675731,
+                    "expires_date": "2026-03-28T05:28:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "iVWa7mTEptEqZEqSlKg1MvesEV6iRGJubzJ5VXZqaaMQbx+xeZOYyvomw/dh35L0hXA1CRQfMKBKtypprlb2AZ8WwqN0wkO57nnkEG/a2pPm/pMLHWmen4Wtz5n6",
+                    "domain": "conversations-widget.brevo.com",
+                    "path": "/",
+                    "expires": 1743744503.520704,
+                    "expires_date": "2025-04-04T05:28:23.520704+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gcc_consent",
+                    "value": "true",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675731,
+                    "expires_date": "2026-03-28T05:28:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "gcc_analytics",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675751,
+                    "expires_date": "2026-03-28T05:29:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_preferences",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675751,
+                    "expires_date": "2026-03-28T05:29:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_marketing",
+                    "value": "0",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675751,
+                    "expires_date": "2026-03-28T05:29:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gcc_consent",
+                    "value": "true",
+                    "domain": ".prva.si",
+                    "path": "/",
+                    "expires": 1774675751,
+                    "expires_date": "2026-03-28T05:29:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "72uN6Lgqr4hJYPGExWjrMJP+Cwnn0EOGv54Z18Zak9ZmHq5F4fNFxGdDjxdM9m/+2A0k/mbnwjySmCUBRA+1WCFSMHiHdhD7Z0oVW2QcE5sJpUnDx0EXYx3nlL6q",
+                    "domain": "conversations-widget.brevo.com",
+                    "path": "/",
+                    "expires": 1743744551.548483,
+                    "expires_date": "2025-04-04T05:29:11.548483+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "e7ccee23db4eec8fb9341f7847fc4ae2",
+                    "domain": "www.prva.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Nastavitve piškotkov\n        \n          \n            \n          \n        \n      \n      \n        Sami lahko izberete, katere vrste piškotkov se bodo namestile na vaši napravi.\nPreden onemogočite določeno vrsto piškotkov, si na strani Razkritje rabe piškotkov preberite, čemu so posamezne vrste piškotkov namenjene in kako jih uporabljamo. Zavrnitev piškotkov lahko namreč povzroči slabšo uporabniško izkušnjo, saj to onemogoči določene funkcionalnosti in pravilen prikaz določenih vsebin.\nS klikom na »Shrani nastavitve«, boste shranili izbrane nastavite piškotkov. Če želite sprejeti vse piškotke, kliknite na »Sprejmi vse piškotke«.\nVašo izbiro boste lahko vedno spremenili.      \n      \n        Nujni\n        Analitika\n                        Oglaševanje\n              \n      \n        Zavrni vse\n        Potrdi izbrano\n        Potrdi vse",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Potrdi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: [Potrdi izbrano]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: \"Potrdi vse\" is categorized as accepting all cookies, \"Zavrni vse\" is clearly declining all cookies, and \"Potrdi izbrano\" is ambiguous acceptance related to confirming selected options. There are no settings-related buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Potrdi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Potrdi vse\" is categorized as accepting all cookies, \"Zavrni vse\" is clearly declining all cookies, and \"Potrdi izbrano\" is ambiguous acceptance related to confirming selected options. There are no settings-related buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T06:28:21.567481",
+        "timestamp_stop": "2025-03-28T06:29:18.005033"
+    }
+}

@@ -1,0 +1,1311 @@
+{
+    "web_page": "https://www.mojaobcina.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T22:56:45.425016",
+    "timestamp_stop": "2025-03-28T22:59:35.011805",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojaobcina.si/",
+            "https://www.mojaobcina.si/recica-ob-savinji/novice/obvestilo-o-izklopu-podrocje-recica-ob-savinji-1.html",
+            "https://www.mojaobcina.si/slovenj-gradec/novice/obvestilo-o-izklopu-podrocje-dravograd.html",
+            "https://www.mojaobcina.si/smarje-pri-jelsah/novice/obvestilo-o-izklopu-podrocje-smarje-pri-jelsah-3.html"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "session_id",
+                    "value": "kvs08b6dm0ovudambjbmkjrpj5",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743285408.864492,
+                    "expires_date": "2025-03-29T21:56:48.864492+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FTQ1G7D1LP",
+                    "value": "GS1.1.1743199009.1.0.1743199009.0.0.195615008",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759009.271797,
+                    "expires_date": "2026-05-02T21:56:49.271797+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1716867190.1743199009",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759009.272416,
+                    "expires_date": "2026-05-02T21:56:49.272416+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor_uuid",
+                    "value": "AA103037-BBC2-BE32-1BCE-A60F4D93D4BB",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759009.329716,
+                    "expires_date": "2026-05-02T21:56:49.329716+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743199009369.225701782323698223",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975009,
+                    "expires_date": "2025-06-26T21:56:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.DsGnxfanBwi%2FyQBWTabDXXSTs2rV9ifAmhpcaDKqba0%3D.1743199009",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759009.425275,
+                    "expires_date": "2026-05-02T21:56:49.425275+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "A48TncVBeJyfOui7%2FJSXCBvUjiKtnqGhj5Cfx7ShBTGZug6KBIx9B6Al4zyFKCYY8Txaj6tvQaDhJw42M%2Fh%2FdMfbkYNZCFHl9%2Fb8A0rE6sMx1Al43Wg5Krfu6GkKCQ%3D%3D",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743271009.425412,
+                    "expires_date": "2025-03-29T17:56:49.425412+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.2.366248537.1743199010",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975009.425512,
+                    "expires_date": "2025-06-26T21:56:49.425512+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "session_id",
+                    "value": "kvs08b6dm0ovudambjbmkjrpj5",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743285408.864492,
+                    "expires_date": "2025-03-29T21:56:48.864492+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1716867190.1743199009",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759031.784847,
+                    "expires_date": "2026-05-02T21:57:11.784847+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor_uuid",
+                    "value": "AA103037-BBC2-BE32-1BCE-A60F4D93D4BB",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759009.329716,
+                    "expires_date": "2026-05-02T21:56:49.329716+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743199009369.225701782323698223",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975031,
+                    "expires_date": "2025-06-26T21:57:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.DsGnxfanBwi%2FyQBWTabDXXSTs2rV9ifAmhpcaDKqba0%3D.1743199009",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759038.568788,
+                    "expires_date": "2026-05-02T21:57:18.568788+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.2.366248537.1743199010",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975009.900386,
+                    "expires_date": "2025-06-26T21:56:49.900386+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "t7aOwqfIeSYtHt09rYokOylgGUi84.dutf2g5F10F2Q-1743199017-1.0.1.1-gajtAPGqYS7l5B_9jEaRjyOMayaXVeGyxWMGxWbBtEV_VobNF0c9kQaVg1lrUcXrt4DnYn3f_HY9ajUr2fU.26tremOlUwbt3BOPClDrXCA",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743200817.458727,
+                    "expires_date": "2025-03-28T22:26:57.458727+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lastthreemun",
+                    "value": "208%2C148%2C170",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1748383031.578249,
+                    "expires_date": "2025-05-27T21:57:11.578249+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FTQ1G7D1LP",
+                    "value": "GS1.1.1743199009.1.1.1743199038.0.0.195615008",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759038.539968,
+                    "expires_date": "2026-05-02T21:57:18.539968+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "Swdt4BAUupbR0wHMU8hM83lAezx%2Bdm%2B9PXMpCyxpFMqNW4Nmx%2FbHtr%2FgQ3UwrveSXq9FJPBwCZoQaQhGTIwJx60%2BX%2F%2BH%2Bh2I2a6cA0S3fFDXNLNomB8MX8B1fGw62Q%3D%3D",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743271038.568896,
+                    "expires_date": "2025-03-29T17:57:18.568896+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T22:56:47.004269",
+        "timestamp_stop": "2025-03-28T22:57:18.787824"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojaobcina.si/",
+            "https://www.mojaobcina.si/recica-ob-savinji/novice/obvestilo-o-izklopu-podrocje-recica-ob-savinji-1.html",
+            "https://www.mojaobcina.si/slovenj-gradec/novice/obvestilo-o-izklopu-podrocje-dravograd.html",
+            "https://www.mojaobcina.si/aktualno/",
+            "https://www.mojaobcina.si/smarje-pri-jelsah/novice/obvestilo-o-izklopu-podrocje-smarje-pri-jelsah-3.html",
+            "https://www.mojaobcina.si/podvelka/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "session_id",
+                    "value": "shd23685p4r5inrke1iak1r8n0",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743285441.688222,
+                    "expires_date": "2025-03-29T21:57:21.688222+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FTQ1G7D1LP",
+                    "value": "GS1.1.1743199042.1.0.1743199042.0.0.377519141",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759042.089574,
+                    "expires_date": "2026-05-02T21:57:22.089574+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.29463550.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759042.090258,
+                    "expires_date": "2026-05-02T21:57:22.090258+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor_uuid",
+                    "value": "7A399E7E-BB5B-3367-5768-E50D31AF59B9",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759042.102328,
+                    "expires_date": "2026-05-02T21:57:22.102328+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743199042151.485816400851445516",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975042,
+                    "expires_date": "2025-06-26T21:57:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.fdUBDcL39x4qsdJtq9ynp%2BuUO1Ho%2FdcusGQaNXf0%2Bg0%3D.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759042.247095,
+                    "expires_date": "2026-05-02T21:57:22.247095+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "7N%2FNLwvh7BBVQ7Mz%2BOt91T7%2FPSZgjQKmmYg93lgAU6aBbPYcgo75jKY3eDVOzPhGF2iegxLDXLWunB6jsZji6Hu3Cp97mvaocGpuja%2Fh%2FWhJTWVOnQIEsaSUtF6OSw%3D%3D",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743271042.247155,
+                    "expires_date": "2025-03-29T17:57:22.247155+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.2.1995457446.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975042.247179,
+                    "expires_date": "2025-06-26T21:57:22.247179+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "session_id",
+                    "value": "shd23685p4r5inrke1iak1r8n0",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743285441.688222,
+                    "expires_date": "2025-03-29T21:57:21.688222+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.29463550.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759071.539922,
+                    "expires_date": "2026-05-02T21:57:51.539922+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor_uuid",
+                    "value": "7A399E7E-BB5B-3367-5768-E50D31AF59B9",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759042.102328,
+                    "expires_date": "2026-05-02T21:57:22.102328+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743199042151.485816400851445516",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975071,
+                    "expires_date": "2025-06-26T21:57:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.fdUBDcL39x4qsdJtq9ynp%2BuUO1Ho%2FdcusGQaNXf0%2Bg0%3D.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759071.663459,
+                    "expires_date": "2026-05-02T21:57:51.663459+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.2.1995457446.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975041.663629,
+                    "expires_date": "2025-06-26T21:57:21.663629+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "ZWXMJzg74RU8uE9NcOEP3N88k2LkaQxMFXJlfiTrBnQ-1743199064-1.0.1.1-8S449d5LgWmWSM1kWoDdf4ATrB9TzKseOJMeYAsrmOwTpr63giSCo6EozjXNPEx3J6PPhDlaPbFYJ3AgEvSiJT7aRfI_n2f_kz1LPOnLSMU",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743200864.673177,
+                    "expires_date": "2025-03-28T22:27:44.673177+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lastthreemun",
+                    "value": "208%2C148",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1748383071.250813,
+                    "expires_date": "2025-05-27T21:57:51.250813+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FTQ1G7D1LP",
+                    "value": "GS1.1.1743199042.1.1.1743199071.0.0.377519141",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759071.539381,
+                    "expires_date": "2026-05-02T21:57:51.539381+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "QBl3DEDK6MaKFnV5RJYZ%2B00l3QpKVIXlEP1CBbPgSFZJa4MquLdEw2Yt0IX9qBUL05RY27%2BnzfvqwXm582Kn4JY6tU%2BSnzW21YTwR9X%2B8%2F5Q609dbzTzqo8s3Jiqjw%3D%3D",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743271071.663572,
+                    "expires_date": "2025-03-29T17:57:51.663572+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "session_id",
+                    "value": "shd23685p4r5inrke1iak1r8n0",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743285481.229652,
+                    "expires_date": "2025-03-29T21:58:01.229652+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.29463550.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759098.372794,
+                    "expires_date": "2026-05-02T21:58:18.372794+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor_uuid",
+                    "value": "7A399E7E-BB5B-3367-5768-E50D31AF59B9",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759042.102328,
+                    "expires_date": "2026-05-02T21:57:22.102328+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743199042151.485816400851445516",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975098,
+                    "expires_date": "2025-06-26T21:58:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.fdUBDcL39x4qsdJtq9ynp%2BuUO1Ho%2FdcusGQaNXf0%2Bg0%3D.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759104.643824,
+                    "expires_date": "2026-05-02T21:58:24.643824+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.2.1995457446.1743199042",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975041.508856,
+                    "expires_date": "2025-06-26T21:57:21.508856+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "ZWXMJzg74RU8uE9NcOEP3N88k2LkaQxMFXJlfiTrBnQ-1743199064-1.0.1.1-8S449d5LgWmWSM1kWoDdf4ATrB9TzKseOJMeYAsrmOwTpr63giSCo6EozjXNPEx3J6PPhDlaPbFYJ3AgEvSiJT7aRfI_n2f_kz1LPOnLSMU",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743200864.673177,
+                    "expires_date": "2025-03-28T22:27:44.673177+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lastthreemun",
+                    "value": "208%2C148%2C170%2C121",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1748383098.162225,
+                    "expires_date": "2025-05-27T21:58:18.162225+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FTQ1G7D1LP",
+                    "value": "GS1.1.1743199042.1.1.1743199104.0.0.377519141",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759104.619009,
+                    "expires_date": "2026-05-02T21:58:24.619009+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "isKunMxzkCDJhER2zlNKSoxv89x4GdpjI8SEx5nCf%2Fm6xuasGPaCq0dw1xjDLWf1LpGCju99AJ7sEII%2BiARprcY2ZBNeuxEhrPgC%2BCp1ZU1zNScckvSULoatqFCLlg%3D%3D",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743271104.643908,
+                    "expires_date": "2025-03-29T17:58:24.643908+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T22:57:20.412637",
+        "timestamp_stop": "2025-03-28T22:58:25.131005"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojaobcina.si/",
+            "https://www.mojaobcina.si/recica-ob-savinji/novice/obvestilo-o-izklopu-podrocje-recica-ob-savinji-1.html",
+            "https://www.mojaobcina.si/slovenj-gradec/novice/obvestilo-o-izklopu-podrocje-dravograd.html",
+            "https://www.mojaobcina.si/aktualno/",
+            "https://www.mojaobcina.si/smarje-pri-jelsah/novice/obvestilo-o-izklopu-podrocje-smarje-pri-jelsah-3.html",
+            "https://www.mojaobcina.si/podvelka/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "session_id",
+                    "value": "vl0g5js1q966suh7a7b1l429r1",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743285508.866397,
+                    "expires_date": "2025-03-29T21:58:28.866397+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FTQ1G7D1LP",
+                    "value": "GS1.1.1743199109.1.0.1743199109.0.0.189026066",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759109.245015,
+                    "expires_date": "2026-05-02T21:58:29.245015+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1392374467.1743199109",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759109.245851,
+                    "expires_date": "2026-05-02T21:58:29.245851+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor_uuid",
+                    "value": "7AC9DAC3-7B9B-70E8-6F83-056DF21F274B",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759109.288769,
+                    "expires_date": "2026-05-02T21:58:29.288769+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743199109375.962478326666618805",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975109,
+                    "expires_date": "2025-06-26T21:58:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.QW2o8Td6R07HDzWpbOuDqur%2BU6YXl4hrFqq6CtgvxU4%3D.1743199109",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759109.509204,
+                    "expires_date": "2026-05-02T21:58:29.509204+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "SoLH3d52HCefPpm%2B4GCefPmvm%2BbtpFDPeDEupVkKfAATfjmR5dJoW8F3ogExVH7jjsdA4qrlHum7URBFxeXbMdYf7jEMwjxSlQudk0%2FJRV1dc3BMPV4y6xYPbugi4A%3D%3D",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743271109.509289,
+                    "expires_date": "2025-03-29T17:58:29.509289+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.2.2010815917.1743199110",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975109.509322,
+                    "expires_date": "2025-06-26T21:58:29.509322+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "session_id",
+                    "value": "vl0g5js1q966suh7a7b1l429r1",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743285508.866397,
+                    "expires_date": "2025-03-29T21:58:28.866397+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1392374467.1743199109",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759142.590567,
+                    "expires_date": "2026-05-02T21:59:02.590567+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor_uuid",
+                    "value": "7AC9DAC3-7B9B-70E8-6F83-056DF21F274B",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759109.288769,
+                    "expires_date": "2026-05-02T21:58:29.288769+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743199109375.962478326666618805",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975142,
+                    "expires_date": "2025-06-26T21:59:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.QW2o8Td6R07HDzWpbOuDqur%2BU6YXl4hrFqq6CtgvxU4%3D.1743199109",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759142.729905,
+                    "expires_date": "2026-05-02T21:59:02.729905+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.2.2010815917.1743199110",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975109.730094,
+                    "expires_date": "2025-06-26T21:58:29.730094+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Yxe5o9A6OLGu8PYxGxzmzOyOx8LNdhz8OR5PQlXij0g-1743199136-1.0.1.1-nIR61IQOcbK1B52wwA9EOw9YG_ojrd_riVRjrZWeRh5apJuv5Gb36bfYlZTCDi9ANQtGxHY1zEmYXAMZrAmjZt.zzDeAK0qy4WoGM_GZJm0",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743200935.825017,
+                    "expires_date": "2025-03-28T22:28:55.825017+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lastthreemun",
+                    "value": "208%2C148",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1748383142.341462,
+                    "expires_date": "2025-05-27T21:59:02.341462+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FTQ1G7D1LP",
+                    "value": "GS1.1.1743199109.1.1.1743199142.0.0.189026066",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759142.590066,
+                    "expires_date": "2026-05-02T21:59:02.590066+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "0jziSPryiN277ejIHiXE92fsME6GiO31yw2BK%2FqGaFc4EhqlcUym31Lc7VsPr3NYuEKIgwgh2EIIAEpQytQKRU26i2zUvlU0LE8vmJS9yys6kr7GuDl0D8kpsYvyQw%3D%3D",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743271142.730045,
+                    "expires_date": "2025-03-29T17:59:02.730045+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "session_id",
+                    "value": "vl0g5js1q966suh7a7b1l429r1",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743285552.416447,
+                    "expires_date": "2025-03-29T21:59:12.416447+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1392374467.1743199109",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759168.170425,
+                    "expires_date": "2026-05-02T21:59:28.170425+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor_uuid",
+                    "value": "7AC9DAC3-7B9B-70E8-6F83-056DF21F274B",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759109.288769,
+                    "expires_date": "2026-05-02T21:58:29.288769+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743199109375.962478326666618805",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975168,
+                    "expires_date": "2025-06-26T21:59:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FPID",
+                    "value": "FPID2.2.QW2o8Td6R07HDzWpbOuDqur%2BU6YXl4hrFqq6CtgvxU4%3D.1743199109",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759174.207085,
+                    "expires_date": "2026-05-02T21:59:34.207085+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPAU",
+                    "value": "1.2.2010815917.1743199110",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1750975109.328769,
+                    "expires_date": "2025-06-26T21:58:29.328769+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Yxe5o9A6OLGu8PYxGxzmzOyOx8LNdhz8OR5PQlXij0g-1743199136-1.0.1.1-nIR61IQOcbK1B52wwA9EOw9YG_ojrd_riVRjrZWeRh5apJuv5Gb36bfYlZTCDi9ANQtGxHY1zEmYXAMZrAmjZt.zzDeAK0qy4WoGM_GZJm0",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743200935.825017,
+                    "expires_date": "2025-03-28T22:28:55.825017+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lastthreemun",
+                    "value": "208%2C148%2C170%2C121",
+                    "domain": "www.mojaobcina.si",
+                    "path": "/",
+                    "expires": 1748383167.867407,
+                    "expires_date": "2025-05-27T21:59:27.867407+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FTQ1G7D1LP",
+                    "value": "GS1.1.1743199109.1.1.1743199174.0.0.189026066",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1777759174.181599,
+                    "expires_date": "2026-05-02T21:59:34.181599+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FPLC",
+                    "value": "sESjkdlUxXmP6i%2B%2FFWH4AbOmaAo7iQKzYlnZhPoLlLBWqgkdiJYKWaE5hs4i1FRNy%2FH8ziORDOsHzrkt27aHKj6I6%2BK1jUN8vynhxxgsq3wihevosb%2BkA2hmo9aIig%3D%3D",
+                    "domain": ".mojaobcina.si",
+                    "path": "/",
+                    "expires": 1743271174.207215,
+                    "expires_date": "2025-03-29T17:59:34.207215+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "002_decline_init_1.png",
+            "003_decline_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T22:58:26.725378",
+        "timestamp_stop": "2025-03-28T22:59:34.697521"
+    }
+}

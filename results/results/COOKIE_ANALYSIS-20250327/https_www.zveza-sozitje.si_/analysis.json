@@ -1,0 +1,965 @@
+{
+    "web_page": "https://www.zveza-sozitje.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T02:32:25.302212",
+    "timestamp_stop": "2025-03-28T02:34:32.562662",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zveza-sozitje.si/",
+            "http://www.zveza-sozitje.si/nas-zbornik.html",
+            "https://www.zveza-sozitje.si/?cookie_info=1",
+            "http://www.zveza-sozitje.si/modules/uploader/uploads/system_menu/dokumenti/Naro_ilnica_za_NZ.pdf"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "05ed93fabb2bcdb67d2a1fbf529d807f",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.2077517063.1743125548",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685548.03738,
+                    "expires_date": "2026-05-02T01:32:28.037380+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1610947503.1743125548",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743211948,
+                    "expires_date": "2025-03-29T01:32:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743125608,
+                    "expires_date": "2025-03-28T01:33:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BF8TTJ1H5W",
+                    "value": "GS1.2.1743125548.1.0.1743125548.60.0.0",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685548.369677,
+                    "expires_date": "2026-05-02T01:32:28.369677+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743126448.528677,
+                    "expires_date": "2025-03-28T01:47:28.528677+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "05ed93fabb2bcdb67d2a1fbf529d807f",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.2077517063.1743125548",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685553.863065,
+                    "expires_date": "2026-05-02T01:32:33.863065+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1610947503.1743125548",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743211953,
+                    "expires_date": "2025-03-29T01:32:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743125608,
+                    "expires_date": "2025-03-28T01:33:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743126448.528677,
+                    "expires_date": "2025-03-28T01:47:28.528677+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_BF8TTJ1H5W",
+                    "value": "GS1.2.1743125548.1.1.1743125553.55.0.0",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685553.939824,
+                    "expires_date": "2026-05-02T01:32:33.939824+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T02:32:26.609976",
+        "timestamp_stop": "2025-03-28T02:32:52.357209"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Razumem in želim nadaljevati)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zveza-sozitje.si/",
+            "http://www.zveza-sozitje.si/nas-zbornik.html",
+            "http://www.zveza-sozitje.si/modules/uploader/uploads/system_menu/dokumenti/Naro_ilnica_za_NZ.pdf",
+            "http://www.zveza-sozitje.si/galerije.html"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "aee06ce449776dd476f163638a9cbefa",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1819098653.1743125575",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685575.070763,
+                    "expires_date": "2026-05-02T01:32:55.070763+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.482622008.1743125575",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743211975,
+                    "expires_date": "2025-03-29T01:32:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743125635,
+                    "expires_date": "2025-03-28T01:33:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BF8TTJ1H5W",
+                    "value": "GS1.2.1743125575.1.0.1743125575.60.0.0",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685575.425387,
+                    "expires_date": "2026-05-02T01:32:55.425387+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743126475.541252,
+                    "expires_date": "2025-03-28T01:47:55.541252+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "aee06ce449776dd476f163638a9cbefa",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1819098653.1743125575",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685602.355249,
+                    "expires_date": "2026-05-02T01:33:22.355249+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.482622008.1743125575",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743212002,
+                    "expires_date": "2025-03-29T01:33:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743125635,
+                    "expires_date": "2025-03-28T01:33:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743126475.541252,
+                    "expires_date": "2025-03-28T01:47:55.541252+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieCheckNS",
+                    "value": "1",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685601.901053,
+                    "expires_date": "2026-05-02T01:33:21.901053+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_BF8TTJ1H5W",
+                    "value": "GS1.2.1743125575.1.1.1743125602.33.0.0",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685602.487503,
+                    "expires_date": "2026-05-02T01:33:22.487503+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "aee06ce449776dd476f163638a9cbefa",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1819098653.1743125575",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685618.515855,
+                    "expires_date": "2026-05-02T01:33:38.515855+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.482622008.1743125575",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743212018,
+                    "expires_date": "2025-03-29T01:33:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743125635,
+                    "expires_date": "2025-03-28T01:33:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743126475.541252,
+                    "expires_date": "2025-03-28T01:47:55.541252+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieCheckNS",
+                    "value": "1",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685601.901053,
+                    "expires_date": "2026-05-02T01:33:21.901053+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_BF8TTJ1H5W",
+                    "value": "GS1.2.1743125575.1.1.1743125618.17.0.0",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685618.577848,
+                    "expires_date": "2026-05-02T01:33:38.577848+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Z nadaljevanjem ogleda te strani, se strinjate z uporabo piškotkov na tej strani. Razumem in želim nadaljevati. Za več informacij o piškotkih kliknite tukaj.",
+                "banner_z_index": 999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Razumem in želim nadaljevati]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: The phrase \"Razumem in želim nadaljevati\" is ambiguous and indicates acceptance, but it does not clearly fall under the category of accepting all cookies. Therefore, it is classified under AmbiguousLabel1. There are no other buttons present to categorize.",
+                "llm_response_parsed": {
+                    "Accept": "Razumem in želim nadaljevati",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The phrase \"Razumem in želim nadaljevati\" is ambiguous and indicates acceptance, but it does not clearly fall under the category of accepting all cookies. Therefore, it is classified under AmbiguousLabel1. There are no other buttons present to categorize."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Razumem in želim nadaljevati",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T02:32:53.950060",
+        "timestamp_stop": "2025-03-28T02:33:44.774119"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.zveza-sozitje.si/",
+            "http://www.zveza-sozitje.si/nas-zbornik.html",
+            "https://www.zveza-sozitje.si/?cookie_info=1",
+            "http://www.zveza-sozitje.si/modules/uploader/uploads/system_menu/dokumenti/Naro_ilnica_za_NZ.pdf"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "f79a418d16a5883e9062e8c006f53dfc",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1678672190.1743125628",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685627.593138,
+                    "expires_date": "2026-05-02T01:33:47.593138+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.366065098.1743125628",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743212027,
+                    "expires_date": "2025-03-29T01:33:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743125687,
+                    "expires_date": "2025-03-28T01:34:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BF8TTJ1H5W",
+                    "value": "GS1.2.1743125627.1.0.1743125627.60.0.0",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685627.835226,
+                    "expires_date": "2026-05-02T01:33:47.835226+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743126527.940806,
+                    "expires_date": "2025-03-28T01:48:47.940806+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "f79a418d16a5883e9062e8c006f53dfc",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1678672190.1743125628",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685627.593138,
+                    "expires_date": "2026-05-02T01:33:47.593138+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.366065098.1743125628",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743212027,
+                    "expires_date": "2025-03-29T01:33:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743125687,
+                    "expires_date": "2025-03-28T01:34:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BF8TTJ1H5W",
+                    "value": "GS1.2.1743125627.1.0.1743125627.60.0.0",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685627.835226,
+                    "expires_date": "2026-05-02T01:33:47.835226+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743126527.940806,
+                    "expires_date": "2025-03-28T01:48:47.940806+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "f79a418d16a5883e9062e8c006f53dfc",
+                    "domain": "www.zveza-sozitje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1678672190.1743125628",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685653.792534,
+                    "expires_date": "2026-05-02T01:34:13.792534+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.366065098.1743125628",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743212053,
+                    "expires_date": "2025-03-29T01:34:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1743125687,
+                    "expires_date": "2025-03-28T01:34:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743126527.940806,
+                    "expires_date": "2025-03-28T01:48:47.940806+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_BF8TTJ1H5W",
+                    "value": "GS1.2.1743125627.1.1.1743125653.34.0.0",
+                    "domain": ".zveza-sozitje.si",
+                    "path": "/",
+                    "expires": 1777685653.887145,
+                    "expires_date": "2026-05-02T01:34:13.887145+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Z nadaljevanjem ogleda te strani, se strinjate z uporabo piškotkov na tej strani. Razumem in želim nadaljevati. Za več informacij o piškotkih kliknite tukaj.",
+                "banner_z_index": 999999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Razumem in želim nadaljevati]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: The button \"Razumem in želim nadaljevati\" is an ambiguous phrase indicating acceptance but does not clearly state acceptance of all cookies. Therefore, it is categorized under AmbiguousLabel1. No other buttons related to accepting or declining cookies or managing settings were present.",
+                "llm_response_parsed": {
+                    "Accept": "Razumem in želim nadaljevati",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button \"Razumem in želim nadaljevati\" is an ambiguous phrase indicating acceptance but does not clearly state acceptance of all cookies. Therefore, it is categorized under AmbiguousLabel1. No other buttons related to accepting or declining cookies or managing settings were present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T02:33:46.377989",
+        "timestamp_stop": "2025-03-28T02:34:32.282677"
+    }
+}

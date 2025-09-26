@@ -1,0 +1,609 @@
+{
+    "web_page": "https://www.pohorje-slovenija.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T04:54:22.156061",
+    "timestamp_stop": "2025-03-28T04:56:52.261686",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pohorje-slovenija.si/",
+            "https://www.pohorje-slovenija.si?l=sl#googtrans(sl|sl)",
+            "https://www.pohorje-slovenija.si/iskanje",
+            "https://www.pohorje-slovenija.si/iskanje?l=en#googtrans(sl|en)"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InUweDdGVjNiV0dZUFlVckhHbitHTmc9PSIsInZhbHVlIjoiZ1JvVG5NY01JZEpuQ1dkeHVLOFpCa2hZTVJKRm9qQVpkQ2o4K2hNUER5M2p1SS9qb3RQeW9MNEhvK081TXlmM0FTNi82N3JlcFQ1b0ZMZnZVQ2xjOHVWRUkvb0VzalRLY09aMXBNSFIyb0xsbTE4empsVk5kY0JoS1Vkc0NGU3EiLCJtYWMiOiI4YzBjNDM2NjIxNDQwNjE4YTg1OGVhZDRiZGY2MTc4YzFkMGQ5ODFhMWRlYjIxMWNjNDNmNmJlNjQ2M2M0ZWEwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141263.930501,
+                    "expires_date": "2025-03-28T05:54:23.930501+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pohorje_session",
+                    "value": "eyJpdiI6IkthSTgrOFlPbXpxYktncFV0cEpVeVE9PSIsInZhbHVlIjoibEV5d0U3R0JsYUFxZ1NvT3MzVTY3VlRiVWZ2ZzdlNGx5NVVkRGEvVGFaVHZxN1hSYkk4bWd4SXcvYWdnUms2NzNwVGI2blJaREdYVnF4Znk4TzZqOENMRmFYYW1uWUgvdnMzcWJ1eHNJWjVSSVc0UmlZbDdXOUVOUVNIRFFwcHYiLCJtYWMiOiI1NDJjYmU4MmEzNWFiNzE1NTIzZDIxOTViNDM3N2NmMWNhMGU3M2ZmZGY3NWUxNGU3OTA0YzdmZGFkOTQxY2Q4IiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141263.930728,
+                    "expires_date": "2025-03-28T05:54:23.930728+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlpqeldIc0hwYk1Ia21rcGRGeXdFWUE9PSIsInZhbHVlIjoiT1RtTTg0OUxDdWljK2F1NlJtOGJ0MjA3SHF2VVJ4WkE0REplSW9qeVY5bVJ3MmRnNjVUNmRaZ2pKYkJFM3hldElTdTFpV3JZaDQ2VlI4K0RHL2JiK3dKeXM2cHNVL09TZDB6Wkl4QnZLbHQzWWQ4WnFsOFdpaU9ldGJJNDh1d1IiLCJtYWMiOiJkZjNlMzVhOWMzODlhNDE1YWQ2ODk0MjY2MmUxZDY1ZGEyNGZhNjVlNGE4ZDljNWVkYmM5ODVlYjdmNjcyYTA3IiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141287.807697,
+                    "expires_date": "2025-03-28T05:54:47.807697+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pohorje_session",
+                    "value": "eyJpdiI6IjZ0a0ROVUZaaWNrRllhNitpTEZ6UlE9PSIsInZhbHVlIjoiYi96RExEQlZnTDA4OGxDa0I5SHdVMDl0WlFObVl2UnFwUk9GRUs4c1dVYW5RcXRLZmFQTm1OTWUxeEZ3QTQ2ZmhjMDdUWjFqNVBiSjBESEJhaW56V0QyOVVDZklPSkthNlUxYjV5czNLQ29aVGJTR1dFNlJjMU50SVd0ZWpaTDAiLCJtYWMiOiIzMmM1MzA0Mzg5MDQ4ZmViNDZjN2Y1NjNjMTJhMDk4MGFiOTFkM2Y5NDA1YWRkMzMzZGQ3YTRhYTlkOWE3Y2U0IiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141287.807818,
+                    "expires_date": "2025-03-28T05:54:47.807818+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "googtrans",
+                    "value": "/sl/en",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "googtrans",
+                    "value": "/sl/en",
+                    "domain": ".pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T04:54:23.481968",
+        "timestamp_stop": "2025-03-28T04:54:55.322496"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pohorje-slovenija.si/",
+            "https://www.pohorje-slovenija.si?l=sl#googtrans(sl|sl)",
+            "https://www.pohorje-slovenija.si/iskanje",
+            "https://www.pohorje-slovenija.si/iskanje?l=en#googtrans(sl|en)"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IldmYUhUZDlYUTJBSU8zdW5ENENpWkE9PSIsInZhbHVlIjoiZ3RWMEdZR2loUnkyWmdTUGVVRExLYy9KQkZ6c2daM0V2WjFualNiTUJNU3JLZjBJMkkzRHhiWktvMUx3OWlwV0hMVG9ibjhidmZPYVBDWGhDcVNOYjUyaWYwMy9GdVV0d2NvL1p2ZWZ5anN5SXhSa2dxaStEWmRJZ2VKVHFncjYiLCJtYWMiOiJlMzM2ZTdiMTliOTIwYmFiMjJmNDBjM2M5ZDNjN2VkOWY2OGU1MzBmYmFhMDExNzM1NDY3ODA1ZDVmZjk2MDc3IiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141297.394619,
+                    "expires_date": "2025-03-28T05:54:57.394619+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pohorje_session",
+                    "value": "eyJpdiI6IlFxdzNPc0ViQkRBdWFQeE0vdlF2a2c9PSIsInZhbHVlIjoiQzh2aHBwN1I0U3l6YTFsQklublNOYm9YTTg3Lzd6K0wwVlZXZ0tnZ0VlVkFRYjc2azI5VGJ4dDl0Y2lzaDZGb25uWGhIU0NOWnhtWVl6VVRudFFVQlZUZ0Q0cis3OEowUjBwbGpJZlBCT21iWmlzbjhFRG9zb3d2N1pSelViVkYiLCJtYWMiOiI3YmMxYTc3NGRmNTM5OTc1OWQ5NWZjMDY4MjcyYmVjNGMxMjE4Y2I0YzE5NDU3N2Y3Y2E0MzRiMWM1YjdlZjdhIiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141297.394832,
+                    "expires_date": "2025-03-28T05:54:57.394832+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IldmYUhUZDlYUTJBSU8zdW5ENENpWkE9PSIsInZhbHVlIjoiZ3RWMEdZR2loUnkyWmdTUGVVRExLYy9KQkZ6c2daM0V2WjFualNiTUJNU3JLZjBJMkkzRHhiWktvMUx3OWlwV0hMVG9ibjhidmZPYVBDWGhDcVNOYjUyaWYwMy9GdVV0d2NvL1p2ZWZ5anN5SXhSa2dxaStEWmRJZ2VKVHFncjYiLCJtYWMiOiJlMzM2ZTdiMTliOTIwYmFiMjJmNDBjM2M5ZDNjN2VkOWY2OGU1MzBmYmFhMDExNzM1NDY3ODA1ZDVmZjk2MDc3IiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141297.394619,
+                    "expires_date": "2025-03-28T05:54:57.394619+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pohorje_session",
+                    "value": "eyJpdiI6IlFxdzNPc0ViQkRBdWFQeE0vdlF2a2c9PSIsInZhbHVlIjoiQzh2aHBwN1I0U3l6YTFsQklublNOYm9YTTg3Lzd6K0wwVlZXZ0tnZ0VlVkFRYjc2azI5VGJ4dDl0Y2lzaDZGb25uWGhIU0NOWnhtWVl6VVRudFFVQlZUZ0Q0cis3OEowUjBwbGpJZlBCT21iWmlzbjhFRG9zb3d2N1pSelViVkYiLCJtYWMiOiI3YmMxYTc3NGRmNTM5OTc1OWQ5NWZjMDY4MjcyYmVjNGMxMjE4Y2I0YzE5NDU3N2Y3Y2E0MzRiMWM1YjdlZjdhIiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141297.394832,
+                    "expires_date": "2025-03-28T05:54:57.394832+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_consent",
+                    "value": "true",
+                    "domain": ".www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1777694120.448353,
+                    "expires_date": "2026-05-02T03:55:20.448353+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional|all_cookies|other|analytics|advertising",
+                    "domain": ".www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1777694120.450548,
+                    "expires_date": "2026-05-02T03:55:20.450548+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookie_consent",
+                    "value": "true",
+                    "domain": ".www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1777694120.448353,
+                    "expires_date": "2026-05-02T03:55:20.448353+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional|all_cookies|other|analytics|advertising",
+                    "domain": ".www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1777694120.450548,
+                    "expires_date": "2026-05-02T03:55:20.450548+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IkVnejlPZnhQanNOdk0rV1NxMVkvU1E9PSIsInZhbHVlIjoickNjRldjZ1cxRDIveUlNM281bjJNUU45SnJ0Q29nNXFFUWNXc2cwdSttZ2pITlJDQnR0NGdSS3REaVdMUkhXZHk2TzAzaGt5dXVNd0lrdjI4Sno2ZkpmNWZWL3VjWko2VEIzZE00NmdadzFxK1kxSDl4SzYxd3g5M0RCLytVNHkiLCJtYWMiOiI1YTEwNGZiNGNjZGUyNWY3OWI5MjdmMzQyMzljY2EwOWYyNDEyYmY2MzZiN2MxODVmN2M0OGQ5NWZjYjM1ODAyIiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141341.583236,
+                    "expires_date": "2025-03-28T05:55:41.583236+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pohorje_session",
+                    "value": "eyJpdiI6ImM0TVZEUGpNMHZ2WXAzZVA1dUx5Z0E9PSIsInZhbHVlIjoiU25xOTAyRURzUXFrRkRwM1UvcEs1aGtibWxwTTdzREpDMWJXaUwvS3FqWUdXVmdXUHRYazVwQmdZTkt4ZkVsbHlOajJJVi9SZEcxdHZqUS9jb04zM1VpQXc4SFp0V2NBbHZDWFcvQWNiSnBiRmZTS0JpeVM1SitBZGwvc0dsMHAiLCJtYWMiOiIzYWNlZDhlNjBlOGQ0NmIyNDdkZDMxMzliYjgwMTNiN2NiODJhMjE4ZjdkNWY1ODE2ZjlmOTY5Y2JjZWIyNTY4IiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141341.583323,
+                    "expires_date": "2025-03-28T05:55:41.583323+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "googtrans",
+                    "value": "/sl/en",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "googtrans",
+                    "value": "/sl/en",
+                    "domain": ".pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "To spletno mesto uporablja piškotke, ki izboljšajo vašo izkušnjo.\n            \n                \n                    Več informacij                \n                \n    Sprejmi vse piškotke",
+                "banner_z_index": 10,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več informacij]\nExplanation: The button [Sprejmi vse piškotke] clearly indicates acceptance of all cookies, fitting GenericLabel1. There is no button for declining cookies, and [Več informacij] is related to settings and provides more information, fitting GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več informacij",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse piškotke clearly indicates acceptance of all cookies, fitting GenericLabel1. There is no button for declining cookies, and Več informacij is related to settings and provides more information, fitting GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T04:54:56.969039",
+        "timestamp_stop": "2025-03-28T04:55:48.957099"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Več informacij)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.pohorje-slovenija.si/",
+            "https://www.pohorje-slovenija.si/",
+            "https://www.pohorje-slovenija.si?l=sl#googtrans(sl|sl)",
+            "https://www.pohorje-slovenija.si/iskanje",
+            "https://www.pohorje-slovenija.si/iskanje?l=en#googtrans(sl|en)"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InorTHZ5K2xkYkJvcVdzRy9MMlBwaWc9PSIsInZhbHVlIjoiZ08zVGJoS1grUG16RGhZQjA2VDloemJyUXhBdUlZRmt1QXRqWi9rd09kMVg0WHRNaENIUUtHYktqTTFuMGxCTXY3N1VkOHpjYW9xWWw4ZzNDc1VmcHR6ZlVOZExuV1dXODNxU0JvcU9aOFRSNDdyZ0ZaK1lOWkNlZHJkV0tXcWMiLCJtYWMiOiJmNWJiYTU2YzY3YzljNWU5NTE2MzM5ZTBiNzY1YWZlOTA5NThiZGUwNjMzN2FmNWUyYzJlNjY3ODQ2OTYwZjIyIiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141351.070898,
+                    "expires_date": "2025-03-28T05:55:51.070898+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pohorje_session",
+                    "value": "eyJpdiI6ImtxeW5jN1RyMGdSd2dJVVJHNXBLR3c9PSIsInZhbHVlIjoiVVhlUGhFdmMzKytHekUvZCtWTGVXa0I1aHIxek51VWIzeXJrVit4ajNDQjk2eDVsZkh2dk9NNERxYytqWi9INVhmV3JUMzY3ZjBRTDUwS0dEbEVGR1ZXdExhR3ZpOXYrbWc3MHhNaFdqczFsWkt1TS9lVlRNWXVUM3RYNUJNZEkiLCJtYWMiOiI2NWViMWNhMDNlOWU2MTllMDUxMGJhNmVlOTA1MmNhYmE5MWE2ZTljMDYwZDllYTdhNTQ1ZDZmYWNjNjc4YTU3IiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141351.071369,
+                    "expires_date": "2025-03-28T05:55:51.071369+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImJlci9OU3VmSjNGMVhUaXovdE5RNEE9PSIsInZhbHVlIjoidHZKWVRCeHRrdlRvVXNxMFBSUk9nb0J0cWVPWXFDMWJHM3B5OUdFbXlBQjByeDc2TXQvbXVBWU1XcUtpMkMraWNhbWVIWEFvY2gxSFlsdHFvUUkyNDZ4cG5oTmZpZFVCdi93UktzWmNNWHFscFMwMEpNQldQUlg1WFJvY2FCSW8iLCJtYWMiOiI2NTdjNjViYjQwNDI0MDg1MWM2ZWIwZjFmMTRkMDg5ZTUwZDYyNGE2M2QwMmU4MzAwMGZjYTgzMjk5MjI4NTYzIiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141380.766622,
+                    "expires_date": "2025-03-28T05:56:20.766622+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pohorje_session",
+                    "value": "eyJpdiI6ImJoVWdTWU9DVExGbVR4K21BUG5hREE9PSIsInZhbHVlIjoidjY5WjJwNWRjQjExdW9RS2xzNEFKT1hQWTZUaEZJVm1SbHhjUE41YVNQb0EzY0NPaXhhaWdYSDZFbmtVNVJtdmhERW1XWXhqcDYyRkcvVVU5SjQ2eG82dWR4K3NSK0ZuMTJCaE9meTJSZ1FZOWlUMUpyL1AySFhBSnc0MXdWRTciLCJtYWMiOiJiMDBhYTFhZDgzYzY5ZmM0MjI5ODQ1NTI4ZTBiZjE4ZDk1ZTllNzg1NWZmYmQyMzQ4NTliZjhmMGI1NzliZjE4IiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141380.766772,
+                    "expires_date": "2025-03-28T05:56:20.766772+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IjQvdzFwUkEzNWlHeDdLZTBGNU42VVE9PSIsInZhbHVlIjoiUzhjc0hodUc5QUJDLzZpTGZUcXRLcloxZk5WcnVMZmVPRGlORXRhemJEVkZoTzJhaHhhN1ZxbnRaMmNxRjJkeC9NZXhuR2FIUytkMmxPRllEWHJYZVR2bGc5OTFtZy9PNXF2QU5mVVJKRlo2WlhMbHhUdUtFVndCNWk3d2xCNXMiLCJtYWMiOiJjMTU2NDUzOWVhZWRmYzcyMDk2MTA4ZjYzNTZkY2QxZjQ4MjhjYWYwZTBjMGMzNzdiYzQ2YWZiYTI5MGNlODYxIiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141404.550225,
+                    "expires_date": "2025-03-28T05:56:44.550225+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pohorje_session",
+                    "value": "eyJpdiI6InFSR0tBYU8xUW94Q0RIUHRmeUpTaEE9PSIsInZhbHVlIjoiY24vUTVVZ0YxUG92bVRCa2xjN1dTUE1JWHZXbHNBcW1oY25lUUhmZFNjT1dNRlZTQlplTUtqT05nZU8rUmFYOTFVbllIR203dm1Wa3RhaDdYMi9uTVRUWjdZQVRnK3JIMU9nVExuSDlKSlB5eFdFbGRQdDFMWUJGSmpyVGZvcFUiLCJtYWMiOiJmZjI5N2I0MGEzZjU4ZTI2Njc5NWJiOTljY2E2Mjc2MzRhNmQxMDcwMTk1OTNiYzI3NzliYmIxOGM2ZmY3YjdlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": 1743141404.550348,
+                    "expires_date": "2025-03-28T05:56:44.550348+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "googtrans",
+                    "value": "/sl/en",
+                    "domain": "www.pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "googtrans",
+                    "value": "/sl/en",
+                    "domain": ".pohorje-slovenija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_redirected.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "To spletno mesto uporablja piškotke, ki izboljšajo vašo izkušnjo.\n            \n                \n                    Več informacij                \n                \n    Sprejmi vse piškotke",
+                "banner_z_index": 10,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškotke]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več informacij]\nExplanation: The button \"Sprejmi vse piškotke\" clearly indicates acceptance of all cookies, fitting GenericLabel1. \"Več informacij\" relates to managing settings, fitting GenericLabel3. No labels related to declining or ambiguous accept/decline were found.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več informacij",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi vse piškotke\" clearly indicates acceptance of all cookies, fitting GenericLabel1. \"Več informacij\" relates to managing settings, fitting GenericLabel3. No labels related to declining or ambiguous accept/decline were found."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več informacij",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T04:55:50.621230",
+        "timestamp_stop": "2025-03-28T04:56:51.953264"
+    }
+}

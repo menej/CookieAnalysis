@@ -1,0 +1,1612 @@
+{
+    "web_page": "https://www.tosama.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T04:12:12.786662",
+    "timestamp_stop": "2025-03-28T04:14:38.724908",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.tosama.si/",
+            "https://www.tosama.si/blagovne-znamke",
+            "https://www.tosama.si/o-tosami/poslanstvo-in-vizija1",
+            "https://www.tosama.si/blagovne-znamke/b/pikazoo"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "sid",
+                    "value": "mKyUquKcWco_6e0qU6UwaAmKIqay60AuGCSow4OY_Y8u2Eak_Uy0auquciwC6Om4",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1744427534.299089,
+                    "expires_date": "2025-04-12T03:12:14.299089+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "view_prefs",
+                    "value": "grid.12",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1774667534.299171,
+                    "expires_date": "2026-03-28T03:12:14.299171+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.461863941.1743131535",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691534.749459,
+                    "expires_date": "2026-05-02T03:12:14.749459+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2103934688.1743131535",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743217934,
+                    "expires_date": "2025-03-29T03:12:14+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743131594,
+                    "expires_date": "2025-03-28T03:13:14+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "cFe95zoWI14",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CIPQsujite3K4QEQ3auy9-arjAMY3auy9-arjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683534.881537,
+                    "expires_date": "2025-09-24T03:12:14.881537+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "bUljXrQInBU",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683534.881636,
+                    "expires_date": "2025-09-24T03:12:14.881636+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgaQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683534.881682,
+                    "expires_date": "2025-09-24T03:12:14.881682+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743131535098.618076224561739464",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907535,
+                    "expires_date": "2025-06-26T03:12:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "sid",
+                    "value": "mKyUquKcWco_6e0qU6UwaAmKIqay60AuGCSow4OY_Y8u2Eak_Uy0auquciwC6Om4",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1744427555.192857,
+                    "expires_date": "2025-04-12T03:12:35.192857+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "view_prefs",
+                    "value": "grid.12",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1774667555.192941,
+                    "expires_date": "2026-03-28T03:12:35.192941+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.461863941.1743131535",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691555.236107,
+                    "expires_date": "2026-05-02T03:12:35.236107+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2103934688.1743131535",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743217955,
+                    "expires_date": "2025-03-29T03:12:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743131594,
+                    "expires_date": "2025-03-28T03:13:14+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "cFe95zoWI14",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CIPQsujite3K4QEQ3auy9-arjAMY3auy9-arjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683534.881537,
+                    "expires_date": "2025-09-24T03:12:14.881537+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "bUljXrQInBU",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683534.881636,
+                    "expires_date": "2025-09-24T03:12:14.881636+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgaQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683534.881682,
+                    "expires_date": "2025-09-24T03:12:14.881682+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743131535098.618076224561739464",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907555,
+                    "expires_date": "2025-06-26T03:12:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T04:12:14.119150",
+        "timestamp_stop": "2025-03-28T04:12:42.032448"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (input), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.tosama.si/",
+            "https://www.tosama.si/blagovne-znamke",
+            "https://www.tosama.si/o-tosami/poslanstvo-in-vizija1",
+            "https://www.tosama.si/blagovne-znamke/b/pikazoo"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "sid",
+                    "value": "oyeeCa42Ec8_SkmeIIqsKska__yyIEMKgIcWMQYeoSuY8ocq22I6Kww806QiYyUe",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1744427563.872434,
+                    "expires_date": "2025-04-12T03:12:43.872434+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "view_prefs",
+                    "value": "grid.12",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1774667563.872552,
+                    "expires_date": "2026-03-28T03:12:43.872552+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1777053713.1743131564",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691564.301942,
+                    "expires_date": "2026-05-02T03:12:44.301942+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1112354513.1743131564",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743217964,
+                    "expires_date": "2025-03-29T03:12:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743131624,
+                    "expires_date": "2025-03-28T03:13:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743131564529.696420377340981213",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907564,
+                    "expires_date": "2025-06-26T03:12:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "KstqGPF9LmU",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "LbkFch5JIb8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.573703,
+                    "expires_date": "2025-09-24T03:12:44.573703+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgZw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.57376,
+                    "expires_date": "2025-09-24T03:12:44.573760+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CMGUrIvgtteXeRDjmMiF56uMAxjjmMiF56uMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.573798,
+                    "expires_date": "2025-09-24T03:12:44.573798+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "sid",
+                    "value": "oyeeCa42Ec8_SkmeIIqsKska__yyIEMKgIcWMQYeoSuY8ocq22I6Kww806QiYyUe",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1744427563.872434,
+                    "expires_date": "2025-04-12T03:12:43.872434+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "view_prefs",
+                    "value": "grid.12",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1774667563.872552,
+                    "expires_date": "2026-03-28T03:12:43.872552+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1112354513.1743131564",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743217964,
+                    "expires_date": "2025-03-29T03:12:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743131624,
+                    "expires_date": "2025-03-28T03:13:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743131564529.696420377340981213",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907596,
+                    "expires_date": "2025-06-26T03:13:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "KstqGPF9LmU",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "LbkFch5JIb8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.573703,
+                    "expires_date": "2025-09-24T03:12:44.573703+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgZw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.57376,
+                    "expires_date": "2025-09-24T03:12:44.573760+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CMGUrIvgtteXeRDjmMiF56uMAxjjmMiF56uMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.573798,
+                    "expires_date": "2025-09-24T03:12:44.573798+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.877025677.1743131596",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907596,
+                    "expires_date": "2025-06-26T03:13:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cs",
+                    "value": "1%3B2%3B3%3B4%3B5",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1777691596.44842,
+                    "expires_date": "2026-05-02T03:13:16.448420+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_8M1NEZT1CY",
+                    "value": "GS1.1.1743131596.1.0.1743131596.60.0.0",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691596.746105,
+                    "expires_date": "2026-05-02T03:13:16.746105+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1777053713.1743131564",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691596.746555,
+                    "expires_date": "2026-05-02T03:13:16.746555+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUkh5Rs-zjCZ7rWrK5pLM6FcFZApF4CvlJXL54IMrC4SuPua1_P3ohCVOv3h",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776827596.821252,
+                    "expires_date": "2026-04-22T03:13:16.821252+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "sid",
+                    "value": "oyeeCa42Ec8_SkmeIIqsKska__yyIEMKgIcWMQYeoSuY8ocq22I6Kww806QiYyUe",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1744427614.343611,
+                    "expires_date": "2025-04-12T03:13:34.343611+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "view_prefs",
+                    "value": "grid.12",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1774667614.343692,
+                    "expires_date": "2026-03-28T03:13:34.343692+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1112354513.1743131564",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743218014,
+                    "expires_date": "2025-03-29T03:13:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743131624,
+                    "expires_date": "2025-03-28T03:13:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743131564529.696420377340981213",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907614,
+                    "expires_date": "2025-06-26T03:13:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "KstqGPF9LmU",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "LbkFch5JIb8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.573703,
+                    "expires_date": "2025-09-24T03:12:44.573703+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgZw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.57376,
+                    "expires_date": "2025-09-24T03:12:44.573760+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CMGUrIvgtteXeRDjmMiF56uMAxjjmMiF56uMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683564.573798,
+                    "expires_date": "2025-09-24T03:12:44.573798+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.877025677.1743131596",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907596,
+                    "expires_date": "2025-06-26T03:13:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cs",
+                    "value": "1%3B2%3B3%3B4%3B5",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1777691596.44842,
+                    "expires_date": "2026-05-02T03:13:16.448420+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUkh5Rs-zjCZ7rWrK5pLM6FcFZApF4CvlJXL54IMrC4SuPua1_P3ohCVOv3h",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776827596.821252,
+                    "expires_date": "2026-04-22T03:13:16.821252+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_8M1NEZT1CY",
+                    "value": "GS1.1.1743131596.1.1.1743131614.42.0.0",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691614.602562,
+                    "expires_date": "2026-05-02T03:13:34.602562+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1777053713.1743131564",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691614.602888,
+                    "expires_date": "2026-05-02T03:13:34.602888+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Cookie Policy\nKo obiščete našo spletno stran, samodejno namestimo potrebne piškotke v vašo napravo, da se lahko naša spletna stran pravilno prikazuje in deluje. V vašo napravo lahko namestimo tudi neobvezne analitične in marketinške piškotke, če izberete možnost \"Sprejmi vse\". Ti piškotki zbirajo in analizirajo različne informacije o vaši interakciji z našim spletno stranjo in drugimi spletnimi mesti za ciljno usmerjeno oglaševanje.Prosimo, kliknite gumb  \"Sprejmi vse\", če se strinjate z uporabo vseh vrst piškotkov ali zavrnite neobvezne piškotke s klikom na \"Samo nujni piškotki\"'. Za več informacij si oglejte našo Politiko piškotkov.                    \n                    \n                        \n                            \n                            \n                        \n                        Nastavitve piškotkov\n                    \n                \n            \n            \n                ×\n                \n                    Upravljanje s piškotki na spletnem mestu Tos",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Samo nujni piškotki]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [Sprejmi vse] is classified under GenericLabel1 as it accepts all cookies. The button [Samo nujni piškotki] is classified under GenericLabel2 as it indicates acceptance of only necessary cookies. The label [Nastavitve piškotkov] is categorized under GenericLabel3 as it explicitly refers to cookie settings.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Samo nujni piškotki",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is classified under GenericLabel1 as it accepts all cookies. The button Samo nujni piškotki is classified under GenericLabel2 as it indicates acceptance of only necessary cookies. The label Nastavitve piškotkov is categorized under GenericLabel3 as it explicitly refers to cookie settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T04:12:43.672621",
+        "timestamp_stop": "2025-03-28T04:13:41.231786"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (input), with text (Samo nujni piškotki)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.tosama.si/",
+            "https://www.tosama.si/blagovne-znamke",
+            "https://www.tosama.si/o-tosami/poslanstvo-in-vizija1",
+            "https://www.tosama.si/blagovne-znamke/b/pikazoo"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "sid",
+                    "value": "WoMgq4ESsAGqA0ygwUUK2Wskk_8IOGWqQ28_yA_q4W_o0ukSySaqu_QqqowqeS0w",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1744427623.035914,
+                    "expires_date": "2025-04-12T03:13:43.035914+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "view_prefs",
+                    "value": "grid.12",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1774667623.036023,
+                    "expires_date": "2026-03-28T03:13:43.036023+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.598176524.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691623.538027,
+                    "expires_date": "2026-05-02T03:13:43.538027+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.756895375.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743218023,
+                    "expires_date": "2025-03-29T03:13:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743131683,
+                    "expires_date": "2025-03-28T03:14:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.847785232.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907623,
+                    "expires_date": "2025-06-26T03:13:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "nxyhdAcuXKY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CJOElb_fwq-oURDm5N-h56uMAxjm5N-h56uMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678197,
+                    "expires_date": "2025-09-24T03:13:43.678197+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "6sVYFvz_8d0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678259,
+                    "expires_date": "2025-09-24T03:13:43.678259+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgYw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678294,
+                    "expires_date": "2025-09-24T03:13:43.678294+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743131623697.772434487880129412",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907623,
+                    "expires_date": "2025-06-26T03:13:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "sid",
+                    "value": "WoMgq4ESsAGqA0ygwUUK2Wskk_8IOGWqQ28_yA_q4W_o0ukSySaqu_QqqowqeS0w",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1744427623.035914,
+                    "expires_date": "2025-04-12T03:13:43.035914+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "view_prefs",
+                    "value": "grid.12",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1774667623.036023,
+                    "expires_date": "2026-03-28T03:13:43.036023+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.598176524.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691623.538027,
+                    "expires_date": "2026-05-02T03:13:43.538027+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.756895375.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743218023,
+                    "expires_date": "2025-03-29T03:13:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743131683,
+                    "expires_date": "2025-03-28T03:14:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.847785232.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907623,
+                    "expires_date": "2025-06-26T03:13:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "nxyhdAcuXKY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CJOElb_fwq-oURDm5N-h56uMAxjm5N-h56uMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678197,
+                    "expires_date": "2025-09-24T03:13:43.678197+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "6sVYFvz_8d0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678259,
+                    "expires_date": "2025-09-24T03:13:43.678259+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgYw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678294,
+                    "expires_date": "2025-09-24T03:13:43.678294+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743131623697.772434487880129412",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907652,
+                    "expires_date": "2025-06-26T03:14:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cs",
+                    "value": "1",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1777691652.967338,
+                    "expires_date": "2026-05-02T03:14:12.967338+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "sid",
+                    "value": "WoMgq4ESsAGqA0ygwUUK2Wskk_8IOGWqQ28_yA_q4W_o0ukSySaqu_QqqowqeS0w",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1744427671.640019,
+                    "expires_date": "2025-04-12T03:14:31.640019+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "view_prefs",
+                    "value": "grid.12",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1774667671.640103,
+                    "expires_date": "2026-03-28T03:14:31.640103+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.598176524.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1777691671.684428,
+                    "expires_date": "2026-05-02T03:14:31.684428+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.756895375.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743218071,
+                    "expires_date": "2025-03-29T03:14:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1743131683,
+                    "expires_date": "2025-03-28T03:14:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.847785232.1743131624",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907623,
+                    "expires_date": "2025-06-26T03:13:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "nxyhdAcuXKY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CJOElb_fwq-oURDm5N-h56uMAxjm5N-h56uMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678197,
+                    "expires_date": "2025-09-24T03:13:43.678197+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "6sVYFvz_8d0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678259,
+                    "expires_date": "2025-09-24T03:13:43.678259+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgYw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758683623.678294,
+                    "expires_date": "2025-09-24T03:13:43.678294+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743131623697.772434487880129412",
+                    "domain": ".tosama.si",
+                    "path": "/",
+                    "expires": 1750907671,
+                    "expires_date": "2025-06-26T03:14:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cs",
+                    "value": "1",
+                    "domain": "www.tosama.si",
+                    "path": "/",
+                    "expires": 1777691652.967338,
+                    "expires_date": "2026-05-02T03:14:12.967338+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Cookie Policy\nKo obiščete našo spletno stran, samodejno namestimo potrebne piškotke v vašo napravo, da se lahko naša spletna stran pravilno prikazuje in deluje. V vašo napravo lahko namestimo tudi neobvezne analitične in marketinške piškotke, če izberete možnost \"Sprejmi vse\". Ti piškotki zbirajo in analizirajo različne informacije o vaši interakciji z našim spletno stranjo in drugimi spletnimi mesti za ciljno usmerjeno oglaševanje.Prosimo, kliknite gumb  \"Sprejmi vse\", če se strinjate z uporabo vseh vrst piškotkov ali zavrnite neobvezne piškotke s klikom na \"Samo nujni piškotki\"'. Za več informacij si oglejte našo Politiko piškotkov.                    \n                    \n                        \n                            \n                            \n                        \n                        Nastavitve piškotkov\n                    \n                \n            \n            \n                ×\n                \n                    Upravljanje s piškotki na spletnem mestu Tos",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Samo nujni piškotki]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: \"Sprejmi vse\" is categorized as accepting all cookies, and \"Samo nujni piškotki\" is categorized as declining all cookies or only accepting necessary ones. \"Nastavitve piškotkov\" is explicitly related to managing settings, thus classified under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Samo nujni piškotki",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi vse\" is categorized as accepting all cookies, and \"Samo nujni piškotki\" is categorized as declining all cookies or only accepting necessary ones. \"Nastavitve piškotkov\" is explicitly related to managing settings, thus classified under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Samo nujni piškotki",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T04:13:42.840479",
+        "timestamp_stop": "2025-03-28T04:14:38.428482"
+    }
+}

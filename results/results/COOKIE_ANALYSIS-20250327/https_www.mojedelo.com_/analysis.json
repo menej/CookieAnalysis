@@ -1,0 +1,3306 @@
+{
+    "web_page": "https://www.mojedelo.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T00:26:08.284550",
+    "timestamp_stop": "2025-03-28T00:30:46.723682",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojedelo.com/",
+            "https://www.mojedelo.com/vodja-logistike-mz/d-911412",
+            "https://www.mojedelo.com/prodajni-inzenir-za-prodajo-storitev-na-podrocju-razvoja-programske-opreme-software-engineering/d-885805",
+            "https://www.mojedelo.com/prosta-delovna-mesta/gradbenistvo-arhitektura-geodezija"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "g5daj50qed0ez2vhkrfbphes",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv906GIDF8YflWtkNvluQIwTaK",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750893971.33464,
+                    "expires_date": "2025-06-25T23:26:11.334640+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pa_privacy",
+                    "value": "%22optin%22",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1777245971,
+                    "expires_date": "2026-04-26T23:26:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_W949Z1P6QN",
+                    "value": "GS1.1.1743117971.1.0.1743117971.0.0.0",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777677971.535486,
+                    "expires_date": "2026-05-01T23:26:11.535486+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"0d725bc3-d275-4e27-b407-1c132a0c9fa2\",\"ts\":1743117971669}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774653971,
+                    "expires_date": "2026-03-27T23:26:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774653972.379864,
+                    "expires_date": "2026-03-27T23:26:12.379864+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=21ae81e8-2876-42d7-ad4b-35d16c9872c1&Created=03/27/2025 23:25:54&UserMode=0&guid=9cc37d78-749a-4999-9b81-29d0ebd20bfc&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774653972.37993,
+                    "expires_date": "2026-03-27T23:26:12.379930+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pcid",
+                    "value": "%7B%22browserId%22%3A%22m8rzfmpln8ky7q6o%22%2C%22_t%22%3A%22mogc7yka%7Cm8rzfn0a%22%7D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242371,
+                    "expires_date": "2026-04-26T22:26:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pctx",
+                    "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbSgHMAxgHYAngGsAZgB9%2BADhgAvGUgAMMkAF8gA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242371,
+                    "expires_date": "2026-04-26T22:26:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1732773656.1743117972",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777677971.819384,
+                    "expires_date": "2026-05-01T23:26:11.819384+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.334923908.1743117972",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743204371,
+                    "expires_date": "2025-03-28T23:26:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-259613-20",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743118031,
+                    "expires_date": "2025-03-27T23:27:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743117972026.369267512803328542",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750893972,
+                    "expires_date": "2025-06-25T23:26:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3599885",
+                    "value": "eyJpZCI6IjllYzI3NjEwLTY5NDQtNTdiZC04Mjc3LWFkMWU5N2I3YmVmYiIsImNyZWF0ZWQiOjE3NDMxMTc5NzIxMTksImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774653972,
+                    "expires_date": "2026-03-27T23:26:12+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_3599885",
+                    "value": "eyJpZCI6Ijc5ZjNmNGQ2LTA1MzctNDFjMS04ODQyLTA0ZWEyZWRhZmZhZSIsImMiOjE3NDMxMTc5NzIxMjAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119772,
+                    "expires_date": "2025-03-27T23:56:12+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750893972,
+                    "expires_date": "2025-06-25T23:26:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCYTWPZQZE5TCCN3V7CMTB8_.tt.1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750893972,
+                    "expires_date": "2025-06-25T23:26:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId442",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "g5daj50qed0ez2vhkrfbphes",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv906GIDF8YflWtkNvluQIwTaK",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750894014.02142,
+                    "expires_date": "2025-06-25T23:26:54.021420+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pa_privacy",
+                    "value": "%22optin%22",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1777245971,
+                    "expires_date": "2026-04-26T23:26:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"0d725bc3-d275-4e27-b407-1c132a0c9fa2\",\"ts\":1743117971669}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654014,
+                    "expires_date": "2026-03-27T23:26:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654014.614341,
+                    "expires_date": "2026-03-27T23:26:54.614341+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=21ae81e8-2876-42d7-ad4b-35d16c9872c1&Created=03/27/2025 23:25:54&UserMode=0&guid=9cc37d78-749a-4999-9b81-29d0ebd20bfc&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654014.614419,
+                    "expires_date": "2026-03-27T23:26:54.614419+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pcid",
+                    "value": "%7B%22browserId%22%3A%22m8rzfmpln8ky7q6o%22%2C%22_t%22%3A%22mogc7yka%7Cm8rzfn0a%22%7D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242371,
+                    "expires_date": "2026-04-26T22:26:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pctx",
+                    "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbSgHMAxgHYAngGsAZgB9%2BADhgAvGUgAMMkAF8gA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242371,
+                    "expires_date": "2026-04-26T22:26:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.334923908.1743117972",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743204414,
+                    "expires_date": "2025-03-28T23:26:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-259613-20",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743118031,
+                    "expires_date": "2025-03-27T23:27:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743117972026.369267512803328542",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894014,
+                    "expires_date": "2025-06-25T23:26:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSession_3599885",
+                    "value": "eyJpZCI6Ijc5ZjNmNGQ2LTA1MzctNDFjMS04ODQyLTA0ZWEyZWRhZmZhZSIsImMiOjE3NDMxMTc5NzIxMjAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119772,
+                    "expires_date": "2025-03-27T23:56:12+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894014,
+                    "expires_date": "2025-06-25T23:26:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCYTWPZQZE5TCCN3V7CMTB8_.tt.1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894014,
+                    "expires_date": "2025-06-25T23:26:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId442",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "GuestSeeker",
+                    "value": "ad568c89403246ea8c82b9e360640aea",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1759015587.435404,
+                    "expires_date": "2025-09-27T23:26:27.435404+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "uzcgq4m5p3d4wvirssn4m52e",
+                    "domain": "admin2.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_aimwel_session",
+                    "value": "7035236.3997432",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119800.467909,
+                    "expires_date": "2025-03-27T23:56:40.467909+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3599885",
+                    "value": "eyJpZCI6IjllYzI3NjEwLTY5NDQtNTdiZC04Mjc3LWFkMWU5N2I3YmVmYiIsImNyZWF0ZWQiOjE3NDMxMTc5NzIxMTksImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654014,
+                    "expires_date": "2026-03-27T23:26:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_W949Z1P6QN",
+                    "value": "GS1.1.1743117971.1.1.1743118014.0.0.0",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678014.111859,
+                    "expires_date": "2026-05-01T23:26:54.111859+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1732773656.1743117972",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678014.116235,
+                    "expires_date": "2026-05-01T23:26:54.116235+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T00:26:09.630475",
+        "timestamp_stop": "2025-03-28T00:27:06.721961"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Soglašam)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojedelo.com/",
+            "https://www.mojedelo.com/vodja-logistike-mz/d-911412",
+            "https://www.mojedelo.com/prodajni-inzenir-za-prodajo-storitev-na-podrocju-razvoja-programske-opreme-software-engineering/d-885805",
+            "https://www.mojedelo.com/prosta-delovna-mesta/gradbenistvo-arhitektura-geodezija"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "nbj1hebursursvues1adfonh",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv97PRUGdCWzV6jSfQS2WpkTW2",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750894030.043776,
+                    "expires_date": "2025-06-25T23:27:10.043776+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pa_privacy",
+                    "value": "%22optin%22",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1777246030,
+                    "expires_date": "2026-04-26T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_W949Z1P6QN",
+                    "value": "GS1.1.1743118030.1.0.1743118030.0.0.0",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678030.439335,
+                    "expires_date": "2026-05-01T23:27:10.439335+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"95991059-d06b-4d92-9268-81863aad77ca\",\"ts\":1743118030522}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654030,
+                    "expires_date": "2026-03-27T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pcid",
+                    "value": "%7B%22browserId%22%3A%22m8rzgw0e6i5x9ei0%22%2C%22_t%22%3A%22mogc97wi%7Cm8rzgwci%22%7D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242430,
+                    "expires_date": "2026-04-26T22:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pctx",
+                    "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbSgHMAxgE4A7AHdUAH34AOGAC8hUkahABfIA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242430,
+                    "expires_date": "2026-04-26T22:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654031.090992,
+                    "expires_date": "2026-03-27T23:27:11.090992+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=5d4969f0-24c8-4839-b3ec-0b68f31d9c6a&Created=03/27/2025 23:26:53&UserMode=0&guid=cebe0fe3-f6e6-46de-a0db-ecd3e53c59c1&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654031.091066,
+                    "expires_date": "2026-03-27T23:27:11.091066+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1563136087.1743118030",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678030.586034,
+                    "expires_date": "2026-05-01T23:27:10.586034+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.147279669.1743118031",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743204430,
+                    "expires_date": "2025-03-28T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-259613-20",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743118090,
+                    "expires_date": "2025-03-27T23:28:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743118030659.95398683455980129",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894030,
+                    "expires_date": "2025-06-25T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3599885",
+                    "value": "eyJpZCI6Ijg1NTQxMGM5LWRlNGMtNTIyYS04MTdkLWE5NGU4YmJiNmQyOSIsImNyZWF0ZWQiOjE3NDMxMTgwMzA3MzAsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654030,
+                    "expires_date": "2026-03-27T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_3599885",
+                    "value": "eyJpZCI6ImU5YmYwOGFjLTk5ZTctNDA4OC1iZjMxLWUwYzZkNGNmNmIwYyIsImMiOjE3NDMxMTgwMzA3MzIsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119830,
+                    "expires_date": "2025-03-27T23:57:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894030,
+                    "expires_date": "2025-06-25T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCYWP1EZE0YY405GVE40ZTW_.tt.1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894030,
+                    "expires_date": "2025-06-25T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId442",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "nbj1hebursursvues1adfonh",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv97PRUGdCWzV6jSfQS2WpkTW2",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750894030.043776,
+                    "expires_date": "2025-06-25T23:27:10.043776+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pa_privacy",
+                    "value": "%22optin%22",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1777246030,
+                    "expires_date": "2026-04-26T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_W949Z1P6QN",
+                    "value": "GS1.1.1743118030.1.0.1743118030.0.0.0",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678030.439335,
+                    "expires_date": "2026-05-01T23:27:10.439335+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"95991059-d06b-4d92-9268-81863aad77ca\",\"ts\":1743118030522}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654030,
+                    "expires_date": "2026-03-27T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pcid",
+                    "value": "%7B%22browserId%22%3A%22m8rzgw0e6i5x9ei0%22%2C%22_t%22%3A%22mogc97wi%7Cm8rzgwci%22%7D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242430,
+                    "expires_date": "2026-04-26T22:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pctx",
+                    "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbSgHMAxgE4A7AHdUAH34AOGAC8hUkahABfIA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242430,
+                    "expires_date": "2026-04-26T22:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654031.090992,
+                    "expires_date": "2026-03-27T23:27:11.090992+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=5d4969f0-24c8-4839-b3ec-0b68f31d9c6a&Created=03/27/2025 23:26:53&UserMode=0&guid=cebe0fe3-f6e6-46de-a0db-ecd3e53c59c1&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654031.091066,
+                    "expires_date": "2026-03-27T23:27:11.091066+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1563136087.1743118030",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678030.586034,
+                    "expires_date": "2026-05-01T23:27:10.586034+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.147279669.1743118031",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743204430,
+                    "expires_date": "2025-03-28T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-259613-20",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743118090,
+                    "expires_date": "2025-03-27T23:28:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743118030659.95398683455980129",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894079,
+                    "expires_date": "2025-06-25T23:27:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3599885",
+                    "value": "eyJpZCI6Ijg1NTQxMGM5LWRlNGMtNTIyYS04MTdkLWE5NGU4YmJiNmQyOSIsImNyZWF0ZWQiOjE3NDMxMTgwMzA3MzAsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654030,
+                    "expires_date": "2026-03-27T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_3599885",
+                    "value": "eyJpZCI6ImU5YmYwOGFjLTk5ZTctNDA4OC1iZjMxLWUwYzZkNGNmNmIwYyIsImMiOjE3NDMxMTgwMzA3MzIsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119830,
+                    "expires_date": "2025-03-27T23:57:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894030,
+                    "expires_date": "2025-06-25T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCYWP1EZE0YY405GVE40ZTW_.tt.1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894030,
+                    "expires_date": "2025-06-25T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId442",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO7dIAQO7dIAEsACBSLBjFoAP_gAEPgACRAINJD7C7FbSFCwD5zaLsAMAhHRsAAQoQAAASBAmABQAKQIAQCgkAYFASgBAACAAAAICRBIQIECAAAAUAAQAAAAAAEAAAAAAAIIAAAgAEAAAAIAAACAIAAEAAIAAAAEAAAmAgAAIIACAAAgAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAQOASD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAAAAAAIAA%22%2C%222~70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.587.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778~dv.%22%2C%2271BA1FBF-D74D-4D28-8CC1-C10EE5D7FDD3%22%5D%5D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814079,
+                    "expires_date": "2026-04-21T23:27:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_cc_dc",
+                    "value": "1",
+                    "domain": ".crwdcntrl.net",
+                    "path": "/",
+                    "expires": 1766445137.961456,
+                    "expires_date": "2025-12-22T23:12:17.961456+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_cc_id",
+                    "value": "545523b8d8c5de120999a49969e23632",
+                    "domain": ".crwdcntrl.net",
+                    "path": "/",
+                    "expires": 1766445137.961524,
+                    "expires_date": "2025-12-22T23:12:17.961524+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "lotame_domain_check",
+                    "value": "mojedelo.com",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743118089,
+                    "expires_date": "2025-03-27T23:28:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_cc_id",
+                    "value": "545523b8d8c5de120999a49969e23632",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1766446079,
+                    "expires_date": "2025-12-22T23:27:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "panoramaId_expiry",
+                    "value": "1743722862930",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743722862,
+                    "expires_date": "2025-04-03T23:27:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "panoramaId",
+                    "value": "0dd348dff26f55f9fc1c83a4fa7e185ca02c9f8e977b9b07c3d5dbf1f0818501",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743722862,
+                    "expires_date": "2025-04-03T23:27:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "panoramaIdType",
+                    "value": "panoDevice",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743722862,
+                    "expires_date": "2025-04-03T23:27:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "5453eb18-0797-4593-8677-d2deededcf6c",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776814079.971759,
+                    "expires_date": "2026-04-21T23:27:59.971759+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776814079.971842,
+                    "expires_date": "2026-04-21T23:27:59.971842+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "4A1zA19DMkw2NWExOTI0ZDlMdmVFZVN5dUl0VWNzZnRkVVF0WGFuUWszMENha3VQUUgzR3J3ZXVvRlA4ZXRiJTJCRFpYSVZab2k1SE5xRHNwaW9kTjElMkJ4dURmaHklMkJpVkpjM1NETmNwb3c3RUh3NEhhM1Bid2Q3dGJpUnJ2b1kxa3pDNUlWV2YwQ25QZDY5TTFDMEVXb3g2MFdrbGclM0QlM0Q",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776814080.166874,
+                    "expires_date": "2026-04-21T23:28:00.166874+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "-Sx7P19LMmxBTU5NdWFISzRlUlNsZGlpNGVHZHZDSWo1QmVjMjNZZEc2NGdGM3RHWnR3NDVER09BU2dZWjNZUmdsTyUyRnpsclhuaTFIa3VlUlRqZ0JNd3ZrZVBJODBjcndvcjVwTVcyWGNYNHRsMHRnUk40eXcwcyUyQnhta0dXcUNscUVwS0RVUmh2anJhQVVnbEdMMWxVY0J2RHh5N3JDcGk1NmltMWRPYkFpa0VGU3RJJTNE",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814080,
+                    "expires_date": "2026-04-21T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "FCNEC",
+                    "value": "%5B%5B%22AKsRol9g9haw17-Fihk6TqM9oZ1JNu6yT9qz6uot6OwuYSRMoOJwUwF2mRpwgrRYe4RPZjyqvTdBki_AlTHmhIkIZU4SnokL5HtcQVcELCejxSZLHkLmT3Aa834dPSDhopi5FDjK8EYh73_COPxC3Qm8N0YHtbrg0Q%3D%3D%22%5D%5D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654080,
+                    "expires_date": "2026-03-27T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=97f12fb2b83976b8:T=1743118063:RT=1743118063:S=ALNI_MYpU-wjb7ac-DuodEh9gPS8ZF3SMw",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814063,
+                    "expires_date": "2026-04-21T23:27:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072e0e99e08:T=1743118063:RT=1743118063:S=ALNI_MYnwMcndH3nyHkiz6GQP1gIqgNZlA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814063,
+                    "expires_date": "2026-04-21T23:27:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=cc953fd7f576b462:T=1743118063:RT=1743118063:S=AA-Afjb730d20qGZI4E9xv6WXgGX",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1758670063,
+                    "expires_date": "2025-09-23T23:27:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmW519v_9G_Sl1KWW5nMFsX_vr-znvbc2s5T2gTWr2zSxZHB42KKkxGn_TW6Cg",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776814080.985459,
+                    "expires_date": "2026-04-21T23:28:00.985459+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "nbj1hebursursvues1adfonh",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv97PRUGdCWzV6jSfQS2WpkTW2",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750894103.823017,
+                    "expires_date": "2025-06-25T23:28:23.823017+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pa_privacy",
+                    "value": "%22optin%22",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1777246030,
+                    "expires_date": "2026-04-26T23:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"95991059-d06b-4d92-9268-81863aad77ca\",\"ts\":1743118030522}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654104,
+                    "expires_date": "2026-03-27T23:28:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pcid",
+                    "value": "%7B%22browserId%22%3A%22m8rzgw0e6i5x9ei0%22%2C%22_t%22%3A%22mogc97wi%7Cm8rzgwci%22%7D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242430,
+                    "expires_date": "2026-04-26T22:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pctx",
+                    "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbSgHMAxgE4A7AHdUAH34AOGAC8hUkahABfIA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242430,
+                    "expires_date": "2026-04-26T22:27:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654104.343811,
+                    "expires_date": "2026-03-27T23:28:24.343811+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=5d4969f0-24c8-4839-b3ec-0b68f31d9c6a&Created=03/27/2025 23:26:53&UserMode=0&guid=cebe0fe3-f6e6-46de-a0db-ecd3e53c59c1&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654104.344027,
+                    "expires_date": "2026-03-27T23:28:24.344027+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.147279669.1743118031",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743204503,
+                    "expires_date": "2025-03-28T23:28:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743118030659.95398683455980129",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894104,
+                    "expires_date": "2025-06-25T23:28:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSession_3599885",
+                    "value": "eyJpZCI6ImU5YmYwOGFjLTk5ZTctNDA4OC1iZjMxLWUwYzZkNGNmNmIwYyIsImMiOjE3NDMxMTgwMzA3MzIsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119830,
+                    "expires_date": "2025-03-27T23:57:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894104,
+                    "expires_date": "2025-06-25T23:28:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCYWP1EZE0YY405GVE40ZTW_.tt.1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894104,
+                    "expires_date": "2025-06-25T23:28:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId442",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO7dIAQO7dIAEsACBSLBjFoAP_gAEPgACRAINJD7C7FbSFCwD5zaLsAMAhHRsAAQoQAAASBAmABQAKQIAQCgkAYFASgBAACAAAAICRBIQIECAAAAUAAQAAAAAAEAAAAAAAIIAAAgAEAAAAIAAACAIAAEAAIAAAAEAAAmAgAAIIACAAAgAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAQOASD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAAAAAAIAA%22%2C%222~70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.587.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778~dv.%22%2C%2271BA1FBF-D74D-4D28-8CC1-C10EE5D7FDD3%22%5D%5D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814079,
+                    "expires_date": "2026-04-21T23:27:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_cc_dc",
+                    "value": "1",
+                    "domain": ".crwdcntrl.net",
+                    "path": "/",
+                    "expires": 1766445137.961456,
+                    "expires_date": "2025-12-22T23:12:17.961456+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_cc_id",
+                    "value": "545523b8d8c5de120999a49969e23632",
+                    "domain": ".crwdcntrl.net",
+                    "path": "/",
+                    "expires": 1766445137.961524,
+                    "expires_date": "2025-12-22T23:12:17.961524+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_cc_id",
+                    "value": "545523b8d8c5de120999a49969e23632",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1766446079,
+                    "expires_date": "2025-12-22T23:27:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "panoramaId_expiry",
+                    "value": "1743722862930",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743722862,
+                    "expires_date": "2025-04-03T23:27:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "panoramaId",
+                    "value": "0dd348dff26f55f9fc1c83a4fa7e185ca02c9f8e977b9b07c3d5dbf1f0818501",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743722862,
+                    "expires_date": "2025-04-03T23:27:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "panoramaIdType",
+                    "value": "panoDevice",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743722862,
+                    "expires_date": "2025-04-03T23:27:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "5453eb18-0797-4593-8677-d2deededcf6c",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776814079.971759,
+                    "expires_date": "2026-04-21T23:27:59.971759+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776814079.971842,
+                    "expires_date": "2026-04-21T23:27:59.971842+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "4A1zA19DMkw2NWExOTI0ZDlMdmVFZVN5dUl0VWNzZnRkVVF0WGFuUWszMENha3VQUUgzR3J3ZXVvRlA4ZXRiJTJCRFpYSVZab2k1SE5xRHNwaW9kTjElMkJ4dURmaHklMkJpVkpjM1NETmNwb3c3RUh3NEhhM1Bid2Q3dGJpUnJ2b1kxa3pDNUlWV2YwQ25QZDY5TTFDMEVXb3g2MFdrbGclM0QlM0Q",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776814080.166874,
+                    "expires_date": "2026-04-21T23:28:00.166874+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "-Sx7P19LMmxBTU5NdWFISzRlUlNsZGlpNGVHZHZDSWo1QmVjMjNZZEc2NGdGM3RHWnR3NDVER09BU2dZWjNZUmdsTyUyRnpsclhuaTFIa3VlUlRqZ0JNd3ZrZVBJODBjcndvcjVwTVcyWGNYNHRsMHRnUk40eXcwcyUyQnhta0dXcUNscUVwS0RVUmh2anJhQVVnbEdMMWxVY0J2RHh5N3JDcGk1NmltMWRPYkFpa0VGU3RJJTNE",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814080,
+                    "expires_date": "2026-04-21T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=97f12fb2b83976b8:T=1743118063:RT=1743118063:S=ALNI_MYpU-wjb7ac-DuodEh9gPS8ZF3SMw",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814063,
+                    "expires_date": "2026-04-21T23:27:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072e0e99e08:T=1743118063:RT=1743118063:S=ALNI_MYnwMcndH3nyHkiz6GQP1gIqgNZlA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814063,
+                    "expires_date": "2026-04-21T23:27:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=cc953fd7f576b462:T=1743118063:RT=1743118063:S=AA-Afjb730d20qGZI4E9xv6WXgGX",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1758670063,
+                    "expires_date": "2025-09-23T23:27:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmW519v_9G_Sl1KWW5nMFsX_vr-znvbc2s5T2gTWr2zSxZHB42KKkxGn_TW6Cg",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776814080.985459,
+                    "expires_date": "2026-04-21T23:28:00.985459+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "GuestSeeker",
+                    "value": "85a9ac07d8d14bc185ddc92c48747bb8",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1759015687.028558,
+                    "expires_date": "2025-09-27T23:28:07.028558+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "oa0ffmakd1uia2bdev51lnbi",
+                    "domain": "admin2.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_aimwel_session",
+                    "value": "4039179.1049115",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119895.518968,
+                    "expires_date": "2025-03-27T23:58:15.518968+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3599885",
+                    "value": "eyJpZCI6Ijg1NTQxMGM5LWRlNGMtNTIyYS04MTdkLWE5NGU4YmJiNmQyOSIsImNyZWF0ZWQiOjE3NDMxMTgwMzA3MzAsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654104,
+                    "expires_date": "2026-03-27T23:28:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"122e0399-747f-4d4d-b33e-068a6930ef84\",\"ts\":1743118087910}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654104,
+                    "expires_date": "2026-03-27T23:28:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774654104.487597,
+                    "expires_date": "2026-03-27T23:28:24.487597+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d022a107-0fc0-4da8-9a56-3587ecc7cbe4&Created=03/27/2025 23:27:50&UserMode=0&guid=bdecf5b3-61ce-4d8f-af4d-24e4628a3f62&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774654104.487717,
+                    "expires_date": "2026-03-27T23:28:24.487717+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId442Stress",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816Stress",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat_UA-259613-20",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743118155,
+                    "expires_date": "2025-03-27T23:29:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_W949Z1P6QN",
+                    "value": "GS1.1.1743118030.1.1.1743118103.0.0.0",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678103.810577,
+                    "expires_date": "2026-05-01T23:28:23.810577+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1563136087.1743118030",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678103.813505,
+                    "expires_date": "2026-05-01T23:28:23.813505+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "FCNEC",
+                    "value": "%5B%5B%22AKsRol_aR1P6DMbpW0wXADGOqmN1NDZo8Tgmx5yRGQL7HKsJXZxqwKlFbAhvEWVr3pyMwgAskcoYuRzVoLGTlHGrrSreecdcYMt21Es66yyZBtJjbO2og4OeG8Urw7_lCZXdQ7OQdI_0skpcW_UMcvehdqGWwIikdQ%3D%3D%22%5D%5D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654104,
+                    "expires_date": "2026-03-27T23:28:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljalec spletne strani MojeDelo.com zahteva vaše soglasje za obdelavo osebnih podatkov pridobljenih na podlagi piškotkov, in sicer za sledeče namene:Osebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 133 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 66 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v na",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Soglašam]\nAmbiguousLabel2: None\nGenericLabel3: [Upravljanje možnosti]\nExplanation: \"Soglašam\" is an ambiguous phrase that signifies acceptance, while \"Upravljanje možnosti\" explicitly relates to managing settings. There are no buttons for accepting or declining all cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Soglašam",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Upravljanje možnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Soglašam\" is an ambiguous phrase that signifies acceptance, while \"Upravljanje možnosti\" explicitly relates to managing settings. There are no buttons for accepting or declining all cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Soglašam",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T00:27:08.363628",
+        "timestamp_stop": "2025-03-28T00:28:31.554914"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Upravljanje možnosti)",
+            "Clicking an element of type (button), with text (Potrdi izbire)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojedelo.com/",
+            "https://www.mojedelo.com/vodja-logistike-mz/d-911412",
+            "https://www.mojedelo.com/prodajni-inzenir-za-prodajo-storitev-na-podrocju-razvoja-programske-opreme-software-engineering/d-885805",
+            "https://www.mojedelo.com/prosta-delovna-mesta/gradbenistvo-arhitektura-geodezija"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "mwsc0wgqortjnqjovcjiewpw",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv9I6KONu6OSzZpbx18S9H2Lrj",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750894114.950306,
+                    "expires_date": "2025-06-25T23:28:34.950306+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pa_privacy",
+                    "value": "%22optin%22",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1777246115,
+                    "expires_date": "2026-04-26T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_W949Z1P6QN",
+                    "value": "GS1.1.1743118115.1.0.1743118115.0.0.0",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678115.29856,
+                    "expires_date": "2026-05-01T23:28:35.298560+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"0b5aabaf-741c-4d84-9556-1e95f65ab85b\",\"ts\":1743118115347}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654115,
+                    "expires_date": "2026-03-27T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pcid",
+                    "value": "%7B%22browserId%22%3A%22m8rzipjk6gsz66vu%22%2C%22_t%22%3A%22mogcb1cv%7Cm8rzipsv%22%7D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242515,
+                    "expires_date": "2026-04-26T22:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pctx",
+                    "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbSgHMAxgCMAjKwAsAH34AOGAC96AB3zSQAXyA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242515,
+                    "expires_date": "2026-04-26T22:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654115.992018,
+                    "expires_date": "2026-03-27T23:28:35.992018+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=049e98c4-4077-4efb-8b91-40b12904579f&Created=03/27/2025 23:28:18&UserMode=0&guid=59bd3015-c82d-4dd6-9b31-6209de3a5bcb&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654115.99212,
+                    "expires_date": "2026-03-27T23:28:35.992120+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.617729212.1743118115",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678115.426928,
+                    "expires_date": "2026-05-01T23:28:35.426928+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1940764736.1743118115",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743204515,
+                    "expires_date": "2025-03-28T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-259613-20",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743118175,
+                    "expires_date": "2025-03-27T23:29:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743118115541.64146109501456035",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894115,
+                    "expires_date": "2025-06-25T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894115,
+                    "expires_date": "2025-06-25T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCYZ8XFPYEC9RXD36HEKSAN_.tt.1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894115,
+                    "expires_date": "2025-06-25T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3599885",
+                    "value": "eyJpZCI6ImZjNDliMzA3LTczYWYtNTYwMC05ZTRkLTQ1ZTA2Y2JiMGIwZSIsImNyZWF0ZWQiOjE3NDMxMTgxMTU5MTYsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654115,
+                    "expires_date": "2026-03-27T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_3599885",
+                    "value": "eyJpZCI6IjE4YjNkZWU0LWUxMmYtNDkzYS05NDIwLWQzMWM5OGQ0YTNiMiIsImMiOjE3NDMxMTgxMTU5MTcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119915,
+                    "expires_date": "2025-03-27T23:58:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId442",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "TESTCOOKIESENABLED",
+                    "value": "1",
+                    "domain": "069c248533441f7e289a52eccfd93405.safeframe.googlesyndication.com",
+                    "path": "/safeframe/1-0-41/html",
+                    "expires": 1743118274,
+                    "expires_date": "2025-03-27T23:31:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "mwsc0wgqortjnqjovcjiewpw",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv9I6KONu6OSzZpbx18S9H2Lrj",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750894114.950306,
+                    "expires_date": "2025-06-25T23:28:34.950306+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pa_privacy",
+                    "value": "%22optin%22",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1777246115,
+                    "expires_date": "2026-04-26T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_W949Z1P6QN",
+                    "value": "GS1.1.1743118115.1.0.1743118115.0.0.0",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678115.29856,
+                    "expires_date": "2026-05-01T23:28:35.298560+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"0b5aabaf-741c-4d84-9556-1e95f65ab85b\",\"ts\":1743118115347}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654115,
+                    "expires_date": "2026-03-27T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pcid",
+                    "value": "%7B%22browserId%22%3A%22m8rzipjk6gsz66vu%22%2C%22_t%22%3A%22mogcb1cv%7Cm8rzipsv%22%7D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242515,
+                    "expires_date": "2026-04-26T22:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pctx",
+                    "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbSgHMAxgCMAjKwAsAH34AOGAC96AB3zSQAXyA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242515,
+                    "expires_date": "2026-04-26T22:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654115.992018,
+                    "expires_date": "2026-03-27T23:28:35.992018+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=049e98c4-4077-4efb-8b91-40b12904579f&Created=03/27/2025 23:28:18&UserMode=0&guid=59bd3015-c82d-4dd6-9b31-6209de3a5bcb&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654115.99212,
+                    "expires_date": "2026-03-27T23:28:35.992120+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.617729212.1743118115",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678115.426928,
+                    "expires_date": "2026-05-01T23:28:35.426928+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1940764736.1743118115",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743204515,
+                    "expires_date": "2025-03-28T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743118115541.64146109501456035",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894213,
+                    "expires_date": "2025-06-25T23:30:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894115,
+                    "expires_date": "2025-06-25T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCYZ8XFPYEC9RXD36HEKSAN_.tt.1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894115,
+                    "expires_date": "2025-06-25T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3599885",
+                    "value": "eyJpZCI6ImZjNDliMzA3LTczYWYtNTYwMC05ZTRkLTQ1ZTA2Y2JiMGIwZSIsImNyZWF0ZWQiOjE3NDMxMTgxMTU5MTYsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654115,
+                    "expires_date": "2026-03-27T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_3599885",
+                    "value": "eyJpZCI6IjE4YjNkZWU0LWUxMmYtNDkzYS05NDIwLWQzMWM5OGQ0YTNiMiIsImMiOjE3NDMxMTgxMTU5MTcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119990,
+                    "expires_date": "2025-03-27T23:59:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId442",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO7dIAQO7dIAEsACCSLBjFgAAAAAEPgACRAAAAOASD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAAAAAAIAAA%22%2C%222~~dv.70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.587.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778%22%2C%225BF98290-AEC0-4F61-B9B5-7DB51CAB27F4%22%5D%5D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814213,
+                    "expires_date": "2026-04-21T23:30:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=ffb3109abfada0f8:T=1743118196:RT=1743118196:S=AA-AfjZyTp80MW_b-rYtUh8TXALX",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1758670196,
+                    "expires_date": "2025-09-23T23:29:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "TESTCOOKIESENABLED",
+                    "value": "1",
+                    "domain": "069c248533441f7e289a52eccfd93405.safeframe.googlesyndication.com",
+                    "path": "/safeframe/1-0-41/html",
+                    "expires": 1743118274,
+                    "expires_date": "2025-03-27T23:31:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TESTCOOKIESENABLED",
+                    "value": "1",
+                    "domain": "2f46ad912fc24005cddeac78224d76d2.safeframe.googlesyndication.com",
+                    "path": "/safeframe/1-0-41/html",
+                    "expires": 1743118300,
+                    "expires_date": "2025-03-27T23:31:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "mwsc0wgqortjnqjovcjiewpw",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv9I6KONu6OSzZpbx18S9H2Lrj",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750894238.601644,
+                    "expires_date": "2025-06-25T23:30:38.601644+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pa_privacy",
+                    "value": "%22optin%22",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1777246115,
+                    "expires_date": "2026-04-26T23:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"0b5aabaf-741c-4d84-9556-1e95f65ab85b\",\"ts\":1743118115347}",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654238,
+                    "expires_date": "2026-03-27T23:30:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pcid",
+                    "value": "%7B%22browserId%22%3A%22m8rzipjk6gsz66vu%22%2C%22_t%22%3A%22mogcb1cv%7Cm8rzipsv%22%7D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242515,
+                    "expires_date": "2026-04-26T22:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_pctx",
+                    "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbSgHMAxgCMAjKwAsAH34AOGAC96AB3zSQAXyA",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777242515,
+                    "expires_date": "2026-04-26T22:28:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654239.058676,
+                    "expires_date": "2026-03-27T23:30:39.058676+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=049e98c4-4077-4efb-8b91-40b12904579f&Created=03/27/2025 23:28:18&UserMode=0&guid=59bd3015-c82d-4dd6-9b31-6209de3a5bcb&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774654239.058784,
+                    "expires_date": "2026-03-27T23:30:39.058784+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1940764736.1743118115",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743204638,
+                    "expires_date": "2025-03-28T23:30:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743118115541.64146109501456035",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894238,
+                    "expires_date": "2025-06-25T23:30:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894238,
+                    "expires_date": "2025-06-25T23:30:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCYZ8XFPYEC9RXD36HEKSAN_.tt.1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1750894238,
+                    "expires_date": "2025-06-25T23:30:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSession_3599885",
+                    "value": "eyJpZCI6IjE4YjNkZWU0LWUxMmYtNDkzYS05NDIwLWQzMWM5OGQ0YTNiMiIsImMiOjE3NDMxMTgxMTU5MTcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743119990,
+                    "expires_date": "2025-03-27T23:59:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId442",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId442SecId1816",
+                    "value": "1",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "FCCDCF",
+                    "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQO7dIAQO7dIAEsACCSLBjFgAAAAAEPgACRAAAAOASD2F2K2kKFkHCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAAIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhAAAQQAEAAAAAAAQAAAAAAIAAA%22%2C%222~~dv.70.89.93.108.122.149.184.196.236.259.311.313.314.323.358.415.442.486.494.495.540.574.587.609.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.1960.2072.2253.2299.2373.2415.2506.2526.2531.2568.2571.2575.2624.2677.2778%22%2C%225BF98290-AEC0-4F61-B9B5-7DB51CAB27F4%22%5D%5D",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1776814213,
+                    "expires_date": "2026-04-21T23:30:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=ffb3109abfada0f8:T=1743118196:RT=1743118196:S=AA-AfjZyTp80MW_b-rYtUh8TXALX",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1758670196,
+                    "expires_date": "2025-09-23T23:29:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "GuestSeeker",
+                    "value": "2d07cd3896fe4a81a8af51f7ae83a7f9",
+                    "domain": "www.mojedelo.com",
+                    "path": "/",
+                    "expires": 1759015821.622449,
+                    "expires_date": "2025-09-27T23:30:21.622449+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "cnckk3zy22nvwvtow0bzc3mn",
+                    "domain": "admin2.mojedelo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_aimwel_session",
+                    "value": "5641100.9159616",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743120030.35574,
+                    "expires_date": "2025-03-28T00:00:30.355740+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat_UA-259613-20",
+                    "value": "1",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1743118282,
+                    "expires_date": "2025-03-27T23:31:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3599885",
+                    "value": "eyJpZCI6ImZjNDliMzA3LTczYWYtNTYwMC05ZTRkLTQ1ZTA2Y2JiMGIwZSIsImNyZWF0ZWQiOjE3NDMxMTgxMTU5MTYsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1774654238,
+                    "expires_date": "2026-03-27T23:30:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.617729212.1743118115",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678238.591037,
+                    "expires_date": "2026-05-01T23:30:38.591037+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_W949Z1P6QN",
+                    "value": "GS1.1.1743118115.1.1.1743118238.0.0.0",
+                    "domain": ".mojedelo.com",
+                    "path": "/",
+                    "expires": 1777678238.641441,
+                    "expires_date": "2026-05-01T23:30:38.641441+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljalec spletne strani MojeDelo.com zahteva vaše soglasje za obdelavo osebnih podatkov pridobljenih na podlagi piškotkov, in sicer za sledeče namene:Osebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 133 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 66 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v na",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Soglašam]  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje možnosti]  \nExplanation: The button [Soglašam] is considered an ambiguous accept phrase, while [Upravljanje možnosti] clearly relates to managing settings and is categorized accordingly. There are no clear accept or decline all button labels present.",
+                "llm_response_parsed": {
+                    "Accept": "Soglašam",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Upravljanje možnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Soglašam is considered an ambiguous accept phrase, while Upravljanje možnosti clearly relates to managing settings and is categorized accordingly. There are no clear accept or decline all button labels present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Upravljanje možnosti",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljalec spletne strani MojeDelo.com zahteva vaše soglasje za obdelavo osebnih podatkov pridobljenih na podlagi piškotkov, in sicer za sledeče namene:Osebno prilagojeno oglaševanje in vsebina, merjenje oglaševanja in vsebine, raziskovanje občinstva in razvoj storitevShranjevanje in/ali dostop do podatkov na napraviVeč o temKako lahko spremenim odločitev?Kaj, če soglasja ne podam?Kako deluje zakoniti interes?Ali moram podati soglasje k vsemu?Vaše osebne podatke in podatke iz naprave (piškotke, enolične identifikatorje in druge podatke iz naprave) lahko shranijo in do njih dostopa 133 ponudnikov, ki uporabljajo ogrodje za preglednost in privolitev, in 66 partnerjev za oglase, oboje pa je prav tako lahko deljeno z njimi. Uporablja jih lahko tudi to spletno mesto ali aplikacija.Nekateri ponudniki morda obdelujejo osebne podatke na podlagi zakonitega interesa, čemur lahko ugovarjate z upravljanjem možnosti spodaj. Na dnu te strani poiščite povezavo za upravljanje ali umik privolitve v na",
+                "banner_z_index": 2147483644,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: None\nAmbiguousLabel1: [Potrdi izbire]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve ponudnika]\nExplanation: The button [Sprejmi vse] clearly indicates acceptance of all cookies, which is categorized under GenericLabel1. The button [Potrdi izbire] is an ambiguous accept as it implies confirmation without specifically indicating acceptance of all cookies. The button [Nastavitve ponudnika] pertains to managing settings, thus categorized under GenericLabel3.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Potrdi izbire",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": "Nastavitve ponudnika",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse clearly indicates acceptance of all cookies, which is categorized under GenericLabel1. The button Potrdi izbire is an ambiguous accept as it implies confirmation without specifically indicating acceptance of all cookies. The button Nastavitve ponudnika pertains to managing settings, thus categorized under GenericLabel3."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Potrdi izbire",
+                "settings_decline_element_ambiguous": true,
+                "settings_decline_element_evidence": "AmbiguousLabel1",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T00:28:33.267451",
+        "timestamp_stop": "2025-03-28T00:30:46.335992"
+    }
+}

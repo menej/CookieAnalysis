@@ -1,0 +1,1584 @@
+{
+    "web_page": "https://www.krajcek.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T07:53:10.789276",
+    "timestamp_stop": "2025-03-28T07:55:52.850215",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.krajcek.si/",
+            "https://www.krajcek.si/carnaroli-ekoloski-riz-750g/",
+            "https://www.krajcek.si/eko-balzamicni-kis-iz-modene/",
+            "https://www.krajcek.si/zivila/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743144793309.99991308896348793",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1750920793,
+                    "expires_date": "2025-06-26T06:53:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNamhpWkRjNU4yVXRZemhrWkMwME1XVTVMVGc0WVdJdFlUZ3hPV05rT1dNME5qYzQiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNDQ3OTMsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmtyYWpjZWsuc2kvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzQzMTQ0NzkzLCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5rcmFqY2VrLnNpLyJ9fQ==",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1777704793.333808,
+                    "expires_date": "2026-05-02T06:53:13.333808+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680793,
+                    "expires_date": "2026-03-28T06:53:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-non-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680793,
+                    "expires_date": "2026-03-28T06:53:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1592669",
+                    "value": "eyJpZCI6IjhiNmE5NDdlLTRkYjQtNWRhYi04YWMxLWZlMTJjODE5OGYwYyIsImNyZWF0ZWQiOjE3NDMxNDQ3OTM2MzIsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1774680793,
+                    "expires_date": "2026-03-28T06:53:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1592669",
+                    "value": "eyJpZCI6ImVmNDRkMjk0LTY0NmMtNGZkNC05ODY1LTFlMTQ1ZDBmMjFiMSIsImMiOjE3NDMxNDQ3OTM2MzMsInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743146593,
+                    "expires_date": "2025-03-28T07:23:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1261998920.1743144794",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743231193,
+                    "expires_date": "2025-03-29T06:53:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_154814716_1",
+                    "value": "1",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743144853,
+                    "expires_date": "2025-03-28T06:54:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JJQ5G6XFVM",
+                    "value": "GS1.1.1743144793.1.0.1743144793.0.0.0",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704793.793285,
+                    "expires_date": "2026-05-02T06:53:13.793285+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.189635275.1743144794",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704793.793753,
+                    "expires_date": "2026-05-02T06:53:13.793753+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "6b824d4a715e831ff520348bcc207bff",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743144793309.99991308896348793",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1750920820,
+                    "expires_date": "2025-06-26T06:53:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680793,
+                    "expires_date": "2026-03-28T06:53:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-non-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680793,
+                    "expires_date": "2026-03-28T06:53:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1592669",
+                    "value": "eyJpZCI6IjhiNmE5NDdlLTRkYjQtNWRhYi04YWMxLWZlMTJjODE5OGYwYyIsImNyZWF0ZWQiOjE3NDMxNDQ3OTM2MzIsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1774680820,
+                    "expires_date": "2026-03-28T06:53:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1592669",
+                    "value": "eyJpZCI6ImVmNDRkMjk0LTY0NmMtNGZkNC05ODY1LTFlMTQ1ZDBmMjFiMSIsImMiOjE3NDMxNDQ3OTM2MzMsInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743146593,
+                    "expires_date": "2025-03-28T07:23:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1261998920.1743144794",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743231220,
+                    "expires_date": "2025-03-29T06:53:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_154814716_1",
+                    "value": "1",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743144853,
+                    "expires_date": "2025-03-28T06:54:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "6b824d4a715e831ff520348bcc207bff",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_JJQ5G6XFVM",
+                    "value": "GS1.1.1743144793.1.1.1743144820.0.0.0",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704820.819535,
+                    "expires_date": "2026-05-02T06:53:40.819535+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.189635275.1743144794",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704820.819882,
+                    "expires_date": "2026-05-02T06:53:40.819882+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNamhpWkRjNU4yVXRZemhrWkMwME1XVTVMVGc0WVdJdFlUZ3hPV05rT1dNME5qYzQiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNDQ3OTMsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmtyYWpjZWsuc2kvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzQzMTQ0ODIxLCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5rcmFqY2VrLnNpLyJ9fQ==",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1777704820.82388,
+                    "expires_date": "2026-05-02T06:53:40.823880+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T07:53:12.101552",
+        "timestamp_stop": "2025-03-28T07:53:50.244559"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Nadaljuj)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.krajcek.si/",
+            "https://www.krajcek.si/carnaroli-ekoloski-riz-750g/",
+            "https://www.krajcek.si/eko-balzamicni-kis-iz-modene/",
+            "https://www.krajcek.si/zivila/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJOMk5tTldRNFlXRXRZalppTlMwME5XRXdMVGczWlRVdE5XWm1NV1ZpT0dSa1pHTTIiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNDQ4MzMsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmtyYWpjZWsuc2kvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzQzMTQ0ODMzLCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5rcmFqY2VrLnNpLyJ9fQ==",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1777704833.111134,
+                    "expires_date": "2026-05-02T06:53:53.111134+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743144833180.729090911433828433",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1750920833,
+                    "expires_date": "2025-06-26T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680833,
+                    "expires_date": "2026-03-28T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-non-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680833,
+                    "expires_date": "2026-03-28T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1592669",
+                    "value": "eyJpZCI6ImJmNDRjZGRhLTE3NTAtNWM4Yi1hZDNiLTI4ODA1NGMxZmE3MCIsImNyZWF0ZWQiOjE3NDMxNDQ4MzMzMDksImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1774680833,
+                    "expires_date": "2026-03-28T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1592669",
+                    "value": "eyJpZCI6IjBjNGUzNDk3LTQwOGQtNDdlOC05MWIwLTI4OTQwM2I5MzdhOSIsImMiOjE3NDMxNDQ4MzMzMTAsInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743146633,
+                    "expires_date": "2025-03-28T07:23:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1138040732.1743144833",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743231233,
+                    "expires_date": "2025-03-29T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_154814716_1",
+                    "value": "1",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743144893,
+                    "expires_date": "2025-03-28T06:54:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JJQ5G6XFVM",
+                    "value": "GS1.1.1743144833.1.0.1743144833.0.0.0",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704833.51236,
+                    "expires_date": "2026-05-02T06:53:53.512360+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1533637409.1743144833",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704833.512831,
+                    "expires_date": "2026-05-02T06:53:53.512831+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "d320519d26134006dc285afe247a13b4",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJOMk5tTldRNFlXRXRZalppTlMwME5XRXdMVGczWlRVdE5XWm1NV1ZpT0dSa1pHTTIiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNDQ4MzMsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmtyYWpjZWsuc2kvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzQzMTQ0ODMzLCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5rcmFqY2VrLnNpLyJ9fQ==",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1777704833.111134,
+                    "expires_date": "2026-05-02T06:53:53.111134+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743144833180.729090911433828433",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1750920855,
+                    "expires_date": "2025-06-26T06:54:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680833,
+                    "expires_date": "2026-03-28T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-non-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680833,
+                    "expires_date": "2026-03-28T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1592669",
+                    "value": "eyJpZCI6ImJmNDRjZGRhLTE3NTAtNWM4Yi1hZDNiLTI4ODA1NGMxZmE3MCIsImNyZWF0ZWQiOjE3NDMxNDQ4MzMzMDksImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1774680833,
+                    "expires_date": "2026-03-28T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1592669",
+                    "value": "eyJpZCI6IjBjNGUzNDk3LTQwOGQtNDdlOC05MWIwLTI4OTQwM2I5MzdhOSIsImMiOjE3NDMxNDQ4MzMzMTAsInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743146633,
+                    "expires_date": "2025-03-28T07:23:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1138040732.1743144833",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743231233,
+                    "expires_date": "2025-03-29T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_154814716_1",
+                    "value": "1",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743144893,
+                    "expires_date": "2025-03-28T06:54:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_JJQ5G6XFVM",
+                    "value": "GS1.1.1743144833.1.0.1743144833.0.0.0",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704833.51236,
+                    "expires_date": "2026-05-02T06:53:53.512360+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1533637409.1743144833",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704833.512831,
+                    "expires_date": "2026-05-02T06:53:53.512831+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "d320519d26134006dc285afe247a13b4",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieLawInfoConsent",
+                    "value": "eyJuZWNlc3NhcnkiOnRydWUsIm5vbi1uZWNlc3NhcnkiOnRydWV9",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680855,
+                    "expires_date": "2026-03-28T06:54:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "viewed_cookie_policy",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680855,
+                    "expires_date": "2026-03-28T06:54:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743144833180.729090911433828433",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1750920877,
+                    "expires_date": "2025-06-26T06:54:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680833,
+                    "expires_date": "2026-03-28T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-non-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680833,
+                    "expires_date": "2026-03-28T06:53:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1592669",
+                    "value": "eyJpZCI6ImJmNDRjZGRhLTE3NTAtNWM4Yi1hZDNiLTI4ODA1NGMxZmE3MCIsImNyZWF0ZWQiOjE3NDMxNDQ4MzMzMDksImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1774680877,
+                    "expires_date": "2026-03-28T06:54:37+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1592669",
+                    "value": "eyJpZCI6IjBjNGUzNDk3LTQwOGQtNDdlOC05MWIwLTI4OTQwM2I5MzdhOSIsImMiOjE3NDMxNDQ4MzMzMTAsInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743146633,
+                    "expires_date": "2025-03-28T07:23:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1138040732.1743144833",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743231277,
+                    "expires_date": "2025-03-29T06:54:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_154814716_1",
+                    "value": "1",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743144893,
+                    "expires_date": "2025-03-28T06:54:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "d320519d26134006dc285afe247a13b4",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieLawInfoConsent",
+                    "value": "eyJuZWNlc3NhcnkiOnRydWUsIm5vbi1uZWNlc3NhcnkiOnRydWV9",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680855,
+                    "expires_date": "2026-03-28T06:54:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "viewed_cookie_policy",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680855,
+                    "expires_date": "2026-03-28T06:54:15+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_JJQ5G6XFVM",
+                    "value": "GS1.1.1743144833.1.1.1743144877.0.0.0",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704877.420737,
+                    "expires_date": "2026-05-02T06:54:37.420737+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1533637409.1743144833",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704877.42104,
+                    "expires_date": "2026-05-02T06:54:37.421040+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJOMk5tTldRNFlXRXRZalppTlMwME5XRXdMVGczWlRVdE5XWm1NV1ZpT0dSa1pHTTIiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNDQ4MzMsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmtyYWpjZWsuc2kvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzQzMTQ0ODc3LCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5rcmFqY2VrLnNpLyJ9fQ==",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1777704877.424106,
+                    "expires_date": "2026-05-02T06:54:37.424106+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto uporablja piškotke zaradi boljše uporabniške izkušnje. Z uporabo naše spletne strani potrjujete, da se z njihovo uporabo strinjate.Nadaljuj Več o piškotkih",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Nadaljuj]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih]  \nExplanation: The button [Nadaljuj] is ambiguous as it could suggest proceeding with the current options but does not explicitly indicate acceptance of all cookies. The button [Več o piškotkih] falls under settings management as it implies more information about cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Nadaljuj",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Nadaljuj is ambiguous as it could suggest proceeding with the current options but does not explicitly indicate acceptance of all cookies. The button Več o piškotkih falls under settings management as it implies more information about cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nadaljuj",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T07:53:51.808839",
+        "timestamp_stop": "2025-03-28T07:54:46.943778"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Več o piškotkih)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.krajcek.si/",
+            "https://www.krajcek.si/",
+            "https://www.krajcek.si/carnaroli-ekoloski-riz-750g/",
+            "https://www.krajcek.si/eko-balzamicni-kis-iz-modene/",
+            "https://www.krajcek.si/zivila/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNRGsyWWpBek1HSXRNREF5TVMwME5qa3pMVGs0WldFdE5tRmhOalJsTkRreU0yTXoiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNDQ4OTAsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmtyYWpjZWsuc2kvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzQzMTQ0ODkwLCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5rcmFqY2VrLnNpLyJ9fQ==",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1777704889.829045,
+                    "expires_date": "2026-05-02T06:54:49.829045+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743144889893.28052322289546006",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1750920889,
+                    "expires_date": "2025-06-26T06:54:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1233168652.1743144890",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743231289,
+                    "expires_date": "2025-03-29T06:54:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_154814716_1",
+                    "value": "1",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743144949,
+                    "expires_date": "2025-03-28T06:55:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680890,
+                    "expires_date": "2026-03-28T06:54:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-non-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680890,
+                    "expires_date": "2026-03-28T06:54:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1592669",
+                    "value": "eyJpZCI6ImU4N2RjNjFhLTQ3YjAtNTU5Zi1iNzFjLTA1YjM2MzBiYzdhNCIsImNyZWF0ZWQiOjE3NDMxNDQ4OTAxMTcsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1774680890,
+                    "expires_date": "2026-03-28T06:54:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1592669",
+                    "value": "eyJpZCI6ImMzNmU3NjIxLWVkYmQtNGIwNi05MGVhLWFjZmIxZGVjYjc4NSIsImMiOjE3NDMxNDQ4OTAxMTksInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743146690,
+                    "expires_date": "2025-03-28T07:24:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_JJQ5G6XFVM",
+                    "value": "GS1.1.1743144890.1.0.1743144890.0.0.0",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704890.263382,
+                    "expires_date": "2026-05-02T06:54:50.263382+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1570602552.1743144890",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704890.263836,
+                    "expires_date": "2026-05-02T06:54:50.263836+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "65b48a9d3c144f43fa25a36813b8c69f",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743144889893.28052322289546006",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1750920918,
+                    "expires_date": "2025-06-26T06:55:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1233168652.1743144890",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743231318,
+                    "expires_date": "2025-03-29T06:55:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_154814716_1",
+                    "value": "1",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743144949,
+                    "expires_date": "2025-03-28T06:55:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680890,
+                    "expires_date": "2026-03-28T06:54:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-non-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680890,
+                    "expires_date": "2026-03-28T06:54:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1592669",
+                    "value": "eyJpZCI6ImU4N2RjNjFhLTQ3YjAtNTU5Zi1iNzFjLTA1YjM2MzBiYzdhNCIsImNyZWF0ZWQiOjE3NDMxNDQ4OTAxMTcsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1774680918,
+                    "expires_date": "2026-03-28T06:55:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1592669",
+                    "value": "eyJpZCI6ImMzNmU3NjIxLWVkYmQtNGIwNi05MGVhLWFjZmIxZGVjYjc4NSIsImMiOjE3NDMxNDQ4OTAxMTksInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743146690,
+                    "expires_date": "2025-03-28T07:24:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "65b48a9d3c144f43fa25a36813b8c69f",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNRGsyWWpBek1HSXRNREF5TVMwME5qa3pMVGs0WldFdE5tRmhOalJsTkRreU0yTXoiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNDQ4OTAsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmtyYWpjZWsuc2kvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzQzMTQ0OTE5LCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5rcmFqY2VrLnNpLyJ9fQ==",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1777704918.551074,
+                    "expires_date": "2026-05-02T06:55:18.551074+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_JJQ5G6XFVM",
+                    "value": "GS1.1.1743144890.1.1.1743144918.0.0.0",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704918.70643,
+                    "expires_date": "2026-05-02T06:55:18.706430+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1570602552.1743144890",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704918.706771,
+                    "expires_date": "2026-05-02T06:55:18.706771+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743144889893.28052322289546006",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1750920942,
+                    "expires_date": "2025-06-26T06:55:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1233168652.1743144890",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743231342,
+                    "expires_date": "2025-03-29T06:55:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680890,
+                    "expires_date": "2026-03-28T06:54:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-non-necessary",
+                    "value": "yes",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1774680890,
+                    "expires_date": "2026-03-28T06:54:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1592669",
+                    "value": "eyJpZCI6ImU4N2RjNjFhLTQ3YjAtNTU5Zi1iNzFjLTA1YjM2MzBiYzdhNCIsImNyZWF0ZWQiOjE3NDMxNDQ4OTAxMTcsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1774680943,
+                    "expires_date": "2026-03-28T06:55:43+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1592669",
+                    "value": "eyJpZCI6ImMzNmU3NjIxLWVkYmQtNGIwNi05MGVhLWFjZmIxZGVjYjc4NSIsImMiOjE3NDMxNDQ4OTAxMTksInMiOjEsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1743146690,
+                    "expires_date": "2025-03-28T07:24:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "65b48a9d3c144f43fa25a36813b8c69f",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_JJQ5G6XFVM",
+                    "value": "GS1.1.1743144890.1.1.1743144942.0.0.0",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704942.99741,
+                    "expires_date": "2026-05-02T06:55:42.997410+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1570602552.1743144890",
+                    "domain": ".krajcek.si",
+                    "path": "/",
+                    "expires": 1777704942.997752,
+                    "expires_date": "2026-05-02T06:55:42.997752+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNRGsyWWpBek1HSXRNREF5TVMwME5qa3pMVGs0WldFdE5tRmhOalJsTkRreU0yTXoiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNDQ4OTAsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmtyYWpjZWsuc2kvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzQzMTQ0OTQzLCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5rcmFqY2VrLnNpLyJ9fQ==",
+                    "domain": "www.krajcek.si",
+                    "path": "/",
+                    "expires": 1777704943.001717,
+                    "expires_date": "2026-05-02T06:55:43.001717+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_redirected.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto uporablja piškotke zaradi boljše uporabniške izkušnje. Z uporabo naše spletne strani potrjujete, da se z njihovo uporabo strinjate.Nadaljuj Več o piškotkih",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Nadaljuj]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih]  \nExplanation: The button [Nadaljuj] is ambiguous but suggests acceptance, while [Več o piškotkih] pertains to managing settings or finding more information about cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Nadaljuj",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Nadaljuj is ambiguous but suggests acceptance, while Več o piškotkih pertains to managing settings or finding more information about cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več o piškotkih",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T07:54:48.573502",
+        "timestamp_stop": "2025-03-28T07:55:52.488451"
+    }
+}

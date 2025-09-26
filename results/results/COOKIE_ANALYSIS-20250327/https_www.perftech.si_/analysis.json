@@ -1,0 +1,1179 @@
+{
+    "web_page": "https://www.perftech.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T10:27:05.564056",
+    "timestamp_stop": "2025-03-28T10:29:41.539401",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.perftech.si/",
+            "https://www.perftech.si/Perftech-hiperkonvergenčna-okolja.php?lang=sl",
+            "https://www.perftech.si/Podatkovni-Center-tehnična-pomoč.php?lang=sl",
+            "https://www.perftech.si/Podatkovni-Center-tehnična-pomoč.php?lang=en"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "lang",
+                    "value": "v=2&lang=en-us",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "ajax:3605493029630163958",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&da62420d-b519-4ef0-8753-f7f1642d4f81\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774690028.026865,
+                    "expires_date": "2026-03-28T09:27:08.026865+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bscookie",
+                    "value": "\"v=1&2025032809270709e6f705-c69d-456a-88dd-28b28ba16886AQGc4LeIPpMW2jIwpkR927ivvEwaK09j\"",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690028.026985,
+                    "expires_date": "2026-03-28T09:27:08.026985+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNTQwMjc7MjswMjE8HC38nDUSdwNnAiah+hUIHbrx6syIT1Oj+y+Kyb5yIw==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758706027.027039,
+                    "expires_date": "2025-09-24T09:27:07.027039+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743154028:t=1743240428:v=2:sig=AQFPUdwVcK8d-1SvERpwgJYGOpDG8Z4Z\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743240428.02708,
+                    "expires_date": "2025-03-29T09:27:08.027080+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "slt5XlqZsYy0v36YZzE5NLW2DQc5C_kDuW9ITsEurDQ-1743154028-1.0.1.1-h5NY5bwrNqpcCd6Gk3bi4j2s7S6raiv4yYfnFOR5ZBJvh9qEI8Ttj1kSWuwXbZ90ACGBPzsfG7W_WDxvwCRQYPFJJ8pvwVfgyJse7XWUk3k",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743155828.027106,
+                    "expires_date": "2025-03-28T09:57:08.027106+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_alerts",
+                    "value": "e30=",
+                    "domain": "www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690028,
+                    "expires_date": "2026-03-28T09:27:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "lang",
+                    "value": "v=2&lang=en-us",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "ajax:3605493029630163958",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&da62420d-b519-4ef0-8753-f7f1642d4f81\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774690028.026865,
+                    "expires_date": "2026-03-28T09:27:08.026865+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bscookie",
+                    "value": "\"v=1&2025032809270709e6f705-c69d-456a-88dd-28b28ba16886AQGc4LeIPpMW2jIwpkR927ivvEwaK09j\"",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690028.026985,
+                    "expires_date": "2026-03-28T09:27:08.026985+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNTQwMjc7MjswMjE8HC38nDUSdwNnAiah+hUIHbrx6syIT1Oj+y+Kyb5yIw==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758706027.027039,
+                    "expires_date": "2025-09-24T09:27:07.027039+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743154028:t=1743240428:v=2:sig=AQFPUdwVcK8d-1SvERpwgJYGOpDG8Z4Z\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743240428.02708,
+                    "expires_date": "2025-03-29T09:27:08.027080+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "slt5XlqZsYy0v36YZzE5NLW2DQc5C_kDuW9ITsEurDQ-1743154028-1.0.1.1-h5NY5bwrNqpcCd6Gk3bi4j2s7S6raiv4yYfnFOR5ZBJvh9qEI8Ttj1kSWuwXbZ90ACGBPzsfG7W_WDxvwCRQYPFJJ8pvwVfgyJse7XWUk3k",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743155828.027106,
+                    "expires_date": "2025-03-28T09:57:08.027106+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_alerts",
+                    "value": "e30=",
+                    "domain": "www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690028,
+                    "expires_date": "2026-03-28T09:27:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T10:27:06.933762",
+        "timestamp_stop": "2025-03-28T10:27:33.529147"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Accept)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.perftech.si/",
+            "https://www.perftech.si/Perftech-hiperkonvergenčna-okolja.php?lang=sl",
+            "https://www.perftech.si/Podatkovni-Center-tehnična-pomoč.php?lang=sl",
+            "https://www.perftech.si/Podatkovni-Center-tehnična-pomoč.php?lang=en"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "lang",
+                    "value": "v=2&lang=en-us",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "ajax:7723554921391570543",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&5d09912b-4186-4b89-87cb-d8d6d46bbd65\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774690056.164904,
+                    "expires_date": "2026-03-28T09:27:36.164904+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bscookie",
+                    "value": "\"v=1&2025032809273557780cfb-b696-4d75-8e22-dea47bc8f603AQEwlDjgAAejxHRF4EdBmaaZ6OMiHN1n\"",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690056.164935,
+                    "expires_date": "2026-03-28T09:27:36.164935+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNTQwNTU7MjswMjE9R6yQGt5wPp6lYTj76GgvhW3QXfPpNOqS7ujWMIJLqg==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758706055.164962,
+                    "expires_date": "2025-09-24T09:27:35.164962+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743154056:t=1743240456:v=2:sig=AQH7HLC04OdUrg6ogQxsO8Ld7EBZfRL0\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743240456.164987,
+                    "expires_date": "2025-03-29T09:27:36.164987+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "pTZI2wGiOuWQ6I3EVQL1v8q6SOmwyIQTL6l2s5l_r2E-1743154056-1.0.1.1-HnDTl903IT80MLSaqbO9.wV9jJab6M7DS.0V6.TvDCb.jaCU9WsM7uJ2OvtMnGCDtybCzYcarMg1weg_KkaEd8mZKwqZXUQruMt7ldFIqYI",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743155856.165009,
+                    "expires_date": "2025-03-28T09:57:36.165009+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_alerts",
+                    "value": "e30=",
+                    "domain": "www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690056,
+                    "expires_date": "2026-03-28T09:27:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "lang",
+                    "value": "v=2&lang=en-us",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "ajax:7723554921391570543",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&5d09912b-4186-4b89-87cb-d8d6d46bbd65\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774690093.002764,
+                    "expires_date": "2026-03-28T09:28:13.002764+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bscookie",
+                    "value": "\"v=1&2025032809273557780cfb-b696-4d75-8e22-dea47bc8f603AQEwlDjgAAejxHRF4EdBmaaZ6OMiHN1n\"",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690093.00285,
+                    "expires_date": "2026-03-28T09:28:13.002850+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743154056:t=1743240456:v=2:sig=AQH7HLC04OdUrg6ogQxsO8Ld7EBZfRL0\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743240456.164987,
+                    "expires_date": "2025-03-29T09:27:36.164987+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "pTZI2wGiOuWQ6I3EVQL1v8q6SOmwyIQTL6l2s5l_r2E-1743154056-1.0.1.1-HnDTl903IT80MLSaqbO9.wV9jJab6M7DS.0V6.TvDCb.jaCU9WsM7uJ2OvtMnGCDtybCzYcarMg1weg_KkaEd8mZKwqZXUQruMt7ldFIqYI",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743155856.165009,
+                    "expires_date": "2025-03-28T09:57:36.165009+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_alerts",
+                    "value": "e30=",
+                    "domain": "www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690056,
+                    "expires_date": "2026-03-28T09:27:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTsyMTsxNzQzMTU0MDkzOzI7MDIxkaCD9qcdI5Yt54VVQ/0kknYscgvt9HJ/om4sMg8kPvA=",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758706093.002488,
+                    "expires_date": "2025-09-24T09:28:13.002488+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "lang",
+                    "value": "v=2&lang=en-us",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "ajax:7723554921391570543",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&5d09912b-4186-4b89-87cb-d8d6d46bbd65\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774690093.002764,
+                    "expires_date": "2026-03-28T09:28:13.002764+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bscookie",
+                    "value": "\"v=1&2025032809273557780cfb-b696-4d75-8e22-dea47bc8f603AQEwlDjgAAejxHRF4EdBmaaZ6OMiHN1n\"",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690093.00285,
+                    "expires_date": "2026-03-28T09:28:13.002850+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743154056:t=1743240456:v=2:sig=AQH7HLC04OdUrg6ogQxsO8Ld7EBZfRL0\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743240456.164987,
+                    "expires_date": "2025-03-29T09:27:36.164987+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "pTZI2wGiOuWQ6I3EVQL1v8q6SOmwyIQTL6l2s5l_r2E-1743154056-1.0.1.1-HnDTl903IT80MLSaqbO9.wV9jJab6M7DS.0V6.TvDCb.jaCU9WsM7uJ2OvtMnGCDtybCzYcarMg1weg_KkaEd8mZKwqZXUQruMt7ldFIqYI",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743155856.165009,
+                    "expires_date": "2025-03-28T09:57:36.165009+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_alerts",
+                    "value": "e30=",
+                    "domain": "www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690056,
+                    "expires_date": "2026-03-28T09:27:36+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTsyMTsxNzQzMTU0MDkzOzI7MDIxkaCD9qcdI5Yt54VVQ/0kknYscgvt9HJ/om4sMg8kPvA=",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758706093.002488,
+                    "expires_date": "2025-09-24T09:28:13.002488+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [
+            "Error taking screenshot of banner: ElementHandle.screenshot: Timeout 5000ms exceeded.\nCall log:\n  - taking element screenshot\n  -   - waiting for fonts to load...\n  -   - fonts loaded\n  -   - attempting scroll into view action\n  -     - waiting for element to be stable\n",
+            "Error taking screenshot of banner: ElementHandle.screenshot: Timeout 5000ms exceeded."
+        ],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": false,
+                "banner_text": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including professional and job ads) on and off LinkedIn. Learn more in our Cookie Policy.Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your settings.\n            \n          \n          \n                \n                Accept\n                \n                \n                Reject",
+                "banner_z_index": 900,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Accept]\nGenericLabel2: [Reject]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [settings]\nExplanation: The button [Accept] clearly corresponds to accepting all cookies, while [Reject] is for declining all. The [settings] label is relevant for managing cookie preferences. There are no ambiguous labels present.",
+                "llm_response_parsed": {
+                    "Accept": "Accept",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Reject",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "settings",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Accept clearly corresponds to accepting all cookies, while Reject is for declining all. The settings label is relevant for managing cookie preferences. There are no ambiguous labels present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Accept",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T10:27:35.082056",
+        "timestamp_stop": "2025-03-28T10:28:36.409699"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Reject)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.perftech.si/",
+            "https://www.perftech.si/Perftech-hiperkonvergenčna-okolja.php?lang=sl",
+            "https://www.perftech.si/Podatkovni-Center-tehnična-pomoč.php?lang=sl",
+            "https://www.perftech.si/Podatkovni-Center-tehnična-pomoč.php?lang=en"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "lang",
+                    "value": "v=2&lang=en-us",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "ajax:7617308833790706581",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&d49e7a4c-7a3b-4751-8a21-cca33db82dfe\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774690119.012952,
+                    "expires_date": "2026-03-28T09:28:39.012952+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bscookie",
+                    "value": "\"v=1&20250328092838e9557e7a-dcad-48f3-8ac8-ad195d258e2bAQHyDUatDkstylVj_-la55rOeO-aafkj\"",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690119.013033,
+                    "expires_date": "2026-03-28T09:28:39.013033+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNTQxMTg7MjswMjHrW6Lctn+lmLcKAV1yVWpGQsYUV2V/yLs7LF0JkZxsMQ==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758706118.013074,
+                    "expires_date": "2025-09-24T09:28:38.013074+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743154119:t=1743240519:v=2:sig=AQEYdS9PCHYyOLlOFRw-6jv2QjY-0_vp\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743240519.013112,
+                    "expires_date": "2025-03-29T09:28:39.013112+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "ljaF_XIZEO_Dyojt7jCFg2xapd9HKkVlI2rZFSy3lUg-1743154119-1.0.1.1-MGE8nLmB8Knzx2s6Xz7V4af2RRqe2teMKsgDvwJ16Lxj2wSysmQ21uqtkluwY.ydXFjtNDf94h_3_gr2Vc85HnuuLdt9ApqmtIy79yAaHk0",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743155919.013158,
+                    "expires_date": "2025-03-28T09:58:39.013158+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_alerts",
+                    "value": "e30=",
+                    "domain": "www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690119,
+                    "expires_date": "2026-03-28T09:28:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "lang",
+                    "value": "v=2&lang=en-us",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "ajax:7617308833790706581",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&d49e7a4c-7a3b-4751-8a21-cca33db82dfe\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774690157.924752,
+                    "expires_date": "2026-03-28T09:29:17.924752+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bscookie",
+                    "value": "\"v=1&20250328092838e9557e7a-dcad-48f3-8ac8-ad195d258e2bAQHyDUatDkstylVj_-la55rOeO-aafkj\"",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690157.924806,
+                    "expires_date": "2026-03-28T09:29:17.924806+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743154119:t=1743240519:v=2:sig=AQEYdS9PCHYyOLlOFRw-6jv2QjY-0_vp\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743240519.013112,
+                    "expires_date": "2025-03-29T09:28:39.013112+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "ljaF_XIZEO_Dyojt7jCFg2xapd9HKkVlI2rZFSy3lUg-1743154119-1.0.1.1-MGE8nLmB8Knzx2s6Xz7V4af2RRqe2teMKsgDvwJ16Lxj2wSysmQ21uqtkluwY.ydXFjtNDf94h_3_gr2Vc85HnuuLdt9ApqmtIy79yAaHk0",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743155919.013158,
+                    "expires_date": "2025-03-28T09:58:39.013158+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_alerts",
+                    "value": "e30=",
+                    "domain": "www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690119,
+                    "expires_date": "2026-03-28T09:28:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTs0MjsxNzQzMTU0MTU4OzI7MDIxsLPtg6ZElJ7UHscggXXm3U3YgvtsvggKRYM/UXxYQ8w=",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758706157.924667,
+                    "expires_date": "2025-09-24T09:29:17.924667+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "lang",
+                    "value": "v=2&lang=en-us",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "ajax:7617308833790706581",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&d49e7a4c-7a3b-4751-8a21-cca33db82dfe\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774690157.924752,
+                    "expires_date": "2026-03-28T09:29:17.924752+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bscookie",
+                    "value": "\"v=1&20250328092838e9557e7a-dcad-48f3-8ac8-ad195d258e2bAQHyDUatDkstylVj_-la55rOeO-aafkj\"",
+                    "domain": ".www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690157.924806,
+                    "expires_date": "2026-03-28T09:29:17.924806+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743154119:t=1743240519:v=2:sig=AQEYdS9PCHYyOLlOFRw-6jv2QjY-0_vp\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743240519.013112,
+                    "expires_date": "2025-03-29T09:28:39.013112+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "ljaF_XIZEO_Dyojt7jCFg2xapd9HKkVlI2rZFSy3lUg-1743154119-1.0.1.1-MGE8nLmB8Knzx2s6Xz7V4af2RRqe2teMKsgDvwJ16Lxj2wSysmQ21uqtkluwY.ydXFjtNDf94h_3_gr2Vc85HnuuLdt9ApqmtIy79yAaHk0",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743155919.013158,
+                    "expires_date": "2025-03-28T09:58:39.013158+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_alerts",
+                    "value": "e30=",
+                    "domain": "www.linkedin.com",
+                    "path": "/",
+                    "expires": 1774690119,
+                    "expires_date": "2026-03-28T09:28:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTs0MjsxNzQzMTU0MTU4OzI7MDIxsLPtg6ZElJ7UHscggXXm3U3YgvtsvggKRYM/UXxYQ8w=",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758706157.924667,
+                    "expires_date": "2025-09-24T09:29:17.924667+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [
+            "Error taking screenshot of banner: ElementHandle.screenshot: Timeout 5000ms exceeded.\nCall log:\n  - taking element screenshot\n  -   - waiting for fonts to load...\n  -   - fonts loaded\n  -   - attempting scroll into view action\n  -     - waiting for element to be stable\n",
+            "Error taking screenshot of banner: ElementHandle.screenshot: Timeout 5000ms exceeded."
+        ],
+        "screenshots": [
+            "002_decline_init_1.png",
+            "003_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": false,
+                "banner_text": "LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including professional and job ads) on and off LinkedIn. Learn more in our Cookie Policy.Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your settings.\n            \n          \n          \n                \n                Accept\n                \n                \n                Reject",
+                "banner_z_index": 900,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Accept]\nGenericLabel2: [Reject]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [settings]\nExplanation: The button \"[Accept]\" is categorized under GenericLabel1 for accepting all cookies. \"[Reject]\" fits under GenericLabel2 for declining all cookies. \"[settings]\" is identified as GenericLabel3 for managing settings. There are no ambiguous buttons in this case.",
+                "llm_response_parsed": {
+                    "Accept": "Accept",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Reject",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "settings",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Accept\" is categorized under GenericLabel1 for accepting all cookies. \"Reject\" fits under GenericLabel2 for declining all cookies. \"settings\" is identified as GenericLabel3 for managing settings. There are no ambiguous buttons in this case."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Reject",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T10:28:37.973870",
+        "timestamp_stop": "2025-03-28T10:29:41.289511"
+    }
+}

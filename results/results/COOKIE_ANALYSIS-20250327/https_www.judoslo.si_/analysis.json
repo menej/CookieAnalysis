@@ -1,0 +1,1436 @@
+{
+    "web_page": "https://www.judoslo.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T06:19:39.313840",
+    "timestamp_stop": "2025-03-28T06:22:15.713815",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.judoslo.si/",
+            "https://www.judoslo.si/projects/safe_guard",
+            "https://www.judoslo.si/results",
+            "https://www.judoslo.si/article/3166"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "YSC",
+                    "value": "WKUPqTINjmg",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CPyWkoCWxdjU1QEQjd7GvYOsjAMYjd7GvYOsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691181.344428,
+                    "expires_date": "2025-09-24T05:19:41.344428+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "UZjN-hqkXMQ",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691181.344536,
+                    "expires_date": "2025-09-24T05:19:41.344536+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAM",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691181.344575,
+                    "expires_date": "2025-09-24T05:19:41.344575+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.398280130.1743139182",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743225581,
+                    "expires_date": "2025-03-29T05:19:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_109200368_2",
+                    "value": "1",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743139241,
+                    "expires_date": "2025-03-28T05:20:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_T4RMJHXGXR",
+                    "value": "GS1.1.1743139181.1.0.1743139181.0.0.0",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699181.742638,
+                    "expires_date": "2026-05-02T05:19:41.742638+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1381184746.1743139182",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699181.743395,
+                    "expires_date": "2026-05-02T05:19:41.743395+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImQxTlVEQzFJNFUyM3B6T2dZai9EVUE9PSIsInZhbHVlIjoiSVZlNXB6alpyUlNMNEJaYkRsODV5anJUSHRMNnlHallTcklzbGttdW9rZXFERlNaNW0rTml6bFphb2treHZaaENnakNxSmZCNnJxWVczTjJ1ckpzNGZQb1ZBRzdVOUZ1MXVBMmJ4WnhNaUpWa2JBcmE3Q01LRmhTTmg2RzEvZFEiLCJtYWMiOiJkNjFiNmM4OWZkOTdkNDdiNjM4MTFiYzA1ODViYmRiNDNhNDIxY2Y5YmY2ZWFkNDhjMzQyZDFlNDg4ZWZmNzFjIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146381.764803,
+                    "expires_date": "2025-03-28T07:19:41.764803+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "judoslo_session",
+                    "value": "eyJpdiI6IkNpNmc1ZDZ3K0h1dFBPMTUvc2NLR1E9PSIsInZhbHVlIjoiV3h5aUdubDdQNnBuam96dlRtc2cvM05Td0M4ajRsWE1YMXovMkpBY05iYlRCRlVmZVFGSzZBam5LOUZ0MUZVdW5kZ0FYdzhKWE93b1RWcVVEV3dHbm1tY2wzQitmSEhvVXhqSkMyRUtvYWIyQjZsU2pFaUxDV3dVV2FJRk9seWMiLCJtYWMiOiI5ZDE5MjQzZDhhMDFiNDU5MzEzMmZkNzRhMWFlOTE3ZGJhZjllNjg4ZjQ0MTY5YmFlZjJkODMxOTRlNTEwOTdlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146381.765269,
+                    "expires_date": "2025-03-28T07:19:41.765269+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "YSC",
+                    "value": "WKUPqTINjmg",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CPyWkoCWxdjU1QEQjd7GvYOsjAMYjd7GvYOsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691181.344428,
+                    "expires_date": "2025-09-24T05:19:41.344428+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "UZjN-hqkXMQ",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691181.344536,
+                    "expires_date": "2025-09-24T05:19:41.344536+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAM",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691181.344575,
+                    "expires_date": "2025-09-24T05:19:41.344575+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.398280130.1743139182",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743225602,
+                    "expires_date": "2025-03-29T05:20:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_109200368_2",
+                    "value": "1",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743139241,
+                    "expires_date": "2025-03-28T05:20:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlBGaVRFbTRqdjdHRUdyQlJiSzh4UWc9PSIsInZhbHVlIjoiQTRaQkEzSmdNZWo4VTJsYlN0Ny9IblpuNUIxajBwRkcxcURuaTR2ZnplMm5NSXhnbzZ5bC9QZmkwM3phc2JEa1dOUlVacVRkdi9tVXR0RHBsbHlYTkJRNUdXd2JpS290TFd2TzhFbFpQQ0ozV0xUdVl1VXhiU3Q0MWZhbE5hc0oiLCJtYWMiOiJjZTdkY2EyZDhkNjI3OGNlY2JiOGY2NTRmMWEzMWU2MWY3MDdjNWM2MDZmOWVlOWVlM2EzNTQzMTIzYTNmNTBhIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146402.079332,
+                    "expires_date": "2025-03-28T07:20:02.079332+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "judoslo_session",
+                    "value": "eyJpdiI6ImpQd01tZVRVWnJGcFY5Y0xGYnJ0QkE9PSIsInZhbHVlIjoiaUp0VHlOZmZwNVBPV2sxdW95WHJMZG9IcGJRR3BCMWE0bXR3WVVkZ3hMNGZLZThQRGZ2VHhINzJETmxza0pHY0NwSG5qTVJrbG1RbW9XQUlXYkhGRDNxNlRENHR1a1RyRFpYRHZLK2hHNkhxMk5VcTN1VDlvVlhwOFJKRGdVTjYiLCJtYWMiOiIyNzA1NWRiMjgzMTMwODk2MjM0MzViNDRiNzBjMzYyYWY3OTI2NDAwM2ZiN2I0Nzc2YmRiOGJjZTI5N2Q5MWI5IiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146402.079415,
+                    "expires_date": "2025-03-28T07:20:02.079415+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_T4RMJHXGXR",
+                    "value": "GS1.1.1743139181.1.1.1743139202.0.0.0",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699202.200148,
+                    "expires_date": "2026-05-02T05:20:02.200148+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1381184746.1743139182",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699202.200521,
+                    "expires_date": "2026-05-02T05:20:02.200521+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T06:19:40.586606",
+        "timestamp_stop": "2025-03-28T06:20:08.476180"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejemam piškotke)",
+            "Forcing a click on an element of type (button), with text (Sprejemam piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.judoslo.si/",
+            "https://www.judoslo.si/projects/safe_guard",
+            "https://www.judoslo.si/results",
+            "https://www.judoslo.si/article/3166"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "YSC",
+                    "value": "EvDsWuIgWZw",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CN7ouLydx73WhgEQo8XKy4OsjAMYo8XKy4OsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.757898,
+                    "expires_date": "2025-09-24T05:20:10.757898+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "8KIZh_zi_K4",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.758067,
+                    "expires_date": "2025-09-24T05:20:10.758067+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgSQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.758136,
+                    "expires_date": "2025-09-24T05:20:10.758136+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.564142801.1743139211",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743225611,
+                    "expires_date": "2025-03-29T05:20:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_109200368_2",
+                    "value": "1",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743139271,
+                    "expires_date": "2025-03-28T05:21:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_T4RMJHXGXR",
+                    "value": "GS1.1.1743139211.1.0.1743139211.0.0.0",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699211.207429,
+                    "expires_date": "2026-05-02T05:20:11.207429+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1740339471.1743139211",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699211.210087,
+                    "expires_date": "2026-05-02T05:20:11.210087+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImlKdVBDcVVWUFFXU1M2NjdYaGRRVGc9PSIsInZhbHVlIjoieWRCeDJJZjVaeDZreGxXMVBsQklKK2FWVTd1bzhkTURoRld5a0tYSS9mU1ZuZjZvclNseVYwRnRGMmJYaWhRSTVOOE9jV1dkbXRNK2FBREVtUjkwYW5DemcvZUpTQmlGdUJUUVhQcWFvZGdnbnBlTTA4YTJmbmVpUjJ2M3hwVVEiLCJtYWMiOiI0YjRjNDdhMDI0NTE3OThmZGVjZjBkOWE3OWUxMmFjY2I1NzdlOWZlMGIxNzJhODZiMzc2ZTc0ZTFmZmMyNDMxIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146411.286738,
+                    "expires_date": "2025-03-28T07:20:11.286738+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "judoslo_session",
+                    "value": "eyJpdiI6ImtuOEFkOWt4UVl0TjdmeFdWVVBsQlE9PSIsInZhbHVlIjoiazdQdXp1NTYrYmhVNDk2bThJZUdhUCt2enhqYzdJTDZrWTdKWW92cy9mZXZSa3hoTkFyV3psUnBRbFNBUDdQZmxsY1RnNktNSGppVHorM2s2Y0RlTGtSeGh0T2ZJc0Yvek8xak0xQ3VDYjMvSzFkNmE4aXpSR29hdk9mUlZFZSsiLCJtYWMiOiJmYTViM2Y5ZGRhOGMwOWIyOWIzNzBlMDc4MzNmNDUxOWU5ZTgxMWI5ZTFlODExZDBiNjA4YTI4NjU0NThiNDY2IiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146411.286824,
+                    "expires_date": "2025-03-28T07:20:11.286824+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "YSC",
+                    "value": "EvDsWuIgWZw",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CN7ouLydx73WhgEQo8XKy4OsjAMYo8XKy4OsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.757898,
+                    "expires_date": "2025-09-24T05:20:10.757898+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "8KIZh_zi_K4",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.758067,
+                    "expires_date": "2025-09-24T05:20:10.758067+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgSQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.758136,
+                    "expires_date": "2025-09-24T05:20:10.758136+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.564142801.1743139211",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743225611,
+                    "expires_date": "2025-03-29T05:20:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_109200368_2",
+                    "value": "1",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743139271,
+                    "expires_date": "2025-03-28T05:21:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_T4RMJHXGXR",
+                    "value": "GS1.1.1743139211.1.0.1743139211.0.0.0",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699211.207429,
+                    "expires_date": "2026-05-02T05:20:11.207429+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1740339471.1743139211",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699211.210087,
+                    "expires_date": "2026-05-02T05:20:11.210087+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImlKdVBDcVVWUFFXU1M2NjdYaGRRVGc9PSIsInZhbHVlIjoieWRCeDJJZjVaeDZreGxXMVBsQklKK2FWVTd1bzhkTURoRld5a0tYSS9mU1ZuZjZvclNseVYwRnRGMmJYaWhRSTVOOE9jV1dkbXRNK2FBREVtUjkwYW5DemcvZUpTQmlGdUJUUVhQcWFvZGdnbnBlTTA4YTJmbmVpUjJ2M3hwVVEiLCJtYWMiOiI0YjRjNDdhMDI0NTE3OThmZGVjZjBkOWE3OWUxMmFjY2I1NzdlOWZlMGIxNzJhODZiMzc2ZTc0ZTFmZmMyNDMxIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146411.286738,
+                    "expires_date": "2025-03-28T07:20:11.286738+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "judoslo_session",
+                    "value": "eyJpdiI6ImtuOEFkOWt4UVl0TjdmeFdWVVBsQlE9PSIsInZhbHVlIjoiazdQdXp1NTYrYmhVNDk2bThJZUdhUCt2enhqYzdJTDZrWTdKWW92cy9mZXZSa3hoTkFyV3psUnBRbFNBUDdQZmxsY1RnNktNSGppVHorM2s2Y0RlTGtSeGh0T2ZJc0Yvek8xak0xQ3VDYjMvSzFkNmE4aXpSR29hdk9mUlZFZSsiLCJtYWMiOiJmYTViM2Y5ZGRhOGMwOWIyOWIzNzBlMDc4MzNmNDUxOWU5ZTgxMWI5ZTFlODExZDBiNjA4YTI4NjU0NThiNDY2IiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146411.286824,
+                    "expires_date": "2025-03-28T07:20:11.286824+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "judoslo_cookie_consent",
+                    "value": "1",
+                    "domain": ".www.judoslo.si",
+                    "path": "/",
+                    "expires": 1777699243.723898,
+                    "expires_date": "2026-05-02T05:20:43.723898+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "YSC",
+                    "value": "EvDsWuIgWZw",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CN7ouLydx73WhgEQo8XKy4OsjAMYo8XKy4OsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.757898,
+                    "expires_date": "2025-09-24T05:20:10.757898+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "8KIZh_zi_K4",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.758067,
+                    "expires_date": "2025-09-24T05:20:10.758067+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgSQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691210.758136,
+                    "expires_date": "2025-09-24T05:20:10.758136+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.564142801.1743139211",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743225661,
+                    "expires_date": "2025-03-29T05:21:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_109200368_2",
+                    "value": "1",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743139271,
+                    "expires_date": "2025-03-28T05:21:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "judoslo_cookie_consent",
+                    "value": "1",
+                    "domain": ".www.judoslo.si",
+                    "path": "/",
+                    "expires": 1777699243.723898,
+                    "expires_date": "2026-05-02T05:20:43.723898+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IjNlTFRMNUtNZUNrMnlHNUNOcHBadlE9PSIsInZhbHVlIjoieFhaZlc5TXZmd3AxelllSnlJZEs4dnZBT1pmeFZZNlZHUk92UTRPb0phY0VLMFZvZ1g1TUpaV25UWElJejhkQ3g2c2psVnRGVHF5ckZlM1QxTVRLOU5TQmZrT2lUd1pzK1JnQytOcmU2K1VmU296L0ZWaEE0cUhleUpDVjZ2OGQiLCJtYWMiOiJjYmQ5OGNjMGQxNGUyMzA5OTUxZWU2ZmMwNWMzODI0ZWFkMjhjNmNlZjg3ODhlMGNiNDVlOGQ2M2ZkZmU2YjczIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146461.636773,
+                    "expires_date": "2025-03-28T07:21:01.636773+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "judoslo_session",
+                    "value": "eyJpdiI6InZacXBtZ1V2TWRmdDN2T2h2YXVKaEE9PSIsInZhbHVlIjoiWW5NVDV2SXF4dnU5SWw3bTc2bnFUdGlZYnIyU1FONjlVL2dmSVJPWitKS0hnQkptaENncWRJUXo4QjVxMjN3NXVqS2VUTGJ2V3diWlR6b2VycVRBU0FXL0N2SUJ1UWhlSzhKL1E4Q0VZUENZTktqWlVJWlVIZzVXQVhDSEowWHoiLCJtYWMiOiI1MjE1MDNjNTk0NjYzZGY5NzA1YjRkNWJkZGU2ZjU2YTM4YTZmMjQ1MzIyZmNjNzMxNWJjODg1M2Y1MGZiMTY1IiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146461.636859,
+                    "expires_date": "2025-03-28T07:21:01.636859+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_T4RMJHXGXR",
+                    "value": "GS1.1.1743139211.1.1.1743139261.0.0.0",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699261.799763,
+                    "expires_date": "2026-05-02T05:21:01.799763+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1740339471.1743139211",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699261.801559,
+                    "expires_date": "2026-05-02T05:21:01.801559+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke za izboljšanje uporabniške izkušnje in za spremljanje podatkov o obiskanosti strani. Podrobno o piškotkih na strani\n                    \n                \n                \n                    \n                        Sprejemam piškotke",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": true,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejemam piškotke]  \nAmbiguousLabel2: None  \nGenericLabel3: [Podrobno o piškotkih na strani]  \nExplanation: The phrase \"Sprejemam piškotke\" signifies an ambiguous acceptance of cookies, while \"Podrobno o piškotkih na strani\" relates to providing more information about cookies, fitting the settings category.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejemam piškotke",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Podrobno o piškotkih na strani",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The phrase \"Sprejemam piškotke\" signifies an ambiguous acceptance of cookies, while \"Podrobno o piškotkih na strani\" relates to providing more information about cookies, fitting the settings category."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejemam piškotke",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T06:20:10.067875",
+        "timestamp_stop": "2025-03-28T06:21:08.090669"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Podrobno o piškotkih na strani)",
+            "Forcing a click on an element of type (a), with text (Podrobno o piškotkih na strani)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.judoslo.si/",
+            "https://www.judoslo.si/",
+            "https://www.judoslo.si/projects/safe_guard",
+            "https://www.judoslo.si/results",
+            "https://www.judoslo.si/article/3166"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "YSC",
+                    "value": "D1lZpbIrWtE",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CL7sxYSz8JzimwEQ8-yK6IOsjAMY8-yK6IOsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691270.532417,
+                    "expires_date": "2025-09-24T05:21:10.532417+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "cD2wk1Uzz5A",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691270.53255,
+                    "expires_date": "2025-09-24T05:21:10.532550+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgRA%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691270.532581,
+                    "expires_date": "2025-09-24T05:21:10.532581+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IkNZSU11eUYwMk5BUHdOWldpK2tESUE9PSIsInZhbHVlIjoic2M0TXcvdTRxYzE2dERQTHMxcEtvWW5jVHpIWkpGSEJoL3puZTVEYmxmR1h4ZHhyQ1dOYUJiTGtKaFc2SXR6aE0yd2dOWlBKbFdTVm9GRElVbVdJUlBIT0F2UHkvVnJidFZITjFZWU5uVlFMZlYwaVA0VUNxUW1RV3R1YW9Fa28iLCJtYWMiOiIyZjE2NDhjNjFlMjBmYmJhMTAwMGFhMGQ4MTk4NDE3MmVhYTQ1ZmFhZGVlYmQzNzZmYmMwZjgzYmFhMWM2NWNlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146470.968204,
+                    "expires_date": "2025-03-28T07:21:10.968204+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "judoslo_session",
+                    "value": "eyJpdiI6IjNpSlpaNUtIS0FGZStYcmxVejk2N3c9PSIsInZhbHVlIjoiK0pxMWQ2UVpaYXNReCtRTkNLaWQ0RE5nc1J3cEVMNDVrQ3pJLzlBWXpWWmxReGFZMHdHSUJKdThmNDZ3d1lwTXhCeUJrWlU4UXM1ZzlDMkNTaENGaEFrbmlFTm1WYTZjMXUyVWtrZkNLNmRjV0V4azN0R0VMaVFCdU5RM1FoZEUiLCJtYWMiOiJlNmE4MDdiZDBhZmQ0OTRjOGYwYzMwMDkwYWUxNmYyMWEyMDE4YWY2NmMyYmU3M2Y0MjM2ODZhN2MyZjNjMWZmIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146470.96831,
+                    "expires_date": "2025-03-28T07:21:10.968310+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1485774876.1743139271",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743225671,
+                    "expires_date": "2025-03-29T05:21:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_109200368_2",
+                    "value": "1",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743139331,
+                    "expires_date": "2025-03-28T05:22:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_T4RMJHXGXR",
+                    "value": "GS1.1.1743139270.1.0.1743139270.0.0.0",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699271.033476,
+                    "expires_date": "2026-05-02T05:21:11.033476+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1672629525.1743139271",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699271.034094,
+                    "expires_date": "2026-05-02T05:21:11.034094+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "YSC",
+                    "value": "D1lZpbIrWtE",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "cD2wk1Uzz5A",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691308.273693,
+                    "expires_date": "2025-09-24T05:21:48.273693+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgRA%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691308.273746,
+                    "expires_date": "2025-09-24T05:21:48.273746+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1485774876.1743139271",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743225708,
+                    "expires_date": "2025-03-29T05:21:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_109200368_2",
+                    "value": "1",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743139331,
+                    "expires_date": "2025-03-28T05:22:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CL7sxYSz8JzimwEQ8-yK6IOsjAMYodGK-oOsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691308.273574,
+                    "expires_date": "2025-09-24T05:21:48.273574+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_T4RMJHXGXR",
+                    "value": "GS1.1.1743139270.1.1.1743139308.0.0.0",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699308.398256,
+                    "expires_date": "2026-05-02T05:21:48.398256+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1672629525.1743139271",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699308.398631,
+                    "expires_date": "2026-05-02T05:21:48.398631+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImVVcUw0Q0s3a0ExbTNoS1lWU2ZsbGc9PSIsInZhbHVlIjoid2dSSkYzbWxEbVpLUmVKaUVib1dFbUxzYWdFaXlEeVEyZ0lkbG13Y0xKa2pzNmhITTZiTTEvNTFCNm1OdTFMcHhNaGlZV04rSEw2NFFyTUVkMXdFY3lQdGowZUtpckpXNm5BUWpqT01MOHA5Vm9FMS9uZFR2OThVdFZySU5GR0QiLCJtYWMiOiJmMDIxMjViMjlmYmQwNzg4MDg4ZGViZjY3MjE4Nzk3NjI1MThkZTBlZWNjN2JkNGEwNGI1NDI5OWUzZGJmMDk1IiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146508.566221,
+                    "expires_date": "2025-03-28T07:21:48.566221+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "judoslo_session",
+                    "value": "eyJpdiI6Im82TmNlTm1GSWdZSWNTdXNudk96UWc9PSIsInZhbHVlIjoiSEJHQXpsVHIwRjMyZDdHeVNGNnYrekFxRm1VM1I1ei8rK2N2Qm8wcUV5MjRlNElQNVNEQkRhWlpPQ3M3Qlh0bks0empoSzAvbWRrZXhFd3pyV0szbVkwekFYK0h5MXpiWlNjcm5XU3Z1V0pkT0xJV3diK2VYMWd6QzI4eTZhRXYiLCJtYWMiOiJhMDIzMTAyYjI5NDA3MGVkZmM1NjZjN2E1NTZjYTk1MGFiOGZhNmRjNDg5NWEwMzBmZDY5MjYyYjM0OGYxNTMyIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146508.566314,
+                    "expires_date": "2025-03-28T07:21:48.566314+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "YSC",
+                    "value": "D1lZpbIrWtE",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "cD2wk1Uzz5A",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691308.273693,
+                    "expires_date": "2025-09-24T05:21:48.273693+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgRA%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691308.273746,
+                    "expires_date": "2025-09-24T05:21:48.273746+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1485774876.1743139271",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1743225729,
+                    "expires_date": "2025-03-29T05:22:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CL7sxYSz8JzimwEQ8-yK6IOsjAMYodGK-oOsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758691308.273574,
+                    "expires_date": "2025-09-24T05:21:48.273574+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImFmU3NKN0tCMUxCejR3VzMyUnFpWlE9PSIsInZhbHVlIjoiQkNEZFNJRWRxMSs5M0ZRZWNPajhPNEt5YStad3lyWi9PeVpVVm8vb2tyczA1WXgrMXkxdHhuNEtkVW5JdWkxelo0R0dpc2lWUDFQekozaWZPQ0FvNzAwNWdLWWpCdlFUQitBUmlaSGd0TVhKdzFvQVJ6MEtGR0R3amUwMmwrL0QiLCJtYWMiOiI5N2IzNGI2OTE1Nzk1Nzg4ZTc5ZWEyYThhOTIzNjA3YWQyMzYwZDU5ZWVlN2Q0Njc2ZGYxMDg2YmJiZDg1NzNhIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146528.992354,
+                    "expires_date": "2025-03-28T07:22:08.992354+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "judoslo_session",
+                    "value": "eyJpdiI6ImVrRkJxYlFqV2p1a3VxR3FuQ1dwUkE9PSIsInZhbHVlIjoiTGxpTjhjTDVnV3VNVnlJRlVzVS9tTmJMb0RvVTVtcE0vSG5MdlJGRjdxakJ4aThUYjVtYlFEbTZSOEF6ZUxRemgzZXF0MnlIRXVhdHRSQlVVK2pZUW9Rd3lwcHp3TFhkNnJwTytzYWR5U0ZNbndnSUJ1TXJab2J3MnNMSUxZakIiLCJtYWMiOiJmMTg1YTEzOWIyN2M0NDUyMDgyNmNhYjQ5ZDRlYTViODg1YjllNjQxNmQzYzUxM2U3NjI3Y2Y3ZTBkNmVmNjYwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.judoslo.si",
+                    "path": "/",
+                    "expires": 1743146528.992441,
+                    "expires_date": "2025-03-28T07:22:08.992441+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_T4RMJHXGXR",
+                    "value": "GS1.1.1743139270.1.1.1743139329.0.0.0",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699329.15987,
+                    "expires_date": "2026-05-02T05:22:09.159870+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1672629525.1743139271",
+                    "domain": ".judoslo.si",
+                    "path": "/",
+                    "expires": 1777699329.160832,
+                    "expires_date": "2026-05-02T05:22:09.160832+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_redirected.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke za izboljšanje uporabniške izkušnje in za spremljanje podatkov o obiskanosti strani. Podrobno o piškotkih na strani\n                    \n                \n                \n                    \n                        Sprejemam piškotke",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": true,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejemam piškotke]  \nAmbiguousLabel2: None  \nGenericLabel3: [Podrobno o piškotkih na strani]  \nExplanation: The phrase \"Sprejemam piškotke\" signifies an ambiguous acceptance of cookies, while \"Podrobno o piškotkih na strani\" refers to more information about cookies, thus fitting the settings category.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejemam piškotke",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Podrobno o piškotkih na strani",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The phrase \"Sprejemam piškotke\" signifies an ambiguous acceptance of cookies, while \"Podrobno o piškotkih na strani\" refers to more information about cookies, thus fitting the settings category."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Podrobno o piškotkih na strani",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T06:21:09.716432",
+        "timestamp_stop": "2025-03-28T06:22:15.421496"
+    }
+}

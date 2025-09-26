@@ -1,0 +1,472 @@
+{
+    "web_page": "https://www.lek.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T15:31:41.500943",
+    "timestamp_stop": "2025-03-28T15:35:03.970819",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lek.si/",
+            "https://www.lek.si/skrb-za-zdravje/bolecina/glavobol",
+            "https://www.lek.si/zdravila-izdelki/brez-recepta/immunal-tablete",
+            "https://www.lek.si/o-nas/kaj-delamo/znanost-podobnih-bioloskih-zdravil"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+15%3A31%3A45+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fwww.lek.si%2F&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708305,
+                    "expires_date": "2026-03-28T14:31:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+15%3A32%3A25+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0&AwaitingReconsent=false",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708345,
+                    "expires_date": "2026-03-28T14:32:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T15:31:42.948405",
+        "timestamp_stop": "2025-03-28T15:32:36.482845"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lek.si/",
+            "https://www.lek.si/skrb-za-zdravje/bolecina/glavobol",
+            "https://www.lek.si/zdravila-izdelki/brez-recepta/immunal-tablete",
+            "https://www.lek.si/o-nas/kaj-delamo/znanost-podobnih-bioloskih-zdravil"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+15%3A32%3A40+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fwww.lek.si%2F&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708360,
+                    "expires_date": "2026-03-28T14:32:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T14:33:04.757Z",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708384,
+                    "expires_date": "2026-03-28T14:33:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+15%3A33%3A04+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708384,
+                    "expires_date": "2026-03-28T14:33:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.70140047.1743172385",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1777732385.027245,
+                    "expires_date": "2026-05-02T14:33:05.027245+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_XL5MCCT1G8",
+                    "value": "GS1.1.1743172385.1.0.1743172385.0.0.0",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1777732385.065851,
+                    "expires_date": "2026-05-02T14:33:05.065851+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T14:33:04.757Z",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708384,
+                    "expires_date": "2026-03-28T14:33:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.70140047.1743172385",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1777732422.203832,
+                    "expires_date": "2026-05-02T14:33:42.203832+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_608KFV2NP4",
+                    "value": "GS1.1.1743172395.1.0.1743172419.0.0.0",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1777732419.2004,
+                    "expires_date": "2026-05-02T14:33:39.200400+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+15%3A33%3A39+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708419,
+                    "expires_date": "2026-03-28T14:33:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_XL5MCCT1G8",
+                    "value": "GS1.1.1743172385.1.1.1743172422.0.0.0",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1777732422.203323,
+                    "expires_date": "2026-05-02T14:33:42.203323+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Vaša zasebnost je za nas pomembna.Piškotke uporabljamo za izboljšanje vaše izkušnje pri obisku naših spletnih strani: piškotki z zmogljivostjo nam prikazujejo, kako uporabljate to spletno stran, funkcionalni piškotki si zapomnijo vaše nastavitve in ciljni piškotki nam pomagajo deliti vsebino, ki je pomembna za vas.\nIzberite »Sprejmi vse«, če želite dati soglasje za vse piškotke; izberite »Nastavitve piškotkov« za upravljanje različnih piškotkov; izberite »Zavrni vse« za uporabo samo nujno potrebnih piškotkov. Nastavitve piškotkov lahko kadar koli spremenite s klikom na povezavo za nastavitve piškotkov na spletnem mestu.Nastavitve piškotkov Zavrni vse Sprejmi vse",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [Sprejmi vse] is categorized under GenericLabel1 for accepting all cookies. The button [Zavrni vse] is categorized under GenericLabel2 for declining all cookies. The button [Nastavitve piškotkov] is categorized under GenericLabel3 as it refers to cookie settings management.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized under GenericLabel1 for accepting all cookies. The button Zavrni vse is categorized under GenericLabel2 for declining all cookies. The button Nastavitve piškotkov is categorized under GenericLabel3 as it refers to cookie settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T15:32:38.032543",
+        "timestamp_stop": "2025-03-28T15:33:50.359560"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni vse)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lek.si/",
+            "https://www.lek.si/skrb-za-zdravje/bolecina/glavobol",
+            "https://www.lek.si/zdravila-izdelki/brez-recepta/immunal-tablete",
+            "https://www.lek.si/o-nas/kaj-delamo/znanost-podobnih-bioloskih-zdravil"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+15%3A33%3A54+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fwww.lek.si%2F&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708434,
+                    "expires_date": "2026-03-28T14:33:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T14:34:18.018Z",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708458,
+                    "expires_date": "2026-03-28T14:34:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+15%3A34%3A18+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708458,
+                    "expires_date": "2026-03-28T14:34:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T14:34:18.018Z",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708458,
+                    "expires_date": "2026-03-28T14:34:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+15%3A34%3A52+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A0%2CC0002%3A0&geolocation=SI%3B061&AwaitingReconsent=false",
+                    "domain": ".lek.si",
+                    "path": "/",
+                    "expires": 1774708492,
+                    "expires_date": "2026-03-28T14:34:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Vaša zasebnost je za nas pomembna.Piškotke uporabljamo za izboljšanje vaše izkušnje pri obisku naših spletnih strani: piškotki z zmogljivostjo nam prikazujejo, kako uporabljate to spletno stran, funkcionalni piškotki si zapomnijo vaše nastavitve in ciljni piškotki nam pomagajo deliti vsebino, ki je pomembna za vas.\nIzberite »Sprejmi vse«, če želite dati soglasje za vse piškotke; izberite »Nastavitve piškotkov« za upravljanje različnih piškotkov; izberite »Zavrni vse« za uporabo samo nujno potrebnih piškotkov. Nastavitve piškotkov lahko kadar koli spremenite s klikom na povezavo za nastavitve piškotkov na spletnem mestu.Nastavitve piškotkov Zavrni vse Sprejmi vse",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [Sprejmi vse] is categorized under GenericLabel1 for accepting all cookies. The button [Zavrni vse] is categorized under GenericLabel2 for declining all cookies. The button [Nastavitve piškotkov] is categorized under GenericLabel3 as it relates to managing cookie settings.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized under GenericLabel1 for accepting all cookies. The button Zavrni vse is categorized under GenericLabel2 for declining all cookies. The button Nastavitve piškotkov is categorized under GenericLabel3 as it relates to managing cookie settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T15:33:51.887240",
+        "timestamp_stop": "2025-03-28T15:35:03.708021"
+    }
+}

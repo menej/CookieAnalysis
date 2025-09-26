@@ -1,0 +1,2842 @@
+{
+    "web_page": "https://www.finance.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-27T23:36:13.466366",
+    "timestamp_stop": "2025-03-27T23:39:02.358203",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.finance.si/",
+            "https://www.finance.si/agroizziv",
+            "https://www.finance.si/kibernetska-varnost/",
+            "https://www.finance.si/tag/4883/izvoz"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "dergan",
+                    "value": "80052b45a37713dabf7650be84fa2cae",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1745706975.071617,
+                    "expires_date": "2025-04-26T22:36:15.071617+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"0ae17c99-1f8d-4a2f-9273-e6d725084dc1\",\"ts\":1743114975468}",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774650975,
+                    "expires_date": "2026-03-27T22:36:15+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774650976.869581,
+                    "expires_date": "2026-03-27T22:36:16.869581+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=30532f38-2a42-48e4-9666-86746c0d25d6&Created=03/27/2025 22:35:58&UserMode=0&guid=9dab535a-0d9a-47b7-b54a-22ffb6f81d10&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774650976.869671,
+                    "expires_date": "2026-03-27T22:36:16.869671+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDliZmItYTFkMC02OTY5LTk2MzItNGRkMmZmZDljMmEwIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MzY6MTUuNzczWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjM2OjE1Ljc3NFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737375,
+                    "expires_date": "2026-03-28T22:36:15+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_DATA",
+                    "value": "eyJ1c2VySWRUUyI6MTc0MzExNDk3NTc5Mn0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774650976,
+                    "expires_date": "2026-03-27T22:36:16+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_ID",
+                    "value": "3b202e32-dbbb-4b26-9f51-8ba9b6140283",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774650976,
+                    "expires_date": "2026-03-27T22:36:16+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AUID",
+                    "value": "3b202e32-dbbb-4b26-9f51-8ba9b6140283",
+                    "domain": ".trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1777674976.909819,
+                    "expires_date": "2026-05-01T22:36:16.909819+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv2vZdeS2jPKspcdeYg6IMGqVr",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750890975.948547,
+                    "expires_date": "2025-06-25T22:36:15.948547+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774650976,
+                    "expires_date": "2026-03-27T22:36:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115036,
+                    "expires_date": "2025-03-27T22:37:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750890976,
+                    "expires_date": "2025-06-25T22:36:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCVZFG3228R5CCWV4E0ZEWJ_.tt.1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750890976,
+                    "expires_date": "2025-06-25T22:36:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId472",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId472SecId2134",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBTGCORS",
+                    "value": "DrIvnPo2RlPTrveIqK5H9eC9Q0VRy8FltkX4lvKL1cDgtTzJzDAGN0sZ+ZFYYVRhY4nZBBkjpIbkFYtarLQ6TyTXn5H4TFB8H8nw6il5F//dL9jl4PXzeTqLKIvJeK5DeZjL4bDu9UNM9HoT3cpjwpYeo6A7vJpe3n/1RF/QGt9pifh7xI4=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719776.909685,
+                    "expires_date": "2025-04-03T22:36:16.909685+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "uu5ZqwDm0wChStQ24K5E7gULqteXaA+vzo5VoqPtSP7xb//5voTNMMUV9CdH5uVrUv+8L8FLB/KhWiR6gsUlT9yKxDh3rNtGmmhA/KnXeV/nP839onQoq4lxj66T",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719776.909777,
+                    "expires_date": "2025-04-03T22:36:16.909777+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "dergan",
+                    "value": "80052b45a37713dabf7650be84fa2cae",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1745706975.071617,
+                    "expires_date": "2025-04-26T22:36:15.071617+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"0ae17c99-1f8d-4a2f-9273-e6d725084dc1\",\"ts\":1743114975468}",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651005,
+                    "expires_date": "2026-03-27T22:36:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651005.709769,
+                    "expires_date": "2026-03-27T22:36:45.709769+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=30532f38-2a42-48e4-9666-86746c0d25d6&Created=03/27/2025 22:35:58&UserMode=0&guid=9dab535a-0d9a-47b7-b54a-22ffb6f81d10&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651005.709829,
+                    "expires_date": "2026-03-27T22:36:45.709829+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDliZmItYTFkMC02OTY5LTk2MzItNGRkMmZmZDljMmEwIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MzY6MTUuNzczWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjM2OjE1Ljc3NFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737375,
+                    "expires_date": "2026-03-28T22:36:15+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_DATA",
+                    "value": "eyJ1c2VySWRUUyI6MTc0MzExNDk3NTc5Mn0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774650976,
+                    "expires_date": "2026-03-27T22:36:16+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_ID",
+                    "value": "3b202e32-dbbb-4b26-9f51-8ba9b6140283",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774650976,
+                    "expires_date": "2026-03-27T22:36:16+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AUID",
+                    "value": "3b202e32-dbbb-4b26-9f51-8ba9b6140283",
+                    "domain": ".trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1777674976.909819,
+                    "expires_date": "2026-05-01T22:36:16.909819+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv2vZdeS2jPKspcdeYg6IMGqVr",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750891005.345224,
+                    "expires_date": "2025-06-25T22:36:45.345224+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651005,
+                    "expires_date": "2026-03-27T22:36:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115036,
+                    "expires_date": "2025-03-27T22:37:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891005,
+                    "expires_date": "2025-06-25T22:36:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCVZFG3228R5CCWV4E0ZEWJ_.tt.1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891005,
+                    "expires_date": "2025-06-25T22:36:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId472",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId472SecId2134",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBTGCORS",
+                    "value": "DrIvnPo2RlPTrveIqK5H9eC9Q0VRy8FltkX4lvKL1cDgtTzJzDAGN0sZ+ZFYYVRhY4nZBBkjpIbkFYtarLQ6TyTXn5H4TFB8H8nw6il5F//dL9jl4PXzeTqLKIvJeK5DeZjL4bDu9UNM9HoT3cpjwpYeo6A7vJpe3n/1RF/QGt9pifh7xI4=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719776.909685,
+                    "expires_date": "2025-04-03T22:36:16.909685+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "uu5ZqwDm0wChStQ24K5E7gULqteXaA+vzo5VoqPtSP7xb//5voTNMMUV9CdH5uVrUv+8L8FLB/KhWiR6gsUlT9yKxDh3rNtGmmhA/KnXeV/nP839onQoq4lxj66T",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719776.909777,
+                    "expires_date": "2025-04-03T22:36:16.909777+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-27T23:36:14.716426",
+        "timestamp_stop": "2025-03-27T23:36:52.787386"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse in zapri)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.finance.si/",
+            "https://www.finance.si/agroizziv",
+            "https://www.finance.si/kibernetska-varnost/",
+            "https://www.finance.si/tag/4883/izvoz"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "dergan",
+                    "value": "41e878b21835a9cd3582298c2d31a2ed",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1745707016.285918,
+                    "expires_date": "2025-04-26T22:36:56.285918+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"2dcc9791-c4e0-4bb3-a0b2-0380c5f49a81\",\"ts\":1743115016673}",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651016,
+                    "expires_date": "2026-03-27T22:36:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651018.055517,
+                    "expires_date": "2026-03-27T22:36:58.055517+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d871751f-ce1d-4af9-a344-41cdbb14d502&Created=03/27/2025 22:36:39&UserMode=0&guid=d39f75d2-bb8f-4ddd-9dcc-397559b83838&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651018.055572,
+                    "expires_date": "2026-03-27T22:36:58.055572+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDljMDUtYWZkNC02MDZiLWI1YTctNTliZmQ1Zjc2MjBhIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MzY6NTYuOTU3WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjM2OjU2Ljk1OFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737416,
+                    "expires_date": "2026-03-28T22:36:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_DATA",
+                    "value": "eyJ1c2VySWRUUyI6MTc0MzExNTAxNjk5OX0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651017,
+                    "expires_date": "2026-03-27T22:36:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_ID",
+                    "value": "8491e9fc-5d5d-4b0a-82a9-416993a9962a",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651017,
+                    "expires_date": "2026-03-27T22:36:57+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv30lRAyUVn2dO0hS24xepWNsL",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750891017.068303,
+                    "expires_date": "2025-06-25T22:36:57.068303+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "AUID",
+                    "value": "8491e9fc-5d5d-4b0a-82a9-416993a9962a",
+                    "domain": ".trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1777675018.102359,
+                    "expires_date": "2026-05-01T22:36:58.102359+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651017,
+                    "expires_date": "2026-03-27T22:36:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891017,
+                    "expires_date": "2025-06-25T22:36:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCW0QPPMDTRG79H7H59DYZ7_.tt.1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891017,
+                    "expires_date": "2025-06-25T22:36:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115077,
+                    "expires_date": "2025-03-27T22:37:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId472",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId472SecId2134",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBTGCORS",
+                    "value": "tlYEQ1HpLhKPVFOf+JA9/3K1WKySgcyhuufryTxxnvbYOiPwV9C1e8zW4u9xTPiLHO/2q+Cdl0Rpz16QA4V6breBkcKLYRX0S37u3UT+uUPGWPXIy8uiTy7pCJPQeSxA+kJScf1fBhtI6MTK5WX2G4xXLy8dezJnK188AzqBfJK4K9q/fz0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719818.102187,
+                    "expires_date": "2025-04-03T22:36:58.102187+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "T+K4UjUcUcdab7EMKxkJXNg3DTQ41FhPKmRTWTbnZ+wnzqZme2qKvU8hodi9JUJY4Dwc7tmbWiFRah9M57yimbxyWv459WF/UwIQhT4J7ecGlbZGA6jdA+H4xBxj",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719818.102299,
+                    "expires_date": "2025-04-03T22:36:58.102299+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "dergan",
+                    "value": "41e878b21835a9cd3582298c2d31a2ed",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1745707016.285918,
+                    "expires_date": "2025-04-26T22:36:56.285918+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"2dcc9791-c4e0-4bb3-a0b2-0380c5f49a81\",\"ts\":1743115016673}",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651044,
+                    "expires_date": "2026-03-27T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651045.671128,
+                    "expires_date": "2026-03-27T22:37:25.671128+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d871751f-ce1d-4af9-a344-41cdbb14d502&Created=03/27/2025 22:36:39&UserMode=0&guid=d39f75d2-bb8f-4ddd-9dcc-397559b83838&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651045.671278,
+                    "expires_date": "2026-03-27T22:37:25.671278+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_DATA",
+                    "value": "eyJ1c2VySWRUUyI6MTc0MzExNTAxNjk5OX0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651045,
+                    "expires_date": "2026-03-27T22:37:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_ID",
+                    "value": "8491e9fc-5d5d-4b0a-82a9-416993a9962a",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651045,
+                    "expires_date": "2026-03-27T22:37:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv30lRAyUVn2dO0hS24xepWNsL",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750891044.717953,
+                    "expires_date": "2025-06-25T22:37:24.717953+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "AUID",
+                    "value": "8491e9fc-5d5d-4b0a-82a9-416993a9962a",
+                    "domain": ".trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1777675045.897559,
+                    "expires_date": "2026-05-01T22:37:25.897559+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651045,
+                    "expires_date": "2026-03-27T22:37:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891044,
+                    "expires_date": "2025-06-25T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCW0QPPMDTRG79H7H59DYZ7_.tt.1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891044,
+                    "expires_date": "2025-06-25T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115077,
+                    "expires_date": "2025-03-27T22:37:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId472",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId472SecId2134",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDljMDUtYWZkNC02MDZiLWI1YTctNTliZmQ1Zjc2MjBhIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MzY6NTYuOTU3WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjM3OjI0LjAwN1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6YW1wbGl0dWRlIiwiYzp5b3V0dWJlIiwiYzpwdXJlLWNoYXQiLCJjOnRpa3Rvay1LWkFVUUxaOSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpkaWRvbWkiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyIsImdlb2xvY2F0aW9uX2RhdGEiXX0sInZlbmRvcnNfbGkiOnsiZW5hYmxlZCI6WyJjOnlvdXR1YmUiLCJjOmZpc3RuZXRkLURHR0dxZnhLIiwiYzpjYXNuaWtmaW4tUWg3Wm5qQlUiLCJjOnRyaW5pdHlhdS1WdFdpSmJHYSIsImM6dmltZW8tNmFNRUJXclYiLCJjOnNvdW5kY2xvdWQtZTM5bkFNM1YiXX0sInZlcnNpb24iOjIsImFjIjoiQ2xhQUVBRmtGS3dBLkFBQUEifQ==",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737444,
+                    "expires_date": "2026-03-28T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRAJsQBQBlgLzAZIBAUCbAAAABykAGAAIK8joAMAAQV5JQAYAAgryEgAwABBXkhABgACCvJaADAAEFeRgAA.f_wAAAAAAAAA",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737444,
+                    "expires_date": "2026-03-28T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "finance.si_ga",
+                    "value": "GA1.1.2111899476.1743115018",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1777675045.404399,
+                    "expires_date": "2026-05-01T22:37:25.404399+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "finance.si_au",
+                    "value": "1.1.1672627623.1743115044",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891044,
+                    "expires_date": "2025-06-25T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1234322460.1743115044",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743201445,
+                    "expires_date": "2025-03-28T22:37:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_883062_1",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115104,
+                    "expires_date": "2025-03-27T22:38:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "finance_cookies",
+                    "value": "accept%3Dall%7Cdatetime%3D2025-03-27%2023%3A37%3A24%7Cip%3D89.143.171.215%7Cdomain%3D.finance.si",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774651044,
+                    "expires_date": "2026-03-27T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUkMPylPZJbv0Av0h3IcdsYs5CUeV7KCEoFWKnPLbRFFOT9VEWn5xB6qKsVw",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776811044.244648,
+                    "expires_date": "2026-04-21T22:37:24.244648+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1570117576.1743115045",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891044,
+                    "expires_date": "2025-06-25T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_YWR1RESH3T",
+                    "value": "GS1.1.1743115044.1.0.1743115044.0.0.0",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1777675044.846523,
+                    "expires_date": "2026-05-01T22:37:24.846523+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743115044865.43394855944512291",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891044,
+                    "expires_date": "2025-06-25T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&63f01bde-d85b-47fe-81b3-4421eaf774c0\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774651044.887661,
+                    "expires_date": "2026-03-27T22:37:24.887661+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxMTUwMjc7MjswMjFqqjlotbVjKHQcVRQcHM3xR/N5q7x9ETDK1FodWgQkSg==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758667044.887768,
+                    "expires_date": "2025-09-23T22:37:24.887768+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3612:u=1:x=1:i=1743115027:t=1743201427:v=2:sig=AQHtciJOHu0OBeHJJPTiJ1xxApDb4iIA\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743201444.887813,
+                    "expires_date": "2025-03-28T22:37:24.887813+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance.si_ga_S79413LWJK",
+                    "value": "GS1.1.1246170281.1.1.1743115045.59.0.0",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1777675045.40404,
+                    "expires_date": "2026-05-01T22:37:25.404040+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.2111899476.1743115018",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1777675045.579607,
+                    "expires_date": "2026-05-01T22:37:25.579607+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "AWSALBTGCORS",
+                    "value": "OHnTF4XuVqzxepbj6G0+fGxUjD5uZdkJqfFmMToKy1v6DPfdrEWJ7YMjKi0EBndojRe1Fk/Pmmb6zTGThdrCMOaZJcvbMc6/fFILr8HUscWz4OZ7cmE2Rl4isf60PsC1xEkQiMzqHCYAb4qDPScNOatGiFA4ni6aEj8x6C/9HOsfpb7nJM0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719845.897421,
+                    "expires_date": "2025-04-03T22:37:25.897421+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "A2kJu+DLlLGVNblTExsPPcc2YZ3sjG0uBy6yhwD5kdaMXyTrUMiFZYdX4fsQMo5+CUNA1w0oudgUIH6PUVOF+40U9aE/4Ng8lQ1NU6KexeX4Lzf+OCLTYgD7253B",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719845.897517,
+                    "expires_date": "2025-04-03T22:37:25.897517+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=ad87a562903e7036:T=1743115029:RT=1743115029:S=ALNI_MbdPDuoL7u5k7Q49Td-YrCWB4efMQ",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1776811029,
+                    "expires_date": "2026-04-21T22:37:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072dee73d6f:T=1743115029:RT=1743115029:S=ALNI_MYFcPqT37dE4zjzFKlJ_ciGc-1P_g",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1776811029,
+                    "expires_date": "2026-04-21T22:37:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=4f23d59e0b71f584:T=1743115029:RT=1743115029:S=AA-AfjbdIlKFchlZZcRXgQiDzsQB",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1758667029,
+                    "expires_date": "2025-09-23T22:37:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "dergan",
+                    "value": "41e878b21835a9cd3582298c2d31a2ed",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1745707016.285918,
+                    "expires_date": "2025-04-26T22:36:56.285918+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"2dcc9791-c4e0-4bb3-a0b2-0380c5f49a81\",\"ts\":1743115016673}",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651070,
+                    "expires_date": "2026-03-27T22:37:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651071.236814,
+                    "expires_date": "2026-03-27T22:37:51.236814+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=d871751f-ce1d-4af9-a344-41cdbb14d502&Created=03/27/2025 22:36:39&UserMode=0&guid=d39f75d2-bb8f-4ddd-9dcc-397559b83838&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651071.236875,
+                    "expires_date": "2026-03-27T22:37:51.236875+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_DATA",
+                    "value": "eyJ1c2VySWRUUyI6MTc0MzExNTAxNjk5OX0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651045,
+                    "expires_date": "2026-03-27T22:37:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_ID",
+                    "value": "8491e9fc-5d5d-4b0a-82a9-416993a9962a",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651045,
+                    "expires_date": "2026-03-27T22:37:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv30lRAyUVn2dO0hS24xepWNsL",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750891070.578636,
+                    "expires_date": "2025-06-25T22:37:50.578636+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "AUID",
+                    "value": "8491e9fc-5d5d-4b0a-82a9-416993a9962a",
+                    "domain": ".trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1777675045.897559,
+                    "expires_date": "2026-05-01T22:37:25.897559+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651070,
+                    "expires_date": "2026-03-27T22:37:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891070,
+                    "expires_date": "2025-06-25T22:37:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCW0QPPMDTRG79H7H59DYZ7_.tt.1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891070,
+                    "expires_date": "2025-06-25T22:37:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId472",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId472SecId2134",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDljMDUtYWZkNC02MDZiLWI1YTctNTliZmQ1Zjc2MjBhIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6MzY6NTYuOTU3WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjM3OjI0LjAwN1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6YW1wbGl0dWRlIiwiYzp5b3V0dWJlIiwiYzpwdXJlLWNoYXQiLCJjOnRpa3Rvay1LWkFVUUxaOSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpkaWRvbWkiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyIsImdlb2xvY2F0aW9uX2RhdGEiXX0sInZlbmRvcnNfbGkiOnsiZW5hYmxlZCI6WyJjOnlvdXR1YmUiLCJjOmZpc3RuZXRkLURHR0dxZnhLIiwiYzpjYXNuaWtmaW4tUWg3Wm5qQlUiLCJjOnRyaW5pdHlhdS1WdFdpSmJHYSIsImM6dmltZW8tNmFNRUJXclYiLCJjOnNvdW5kY2xvdWQtZTM5bkFNM1YiXX0sInZlcnNpb24iOjIsImFjIjoiQ2xhQUVBRmtGS3dBLkFBQUEifQ==",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737444,
+                    "expires_date": "2026-03-28T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRAJsQBQBlgLzAZIBAUCbAAAABykAGAAIK8joAMAAQV5JQAYAAgryEgAwABBXkhABgACCvJaADAAEFeRgAA.f_wAAAAAAAAA",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737444,
+                    "expires_date": "2026-03-28T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "finance.si_ga",
+                    "value": "GA1.1.2111899476.1743115018",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1777675070.778819,
+                    "expires_date": "2026-05-01T22:37:50.778819+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "finance.si_au",
+                    "value": "1.1.1672627623.1743115044",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891044,
+                    "expires_date": "2025-06-25T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1234322460.1743115044",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743201470,
+                    "expires_date": "2025-03-28T22:37:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_883062_1",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115104,
+                    "expires_date": "2025-03-27T22:38:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "finance_cookies",
+                    "value": "accept%3Dall%7Cdatetime%3D2025-03-27%2023%3A37%3A24%7Cip%3D89.143.171.215%7Cdomain%3D.finance.si",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774651044,
+                    "expires_date": "2026-03-27T22:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUkMPylPZJbv0Av0h3IcdsYs5CUeV7KCEoFWKnPLbRFFOT9VEWn5xB6qKsVw",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776811044.244648,
+                    "expires_date": "2026-04-21T22:37:24.244648+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1570117576.1743115045",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891045,
+                    "expires_date": "2025-06-25T22:37:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743115044865.43394855944512291",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891070,
+                    "expires_date": "2025-06-25T22:37:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&63f01bde-d85b-47fe-81b3-4421eaf774c0\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774651044.887661,
+                    "expires_date": "2026-03-27T22:37:24.887661+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxMTUwMjc7MjswMjFqqjlotbVjKHQcVRQcHM3xR/N5q7x9ETDK1FodWgQkSg==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758667044.887768,
+                    "expires_date": "2025-09-23T22:37:24.887768+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3612:u=1:x=1:i=1743115027:t=1743201427:v=2:sig=AQHtciJOHu0OBeHJJPTiJ1xxApDb4iIA\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743201444.887813,
+                    "expires_date": "2025-03-28T22:37:24.887813+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "AWSALBTGCORS",
+                    "value": "OHnTF4XuVqzxepbj6G0+fGxUjD5uZdkJqfFmMToKy1v6DPfdrEWJ7YMjKi0EBndojRe1Fk/Pmmb6zTGThdrCMOaZJcvbMc6/fFILr8HUscWz4OZ7cmE2Rl4isf60PsC1xEkQiMzqHCYAb4qDPScNOatGiFA4ni6aEj8x6C/9HOsfpb7nJM0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719845.897421,
+                    "expires_date": "2025-04-03T22:37:25.897421+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "A2kJu+DLlLGVNblTExsPPcc2YZ3sjG0uBy6yhwD5kdaMXyTrUMiFZYdX4fsQMo5+CUNA1w0oudgUIH6PUVOF+40U9aE/4Ng8lQ1NU6KexeX4Lzf+OCLTYgD7253B",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719845.897517,
+                    "expires_date": "2025-04-03T22:37:25.897517+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=ad87a562903e7036:T=1743115029:RT=1743115029:S=ALNI_MbdPDuoL7u5k7Q49Td-YrCWB4efMQ",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1776811029,
+                    "expires_date": "2026-04-21T22:37:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072dee73d6f:T=1743115029:RT=1743115029:S=ALNI_MYFcPqT37dE4zjzFKlJ_ciGc-1P_g",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1776811029,
+                    "expires_date": "2026-04-21T22:37:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=4f23d59e0b71f584:T=1743115029:RT=1743115029:S=AA-AfjbdIlKFchlZZcRXgQiDzsQB",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1758667029,
+                    "expires_date": "2025-09-23T22:37:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_YWR1RESH3T",
+                    "value": "GS1.1.1743115044.1.1.1743115070.0.0.0",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1777675070.577447,
+                    "expires_date": "2026-05-01T22:37:50.577447+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "finance.si_ga_S79413LWJK",
+                    "value": "GS1.1.1246170281.1.1.1743115070.34.0.0",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1777675070.778462,
+                    "expires_date": "2026-05-01T22:37:50.778462+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.2111899476.1743115018",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1777675070.937324,
+                    "expires_date": "2026-05-01T22:37:50.937324+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(192,0,0,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(192,0,0,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Nadaljuj brez strinjanja →SPOŠTUJEMO VAŠO ZASEBNOST\n\nZ vašim soglasjem mi in  naših 19 partnerjev uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov.\n\nNaša Politika piškotkov in Izjava o zasebnosti vam pomaga razumeti, katere informacije se zbirajo in vam omogoča nadzor nad i",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse in zapri]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: [Nadaljuj brez strinjanja →]\nGenericLabel3: [Več →]\nExplanation: The button \"[Sprejmi vse in zapri]\" is categorized as accepting all cookies. \"[Nadaljuj brez strinjanja →]\" indicates an action to decline or continue without consent, thus categorized as ambiguous decline. \"[Več →]\" suggests settings or more information about cookies, hence categorized under settings. There are no buttons for declining all cookies or explicit ambiguous acceptance.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Nadaljuj brez strinjanja →",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel2",
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi vse in zapri\" is categorized as accepting all cookies. \"Nadaljuj brez strinjanja →\" indicates an action to decline or continue without consent, thus categorized as ambiguous decline. \"Več →\" suggests settings or more information about cookies, hence categorized under settings. There are no buttons for declining all cookies or explicit ambiguous acceptance."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse in zapri",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-27T23:36:54.433549",
+        "timestamp_stop": "2025-03-27T23:37:58.168463"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (span), with text (Nadaljuj brez strinjanja →)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.finance.si/",
+            "https://www.finance.si/agroizziv",
+            "https://www.finance.si/kibernetska-varnost/",
+            "https://www.finance.si/tag/4883/izvoz"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "dergan",
+                    "value": "b04afffd2d2de1e4da83b9c9d76961ec",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1745707081.620003,
+                    "expires_date": "2025-04-26T22:38:01.620003+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"9fee3bd4-9e7e-42d8-a4cd-a75d3205829e\",\"ts\":1743115082019}",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651082,
+                    "expires_date": "2026-03-27T22:38:02+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651083.388946,
+                    "expires_date": "2026-03-27T22:38:03.388946+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=262589d9-81c5-4313-90f9-3c4ae5f85aaf&Created=03/27/2025 22:37:45&UserMode=0&guid=3fc98318-7eaa-4842-be07-de9fbb9011c6&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651083.38904,
+                    "expires_date": "2026-03-27T22:38:03.389040+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDljMTUtYTM5NC02MTdlLTg0NTUtNmI5ZmQxOWY0MGZlIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6Mzg6MDIuMjk3WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjM4OjAyLjI5N1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737482,
+                    "expires_date": "2026-03-28T22:38:02+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_DATA",
+                    "value": "eyJ1c2VySWRUUyI6MTc0MzExNTA4MjM2NH0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651083,
+                    "expires_date": "2026-03-27T22:38:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_ID",
+                    "value": "3625beb0-bda2-4d35-95b4-04300a4e355f",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651083,
+                    "expires_date": "2026-03-27T22:38:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv3954FIi4JpRYdTVHG7934KZ6",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750891082.393535,
+                    "expires_date": "2025-06-25T22:38:02.393535+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "AUID",
+                    "value": "3625beb0-bda2-4d35-95b4-04300a4e355f",
+                    "domain": ".trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1777675083.41787,
+                    "expires_date": "2026-05-01T22:38:03.417870+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651082,
+                    "expires_date": "2026-03-27T22:38:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891083,
+                    "expires_date": "2025-06-25T22:38:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCW2QGD8R0MCVRW63S74JY7_.tt.1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891083,
+                    "expires_date": "2025-06-25T22:38:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115143,
+                    "expires_date": "2025-03-27T22:39:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId472",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId472SecId2134",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBTGCORS",
+                    "value": "l7lptHtoKhHvF+Y5Kl1CM6OCmfpCCkFMTaBnOa6kG7EslYW3K7Lk4Cz0vlyXtgojcqIjQcZ7LMTdE/TL2z/0KdG0/eSf25xNutkYxq/CiHwO87BLz2rRrM3WJPbV35tl+Hzm4ZvxTtvdFVUcG8QMTdy1e31+vQ9ttF+fu7NCbLJiWaOvPUg=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719883.41773,
+                    "expires_date": "2025-04-03T22:38:03.417730+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "pSPSinZqa078tDZuj8ZVw3nMj7bytdcLB5a34N3bozgbvNMd1VBjXpdHAwvFOauUp2bWR+pedx+yXwJuqpjafibAZ0UlN5hhefXEI/3zthjZTheSkNGF1GWK0rOB",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719883.417829,
+                    "expires_date": "2025-04-03T22:38:03.417829+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "dergan",
+                    "value": "b04afffd2d2de1e4da83b9c9d76961ec",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1745707081.620003,
+                    "expires_date": "2025-04-26T22:38:01.620003+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"9fee3bd4-9e7e-42d8-a4cd-a75d3205829e\",\"ts\":1743115082019}",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651109,
+                    "expires_date": "2026-03-27T22:38:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651110.004468,
+                    "expires_date": "2026-03-27T22:38:30.004468+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=262589d9-81c5-4313-90f9-3c4ae5f85aaf&Created=03/27/2025 22:37:45&UserMode=0&guid=3fc98318-7eaa-4842-be07-de9fbb9011c6&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651110.004558,
+                    "expires_date": "2026-03-27T22:38:30.004558+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_DATA",
+                    "value": "eyJ1c2VySWRUUyI6MTc0MzExNTA4MjM2NH0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651110,
+                    "expires_date": "2026-03-27T22:38:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_ID",
+                    "value": "3625beb0-bda2-4d35-95b4-04300a4e355f",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651110,
+                    "expires_date": "2026-03-27T22:38:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv3954FIi4JpRYdTVHG7934KZ6",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750891109.416443,
+                    "expires_date": "2025-06-25T22:38:29.416443+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "AUID",
+                    "value": "3625beb0-bda2-4d35-95b4-04300a4e355f",
+                    "domain": ".trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1777675110.265981,
+                    "expires_date": "2026-05-01T22:38:30.265981+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651109,
+                    "expires_date": "2026-03-27T22:38:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891109,
+                    "expires_date": "2025-06-25T22:38:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCW2QGD8R0MCVRW63S74JY7_.tt.1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891109,
+                    "expires_date": "2025-06-25T22:38:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115143,
+                    "expires_date": "2025-03-27T22:39:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId472",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId472SecId2134",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDljMTUtYTM5NC02MTdlLTg0NTUtNmI5ZmQxOWY0MGZlIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6Mzg6MDIuMjk3WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjM4OjI4Ljg3MFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsInR3aXR0ZXIiLCJjOmFtcGxpdHVkZSIsImM6eW91dHViZSIsImM6cHVyZS1jaGF0IiwiYzp0aWt0b2stS1pBVVFMWjkiLCJjOmdvb2dsZWFuYS00VFhuSmlnUiIsImM6ZmlzdG5ldGQtREdHR3FmeEsiLCJjOmNhc25pa2Zpbi1RaDdabmpCVSIsImM6ZGlkb21pIiwiYzp0cmluaXR5YXUtVnRXaUpiR2EiLCJjOnZpbWVvLTZhTUVCV3JWIiwiYzpzb3VuZGNsb3VkLWUzOW5BTTNWIl19LCJwdXJwb3NlcyI6eyJkaXNhYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImM6eW91dHViZSIsImM6ZmlzdG5ldGQtREdHR3FmeEsiLCJjOmNhc25pa2Zpbi1RaDdabmpCVSIsImM6dHJpbml0eWF1LVZ0V2lKYkdhIiwiYzp2aW1lby02YU1FQldyViIsImM6c291bmRjbG91ZC1lMzluQU0zViJdfSwidmVyc2lvbiI6MiwiYWMiOiJBQUFBLkFBQUEifQ==",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737508,
+                    "expires_date": "2026-03-28T22:38:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFgAAAAAAAAACRAAAAAAADlIAMAAQV5HQAYAAgrySgAwABBXkJABgACCvJCADAAEFeS0AGAAIK8jAAA.YAAAAAAAAAAA",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737508,
+                    "expires_date": "2026-03-28T22:38:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "finance_cookies",
+                    "value": "accept%3Dother%7Cdatetime%3D2025-03-27%2023%3A38%3A28%7Cip%3D89.143.171.215%7Cdomain%3D.finance.si",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774651108,
+                    "expires_date": "2026-03-27T22:38:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBTGCORS",
+                    "value": "zYe0Jyl6GsHzMOIf6rYWgKwyYVQpzbfuhWu2Eu+mp/NNQDMUo3/Fx6meBaVtsAt99MMKjXjbJSpvqybGj3M4G7rxzEZ9sxrF7jjS5/qwzw0vhadhWSu/cmpcLNO91SUV4bHK+2O4aWYeCKevwOeN32Vdugs8D9f5XF9yaVWwIFgpsYMJxbk=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719910.265883,
+                    "expires_date": "2025-04-03T22:38:30.265883+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "NcXj0EPp/LjiUxCbHwAJ4xJTrbXWtCqMYixinwzrxebvaZaLEMM4RvgkjJlyyzAJtDzOUMxfwnFC5J0FE0aK0KavFMtyIvLwIxW/cqcyThewZ4sHdWb/Jql+uSK6",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719910.265954,
+                    "expires_date": "2025-04-03T22:38:30.265954+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "dergan",
+                    "value": "b04afffd2d2de1e4da83b9c9d76961ec",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1745707081.620003,
+                    "expires_date": "2025-04-26T22:38:01.620003+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"9fee3bd4-9e7e-42d8-a4cd-a75d3205829e\",\"ts\":1743115082019}",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651134,
+                    "expires_date": "2026-03-27T22:38:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651134.90938,
+                    "expires_date": "2026-03-27T22:38:54.909380+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=262589d9-81c5-4313-90f9-3c4ae5f85aaf&Created=03/27/2025 22:37:45&UserMode=0&guid=3fc98318-7eaa-4842-be07-de9fbb9011c6&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774651134.909437,
+                    "expires_date": "2026-03-27T22:38:54.909437+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_DATA",
+                    "value": "eyJ1c2VySWRUUyI6MTc0MzExNTA4MjM2NH0=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651110,
+                    "expires_date": "2026-03-27T22:38:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TRINITY_USER_ID",
+                    "value": "3625beb0-bda2-4d35-95b4-04300a4e355f",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1774651110,
+                    "expires_date": "2026-03-27T22:38:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uv3954FIi4JpRYdTVHG7934KZ6",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750891134.621223,
+                    "expires_date": "2025-06-25T22:38:54.621223+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "AUID",
+                    "value": "3625beb0-bda2-4d35-95b4-04300a4e355f",
+                    "domain": ".trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1777675110.265981,
+                    "expires_date": "2026-05-01T22:38:30.265981+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": 1774651134,
+                    "expires_date": "2026-03-27T22:38:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891134,
+                    "expires_date": "2025-06-25T22:38:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQCW2QGD8R0MCVRW63S74JY7_.tt.1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1750891134,
+                    "expires_date": "2025-06-25T22:38:54+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1743115143,
+                    "expires_date": "2025-03-27T22:39:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId472",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId472SecId2134",
+                    "value": "1",
+                    "domain": "www.finance.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDljMTUtYTM5NC02MTdlLTg0NTUtNmI5ZmQxOWY0MGZlIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjI6Mzg6MDIuMjk3WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIyOjM4OjI4Ljg3MFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsInR3aXR0ZXIiLCJjOmFtcGxpdHVkZSIsImM6eW91dHViZSIsImM6cHVyZS1jaGF0IiwiYzp0aWt0b2stS1pBVVFMWjkiLCJjOmdvb2dsZWFuYS00VFhuSmlnUiIsImM6ZmlzdG5ldGQtREdHR3FmeEsiLCJjOmNhc25pa2Zpbi1RaDdabmpCVSIsImM6ZGlkb21pIiwiYzp0cmluaXR5YXUtVnRXaUpiR2EiLCJjOnZpbWVvLTZhTUVCV3JWIiwiYzpzb3VuZGNsb3VkLWUzOW5BTTNWIl19LCJwdXJwb3NlcyI6eyJkaXNhYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImM6eW91dHViZSIsImM6ZmlzdG5ldGQtREdHR3FmeEsiLCJjOmNhc25pa2Zpbi1RaDdabmpCVSIsImM6dHJpbml0eWF1LVZ0V2lKYkdhIiwiYzp2aW1lby02YU1FQldyViIsImM6c291bmRjbG91ZC1lMzluQU0zViJdfSwidmVyc2lvbiI6MiwiYWMiOiJBQUFBLkFBQUEifQ==",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737508,
+                    "expires_date": "2026-03-28T22:38:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFgAAAAAAAAACRAAAAAAADlIAMAAQV5HQAYAAgrySgAwABBXkJABgACCvJCADAAEFeS0AGAAIK8jAAA.YAAAAAAAAAAA",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774737508,
+                    "expires_date": "2026-03-28T22:38:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "finance_cookies",
+                    "value": "accept%3Dother%7Cdatetime%3D2025-03-27%2023%3A38%3A28%7Cip%3D89.143.171.215%7Cdomain%3D.finance.si",
+                    "domain": ".finance.si",
+                    "path": "/",
+                    "expires": 1774651108,
+                    "expires_date": "2026-03-27T22:38:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AWSALBTGCORS",
+                    "value": "zYe0Jyl6GsHzMOIf6rYWgKwyYVQpzbfuhWu2Eu+mp/NNQDMUo3/Fx6meBaVtsAt99MMKjXjbJSpvqybGj3M4G7rxzEZ9sxrF7jjS5/qwzw0vhadhWSu/cmpcLNO91SUV4bHK+2O4aWYeCKevwOeN32Vdugs8D9f5XF9yaVWwIFgpsYMJxbk=",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719910.265883,
+                    "expires_date": "2025-04-03T22:38:30.265883+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "AWSALBCORS",
+                    "value": "NcXj0EPp/LjiUxCbHwAJ4xJTrbXWtCqMYixinwzrxebvaZaLEMM4RvgkjJlyyzAJtDzOUMxfwnFC5J0FE0aK0KavFMtyIvLwIxW/cqcyThewZ4sHdWb/Jql+uSK6",
+                    "domain": "trinitymedia.ai",
+                    "path": "/",
+                    "expires": 1743719910.265954,
+                    "expires_date": "2025-04-03T22:38:30.265954+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(192,0,0,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(192,0,0,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Nadaljuj brez strinjanja →SPOŠTUJEMO VAŠO ZASEBNOST\n\nZ vašim soglasjem mi in  naših 19 partnerjev uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov.\n\nNaša Politika piškotkov in Izjava o zasebnosti vam pomaga razumeti, katere informacije se zbirajo in vam omogoča nadzor nad i",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse in zapri]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: [Nadaljuj brez strinjanja →]\nGenericLabel3: [Več →]\nExplanation: The button \"Sprejmi vse in zapri\" is categorized under GenericLabel1 as it signifies accepting all cookies. \"Nadaljuj brez strinjanja\" is categorized as an ambiguous decline since it indicates proceeding without consent. \"Več →\" is categorized under GenericLabel3 as it suggests managing settings or obtaining more information. There are no buttons for declining all cookies, nor any other ambiguous accept.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Nadaljuj brez strinjanja →",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel2",
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi vse in zapri\" is categorized under GenericLabel1 as it signifies accepting all cookies. \"Nadaljuj brez strinjanja\" is categorized as an ambiguous decline since it indicates proceeding without consent. \"Več →\" is categorized under GenericLabel3 as it suggests managing settings or obtaining more information. There are no buttons for declining all cookies, nor any other ambiguous accept."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Nadaljuj brez strinjanja →",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-27T23:37:59.778298",
+        "timestamp_stop": "2025-03-27T23:39:02.066768"
+    }
+}

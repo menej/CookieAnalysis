@@ -1,0 +1,3742 @@
+{
+    "web_page": "https://nakupovanje.net/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T15:29:00.814154",
+    "timestamp_stop": "2025-03-28T15:31:41.500943",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://nakupovanje.net/",
+            "https://nakupovanje.net/vsi-oddelki/osebna-nega/philips-bre700-00-depilator/",
+            "https://nakupovanje.net/vsi-oddelki/osebna-nega/depilatorji/philips-bre235-00-depilator/",
+            "https://nakupovanje.net/wp-content/uploads/2024/06/BRE700-00_3.jpg"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrGQBImLQ_0RfgU_nW7RI90I-Rr_ab6agmAWsCFjtqbEtbK6gSbZj3vOuu2RTzsJehshZyXrfL67BCBkMA",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724145.188901,
+                    "expires_date": "2025-09-24T14:29:05.188901+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fnakupovanje.net%2F",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743173943,
+                    "expires_date": "2025-03-28T14:59:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743175743,
+                    "expires_date": "2025-03-28T15:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172143575.8886240509",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJZakV3WldFME9HSXRNMlExWVMwME5qaGpMVGszWmpndE4yWmlOR05tTWpNeFpqUTEiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNzIxNDQsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vbmFrdXBvdmFuamUubmV0LyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE3MjE0NCwidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly9uYWt1cG92YW5qZS5uZXQvIn19",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732143.654834,
+                    "expires_date": "2026-05-02T14:29:03.654834+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pbid",
+                    "value": "250852874eb7bd755c6e59f8b708f05f4886cf9e2f7bbda976e4be0d680e943a",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1758724144,
+                    "expires_date": "2025-09-24T14:29:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172143575.8886240509",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1750948144,
+                    "expires_date": "2025-06-26T14:29:04+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_5QKNJ3M9FT",
+                    "value": "GS1.1.1743172144.1.0.1743172144.60.0.0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732144.463435,
+                    "expires_date": "2026-05-02T14:29:04.463435+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1716011411.1743172144",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732144.464002,
+                    "expires_date": "2026-05-02T14:29:04.464002+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173044.603004,
+                    "expires_date": "2025-03-28T14:44:04.603004+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyo0mum9V6lPila5z6qygdfTy8l7Gp9vmPj-wS19wooEEkhW0-miqj3tSDdlrus1-DbVWHaI_b1RZNi-08Y",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724164.345371,
+                    "expires_date": "2025-09-24T14:29:24.345371+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A03%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743175743,
+                    "expires_date": "2025-03-28T15:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172143575.8886240509",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776943,
+                    "expires_date": "2025-04-04T14:29:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pbid",
+                    "value": "250852874eb7bd755c6e59f8b708f05f4886cf9e2f7bbda976e4be0d680e943a",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1758724163,
+                    "expires_date": "2025-09-24T14:29:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172143575.8886240509",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1750948170,
+                    "expires_date": "2025-06-26T14:29:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1716011411.1743172144",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732163.334386,
+                    "expires_date": "2026-05-02T14:29:23.334386+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173044.603004,
+                    "expires_date": "2025-03-28T14:44:04.603004+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_wishlist_count",
+                    "value": "0",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776948.854672,
+                    "expires_date": "2025-04-04T14:29:08.854672+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wishlist_cleared_time",
+                    "value": "1743172149",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776948.854766,
+                    "expires_date": "2025-04-04T14:29:08.854766+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wp_woocommerce_session_f5ab13d06f2bc89bade3c7666691f56a",
+                    "value": "t_a9f5db368a2a3ab6cc216a30428450%7C%7C1743344950%7C%7C1743341350%7C%7C66d2c1b458a4790cc0445dfcd5e37f17",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743344950.203597,
+                    "expires_date": "2025-03-30T14:29:10.203597+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "a7fdee81-f35c-4e40-9457-4b0865ec1854324e28",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777732168.240961,
+                    "expires_date": "2026-05-02T14:29:28.240961+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "8e849d42-10df-492f-aee1-38790a2a3a3c122517",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708168,
+                    "expires_date": "2026-03-28T14:29:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "af61bcf8-c54a-453f-8db3-47423e66fba61a0352",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743173968,
+                    "expires_date": "2025-03-28T14:59:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_recently_viewed_products",
+                    "value": "33896%7C33935%7C8720862511409",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D3%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fnakupovanje.net%2Fvsi-oddelki%2Fosebna-nega%2Fdepilatorji%2Fphilips-bre235-00-depilator%2F",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743173962,
+                    "expires_date": "2025-03-28T14:59:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJZakV3WldFME9HSXRNMlExWVMwME5qaGpMVGszWmpndE4yWmlOR05tTWpNeFpqUTEiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNzIxNDQsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vbmFrdXBvdmFuamUubmV0LyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE3MjE2MywidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly9uYWt1cG92YW5qZS5uZXQvIn19",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732162.820456,
+                    "expires_date": "2026-05-02T14:29:22.820456+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_5QKNJ3M9FT",
+                    "value": "GS1.1.1743172144.1.1.1743172171.33.0.0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732171.064326,
+                    "expires_date": "2026-05-02T14:29:31.064326+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T15:29:02.241001",
+        "timestamp_stop": "2025-03-28T15:29:36.935930"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://nakupovanje.net/",
+            "https://nakupovanje.net/vsi-oddelki/osebna-nega/philips-bre700-00-depilator/",
+            "https://nakupovanje.net/vsi-oddelki/osebna-nega/depilatorji/philips-bre235-00-depilator/",
+            "https://nakupovanje.net/wp-content/uploads/2024/06/BRE700-00_3.jpg"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyp7xo1qR0AbkNl2aExqnQOcNGCoR0TeAksWtI98CqRxGq0BoaPVq51SeiAbPwNsLvp2Dv7miPJ6Dc7JKDg",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724181.359973,
+                    "expires_date": "2025-09-24T14:29:41.359973+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A39%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A39%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fnakupovanje.net%2F",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743173979,
+                    "expires_date": "2025-03-28T14:59:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743175779,
+                    "expires_date": "2025-03-28T15:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172179704.5626936283",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNelV6Tm1FMk4yTXROamhqWkMwME16aGpMV0V5TVRFdFlXSmlNVEEyTXpnelpqVmkiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNzIxODAsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vbmFrdXBvdmFuamUubmV0LyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE3MjE4MCwidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly9uYWt1cG92YW5qZS5uZXQvIn19",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732179.842861,
+                    "expires_date": "2026-05-02T14:29:39.842861+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pbid",
+                    "value": "b6ac70a211278bff54b3bbeadde62a4193655caba53557924db77bc01d073d25",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1758724180,
+                    "expires_date": "2025-09-24T14:29:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172179704.5626936283",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1750948180,
+                    "expires_date": "2025-06-26T14:29:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_5QKNJ3M9FT",
+                    "value": "GS1.1.1743172180.1.0.1743172180.60.0.0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732180.716583,
+                    "expires_date": "2026-05-02T14:29:40.716583+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1032714398.1743172181",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732180.717322,
+                    "expires_date": "2026-05-02T14:29:40.717322+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173080.864506,
+                    "expires_date": "2025-03-28T14:44:40.864506+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_wishlist_count",
+                    "value": "0",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776984.078884,
+                    "expires_date": "2025-04-04T14:29:44.078884+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wishlist_cleared_time",
+                    "value": "1743172184",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776984.078981,
+                    "expires_date": "2025-04-04T14:29:44.078981+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyp7xo1qR0AbkNl2aExqnQOcNGCoR0TeAksWtI98CqRxGq0BoaPVq51SeiAbPwNsLvp2Dv7miPJ6Dc7JKDg",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724181.359973,
+                    "expires_date": "2025-09-24T14:29:41.359973+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A39%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A39%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fnakupovanje.net%2F",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743173979,
+                    "expires_date": "2025-03-28T14:59:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743175779,
+                    "expires_date": "2025-03-28T15:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172179704.5626936283",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNelV6Tm1FMk4yTXROamhqWkMwME16aGpMV0V5TVRFdFlXSmlNVEEyTXpnelpqVmkiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNzIxODAsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vbmFrdXBvdmFuamUubmV0LyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE3MjE4MCwidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly9uYWt1cG92YW5qZS5uZXQvIn19",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732179.842861,
+                    "expires_date": "2026-05-02T14:29:39.842861+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pbid",
+                    "value": "b6ac70a211278bff54b3bbeadde62a4193655caba53557924db77bc01d073d25",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1758724180,
+                    "expires_date": "2025-09-24T14:29:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172179704.5626936283",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1750948209,
+                    "expires_date": "2025-06-26T14:30:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_5QKNJ3M9FT",
+                    "value": "GS1.1.1743172180.1.0.1743172180.60.0.0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732180.716583,
+                    "expires_date": "2026-05-02T14:29:40.716583+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1032714398.1743172181",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732180.717322,
+                    "expires_date": "2026-05-02T14:29:40.717322+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173080.864506,
+                    "expires_date": "2025-03-28T14:44:40.864506+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_wishlist_count",
+                    "value": "0",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776984.078884,
+                    "expires_date": "2025-04-04T14:29:44.078884+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wishlist_cleared_time",
+                    "value": "1743172184",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776984.078981,
+                    "expires_date": "2025-04-04T14:29:44.078981+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wp_woocommerce_session_f5ab13d06f2bc89bade3c7666691f56a",
+                    "value": "t_6ac6b7af142d54db53bb09a293731f%7C%7C1743344986%7C%7C1743341386%7C%7Ce75a6213dc2efe2b335cbf43c0c2b64e",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743344986.336936,
+                    "expires_date": "2025-03-30T14:29:46.336936+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_recently_viewed_products",
+                    "value": "8720862511409",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708206,
+                    "expires_date": "2026-03-28T14:30:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "22",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708206,
+                    "expires_date": "2026-03-28T14:30:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqrJNqF-p5JZEqOga2au3bnr-RbscDhP0jNi8dvEbJVwn4cwvMkyKaVswiY_e5AzPv2n9t_FfXCwRhkeEI",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724226.250727,
+                    "expires_date": "2025-09-24T14:30:26.250727+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A39%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2014%3A29%3A39%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743175779,
+                    "expires_date": "2025-03-28T15:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172179704.5626936283",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776979,
+                    "expires_date": "2025-04-04T14:29:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pbid",
+                    "value": "b6ac70a211278bff54b3bbeadde62a4193655caba53557924db77bc01d073d25",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1758724225,
+                    "expires_date": "2025-09-24T14:30:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172179704.5626936283",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1750948232,
+                    "expires_date": "2025-06-26T14:30:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1032714398.1743172181",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732225.267049,
+                    "expires_date": "2026-05-02T14:30:25.267049+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173080.864506,
+                    "expires_date": "2025-03-28T14:44:40.864506+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_wishlist_count",
+                    "value": "0",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776984.078884,
+                    "expires_date": "2025-04-04T14:29:44.078884+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wishlist_cleared_time",
+                    "value": "1743172184",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743776984.078981,
+                    "expires_date": "2025-04-04T14:29:44.078981+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wp_woocommerce_session_f5ab13d06f2bc89bade3c7666691f56a",
+                    "value": "t_6ac6b7af142d54db53bb09a293731f%7C%7C1743344986%7C%7C1743341386%7C%7Ce75a6213dc2efe2b335cbf43c0c2b64e",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743344986.336936,
+                    "expires_date": "2025-03-30T14:29:46.336936+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708206,
+                    "expires_date": "2026-03-28T14:30:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "22",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708206,
+                    "expires_date": "2026-03-28T14:30:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708207,
+                    "expires_date": "2026-03-28T14:30:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "0099f6ad-3841-45eb-93d3-6c2191ae72c92ae040",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777732230.162912,
+                    "expires_date": "2026-05-02T14:30:30.162912+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "dbc90148-1835-4a9a-9943-67e95feb357da15721",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708230,
+                    "expires_date": "2026-03-28T14:30:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "8b588ea3-c71f-496a-8085-e1a4a2f9a84e328270",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743174030,
+                    "expires_date": "2025-03-28T15:00:30+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_recently_viewed_products",
+                    "value": "33896%7C33935%7C8720862511409",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D3%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fnakupovanje.net%2Fvsi-oddelki%2Fosebna-nega%2Fdepilatorji%2Fphilips-bre235-00-depilator%2F",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743174024,
+                    "expires_date": "2025-03-28T15:00:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNelV6Tm1FMk4yTXROamhqWkMwME16aGpMV0V5TVRFdFlXSmlNVEEyTXpnelpqVmkiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNzIxODAsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vbmFrdXBvdmFuamUubmV0LyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE3MjIyNSwidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly9uYWt1cG92YW5qZS5uZXQvIn19",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732224.736462,
+                    "expires_date": "2026-05-02T14:30:24.736462+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_5QKNJ3M9FT",
+                    "value": "GS1.1.1743172180.1.1.1743172233.7.0.0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732233.04449,
+                    "expires_date": "2026-05-02T14:30:33.044490+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke\n\t\t\n\t\t\t\n\t\t\n\t\n\n\t\n\t\n\t\tZa funkcionalnost strani se uporablja piškotke v skladu z zakonodajo. Z obveznimi piškotki se strinjate avtomatsko, analitične in oglaševalske pa lahko izberete spodaj.\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFunkcionalnosti\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tFunkcionalnosti\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tVedno omogočeni\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTehnična hramba oziroma dostop je nujno potreben za zakonit namen omogočanja uporabe določene storitve, ki jo naročnik ali uporabnik izrecno zahteva, ali izključno za namen izvajanja prenosa komunikacije po elektronskem komunikacijskem omrežju.\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tPreferences\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tPreferences\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tThe technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tStatistika\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tStat",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Zavrni]  \nAmbiguousLabel1: [Dovoli]  \nAmbiguousLabel2: None  \nGenericLabel3: [Poglej vse]  \nExplanation: The button \"Zavrni\" is categorized under GenericLabel2 as it indicates declining all cookies. \"Dovoli\" is considered an ambiguous acceptance, placed under AmbiguousLabel1. \"Poglej vse\" implies an action related to settings or managing options, thus classified under GenericLabel3. GenericLabel1 remains empty as there is no button for accepting all cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Poglej vse",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Zavrni\" is categorized under GenericLabel2 as it indicates declining all cookies. \"Dovoli\" is considered an ambiguous acceptance, placed under AmbiguousLabel1. \"Poglej vse\" implies an action related to settings or managing options, thus classified under GenericLabel3. GenericLabel1 remains empty as there is no button for accepting all cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T15:29:38.489466",
+        "timestamp_stop": "2025-03-28T15:30:38.939157"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://nakupovanje.net/",
+            "https://nakupovanje.net/vsi-oddelki/osebna-nega/philips-bre700-00-depilator/",
+            "https://nakupovanje.net/vsi-oddelki/osebna-nega/depilatorji/philips-bre235-00-depilator/",
+            "https://nakupovanje.net/wp-content/uploads/2024/06/BRE700-00_3.jpg"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypNglu_dxkIgURCp60ryUdG8dkrCkaJMMRuFScv39qR-mPpc4mmrZG8lZ36gipsnD1S4xRnFwm5NXM8AyQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724243.267772,
+                    "expires_date": "2025-09-24T14:30:43.267772+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2014%3A30%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2014%3A30%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fnakupovanje.net%2F",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743174041,
+                    "expires_date": "2025-03-28T15:00:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743175841,
+                    "expires_date": "2025-03-28T15:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172241708.7700058927",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJaV0V3TkRVd09HTXROall5TUMwME56VTNMVGd5Tm1NdFl6SmtaVGRqT1dVMU16TTQiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNzIyNDIsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vbmFrdXBvdmFuamUubmV0LyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE3MjI0MiwidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly9uYWt1cG92YW5qZS5uZXQvIn19",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732241.760183,
+                    "expires_date": "2026-05-02T14:30:41.760183+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pbid",
+                    "value": "2d44bce1936e88a5ba18a41f3dd3d0ee32f040dca3a87ebc41c934de0fa278b1",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1758724242,
+                    "expires_date": "2025-09-24T14:30:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172241708.7700058927",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1750948242,
+                    "expires_date": "2025-06-26T14:30:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_5QKNJ3M9FT",
+                    "value": "GS1.1.1743172242.1.0.1743172242.60.0.0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732242.55494,
+                    "expires_date": "2026-05-02T14:30:42.554940+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1236982056.1743172243",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732242.555541,
+                    "expires_date": "2026-05-02T14:30:42.555541+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173142.690562,
+                    "expires_date": "2025-03-28T14:45:42.690562+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypNglu_dxkIgURCp60ryUdG8dkrCkaJMMRuFScv39qR-mPpc4mmrZG8lZ36gipsnD1S4xRnFwm5NXM8AyQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724243.267772,
+                    "expires_date": "2025-09-24T14:30:43.267772+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2014%3A30%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2014%3A30%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fnakupovanje.net%2F",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743174041,
+                    "expires_date": "2025-03-28T15:00:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743175841,
+                    "expires_date": "2025-03-28T15:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172241708.7700058927",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJaV0V3TkRVd09HTXROall5TUMwME56VTNMVGd5Tm1NdFl6SmtaVGRqT1dVMU16TTQiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNzIyNDIsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vbmFrdXBvdmFuamUubmV0LyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE3MjI0MiwidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly9uYWt1cG92YW5qZS5uZXQvIn19",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732241.760183,
+                    "expires_date": "2026-05-02T14:30:41.760183+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pbid",
+                    "value": "2d44bce1936e88a5ba18a41f3dd3d0ee32f040dca3a87ebc41c934de0fa278b1",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1758724242,
+                    "expires_date": "2025-09-24T14:30:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172241708.7700058927",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1750948271,
+                    "expires_date": "2025-06-26T14:31:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_5QKNJ3M9FT",
+                    "value": "GS1.1.1743172242.1.0.1743172242.60.0.0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732242.55494,
+                    "expires_date": "2026-05-02T14:30:42.554940+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1236982056.1743172243",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732242.555541,
+                    "expires_date": "2026-05-02T14:30:42.555541+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173142.690562,
+                    "expires_date": "2025-03-28T14:45:42.690562+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_wishlist_count",
+                    "value": "0",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777047.434807,
+                    "expires_date": "2025-04-04T14:30:47.434807+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wishlist_cleared_time",
+                    "value": "1743172247",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777047.434896,
+                    "expires_date": "2025-04-04T14:30:47.434896+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wp_woocommerce_session_f5ab13d06f2bc89bade3c7666691f56a",
+                    "value": "t_51cb46f859011397d1393566dd7506%7C%7C1743345049%7C%7C1743341449%7C%7C52d58aad3c6a839f16f322d09205a047",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743345049.340542,
+                    "expires_date": "2025-03-30T14:30:49.340542+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_recently_viewed_products",
+                    "value": "8720862511409",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "22",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "deny",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "deny",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "deny",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypMk7C0jzLltspHQkHOn1NZQJ5YUe2iGVOVgA-P8Mc1-G3kzRF8ka1D1V2HzcEj_IbTlWUuA1hwJFhKzxk",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724288.522973,
+                    "expires_date": "2025-09-24T14:31:28.522973+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2014%3A30%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2014%3A30%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fnakupovanje.net%2F%7C%7C%7Crf%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743175841,
+                    "expires_date": "2025-03-28T15:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://nakupovanje.net/",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172241708.7700058927",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777041,
+                    "expires_date": "2025-04-04T14:30:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pbid",
+                    "value": "2d44bce1936e88a5ba18a41f3dd3d0ee32f040dca3a87ebc41c934de0fa278b1",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1758724287,
+                    "expires_date": "2025-09-24T14:31:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172241708.7700058927",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1750948294,
+                    "expires_date": "2025-06-26T14:31:34+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1236982056.1743172243",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732287.553464,
+                    "expires_date": "2026-05-02T14:31:27.553464+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173142.690562,
+                    "expires_date": "2025-03-28T14:45:42.690562+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_wishlist_count",
+                    "value": "0",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777047.434807,
+                    "expires_date": "2025-04-04T14:30:47.434807+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wishlist_cleared_time",
+                    "value": "1743172247",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743777047.434896,
+                    "expires_date": "2025-04-04T14:30:47.434896+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wp_woocommerce_session_f5ab13d06f2bc89bade3c7666691f56a",
+                    "value": "t_51cb46f859011397d1393566dd7506%7C%7C1743345049%7C%7C1743341449%7C%7C52d58aad3c6a839f16f322d09205a047",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743345049.340542,
+                    "expires_date": "2025-03-30T14:30:49.340542+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "22",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "deny",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "deny",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "deny",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708269,
+                    "expires_date": "2026-03-28T14:31:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "5b0bbebd-6b98-4089-abe6-7f3b9799610735dc02",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777732292.462302,
+                    "expires_date": "2026-05-02T14:31:32.462302+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "769c1366-ba7a-460b-863e-17cd64bdb78c066d58",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1774708292,
+                    "expires_date": "2026-03-28T14:31:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "a50b238c-47d5-401b-b982-ca430585db6a1c36e0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743174092,
+                    "expires_date": "2025-03-28T15:01:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woodmart_recently_viewed_products",
+                    "value": "33896%7C33935%7C8720862511409",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D3%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fnakupovanje.net%2Fvsi-oddelki%2Fosebna-nega%2Fdepilatorji%2Fphilips-bre235-00-depilator%2F",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1743174086,
+                    "expires_date": "2025-03-28T15:01:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJaV0V3TkRVd09HTXROall5TUMwME56VTNMVGd5Tm1NdFl6SmtaVGRqT1dVMU16TTQiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxNzIyNDIsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vbmFrdXBvdmFuamUubmV0LyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE3MjI4NywidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly9uYWt1cG92YW5qZS5uZXQvIn19",
+                    "domain": "nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732287.046579,
+                    "expires_date": "2026-05-02T14:31:27.046579+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_5QKNJ3M9FT",
+                    "value": "GS1.1.1743172242.1.1.1743172295.7.0.0",
+                    "domain": ".nakupovanje.net",
+                    "path": "/",
+                    "expires": 1777732295.325466,
+                    "expires_date": "2026-05-02T14:31:35.325466+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke\n\t\t\n\t\t\t\n\t\t\n\t\n\n\t\n\t\n\t\tZa funkcionalnost strani se uporablja piškotke v skladu z zakonodajo. Z obveznimi piškotki se strinjate avtomatsko, analitične in oglaševalske pa lahko izberete spodaj.\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFunkcionalnosti\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tFunkcionalnosti\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tVedno omogočeni\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTehnična hramba oziroma dostop je nujno potreben za zakonit namen omogočanja uporabe določene storitve, ki jo naročnik ali uporabnik izrecno zahteva, ali izključno za namen izvajanja prenosa komunikacije po elektronskem komunikacijskem omrežju.\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tPreferences\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tPreferences\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tThe technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tStatistika\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tStat",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Dovoli]\nAmbiguousLabel2: None\nGenericLabel3: [Poglej vse]\nExplanation: \"Zavrni\" is categorized as declining all cookies. \"Dovoli\" is an ambiguous phrase that signifies accepting, and \"Poglej vse\" relates to managing settings or more information, thus categorized under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Poglej vse",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Zavrni\" is categorized as declining all cookies. \"Dovoli\" is an ambiguous phrase that signifies accepting, and \"Poglej vse\" relates to managing settings or more information, thus categorized under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T15:30:40.478760",
+        "timestamp_stop": "2025-03-28T15:31:41.230673"
+    }
+}

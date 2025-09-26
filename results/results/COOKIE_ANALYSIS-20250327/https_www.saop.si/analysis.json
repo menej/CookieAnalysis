@@ -1,0 +1,1537 @@
+{
+    "web_page": "https://www.saop.si",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T07:16:03.024960",
+    "timestamp_stop": "2025-03-28T07:18:28.654242",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.saop.si",
+            "https://www.saop.si#lang-popup",
+            "https://www.saop.si/sl-si/place",
+            "https://www.saop.si/sl-si/prijava-na-novice"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "76e444b408027d37b0c829dd6b055d74",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "css-cached-cookie",
+                    "value": "a768010caf78da97b68ffe4a1f3f75e50790c31bi%3A1%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1743747364.676262,
+                    "expires_date": "2025-04-04T06:16:04.676262+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_nJ3AAqWAKQwTImJCahTACEQVGiiqsA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352165,
+                    "expires_date": "2025-04-11T06:16:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcvc",
+                    "value": "__s65_s23_s135_s1409_s905_c50281_c21683__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352165,
+                    "expires_date": "2025-04-11T06:16:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcpc",
+                    "value": "__51__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352165,
+                    "expires_date": "2025-04-11T06:16:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lang",
+                    "value": "343011e05333678de43187ef42254aa57d10ec52s%3A5%3A%22sl-si%22%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1774678565.952336,
+                    "expires_date": "2026-03-28T06:16:05.952336+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "76e444b408027d37b0c829dd6b055d74",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "css-cached-cookie",
+                    "value": "a768010caf78da97b68ffe4a1f3f75e50790c31bi%3A1%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1743747364.676262,
+                    "expires_date": "2025-04-04T06:16:04.676262+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcvc",
+                    "value": "__s65_s23_s135_s1409_s905_c50281_c21683__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352185,
+                    "expires_date": "2025-04-11T06:16:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcpc",
+                    "value": "__51__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352185,
+                    "expires_date": "2025-04-11T06:16:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "9OOuec8hX75NPr5MDR8qfg.G4ohdjkvtlmo9ckdTQec-1743142585-1.0.1.1-FOi.TQOkxK6._ZTYRLkzfVwjslqNb0b_av1rTr7iQEE9Ndirm2GbBe.jYNEep2P587FqC529fe0ZeOCMBbgrQmE0MUn5epqE2GvCRNyFVjA",
+                    "domain": ".hsforms.net",
+                    "path": "/",
+                    "expires": 1743144385.360773,
+                    "expires_date": "2025-03-28T06:46:25.360773+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_nM-AAqWAKQwTImJCahTACEQVGiiqsA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352185,
+                    "expires_date": "2025-04-11T06:16:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lang",
+                    "value": "343011e05333678de43187ef42254aa57d10ec52s%3A5%3A%22sl-si%22%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1774678585.601076,
+                    "expires_date": "2026-03-28T06:16:25.601076+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "pIzchonsjLgNzKnjGgbN5rEcBlkNloPL2VMcT2UkoB8-1743142586-1.0.1.1-tYWFfWYW7pjGUUceZNPNIIT__UxapU38xC16i4r8g530ZtxGzWr.uy.WR1Vl2mQ_vlSQylmQibYqtQoliwPY5LogGSOhSfYRDRp4Mk351ZI",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": 1743144386.006953,
+                    "expires_date": "2025-03-28T06:46:26.006953+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "302Bv3ax6Hxd38OQbAqe0dYsNFjVIVexG3LNgTmeZQ8-1743142586031-0.0.1.1-604800000",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T07:16:04.320805",
+        "timestamp_stop": "2025-03-28T07:16:32.090846"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.saop.si",
+            "https://www.saop.si#lang-popup",
+            "https://www.saop.si/sl-si/place",
+            "https://www.saop.si/sl-si/prijava-na-novice"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "edff273b0b194f6ce63aade990381c14",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "css-cached-cookie",
+                    "value": "a768010caf78da97b68ffe4a1f3f75e50790c31bi%3A1%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1743747394.052051,
+                    "expires_date": "2025-04-04T06:16:34.052051+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_nOdAAqWAKQwTImJCahTACEQVGiiqsA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352194,
+                    "expires_date": "2025-04-11T06:16:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcvc",
+                    "value": "__s65_s23_s135_s1409_s905_c50281_c21683__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352194,
+                    "expires_date": "2025-04-11T06:16:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcpc",
+                    "value": "__51__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352194,
+                    "expires_date": "2025-04-11T06:16:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lang",
+                    "value": "343011e05333678de43187ef42254aa57d10ec52s%3A5%3A%22sl-si%22%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1774678595.314194,
+                    "expires_date": "2026-03-28T06:16:35.314194+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "edff273b0b194f6ce63aade990381c14",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpconsent24370",
+                    "value": "CQO-nRgQO-nRgAfXpBSLBjFgAAAAAAAAAAigAAAAAAAA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1774678627,
+                    "expires_date": "2026-03-28T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_nThgBaXmAU0YGMIyJiQmoU1JRksAIRBUaKKqwA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1774678627,
+                    "expires_date": "2026-03-28T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcvc",
+                    "value": "__s65_s23_s1_s26_s2612_s135_s1409_s905_s10_s2643_c50281_c21683_U__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1774678627,
+                    "expires_date": "2026-03-28T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcpc",
+                    "value": "__51_52_54__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1774678627,
+                    "expires_date": "2026-03-28T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743143527.511944,
+                    "expires_date": "2025-03-28T06:32:07.511944+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpconsent24370",
+                    "value": "CQO-nRgQO-nRgAfXpBSLBjFgAAAAAAAAAAigAAAAAAAA",
+                    "domain": ".consentmanager.net",
+                    "path": "/",
+                    "expires": 1774678627.530201,
+                    "expires_date": "2026-03-28T06:17:07.530201+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_nThgBaXmAU0YGMIyJiQmoU1JRksAIRBUaKKqwA",
+                    "domain": ".consentmanager.net",
+                    "path": "/",
+                    "expires": 1774678627.530325,
+                    "expires_date": "2026-03-28T06:17:07.530325+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "yyre9dYwFLfpTsXonnRu1ezOgSe..K7FJZ1kud6snx4-1743142627-1.0.1.1-JarEAtlssk82IbxVZ6TzlSygE34QXAejQo7LuQ9QXNLX9tVHrszovFnvOijnbQHwS6yTYDoyoBBXSR7_fyv7LkngYm2xhtOIvkWuMSaKIdQ",
+                    "domain": ".hs-scripts.com",
+                    "path": "/",
+                    "expires": 1743144427.735645,
+                    "expires_date": "2025-03-28T06:47:07.735645+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "hN7JCBqEdxBhxGJH7do20OkSWglg0raa88jBlC085zc-1743142627-1.0.1.1-7rXqhQ0Ku.PsdpXjMnDJl.bKzzhI4yhmU6kwlOJ3XcjZqWRZVZrL39TLdKSmGLXx8uAFNZoeURIK8CJHrk02tdY4oLTZbJt5TGhCsP4ukeo",
+                    "domain": ".hs-banner.com",
+                    "path": "/",
+                    "expires": 1743144427.812797,
+                    "expires_date": "2025-03-28T06:47:07.812797+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "DXKnCNEmZEBqxs3jPVoRl5eBJIra.wyjHFrYdJZH900-1743142627-1.0.1.1-6iCCzigysLzMyPkgBZdrFZg2HdmYJFpbA0NlLRXoi2aZxs0CPDZEDq5eBmo.5Kb0d6jSqgmTmwmnMIEfX7h1gX8Fa2RvHI4a7KVI056ldbw",
+                    "domain": ".hs-analytics.net",
+                    "path": "/",
+                    "expires": 1743144427.822456,
+                    "expires_date": "2025-03-28T06:47:07.822456+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__hstc",
+                    "value": "47521016.082cbe403db5bb0451af46098c77460c.1743142627835.1743142627835.1743142627835.1",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1758694627,
+                    "expires_date": "2025-09-24T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "hubspotutk",
+                    "value": "082cbe403db5bb0451af46098c77460c",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1758694627,
+                    "expires_date": "2025-09-24T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__hssrc",
+                    "value": "1",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__hssc",
+                    "value": "47521016.1.1743142627835",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1743144427,
+                    "expires_date": "2025-03-28T06:47:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Z8K.DgkdNcv2CwbKraSZUX8lw9InXT_ZAEeCFch81sE-1743142627-1.0.1.1-BjWBkYjXAxRW_ypbkW6GlaRJGUR1vpiaVw91rug65Sl0HvCXrBXWXbEFDUXu6ldpbmjJlF6EdqwkKi48LgUd3OBjtx6LNGH66ehKhd.DdSY",
+                    "domain": ".usemessages.com",
+                    "path": "/",
+                    "expires": 1743144427.841435,
+                    "expires_date": "2025-03-28T06:47:07.841435+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "g7TujLonHEuj4oGPIi02tf2TMmjdzNta5TCHqm7glYQ-1743142627-1.0.1.1-Wfh1uOMK04n8T2ql6MN7CzSpkrbHEDHQAgTHBeisxBz3rmxkZ70vREnBKPtudmOAriGPhFeozuXRNj4Ma.lj7dPfaFwbBqpq.O79Q54aFj0",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": 1743144427.942657,
+                    "expires_date": "2025-03-28T06:47:07.942657+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "eZpcy4qj.Qm1KtomoABgkZpgDiQ6dCSOuh8qSRNFuYc-1743142627968-0.0.1.1-604800000",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "edff273b0b194f6ce63aade990381c14",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpconsent24370",
+                    "value": "CQO-nRgQO-nRgAfXpBSLBjFgAAAAAAAAAAigAAAAAAAA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1774678627,
+                    "expires_date": "2026-03-28T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_nThgBaXmAU0YGMIyJiQmoU1JRksAIRBUaKKqwA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1774678627,
+                    "expires_date": "2026-03-28T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcvc",
+                    "value": "__s65_s23_s1_s26_s2612_s135_s1409_s905_s10_s2643_c50281_c21683_U__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1774678627,
+                    "expires_date": "2026-03-28T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcpc",
+                    "value": "__51_52_54__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1774678627,
+                    "expires_date": "2026-03-28T06:17:07+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpconsent24370",
+                    "value": "CQO-nRgQO-nRgAfXpBSLBjFgAAAAAAAAAAigAAAAAAAA",
+                    "domain": ".consentmanager.net",
+                    "path": "/",
+                    "expires": 1774678627.530201,
+                    "expires_date": "2026-03-28T06:17:07.530201+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_nThgBaXmAU0YGMIyJiQmoU1JRksAIRBUaKKqwA",
+                    "domain": ".consentmanager.net",
+                    "path": "/",
+                    "expires": 1774678627.530325,
+                    "expires_date": "2026-03-28T06:17:07.530325+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "yyre9dYwFLfpTsXonnRu1ezOgSe..K7FJZ1kud6snx4-1743142627-1.0.1.1-JarEAtlssk82IbxVZ6TzlSygE34QXAejQo7LuQ9QXNLX9tVHrszovFnvOijnbQHwS6yTYDoyoBBXSR7_fyv7LkngYm2xhtOIvkWuMSaKIdQ",
+                    "domain": ".hs-scripts.com",
+                    "path": "/",
+                    "expires": 1743144427.735645,
+                    "expires_date": "2025-03-28T06:47:07.735645+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "hN7JCBqEdxBhxGJH7do20OkSWglg0raa88jBlC085zc-1743142627-1.0.1.1-7rXqhQ0Ku.PsdpXjMnDJl.bKzzhI4yhmU6kwlOJ3XcjZqWRZVZrL39TLdKSmGLXx8uAFNZoeURIK8CJHrk02tdY4oLTZbJt5TGhCsP4ukeo",
+                    "domain": ".hs-banner.com",
+                    "path": "/",
+                    "expires": 1743144427.812797,
+                    "expires_date": "2025-03-28T06:47:07.812797+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "DXKnCNEmZEBqxs3jPVoRl5eBJIra.wyjHFrYdJZH900-1743142627-1.0.1.1-6iCCzigysLzMyPkgBZdrFZg2HdmYJFpbA0NlLRXoi2aZxs0CPDZEDq5eBmo.5Kb0d6jSqgmTmwmnMIEfX7h1gX8Fa2RvHI4a7KVI056ldbw",
+                    "domain": ".hs-analytics.net",
+                    "path": "/",
+                    "expires": 1743144427.822456,
+                    "expires_date": "2025-03-28T06:47:07.822456+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Z8K.DgkdNcv2CwbKraSZUX8lw9InXT_ZAEeCFch81sE-1743142627-1.0.1.1-BjWBkYjXAxRW_ypbkW6GlaRJGUR1vpiaVw91rug65Sl0HvCXrBXWXbEFDUXu6ldpbmjJlF6EdqwkKi48LgUd3OBjtx6LNGH66ehKhd.DdSY",
+                    "domain": ".usemessages.com",
+                    "path": "/",
+                    "expires": 1743144427.841435,
+                    "expires_date": "2025-03-28T06:47:07.841435+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "g7TujLonHEuj4oGPIi02tf2TMmjdzNta5TCHqm7glYQ-1743142627-1.0.1.1-Wfh1uOMK04n8T2ql6MN7CzSpkrbHEDHQAgTHBeisxBz3rmxkZ70vREnBKPtudmOAriGPhFeozuXRNj4Ma.lj7dPfaFwbBqpq.O79Q54aFj0",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": 1743144427.942657,
+                    "expires_date": "2025-03-28T06:47:07.942657+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "eZpcy4qj.Qm1KtomoABgkZpgDiQ6dCSOuh8qSRNFuYc-1743142627968-0.0.1.1-604800000",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUllvJiEZiCP-R0SzMcHEc8gc0E--Aaq46gzRZRyIdw0wT8k92XWsmj6j3RG",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776838639.178219,
+                    "expires_date": "2026-04-22T06:17:19.178219+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "ie8yui9rw3auGxq7G_HgpkREli0R0Ex78Bmv0nFoUqo-1743142645-1.0.1.1-BXAk.3XNuYVOrCOwqAXx3YDvXAu8xquOWtkP09UXMK3Hn1ITSLJNJJb64fIuO0E.y7sTGDBt9X60izoMctzYIrUmAm1Rsfipd0AizTjIN2M",
+                    "domain": ".hsforms.net",
+                    "path": "/",
+                    "expires": 1743144445.757626,
+                    "expires_date": "2025-03-28T06:47:25.757626+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1255910340.1743142646",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1750918645,
+                    "expires_date": "2025-06-26T06:17:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1693922515.1743142646",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1777702646.027589,
+                    "expires_date": "2026-05-02T06:17:26.027589+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": ".DB6Sg4AzUVQR5mQRFrA4_YAGxLP1LZlRi0nMbpa8LI-1743142646-1.0.1.1-IE4H8bI1HPKdzWJgUvi5FhGAYsqprpcXEnkRyZyS8mXEoxi1PKRIV5gj4qPrUeoNYza06KvyME_6wflhKRqy5tc1EjManp.nJ6RuoRVVmJU",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": 1743144446.500266,
+                    "expires_date": "2025-03-28T06:47:26.500266+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "xAhD1_GWQKzo8B.wvlxsA.__AIn4GzFru2yTXz5tyyw-1743142646525-0.0.1.1-604800000",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__hstc",
+                    "value": "47521016.ac010b68fcfae25f84511de896717819.1743142646516.1743142646516.1743142646516.1",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1758694646,
+                    "expires_date": "2025-09-24T06:17:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "hubspotutk",
+                    "value": "ac010b68fcfae25f84511de896717819",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1758694646,
+                    "expires_date": "2025-09-24T06:17:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__hssrc",
+                    "value": "1",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__hssc",
+                    "value": "47521016.1.1743142646516",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1743144446,
+                    "expires_date": "2025-03-28T06:47:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "lang",
+                    "value": "343011e05333678de43187ef42254aa57d10ec52s%3A5%3A%22sl-si%22%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1774678646.566929,
+                    "expires_date": "2026-03-28T06:17:26.566929+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_1FBZBVR8C5",
+                    "value": "GS1.1.1743142646.1.0.1743142652.54.0.0",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1777702652.094955,
+                    "expires_date": "2026-05-02T06:17:32.094955+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Cenimo vašo zasebnost.To spletno mesto uporablja piškotke za zagotovitev pravilnega delovanja in izboljšanje vaše uporabniške izkušnje ter v tržne namene. Ker spoštujemo vašo pravico do zasebnosti, se lahko odločite, da nekaterih vrst piškotkov ne dovolite. Blokiranje nekaterih vrst piškotkov lahko funkcionalno omeji storitve, ki jih lahko nudimo na spletnem mestu.Sprejmi vseZavrni vseNastavitveShrani in zapriNastavitve po meri | Piškotki | Več o politiki piškotkovCookie Banner powered by consentmanager.net",
+                "banner_z_index": 9999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button \"[Sprejmi vse]\" is categorized as accepting all cookies. \"[Zavrni vse]\" is categorized as declining all cookies. \"[Nastavitve]\" is categorized under settings management. The other buttons do not fit the specified categories.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi vse\" is categorized as accepting all cookies. \"Zavrni vse\" is categorized as declining all cookies. \"Nastavitve\" is categorized under settings management. The other buttons do not fit the specified categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T07:16:33.621703",
+        "timestamp_stop": "2025-03-28T07:17:32.624858"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Zavrni vse)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.saop.si",
+            "https://www.saop.si#lang-popup",
+            "https://www.saop.si/sl-si/place",
+            "https://www.saop.si/sl-si/prijava-na-novice"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "b4e535663dd619a263ccfa7d92e7b482",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "css-cached-cookie",
+                    "value": "a768010caf78da97b68ffe4a1f3f75e50790c31bi%3A1%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1743747454.686029,
+                    "expires_date": "2025-04-04T06:17:34.686029+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_nX8AAqWAKQwTImJCahTACEQVGiiqsA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352255,
+                    "expires_date": "2025-04-11T06:17:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcvc",
+                    "value": "__s65_s23_s135_s1409_s905_c50281_c21683__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352255,
+                    "expires_date": "2025-04-11T06:17:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcpc",
+                    "value": "__51__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352255,
+                    "expires_date": "2025-04-11T06:17:35+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lang",
+                    "value": "343011e05333678de43187ef42254aa57d10ec52s%3A5%3A%22sl-si%22%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1774678656.126598,
+                    "expires_date": "2026-03-28T06:17:36.126598+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "b4e535663dd619a263ccfa7d92e7b482",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcpc",
+                    "value": "__51__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352283,
+                    "expires_date": "2025-04-11T06:18:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpconsent24370",
+                    "value": "CQO-nRgQO-nRgAfXpBSLBjFgAAAAAAAAAAigAAAAAAAA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352283,
+                    "expires_date": "2025-04-11T06:18:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_ncUgAqWAKQwTImJCahTACEQVGiiqsA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352283,
+                    "expires_date": "2025-04-11T06:18:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcvc",
+                    "value": "__s65_s23_s135_s1409_s905_c50281_c21683_U__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352283,
+                    "expires_date": "2025-04-11T06:18:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpconsent24370",
+                    "value": "CQO-nRgQO-nRgAfXpBSLBjFgAAAAAAAAAAigAAAAAAAA",
+                    "domain": ".consentmanager.net",
+                    "path": "/",
+                    "expires": 1744352283.761294,
+                    "expires_date": "2025-04-11T06:18:03.761294+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_ncUgAqWAKQwTImJCahTACEQVGiiqsA",
+                    "domain": ".consentmanager.net",
+                    "path": "/",
+                    "expires": 1744352283.761398,
+                    "expires_date": "2025-04-11T06:18:03.761398+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "b4e535663dd619a263ccfa7d92e7b482",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpcpc",
+                    "value": "__51__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352283,
+                    "expires_date": "2025-04-11T06:18:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpconsent24370",
+                    "value": "CQO-nRgQO-nRgAfXpBSLBjFgAAAAAAAAAAigAAAAAAAA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352283,
+                    "expires_date": "2025-04-11T06:18:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_ncUgAqWAKQwTImJCahTACEQVGiiqsA",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352283,
+                    "expires_date": "2025-04-11T06:18:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcvc",
+                    "value": "__s65_s23_s135_s1409_s905_c50281_c21683_U__",
+                    "domain": ".saop.si",
+                    "path": "/",
+                    "expires": 1744352283,
+                    "expires_date": "2025-04-11T06:18:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cmpconsent24370",
+                    "value": "CQO-nRgQO-nRgAfXpBSLBjFgAAAAAAAAAAigAAAAAAAA",
+                    "domain": ".consentmanager.net",
+                    "path": "/",
+                    "expires": 1744352283.761294,
+                    "expires_date": "2025-04-11T06:18:03.761294+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cmpcccu24370",
+                    "value": "aCQO_ncUgAqWAKQwTImJCahTACEQVGiiqsA",
+                    "domain": ".consentmanager.net",
+                    "path": "/",
+                    "expires": 1744352283.761398,
+                    "expires_date": "2025-04-11T06:18:03.761398+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "M9f14qdCCbRQbRrDZ1mGomapfQ_KHXGdlNT05cfvpeM-1743142701-1.0.1.1-SWUQJyBTH9dhvVxd7smYsNYVBf9Y8E8glNrRr59DJUZnzarAvx.2drs2x4lajUmIIOENbmHX4DEIQe_HKW.wbmj77euwMuL2q6bcT4W2iD0",
+                    "domain": ".hsforms.net",
+                    "path": "/",
+                    "expires": 1743144501.601438,
+                    "expires_date": "2025-03-28T06:48:21.601438+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lang",
+                    "value": "343011e05333678de43187ef42254aa57d10ec52s%3A5%3A%22sl-si%22%3B",
+                    "domain": "www.saop.si",
+                    "path": "/",
+                    "expires": 1774678701.902806,
+                    "expires_date": "2026-03-28T06:18:21.902806+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "CrtuUl5AKu5RQQvtYf2geyAFneF_JyfaCsUMXI4QRk4-1743142702-1.0.1.1-9Iro5__JyY7jS9unTozi2seKwT3zKzXozAiS2gH7onENnkLLSGJRy4HHf5.hvF_o5mSEfsueRCImPSJ0HmpQcVTsrV88iFa3TN6ddd2y7EI",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": 1743144502.290938,
+                    "expires_date": "2025-03-28T06:48:22.290938+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "Py.b4SX86FhZU5StUuBtVR_i07g09rWRpUO3OsM5xZA-1743142702317-0.0.1.1-604800000",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Cenimo vašo zasebnost.To spletno mesto uporablja piškotke za zagotovitev pravilnega delovanja in izboljšanje vaše uporabniške izkušnje ter v tržne namene. Ker spoštujemo vašo pravico do zasebnosti, se lahko odločite, da nekaterih vrst piškotkov ne dovolite. Blokiranje nekaterih vrst piškotkov lahko funkcionalno omeji storitve, ki jih lahko nudimo na spletnem mestu.Sprejmi vseZavrni vseNastavitveShrani in zapriNastavitve po meri | Piškotki | Več o politiki piškotkovCookie Banner powered by consentmanager.net",
+                "banner_z_index": 9999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button [Sprejmi vse] corresponds to accepting all cookies, so it is assigned to GenericLabel1. The button [Zavrni vse] corresponds to declining all cookies, so it is assigned to GenericLabel2. The button [Nastavitve] is related to managing settings, so it is assigned to GenericLabel3. There are no ambiguous accept or decline phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse corresponds to accepting all cookies, so it is assigned to GenericLabel1. The button Zavrni vse corresponds to declining all cookies, so it is assigned to GenericLabel2. The button Nastavitve is related to managing settings, so it is assigned to GenericLabel3. There are no ambiguous accept or decline phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T07:17:34.298725",
+        "timestamp_stop": "2025-03-28T07:18:28.361906"
+    }
+}

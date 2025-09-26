@@ -1,0 +1,2255 @@
+{
+    "web_page": "https://viva.bhc.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T01:48:58.944163",
+    "timestamp_stop": "2025-03-28T01:51:34.118864",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://viva.bhc.si/",
+            "https://viva.bhc.si/cat/3471",
+            "https://viva.bhc.si/v-zariscu/vpliv-zaslonov-na-drzo-in-telo/a/10952592",
+            "https://viva.bhc.si/strokovnjaki-odgovarjajo/tema/30894"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "bhc",
+                    "value": "b4fe13bc3694c94d2ca68284dd428588",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1745714940.902496,
+                    "expires_date": "2025-04-27T00:49:00.902496+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"b493ac88-b669-4120-aa57-2360a908cf7c\",\"ts\":1743122941417}",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774658941,
+                    "expires_date": "2026-03-28T00:49:01+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658942.207023,
+                    "expires_date": "2026-03-28T00:49:02.207023+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=574194c3-be69-4ff3-b7bb-0f6a2a87d74e&Created=03/28/2025 00:48:44&UserMode=0&guid=8f5df0c7-5f15-4be0-8216-04c1ce35ec96&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658942.207124,
+                    "expires_date": "2026-03-28T00:49:02.207124+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uvJ4ixXenzzAQLejjwhI3mBjLg",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750898941.682746,
+                    "expires_date": "2025-06-26T00:49:01.682746+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga_7GNVD6EDD5",
+                    "value": "GS1.1.923423008.1.0.1743122941.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777682941.690128,
+                    "expires_date": "2026-05-02T00:49:01.690128+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga",
+                    "value": "GA1.1.1872975998.1743122942",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777682941.69068,
+                    "expires_date": "2026-05-02T00:49:01.690680+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGEzOTQtNzQ1Zi02ZDczLTllYzctZWE1NmU4MmZiNDNkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMDA6NDk6MDEuNzY1WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDAwOjQ5OjAxLjc2NVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745341,
+                    "expires_date": "2026-03-29T00:49:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774658941,
+                    "expires_date": "2026-03-28T00:49:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".viva.bhc.si",
+                    "path": "/",
+                    "expires": 1743123002,
+                    "expires_date": "2025-03-28T00:50:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750898942,
+                    "expires_date": "2025-06-26T00:49:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQD3JJ4Y8VFM5R2S2BEXW9ME_.tt.1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750898942,
+                    "expires_date": "2025-06-26T00:49:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980SecId15269",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "bhc",
+                    "value": "b4fe13bc3694c94d2ca68284dd428588",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1745714940.902496,
+                    "expires_date": "2025-04-27T00:49:00.902496+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"b493ac88-b669-4120-aa57-2360a908cf7c\",\"ts\":1743122941417}",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774658967,
+                    "expires_date": "2026-03-28T00:49:27+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658967.319012,
+                    "expires_date": "2026-03-28T00:49:27.319012+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=574194c3-be69-4ff3-b7bb-0f6a2a87d74e&Created=03/28/2025 00:48:44&UserMode=0&guid=8f5df0c7-5f15-4be0-8216-04c1ce35ec96&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658967.3191,
+                    "expires_date": "2026-03-28T00:49:27.319100+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uvJ4ixXenzzAQLejjwhI3mBjLg",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750898967.028251,
+                    "expires_date": "2025-06-26T00:49:27.028251+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga_7GNVD6EDD5",
+                    "value": "GS1.1.923423008.1.0.1743122941.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777682941.690128,
+                    "expires_date": "2026-05-02T00:49:01.690128+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga",
+                    "value": "GA1.1.1872975998.1743122942",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777682941.69068,
+                    "expires_date": "2026-05-02T00:49:01.690680+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGEzOTQtNzQ1Zi02ZDczLTllYzctZWE1NmU4MmZiNDNkIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMDA6NDk6MDEuNzY1WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDAwOjQ5OjAxLjc2NVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745341,
+                    "expires_date": "2026-03-29T00:49:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".viva.bhc.si",
+                    "path": "/",
+                    "expires": 1743123002,
+                    "expires_date": "2025-03-28T00:50:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750898967,
+                    "expires_date": "2025-06-26T00:49:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQD3JJ4Y8VFM5R2S2BEXW9ME_.tt.1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750898967,
+                    "expires_date": "2025-06-26T00:49:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980SecId15269",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "regwall",
+                    "value": "a%3D10952592%3Bt%3D1743122941",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777682958.739486,
+                    "expires_date": "2026-05-02T00:49:18.739486+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "3pVxOt4E4GMzV7_DtRqde0DVeexCIe9NGx_HRvKaZck-1743122942-1.0.1.1-oLY_DQecHvWP4PpRmV5OSlFCNfJLx5zfcuL5ngJ7D4XWVX4m_B9.NX5Wudvev1wqe.T587BpkGoUhfF8DC8eyiD4mTnl1J.5e1oQUHbr2zg",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743124759.537831,
+                    "expires_date": "2025-03-28T01:19:19.537831+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774658967,
+                    "expires_date": "2026-03-28T00:49:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T01:49:00.365178",
+        "timestamp_stop": "2025-03-28T01:49:34.527209"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse in zapri)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://viva.bhc.si/",
+            "https://viva.bhc.si/cat/3471",
+            "https://viva.bhc.si/strokovnjaki-odgovarjajo/tema/30904",
+            "https://viva.bhc.si/v-zariscu/vpliv-zaslonov-na-drzo-in-telo/a/10952592"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "bhc",
+                    "value": "e38d27aad37f68abb33317b28e902e43",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1745714976.625548,
+                    "expires_date": "2025-04-27T00:49:36.625548+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"8908b552-1a23-4efe-8594-5ab376a49509\",\"ts\":1743122977092}",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774658977,
+                    "expires_date": "2026-03-28T00:49:37+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658977.803669,
+                    "expires_date": "2026-03-28T00:49:37.803669+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=7dfd00c2-3d14-4fc0-b0c3-913b358bc700&Created=03/28/2025 00:49:20&UserMode=0&guid=5888c14b-288c-47b3-94f7-d6aa001b146b&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774658977.803772,
+                    "expires_date": "2026-03-28T00:49:37.803772+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774658977,
+                    "expires_date": "2026-03-28T00:49:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga_7GNVD6EDD5",
+                    "value": "GS1.1.923423024.1.0.1743122977.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777682977.289703,
+                    "expires_date": "2026-05-02T00:49:37.289703+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga",
+                    "value": "GA1.1.59132131.1743122977",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777682977.290329,
+                    "expires_date": "2026-05-02T00:49:37.290329+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGEzOWQtMzE2Ny02YjVmLTkzYTktODJmMjAwMTNlMGQ5IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMDA6NDk6MzcuNTU4WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDAwOjQ5OjM3LjU1OFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745377,
+                    "expires_date": "2026-03-29T00:49:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".viva.bhc.si",
+                    "path": "/",
+                    "expires": 1743123037,
+                    "expires_date": "2025-03-28T00:50:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980SecId15269",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uvJ9DSywikdU8mtv30YU7m9gHQ",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750898977.807914,
+                    "expires_date": "2025-06-26T00:49:37.807914+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750898977,
+                    "expires_date": "2025-06-26T00:49:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQD3KN41JMWTD9DJPRHBQVPX_.tt.1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750898977,
+                    "expires_date": "2025-06-26T00:49:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "bhc",
+                    "value": "e38d27aad37f68abb33317b28e902e43",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1745714976.625548,
+                    "expires_date": "2025-04-27T00:49:36.625548+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"8908b552-1a23-4efe-8594-5ab376a49509\",\"ts\":1743122977092}",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659006,
+                    "expires_date": "2026-03-28T00:50:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659007.06051,
+                    "expires_date": "2026-03-28T00:50:07.060510+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=7dfd00c2-3d14-4fc0-b0c3-913b358bc700&Created=03/28/2025 00:49:20&UserMode=0&guid=5888c14b-288c-47b3-94f7-d6aa001b146b&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659007.060588,
+                    "expires_date": "2026-03-28T00:50:07.060588+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659006,
+                    "expires_date": "2026-03-28T00:50:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga",
+                    "value": "GA1.1.59132131.1743122977",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683006.902882,
+                    "expires_date": "2026-05-02T00:50:06.902882+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".viva.bhc.si",
+                    "path": "/",
+                    "expires": 1743123037,
+                    "expires_date": "2025-03-28T00:50:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980SecId15269",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uvJ9DSywikdU8mtv30YU7m9gHQ",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750899006.629628,
+                    "expires_date": "2025-06-26T00:50:06.629628+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899006,
+                    "expires_date": "2025-06-26T00:50:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQD3KN41JMWTD9DJPRHBQVPX_.tt.1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899006,
+                    "expires_date": "2025-06-26T00:50:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGEzOWQtMzE2Ny02YjVmLTkzYTktODJmMjAwMTNlMGQ5IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMDA6NDk6MzcuNTU4WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDAwOjUwOjA1Ljc2M1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6YW1wbGl0dWRlIiwiYzp5b3V0dWJlIiwiYzpwdXJlLWNoYXQiLCJjOnRpa3Rvay1LWkFVUUxaOSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpkaWRvbWkiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyIsImdlb2xvY2F0aW9uX2RhdGEiXX0sInZlbmRvcnNfbGkiOnsiZW5hYmxlZCI6WyJnb29nbGUiLCJjOnlvdXR1YmUiLCJjOmZpc3RuZXRkLURHR0dxZnhLIiwiYzpjYXNuaWtmaW4tUWg3Wm5qQlUiLCJjOnRyaW5pdHlhdS1WdFdpSmJHYSIsImM6dmltZW8tNmFNRUJXclYiLCJjOnNvdW5kY2xvdWQtZTM5bkFNM1YiXX0sInZlcnNpb24iOjIsImFjIjoiQ2xhQUVBRmtGS3dBLkNsYUFFQUZrRkt3QSJ9",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745405,
+                    "expires_date": "2026-03-29T00:50:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFsAP_gAEPgACRAJsQBAF5gMkAgKBNgE2IAgAywF5gMkAmwAAAA.f_wACHwAAAAA",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745405,
+                    "expires_date": "2026-03-29T00:50:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.190477256.1743123006",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899006,
+                    "expires_date": "2025-06-26T00:50:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_cookies",
+                    "value": "accept%3Dall%7Cdatetime%3D2025-03-28%2001%3A50%3A05%7Cip%3D89.143.171.215%7Cdomain%3D.bhc.si",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774659005,
+                    "expires_date": "2026-03-28T00:50:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.59132131.1743122977",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683006.679988,
+                    "expires_date": "2026-05-02T00:50:06.679988+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743123006270.573765680291831132",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899006,
+                    "expires_date": "2025-06-26T00:50:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_1234567890",
+                    "value": "GS1.1.1743123006.1.1.1743123006.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683006.679671,
+                    "expires_date": "2026-05-02T00:50:06.679671+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmdvqmPciheMg0KrSw46wEDorFioLLkYUlAxroCsi5Yh2UGfPpOVlfqqoM1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776819006.87023,
+                    "expires_date": "2026-04-22T00:50:06.870230+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga_7GNVD6EDD5",
+                    "value": "GS1.1.923423024.1.1.1743123006.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683006.902521,
+                    "expires_date": "2026-05-02T00:50:06.902521+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=aab167b5b05490e4:T=1743122990:RT=1743122990:S=ALNI_MbAc8q6KY9u8fALAlqkz8Ry8DUJDw",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1776818990,
+                    "expires_date": "2026-04-22T00:49:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072e27275eb:T=1743122990:RT=1743122990:S=ALNI_Mb15gRKh3_rligW6Z8hNDkO0miaEQ",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1776818990,
+                    "expires_date": "2026-04-22T00:49:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=816d7ac17c4aff3e:T=1743122990:RT=1743122990:S=AA-AfjYruRcas-Y8PBD6HdzH3c8q",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1758674990,
+                    "expires_date": "2025-09-24T00:49:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "bhc",
+                    "value": "e38d27aad37f68abb33317b28e902e43",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1745714976.625548,
+                    "expires_date": "2025-04-27T00:49:36.625548+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"8908b552-1a23-4efe-8594-5ab376a49509\",\"ts\":1743122977092}",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659029,
+                    "expires_date": "2026-03-28T00:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659029.790597,
+                    "expires_date": "2026-03-28T00:50:29.790597+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=7dfd00c2-3d14-4fc0-b0c3-913b358bc700&Created=03/28/2025 00:49:20&UserMode=0&guid=5888c14b-288c-47b3-94f7-d6aa001b146b&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659029.790676,
+                    "expires_date": "2026-03-28T00:50:29.790676+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga",
+                    "value": "GA1.1.59132131.1743122977",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683029.557503,
+                    "expires_date": "2026-05-02T00:50:29.557503+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".viva.bhc.si",
+                    "path": "/",
+                    "expires": 1743123037,
+                    "expires_date": "2025-03-28T00:50:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980SecId15269",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uvJ9DSywikdU8mtv30YU7m9gHQ",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750899029.235995,
+                    "expires_date": "2025-06-26T00:50:29.235995+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899029,
+                    "expires_date": "2025-06-26T00:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQD3KN41JMWTD9DJPRHBQVPX_.tt.1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899029,
+                    "expires_date": "2025-06-26T00:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGEzOWQtMzE2Ny02YjVmLTkzYTktODJmMjAwMTNlMGQ5IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMDA6NDk6MzcuNTU4WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDAwOjUwOjA1Ljc2M1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6YW1wbGl0dWRlIiwiYzp5b3V0dWJlIiwiYzpwdXJlLWNoYXQiLCJjOnRpa3Rvay1LWkFVUUxaOSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpkaWRvbWkiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyIsImdlb2xvY2F0aW9uX2RhdGEiXX0sInZlbmRvcnNfbGkiOnsiZW5hYmxlZCI6WyJnb29nbGUiLCJjOnlvdXR1YmUiLCJjOmZpc3RuZXRkLURHR0dxZnhLIiwiYzpjYXNuaWtmaW4tUWg3Wm5qQlUiLCJjOnRyaW5pdHlhdS1WdFdpSmJHYSIsImM6dmltZW8tNmFNRUJXclYiLCJjOnNvdW5kY2xvdWQtZTM5bkFNM1YiXX0sInZlcnNpb24iOjIsImFjIjoiQ2xhQUVBRmtGS3dBLkNsYUFFQUZrRkt3QSJ9",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745405,
+                    "expires_date": "2026-03-29T00:50:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO-wEAQO-wEAAHABBENBiFsAP_gAEPgACRAJsQBAF5gMkAgKBNgE2IAgAywF5gMkAmwAAAA.f_wACHwAAAAA",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745405,
+                    "expires_date": "2026-03-29T00:50:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.190477256.1743123006",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899006,
+                    "expires_date": "2025-06-26T00:50:06+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_cookies",
+                    "value": "accept%3Dall%7Cdatetime%3D2025-03-28%2001%3A50%3A05%7Cip%3D89.143.171.215%7Cdomain%3D.bhc.si",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774659005,
+                    "expires_date": "2026-03-28T00:50:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.59132131.1743122977",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683029.270265,
+                    "expires_date": "2026-05-02T00:50:29.270265+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743123006270.573765680291831132",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899029,
+                    "expires_date": "2025-06-26T00:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmdvqmPciheMg0KrSw46wEDorFioLLkYUlAxroCsi5Yh2UGfPpOVlfqqoM1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776819006.87023,
+                    "expires_date": "2026-04-22T00:50:06.870230+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=aab167b5b05490e4:T=1743122990:RT=1743122990:S=ALNI_MbAc8q6KY9u8fALAlqkz8Ry8DUJDw",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1776818990,
+                    "expires_date": "2026-04-22T00:49:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072e27275eb:T=1743122990:RT=1743122990:S=ALNI_Mb15gRKh3_rligW6Z8hNDkO0miaEQ",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1776818990,
+                    "expires_date": "2026-04-22T00:49:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=816d7ac17c4aff3e:T=1743122990:RT=1743122990:S=AA-AfjYruRcas-Y8PBD6HdzH3c8q",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1758674990,
+                    "expires_date": "2025-09-24T00:49:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "regwall",
+                    "value": "a%3D10952592%3Bt%3D1743123011",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683028.944801,
+                    "expires_date": "2026-05-02T00:50:28.944801+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_1234567890",
+                    "value": "GS1.1.1743123006.1.1.1743123029.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683029.269926,
+                    "expires_date": "2026-05-02T00:50:29.269926+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659029,
+                    "expires_date": "2026-03-28T00:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga_7GNVD6EDD5",
+                    "value": "GS1.1.923423024.1.1.1743123029.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683029.561338,
+                    "expires_date": "2026-05-02T00:50:29.561338+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "RbQWfNaaU0mTG0fXZkdDrInrYLrnGw0y1FknLm3N5Ds-1743123012-1.0.1.1-aHCmL.ayDsmEbHO5EDyZJ666I82cgYkXu3qNyZuixvr4GjGYfKt70UWQvLyLqCJRxTR1XcyidYpYnlWgkdD2MJgaBv2RmHP527JvKJ0zKvI",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743124829.77973,
+                    "expires_date": "2025-03-28T01:20:29.779730+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(32,156,201,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(32,156,201,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Nadaljuj brez strinjanja →Z vašim soglasjem mi in  naših 19 partnerjev uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov. Nekateri partnerji ne zahtevajo vašega soglasja za obdelavo vaših podatkov in se zanašajo na svoj zakoniti poslovni interes. Kadarkoli lahko prekli",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse in zapri]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: [Nadaljuj brez strinjanja]\nGenericLabel3: [Več →]\nExplanation: The button [Sprejmi vse in zapri] fits the criteria for accepting all cookies. [Nadaljuj brez strinjanja] is an ambiguous phrase that signifies declining or continuing without consent. [Več →] indicates a management or settings option, which fits the criteria for GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Nadaljuj brez strinjanja",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel2",
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse in zapri fits the criteria for accepting all cookies. Nadaljuj brez strinjanja is an ambiguous phrase that signifies declining or continuing without consent. Več → indicates a management or settings option, which fits the criteria for GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse in zapri",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T01:49:36.149737",
+        "timestamp_stop": "2025-03-28T01:50:36.661556"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://viva.bhc.si/",
+            "https://viva.bhc.si/cat/3471",
+            "https://viva.bhc.si/strokovnjaki-odgovarjajo/tema/30955",
+            "https://viva.bhc.si/strokovnjaki-odgovarjajo/tema/41183"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "bhc",
+                    "value": "d449ced7fc646ddade0b95ba40626cb9",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1745715038.836527,
+                    "expires_date": "2025-04-27T00:50:38.836527+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"03249fb3-9bcd-4df8-8496-c225633ebd8a\",\"ts\":1743123039329}",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659039,
+                    "expires_date": "2026-03-28T00:50:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659040.129657,
+                    "expires_date": "2026-03-28T00:50:40.129657+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=27df1aa2-79c8-4c12-acc2-667353560b2b&Created=03/28/2025 00:50:22&UserMode=0&guid=4697c5ed-ee9b-4324-be07-08b6570440c8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659040.129709,
+                    "expires_date": "2026-03-28T00:50:40.129709+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga_7GNVD6EDD5",
+                    "value": "GS1.1.923423047.1.0.1743123039.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683039.668968,
+                    "expires_date": "2026-05-02T00:50:39.668968+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga",
+                    "value": "GA1.1.1225377956.1743123040",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683039.669738,
+                    "expires_date": "2026-05-02T00:50:39.669738+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGEzYWMtNWMyNi02ZGRjLTkzYjMtOTZlYmY4N2U2YTZjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMDA6NTA6MzkuNjgyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDAwOjUwOjM5LjY4MloiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745439,
+                    "expires_date": "2026-03-29T00:50:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uvJGycwRftxQRDmQXEFjDoWvGf",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750899039.70578,
+                    "expires_date": "2025-06-26T00:50:39.705780+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659039,
+                    "expires_date": "2026-03-28T00:50:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".viva.bhc.si",
+                    "path": "/",
+                    "expires": 1743123099,
+                    "expires_date": "2025-03-28T00:51:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899040,
+                    "expires_date": "2025-06-26T00:50:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQD3NHRKCVJPZPVPA6950XFJ_.tt.1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899040,
+                    "expires_date": "2025-06-26T00:50:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980SecId15269",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "bhc",
+                    "value": "d449ced7fc646ddade0b95ba40626cb9",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1745715038.836527,
+                    "expires_date": "2025-04-27T00:50:38.836527+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"03249fb3-9bcd-4df8-8496-c225633ebd8a\",\"ts\":1743123039329}",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659039,
+                    "expires_date": "2026-03-28T00:50:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659040.129657,
+                    "expires_date": "2026-03-28T00:50:40.129657+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=27df1aa2-79c8-4c12-acc2-667353560b2b&Created=03/28/2025 00:50:22&UserMode=0&guid=4697c5ed-ee9b-4324-be07-08b6570440c8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659040.129709,
+                    "expires_date": "2026-03-28T00:50:40.129709+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga_7GNVD6EDD5",
+                    "value": "GS1.1.923423047.1.0.1743123039.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683039.668968,
+                    "expires_date": "2026-05-02T00:50:39.668968+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga",
+                    "value": "GA1.1.1225377956.1743123040",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683039.669738,
+                    "expires_date": "2026-05-02T00:50:39.669738+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGEzYWMtNWMyNi02ZGRjLTkzYjMtOTZlYmY4N2U2YTZjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMDA6NTA6MzkuNjgyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDAwOjUwOjM5LjY4MloiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745439,
+                    "expires_date": "2026-03-29T00:50:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uvJGycwRftxQRDmQXEFjDoWvGf",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750899039.70578,
+                    "expires_date": "2025-06-26T00:50:39.705780+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659039,
+                    "expires_date": "2026-03-28T00:50:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".viva.bhc.si",
+                    "path": "/",
+                    "expires": 1743123099,
+                    "expires_date": "2025-03-28T00:51:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899040,
+                    "expires_date": "2025-06-26T00:50:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQD3NHRKCVJPZPVPA6950XFJ_.tt.1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899040,
+                    "expires_date": "2025-06-26T00:50:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980SecId15269",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "bhc",
+                    "value": "d449ced7fc646ddade0b95ba40626cb9",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1745715038.836527,
+                    "expires_date": "2025-04-27T00:50:38.836527+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"03249fb3-9bcd-4df8-8496-c225633ebd8a\",\"ts\":1743123039329}",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659086,
+                    "expires_date": "2026-03-28T00:51:26+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659087.195806,
+                    "expires_date": "2026-03-28T00:51:27.195806+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=27df1aa2-79c8-4c12-acc2-667353560b2b&Created=03/28/2025 00:50:22&UserMode=0&guid=4697c5ed-ee9b-4324-be07-08b6570440c8&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774659087.195896,
+                    "expires_date": "2026-03-28T00:51:27.195896+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga_7GNVD6EDD5",
+                    "value": "GS1.1.923423047.1.0.1743123039.0.0.0",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683039.668968,
+                    "expires_date": "2026-05-02T00:50:39.668968+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "viva.bhc.si_ga",
+                    "value": "GA1.1.1225377956.1743123040",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1777683039.669738,
+                    "expires_date": "2026-05-02T00:50:39.669738+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZGEzYWMtNWMyNi02ZGRjLTkzYjMtOTZlYmY4N2U2YTZjIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjhUMDA6NTA6MzkuNjgyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI4VDAwOjUwOjM5LjY4MloiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1774745439,
+                    "expires_date": "2026-03-29T00:50:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uvJGycwRftxQRDmQXEFjDoWvGf",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750899086.904386,
+                    "expires_date": "2025-06-26T00:51:26.904386+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".viva.bhc.si",
+                    "path": "/",
+                    "expires": 1743123099,
+                    "expires_date": "2025-03-28T00:51:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899086,
+                    "expires_date": "2025-06-26T00:51:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQD3NHRKCVJPZPVPA6950XFJ_.tt.1",
+                    "domain": ".bhc.si",
+                    "path": "/",
+                    "expires": 1750899086,
+                    "expires_date": "2025-06-26T00:51:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId1980SecId15269",
+                    "value": "1",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "finance_mq",
+                    "value": "mq-min-901",
+                    "domain": "viva.bhc.si",
+                    "path": "/",
+                    "expires": 1774659086,
+                    "expires_date": "2026-03-28T00:51:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(32,156,201,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(32,156,201,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Nadaljuj brez strinjanja →Z vašim soglasjem mi in  naših 19 partnerjev uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov. Nekateri partnerji ne zahtevajo vašega soglasja za obdelavo vaših podatkov in se zanašajo na svoj zakoniti poslovni interes. Kadarkoli lahko prekli",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse in zapri]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: [Nadaljuj brez strinjanja]\nGenericLabel3: [Več →]\nExplanation: The button [Sprejmi vse in zapri] is categorized under accepting all cookies. The button [Nadaljuj brez strinjanja] suggests proceeding without consent, fitting the ambiguous decline category. The button [Več →] pertains to settings or more information, justifying its placement in GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Nadaljuj brez strinjanja",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel2",
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse in zapri is categorized under accepting all cookies. The button Nadaljuj brez strinjanja suggests proceeding without consent, fitting the ambiguous decline category. The button Več → pertains to settings or more information, justifying its placement in GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nadaljuj brez strinjanja",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T01:50:38.355935",
+        "timestamp_stop": "2025-03-28T01:51:33.822443"
+    }
+}

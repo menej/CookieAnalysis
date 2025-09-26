@@ -1,0 +1,14 @@
+Error processing website: https://www.unicreditbank.si/
+Exception: 'str' object has no attribute 'name'
+Traceback (most recent call last):
+  File "C:\Users\EnejM\Documents\Diploma\src\main.py", line 81, in categorizer_worker
+    categorizer.process_crawl(crawl)
+  File "C:\Users\EnejM\Documents\Diploma\src\core\categorizer\categorizer.py", line 41, in process_crawl
+    platform, cookie_category = _categorize(name)
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\src\core\categorizer\categorizer.py", line 204, in _categorize
+    _write_cookie_to_local(cookie_name, cookie_category, "Cookiepedia")
+  File "C:\Users\EnejM\Documents\Diploma\src\core\categorizer\categorizer.py", line 220, in _write_cookie_to_local
+    "Category": category.name,
+                ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'

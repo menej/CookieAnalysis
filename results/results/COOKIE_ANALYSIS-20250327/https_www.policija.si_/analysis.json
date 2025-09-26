@@ -1,0 +1,399 @@
+{
+    "web_page": "https://www.policija.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T04:42:05.978278",
+    "timestamp_stop": "2025-03-28T04:46:00.531167",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.policija.si/",
+            "https://www.policija.si/o-slovenski-policiji/organiziranost/generalna-policijska-uprava/urad-za-informatiko-in-telekomunikacije/sektor-za-zascito-itk-sistemov-in-podatkov",
+            "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-pu-ljubljana",
+            "https://www.policija.si/o-slovenski-policiji/organiziranost/policijske-uprave/pu-koper/sporocila-za-javnost-pu-kp"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "2abd42ae597a8b8e34b0af9ffd7edf3d",
+                    "value": "6kok5ll41hbqfqn50e35vv0ssp",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "2abd42ae597a8b8e34b0af9ffd7edf3d",
+                    "value": "6kok5ll41hbqfqn50e35vv0ssp",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T04:42:07.310671",
+        "timestamp_stop": "2025-03-28T04:43:05.099159"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejemam piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.policija.si/",
+            "https://www.policija.si/o-slovenski-policiji/organiziranost/generalna-policijska-uprava/urad-za-informatiko-in-telekomunikacije/sektor-za-zascito-itk-sistemov-in-podatkov",
+            "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-pu-ljubljana",
+            "https://www.policija.si/o-slovenski-policiji/organiziranost/policijske-uprave/pu-koper/sporocila-za-javnost-pu-kp"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "2abd42ae597a8b8e34b0af9ffd7edf3d",
+                    "value": "a0fdjck66u4eqrnv6amhrqqt6o",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "2abd42ae597a8b8e34b0af9ffd7edf3d",
+                    "value": "a0fdjck66u4eqrnv6amhrqqt6o",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieControlPrefs",
+                    "value": "[\"essential\",\"analytics\"]",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": 1774669411,
+                    "expires_date": "2026-03-28T03:43:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "2abd42ae597a8b8e34b0af9ffd7edf3d",
+                    "value": "a0fdjck66u4eqrnv6amhrqqt6o",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_pk_id.4.75a0",
+                    "value": "63e958bd31f535f5.1743133424.",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": 1777088624,
+                    "expires_date": "2026-04-25T03:43:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.4.75a0",
+                    "value": "1",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": 1743135251,
+                    "expires_date": "2025-03-28T04:14:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookieControlPrefs",
+                    "value": "%5B%22essential%22%2C%22analytics%22%5D",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": 1743565451.1216,
+                    "expires_date": "2025-04-02T03:44:11.121600+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "🍪 Piškotki & nastavitve zasebnostiSpletne strani Policije uporabljajo piškotke z namenom zagotavljanja spletne storitve in funkcionalnosti, ki jih brez piškotkov ne bi mogle nuditi. Ali soglašate z namestitvijo piškotkov na omenjenih straneh?   Več o piškotkihPiškotki, ki so na voljo za izbiroNujniAnalitikaSprejemam piškotkeIzberi piškotke",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejemam piškotke]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več o piškotkih]\nExplanation: \"Sprejemam piškotke\" fits the criteria for accepting all cookies, so it is categorized under GenericLabel1. There are no buttons for declining all cookies or any ambiguous declines. \"Več o piškotkih\" indicates a management option, categorizing it under GenericLabel3. \"Izberi piškotke\" does not fit any specific category based on the provided guidelines.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejemam piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejemam piškotke\" fits the criteria for accepting all cookies, so it is categorized under GenericLabel1. There are no buttons for declining all cookies or any ambiguous declines. \"Več o piškotkih\" indicates a management option, categorizing it under GenericLabel3. \"Izberi piškotke\" does not fit any specific category based on the provided guidelines."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejemam piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T04:43:06.691502",
+        "timestamp_stop": "2025-03-28T04:44:24.675621"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Več o piškotkih)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.policija.si/",
+            "https://www.policija.si/",
+            "https://www.policija.si/o-slovenski-policiji/organiziranost/generalna-policijska-uprava/urad-za-informatiko-in-telekomunikacije/sektor-za-zascito-itk-sistemov-in-podatkov",
+            "https://www.policija.si/medijsko-sredisce/sporocila-za-javnost/sporocila-za-javnost-pu-ljubljana",
+            "https://www.policija.si/o-slovenski-policiji/organiziranost/policijske-uprave/pu-koper/sporocila-za-javnost-pu-kp"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "2abd42ae597a8b8e34b0af9ffd7edf3d",
+                    "value": "lu0gjlsov30nlcha890962q4h8",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "2abd42ae597a8b8e34b0af9ffd7edf3d",
+                    "value": "lu0gjlsov30nlcha890962q4h8",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "2abd42ae597a8b8e34b0af9ffd7edf3d",
+                    "value": "lu0gjlsov30nlcha890962q4h8",
+                    "domain": "www.policija.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_redirected.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "🍪 Piškotki & nastavitve zasebnostiSpletne strani Policije uporabljajo piškotke z namenom zagotavljanja spletne storitve in funkcionalnosti, ki jih brez piškotkov ne bi mogle nuditi. Ali soglašate z namestitvijo piškotkov na omenjenih straneh?   Več o piškotkihPiškotki, ki so na voljo za izbiroNujniAnalitikaSprejemam piškotkeIzberi piškotke",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejemam piškotke]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Več o piškotkih]\nExplanation: \"Sprejemam piškotke\" is categorized under GenericLabel1 as it indicates acceptance of cookies. There are no buttons for declining or ambiguous phrases related to declining. \"Več o piškotkih\" is categorized under GenericLabel3 as it relates to providing more information about cookies. The button \"[Izberi piškotke]\" does not clearly fit into any of the specified categories.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejemam piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejemam piškotke\" is categorized under GenericLabel1 as it indicates acceptance of cookies. There are no buttons for declining or ambiguous phrases related to declining. \"Več o piškotkih\" is categorized under GenericLabel3 as it relates to providing more information about cookies. The button \"Izberi piškotke\" does not clearly fit into any of the specified categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "Več o piškotkih",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T04:44:26.315161",
+        "timestamp_stop": "2025-03-28T04:46:00.241901"
+    }
+}

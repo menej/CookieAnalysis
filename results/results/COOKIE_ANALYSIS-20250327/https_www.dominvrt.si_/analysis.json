@@ -1,0 +1,3443 @@
+{
+    "web_page": "https://www.dominvrt.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T00:05:44.637430",
+    "timestamp_stop": "2025-03-28T00:09:10.300018",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dominvrt.si/",
+            "https://www.dominvrt.si/zivali/ljubljencki/5-najbolj-neumnih-pasem-psov.html",
+            "https://www.dominvrt.si/ankete",
+            "https://www.dominvrt.si/vsebine/piskotki"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "device-id",
+                    "value": "41002491-7d30-41e9-af34-9d1e9a478cbf",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652746,
+                    "expires_date": "2026-03-27T23:05:46+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlkYWMtMTBiYS02ZTlkLTlmMjQtODk2NzM2ZjFiNWVlIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjM6MDU6NDcuMDE5WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIzOjA1OjQ3LjAyMFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739147,
+                    "expires_date": "2026-03-28T23:05:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"f8946baa-53ba-42e0-967b-e702eb426f7e\",\"ts\":1743116747137}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652747,
+                    "expires_date": "2026-03-27T23:05:47+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652747.65767,
+                    "expires_date": "2026-03-27T23:05:47.657670+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=a3af4fd4-dc55-46f0-a978-60e299d173c5&Created=03/27/2025 23:05:30&UserMode=0&guid=ae08f9ec-69a4-4143-8f03-469487fc277d&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652747.657782,
+                    "expires_date": "2026-03-27T23:05:47.657782+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId436",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "device-id",
+                    "value": "41002491-7d30-41e9-af34-9d1e9a478cbf",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652746,
+                    "expires_date": "2026-03-27T23:05:46+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlkYWMtMTBiYS02ZTlkLTlmMjQtODk2NzM2ZjFiNWVlIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjM6MDU6NDcuMDE5WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIzOjA1OjQ3LjAyMFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739147,
+                    "expires_date": "2026-03-28T23:05:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"f8946baa-53ba-42e0-967b-e702eb426f7e\",\"ts\":1743116747137}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652769,
+                    "expires_date": "2026-03-27T23:06:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652769.629587,
+                    "expires_date": "2026-03-27T23:06:09.629587+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=a3af4fd4-dc55-46f0-a978-60e299d173c5&Created=03/27/2025 23:05:30&UserMode=0&guid=ae08f9ec-69a4-4143-8f03-469487fc277d&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652769.629673,
+                    "expires_date": "2026-03-27T23:06:09.629673+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId436",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14341",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T00:05:45.918676",
+        "timestamp_stop": "2025-03-28T00:06:15.911540"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi in zapri)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dominvrt.si/",
+            "https://www.dominvrt.si/zivali/ljubljencki/5-najbolj-neumnih-pasem-psov.html",
+            "https://www.dominvrt.si/ankete",
+            "https://www.dominvrt.si/vsebine/piskotki"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "device-id",
+                    "value": "da0cf9b8-d92f-4e89-a814-d49b9c163976",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652778,
+                    "expires_date": "2026-03-27T23:06:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlkYjMtZDBjNC02ZTZhLThjYjQtZjZlNzA0OWQyZTk1IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjM6MDY6MTguNzY0WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIzOjA2OjE4Ljc2NFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739178,
+                    "expires_date": "2026-03-28T23:06:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"90fe3382-df69-44b2-a904-fd2571187686\",\"ts\":1743116778861}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652778,
+                    "expires_date": "2026-03-27T23:06:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652779.278892,
+                    "expires_date": "2026-03-27T23:06:19.278892+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=377fc217-1222-424b-b210-36cb8cd2dcae&Created=03/27/2025 23:06:01&UserMode=0&guid=8113e4f0-9e29-4cb7-bee5-473b4fda4ab4&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652779.278992,
+                    "expires_date": "2026-03-27T23:06:19.278992+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId436",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "device-id",
+                    "value": "da0cf9b8-d92f-4e89-a814-d49b9c163976",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652778,
+                    "expires_date": "2026-03-27T23:06:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"90fe3382-df69-44b2-a904-fd2571187686\",\"ts\":1743116778861}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652778,
+                    "expires_date": "2026-03-27T23:06:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652779.278892,
+                    "expires_date": "2026-03-27T23:06:19.278892+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=377fc217-1222-424b-b210-36cb8cd2dcae&Created=03/27/2025 23:06:01&UserMode=0&guid=8113e4f0-9e29-4cb7-bee5-473b4fda4ab4&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652779.278992,
+                    "expires_date": "2026-03-27T23:06:19.278992+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId436",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlkYjMtZDBjNC02ZTZhLThjYjQtZjZlNzA0OWQyZTk1IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjM6MDY6MTguNzY0WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIzOjA2OjQ5LjUxMloiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOnByb3BsdXNkLThZcjRRV3JnIiwiYzppbmZvZ3JhbS00a0FKOWVMUiIsImM6aW5zdGFncmFtLWszclI4R0RDIiwiYzp0aWt0b2stTU5NUUdZS1EiLCJjOmZpc3RuZXRkLWlCTXFydzZnIiwiYzpzb2Zhc2NvcmUtUlhBRmhpejIiLCJjOmZhY2Vib29rLVFNd0E4RlVOIiwiYzpxdWl6b29tLWNiVnhBSmdYIiwiYzplY2hvYm94LWc5TjdYVG5FIiwiYzp1cHNjb3JlLUpRUFdNRzJhIiwiYzpwaW50ZXJlc3QtcWVteTdVaTMiLCJjOngtRktDRkpEOFciLCJjOnlvdXR1YmUtS2J5d2lEUjQiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyIsImdlb2xvY2F0aW9uX2RhdGEiLCJnZW9fYWRzIiwiZ2VvX21hcmtldGluZ19zdHVkaWVzIiwidGhpcmQiXX0sInZlbmRvcnNfbGkiOnsiZW5hYmxlZCI6WyJjOnByb3BsdXNkLThZcjRRV3JnIl19LCJ2ZXJzaW9uIjoyLCJhYyI6IkFGbUFDQUZrLkFBQUEifQ==",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739209,
+                    "expires_date": "2026-03-28T23:06:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRAK8tX_G__bXlr8T736ftkeY1f99h77sQxBgbJk-4FzLvW_JwX32E7NAz6tqYKmRIAu3TBIQNlHJDURVCgaogVrTDMaEyUoTtKJ6BkiFMRY2dYCFxvm4tjeQCY5vr991d52R-t7dr83dzyy4hnv3a9_-S1WJCdAYetDfv9bROb-9IO9_x8v4v4_N7pE2-eS1l_tWvp7D9-Ytv_9X399_bbff5Pn__ul_-_X__f_n37v942AAAAYpABgACCvI6ADAAEFeSUAGAAIK8hIAMAAQV5LQAYAAgryQgAwABBXkAA.f_wAAAAAAAAA",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739209,
+                    "expires_date": "2026-03-28T23:06:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.226731661.1743116810",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1743203210,
+                    "expires_date": "2025-03-28T23:06:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-4100826-13",
+                    "value": "1",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1743116870,
+                    "expires_date": "2025-03-27T23:07:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=d0aa3dc3d8291e45:T=1743116792:RT=1743116792:S=ALNI_MYTX7f_nZMogAiBzUASmGmkj_BqrA",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1776812792,
+                    "expires_date": "2026-04-21T23:06:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072dfcb6d38:T=1743116792:RT=1743116792:S=ALNI_MYMh9F0EFB5LAKXkbkppFsr2ZJK8A",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1776812792,
+                    "expires_date": "2026-04-21T23:06:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=cc7a8b919b21a3e8:T=1743116792:RT=1743116792:S=AA-AfjYB2BC0g47QNo2kg9u1MsA6",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1758668792,
+                    "expires_date": "2025-09-23T23:06:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUm-XkZq77Vipw6ijo1dOCBYOeDcsrYvwYoJgWoU_g7afKobadkBKECT1aOqhRI",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776812810.347022,
+                    "expires_date": "2026-04-21T23:06:50.347022+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_QTW65CV2WT",
+                    "value": "GS1.1.1743116810.1.0.1743116810.0.0.0",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1777676810.363578,
+                    "expires_date": "2026-05-01T23:06:50.363578+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1300955770.1743116810",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1777676810.364114,
+                    "expires_date": "2026-05-01T23:06:50.364114+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cto_bundle",
+                    "value": "lReED19IVmU4dDM4NjZ3QVh6ZHdEMENBRmlvQlNmWXVCMVVQSzViWkklMkZMM0pTbFBUJTJGaXVyJTJGaHg2Z3NET0U3Y0Y3V3pPcFlnWmNnQjV6UGFpYmtiQm9QMTA5MDR3V1ViMGI5YmJvMU53cEFBaVBsUHBJdm5WNXdFeFpNbU5rJTJCbWhVMjV6c3RsT2lFYU0lMkJFblBlRnVMRXRFd1ZnJTNEJTNE",
+                    "domain": ".criteo.com",
+                    "path": "/openrtb_2_5/pbjs/auction",
+                    "expires": 1776812825.096064,
+                    "expires_date": "2026-04-21T23:07:05.096064+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sync",
+                    "value": "CgoIgAIQtcbuzt0yCgoIoQEQtcbuzt0yCgoIgQIQoP7uzt0yCgoI4wEQoP7uzt0yCgoI5gEQtcbuzt0yCgoIhwIQtcbuzt0yCgoI5wEQoP7uzt0yCgkICxCg_u7O3TIKCgiMAhC1xu7O3TIKCgisAhC1xu7O3TIKCgitAhCg_u7O3TIKCgjOARCg_u7O3TIKCgiOARCg_u7O3TIKCgiUAhC1xu7O3TIKCgi3AhCg_u7O3TIKCQg6ELXG7s7dMgoJCBsQtcbuzt0yCgoInQIQoP7uzt0yCgoI3gEQoP7uzt0yCgkIXxC1xu7O3TI=",
+                    "domain": ".3lift.com",
+                    "path": "/sync",
+                    "expires": 1750892829.08572,
+                    "expires_date": "2025-06-25T23:07:09.085720+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "device-id",
+                    "value": "da0cf9b8-d92f-4e89-a814-d49b9c163976",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652778,
+                    "expires_date": "2026-03-27T23:06:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"90fe3382-df69-44b2-a904-fd2571187686\",\"ts\":1743116778861}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652832,
+                    "expires_date": "2026-03-27T23:07:12+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652832.544057,
+                    "expires_date": "2026-03-27T23:07:12.544057+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=377fc217-1222-424b-b210-36cb8cd2dcae&Created=03/27/2025 23:06:01&UserMode=0&guid=8113e4f0-9e29-4cb7-bee5-473b4fda4ab4&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652832.544148,
+                    "expires_date": "2026-03-27T23:07:12.544148+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId436",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlkYjMtZDBjNC02ZTZhLThjYjQtZjZlNzA0OWQyZTk1IiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjM6MDY6MTguNzY0WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIzOjA2OjQ5LjUxMloiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOnByb3BsdXNkLThZcjRRV3JnIiwiYzppbmZvZ3JhbS00a0FKOWVMUiIsImM6aW5zdGFncmFtLWszclI4R0RDIiwiYzp0aWt0b2stTU5NUUdZS1EiLCJjOmZpc3RuZXRkLWlCTXFydzZnIiwiYzpzb2Zhc2NvcmUtUlhBRmhpejIiLCJjOmZhY2Vib29rLVFNd0E4RlVOIiwiYzpxdWl6b29tLWNiVnhBSmdYIiwiYzplY2hvYm94LWc5TjdYVG5FIiwiYzp1cHNjb3JlLUpRUFdNRzJhIiwiYzpwaW50ZXJlc3QtcWVteTdVaTMiLCJjOngtRktDRkpEOFciLCJjOnlvdXR1YmUtS2J5d2lEUjQiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyIsImdlb2xvY2F0aW9uX2RhdGEiLCJnZW9fYWRzIiwiZ2VvX21hcmtldGluZ19zdHVkaWVzIiwidGhpcmQiXX0sInZlbmRvcnNfbGkiOnsiZW5hYmxlZCI6WyJjOnByb3BsdXNkLThZcjRRV3JnIl19LCJ2ZXJzaW9uIjoyLCJhYyI6IkFGbUFDQUZrLkFBQUEifQ==",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739209,
+                    "expires_date": "2026-03-28T23:06:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRAK8tX_G__bXlr8T736ftkeY1f99h77sQxBgbJk-4FzLvW_JwX32E7NAz6tqYKmRIAu3TBIQNlHJDURVCgaogVrTDMaEyUoTtKJ6BkiFMRY2dYCFxvm4tjeQCY5vr991d52R-t7dr83dzyy4hnv3a9_-S1WJCdAYetDfv9bROb-9IO9_x8v4v4_N7pE2-eS1l_tWvp7D9-Ytv_9X399_bbff5Pn__ul_-_X__f_n37v942AAAAYpABgACCvI6ADAAEFeSUAGAAIK8hIAMAAQV5LQAYAAgryQgAwABBXkAA.f_wAAAAAAAAA",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739209,
+                    "expires_date": "2026-03-28T23:06:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.226731661.1743116810",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1743203232,
+                    "expires_date": "2025-03-28T23:07:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-4100826-13",
+                    "value": "1",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1743116870,
+                    "expires_date": "2025-03-27T23:07:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__gads",
+                    "value": "ID=d0aa3dc3d8291e45:T=1743116792:RT=1743116792:S=ALNI_MYTX7f_nZMogAiBzUASmGmkj_BqrA",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1776812792,
+                    "expires_date": "2026-04-21T23:06:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__gpi",
+                    "value": "UID=00001072dfcb6d38:T=1743116792:RT=1743116792:S=ALNI_MYMh9F0EFB5LAKXkbkppFsr2ZJK8A",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1776812792,
+                    "expires_date": "2026-04-21T23:06:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=cc7a8b919b21a3e8:T=1743116792:RT=1743116792:S=AA-AfjYB2BC0g47QNo2kg9u1MsA6",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1758668792,
+                    "expires_date": "2025-09-23T23:06:32+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUm-XkZq77Vipw6ijo1dOCBYOeDcsrYvwYoJgWoU_g7afKobadkBKECT1aOqhRI",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776812810.347022,
+                    "expires_date": "2026-04-21T23:06:50.347022+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "popup",
+                    "value": "1743116809731",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652814,
+                    "expires_date": "2026-03-27T23:06:54+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"2e63ff6e-fd99-4204-a91a-d350737cd7b4\",\"ts\":1743116815886}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652832,
+                    "expires_date": "2026-03-27T23:07:12+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774652832.707033,
+                    "expires_date": "2026-03-27T23:07:12.707033+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=7d8daf66-6424-45e7-81ee-587471c3c65c&Created=03/27/2025 23:06:38&UserMode=0&guid=4b3f5865-939f-46b4-9d5b-de8a1d30d654&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774652832.707127,
+                    "expires_date": "2026-03-27T23:07:12.707127+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pbjs_sharedId",
+                    "value": "0cd9ea54-aee0-4e17-b5c2-5145a5e8c087",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1745708816,
+                    "expires_date": "2025-04-26T23:06:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pbjs_sharedId_cst",
+                    "value": "ciwbLCwspg%3D%3D",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1745708816,
+                    "expires_date": "2025-04-26T23:06:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14341",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777244824.409387,
+                    "expires_date": "2026-04-26T23:07:04.409387+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId436Stress",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14341Stress",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "khaos",
+                    "value": "M8RYQJO7-23-GXSI",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1774652829.341092,
+                    "expires_date": "2026-03-27T23:07:09.341092+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "881b70a8-2992-4a04-a692-2dfb9800a390",
+                    "domain": ".connectad.io",
+                    "path": "/",
+                    "expires": 1745744828.370019,
+                    "expires_date": "2025-04-27T09:07:08.370019+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tt_viewer",
+                    "value": "701a9778-db2f-42ee-9e0a-eb32c48f2f65",
+                    "domain": ".teads.tv",
+                    "path": "/",
+                    "expires": 1774566418.379817,
+                    "expires_date": "2026-03-26T23:06:58.379817+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".googleadservices.com",
+                    "path": "/",
+                    "expires": 1750892825.677227,
+                    "expires_date": "2025-06-25T23:07:05.677227+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "65ff4896-a1b9-4ba3-a5bf-b54595dfde81",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776812822.672257,
+                    "expires_date": "2026-04-21T23:07:02.672257+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776812822.672484,
+                    "expires_date": "2026-04-21T23:07:02.672484+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "consent",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRAK8tX_G__bXlr8T736ftkeY1f99h77sQxBgbJk-4FzLvW_JwX32E7NAz6tqYKmRIAu3TBIQNlHJDURVCgaogVrTDMaEyUoTtKJ6BkiFMRY2dYCFxvm4tjeQCY5vr991d52R-t7dr83dzyy4hnv3a9_-S1WJCdAYetDfv9bROb-9IO9_x8v4v4_N7pE2-eS1l_tWvp7D9-Ytv_9X399_bbff5Pn__ul_-_X__f_n37v942AAAAYpABgACCvI6ADAAEFeSUAGAAIK8hIAMAAQV5LQAYAAgryQgAwABBXkAA.f_wAAAAAAAAA",
+                    "domain": ".connectad.io",
+                    "path": "/",
+                    "expires": 1745744828.370097,
+                    "expires_date": "2025-04-27T09:07:08.370097+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cflb",
+                    "value": "02DiuFPF5p4mx9nYCSHQHgzZcvhgTKPUWNwwemvzDypv8",
+                    "domain": "prebid.setupad.io",
+                    "path": "/",
+                    "expires": 1743199621.804744,
+                    "expires_date": "2025-03-28T22:07:01.804744+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "tluidp",
+                    "value": "3077947651861642161277",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1750892830.240042,
+                    "expires_date": "2025-06-25T23:07:10.240042+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tluid",
+                    "value": "3077947651861642161277",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1750892830.24017,
+                    "expires_date": "2025-06-25T23:07:10.240170+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "5473312735241839999",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748300829.100409,
+                    "expires_date": "2025-05-26T23:07:09.100409+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tuuid",
+                    "value": "9a0b270b-73df-4c09-9ef9-5cd1fab4d171",
+                    "domain": ".bidswitch.net",
+                    "path": "/",
+                    "expires": 1774652822.092428,
+                    "expires_date": "2026-03-27T23:07:02.092428+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "1743116805",
+                    "domain": ".bidswitch.net",
+                    "path": "/",
+                    "expires": 1774652822.04616,
+                    "expires_date": "2026-03-27T23:07:02.046160+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tuuid_lu",
+                    "value": "1743116805",
+                    "domain": ".bidswitch.net",
+                    "path": "/",
+                    "expires": 1774652822.092518,
+                    "expires_date": "2026-03-27T23:07:02.092518+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750892829.09044,
+                    "expires_date": "2025-06-25T23:07:09.090440+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "i",
+                    "value": "36275ab3-1401-4024-b650-ff48fccb4be7|1743116805",
+                    "domain": ".openx.net",
+                    "path": "/",
+                    "expires": 1774652822.127621,
+                    "expires_date": "2026-03-27T23:07:02.127621+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pd",
+                    "value": "v2|1743116805|gqgiwkgeiygu",
+                    "domain": ".openx.net",
+                    "path": "/",
+                    "expires": 1744412822.127724,
+                    "expires_date": "2025-04-11T23:07:02.127724+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "9ZZuXrnI280DsvvTakX3_1743116805115",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774652822.14685,
+                    "expires_date": "2026-03-27T23:07:02.146850+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743116805",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774652822.146944,
+                    "expires_date": "2026-03-27T23:07:02.146944+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "KADUSERCOOKIE",
+                    "value": "C4D77842-F07A-489B-9088-8113DA40526D",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1774652831.456768,
+                    "expires_date": "2026-03-27T23:07:11.456768+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "JJqtHUPwNaBYiSYxXpr2SF8m7drBkiPvExG8XkvEC1M9dPBHQsLCHjynwSEgIStq8Hpl2nW4SYwtTH7Xee9amIQ7lAEmx-_8eTaHpTRAMCk.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750892829.090347,
+                    "expires_date": "2025-06-25T23:07:09.090347+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "2881220642693554195",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750892829.090534,
+                    "expires_date": "2025-06-25T23:07:09.090534+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "7482849591005410174",
+                    "domain": ".turn.com",
+                    "path": "/",
+                    "expires": 1758668831.564305,
+                    "expires_date": "2025-09-23T23:07:11.564305+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "khaos_p",
+                    "value": "M8RYQJO7-23-GXSI",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1774652829.341446,
+                    "expires_date": "2026-03-27T23:07:09.341446+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cookie",
+                    "value": "4c1201b00156d3ee",
+                    "domain": ".onaudience.com",
+                    "path": "/",
+                    "expires": 1774652822.900284,
+                    "expires_date": "2026-03-27T23:07:02.900284+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "done_redirects252",
+                    "value": "1",
+                    "domain": ".onaudience.com",
+                    "path": "/",
+                    "expires": 1743203222.900636,
+                    "expires_date": "2025-03-28T23:07:02.900636+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SEUNCY",
+                    "value": "A53A4364B7197B61",
+                    "domain": ".semasio.net",
+                    "path": "/",
+                    "expires": 1774652823.045756,
+                    "expires_date": "2026-03-27T23:07:03.045756+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "suid",
+                    "value": "768784568BD247AB8156B8EA6B318444",
+                    "domain": ".simpli.fi",
+                    "path": "/",
+                    "expires": 1774739223.013282,
+                    "expires_date": "2026-03-28T23:07:03.013282+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "admtr",
+                    "value": "49a2bccc-08a7-4dec-9a5a-c62632281674",
+                    "domain": ".admanmedia.com",
+                    "path": "/",
+                    "expires": 1743721441.014968,
+                    "expires_date": "2025-04-03T23:04:01.014968+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ac_r",
+                    "value": "CS325:1743721605943",
+                    "domain": ".admanmedia.com",
+                    "path": "/",
+                    "expires": 1743721441.015069,
+                    "expires_date": "2025-04-03T23:04:01.015069+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "zc",
+                    "value": "18100b48-1cb1-445f-46b5-735691b71b72",
+                    "domain": ".zeotap.com",
+                    "path": "/",
+                    "expires": 1774652823.031776,
+                    "expires_date": "2026-03-27T23:07:03.031776+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "TDID",
+                    "value": "c63f1f7f-1c82-4634-9102-fea00e863948",
+                    "domain": ".adsrvr.org",
+                    "path": "/",
+                    "expires": 1774652829.133695,
+                    "expires_date": "2026-03-27T23:07:09.133695+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_57",
+                    "value": "23339-2881220642693554195&KRTB&22776-2881220642693554195",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892823.047267,
+                    "expires_date": "2025-06-25T23:07:03.047267+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_391",
+                    "value": "22924-5473312735241839999&KRTB&23263-5473312735241839999&KRTB&23481-5473312735241839999",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1745708823.047914,
+                    "expires_date": "2025-04-26T23:07:03.047914+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_377",
+                    "value": "6810-0871e85b-741c-4bc8-86db-a2a32ee677b5&KRTB&22918-0871e85b-741c-4bc8-86db-a2a32ee677b5&KRTB&22926-0871e85b-741c-4bc8-86db-a2a32ee677b5&KRTB&23031-0871e85b-741c-4bc8-86db-a2a32ee677b5",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892823.073458,
+                    "expires_date": "2025-06-25T23:07:03.073458+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "mc",
+                    "value": "67e5da06-0a315-7ec56-2b3f6",
+                    "domain": ".quantserve.com",
+                    "path": "/",
+                    "expires": 1777331223.076705,
+                    "expires_date": "2026-04-27T23:07:03.076705+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_80",
+                    "value": "22987-CAESEH7KfjenxXy0_kAa41hyEJQ&KRTB&16514-CAESEH7KfjenxXy0_kAa41hyEJQ&KRTB&23025-CAESEH7KfjenxXy0_kAa41hyEJQ&KRTB&23386-CAESEH7KfjenxXy0_kAa41hyEJQ",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892823.126334,
+                    "expires_date": "2025-06-25T23:07:03.126334+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "A3",
+                    "value": "d=AQABBAba5WcCEEsihzvcgXlji8rWNH_DVqEFEgEBAQEr52fvZwAAAAAA_eMAAA&S=AQAAAidE2iKq7mfpbAnYBsY3DQM",
+                    "domain": ".yahoo.com",
+                    "path": "/",
+                    "expires": 1774674428.472806,
+                    "expires_date": "2026-03-28T05:07:08.472806+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bito",
+                    "value": "AACWXU7Py7QAABtz7NdUXQ",
+                    "domain": ".bidr.io",
+                    "path": "/",
+                    "expires": 1777230431.865293,
+                    "expires_date": "2026-04-26T19:07:11.865293+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bitoIsSecure",
+                    "value": "ok",
+                    "domain": ".bidr.io",
+                    "path": "/",
+                    "expires": 1777230423.133062,
+                    "expires_date": "2026-04-26T19:07:03.133062+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1750892829.344138,
+                    "expires_date": "2025-06-25T23:07:09.344138+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_rxuuid",
+                    "value": "%7B%22rx_uuid%22%3A%22RX-b00676da-767c-4af8-82ec-fd04aedb12bf-003%22%7D",
+                    "domain": ".targeting.unrulymedia.com",
+                    "path": "/",
+                    "expires": 1774652829.298311,
+                    "expires_date": "2026-03-27T23:07:09.298311+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ad-id",
+                    "value": "AwU4-rN3cUrKsOUVsVZ6fcc",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1759360029.387393,
+                    "expires_date": "2025-10-01T23:07:09.387393+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ad-privacy",
+                    "value": "0",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1777676829.38751,
+                    "expires_date": "2026-05-01T23:07:09.387510+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDSYNC",
+                    "value": "18z8~2oan",
+                    "domain": ".analytics.yahoo.com",
+                    "path": "/",
+                    "expires": 1774652823.198493,
+                    "expires_date": "2026-03-27T23:07:03.198493+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=VGST00:s=V:r=V:a=V:p=V:g=3599:u=1:x=1:i=1743116806:t=1743203206:v=2:sig=AQGvgbGmq09VjuGFm2qmcybFRi2TC3ul\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743203223.346576,
+                    "expires_date": "2025-03-28T23:07:03.346576+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sa-user-id",
+                    "value": "s%3A0-221ba680-1d2c-5639-6914-88448018d37f.GsqDG0nDv47ozc3WBc5n1bGC088KkNdzvWM01OjOnqM",
+                    "domain": "sync.srv.stackadapt.com",
+                    "path": "/",
+                    "expires": 1774652823.298934,
+                    "expires_date": "2026-03-27T23:07:03.298934+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "sa-user-id",
+                    "value": "s%3A0-221ba680-1d2c-5639-6914-88448018d37f.GsqDG0nDv47ozc3WBc5n1bGC088KkNdzvWM01OjOnqM",
+                    "domain": ".srv.stackadapt.com",
+                    "path": "/",
+                    "expires": 1774652823.299013,
+                    "expires_date": "2026-03-27T23:07:03.299013+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "sa-user-id-v2",
+                    "value": "s%3AIhumgB0sVjlpFIhEgBjTf1mPq9c.72sLFIOTshd3Tc%2FvzmQ2yjfnAG8zQqx4HQ36c7liED0",
+                    "domain": "sync.srv.stackadapt.com",
+                    "path": "/",
+                    "expires": 1774652823.29906,
+                    "expires_date": "2026-03-27T23:07:03.299060+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sa-user-id-v2",
+                    "value": "s%3AIhumgB0sVjlpFIhEgBjTf1mPq9c.72sLFIOTshd3Tc%2FvzmQ2yjfnAG8zQqx4HQ36c7liED0",
+                    "domain": ".srv.stackadapt.com",
+                    "path": "/",
+                    "expires": 1774652823.299107,
+                    "expires_date": "2026-03-27T23:07:03.299107+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sa-user-id-v3",
+                    "value": "s%3AAQAKINsOHF00ZK5g01dh7T50RqnOxejOTmWOFB58xMnfs0bcEAEYAyCGtJe_BjABOgTJ2JBCQgSAzUXm.VOvhXDCUugONWJP3E8zP6m%2Bwm9hLItMF9YT7OE9IH4k",
+                    "domain": "sync.srv.stackadapt.com",
+                    "path": "/",
+                    "expires": 1774652823.299139,
+                    "expires_date": "2026-03-27T23:07:03.299139+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sa-user-id-v3",
+                    "value": "s%3AAQAKINsOHF00ZK5g01dh7T50RqnOxejOTmWOFB58xMnfs0bcEAEYAyCGtJe_BjABOgTJ2JBCQgSAzUXm.VOvhXDCUugONWJP3E8zP6m%2Bwm9hLItMF9YT7OE9IH4k",
+                    "domain": ".srv.stackadapt.com",
+                    "path": "/",
+                    "expires": 1774652823.299178,
+                    "expires_date": "2026-03-27T23:07:03.299178+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&df529e25-a6db-4015-873b-d4dc726a6477\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774652823.345703,
+                    "expires_date": "2026-03-27T23:07:03.345703+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxMTY4MDY7MjswMjFyE3bGA5V5NBzt+nCeMmDGMwxgWoVL5Xe4eO8I4BI/9A==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758668823.346315,
+                    "expires_date": "2025-09-23T23:07:03.346315+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "csuuid",
+                    "value": "67e5da064fd9e",
+                    "domain": ".primis.tech",
+                    "path": "/",
+                    "expires": 1745276823.353836,
+                    "expires_date": "2025-04-21T23:07:03.353836+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ljt_reader",
+                    "value": "KZfqAQZH78P2wd8cTC-KFFmB",
+                    "domain": ".lijit.com",
+                    "path": "/",
+                    "expires": 1774652823.472265,
+                    "expires_date": "2026-03-27T23:07:03.472265+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ljtrtb_80",
+                    "value": "M8RYQJO7-23-GXSI",
+                    "domain": ".lijit.com",
+                    "path": "/",
+                    "expires": 1774652823.472128,
+                    "expires_date": "2026-03-27T23:07:03.472128+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cu",
+                    "value": "df380402-7b3c-4866-a3db-235b9bae628c|1743116806673",
+                    "domain": ".ipredictive.com",
+                    "path": "/",
+                    "expires": 1774652823.742681,
+                    "expires_date": "2026-03-27T23:07:03.742681+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "Gdyn",
+                    "value": "KlQzUMXGQMGG0PVB1-6WuqlUssGMPKxAFenxGsRP5xbtGKGGqXOELGl8lej2GSfPgK4oGQeSKUklI8LG2RbG",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777244824.409651,
+                    "expires_date": "2026-04-26T23:07:04.409651+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "Gdynp",
+                    "value": "aCaApLhniCo3Ruljmi7IIk48OlQPgGghcDilM2STBav.77",
+                    "domain": ".hit.gemius.pl",
+                    "path": "/",
+                    "expires": 1777244824.409772,
+                    "expires_date": "2026-04-26T23:07:04.409772+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336Stress",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DPSync4",
+                    "value": "1744243200%3A227_245_197_219_226",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892828.336328,
+                    "expires_date": "2025-06-25T23:07:08.336328+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_153",
+                    "value": "19420-MPL3kGKkopMr9fOWN_C_kmOmp5Mr9_CWYPMWueu-&KRTB&22979-MPL3kGKkopMr9fOWN_C_kmOmp5Mr9_CWYPMWueu-&KRTB&23462-MPL3kGKkopMr9fOWN_C_kmOmp5Mr9_CWYPMWueu-&KRTB&23661-MPL3kGKkopMr9fOWN_C_kmOmp5Mr9_CWYPMWueu-",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892828.449477,
+                    "expires_date": "2025-06-25T23:07:08.449477+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_632",
+                    "value": "23041-eGpsLNLij9SlTd_OH1JPDXnfZN4BnnXCVfNeutK37l4&KRTB&23047-eGpsLNLij9SlTd_OH1JPDXnfZN4BnnXCVfNeutK37l4&KRTB&23234-eGpsLNLij9SlTd_OH1JPDXnfZN4BnnXCVfNeutK37l4&KRTB&23361-eGpsLNLij9SlTd_OH1JPDXnfZN4BnnXCVfNeutK37l4",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1745708828.454178,
+                    "expires_date": "2025-04-26T23:07:08.454178+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DotomiTest",
+                    "value": "4a1d8fffdeb115fd",
+                    "domain": ".dotomi.com",
+                    "path": "/",
+                    "expires": 1743116858.497773,
+                    "expires_date": "2025-03-27T23:07:38.497773+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "UserID1",
+                    "value": "7486629696375617904",
+                    "domain": ".adfarm1.adition.com",
+                    "path": "/",
+                    "expires": 1750892828.560185,
+                    "expires_date": "2025-06-25T23:07:08.560185+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tuuid",
+                    "value": "6bab4c17-10b0-4a83-b686-10b034322ab8",
+                    "domain": ".360yield.com",
+                    "path": "/",
+                    "expires": 1750892828.566098,
+                    "expires_date": "2025-06-25T23:07:08.566098+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tuuid_lu",
+                    "value": "1743116811",
+                    "domain": ".360yield.com",
+                    "path": "/",
+                    "expires": 1750892828.566178,
+                    "expires_date": "2025-06-25T23:07:08.566178+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_32",
+                    "value": "11175-AQAJDKoSnkXDjAIOyoebAQEBAQEBAQCU2Nq9-QEBAJTY2r35&KRTB&22715-AQAJDKoSnkXDjAIOyoebAQEBAQEBAQCU2Nq9-QEBAJTY2r35&KRTB&23519-AQAJDKoSnkXDjAIOyoebAQEBAQEBAQCU2Nq9-QEBAJTY2r35&KRTB&23632-AQAJDKoSnkXDjAIOyoebAQEBAQEBAQCU2Nq9-QEBAJTY2r35",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892828.579369,
+                    "expires_date": "2025-06-25T23:07:08.579369+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_1101",
+                    "value": "23040-7486629696375617904&KRTB&23369-7486629696375617904",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1745708828.623052,
+                    "expires_date": "2025-04-26T23:07:08.623052+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "everest_g_v2",
+                    "value": "g_surferid~Z_XaCwAHHqBI-wA0",
+                    "domain": ".everesttech.net",
+                    "path": "/",
+                    "expires": 1774652829.376033,
+                    "expires_date": "2026-03-27T23:07:09.376033+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_cc_dc",
+                    "value": "1",
+                    "domain": ".crwdcntrl.net",
+                    "path": "/",
+                    "expires": 1766445137.697484,
+                    "expires_date": "2025-12-22T23:12:17.697484+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_cc_id",
+                    "value": "8441e318f06136f6d6590f44b07027c0",
+                    "domain": ".crwdcntrl.net",
+                    "path": "/",
+                    "expires": 1766445137.697556,
+                    "expires_date": "2025-12-22T23:12:17.697556+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4.gEVNsVF']wIg2Hc$Dgo9n!A#Fu.CK$wNl(:)Dq)rE-ldg@Ool1X9+)*=Sjss>^#BDAQ2O'-SGf_BUASb@D%$(@Fhyi=Eguo9%(3bh'[wuH2hkA?X_FESMwjrCDuWmgCw+B6PoXj'#XseEuI$d(",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750892828.79932,
+                    "expires_date": "2025-06-25T23:07:08.799320+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uids",
+                    "value": "eyJ0ZW1wVUlEcyI6eyJjb25uZWN0YWQiOnsidWlkIjoiODgxYjcwYTgtMjk5Mi00YTA0LWE2OTItMmRmYjk4MDBhMzkwIiwiZXhwaXJlcyI6IjIwMjUtMDYtMjVUMjM6MDY6NTFaIn0sInJ1Ymljb24iOnsidWlkIjoiTThSWVFKTzctMjMtR1hTSSIsImV4cGlyZXMiOiIyMDI1LTA2LTI1VDIzOjA2OjQ2WiJ9fSwiYmlydGhkYXkiOiIyMDI1LTAzLTI3VDIzOjA2OjQ1WiJ9",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750892828.79958,
+                    "expires_date": "2025-06-25T23:07:08.799580+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_1469",
+                    "value": "23583-6bab4c17-10b0-4a83-b686-10b034322ab8",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892828.902352,
+                    "expires_date": "2025-06-25T23:07:08.902352+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_rxuuid",
+                    "value": "%7B%22rx_uuid%22%3A%22RX-b00676da-767c-4af8-82ec-fd04aedb12bf-003%22%2C%22nxtrdr%22%3Afalse%2C%22zdxidn%22%3A%222069.121%22%7D",
+                    "domain": ".1rx.io",
+                    "path": "/",
+                    "expires": 1774652829.03255,
+                    "expires_date": "2026-03-27T23:07:09.032550+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "id",
+                    "value": "eyJpdiI6Ijg0K1dwM0tnMjl4ZjBJaUxPanJtUmc9PSIsInZhbHVlIjoiWlpSaWgzcWljb0RYRHNhbWkxZkVNUWxRNm5vRXVxU2R0Vlh4RTFBeWYveU4vVjZQMWNjRmd2bEtCSUlQOUd0ODUzVHEzNFdPYW52OGFMMDN0bkxQN1lUVTVHL2JHK1MwNC9DUC84dzBNK0tBaUVuWDQxTERWRHBva0todVBMcGRRUXJDaHFyK0ZHS3JjODUxUWIrTG0xNzVHOVJMLzZwUTV2Vm9BOUs5aUV4S2YxZ3lDcFgwTDhRQzU2T0hDak5rdUh5OStWN0pUU3NxajJIQWE2ckVsbFlzdThRbTM1WWM1MFBmRXpaWG5MNFlwTHNiUmh3bkhXTHVrK3JhN1F2S0htcnRtY1VOR1ZwMjByY1hqMUFoUThOSkJGWHlFYno4eWVWQUNzWlRQUXNMZWUvcjkxeGNVc2h6ci9KaHl6VWNFZkFackM1cjM5U25YVWxKTjRqbGw2cm9SSjFCOEJWWXRZOC9HY1orNzVBdWQybnBleSsrdkVRUy9lczBvaGNPWXd0UDJxUlZySlB3M2VGc0lHbDRWeHhHSVNiWDRuYmo5Nzk1RGJDeHkxVkM0Szc4M3krUGNQVHNBRWlpNlA0KzBoMzRybS9XWDFndldkNlpJRHVUVTl6RVdHNk9iTUlrZHZqdFpWcnZsWWNwV3JFdVE0RFpidE9BOG54Rnl0VFVCd2V0UmJmSUJNTjFYejU1cHVQSnRPQXV2c0huVnhISUV2S1hIcFYxNFJwMGdaaW53c25vSm92VmZKRlkrazNwU1JWQkExMkNXckdXZndlMkpGOGdkVkx2dnh5bTY2T25OZHdtTzlaZVZxQTluTVhZdituSzhaZmxWTTZlUmcwVk55a0tOWUFNRGhFUDFGOStwenNOQVh3dThQWDVpYUU0MHM2MXJuR01sMHVKR2ZzaENUQ0RhVTlDVEhPUnZLQ2QiLCJtYWMiOiI1NmExYjI1YmM0MzM5MmU1MDA5MzZkMzM1YTYyMzk1Y2Y0MzYzNDMwMTA3NmY3MjczNjUyMGYxZDk4MDUyZDY4IiwidGFnIjoiIn0%3D",
+                    "domain": ".connectad.io",
+                    "path": "/",
+                    "expires": 1745744829.068354,
+                    "expires_date": "2025-04-27T09:07:09.068354+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "OPU751268b4c46c4fb5b33cf3bb5f733f30",
+                    "domain": ".adx.opera.com",
+                    "path": "/",
+                    "expires": 1774652829.104075,
+                    "expires_date": "2026-03-27T23:07:09.104075+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "TDCPM",
+                    "value": "CAESGAoJYmlkc3dpdGNoEgsI0tPk_cLj9j0QBRIWCgdydWJpY29uEgsI7sTgw8Lj9j0QBRgBIAEoAjILCN7J56rZ4_Y9EAU4AVoJYmlkc3dpdGNoYAI.",
+                    "domain": ".adsrvr.org",
+                    "path": "/",
+                    "expires": 1774652829.133816,
+                    "expires_date": "2026-03-27T23:07:09.133816+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uids",
+                    "value": "eyJ0ZW1wVUlEcyI6eyJhZGZvcm0iOnsidWlkIjoiNTQ3MzMxMjczNTI0MTgzOTk5OSIsImV4cGlyZXMiOiIyMDI1LTA0LTEwVDIzOjA2OjUyLjE2Mjc2NTUzNFoifX19",
+                    "domain": "prebid.setupad.io",
+                    "path": "/",
+                    "expires": 1750892829.192057,
+                    "expires_date": "2025-06-25T23:07:09.192057+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "rlas3",
+                    "value": "hY83kv2e4EvLOnJuZ3nQCDjJ1ZaIB1w3ZjjnociqFWc=",
+                    "domain": ".rlcdn.com",
+                    "path": "/",
+                    "expires": 1774652829.236787,
+                    "expires_date": "2026-03-27T23:07:09.236787+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pxrc",
+                    "value": "CIy0l78GEgYIkLwrEAA=",
+                    "domain": ".rlcdn.com",
+                    "path": "/",
+                    "expires": 1748300829.236865,
+                    "expires_date": "2025-05-26T23:07:09.236865+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sp",
+                    "value": "CggIknESAxD4DgoICIkNEgMQ-A4KCQjoqwYSAxD4Dg==",
+                    "domain": ".quantserve.com",
+                    "path": "/",
+                    "expires": 1750892829.305428,
+                    "expires_date": "2025-06-25T23:07:09.305428+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "audit_p",
+                    "value": "1|yQuirGeEF6Cxq3DpItaqR49iY5NvfRtbc3TxHAGULK32cMk8XcM4yODvao0jdxrIs5wefNERSzndgDuK6XkE7zaSwsSczUueTpyyLo7mZ03j+AIZpSnm+vUHl6ftIanOnMPQAZ+OpBIE4xHv8vCsaE86wLKiJrjpNS/dscq6E7+O1NSObcqgR/TH9q1PPtOw3HddnbM8KJmBa4dW5fEDLTqOsnIZiZYBircqm+17/ESstQqembpLQYW4w245jCUakrgKtGiJMeDzQjn4zcYKLLRctY9gdnbsT4SUIs3FC0RaGyIg6AIGRRI8f10MyWV3tjYRbBIoxVScpthmpl26lB2o9K1aTWmPLhBIGr2+w2u3kOM2+SeQSDUcaNF6NfNe0GTNfO5OSG3ynVWPFjinQ/4/ypubcgv8YvhzIIIg/QO381Fbkax2n5MwHL3t4FQEVZX69MQWVkJ30mYI6wiOxuVg2pVZwN2eyRnki2aB0Nv3ruFSCIgnHRIfJhFturdm4FExtoKZ23YAW06fw28fNbjzVlyO5M+qEGPbUXL4S/uFqXQgl/kBnNBV/68GLlPA",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1774652829.340964,
+                    "expires_date": "2026-03-27T23:07:09.340964+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "audit",
+                    "value": "1|yQuirGeEF6Cxq3DpItaqR49iY5NvfRtbc3TxHAGULK32cMk8XcM4yODvao0jdxrIs5wefNERSzndgDuK6XkE7zaSwsSczUueTpyyLo7mZ03j+AIZpSnm+vUHl6ftIanOnMPQAZ+OpBIE4xHv8vCsaE86wLKiJrjpNS/dscq6E7+O1NSObcqgR/TH9q1PPtOw3HddnbM8KJmBa4dW5fEDLTqOsnIZiZYBircqm+17/ESstQqembpLQYW4w245jCUakrgKtGiJMeDzQjn4zcYKLLRctY9gdnbsT4SUIs3FC0RaGyIg6AIGRRI8f10MyWV3tjYRbBIoxVScpthmpl26lB2o9K1aTWmPLhBIGr2+w2u3kOM2+SeQSDUcaNF6NfNe0GTNfO5OSG3ynVWPFjinQ/4/ypubcgv8YvhzIIIg/QO381Fbkax2n5MwHL3t4FQEVZX69MQWVkJ30mYI6wiOxuVg2pVZwN2eyRnki2aB0Nv3ruFSCIgnHRIfJhFturdm4FExtoKZ23YAW06fw28fNbjzVlyO5M+qEGPbUXL4S/uFqXQgl/kBnNBV/68GLlPA",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1774652829.344043,
+                    "expires_date": "2026-03-27T23:07:09.344043+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_Amc_b",
+                    "value": "345",
+                    "domain": "prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1743117129.3452,
+                    "expires_date": "2025-03-27T23:12:09.345200+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_Amc_s",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRAK8tX_G__bXlr8T736ftkeY1f99h77sQxBgbJk-4FzLvW_JwX32E7NAz6tqYKmRIAu3TBIQNlHJDURVCgaogVrTDMaEyUoTtKJ6BkiFMRY2dYCFxvm4tjeQCY5vr991d52R-t7dr83dzyy4hnv3a9_-S1WJCdAYetDfv9bROb-9IO9_x8v4v4_N7pE2-eS1l_tWvp7D9-Ytv_9X399_bbff5Pn__ul_-_X__f_n37v942AAAAYpABgACCvI6ADAAEFeSUAGAAIK8hIAMAAQV5LQAYAAgryQgAwABBXkAA.f_wAAAAAAAAA",
+                    "domain": "prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1743117129.345255,
+                    "expires_date": "2025-03-27T23:12:09.345255+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_Amc_t",
+                    "value": "_T",
+                    "domain": "prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1743117129.345295,
+                    "expires_date": "2025-03-27T23:12:09.345295+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sv3_7",
+                    "value": "1",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1743203229.345321,
+                    "expires_date": "2025-03-28T23:07:09.345321+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "amuid2",
+                    "value": "5db3eb9e-fda9-485a-a1d6-6425502565c4",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1774652829.345351,
+                    "expires_date": "2026-03-27T23:07:09.345351+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "p_Amc_b",
+                    "value": "345",
+                    "domain": "prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1743117129.345383,
+                    "expires_date": "2025-03-27T23:12:09.345383+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "p_Amc_s",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRAK8tX_G__bXlr8T736ftkeY1f99h77sQxBgbJk-4FzLvW_JwX32E7NAz6tqYKmRIAu3TBIQNlHJDURVCgaogVrTDMaEyUoTtKJ6BkiFMRY2dYCFxvm4tjeQCY5vr991d52R-t7dr83dzyy4hnv3a9_-S1WJCdAYetDfv9bROb-9IO9_x8v4v4_N7pE2-eS1l_tWvp7D9-Ytv_9X399_bbff5Pn__ul_-_X__f_n37v942AAAAYpABgACCvI6ADAAEFeSUAGAAIK8hIAMAAQV5LQAYAAgryQgAwABBXkAA.f_wAAAAAAAAA",
+                    "domain": "prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1743117129.345412,
+                    "expires_date": "2025-03-27T23:12:09.345412+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "p_Amc_t",
+                    "value": "_T",
+                    "domain": "prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1743117129.345447,
+                    "expires_date": "2025-03-27T23:12:09.345447+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pamuid2",
+                    "value": "5db3eb9e-fda9-485a-a1d6-6425502565c4",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1774652829.345475,
+                    "expires_date": "2026-03-27T23:07:09.345475+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "psd_amuid2",
+                    "value": "5db3eb9e-fda9-485a-a1d6-6425502565c4",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1774652829.345507,
+                    "expires_date": "2026-03-27T23:07:09.345507+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd_amuid2",
+                    "value": "5db3eb9e-fda9-485a-a1d6-6425502565c4",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1774652829.345539,
+                    "expires_date": "2026-03-27T23:07:09.345539+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TapAd_TS",
+                    "value": "1743116812329",
+                    "domain": ".tapad.com",
+                    "path": "/",
+                    "expires": 1748300829.391051,
+                    "expires_date": "2025-05-26T23:07:09.391051+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "TapAd_DID",
+                    "value": "e8d32f5b-b4b4-40b7-8211-c1c0456f5a52",
+                    "domain": ".tapad.com",
+                    "path": "/",
+                    "expires": 1748300829.391155,
+                    "expires_date": "2025-05-26T23:07:09.391155+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "TapAd_3WAY_SYNCS",
+                    "value": "",
+                    "domain": ".tapad.com",
+                    "path": "/",
+                    "expires": 1748300829.391204,
+                    "expires_date": "2025-05-26T23:07:09.391204+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ssi",
+                    "value": "d0d6487e-09c0-44d9-ab19-ef695450ae9e#1743116812376",
+                    "domain": ".sitescout.com",
+                    "path": "/",
+                    "expires": 1774652832.552918,
+                    "expires_date": "2026-03-27T23:07:12.552918+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wfivefivec",
+                    "value": "TVzOhyel1TXWji5",
+                    "domain": ".w55c.net",
+                    "path": "/",
+                    "expires": 1777331230.439688,
+                    "expires_date": "2026-04-27T23:07:10.439688+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "matchtriplelift",
+                    "value": "5",
+                    "domain": ".w55c.net",
+                    "path": "/",
+                    "expires": 1745708830.439757,
+                    "expires_date": "2025-04-26T23:07:10.439757+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "zuid",
+                    "value": "X8CesYK9vIFLPwAX6tyN",
+                    "domain": ".zemanta.com",
+                    "path": "/",
+                    "expires": 1774652830.212108,
+                    "expires_date": "2026-03-27T23:07:10.212108+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "obuid",
+                    "value": "41614eca-ffb3-49aa-b256-20c9259e4bcb",
+                    "domain": ".outbrain.com",
+                    "path": "/",
+                    "expires": 1774652830.08627,
+                    "expires_date": "2026-03-27T23:07:10.086270+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SPugT",
+                    "value": "1743116812",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1745708830.42974,
+                    "expires_date": "2025-04-26T23:07:10.429740+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "chkChromeAb67Sec",
+                    "value": "3",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892831.456848,
+                    "expires_date": "2025-06-25T23:07:11.456848+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "SyncRTB4",
+                    "value": "1744243200%3A214_275_13_251_81_271_220_238_8_266_55_249_166_234_71_56_3_22_233_161_264_21_54_203_201%7C1743897600%3A63%7C1743638400%3A2_223_15%7C1744329600%3A35",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892831.456887,
+                    "expires_date": "2025-06-25T23:07:11.456887+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ssuma",
+                    "value": "eyI0NSI6MTc0MzExNjgxNDUyOCwiMjYiOjE3NDMxMTY4MTI0MDksIjciOjE3NDMxMTY4MTI0MDl9",
+                    "domain": ".sitescout.com",
+                    "path": "/",
+                    "expires": 1745708832.553055,
+                    "expires_date": "2025-04-26T23:07:12.553055+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_188",
+                    "value": "3189-d0d6487e-09c0-44d9-ab19-ef695450ae9e-67e5da0c-5553&KRTB&23418-d0d6487e-09c0-44d9-ab19-ef695450ae9e-67e5da0c-5553&KRTB&23634-d0d6487e-09c0-44d9-ab19-ef695450ae9e-67e5da0c-5553",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892831.584591,
+                    "expires_date": "2025-06-25T23:07:11.584591+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747470982",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774652831.594399,
+                    "expires_date": "2026-03-27T23:07:11.594399+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_22",
+                    "value": "14911-7482849591005410174&KRTB&23150-7482849591005410174&KRTB&23527-7482849591005410174&KRTB&23643-7482849591005410174",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1745708831.595052,
+                    "expires_date": "2025-04-26T23:07:11.595052+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cid_be8925444133438998b583bc90272dbf",
+                    "value": "1",
+                    "domain": ".ctnsnet.com",
+                    "path": "/",
+                    "expires": 1774652831.618737,
+                    "expires_date": "2026-03-27T23:07:11.618737+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_1277",
+                    "value": "23327-115771747470982&KRTB&23357-115771747470982",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1748300831.630145,
+                    "expires_date": "2025-05-26T23:07:11.630145+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "viewer_token",
+                    "value": "caeecb90-77a9-4d6e-a98b-bbe2bbb357fe",
+                    "domain": ".csync.loopme.me",
+                    "path": "/",
+                    "expires": 1751065631.631307,
+                    "expires_date": "2025-06-27T23:07:11.631307+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__ktpct",
+                    "value": "1",
+                    "domain": ".adsby.bidtheatre.com",
+                    "path": "/",
+                    "expires": 1743117431.641737,
+                    "expires_date": "2025-03-27T23:17:11.641737+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_860",
+                    "value": "16335-IhumgB0sVjlpFIhEgBjTf1mPq9c&KRTB&23334-IhumgB0sVjlpFIhEgBjTf1mPq9c&KRTB&23417-IhumgB0sVjlpFIhEgBjTf1mPq9c&KRTB&23426-IhumgB0sVjlpFIhEgBjTf1mPq9c",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1750892831.662307,
+                    "expires_date": "2025-06-25T23:07:11.662307+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "PugT",
+                    "value": "1743116813",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1745708831.662624,
+                    "expires_date": "2025-04-26T23:07:11.662624+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__kuid",
+                    "value": "65650174-d6d4-4a94-b722-a5f8fc2bae07.512330814",
+                    "domain": ".adsby.bidtheatre.com",
+                    "path": "/",
+                    "expires": 1743721631.716835,
+                    "expires_date": "2025-04-03T23:07:11.716835+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "HdbqbZLN3_8WmygbsXHBSxKy7EK2ETFY5SAKECtqsrA-1743116814-1.0.1.1-ydgzQ.Gyi1fCI6Hnh1XXSm3WuMSgcQRaCkPIX97mk67apNq2ZJVhQM8YjOFEWVRtDOUMQVJoYE_0t9DFfE4Djn6AxqgTxFbzlm3RnptPODQ",
+                    "domain": ".temu.com",
+                    "path": "/",
+                    "expires": 1743118631.866313,
+                    "expires_date": "2025-03-27T23:37:11.866313+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tfpvi",
+                    "value": "ODBlZjhhYTgtODg4Yi00OTM0LTllZWMtMDYxZjQxY2QxMTliIy04LTM%3D",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652832,
+                    "expires_date": "2026-03-27T23:07:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_QTW65CV2WT",
+                    "value": "GS1.1.1743116810.1.1.1743116832.0.0.0",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1777676832.36581,
+                    "expires_date": "2026-05-01T23:07:12.365810+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1300955770.1743116810",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1777676832.369857,
+                    "expires_date": "2026-05-01T23:07:12.369857+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "KcdP-F9hdVZMU2huRHlOTlhUODlGcEtjY2czRU5MQzlPRks1U1EwcCUyQjFXdVAlMkZOZ3R5RGlUN1NqcUxMbkttSEt1d1VxMU8xQ29YS1NIenJQS29xV3lQcGpEbUQwWnBBWnlXQ0JacGoxSFJLVDl0aWRJbSUyQmJ2JTJCbVFISm1mS1BlZUVTTGhoZGdSNUNQQ1VzTE02SWluJTJCJTJGJTJCMUkxZyUzRCUzRA",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776812831.423459,
+                    "expires_date": "2026-04-21T23:07:11.423459+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "Ziwj3V91Sk9zS3k2OWVnZjJKWklnTXg1QjV4UE9PZnZQRjh5JTJCYVlKZlR6Y2t0Sm9TTSUyRjRSS2JVJTJGT2kwb3hRY2pVekpRTHFrUjZmeFVTYlJtOFBxUTFaMkZsWHZ0V2QlMkIyUkg1Q3AwMmlFMU5ZOUtwS3MzdmhkNXo2UGtkTEN0JTJGd3lOTnlvRUwxRzJWMmhlNXN2aXl0S1U1d0VRJTNEJTNE",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1776820032,
+                    "expires_date": "2026-04-22T01:07:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bidid",
+                    "value": "MATF0F8zVkNGZ0dSZWJWNjF3c1F3ZEQ2enZlejVDMjVVJTJCN2FYblRCbyUyQk9sQThUckduU2JwblF5MWNVcFlRdlhscXBlV1M5ZzZYOCUyQnNkcTZiSExkczJ5bmZZdHFhRkV5MFhza2cxUyUyRnFtNUFzWmQwJTNE",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1776820032,
+                    "expires_date": "2026-04-22T01:07:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(0,64,128,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(0,64,128,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Upravljavec vaših podatkov je Pro Plus, d.o.o. Z vašim soglasjem mi in  naših 887 partnerjev uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov. Za vse partnerje zahtevamo vaše soglasje k obdelavi vaših podatkov in jih drugače ne moremo obdelovati. Kadar koli lahko prekliče",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi in zapri]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več →]  \nExplanation: The button [Sprejmi in zapri] is ambiguous as it suggests acceptance but does not explicitly state \"accept all\". The button [Več →] is categorized under settings because it implies managing or viewing more options. Other elements do not fit into the defined categories.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi in zapri is ambiguous as it suggests acceptance but does not explicitly state \"accept all\". The button Več → is categorized under settings because it implies managing or viewing more options. Other elements do not fit into the defined categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi in zapri",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T00:06:17.599142",
+        "timestamp_stop": "2025-03-28T00:07:19.067168"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Več →)",
+            "Clicking an element of type (button), with text (Ne strinjam se z vsem)",
+            "Clicking an element of type (button), with text (Ne strinjam se z vsem)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dominvrt.si/",
+            "https://www.dominvrt.si/zivali/ljubljencki/5-najbolj-neumnih-pasem-psov.html",
+            "https://www.dominvrt.si/ankete",
+            "https://www.dominvrt.si/vsebine/piskotki"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "device-id",
+                    "value": "a7759daf-2a8f-4773-bec8-c5bdf40d6c63",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652841,
+                    "expires_date": "2026-03-27T23:07:21+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlkYzMtM2E3My02MWVlLWExMGMtMWY1NmRjOWI4NjkxIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjM6MDc6MjEuODk1WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIzOjA3OjIxLjg5NVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739241,
+                    "expires_date": "2026-03-28T23:07:21+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"978e48d7-f2b4-4e70-8d45-416cefafbd21\",\"ts\":1743116841985}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652841,
+                    "expires_date": "2026-03-27T23:07:21+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652842.461402,
+                    "expires_date": "2026-03-27T23:07:22.461402+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=7ab76092-e604-4ab4-9cd8-af6b5afad085&Created=03/27/2025 23:07:05&UserMode=0&guid=55f54626-835b-4f9a-842d-f91610084aca&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652842.461541,
+                    "expires_date": "2026-03-27T23:07:22.461541+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId436",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "device-id",
+                    "value": "a7759daf-2a8f-4773-bec8-c5bdf40d6c63",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652841,
+                    "expires_date": "2026-03-27T23:07:21+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"978e48d7-f2b4-4e70-8d45-416cefafbd21\",\"ts\":1743116841985}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652841,
+                    "expires_date": "2026-03-27T23:07:21+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652842.461402,
+                    "expires_date": "2026-03-27T23:07:22.461402+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=7ab76092-e604-4ab4-9cd8-af6b5afad085&Created=03/27/2025 23:07:05&UserMode=0&guid=55f54626-835b-4f9a-842d-f91610084aca&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652842.461541,
+                    "expires_date": "2026-03-27T23:07:22.461541+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId436",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlkYzMtM2E3My02MWVlLWExMGMtMWY1NmRjOWI4NjkxIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjM6MDc6MjEuODk1WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIzOjA4OjQzLjE5MFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpwcm9wbHVzZC04WXI0UVdyZyIsImM6aW5mb2dyYW0tNGtBSjllTFIiLCJjOmluc3RhZ3JhbS1rM3JSOEdEQyIsImM6dGlrdG9rLU1OTVFHWUtRIiwiYzpmaXN0bmV0ZC1pQk1xcnc2ZyIsImM6c29mYXNjb3JlLVJYQUZoaXoyIiwiYzpmYWNlYm9vay1RTXdBOEZVTiIsImM6cXVpem9vbS1jYlZ4QUpnWCIsImM6ZWNob2JveC1nOU43WFRuRSIsImM6dXBzY29yZS1KUVBXTUcyYSIsImM6cGludGVyZXN0LXFlbXk3VWkzIiwiYzp4LUZLQ0ZKRDhXIiwiYzp5b3V0dWJlLUtieXdpRFI0Il19LCJwdXJwb3NlcyI6eyJkaXNhYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSIsImdlb19hZHMiLCJnZW9fbWFya2V0aW5nX3N0dWRpZXMiLCJ0aGlyZCJdfSwidmVuZG9yc19saSI6eyJkaXNhYmxlZCI6WyJjOnByb3BsdXNkLThZcjRRV3JnIl19LCJ2ZXJzaW9uIjoyLCJhYyI6IkFBQUEuQUFBQSJ9",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739323,
+                    "expires_date": "2026-03-28T23:08:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFgAAAAAAAAACRAAAAAAADFIAMAAQV5HQAYAAgrySgAwABBXkJABgACCvJaADAAEFeSEAGAAIK8gAAA.YAAAAAAAAAAA",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739323,
+                    "expires_date": "2026-03-28T23:08:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "device-id",
+                    "value": "a7759daf-2a8f-4773-bec8-c5bdf40d6c63",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652841,
+                    "expires_date": "2026-03-27T23:07:21+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"978e48d7-f2b4-4e70-8d45-416cefafbd21\",\"ts\":1743116841985}",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": 1774652943,
+                    "expires_date": "2026-03-27T23:09:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652943.543655,
+                    "expires_date": "2026-03-27T23:09:03.543655+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=7ab76092-e604-4ab4-9cd8-af6b5afad085&Created=03/27/2025 23:07:05&UserMode=0&guid=55f54626-835b-4f9a-842d-f91610084aca&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774652943.543714,
+                    "expires_date": "2026-03-27T23:09:03.543714+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId436",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14336",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDlkYzMtM2E3My02MWVlLWExMGMtMWY1NmRjOWI4NjkxIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjM6MDc6MjEuODk1WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIzOjA4OjQzLjE5MFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpwcm9wbHVzZC04WXI0UVdyZyIsImM6aW5mb2dyYW0tNGtBSjllTFIiLCJjOmluc3RhZ3JhbS1rM3JSOEdEQyIsImM6dGlrdG9rLU1OTVFHWUtRIiwiYzpmaXN0bmV0ZC1pQk1xcnc2ZyIsImM6c29mYXNjb3JlLVJYQUZoaXoyIiwiYzpmYWNlYm9vay1RTXdBOEZVTiIsImM6cXVpem9vbS1jYlZ4QUpnWCIsImM6ZWNob2JveC1nOU43WFRuRSIsImM6dXBzY29yZS1KUVBXTUcyYSIsImM6cGludGVyZXN0LXFlbXk3VWkzIiwiYzp4LUZLQ0ZKRDhXIiwiYzp5b3V0dWJlLUtieXdpRFI0Il19LCJwdXJwb3NlcyI6eyJkaXNhYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSIsImdlb19hZHMiLCJnZW9fbWFya2V0aW5nX3N0dWRpZXMiLCJ0aGlyZCJdfSwidmVuZG9yc19saSI6eyJkaXNhYmxlZCI6WyJjOnByb3BsdXNkLThZcjRRV3JnIl19LCJ2ZXJzaW9uIjoyLCJhYyI6IkFBQUEuQUFBQSJ9",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739323,
+                    "expires_date": "2026-03-28T23:08:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFgAAAAAAAAACRAAAAAAADFIAMAAQV5HQAYAAgrySgAwABBXkJABgACCvJaADAAEFeSEAGAAIK8gAAA.YAAAAAAAAAAA",
+                    "domain": ".dominvrt.si",
+                    "path": "/",
+                    "expires": 1774739323,
+                    "expires_date": "2026-03-28T23:08:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId436SecId14341",
+                    "value": "1",
+                    "domain": "www.dominvrt.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_click_2.png",
+            "011_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(0,64,128,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(0,64,128,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Upravljavec vaših podatkov je Pro Plus, d.o.o. Z vašim soglasjem mi in  naših 887 partnerjev uporabljamo piškotke ali podobne tehnologije za shranjevanje, dostop in obdelavo osebnih podatkov, kot so vaš obisk na tem spletnem mestu, naslovi IP in identifikatorji piškotkov. Za vse partnerje zahtevamo vaše soglasje k obdelavi vaših podatkov in jih drugače ne moremo obdelovati. Kadar koli lahko prekliče",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi in zapri]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več →]  \nExplanation: The button [Sprejmi in zapri] is an ambiguous acceptance phrase. There are no explicit accept or decline options, and [Več →] indicates a settings management option, but since it does not directly mention settings, it is categorized separately. The other phrases do not fit the defined categories for buttons.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi in zapri is an ambiguous acceptance phrase. There are no explicit accept or decline options, and Več → indicates a settings management option, but since it does not directly mention settings, it is categorized separately. The other phrases do not fit the defined categories for buttons."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več →",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(0,64,128,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(0,64,128,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      Dobrodošli na Pro Plus, d.o.o. Upravljanje soglasja×Spletne strani podjetja Pro Plus skupaj z našimi partnerji uporabljajo piškotke in druge tehnologije, s katerimi skrbimo za vašo zasebnost, zanesljivost in varnost naših spletnih mest. Dostopamo do vaših informacij, ki niso občutljive narave, ter jih uporabljamo za izboljšavo naših spletnih strani ter prilagoditev oglasov in druge vsebine na tem spletnem mestu. Sprejmete lahko vse ali le nekatere od teh dejavnosti. Svoje nastavitve piškotkov lahko upravljate ali kadar koli prekličete soglasje za uporabo neobveznih piškotkov. Od vaših izbr",
+                "banner_z_index": 2147483642,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 2,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Strinjam se z vsem]\nGenericLabel2: [Ne strinjam se z vsem]\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: None\nGenericLabel3: [Shrani]\nExplanation: The button \"Strinjam se z vsem\" is categorized under GenericLabel1 for accepting all cookies. \"Ne strinjam se z vsem\" is classified under GenericLabel2 for declining all. \"Strinjam se\" is an ambiguous phrase that signifies acceptance, hence it goes under AmbiguousLabel1. There are no buttons that fit the criteria for AmbiguousLabel2 or GenericLabel3 besides \"Shrani,\" which relates to saving choices.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Strinjam se z vsem",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne strinjam se z vsem",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Shrani",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Strinjam se z vsem\" is categorized under GenericLabel1 for accepting all cookies. \"Ne strinjam se z vsem\" is classified under GenericLabel2 for declining all. \"Strinjam se\" is an ambiguous phrase that signifies acceptance, hence it goes under AmbiguousLabel1. There are no buttons that fit the criteria for AmbiguousLabel2 or GenericLabel3 besides \"Shrani,\" which relates to saving choices."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 0.7142857142857143,
+                "settings_decline_element_text": "Ne strinjam se z vsem",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "GenericLabel2",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T00:07:20.786235",
+        "timestamp_stop": "2025-03-28T00:09:09.987905"
+    }
+}

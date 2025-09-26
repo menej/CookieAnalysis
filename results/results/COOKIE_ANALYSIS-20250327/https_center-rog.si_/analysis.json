@@ -1,0 +1,303 @@
+{
+    "web_page": "https://center-rog.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T22:19:33.652702",
+    "timestamp_stop": "2025-03-28T22:21:47.662676",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://center-rog.si/",
+            "https://center-rog.si/studio/kitara-z-lebdecim-mostickom/",
+            "https://center-rog.si/market/LJFW-shop/",
+            "https://center-rog.si/program/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T22:19:35.065050",
+        "timestamp_stop": "2025-03-28T22:20:03.892698"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (da)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://center-rog.si/",
+            "https://center-rog.si/studio/kitara-z-lebdecim-mostickom/",
+            "https://center-rog.si/market/LJFW-shop/",
+            "https://center-rog.si/program/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "cookie-notice",
+                    "value": "true",
+                    "domain": "center-rog.si",
+                    "path": "/",
+                    "expires": 1774732830,
+                    "expires_date": "2026-03-28T21:20:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743196830904.121982620621987440",
+                    "domain": ".center-rog.si",
+                    "path": "/",
+                    "expires": 1750972830,
+                    "expires_date": "2025-06-26T21:20:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookie-notice",
+                    "value": "true",
+                    "domain": "center-rog.si",
+                    "path": "/",
+                    "expires": 1774732830,
+                    "expires_date": "2026-03-28T21:20:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743196830904.121982620621987440",
+                    "domain": ".center-rog.si",
+                    "path": "/",
+                    "expires": 1750972848,
+                    "expires_date": "2025-06-26T21:20:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ali se strinjate z uporabo piškotkov?\n      \n      \n        \n          preberi več\n          \n        \n      \n      \n        da\n        ne",
+                "banner_z_index": 9999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [da]\nAmbiguousLabel2: [ne]\nGenericLabel3: [preberi več]\nExplanation: The button labeled [da] is classified as an ambiguous accept, while [ne] is classified as an ambiguous decline. The button [preberi več] is categorized under settings management as it suggests seeking more information. There are no clear accept or decline all buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "da",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "ne",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel2",
+                    "Settings": "preberi več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button labeled da is classified as an ambiguous accept, while ne is classified as an ambiguous decline. The button preberi več is categorized under settings management as it suggests seeking more information. There are no clear accept or decline all buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "da",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T22:20:05.451813",
+        "timestamp_stop": "2025-03-28T22:20:55.047509"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (ne)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://center-rog.si/",
+            "https://center-rog.si/studio/kitara-z-lebdecim-mostickom/",
+            "https://center-rog.si/market/LJFW-shop/",
+            "https://center-rog.si/program/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "cookie-notice",
+                    "value": "false",
+                    "domain": "center-rog.si",
+                    "path": "/",
+                    "expires": 1774732882,
+                    "expires_date": "2026-03-28T21:21:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookie-notice",
+                    "value": "false",
+                    "domain": "center-rog.si",
+                    "path": "/",
+                    "expires": 1774732882,
+                    "expires_date": "2026-03-28T21:21:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ali se strinjate z uporabo piškotkov?\n      \n      \n        \n          preberi več\n          \n        \n      \n      \n        da\n        ne",
+                "banner_z_index": 9999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [da]  \nAmbiguousLabel2: [ne]  \nGenericLabel3: [preberi več]  \nExplanation: The button [da] is a generic affirmative response, while [ne] is a generic negative response. [preberi več] indicates a request for more information, fitting under settings management.",
+                "llm_response_parsed": {
+                    "Accept": "da",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "ne",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel2",
+                    "Settings": "preberi več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button da is a generic affirmative response, while ne is a generic negative response. preberi več indicates a request for more information, fitting under settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "ne",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T22:20:56.670967",
+        "timestamp_stop": "2025-03-28T22:21:47.415287"
+    }
+}

@@ -1,0 +1,997 @@
+{
+    "web_page": "https://www.triglav-svetovanje.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T08:18:37.273666",
+    "timestamp_stop": "2025-03-28T08:21:22.780010",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.triglav-svetovanje.si/",
+            "https://www.triglav-svetovanje.si/varcevanje/fleks-za-otroke",
+            "https://www.triglav-svetovanje.si/varcevanje/fleks-za-otroke?1dmy&urile=wcm%3apath%3a%2Ftriglav-svetovanje.si%2Findex%2Fvarcevanje%2Ffleks-za-starejse",
+            "https://www.triglav-svetovanje.si/vprasajte-nas"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000_WL8cz2-EO6CNeAmXrl2JNw:5614506b-e55c-407a-9ac7-a398eec0a061",
+                    "domain": ".triglav.si",
+                    "path": "/TriglavLogin",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS018548af",
+                    "value": "0134b3f8ff131353acaa261a4e04073a2aeafad737cd73ab826ffc63fb26a9cd2f7ea611b4aef7fad511080a3535cea52a9e126fdd",
+                    "domain": ".www.triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "syJyOc5r0ix6uaLV_wk.5dYcVpEN3.sMxmC0RoO.ZO8-1743146319708-0.0.1.1-604800000",
+                    "domain": ".highcharts.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+08%3A18%3A42+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&landingPath=https%3A%2F%2Fwww.triglav-svetovanje.si%2F&groups=C0001%3A1%2CSVET1%3A0%2CSVET2%3A0&hosts=H11%3A1%2CH12%3A1%2CH24%3A1%2CH2%3A0%2CH22%3A0%2CH8%3A0%2CH9%3A0&genVendors=",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682322,
+                    "expires_date": "2026-03-28T07:18:42+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000_WL8cz2-EO6CNeAmXrl2JNw:5614506b-e55c-407a-9ac7-a398eec0a061",
+                    "domain": ".triglav.si",
+                    "path": "/TriglavLogin",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS018548af",
+                    "value": "0134b3f8ff131353acaa261a4e04073a2aeafad737cd73ab826ffc63fb26a9cd2f7ea611b4aef7fad511080a3535cea52a9e126fdd",
+                    "domain": ".www.triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "syJyOc5r0ix6uaLV_wk.5dYcVpEN3.sMxmC0RoO.ZO8-1743146319708-0.0.1.1-604800000",
+                    "domain": ".highcharts.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+08%3A19%3A08+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&landingPath=NotLandingPage&groups=C0001%3A1%2CSVET1%3A0%2CSVET2%3A0&hosts=H11%3A1%2CH12%3A1%2CH24%3A1%2CH2%3A0%2CH22%3A0%2CH8%3A0%2CH9%3A0&genVendors=&AwaitingReconsent=false",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682348,
+                    "expires_date": "2026-03-28T07:19:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T08:18:38.628491",
+        "timestamp_stop": "2025-03-28T08:19:15.388751"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.triglav-svetovanje.si/",
+            "https://www.triglav-svetovanje.si/varcevanje/fleks-za-otroke",
+            "https://www.triglav-svetovanje.si/varcevanje/fleks-za-otroke?1dmy&urile=wcm%3apath%3a%2Ftriglav-svetovanje.si%2Findex%2Fvarcevanje%2Ffleks-za-starejse",
+            "https://www.triglav-svetovanje.si/vprasajte-nas"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000_HnLRYV4hWApIj6U4xRjIgt:5614506b-e55c-407a-9ac7-a398eec0a061",
+                    "domain": ".triglav.si",
+                    "path": "/TriglavLogin",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS018548af",
+                    "value": "0134b3f8ff8c664def28624676bd051482b0c4e6daf1ee0c799af977857cd5000761863fa2dc846dd6fe79f6f5f0ea49640d90bb72",
+                    "domain": ".www.triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "dzCzBZFdvklF9wDpmbHpzpotMXL1keYZSepYyCz.erk-1743146358083-0.0.1.1-604800000",
+                    "domain": ".highcharts.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+08%3A19%3A20+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&landingPath=https%3A%2F%2Fwww.triglav-svetovanje.si%2F&groups=C0001%3A1%2CSVET1%3A0%2CSVET2%3A0&hosts=H11%3A1%2CH12%3A1%2CH24%3A1%2CH2%3A0%2CH22%3A0%2CH8%3A0%2CH9%3A0&genVendors=",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682360,
+                    "expires_date": "2026-03-28T07:19:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000_HnLRYV4hWApIj6U4xRjIgt:5614506b-e55c-407a-9ac7-a398eec0a061",
+                    "domain": ".triglav.si",
+                    "path": "/TriglavLogin",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS018548af",
+                    "value": "0134b3f8ff8c664def28624676bd051482b0c4e6daf1ee0c799af977857cd5000761863fa2dc846dd6fe79f6f5f0ea49640d90bb72",
+                    "domain": ".www.triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "dzCzBZFdvklF9wDpmbHpzpotMXL1keYZSepYyCz.erk-1743146358083-0.0.1.1-604800000",
+                    "domain": ".highcharts.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T07:19:48.459Z",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682388,
+                    "expires_date": "2026-03-28T07:19:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+08%3A19%3A48+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&landingPath=NotLandingPage&groups=C0001%3A1%2CSVET1%3A1%2CSVET2%3A1&hosts=H11%3A1%2CH12%3A1%2CH24%3A1%2CH2%3A1%2CH22%3A1%2CH8%3A1%2CH9%3A1&genVendors=",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682388,
+                    "expires_date": "2026-03-28T07:19:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_V2Z65TYVBL",
+                    "value": "GS1.1.1743146388.1.1.1743146388.0.0.0",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1777706388.629481,
+                    "expires_date": "2026-05-02T07:19:48.629481+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.586958008.1743146389",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1750922388,
+                    "expires_date": "2025-06-26T07:19:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.827823584.1743146389",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1743232788,
+                    "expires_date": "2025-03-29T07:19:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_197709505_1",
+                    "value": "1",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1743146448,
+                    "expires_date": "2025-03-28T07:20:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_MLCX8KNGTD",
+                    "value": "GS1.1.1743146388.1.0.1743146388.0.0.0",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1777706388.846403,
+                    "expires_date": "2026-05-02T07:19:48.846403+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.919404226.1743146389",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1777706388.846959,
+                    "expires_date": "2026-05-02T07:19:48.846959+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000_HnLRYV4hWApIj6U4xRjIgt:5614506b-e55c-407a-9ac7-a398eec0a061",
+                    "domain": ".triglav.si",
+                    "path": "/TriglavLogin",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS018548af",
+                    "value": "0134b3f8ff8c664def28624676bd051482b0c4e6daf1ee0c799af977857cd5000761863fa2dc846dd6fe79f6f5f0ea49640d90bb72",
+                    "domain": ".www.triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "dzCzBZFdvklF9wDpmbHpzpotMXL1keYZSepYyCz.erk-1743146358083-0.0.1.1-604800000",
+                    "domain": ".highcharts.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T07:19:48.459Z",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682388,
+                    "expires_date": "2026-03-28T07:19:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.586958008.1743146389",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1750922389,
+                    "expires_date": "2025-06-26T07:19:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.827823584.1743146389",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1743232811,
+                    "expires_date": "2025-03-29T07:20:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_197709505_1",
+                    "value": "1",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1743146448,
+                    "expires_date": "2025-03-28T07:20:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "VxFufTmd5Nw",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "K86OyPtZdDw",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758698393.916231,
+                    "expires_date": "2025-09-24T07:19:53.916231+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgVQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758698393.916273,
+                    "expires_date": "2025-09-24T07:19:53.916273+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CJzg3eGU2fKVlwEQx43nrJ6sjAMYx43nrJ6sjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758698393.916296,
+                    "expires_date": "2025-09-24T07:19:53.916296+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+08%3A20%3A10+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&landingPath=NotLandingPage&groups=C0001%3A1%2CSVET1%3A1%2CSVET2%3A1&hosts=H11%3A1%2CH12%3A1%2CH24%3A1%2CH2%3A1%2CH22%3A1%2CH8%3A1%2CH9%3A1&genVendors=&geolocation=%3B&AwaitingReconsent=false",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682410,
+                    "expires_date": "2026-03-28T07:20:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_V2Z65TYVBL",
+                    "value": "GS1.1.1743146388.1.1.1743146411.0.0.0",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1777706411.064246,
+                    "expires_date": "2026-05-02T07:20:11.064246+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.919404226.1743146389",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1777706411.123497,
+                    "expires_date": "2026-05-02T07:20:11.123497+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_MLCX8KNGTD",
+                    "value": "GS1.1.1743146388.1.1.1743146417.0.0.0",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1777706417.643444,
+                    "expires_date": "2026-05-02T07:20:17.643444+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran Triglav svetovanje d.o.o. uporablja piškotke. Nujne, ki so potrebni za normalno delovanje spletne strani, smo že naložili. Veseli bomo, če nam dovolite, da naložimo tudi analitične in marketinške piškotke.Nastavitve piškotkov Zavrni Sprejmi vse piškotke",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškotke]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button \"Sprejmi vse piškotke\" is categorized under GenericLabel1 as it clearly indicates acceptance of all cookies. \"Zavrni\" is categorized under GenericLabel2 as it signifies declining all cookies. \"Nastavitve piškotkov\" is categorized under GenericLabel3 as it refers to cookie settings management.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi vse piškotke\" is categorized under GenericLabel1 as it clearly indicates acceptance of all cookies. \"Zavrni\" is categorized under GenericLabel2 as it signifies declining all cookies. \"Nastavitve piškotkov\" is categorized under GenericLabel3 as it refers to cookie settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T08:19:16.949733",
+        "timestamp_stop": "2025-03-28T08:20:18.149927"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.triglav-svetovanje.si/",
+            "https://www.triglav-svetovanje.si/varcevanje/fleks-za-otroke",
+            "https://www.triglav-svetovanje.si/varcevanje/fleks-za-otroke?1dmy&urile=wcm%3apath%3a%2Ftriglav-svetovanje.si%2Findex%2Fvarcevanje%2Ffleks-za-starejse",
+            "https://www.triglav-svetovanje.si/vprasajte-nas"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000MDOqHUPxQBf9FH9XwJ0Ej3z:5614506b-e55c-407a-9ac7-a398eec0a061",
+                    "domain": ".triglav.si",
+                    "path": "/TriglavLogin",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS018548af",
+                    "value": "0134b3f8ffb2b18648543625896e9a2ff9df490b1adc8945a9693df26c4f18cb4f52a0e0c7b0076558057286935644929915e7aff2",
+                    "domain": ".www.triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "hB2HbL0spNg.YYGeSjT45iUs5oOrHO7TAevGlqwt9sk-1743146420773-0.0.1.1-604800000",
+                    "domain": ".highcharts.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+08%3A20%3A23+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&landingPath=https%3A%2F%2Fwww.triglav-svetovanje.si%2F&groups=C0001%3A1%2CSVET1%3A0%2CSVET2%3A0&hosts=H11%3A1%2CH12%3A1%2CH24%3A1%2CH2%3A0%2CH22%3A0%2CH8%3A0%2CH9%3A0&genVendors=",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682423,
+                    "expires_date": "2026-03-28T07:20:23+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000MDOqHUPxQBf9FH9XwJ0Ej3z:5614506b-e55c-407a-9ac7-a398eec0a061",
+                    "domain": ".triglav.si",
+                    "path": "/TriglavLogin",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS018548af",
+                    "value": "0134b3f8ffb2b18648543625896e9a2ff9df490b1adc8945a9693df26c4f18cb4f52a0e0c7b0076558057286935644929915e7aff2",
+                    "domain": ".www.triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "hB2HbL0spNg.YYGeSjT45iUs5oOrHO7TAevGlqwt9sk-1743146420773-0.0.1.1-604800000",
+                    "domain": ".highcharts.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T07:20:52.855Z",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682452,
+                    "expires_date": "2026-03-28T07:20:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+08%3A20%3A52+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&landingPath=NotLandingPage&groups=C0001%3A1%2CSVET1%3A0%2CSVET2%3A0&hosts=H11%3A1%2CH12%3A1%2CH24%3A1%2CH2%3A0%2CH22%3A0%2CH8%3A0%2CH9%3A0&genVendors=",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682452,
+                    "expires_date": "2026-03-28T07:20:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000MDOqHUPxQBf9FH9XwJ0Ej3z:5614506b-e55c-407a-9ac7-a398eec0a061",
+                    "domain": ".triglav.si",
+                    "path": "/TriglavLogin",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TS018548af",
+                    "value": "0134b3f8ffb2b18648543625896e9a2ff9df490b1adc8945a9693df26c4f18cb4f52a0e0c7b0076558057286935644929915e7aff2",
+                    "domain": ".www.triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "hB2HbL0spNg.YYGeSjT45iUs5oOrHO7TAevGlqwt9sk-1743146420773-0.0.1.1-604800000",
+                    "domain": ".highcharts.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonAlertBoxClosed",
+                    "value": "2025-03-28T07:20:52.855Z",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682452,
+                    "expires_date": "2026-03-28T07:20:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "OptanonConsent",
+                    "value": "isGpcEnabled=0&datestamp=Fri+Mar+28+2025+08%3A21%3A15+GMT%2B0100+(Srednjeevropski+standardni+%C4%8Das)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&landingPath=NotLandingPage&groups=C0001%3A1%2CSVET1%3A0%2CSVET2%3A0&hosts=H11%3A1%2CH12%3A1%2CH24%3A1%2CH2%3A0%2CH22%3A0%2CH8%3A0%2CH9%3A0&genVendors=&geolocation=%3B&AwaitingReconsent=false",
+                    "domain": ".triglav-svetovanje.si",
+                    "path": "/",
+                    "expires": 1774682475,
+                    "expires_date": "2026-03-28T07:21:15+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran Triglav svetovanje d.o.o. uporablja piškotke. Nujne, ki so potrebni za normalno delovanje spletne strani, smo že naložili. Veseli bomo, če nam dovolite, da naložimo tudi analitične in marketinške piškotke.Nastavitve piškotkov Zavrni Sprejmi vse piškotke",
+                "banner_z_index": 2147483645,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškotke]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button labeled \"Sprejmi vse piškotke\" is classified as accepting all cookies. \"Zavrni\" is classified as declining all cookies. \"Nastavitve piškotkov\" is a settings management button, hence classified accordingly. There are no ambiguous accept or decline phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button labeled \"Sprejmi vse piškotke\" is classified as accepting all cookies. \"Zavrni\" is classified as declining all cookies. \"Nastavitve piškotkov\" is a settings management button, hence classified accordingly. There are no ambiguous accept or decline phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T08:20:19.779596",
+        "timestamp_stop": "2025-03-28T08:21:22.514081"
+    }
+}

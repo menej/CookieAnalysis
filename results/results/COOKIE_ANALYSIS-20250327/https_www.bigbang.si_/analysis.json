@@ -1,0 +1,2511 @@
+{
+    "web_page": "https://www.bigbang.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T12:17:59.280233",
+    "timestamp_stop": "2025-03-28T12:23:29.831631",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bigbang.si/",
+            "https://www.bigbang.si/izdelki/vse-za-otroke/igrace/otroske-kuhinje-in-delavnice/",
+            "https://www.bigbang.si/izdelki/racunalnistvo/tiskalniki-in-3d-tiskalniki/3d-tiskalniki_1/",
+            "https://www.bigbang.si/izdelki/sport-prosti-cas/oblacila-cevlji-in-dodatki/sportna-oblacila/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                    "value": "supported",
+                    "domain": "auth.bigbang.si",
+                    "path": "/auth/realms/BigBangPROD/protocol/openid-connect/3p-cookies",
+                    "expires": 1743160745.09666,
+                    "expires_date": "2025-03-28T11:19:05.096660+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "KEYCLOAK_3P_COOKIE",
+                    "value": "supported",
+                    "domain": "auth.bigbang.si",
+                    "path": "/auth/realms/BigBangPROD/protocol/openid-connect/3p-cookies",
+                    "expires": 1743160745.096836,
+                    "expires_date": "2025-03-28T11:19:05.096836+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "apptoken",
+                    "value": "70a00cc897df41f644b1a5b7629c812d89850af8~33677d0f90994dd5c7cebd8eb2bd5eda0e10a726",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700282.033696,
+                    "expires_date": "2026-03-28T12:18:02.033696+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "disable_dpt",
+                    "value": "",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721208.867251,
+                    "expires_date": "2026-03-28T18:06:48.867251+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "hapi_auth_token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX25hbWUiOiJ3d3cuYmlnYmFuZy5zaSIsImlwX2FkZHJlc3MiOiIwLjAuMC4wIiwidmFsaWRfdW50aWwiOjE3NzQ2OTY2ODIsImFwcHRva2VuIjoiMzM2NzdkMGY5MDk5NGRkNWM3Y2ViZDhlYjJiZDVlZGEwZTEwYTcyNiIsInRva2VuX2lkIjoiMzM4NzkwOTYiLCJpZCI6bnVsbCwiZW1haWwiOm51bGwsImZpcnN0X25hbWUiOm51bGwsImxhc3RfbmFtZSI6bnVsbH0.yr3kOwSFbzvmfEZlalDF7FDxeqQYUOTlgcBKFqvD7nc",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700282.034074,
+                    "expires_date": "2026-03-28T12:18:02.034074+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmslog",
+                    "value": "3d63cfeb50240f24707885f87469e539e07fb73f~67e6856a274b72-06724584",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1743207483.867384,
+                    "expires_date": "2025-03-29T00:18:03.867384+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "BLE21a2Xc7uoSC2t87WqSUFPhB9hCr1lo6YdDztZ19A-1743160683-1.0.1.1-pXhFBbMTFzlBRFmjKOvamDsKwBQLOIj6HN8riBAy..OSd6my4fOXaWNhjn30ZMK4XsM2DcANm4OGaCBpGViQt8ErJhJjUCrnBheY_CDSIrQ",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743162483.432601,
+                    "expires_date": "2025-03-28T11:48:03.432601+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C19MY270MFBM3DO6M2CBPJJ0FD0",
+                    "domain": "pim.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C352RQGSQADHJUVHTL8URS947C7",
+                    "domain": "auth.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "d80lAtaK2INMJ57X.SoC1rjR.1DRAiVb39xtGItlJuw-1743160684-1.0.1.1-lufEHzvi3ic3Y9jfQvMzJGvtl2Oq72A21bvOPDaXfiLFOmLnS714QP5w.IE9tmXQoPClrFn2Sc_4eGW6k2eFMp6XJShkU4LUPZDPa2LzvQ0",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743162484.676729,
+                    "expires_date": "2025-03-28T11:48:04.676729+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "visited_pages_no",
+                    "value": "1",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "apptoken",
+                    "value": "70a00cc897df41f644b1a5b7629c812d89850af8~33677d0f90994dd5c7cebd8eb2bd5eda0e10a726",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700282.033696,
+                    "expires_date": "2026-03-28T12:18:02.033696+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "disable_dpt",
+                    "value": "",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721286.087678,
+                    "expires_date": "2026-03-28T18:08:06.087678+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "hapi_auth_token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX25hbWUiOiJ3d3cuYmlnYmFuZy5zaSIsImlwX2FkZHJlc3MiOiIwLjAuMC4wIiwidmFsaWRfdW50aWwiOjE3NzQ2OTY2ODIsImFwcHRva2VuIjoiMzM2NzdkMGY5MDk5NGRkNWM3Y2ViZDhlYjJiZDVlZGEwZTEwYTcyNiIsInRva2VuX2lkIjoiMzM4NzkwOTYiLCJpZCI6bnVsbCwiZW1haWwiOm51bGwsImZpcnN0X25hbWUiOm51bGwsImxhc3RfbmFtZSI6bnVsbH0.yr3kOwSFbzvmfEZlalDF7FDxeqQYUOTlgcBKFqvD7nc",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700282.034074,
+                    "expires_date": "2026-03-28T12:18:02.034074+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmslog",
+                    "value": "3d63cfeb50240f24707885f87469e539e07fb73f~67e6856a274b72-06724584",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1743207560.087908,
+                    "expires_date": "2025-03-29T00:19:20.087908+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "BLE21a2Xc7uoSC2t87WqSUFPhB9hCr1lo6YdDztZ19A-1743160683-1.0.1.1-pXhFBbMTFzlBRFmjKOvamDsKwBQLOIj6HN8riBAy..OSd6my4fOXaWNhjn30ZMK4XsM2DcANm4OGaCBpGViQt8ErJhJjUCrnBheY_CDSIrQ",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743162483.432601,
+                    "expires_date": "2025-03-28T11:48:03.432601+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C19MY270MFBM3DO6M2CBPJJ0FD0",
+                    "domain": "pim.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C352RQGSQADHJUVHTL8URS947C7",
+                    "domain": "auth.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "d80lAtaK2INMJ57X.SoC1rjR.1DRAiVb39xtGItlJuw-1743160684-1.0.1.1-lufEHzvi3ic3Y9jfQvMzJGvtl2Oq72A21bvOPDaXfiLFOmLnS714QP5w.IE9tmXQoPClrFn2Sc_4eGW6k2eFMp6XJShkU4LUPZDPa2LzvQ0",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743162484.676729,
+                    "expires_date": "2025-03-28T11:48:04.676729+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "visited_pages_no",
+                    "value": "4",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T12:18:00.650472",
+        "timestamp_stop": "2025-03-28T12:19:35.214456"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Namesti vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bigbang.si/",
+            "https://www.bigbang.si/izdelki/vse-za-otroke/igrace/otroske-kuhinje-in-delavnice/",
+            "https://www.bigbang.si/izdelki/racunalnistvo/tiskalniki-in-3d-tiskalniki/3d-tiskalniki_1/",
+            "https://www.bigbang.si/izdelki/sport-prosti-cas/oblacila-cevlji-in-dodatki/sportna-oblacila/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "apptoken",
+                    "value": "44ec0f39e06a6f3e15156d5599008c44ca9c5369~b621541a87ffe04b4de89b332b53a37efd120563",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700378.908432,
+                    "expires_date": "2026-03-28T12:19:38.908432+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "disable_dpt",
+                    "value": "",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721308.728827,
+                    "expires_date": "2026-03-28T18:08:28.728827+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "hapi_auth_token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX25hbWUiOiJ3d3cuYmlnYmFuZy5zaSIsImlwX2FkZHJlc3MiOiIwLjAuMC4wIiwidmFsaWRfdW50aWwiOjE3NzQ2OTY3NzksImFwcHRva2VuIjoiYjYyMTU0MWE4N2ZmZTA0YjRkZTg5YjMzMmI1M2EzN2VmZDEyMDU2MyIsInRva2VuX2lkIjoiMzM4NzkxOTUiLCJpZCI6bnVsbCwiZW1haWwiOm51bGwsImZpcnN0X25hbWUiOm51bGwsImxhc3RfbmFtZSI6bnVsbH0.Bv58-5YPKA2Y95CUN7eg7VL-Sh5HyPMl_zSJNokzhac",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700378.909227,
+                    "expires_date": "2026-03-28T12:19:38.909227+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmslog",
+                    "value": "33ebd25c72703c697eaecfbaf8854f88a5f2ae5d~67e685cb0b5412-85808708",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1743207582.728992,
+                    "expires_date": "2025-03-29T00:19:42.728992+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "W4WmDv7Q1D3JxCd7jZWJuwckeU4EApxk2gPWsa_8KRA-1743160783-1.0.1.1-na6FREP3lwzIOBe8rhxOrNlIeeE9ayz8vdDBveWtqXSLmAL9ZyisR.yF_oCPUHgdD2CrKiJqP7GBu4bY1pMFWeTiZI7eKPDswsbs3poMSR0",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743162582.800828,
+                    "expires_date": "2025-03-28T11:49:42.800828+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "apptoken",
+                    "value": "44ec0f39e06a6f3e15156d5599008c44ca9c5369~b621541a87ffe04b4de89b332b53a37efd120563",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700378.908432,
+                    "expires_date": "2026-03-28T12:19:38.908432+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "disable_dpt",
+                    "value": "",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721330.824116,
+                    "expires_date": "2026-03-28T18:08:50.824116+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "hapi_auth_token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX25hbWUiOiJ3d3cuYmlnYmFuZy5zaSIsImlwX2FkZHJlc3MiOiIwLjAuMC4wIiwidmFsaWRfdW50aWwiOjE3NzQ2OTY3NzksImFwcHRva2VuIjoiYjYyMTU0MWE4N2ZmZTA0YjRkZTg5YjMzMmI1M2EzN2VmZDEyMDU2MyIsInRva2VuX2lkIjoiMzM4NzkxOTUiLCJpZCI6bnVsbCwiZW1haWwiOm51bGwsImZpcnN0X25hbWUiOm51bGwsImxhc3RfbmFtZSI6bnVsbH0.Bv58-5YPKA2Y95CUN7eg7VL-Sh5HyPMl_zSJNokzhac",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700378.909227,
+                    "expires_date": "2026-03-28T12:19:38.909227+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmslog",
+                    "value": "33ebd25c72703c697eaecfbaf8854f88a5f2ae5d~67e685cb0b5412-85808708",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1743207605.82451,
+                    "expires_date": "2025-03-29T00:20:05.824510+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "W4WmDv7Q1D3JxCd7jZWJuwckeU4EApxk2gPWsa_8KRA-1743160783-1.0.1.1-na6FREP3lwzIOBe8rhxOrNlIeeE9ayz8vdDBveWtqXSLmAL9ZyisR.yF_oCPUHgdD2CrKiJqP7GBu4bY1pMFWeTiZI7eKPDswsbs3poMSR0",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743162582.800828,
+                    "expires_date": "2025-03-28T11:49:42.800828+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C191NA92UDPBNENRPUHAM1O581B",
+                    "domain": "pim.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C351PL95WFQYPICOWZMSY7O6D69",
+                    "domain": "auth.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "K9LaBdtMyGOO5unYt87GWivMKBgklzmX7z.Pyt8T.0A-1743160784-1.0.1.1-jwskPEzYQDJztvu_bSCNmq1RN1AxpY9_Oe3AKMmbufHQ03P1mTw5DYoPREr7l7LI2u2LO8Dk6GPjfDTM8FDUxN3Y1sp6Kx47VJL2pcFH5jM",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743162583.836311,
+                    "expires_date": "2025-03-28T11:49:43.836311+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "visited_pages_no",
+                    "value": "1",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr",
+                    "value": "2a0af927da43256df2a4025e5cf464826c06fb7b~33879195_0",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721331.824394,
+                    "expires_date": "2026-03-28T18:08:51.824394+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "cms|marketing|analytics",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721331.824445,
+                    "expires_date": "2026-03-28T18:08:51.824445+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uwXr9Wi98gFd94GE7uizU4GfWQ",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750936807.220408,
+                    "expires_date": "2025-06-26T11:20:07.220408+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cjConsent",
+                    "value": "MHxZfDB8Tnww",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1777288806,
+                    "expires_date": "2026-04-27T11:20:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745839206.93558,
+                    "expires_date": "2025-04-28T11:20:06.935580+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "c2589a51-1d7c-4359-a39e-02fc2a5bcd5c",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776856807.029759,
+                    "expires_date": "2026-04-22T11:20:07.029759+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776856807.029836,
+                    "expires_date": "2026-04-22T11:20:07.029836+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1750936807,
+                    "expires_date": "2025-06-26T11:20:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQE7P3NF7TTKMQ85MKFD056K_.tt.1",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1750936807,
+                    "expires_date": "2025-06-26T11:20:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743160807193.29022817657550002",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1750936807,
+                    "expires_date": "2025-06-26T11:20:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "7033473518476404562",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748344807.243401,
+                    "expires_date": "2025-05-27T11:20:07.243401+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "lJQHal9rRlppM3VIZVRieEo5c2ZjdndaaXROcG9JZFRYSXhlaTJpSyUyQnFMOVZkQkRSM2Y1V3JkdWdDMWl6WmdzTTBVek5WTyUyQnowSW9IcmR6bFBCdWxDaHVxZ0NLSXdLRE1nZFFlWFJGeGJ0VGFTTVBuQ3ZpQ3N2dWJpNjlSQ09DSG11Q05FRGR2S0RtYVNQcjZiRUVnNmpwMGVRJTNEJTNE",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1777324807,
+                    "expires_date": "2026-04-27T21:20:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "m9t_hgHnVCY7HIllUImdGxH4QEylL2TBQVuIXO62d_P0lFmTUlN0j1-gQDiZuIy7gtxEkVTSasNMr9nsmKtbwspkxTTzWMdmtfQO2qP4DPE.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750936808.041944,
+                    "expires_date": "2025-06-26T11:20:08.041944+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750936808.042148,
+                    "expires_date": "2025-06-26T11:20:08.042148+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "5583189544435869981",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750936808.042191,
+                    "expires_date": "2025-06-26T11:20:08.042191+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": "measurement-api.criteo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CMID",
+                    "value": "Z.aF57mqPlAAHiamAiM8EQAA",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1774696807.659319,
+                    "expires_date": "2026-03-28T11:20:07.659319+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CMPS",
+                    "value": "5058",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1750936807.594811,
+                    "expires_date": "2025-06-26T11:20:07.594811+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CMPRO",
+                    "value": "5058",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1750936807.659393,
+                    "expires_date": "2025-06-26T11:20:07.659393+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "mv_tokens",
+                    "value": "%7B%22mv_uuid%22%3A%229adf9720-0bc6-11f0-a186-09eaa26e41ea%22%2C%22version%22%3A%22eu-v1%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370407.619076,
+                    "expires_date": "2025-04-11T11:20:07.619076+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "mv_tokens_eu-v1",
+                    "value": "%7B%22mv_uuid%22%3A%229adf9720-0bc6-11f0-a186-09eaa26e41ea%22%2C%22version%22%3A%22eu-v1%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370407.619153,
+                    "expires_date": "2025-04-11T11:20:07.619153+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "am_tokens",
+                    "value": "%7B%22mv_uuid%22%3A%229adf9720-0bc6-11f0-a186-09eaa26e41ea%22%2C%22version%22%3A%22eu-v1%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370407.619178,
+                    "expires_date": "2025-04-11T11:20:07.619178+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "am_tokens_eu-v1",
+                    "value": "%7B%22mv_uuid%22%3A%229adf9720-0bc6-11f0-a186-09eaa26e41ea%22%2C%22version%22%3A%22eu-v1%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370407.619195,
+                    "expires_date": "2025-04-11T11:20:07.619195+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "criteo",
+                    "value": "%7B%22id%22%3A%22k-iODTany0tEVDM0t8CGQaFVPknKzkqWvoiRy3kA%22%2C%22version%22%3A%22criteo%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370407.619211,
+                    "expires_date": "2025-04-11T11:20:07.619211+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1069231204.1743160808",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1777720807.671431,
+                    "expires_date": "2026-05-02T11:20:07.671431+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor-id",
+                    "value": "3861624072668545000V10",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1774696807.778662,
+                    "expires_date": "2026-03-28T11:20:07.778662+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "data-c-ts",
+                    "value": "1743160807",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1745752807.778723,
+                    "expires_date": "2025-04-27T11:20:07.778723+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "data-c",
+                    "value": "k-RT4xrHy0tEVDM0t8CGQaFVPknKzIl6VU2bWYWw~~3",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1745752807.77875,
+                    "expires_date": "2025-04-27T11:20:07.778750+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "demdex",
+                    "value": "38420630859380354113089276606109508653",
+                    "domain": ".demdex.net",
+                    "path": "/",
+                    "expires": 1758712807.887161,
+                    "expires_date": "2025-09-24T11:20:07.887161+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_KKVZL7Y0MC",
+                    "value": "GS1.1.1743160806.1.0.1743160806.0.0.0",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1777720807.82273,
+                    "expires_date": "2026-05-02T11:20:07.822730+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.537341506.1743160808",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1750936807,
+                    "expires_date": "2025-06-26T11:20:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_rxuuid",
+                    "value": "%7B%22rx_uuid%22%3A%22RX-7e3ae5cd-5236-46e7-b570-68c081d0787f-003%22%7D",
+                    "domain": ".1rx.io",
+                    "path": "/",
+                    "expires": 1774696807.840986,
+                    "expires_date": "2026-03-28T11:20:07.840986+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "dpm",
+                    "value": "38420630859380354113089276606109508653",
+                    "domain": ".dpm.demdex.net",
+                    "path": "/",
+                    "expires": 1758712807.887264,
+                    "expires_date": "2025-09-24T11:20:07.887264+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "opt_out",
+                    "value": "1",
+                    "domain": ".postrelease.com",
+                    "path": "/",
+                    "expires": 1774696807.899466,
+                    "expires_date": "2026-03-28T11:20:07.899466+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743161707.979017,
+                    "expires_date": "2025-03-28T11:35:07.979017+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "tvid",
+                    "value": "dee982b90afb47bbb1c3bd6b0f328d1e",
+                    "domain": ".tremorhub.com",
+                    "path": "/",
+                    "expires": 1774717708.017629,
+                    "expires_date": "2026-03-28T17:08:28.017629+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tv_UICR",
+                    "value": "k-_w4XVny0tEVDM0t8CGQaFVPknKzXoiJdgkh28w",
+                    "domain": ".tremorhub.com",
+                    "path": "/",
+                    "expires": 1745752808.017729,
+                    "expires_date": "2025-04-27T11:20:08.017729+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rCxrEQF']wIg2E>1vRhYs!]tbPl@/D!9hy6]/Cr.%.yPgnYA/cU5=f'pX_#d$7^^<<23M'$bAbU'Yg#^m]1_4FC2W3K]WqwN%nugO%v4VB%nrMG+xVH)",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750936808.042091,
+                    "expires_date": "2025-06-26T11:20:08.042091+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "ypfZqV94SkRTY0dlOVYzanNpRyUyQnVhVXAwV1lZZUJYZm1CTDZ3SSUyQjhRTnNid2x3WHI3MXFkdklSUUJ3dWtrblY3ZWhPMkR4VjhqZk5jJTJGemtqTDZtT2xROGdZRFREQXVaVXVFQ0ppekkwRzNBSElGMlpjR3dnV29scTFtRVVTUmh3WGNZZlo4OWxJNlZyZURkTHNvaGsxclRJb2clM0QlM0Q",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776856808.055447,
+                    "expires_date": "2026-04-22T11:20:08.055447+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_rxuuid",
+                    "value": "%7B%22rx_uuid%22%3A%22RX-7e3ae5cd-5236-46e7-b570-68c081d0787f-003%22%7D",
+                    "domain": ".targeting.unrulymedia.com",
+                    "path": "/",
+                    "expires": 1774696808.091352,
+                    "expires_date": "2026-03-28T11:20:08.091352+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ab",
+                    "value": "0001%3AjSzk07g93yIVSiZP3RsHw0GVDBC1hy7p",
+                    "domain": ".agkn.com",
+                    "path": "/",
+                    "expires": 1774696808.225462,
+                    "expires_date": "2026-03-28T11:20:08.225462+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "apptoken",
+                    "value": "44ec0f39e06a6f3e15156d5599008c44ca9c5369~b621541a87ffe04b4de89b332b53a37efd120563",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700378.908432,
+                    "expires_date": "2026-03-28T12:19:38.908432+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "disable_dpt",
+                    "value": "",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721394.742706,
+                    "expires_date": "2026-03-28T18:09:54.742706+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "hapi_auth_token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX25hbWUiOiJ3d3cuYmlnYmFuZy5zaSIsImlwX2FkZHJlc3MiOiIwLjAuMC4wIiwidmFsaWRfdW50aWwiOjE3NzQ2OTY3NzksImFwcHRva2VuIjoiYjYyMTU0MWE4N2ZmZTA0YjRkZTg5YjMzMmI1M2EzN2VmZDEyMDU2MyIsInRva2VuX2lkIjoiMzM4NzkxOTUiLCJpZCI6bnVsbCwiZW1haWwiOm51bGwsImZpcnN0X25hbWUiOm51bGwsImxhc3RfbmFtZSI6bnVsbH0.Bv58-5YPKA2Y95CUN7eg7VL-Sh5HyPMl_zSJNokzhac",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700378.909227,
+                    "expires_date": "2026-03-28T12:19:38.909227+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmslog",
+                    "value": "33ebd25c72703c697eaecfbaf8854f88a5f2ae5d~67e685cb0b5412-85808708",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1743207668.74288,
+                    "expires_date": "2025-03-29T00:21:08.742880+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "W4WmDv7Q1D3JxCd7jZWJuwckeU4EApxk2gPWsa_8KRA-1743160783-1.0.1.1-na6FREP3lwzIOBe8rhxOrNlIeeE9ayz8vdDBveWtqXSLmAL9ZyisR.yF_oCPUHgdD2CrKiJqP7GBu4bY1pMFWeTiZI7eKPDswsbs3poMSR0",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743162582.800828,
+                    "expires_date": "2025-03-28T11:49:42.800828+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C191NA92UDPBNENRPUHAM1O581B",
+                    "domain": "pim.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C351PL95WFQYPICOWZMSY7O6D69",
+                    "domain": "auth.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "K9LaBdtMyGOO5unYt87GWivMKBgklzmX7z.Pyt8T.0A-1743160784-1.0.1.1-jwskPEzYQDJztvu_bSCNmq1RN1AxpY9_Oe3AKMmbufHQ03P1mTw5DYoPREr7l7LI2u2LO8Dk6GPjfDTM8FDUxN3Y1sp6Kx47VJL2pcFH5jM",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743162583.836311,
+                    "expires_date": "2025-03-28T11:49:43.836311+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gdpr",
+                    "value": "2a0af927da43256df2a4025e5cf464826c06fb7b~33879195_0",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721331.824394,
+                    "expires_date": "2026-03-28T18:08:51.824394+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "cms|marketing|analytics",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721331.824445,
+                    "expires_date": "2026-03-28T18:08:51.824445+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uwXr9Wi98gFd94GE7uizU4GfWQ",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750936868.373279,
+                    "expires_date": "2025-06-26T11:21:08.373279+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cjConsent",
+                    "value": "MHxZfDB8Tnww",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1777288882,
+                    "expires_date": "2026-04-27T11:21:22+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "C",
+                    "value": "1",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1745839206.93558,
+                    "expires_date": "2025-04-28T11:20:06.935580+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "c2589a51-1d7c-4359-a39e-02fc2a5bcd5c",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776856807.029759,
+                    "expires_date": "2026-04-22T11:20:07.029759+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776856807.029836,
+                    "expires_date": "2026-04-22T11:20:07.029836+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1750936869,
+                    "expires_date": "2025-06-26T11:21:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQE7P3NF7TTKMQ85MKFD056K_.tt.1",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1750936869,
+                    "expires_date": "2025-06-26T11:21:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743160807193.29022817657550002",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1750936882,
+                    "expires_date": "2025-06-26T11:21:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "7033473518476404562",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1748344882.676838,
+                    "expires_date": "2025-05-27T11:21:22.676838+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "m9t_hgHnVCY7HIllUImdGxH4QEylL2TBQVuIXO62d_P0lFmTUlN0j1-gQDiZuIy7gtxEkVTSasNMr9nsmKtbwspkxTTzWMdmtfQO2qP4DPE.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750936883.139425,
+                    "expires_date": "2025-06-26T11:21:23.139425+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750936883.139627,
+                    "expires_date": "2025-06-26T11:21:23.139627+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "5583189544435869981",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750936883.139845,
+                    "expires_date": "2025-06-26T11:21:23.139845+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": "measurement-api.criteo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CMID",
+                    "value": "Z.aF57mqPlAAHiamAiM8EQAA",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1774696883.044487,
+                    "expires_date": "2026-03-28T11:21:23.044487+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CMPS",
+                    "value": "5058",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1750936807.594811,
+                    "expires_date": "2025-06-26T11:20:07.594811+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CMPRO",
+                    "value": "5058",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1750936883.044561,
+                    "expires_date": "2025-06-26T11:21:23.044561+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "mv_tokens",
+                    "value": "%7B%22mv_uuid%22%3A%229adf9720-0bc6-11f0-a186-09eaa26e41ea%22%2C%22version%22%3A%22eu-v1%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370483.055392,
+                    "expires_date": "2025-04-11T11:21:23.055392+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "mv_tokens_eu-v1",
+                    "value": "%7B%22mv_uuid%22%3A%229adf9720-0bc6-11f0-a186-09eaa26e41ea%22%2C%22version%22%3A%22eu-v1%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370483.055494,
+                    "expires_date": "2025-04-11T11:21:23.055494+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "am_tokens",
+                    "value": "%7B%22mv_uuid%22%3A%229adf9720-0bc6-11f0-a186-09eaa26e41ea%22%2C%22version%22%3A%22eu-v1%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370483.05554,
+                    "expires_date": "2025-04-11T11:21:23.055540+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "am_tokens_eu-v1",
+                    "value": "%7B%22mv_uuid%22%3A%229adf9720-0bc6-11f0-a186-09eaa26e41ea%22%2C%22version%22%3A%22eu-v1%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370483.05558,
+                    "expires_date": "2025-04-11T11:21:23.055580+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "criteo",
+                    "value": "%7B%22id%22%3A%22k-iODTany0tEVDM0t8CGQaFVPknKzkqWvoiRy3kA%22%2C%22version%22%3A%22criteo%22%7D",
+                    "domain": "exchange.mediavine.com",
+                    "path": "/",
+                    "expires": 1744370483.055618,
+                    "expires_date": "2025-04-11T11:21:23.055618+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1069231204.1743160808",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1777720883.246898,
+                    "expires_date": "2026-05-02T11:21:23.246898+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "visitor-id",
+                    "value": "3861624072668545000V10",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1774696807.778662,
+                    "expires_date": "2026-03-28T11:20:07.778662+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "data-c",
+                    "value": "k-RT4xrHy0tEVDM0t8CGQaFVPknKzIl6VU2bWYWw~~3",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1745752883.163311,
+                    "expires_date": "2025-04-27T11:21:23.163311+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "demdex",
+                    "value": "38420630859380354113089276606109508653",
+                    "domain": ".demdex.net",
+                    "path": "/",
+                    "expires": 1758712883.113614,
+                    "expires_date": "2025-09-24T11:21:23.113614+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.537341506.1743160808",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1750936808,
+                    "expires_date": "2025-06-26T11:20:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_rxuuid",
+                    "value": "%7B%22rx_uuid%22%3A%22RX-7e3ae5cd-5236-46e7-b570-68c081d0787f-003%22%7D",
+                    "domain": ".1rx.io",
+                    "path": "/",
+                    "expires": 1774696807.840986,
+                    "expires_date": "2026-03-28T11:20:07.840986+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "dpm",
+                    "value": "38420630859380354113089276606109508653",
+                    "domain": ".dpm.demdex.net",
+                    "path": "/",
+                    "expires": 1758712883.113709,
+                    "expires_date": "2025-09-24T11:21:23.113709+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "opt_out",
+                    "value": "1",
+                    "domain": ".postrelease.com",
+                    "path": "/",
+                    "expires": 1774696883.136377,
+                    "expires_date": "2026-03-28T11:21:23.136377+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tvid",
+                    "value": "dee982b90afb47bbb1c3bd6b0f328d1e",
+                    "domain": ".tremorhub.com",
+                    "path": "/",
+                    "expires": 1774717708.017629,
+                    "expires_date": "2026-03-28T17:08:28.017629+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "tv_UICR",
+                    "value": "k-_w4XVny0tEVDM0t8CGQaFVPknKzXoiJdgkh28w",
+                    "domain": ".tremorhub.com",
+                    "path": "/",
+                    "expires": 1745752883.145532,
+                    "expires_date": "2025-04-27T11:21:23.145532+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_rxuuid",
+                    "value": "%7B%22rx_uuid%22%3A%22RX-7e3ae5cd-5236-46e7-b570-68c081d0787f-003%22%7D",
+                    "domain": ".targeting.unrulymedia.com",
+                    "path": "/",
+                    "expires": 1774696883.25448,
+                    "expires_date": "2026-03-28T11:21:23.254480+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ab",
+                    "value": "0001%3AjSzk07g93yIVSiZP3RsHw0GVDBC1hy7p",
+                    "domain": ".agkn.com",
+                    "path": "/",
+                    "expires": 1774696883.235602,
+                    "expires_date": "2026-03-28T11:21:23.235602+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUkOhNZ29p3HJsa8IIP1yFaX1d4C_wzXT5Dp-UYVwWoglyGPdUGC_JNXuCmY",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776856843.745197,
+                    "expires_date": "2026-04-22T11:20:43.745197+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rCxrEQF']wIg2E>1vRhYs!]tcVEhURv4UHpr/?.xqm5%wn/kgc8O.hhn*PQj0%^X7P:*=GRqtfg0YBZ6Ctb6--QXY%qaRV>r_YqmV3PVX23nXm/!5Y8KQ_@d[",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750936861.633306,
+                    "expires_date": "2025-06-26T11:21:01.633306+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "visited_pages_no",
+                    "value": "4",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "XuHAiF9rRlppM3VIZVRieEo5c2ZjdndaaXRBJTJCcUFzcSUyRkI3dUh5JTJGRzZTR2RwTmZSVm5YZHg4dG03OUJWRzY1VG5DNFNHcG1ha25BajFyUjRIa0pYVE9sYmdDYVFsSXZDWmRhN2lsb1VrT2JlQzYzeHA5aVBjUCUyQjRGQ0gwV1RVQk9UajdEa2VDOHBYZ0RSajBoT0xlRkRMMHJPdyUzRCUzRA",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1777324883,
+                    "expires_date": "2026-04-27T21:21:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "data-c-ts",
+                    "value": "1743160883",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1745752883.163751,
+                    "expires_date": "2025-04-27T11:21:23.163751+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "-oBcEV8lMkJ4elhZaGxnbkRkeWx3ME8yb1hBV2xaJTJCZkR6NklCY1Vzc3lXeGZ5OUxUajJtUm9qODA1YmZ1aVF5c0pNUkNhUjRGODIzU3NJTVl1OUlwcUExa2hYcE5EU28lMkZSNEJHOUxYTktWUFZaeU9ET0JoV2ZjNWQlMkZPJTJGSVd0NmljWk5XdTBodWZZQWFGdlhJQ3o4WmhjM0ttVDdRJTNEJTNE",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776856882.231551,
+                    "expires_date": "2026-04-22T11:21:22.231551+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_KKVZL7Y0MC",
+                    "value": "GS1.1.1743160806.1.1.1743160882.0.0.0",
+                    "domain": ".bigbang.si",
+                    "path": "/",
+                    "expires": 1777720883.334935,
+                    "expires_date": "2026-05-02T11:21:23.334935+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "V družbi Big Bang, d.o.o. nam je vaša zasebnost pomembna. Trudimo se, da vam zagotovimo izjemno nakupovalno izkušnjo, obenem pa spoštujemo vašo zasebnost. S klikom na gumb \"Namesti vse\" se strinjate, da z uporabo t.i. piškotkov razumemo vaše nakupovalne preference in vam tako prikazujemo izdelke, ki vas najbolj zanimajo. Ti podatki se lahko uporabijo tudi za prilagajanje naše ponudbe na družbenih omrežjih in drugih spletnih mestih.\n\nVeč o piškotkih, ki jih uporabljamo, lahko preberete na povezavi tukaj.\n\nNamesti vse Po meri\nNujni piškotkiOmogočajo normalno delovanje spletne strani Big Bang in nemoteno uporabniško izkušnjo. Z njihovo pomočjo vam zagotavljamo prikaz osnovnih funkcij kot so veljavnost uporabniškega računa, prikaz slik in opisov izdelkov, prikaz oglasnih pasic… Teh piškotkov ni možno upravljati in za njih ni potrebno pridobiti soglasja.\nVeč o piškotkih si lahko prebereš tukaj.\nOglaševalski piškotkiVtičniki in orodja tretjih oseb, uporabljeni kot piškotki, omogočajo delovan",
+                "banner_z_index": 100000000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Namesti vse]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Po meri]\nExplanation: The button [Namesti vse] is classified under GenericLabel1 as it signifies accepting all cookies. [Po meri] is classified under GenericLabel3 as it relates to managing settings. There are no appropriate buttons for the other categories.",
+                "llm_response_parsed": {
+                    "Accept": "Namesti vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Po meri",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Namesti vse is classified under GenericLabel1 as it signifies accepting all cookies. Po meri is classified under GenericLabel3 as it relates to managing settings. There are no appropriate buttons for the other categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Namesti vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T12:19:37.087896",
+        "timestamp_stop": "2025-03-28T12:21:23.423803"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Po meri)",
+            "Clicking an element of type (button), with text (Shrani)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bigbang.si/",
+            "https://www.bigbang.si/izdelki/vse-za-otroke/igrace/otroske-kuhinje-in-delavnice/",
+            "https://www.bigbang.si/izdelki/racunalnistvo/tiskalniki-in-3d-tiskalniki/3d-tiskalniki_1/",
+            "https://www.bigbang.si/izdelki/sport-prosti-cas/oblacila-cevlji-in-dodatki/sportna-oblacila/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "apptoken",
+                    "value": "9f56b49c3111af28d2e2a0a1eaa4c032a165c72e~bd587c7a57b5739be74ee441b6ecde3976061fa7",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700486.564129,
+                    "expires_date": "2026-03-28T12:21:26.564129+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "disable_dpt",
+                    "value": "",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721416.652384,
+                    "expires_date": "2026-03-28T18:10:16.652384+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "hapi_auth_token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX25hbWUiOiJ3d3cuYmlnYmFuZy5zaSIsImlwX2FkZHJlc3MiOiIwLjAuMC4wIiwidmFsaWRfdW50aWwiOjE3NzQ2OTY4ODYsImFwcHRva2VuIjoiYmQ1ODdjN2E1N2I1NzM5YmU3NGVlNDQxYjZlY2RlMzk3NjA2MWZhNyIsInRva2VuX2lkIjoiMzM4NzkzMDAiLCJpZCI6bnVsbCwiZW1haWwiOm51bGwsImZpcnN0X25hbWUiOm51bGwsImxhc3RfbmFtZSI6bnVsbH0.C0h-8BlBx-mjjkkNQDc-M_84DGYmy7R_U8B_1kWfuHE",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700486.564488,
+                    "expires_date": "2026-03-28T12:21:26.564488+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmslog",
+                    "value": "3870e962f35c37cb9d9a838938ac83c8d68f834f~67e68636b199f1-17146955",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1743207690.652516,
+                    "expires_date": "2025-03-29T00:21:30.652516+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "3c9NolyPerKBXjsjvjraqoL0H5SR7UHe6dLKrs5ierM-1743160890-1.0.1.1-URma44mh3CPp8GpjYWMjHvqa_ZxCS2jT8y5ALFvTw8_yrfDQeK7xGn1.wFJkL3EYTVk_V4LAH21LPhYF93JW788m3jH_J5G9cjiMAoDFUtM",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743162690.694592,
+                    "expires_date": "2025-03-28T11:51:30.694592+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "apptoken",
+                    "value": "9f56b49c3111af28d2e2a0a1eaa4c032a165c72e~bd587c7a57b5739be74ee441b6ecde3976061fa7",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700486.564129,
+                    "expires_date": "2026-03-28T12:21:26.564129+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "disable_dpt",
+                    "value": "",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721462.187643,
+                    "expires_date": "2026-03-28T18:11:02.187643+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "hapi_auth_token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX25hbWUiOiJ3d3cuYmlnYmFuZy5zaSIsImlwX2FkZHJlc3MiOiIwLjAuMC4wIiwidmFsaWRfdW50aWwiOjE3NzQ2OTY4ODYsImFwcHRva2VuIjoiYmQ1ODdjN2E1N2I1NzM5YmU3NGVlNDQxYjZlY2RlMzk3NjA2MWZhNyIsInRva2VuX2lkIjoiMzM4NzkzMDAiLCJpZCI6bnVsbCwiZW1haWwiOm51bGwsImZpcnN0X25hbWUiOm51bGwsImxhc3RfbmFtZSI6bnVsbH0.C0h-8BlBx-mjjkkNQDc-M_84DGYmy7R_U8B_1kWfuHE",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700486.564488,
+                    "expires_date": "2026-03-28T12:21:26.564488+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmslog",
+                    "value": "3870e962f35c37cb9d9a838938ac83c8d68f834f~67e68636b199f1-17146955",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1743207736.187974,
+                    "expires_date": "2025-03-29T00:22:16.187974+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "3c9NolyPerKBXjsjvjraqoL0H5SR7UHe6dLKrs5ierM-1743160890-1.0.1.1-URma44mh3CPp8GpjYWMjHvqa_ZxCS2jT8y5ALFvTw8_yrfDQeK7xGn1.wFJkL3EYTVk_V4LAH21LPhYF93JW788m3jH_J5G9cjiMAoDFUtM",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743162690.694592,
+                    "expires_date": "2025-03-28T11:51:30.694592+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C35QMPIYMQ4DCT3OPWJHL64F9D3",
+                    "domain": "auth.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C19COHFCAJ2ETGUF0SSIISAEDDE",
+                    "domain": "pim.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "kYt_gwtg0KiWJnCWZ0XkWHJTOx_lAlGXQ3I8l1VAVbo-1743160891-1.0.1.1-ZDwq_uxHYUW8EYj0bnbbtMd_1SlKZuOlv3MKRr3wkXLfm0FzS4shAF6QxcFqsy.juoDemeHv0U3r01oCpavrsV5.tM462jyetvKA1ITxKzk",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743162691.595461,
+                    "expires_date": "2025-03-28T11:51:31.595461+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "visited_pages_no",
+                    "value": "1",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr",
+                    "value": "3ac334138ba68d00be3e67418f8ce4006ec55af1~33879300_0",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721462.187878,
+                    "expires_date": "2026-03-28T18:11:02.187878+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "cms",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721462.187928,
+                    "expires_date": "2026-03-28T18:11:02.187928+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "apptoken",
+                    "value": "9f56b49c3111af28d2e2a0a1eaa4c032a165c72e~bd587c7a57b5739be74ee441b6ecde3976061fa7",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700486.564129,
+                    "expires_date": "2026-03-28T12:21:26.564129+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "disable_dpt",
+                    "value": "",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721522.730561,
+                    "expires_date": "2026-03-28T18:12:02.730561+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "hapi_auth_token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaXRlX25hbWUiOiJ3d3cuYmlnYmFuZy5zaSIsImlwX2FkZHJlc3MiOiIwLjAuMC4wIiwidmFsaWRfdW50aWwiOjE3NzQ2OTY4ODYsImFwcHRva2VuIjoiYmQ1ODdjN2E1N2I1NzM5YmU3NGVlNDQxYjZlY2RlMzk3NjA2MWZhNyIsInRva2VuX2lkIjoiMzM4NzkzMDAiLCJpZCI6bnVsbCwiZW1haWwiOm51bGwsImZpcnN0X25hbWUiOm51bGwsImxhc3RfbmFtZSI6bnVsbH0.C0h-8BlBx-mjjkkNQDc-M_84DGYmy7R_U8B_1kWfuHE",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774700486.564488,
+                    "expires_date": "2026-03-28T12:21:26.564488+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cmslog",
+                    "value": "3870e962f35c37cb9d9a838938ac83c8d68f834f~67e68636b199f1-17146955",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1743207796.730698,
+                    "expires_date": "2025-03-29T00:23:16.730698+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "3c9NolyPerKBXjsjvjraqoL0H5SR7UHe6dLKrs5ierM-1743160890-1.0.1.1-URma44mh3CPp8GpjYWMjHvqa_ZxCS2jT8y5ALFvTw8_yrfDQeK7xGn1.wFJkL3EYTVk_V4LAH21LPhYF93JW788m3jH_J5G9cjiMAoDFUtM",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743162690.694592,
+                    "expires_date": "2025-03-28T11:51:30.694592+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C35QMPIYMQ4DCT3OPWJHL64F9D3",
+                    "domain": "auth.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookiesession1",
+                    "value": "0D148C19COHFCAJ2ETGUF0SSIISAEDDE",
+                    "domain": "pim.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "kYt_gwtg0KiWJnCWZ0XkWHJTOx_lAlGXQ3I8l1VAVbo-1743160891-1.0.1.1-ZDwq_uxHYUW8EYj0bnbbtMd_1SlKZuOlv3MKRr3wkXLfm0FzS4shAF6QxcFqsy.juoDemeHv0U3r01oCpavrsV5.tM462jyetvKA1ITxKzk",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743162691.595461,
+                    "expires_date": "2025-03-28T11:51:31.595461+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gdpr",
+                    "value": "3ac334138ba68d00be3e67418f8ce4006ec55af1~33879300_0",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721462.187878,
+                    "expires_date": "2026-03-28T18:11:02.187878+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "cms",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": 1774721462.187928,
+                    "expires_date": "2026-03-28T18:11:02.187928+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "visited_pages_no",
+                    "value": "4",
+                    "domain": "www.bigbang.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "V družbi Big Bang, d.o.o. nam je vaša zasebnost pomembna. Trudimo se, da vam zagotovimo izjemno nakupovalno izkušnjo, obenem pa spoštujemo vašo zasebnost. S klikom na gumb \"Namesti vse\" se strinjate, da z uporabo t.i. piškotkov razumemo vaše nakupovalne preference in vam tako prikazujemo izdelke, ki vas najbolj zanimajo. Ti podatki se lahko uporabijo tudi za prilagajanje naše ponudbe na družbenih omrežjih in drugih spletnih mestih.\n\nVeč o piškotkih, ki jih uporabljamo, lahko preberete na povezavi tukaj.\n\nNamesti vse Po meri\nNujni piškotkiOmogočajo normalno delovanje spletne strani Big Bang in nemoteno uporabniško izkušnjo. Z njihovo pomočjo vam zagotavljamo prikaz osnovnih funkcij kot so veljavnost uporabniškega računa, prikaz slik in opisov izdelkov, prikaz oglasnih pasic… Teh piškotkov ni možno upravljati in za njih ni potrebno pridobiti soglasja.\nVeč o piškotkih si lahko prebereš tukaj.\nOglaševalski piškotkiVtičniki in orodja tretjih oseb, uporabljeni kot piškotki, omogočajo delovan",
+                "banner_z_index": 100000000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Namesti vse]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Po meri]\nExplanation: \"Namesti vse\" is categorized under GenericLabel1 as it signifies accepting all cookies. \"Po meri\" is categorized under GenericLabel3 because it pertains to customization or managing settings, while there are no buttons indicating declining or ambiguous accept/decline in the provided text.",
+                "llm_response_parsed": {
+                    "Accept": "Namesti vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Po meri",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Namesti vse\" is categorized under GenericLabel1 as it signifies accepting all cookies. \"Po meri\" is categorized under GenericLabel3 because it pertains to customization or managing settings, while there are no buttons indicating declining or ambiguous accept/decline in the provided text."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Po meri",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "V družbi Big Bang, d.o.o. nam je vaša zasebnost pomembna. Trudimo se, da vam zagotovimo izjemno nakupovalno izkušnjo, obenem pa spoštujemo vašo zasebnost. S klikom na gumb \"Namesti vse\" se strinjate, da z uporabo t.i. piškotkov razumemo vaše nakupovalne preference in vam tako prikazujemo izdelke, ki vas najbolj zanimajo. Ti podatki se lahko uporabijo tudi za prilagajanje naše ponudbe na družbenih omrežjih in drugih spletnih mestih.\n\nVeč o piškotkih, ki jih uporabljamo, lahko preberete na povezavi tukaj.\n\nNamesti vse Po meri\nNujni piškotkiOmogočajo normalno delovanje spletne strani Big Bang in nemoteno uporabniško izkušnjo. Z njihovo pomočjo vam zagotavljamo prikaz osnovnih funkcij kot so veljavnost uporabniškega računa, prikaz slik in opisov izdelkov, prikaz oglasnih pasic… Teh piškotkov ni možno upravljati in za njih ni potrebno pridobiti soglasja.\nVeč o piškotkih si lahko prebereš tukaj.\nOglaševalski piškotkiVtičniki in orodja tretjih oseb, uporabljeni kot piškotki, omogočajo delovan",
+                "banner_z_index": 100000000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Namesti vse]\nGenericLabel2: None\nAmbiguousLabel1: [Shrani]\nAmbiguousLabel2: None\nGenericLabel3: [Po meri]\nExplanation: The button [Namesti vse] is categorized as accepting all cookies. The label [Shrani] is considered an ambiguous accept because it implies saving settings. [Po meri] is categorized under settings management, as it suggests a custom option. There are no buttons indicating decline or necessary cookies.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Namesti vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Shrani",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": "Po meri",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Namesti vse is categorized as accepting all cookies. The label Shrani is considered an ambiguous accept because it implies saving settings. Po meri is categorized under settings management, as it suggests a custom option. There are no buttons indicating decline or necessary cookies."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Shrani",
+                "settings_decline_element_ambiguous": true,
+                "settings_decline_element_evidence": "AmbiguousLabel1",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T12:21:25.186369",
+        "timestamp_stop": "2025-03-28T12:23:29.518747"
+    }
+}

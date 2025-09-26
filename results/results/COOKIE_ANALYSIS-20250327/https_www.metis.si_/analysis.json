@@ -1,0 +1,801 @@
+{
+    "web_page": "https://www.metis.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T16:16:23.874086",
+    "timestamp_stop": "2025-03-28T16:18:11.391868",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.metis.si/",
+            "https://www.metis.si/prodajni-program/lepila-in-letvice",
+            "https://www.metis.si/prodajni-program/sanitarni-sistemi",
+            "https://www.metis.si/prodajni-program/lepila-in-letvice#products"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1592552795.1743174986",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743261386,
+                    "expires_date": "2025-03-29T15:16:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_8940835_7",
+                    "value": "1",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743175046,
+                    "expires_date": "2025-03-28T15:17:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BG31NTVJ35",
+                    "value": "GS1.1.1743174986.1.0.1743174986.0.0.0",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777734986.270556,
+                    "expires_date": "2026-05-02T15:16:26.270556+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.377924251.1743174986",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777734986.271465,
+                    "expires_date": "2026-05-02T15:16:26.271465+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6IktUQXhyM3dwYU1iYmJGcjZ2bWh1QVE9PSIsInZhbHVlIjoibUhRdW51YzhrXC9ONEhBaVwvbE02ZUZ3bnRPQ0FWUmJlUDVLaVd4NEE0YmxSbThMTDFmMDQ1bFpOTlpSbFVtQXFGNW5cL0FyWitXOWVsZm1kY3FjdnExT1lxclhYYzZZdkpwZlNMZ2YzbUc0aytjV2JMRWRIRytpV3pCZnhTRSsrS0QiLCJtYWMiOiIxNDllMWQ5ZmM4ZmZlNzNmZWU3ZjkzMGViZTU0YjFjYWM1NWY4ZTVlZGUzN2M0Zjc4NTg0YzViNmNlNzc5ZDkzIn0%3D",
+                    "domain": "www.metis.si",
+                    "path": "/",
+                    "expires": 1743182186.569809,
+                    "expires_date": "2025-03-28T17:16:26.569809+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1592552795.1743174986",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743261404,
+                    "expires_date": "2025-03-29T15:16:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_8940835_7",
+                    "value": "1",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743175046,
+                    "expires_date": "2025-03-28T15:17:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6InFcL0hsVERkcDJRclwvRjVaNG9wSzArZz09IiwidmFsdWUiOiJ4VW1aN2p3VDVxem1ocXJFZUF3XC9qOExHNkJWNE9jTXczQmtjT3h6OEdjZ1c2Q2hEUFNNOHk3eWVKdkhQVTlOd0dCZWRDYWprRnRcL3lscE5Ta0dNWVdrOUdZR0dqVWFDRFM0XC9iOWRwVkF3czZzM01Rc1F0a3FLTjQ0dnIrejE5SCIsIm1hYyI6IjI0NjYzMGQ4NDhiODc1ZjhiYzc4MjAzMGNkNjE2ODMyNDNhNWQ5N2I1OWUyYWEwYTBkNWM4NmE1ODg2M2E5NDcifQ%3D%3D",
+                    "domain": "www.metis.si",
+                    "path": "/",
+                    "expires": 1743182204.032364,
+                    "expires_date": "2025-03-28T17:16:44.032364+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_BG31NTVJ35",
+                    "value": "GS1.1.1743174986.1.1.1743175004.0.0.0",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735004.135145,
+                    "expires_date": "2026-05-02T15:16:44.135145+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.377924251.1743174986",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735004.135496,
+                    "expires_date": "2026-05-02T15:16:44.135496+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T16:16:25.342906",
+        "timestamp_stop": "2025-03-28T16:16:50.097686"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.metis.si/",
+            "https://www.metis.si/prodajni-program/lepila-in-letvice",
+            "https://www.metis.si/prodajni-program/sanitarni-sistemi",
+            "https://www.metis.si#products",
+            "https://www.metis.si",
+            "https://www.metis.si#top"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_ga_BG31NTVJ35",
+                    "value": "GS1.1.1743175012.1.0.1743175012.0.0.0",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735012.492638,
+                    "expires_date": "2026-05-02T15:16:52.492638+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1809125887.1743175012",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735012.510647,
+                    "expires_date": "2026-05-02T15:16:52.510647+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2014451663.1743175013",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743261412,
+                    "expires_date": "2025-03-29T15:16:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_8940835_7",
+                    "value": "1",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743175072,
+                    "expires_date": "2025-03-28T15:17:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6ImdkTm9kTjJuRUZSUGVKQkE2eFJXdXc9PSIsInZhbHVlIjoiWkV5RjFQVXZoOXBPc2duTE1vQmVvXC9KM05QV0VMTDNQRWRla3ZwNTUrbkFYZmFlSTNhVVwvdWc3MnZWM1hveW1pcGtjMGhpcTQ0cytoa3Ria09HRHBNVlB5ZGd0RmRrbElcLzRRdDlOS3JTUktsMGNHK0gxSFFKT3J5Tjhob3BlZGQiLCJtYWMiOiIzZGYwYTI1ZWE4OWI2N2E1YmVhOWM1YjQwYmUzN2E4ODhiM2MxNzc4MzE4MWZmMzhiNzg0MjViMzc5MTM4Njc1In0%3D",
+                    "domain": "www.metis.si",
+                    "path": "/",
+                    "expires": 1743182212.794069,
+                    "expires_date": "2025-03-28T17:16:52.794069+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2014451663.1743175013",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743261425,
+                    "expires_date": "2025-03-29T15:17:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_8940835_7",
+                    "value": "1",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743175072,
+                    "expires_date": "2025-03-28T15:17:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6IkFRdlhzbTZiT1R2cWhPcUFQN0xCckE9PSIsInZhbHVlIjoiaFZzaStKb2NNWlluQm5qZitONVNxbWFtVEhDVTlySkZ4SzRTdk5CMEdGN3BYK3pheXQ3dnRHN2tSaXdoVzlaRDVwMTZTbTdsNWRpcVViU3V6XC80aWZ6U2YyVjJxU1NrVFB6ZWZYOHJDXC9cL21PM3orVnhtMXZsbkxQVkdkbGJkdWUiLCJtYWMiOiIwMDhlYmI4OTRlZjk3OWYyMDg5ZTA4N2ZmOTRhZDY3ZTU2MzNjNzBkZTk2ZTc5NTA5ZmQ2MzQxZjkwZDVlM2ZkIn0%3D",
+                    "domain": "www.metis.si",
+                    "path": "/",
+                    "expires": 1743182225.394892,
+                    "expires_date": "2025-03-28T17:17:05.394892+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_BG31NTVJ35",
+                    "value": "GS1.1.1743175012.1.1.1743175025.0.0.0",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735025.535966,
+                    "expires_date": "2026-05-02T15:17:05.535966+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1809125887.1743175012",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735025.536954,
+                    "expires_date": "2026-05-02T15:17:05.536954+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2014451663.1743175013",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743261438,
+                    "expires_date": "2025-03-29T15:17:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_8940835_7",
+                    "value": "1",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743175072,
+                    "expires_date": "2025-03-28T15:17:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6IlltQmhiVmVoc2t3d0w3MVpnRlNoRWc9PSIsInZhbHVlIjoib0FORThxbkRQYlA5a2hMU2NacytkdXkwQytmNVlxY2VWUnFONjRsYnJ0S0g3cG5yNXlXQ2hYekJaMG5aSjlyUlVDUnFwWTJaT2w0bEhqUWlPMDgzNllBbXBEc0gwQmNqVEpNb3VuUVNKeEErVzhmN0M2MUdGWVBveVpXWDcyS0kiLCJtYWMiOiJjMDUwN2ZhM2M4MGUzMDc5ZTgzMGJkN2M3ZWVmY2I3OGVjNTRjNjRmN2RhMzk4NzJjOTAzODk0NzhkYzU0MzQ2In0%3D",
+                    "domain": "www.metis.si",
+                    "path": "/",
+                    "expires": 1743182238.365166,
+                    "expires_date": "2025-03-28T17:17:18.365166+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_BG31NTVJ35",
+                    "value": "GS1.1.1743175012.1.1.1743175038.0.0.0",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735038.508742,
+                    "expires_date": "2026-05-02T15:17:18.508742+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1809125887.1743175012",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735038.509089,
+                    "expires_date": "2026-05-02T15:17:18.509089+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T16:16:51.602231",
+        "timestamp_stop": "2025-03-28T16:17:30.640426"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.metis.si/",
+            "https://www.metis.si/prodajni-program/lepila-in-letvice",
+            "https://www.metis.si/prodajni-program/sanitarni-sistemi",
+            "https://www.metis.si#products",
+            "https://www.metis.si",
+            "https://www.metis.si#top"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2043784730.1743175053",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743261452,
+                    "expires_date": "2025-03-29T15:17:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_8940835_7",
+                    "value": "1",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743175112,
+                    "expires_date": "2025-03-28T15:18:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_BG31NTVJ35",
+                    "value": "GS1.1.1743175053.1.0.1743175053.0.0.0",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735053.056504,
+                    "expires_date": "2026-05-02T15:17:33.056504+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.602216906.1743175053",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735053.05701,
+                    "expires_date": "2026-05-02T15:17:33.057010+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6ImtCVUlJQ0lib2RjZmx6QkZFeXV1c0E9PSIsInZhbHVlIjoiYzNcL0E5UHNyWVcrb3VVYlprcnEwa0MzQ1RFV1Y3MnJ4S3FoNGoycHY5QVhjMWo1R3N2WWxXM3RwbHZHYjNcL0hlTXE3OGp0V3lFXC9sYjBOTm1Xa0Z5RXhuZmt1NHBkZXJCQ2c5eW9IdDZXMDBMM1FDWkR5aXlwTnNBQTBCNFUyRngiLCJtYWMiOiJkMDhlNDQyMGVlOTk3ZTUxYTI0ZTZjYWM0YzFlOGI3NTkyN2UzODc0ZTUyMDA4ZjBmZTE0ZDVjNGZmNDVkODdlIn0%3D",
+                    "domain": "www.metis.si",
+                    "path": "/",
+                    "expires": 1743182253.31399,
+                    "expires_date": "2025-03-28T17:17:33.313990+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2043784730.1743175053",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743261466,
+                    "expires_date": "2025-03-29T15:17:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_8940835_7",
+                    "value": "1",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743175112,
+                    "expires_date": "2025-03-28T15:18:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6Ik90UHFrYkkyUU1TRUxkWWJhVmtcLzZRPT0iLCJ2YWx1ZSI6InFPOGU3SldsVzNxa1BvMnRURUNmV3lUb1ZoM0hhY01NVjNrVDlXWVdrblpLMHNnK1dsZkpZdjJXNWZJaFNDV2tKZ1VqSDRPcHlUWU82V0szVXd5TTU1SDUyNk1jemRuQXNsUHNKZkExSkxGeFpcL3FvemUzVGhmMnozVUNyZGU5OCIsIm1hYyI6IjlkZTM0YzQ3N2E5M2ExMjRjZmJjYjVmMjNiYWI1OWYyM2I5M2U5N2YxNTUzZmExZGFkMjhkYmZiZTdjMTUwOTcifQ%3D%3D",
+                    "domain": "www.metis.si",
+                    "path": "/",
+                    "expires": 1743182265.878499,
+                    "expires_date": "2025-03-28T17:17:45.878499+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_BG31NTVJ35",
+                    "value": "GS1.1.1743175053.1.1.1743175066.0.0.0",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735066.029982,
+                    "expires_date": "2026-05-02T15:17:46.029982+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.602216906.1743175053",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735066.030758,
+                    "expires_date": "2026-05-02T15:17:46.030758+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.2043784730.1743175053",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743261478,
+                    "expires_date": "2025-03-29T15:17:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_8940835_7",
+                    "value": "1",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1743175112,
+                    "expires_date": "2025-03-28T15:18:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "october_session",
+                    "value": "eyJpdiI6Ik1VdTFoUFhoUjh4b2VVU3NNR1VDTHc9PSIsInZhbHVlIjoiaDJDUEtzZFFBN2lTVnVFXC9mVElKNjRYWXUzdzgwcnBpZDhJR3RqdDhKNVwvUVVHYk4yclB1XC8wVzRMNnNoYkdKQkdidzBRUE1MMHNKUGpcL2w1MlBMa1QyZmxUR3ZySCtuTTVFbUVBN1AyXC9NN3R2SDcwS1FTc3FmM3dKQ0VCWWR0XC8iLCJtYWMiOiIzNjkwZTk1N2M4YjZmZWJlNDllZjQwNzE1ZGIxMWEwZjg5NGY5N2QzNjc4ZWI5NWY3OThhYjY0NzBkMjhjMmEzIn0%3D",
+                    "domain": "www.metis.si",
+                    "path": "/",
+                    "expires": 1743182278.857678,
+                    "expires_date": "2025-03-28T17:17:58.857678+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_BG31NTVJ35",
+                    "value": "GS1.1.1743175053.1.1.1743175078.0.0.0",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735078.981852,
+                    "expires_date": "2026-05-02T15:17:58.981852+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.602216906.1743175053",
+                    "domain": ".metis.si",
+                    "path": "/",
+                    "expires": 1777735078.982317,
+                    "expires_date": "2026-05-02T15:17:58.982317+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "002_decline_init_1.png",
+            "003_decline_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T16:17:32.188857",
+        "timestamp_stop": "2025-03-28T16:18:11.129595"
+    }
+}

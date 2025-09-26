@@ -1,0 +1,2348 @@
+{
+    "web_page": "https://www.delo.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-27T22:53:42.035812",
+    "timestamp_stop": "2025-03-27T22:57:23.117843",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.delo.si/",
+            "https://www.delo.si/novice/slovenija/v-ljubljani-protestni-shod-proti-oborozevanju-in-za-mir",
+            "https://www.delo.si/tisk/viewer?source=delo&y=2025&md=0324#pagemode=thumbs",
+            "https://www.delo.si/novice/znanoteh/znanost-je-verjetno-edino-clovesko-pocetje-ki-nas-pogosto-preseneti"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"4131eda3-5c3e-49b1-8795-8f2bd3597e0d\",\"ts\":1743112424349}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648424,
+                    "expires_date": "2026-03-27T21:53:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648424.978196,
+                    "expires_date": "2026-03-27T21:53:44.978196+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ef73c17c-8a0f-4a3d-bd53-e4aebe47a558&Created=03/27/2025 21:53:27&UserMode=0&guid=2a049471-88b7-4d15-b691-36b241b7814b&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648424.978245,
+                    "expires_date": "2026-03-27T21:53:44.978245+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDk5OGMtY2JjZS02NmY2LWIyYWUtMjQ3OTQ0NTFlNzhhIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjE6NTM6NDQuNjM2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIxOjUzOjQ0LjYzN1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672424.639363,
+                    "expires_date": "2026-05-01T21:53:44.639363+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId420",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId1794",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"4131eda3-5c3e-49b1-8795-8f2bd3597e0d\",\"ts\":1743112424349}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648453,
+                    "expires_date": "2026-03-27T21:54:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648454.126507,
+                    "expires_date": "2026-03-27T21:54:14.126507+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ef73c17c-8a0f-4a3d-bd53-e4aebe47a558&Created=03/27/2025 21:53:27&UserMode=0&guid=2a049471-88b7-4d15-b691-36b241b7814b&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648454.126583,
+                    "expires_date": "2026-03-27T21:54:14.126583+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDk5OGMtY2JjZS02NmY2LWIyYWUtMjQ3OTQ0NTFlNzhhIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjE6NTM6NDQuNjM2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIxOjUzOjQ0LjYzN1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672424.639363,
+                    "expires_date": "2026-05-01T21:53:44.639363+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId420",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId1794",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId14244",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId14247",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-27T22:53:43.342838",
+        "timestamp_stop": "2025-03-27T22:54:22.701435"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi in zapri)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.delo.si/",
+            "https://www.delo.si/novice/slovenija/v-ljubljani-protestni-shod-proti-oborozevanju-in-za-mir",
+            "https://www.delo.si/tisk/viewer?source=delo&y=2025&md=0324#pagemode=thumbs",
+            "https://www.delo.si/novice/znanoteh/znanost-je-verjetno-edino-clovesko-pocetje-ki-nas-pogosto-preseneti"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"d58b7972-4274-4d66-8a1f-c682a5894ffb\",\"ts\":1743112465291}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648465,
+                    "expires_date": "2026-03-27T21:54:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648465.867069,
+                    "expires_date": "2026-03-27T21:54:25.867069+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ee62b54b-0fe5-44b4-8f37-c114c8334bad&Created=03/27/2025 21:54:08&UserMode=0&guid=54b9f856-15d6-4a3a-a945-da06c5a15131&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648465.867175,
+                    "expires_date": "2026-03-27T21:54:25.867175+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDk5OTYtYzgwNi02MzhkLTg0MTgtMDBkNTI4NjllNGEzIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjE6NTQ6MjUuNTM2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIxOjU0OjI1LjUzN1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672465.538064,
+                    "expires_date": "2026-05-01T21:54:25.538064+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId420",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId1794",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"d58b7972-4274-4d66-8a1f-c682a5894ffb\",\"ts\":1743112465291}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648465,
+                    "expires_date": "2026-03-27T21:54:25+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648465.867069,
+                    "expires_date": "2026-03-27T21:54:25.867069+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ee62b54b-0fe5-44b4-8f37-c114c8334bad&Created=03/27/2025 21:54:08&UserMode=0&guid=54b9f856-15d6-4a3a-a945-da06c5a15131&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648465.867175,
+                    "expires_date": "2026-03-27T21:54:25.867175+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId420",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId1794",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDk5OTYtYzgwNi02MzhkLTg0MTgtMDBkNTI4NjllNGEzIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjE6NTQ6MjUuNTM2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIxOjU0OjUwLjg5M1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6aHVic3BvdCIsImM6eW91dHViZSIsImM6aHVic3BvdC1mb3JtcyIsImM6aXByb20iLCJjOm1pY3Jvc29mdC1hbmFseXRpY3MiLCJjOnRpa3Rvay1LWkFVUUxaOSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzppbnN0YWdyYW0iLCJjOmp3LXBsYXllciIsImM6cGludGVyZXN0IiwiYzp4LWRlbG8iLCJjOmVjaG9ib3gtZGVsbyIsImM6bWF0b21vLWRlbG8iLCJjOmNsYXJpdHktZGVsbyIsImM6c21hcnRvY3RvLWRlbG8iLCJjOmluZm9ncmFtLWRlbG8iLCJjOmZhY2Vib29rLWRlbG8iLCJjOmluc3RhZ3JhbS1kZWxvIiwiYzpwaW50ZXJlc3QtZGVsbyIsImM6c29mYXNjb3JlLWRlbG8iLCJjOnRpa3Rvay1kZWxvIiwiYzp5b3V0dWJlLWRlbG8iLCJjOm1vc3MtZGVsbyIsImM6ZGVsb2Rvby1kZWxvIiwiYzptaWRhcy1kZWxvIiwiYzpsaXZlbmV0bGlmZS1kZWxvIl19LCJwdXJwb3NlcyI6eyJlbmFibGVkIjpbImRldmljZV9jaGFyYWN0ZXJpc3RpY3MiLCJnZW9sb2NhdGlvbl9kYXRhIiwidGhpcmQiLCJnZW9fbWFya2V0aW5nX3N0dWRpZXMiLCJnZW9fYWRzIl19LCJ2ZXJzaW9uIjoyLCJhYyI6IkNuV0FHQUZrQ0pJS2RRQUEuQUFBQSJ9",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672490.91631,
+                    "expires_date": "2026-05-01T21:54:50.916310+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRYK8tX_G__bXlr8T736ftkeY1f99h77sQxBgbJk-4FzLvW_JwX32E7NAz6tqYKmRIAu3TBIQNlHJDURVCgaogVrTDMaEyUoTtKJ6BkiFMRY2dYCFxvm4tjeQCY5vr991d52R-t7dr83dzyy4hnv3a9_-S1WJCdAYetDfv9bROb-9IO9_x8v4v4_N7pE2-eS1l_tWvp7D9-Ytv_9X399_bbff5Pn__ul_-_X__f_n37v942AAAAYpABgACCvJKADAAEFeR0AGAAIK8kIAMAAQV5CQAYAAgryWgAwABBXkAA.f_wAAAAAAAAA",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672490.916682,
+                    "expires_date": "2026-05-01T21:54:50.916682+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747474054",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774648491.005031,
+                    "expires_date": "2026-03-27T21:54:51.005031+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pk_id.12.6f5c",
+                    "value": "e3c4cc8cd8e486a3.1743112491.",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1777067691,
+                    "expires_date": "2026-04-24T21:54:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.12.6f5c",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1743114291,
+                    "expires_date": "2025-03-27T22:24:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "MiF4iI0y9bZj6dUxidac.zTCar2SClG9pBaGS3sjcvI-1743112474-1.0.1.1-RLMeM2FCYiwpsKZ0K1KkQ6DfhEE74L27944BT44fi1u7cuez8cIOGYItV4Ye3VXRGOD3sOjNipa1bYBZ_.c8cLPMOelUqaQWW31Dm.FfcqU",
+                    "domain": ".hs-scripts.com",
+                    "path": "/",
+                    "expires": 1743114291.130223,
+                    "expires_date": "2025-03-27T22:24:51.130223+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "value": "d164ebfd40564590afe8abfb095f92d4.20250327.20260327",
+                    "domain": "www.clarity.ms",
+                    "path": "/",
+                    "expires": 1774648491.221513,
+                    "expires_date": "2026-03-27T21:54:51.221513+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "TPkq0MU5pvs2g6xIwXCXhYwf86c.BA1c_oN2kdUW80M-1743112474-1.0.1.1-TE5PDgpg6AYspX4BYTYlE.2IVb5HKMxh748cXM1jCREGTMLGD4DaDrGiTZqU7ycDZsSEIx51uCmaVEMg8LxikZB.ATRikQWe40EdgQCNvXA",
+                    "domain": ".hs-analytics.net",
+                    "path": "/",
+                    "expires": 1743114291.351118,
+                    "expires_date": "2025-03-27T22:24:51.351118+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "vAvaoX1LKInbYNrFRoXLaZcbwosoxWPzZldd.tZyI3k-1743112474-1.0.1.1-P_h84KdJMZs7jMJPBZRmH5BtDJwTSS46z1K3H7K4t0.azn5HH1cZ6.T_itlpTWffni7tJ4yQVh1PDHi2BMCA0pvuuUr8GRZm0cwzG3Ll6yk",
+                    "domain": ".hs-banner.com",
+                    "path": "/",
+                    "expires": 1743114291.360043,
+                    "expires_date": "2025-03-27T22:24:51.360043+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_2SZFS934CL",
+                    "value": "GS1.1.1743112491.1.0.1743112491.60.0.595064094",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672491.432104,
+                    "expires_date": "2026-05-01T21:54:51.432104+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2086185558.1743112491",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672491.432718,
+                    "expires_date": "2026-05-01T21:54:51.432718+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743113391.540202,
+                    "expires_date": "2025-03-27T22:09:51.540202+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__hstc",
+                    "value": "82477321.58075f1944bf8894cf63aabf3276b627.1743112491530.1743112491530.1743112491530.1",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1758664491,
+                    "expires_date": "2025-09-23T21:54:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "hubspotutk",
+                    "value": "58075f1944bf8894cf63aabf3276b627",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1758664491,
+                    "expires_date": "2025-09-23T21:54:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__hssrc",
+                    "value": "1",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__hssc",
+                    "value": "82477321.1.1743112491530",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1743114291,
+                    "expires_date": "2025-03-27T22:24:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "guest_id_marketing",
+                    "value": "v1%3A174311247442354634",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1777672491.568833,
+                    "expires_date": "2026-05-01T21:54:51.568833+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "guest_id_ads",
+                    "value": "v1%3A174311247442354634",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1777672491.568967,
+                    "expires_date": "2026-05-01T21:54:51.568967+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "personalization_id",
+                    "value": "\"v1_mj+GZyXFm7YnC/e7HPwXvg==\"",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1777672491.569055,
+                    "expires_date": "2026-05-01T21:54:51.569055+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "guest_id",
+                    "value": "v1%3A174311247442354634",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1777672491.56908,
+                    "expires_date": "2026-05-01T21:54:51.569080+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "muc_ads",
+                    "value": "89de1e43-b9f4-49a9-bfae-5438d04f3bdb",
+                    "domain": ".t.co",
+                    "path": "/",
+                    "expires": 1777672491.574796,
+                    "expires_date": "2026-05-01T21:54:51.574796+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "u2drsOgp3bYnR1WaF9lDJTBkoADiP6mQDiSqjsBr3co-1743112474-1.0.1.1-zEMVgckBiivwuM3qX1qoGHG5EjD4inLw_zhCR6KSvLjeWUVEjKo9LYWU.ONsTo5IqWm0F7MaKZBH0xXYxvpkZXwMszKbEPOmiDSavTwec5c",
+                    "domain": ".t.co",
+                    "path": "/",
+                    "expires": 1743114291.574874,
+                    "expires_date": "2025-03-27T22:24:51.574874+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rw66hk:u19yU6flBdBta1zLbqAXU1u3A3HHYgmZ",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1743114291.611659,
+                    "expires_date": "2025-03-27T22:24:51.611659+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rw66hk:EB_YFS8wawx77HtG1dTapVgjXL6diZ_a",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1758664491.611818,
+                    "expires_date": "2025-09-23T21:54:51.611818+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "1Y6kVqGF.zk8QIWfamE6MDvvPy83Nwy48rQM_f.ZAEg-1743112474-1.0.1.1-Y09_ABFQlMpfRg2HIqeHuOcYetrNHscOjLCAlnGNBLdTbxXQTC0l9eoILY8.PcL_pohrh1Yugj3Nxwz4qIUogMi9JiNm1qSUDUeN97OinhQ",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743114291.621349,
+                    "expires_date": "2025-03-27T22:24:51.621349+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_clck",
+                    "value": "1dwdxl0%7C2%7Cfuk%7C0%7C1912",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1774648491,
+                    "expires_date": "2026-03-27T21:54:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "tgS4Pafvsz_EoWlP97Tipriq.6Hdq9q6LRM1uhf7TIM-1743112474-1.0.1.1-V.3Dxl_0fR2EMexkS46nmRqr4dUmWW_9fbUH0ThDPMG9_.MTTDBgMBjqFJ0JB9Iq_SzewVxGiZWLhCRiui8ovbAI8FmpSS4HAHpyYxqegPE",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": 1743114291.678834,
+                    "expires_date": "2025-03-27T22:24:51.678834+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "uIqVTjBYYts37iiOziUMMPbsARXEe8Jkx9LIP6J5vAw-1743112474600-0.0.1.1-604800000",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "1E2628BFF6D96D79226B3D03F7B26CDE",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776808491.797375,
+                    "expires_date": "2026-04-21T21:54:51.797375+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1743717291.797471,
+                    "expires_date": "2025-04-03T21:54:51.797471+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SRM_B",
+                    "value": "1E2628BFF6D96D79226B3D03F7B26CDE",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1776808491.797512,
+                    "expires_date": "2026-04-21T21:54:51.797512+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "SM",
+                    "value": "C",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "1E2628BFF6D96D79226B3D03F7B26CDE",
+                    "domain": ".clarity.ms",
+                    "path": "/",
+                    "expires": 1776808491.853653,
+                    "expires_date": "2026-04-21T21:54:51.853653+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743717291.853711,
+                    "expires_date": "2025-04-03T21:54:51.853711+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ANONCHK",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743113091.853741,
+                    "expires_date": "2025-03-27T22:04:51.853741+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Bgr3S0Xjp_FdjCe4TLD5SqIkIZlJMK41Kj4i0HiQok8-1743112474-1.0.1.1-caQ1pi7jOxWXPC_OIOYN2cCaxd1aSmk_GHFDvvhzmAHF0iylN6YGbnZPMK9oweGnNP90cUppepcTx8PEcK4AJdQYCQlnWkKw9WcjFSLS08k",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": 1743114291.969203,
+                    "expires_date": "2025-03-27T22:24:51.969203+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "IldBOjyYsE1ir1VxtsZz2IOX9NfCCInvjIeMSQCAJV0-1743112474892-0.0.1.1-604800000",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_clsk",
+                    "value": "1xb66s8%7C1743112492214%7C1%7C1%7Cz.clarity.ms%2Fcollect",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1743198892,
+                    "expires_date": "2025-03-28T21:54:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"d58b7972-4274-4d66-8a1f-c682a5894ffb\",\"ts\":1743112465291}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648517,
+                    "expires_date": "2026-03-27T21:55:17+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648518.296684,
+                    "expires_date": "2026-03-27T21:55:18.296684+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=ee62b54b-0fe5-44b4-8f37-c114c8334bad&Created=03/27/2025 21:54:08&UserMode=0&guid=54b9f856-15d6-4a3a-a945-da06c5a15131&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648518.296802,
+                    "expires_date": "2026-03-27T21:55:18.296802+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId420",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId1794",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDk5OTYtYzgwNi02MzhkLTg0MTgtMDBkNTI4NjllNGEzIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjE6NTQ6MjUuNTM2WiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIxOjU0OjUwLjg5M1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6aHVic3BvdCIsImM6eW91dHViZSIsImM6aHVic3BvdC1mb3JtcyIsImM6aXByb20iLCJjOm1pY3Jvc29mdC1hbmFseXRpY3MiLCJjOnRpa3Rvay1LWkFVUUxaOSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzppbnN0YWdyYW0iLCJjOmp3LXBsYXllciIsImM6cGludGVyZXN0IiwiYzp4LWRlbG8iLCJjOmVjaG9ib3gtZGVsbyIsImM6bWF0b21vLWRlbG8iLCJjOmNsYXJpdHktZGVsbyIsImM6c21hcnRvY3RvLWRlbG8iLCJjOmluZm9ncmFtLWRlbG8iLCJjOmZhY2Vib29rLWRlbG8iLCJjOmluc3RhZ3JhbS1kZWxvIiwiYzpwaW50ZXJlc3QtZGVsbyIsImM6c29mYXNjb3JlLWRlbG8iLCJjOnRpa3Rvay1kZWxvIiwiYzp5b3V0dWJlLWRlbG8iLCJjOm1vc3MtZGVsbyIsImM6ZGVsb2Rvby1kZWxvIiwiYzptaWRhcy1kZWxvIiwiYzpsaXZlbmV0bGlmZS1kZWxvIl19LCJwdXJwb3NlcyI6eyJlbmFibGVkIjpbImRldmljZV9jaGFyYWN0ZXJpc3RpY3MiLCJnZW9sb2NhdGlvbl9kYXRhIiwidGhpcmQiLCJnZW9fbWFya2V0aW5nX3N0dWRpZXMiLCJnZW9fYWRzIl19LCJ2ZXJzaW9uIjoyLCJhYyI6IkNuV0FHQUZrQ0pJS2RRQUEuQUFBQSJ9",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672490.91631,
+                    "expires_date": "2026-05-01T21:54:50.916310+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFsAP_gAAAAACRYK8tX_G__bXlr8T736ftkeY1f99h77sQxBgbJk-4FzLvW_JwX32E7NAz6tqYKmRIAu3TBIQNlHJDURVCgaogVrTDMaEyUoTtKJ6BkiFMRY2dYCFxvm4tjeQCY5vr991d52R-t7dr83dzyy4hnv3a9_-S1WJCdAYetDfv9bROb-9IO9_x8v4v4_N7pE2-eS1l_tWvp7D9-Ytv_9X399_bbff5Pn__ul_-_X__f_n37v942AAAAYpABgACCvJKADAAEFeR0AGAAIK8kIAMAAQV5CQAYAAgryWgAwABBXkAA.f_wAAAAAAAAA",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672490.916682,
+                    "expires_date": "2026-05-01T21:54:50.916682+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747474054",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774648518.273548,
+                    "expires_date": "2026-03-27T21:55:18.273548+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_pk_id.12.6f5c",
+                    "value": "e3c4cc8cd8e486a3.1743112491.",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1777067691,
+                    "expires_date": "2026-04-24T21:54:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_pk_ses.12.6f5c",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1743114317,
+                    "expires_date": "2025-03-27T22:25:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "MiF4iI0y9bZj6dUxidac.zTCar2SClG9pBaGS3sjcvI-1743112474-1.0.1.1-RLMeM2FCYiwpsKZ0K1KkQ6DfhEE74L27944BT44fi1u7cuez8cIOGYItV4Ye3VXRGOD3sOjNipa1bYBZ_.c8cLPMOelUqaQWW31Dm.FfcqU",
+                    "domain": ".hs-scripts.com",
+                    "path": "/",
+                    "expires": 1743114291.130223,
+                    "expires_date": "2025-03-27T22:24:51.130223+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "value": "d164ebfd40564590afe8abfb095f92d4.20250327.20260327",
+                    "domain": "www.clarity.ms",
+                    "path": "/",
+                    "expires": 1774648491.221513,
+                    "expires_date": "2026-03-27T21:54:51.221513+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "TPkq0MU5pvs2g6xIwXCXhYwf86c.BA1c_oN2kdUW80M-1743112474-1.0.1.1-TE5PDgpg6AYspX4BYTYlE.2IVb5HKMxh748cXM1jCREGTMLGD4DaDrGiTZqU7ycDZsSEIx51uCmaVEMg8LxikZB.ATRikQWe40EdgQCNvXA",
+                    "domain": ".hs-analytics.net",
+                    "path": "/",
+                    "expires": 1743114291.351118,
+                    "expires_date": "2025-03-27T22:24:51.351118+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "vAvaoX1LKInbYNrFRoXLaZcbwosoxWPzZldd.tZyI3k-1743112474-1.0.1.1-P_h84KdJMZs7jMJPBZRmH5BtDJwTSS46z1K3H7K4t0.azn5HH1cZ6.T_itlpTWffni7tJ4yQVh1PDHi2BMCA0pvuuUr8GRZm0cwzG3Ll6yk",
+                    "domain": ".hs-banner.com",
+                    "path": "/",
+                    "expires": 1743114291.360043,
+                    "expires_date": "2025-03-27T22:24:51.360043+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2086185558.1743112491",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672518.097914,
+                    "expires_date": "2026-05-01T21:55:18.097914+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743113391.540202,
+                    "expires_date": "2025-03-27T22:09:51.540202+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__hstc",
+                    "value": "82477321.58075f1944bf8894cf63aabf3276b627.1743112491530.1743112491530.1743112491530.1",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1758664518,
+                    "expires_date": "2025-09-23T21:55:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "hubspotutk",
+                    "value": "58075f1944bf8894cf63aabf3276b627",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1758664518,
+                    "expires_date": "2025-09-23T21:55:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__hssrc",
+                    "value": "1",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "guest_id_marketing",
+                    "value": "v1%3A174311247442354634",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1777672491.568833,
+                    "expires_date": "2026-05-01T21:54:51.568833+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "guest_id_ads",
+                    "value": "v1%3A174311247442354634",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1777672491.568967,
+                    "expires_date": "2026-05-01T21:54:51.568967+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "personalization_id",
+                    "value": "\"v1_mj+GZyXFm7YnC/e7HPwXvg==\"",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1777672491.569055,
+                    "expires_date": "2026-05-01T21:54:51.569055+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "guest_id",
+                    "value": "v1%3A174311247442354634",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1777672491.56908,
+                    "expires_date": "2026-05-01T21:54:51.569080+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "muc_ads",
+                    "value": "89de1e43-b9f4-49a9-bfae-5438d04f3bdb",
+                    "domain": ".t.co",
+                    "path": "/",
+                    "expires": 1777672491.574796,
+                    "expires_date": "2026-05-01T21:54:51.574796+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "u2drsOgp3bYnR1WaF9lDJTBkoADiP6mQDiSqjsBr3co-1743112474-1.0.1.1-zEMVgckBiivwuM3qX1qoGHG5EjD4inLw_zhCR6KSvLjeWUVEjKo9LYWU.ONsTo5IqWm0F7MaKZBH0xXYxvpkZXwMszKbEPOmiDSavTwec5c",
+                    "domain": ".t.co",
+                    "path": "/",
+                    "expires": 1743114291.574874,
+                    "expires_date": "2025-03-27T22:24:51.574874+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_sotmsid",
+                    "value": "0:m8rw66hk:u19yU6flBdBta1zLbqAXU1u3A3HHYgmZ",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1743114323.760634,
+                    "expires_date": "2025-03-27T22:25:23.760634+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_sotmpid",
+                    "value": "0:m8rw66hk:EB_YFS8wawx77HtG1dTapVgjXL6diZ_a",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1758664523.760826,
+                    "expires_date": "2025-09-23T21:55:23.760826+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "1Y6kVqGF.zk8QIWfamE6MDvvPy83Nwy48rQM_f.ZAEg-1743112474-1.0.1.1-Y09_ABFQlMpfRg2HIqeHuOcYetrNHscOjLCAlnGNBLdTbxXQTC0l9eoILY8.PcL_pohrh1Yugj3Nxwz4qIUogMi9JiNm1qSUDUeN97OinhQ",
+                    "domain": ".twitter.com",
+                    "path": "/",
+                    "expires": 1743114291.621349,
+                    "expires_date": "2025-03-27T22:24:51.621349+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_clck",
+                    "value": "1dwdxl0%7C2%7Cfuk%7C0%7C1912",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1774648491,
+                    "expires_date": "2026-03-27T21:54:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "tgS4Pafvsz_EoWlP97Tipriq.6Hdq9q6LRM1uhf7TIM-1743112474-1.0.1.1-V.3Dxl_0fR2EMexkS46nmRqr4dUmWW_9fbUH0ThDPMG9_.MTTDBgMBjqFJ0JB9Iq_SzewVxGiZWLhCRiui8ovbAI8FmpSS4HAHpyYxqegPE",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": 1743114291.678834,
+                    "expires_date": "2025-03-27T22:24:51.678834+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "uIqVTjBYYts37iiOziUMMPbsARXEe8Jkx9LIP6J5vAw-1743112474600-0.0.1.1-604800000",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "1E2628BFF6D96D79226B3D03F7B26CDE",
+                    "domain": ".bing.com",
+                    "path": "/",
+                    "expires": 1776808491.797375,
+                    "expires_date": "2026-04-21T21:54:51.797375+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1743717291.797471,
+                    "expires_date": "2025-04-03T21:54:51.797471+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "SRM_B",
+                    "value": "1E2628BFF6D96D79226B3D03F7B26CDE",
+                    "domain": ".c.bing.com",
+                    "path": "/",
+                    "expires": 1776808491.797512,
+                    "expires_date": "2026-04-21T21:54:51.797512+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "SM",
+                    "value": "C",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "MUID",
+                    "value": "1E2628BFF6D96D79226B3D03F7B26CDE",
+                    "domain": ".clarity.ms",
+                    "path": "/",
+                    "expires": 1776808491.853653,
+                    "expires_date": "2026-04-21T21:54:51.853653+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "MR",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743717291.853711,
+                    "expires_date": "2025-04-03T21:54:51.853711+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ANONCHK",
+                    "value": "0",
+                    "domain": ".c.clarity.ms",
+                    "path": "/",
+                    "expires": 1743113091.853741,
+                    "expires_date": "2025-03-27T22:04:51.853741+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Bgr3S0Xjp_FdjCe4TLD5SqIkIZlJMK41Kj4i0HiQok8-1743112474-1.0.1.1-caQ1pi7jOxWXPC_OIOYN2cCaxd1aSmk_GHFDvvhzmAHF0iylN6YGbnZPMK9oweGnNP90cUppepcTx8PEcK4AJdQYCQlnWkKw9WcjFSLS08k",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": 1743114291.969203,
+                    "expires_date": "2025-03-27T22:24:51.969203+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "IldBOjyYsE1ir1VxtsZz2IOX9NfCCInvjIeMSQCAJV0-1743112474892-0.0.1.1-604800000",
+                    "domain": ".hsforms.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ain_cid",
+                    "value": "1743112502637.544317937.3515135",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1743114302,
+                    "expires_date": "2025-03-27T22:25:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ain_uid",
+                    "value": "1743112502638.294038933.9814022",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1758664518,
+                    "expires_date": "2025-09-23T21:55:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DomainCookieStress",
+                    "value": "{\"dc\":\"67163268-7e5f-4ef0-8ea2-0a339dca3f22\",\"ts\":1743112502664}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648518,
+                    "expires_date": "2026-03-27T21:55:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774648518.451503,
+                    "expires_date": "2026-03-27T21:55:18.451503+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=7cde9af8-f85a-4158-adc0-de1707c2f893&Created=03/27/2025 21:54:45&UserMode=0&guid=0936d166-7e79-41b4-b056-cb70e1d3a920&ver=1",
+                    "domain": ".dotmetrics.rocks",
+                    "path": "/",
+                    "expires": 1774648518.451593,
+                    "expires_date": "2026-03-27T21:55:18.451593+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId14244",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ifpcid",
+                    "value": "167965358093371",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648502,
+                    "expires_date": "2026-03-27T21:55:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "KRTBCOOKIE_1277",
+                    "value": "23327-115771747474054&KRTB&23357-115771747474054",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1748296502.930589,
+                    "expires_date": "2025-05-26T21:55:02.930589+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "PugT",
+                    "value": "1743112485",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1745704502.930728,
+                    "expires_date": "2025-04-26T21:55:02.930728+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "DM_SitId420Stress",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId14244Stress",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_2SZFS934CL",
+                    "value": "GS1.1.1743112491.1.1.1743112518.33.0.595064094",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672518.097288,
+                    "expires_date": "2026-05-01T21:55:18.097288+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId14247",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId14247Stress",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_clsk",
+                    "value": "1xb66s8%7C1743112518571%7C3%7C1%7Cz.clarity.ms%2Fcollect",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1743198918,
+                    "expires_date": "2025-03-28T21:55:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__hssc",
+                    "value": "82477321.3.1743112491530",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1743114318,
+                    "expires_date": "2025-03-27T22:25:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(0,82,161,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(0,82,161,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Dobrodošli na spletni strani Dela! Družba Delo d.o.o. na svojih spletnih straneh uporablja piškotke. Poleg piškotkov, ki so nujni za tehnično delovanje spletne strani, mi in naši partnerji na tej spletni strani uporabljamo piškotke še za oglasno-marketinške namene, analitična orodja in družbena omrežja. S klikom na 'Sprejmi vse' boste podali soglasje za vse zgoraj naštete namene. V razdelku 'Več' la",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi in zapri]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več →]  \nExplanation: The button [Sprejmi in zapri] is categorized as an ambiguous acceptance phrase, while [Več →] is related to managing settings or seeing more information. There are no clear accept or decline all cookie buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi in zapri is categorized as an ambiguous acceptance phrase, while Več → is related to managing settings or seeing more information. There are no clear accept or decline all cookie buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi in zapri",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-27T22:54:24.273973",
+        "timestamp_stop": "2025-03-27T22:55:26.610673"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Več →)",
+            "Clicking an element of type (button), with text (Ne strinjam se z vsem)",
+            "Clicking an element of type (button), with text (Ne strinjam se z vsem)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.delo.si/",
+            "https://www.delo.si/novice/slovenija/v-ljubljani-protestni-shod-proti-oborozevanju-in-za-mir",
+            "https://www.delo.si/tisk/viewer?source=delo&y=2025&md=0324#pagemode=thumbs",
+            "https://www.delo.si/novice/znanoteh/znanost-je-verjetno-edino-clovesko-pocetje-ki-nas-pogosto-preseneti"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"a549647f-1b75-418b-b245-b8c5dc2b118b\",\"ts\":1743112529221}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648529,
+                    "expires_date": "2026-03-27T21:55:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648529.82311,
+                    "expires_date": "2026-03-27T21:55:29.823110+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=5bb89d71-0717-4f85-a696-102a7c5e5e4e&Created=03/27/2025 21:55:12&UserMode=0&guid=815593f5-97af-42a2-b85e-637527177034&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648529.823359,
+                    "expires_date": "2026-03-27T21:55:29.823359+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDk5YTYtNjIyYi02MjJkLWI4NTctYjY4Y2I4MjBlMTZhIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjE6NTU6MjkuNDQyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIxOjU1OjI5LjQ0MloiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672529.443551,
+                    "expires_date": "2026-05-01T21:55:29.443551+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId420",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId1794",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"a549647f-1b75-418b-b245-b8c5dc2b118b\",\"ts\":1743112529221}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648529,
+                    "expires_date": "2026-03-27T21:55:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648529.82311,
+                    "expires_date": "2026-03-27T21:55:29.823110+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=5bb89d71-0717-4f85-a696-102a7c5e5e4e&Created=03/27/2025 21:55:12&UserMode=0&guid=815593f5-97af-42a2-b85e-637527177034&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648529.823359,
+                    "expires_date": "2026-03-27T21:55:29.823359+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId420",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId1794",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDk5YTYtNjIyYi02MjJkLWI4NTctYjY4Y2I4MjBlMTZhIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjE6NTU6MjkuNDQyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIxOjU2OjQ3LjYxM1oiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsInR3aXR0ZXIiLCJjOmh1YnNwb3QiLCJjOnlvdXR1YmUiLCJjOmh1YnNwb3QtZm9ybXMiLCJjOmlwcm9tIiwiYzptaWNyb3NvZnQtYW5hbHl0aWNzIiwiYzp0aWt0b2stS1pBVVFMWjkiLCJjOmdvb2dsZWFuYS00VFhuSmlnUiIsImM6aW5zdGFncmFtIiwiYzpqdy1wbGF5ZXIiLCJjOnBpbnRlcmVzdCIsImM6eC1kZWxvIiwiYzplY2hvYm94LWRlbG8iLCJjOm1hdG9tby1kZWxvIiwiYzpjbGFyaXR5LWRlbG8iLCJjOnNtYXJ0b2N0by1kZWxvIiwiYzppbmZvZ3JhbS1kZWxvIiwiYzpmYWNlYm9vay1kZWxvIiwiYzppbnN0YWdyYW0tZGVsbyIsImM6cGludGVyZXN0LWRlbG8iLCJjOnNvZmFzY29yZS1kZWxvIiwiYzp0aWt0b2stZGVsbyIsImM6eW91dHViZS1kZWxvIiwiYzptb3NzLWRlbG8iLCJjOmRlbG9kb28tZGVsbyIsImM6bWlkYXMtZGVsbyIsImM6bGl2ZW5ldGxpZmUtZGVsbyJdfSwicHVycG9zZXMiOnsiZGlzYWJsZWQiOlsiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyIsImdlb2xvY2F0aW9uX2RhdGEiLCJ0aGlyZCIsImdlb19tYXJrZXRpbmdfc3R1ZGllcyIsImdlb19hZHMiXX0sInZlcnNpb24iOjIsImFjIjoiQUFBQS5BQUFBIn0=",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672607.636881,
+                    "expires_date": "2026-05-01T21:56:47.636881+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFgAAAAAAAAACRYAAAAAADFIAMAAQV5JQAYAAgryOgAwABBXkhABgACCvISADAAEFeS0AGAAIK8gAAA.YAAAAAAAAAAA",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672607.637321,
+                    "expires_date": "2026-05-01T21:56:47.637321+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "DotMetrics.DomainCookie",
+                    "value": "{\"dc\":\"a549647f-1b75-418b-b245-b8c5dc2b118b\",\"ts\":1743112529221}",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": 1774648633,
+                    "expires_date": "2026-03-27T21:57:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DotMetrics.DeviceKey",
+                    "value": "DeviceID=",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648633.731514,
+                    "expires_date": "2026-03-27T21:57:13.731514+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DotMetrics.UniqueUserIdentityCookie",
+                    "value": "UserID=5bb89d71-0717-4f85-a696-102a7c5e5e4e&Created=03/27/2025 21:55:12&UserMode=0&guid=815593f5-97af-42a2-b85e-637527177034&ver=1",
+                    "domain": ".dotmetrics.net",
+                    "path": "/",
+                    "expires": 1774648633.731596,
+                    "expires_date": "2026-03-27T21:57:13.731596+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "DM_SitId420",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId1794",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "didomi_token",
+                    "value": "eyJ1c2VyX2lkIjoiMTk1ZDk5YTYtNjIyYi02MjJkLWI4NTctYjY4Y2I4MjBlMTZhIiwiY3JlYXRlZCI6IjIwMjUtMDMtMjdUMjE6NTU6MjkuNDQyWiIsInVwZGF0ZWQiOiIyMDI1LTAzLTI3VDIxOjU2OjQ3LjYxM1oiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsInR3aXR0ZXIiLCJjOmh1YnNwb3QiLCJjOnlvdXR1YmUiLCJjOmh1YnNwb3QtZm9ybXMiLCJjOmlwcm9tIiwiYzptaWNyb3NvZnQtYW5hbHl0aWNzIiwiYzp0aWt0b2stS1pBVVFMWjkiLCJjOmdvb2dsZWFuYS00VFhuSmlnUiIsImM6aW5zdGFncmFtIiwiYzpqdy1wbGF5ZXIiLCJjOnBpbnRlcmVzdCIsImM6eC1kZWxvIiwiYzplY2hvYm94LWRlbG8iLCJjOm1hdG9tby1kZWxvIiwiYzpjbGFyaXR5LWRlbG8iLCJjOnNtYXJ0b2N0by1kZWxvIiwiYzppbmZvZ3JhbS1kZWxvIiwiYzpmYWNlYm9vay1kZWxvIiwiYzppbnN0YWdyYW0tZGVsbyIsImM6cGludGVyZXN0LWRlbG8iLCJjOnNvZmFzY29yZS1kZWxvIiwiYzp0aWt0b2stZGVsbyIsImM6eW91dHViZS1kZWxvIiwiYzptb3NzLWRlbG8iLCJjOmRlbG9kb28tZGVsbyIsImM6bWlkYXMtZGVsbyIsImM6bGl2ZW5ldGxpZmUtZGVsbyJdfSwicHVycG9zZXMiOnsiZGlzYWJsZWQiOlsiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyIsImdlb2xvY2F0aW9uX2RhdGEiLCJ0aGlyZCIsImdlb19tYXJrZXRpbmdfc3R1ZGllcyIsImdlb19hZHMiXX0sInZlcnNpb24iOjIsImFjIjoiQUFBQS5BQUFBIn0=",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672607.636881,
+                    "expires_date": "2026-05-01T21:56:47.636881+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "euconsent-v2",
+                    "value": "CQO7dIAQO7dIAAHABBENBiFgAAAAAAAAACRYAAAAAADFIAMAAQV5JQAYAAgryOgAwABBXkhABgACCvISADAAEFeS0AGAAIK8gAAA.YAAAAAAAAAAA",
+                    "domain": ".delo.si",
+                    "path": "/",
+                    "expires": 1777672607.637321,
+                    "expires_date": "2026-05-01T21:56:47.637321+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId14244",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "DM_SitId420SecId14247",
+                    "value": "1",
+                    "domain": "www.delo.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_click_2.png",
+            "011_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(0,82,161,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(0,82,161,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      \n#didomi-host .didomi-popup-container .didomi-popup-notice-text {\n  text-align: left;\n}\n\n#didomi-host .didomi-popup-container .didomi-popup-notice-logo-container {\n  text-align: center;\n}\n      Dobrodošli na spletni strani Dela! Družba Delo d.o.o. na svojih spletnih straneh uporablja piškotke. Poleg piškotkov, ki so nujni za tehnično delovanje spletne strani, mi in naši partnerji na tej spletni strani uporabljamo piškotke še za oglasno-marketinške namene, analitična orodja in družbena omrežja. S klikom na 'Sprejmi vse' boste podali soglasje za vse zgoraj naštete namene. V razdelku 'Več' la",
+                "banner_z_index": 2147483641,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi in zapri]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več →]  \nExplanation: \"Sprejmi in zapri\" is an ambiguous phrase indicating acceptance. There are no buttons for declining or managing settings explicitly mentioned, but \"Več →\" can be interpreted as a button for managing settings or additional information.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in zapri",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več →",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi in zapri\" is an ambiguous phrase indicating acceptance. There are no buttons for declining or managing settings explicitly mentioned, but \"Več →\" can be interpreted as a button for managing settings or additional information."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Več →",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "#didomi-host .didomi-exterior-border {\n        border-color: rgba(0,82,161,0.3);\n      }\n\n      #didomi-host .didomi-popup-container {\n        border-color: rgba(0,82,161,1);\n      }\n\n      #didomi-host .didomi-components-button {\n        border-radius: 0px;\n        border-color: rgba(34, 34, 34, 0.2);\n        border-width: 1px;\n        background-color: #eeeeee;\n        color: #444444;\n      }\n      Dobrodošli na Delo d.o.o. Upravljanje soglasja×Skupaj z našimi partnerji namestimo piškotke in v vaši napravi dostopamo do informacij, ki niso občutljive narave, ter jih uporabljamo za izboljšavo naših izdelkov ter prilagoditev oglasov in druge vsebine na tem spletnem mestu. Sprejmete lahko vse ali nekatere od teh dejavnosti. Če želite izvedeti več o piškotkih, partnerjih in o tem, kako uporabljamo vaše podatke za ogled možnosti ali dejavnosti posameznega partnerja, preberite naš pravilnik o zasebnosti.Preskoči na »Strinjam se z vsem«DovoliteNe strinjam se z vsemStrinjam se z vsem+Shranjev",
+                "banner_z_index": 2147483642,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 2,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Strinjam se z vsem]\nGenericLabel2: [Ne strinjam se z vsem]\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: None\nGenericLabel3: [O shranjevanju vaših izbir]\nExplanation: The button \"Strinjam se z vsem\" is categorized as accepting all cookies, while \"Ne strinjam se z vsem\" is for declining all. \"Strinjam se\" is ambiguous as it generally indicates acceptance, and \"O shranjevanju vaših izbir\" falls under settings management as it pertains to saving user choices. There were no buttons that fell under the category of ambiguous decline.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Strinjam se z vsem",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne strinjam se z vsem",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "O shranjevanju vaših izbir",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Strinjam se z vsem\" is categorized as accepting all cookies, while \"Ne strinjam se z vsem\" is for declining all. \"Strinjam se\" is ambiguous as it generally indicates acceptance, and \"O shranjevanju vaših izbir\" falls under settings management as it pertains to saving user choices. There were no buttons that fell under the category of ambiguous decline."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 0.7142857142857143,
+                "settings_decline_element_text": "Ne strinjam se z vsem",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "GenericLabel2",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-27T22:55:28.284329",
+        "timestamp_stop": "2025-03-27T22:57:22.773473"
+    }
+}

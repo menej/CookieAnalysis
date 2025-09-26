@@ -1,0 +1,1477 @@
+{
+    "web_page": "https://www.vzajemci.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T19:49:56.707311",
+    "timestamp_stop": "2025-03-28T19:52:14.518576",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.vzajemci.com/",
+            "https://www.vzajemci.com/splosni-pogoji",
+            "https://www.vzajemci.com/clanek/nalozbe-je-cas-za-evropo",
+            "https://www.vzajemci.com/e-knjige"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723799,
+                    "expires_date": "2026-03-28T18:49:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "auth.strategy",
+                    "value": "local",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1348401513.1743187800",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1750963800,
+                    "expires_date": "2025-06-26T18:50:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.447220622.1743187800",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747800.325926,
+                    "expires_date": "2026-05-02T18:50:00.325926+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1367860960.1743187800",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743274200,
+                    "expires_date": "2025-03-29T18:50:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-2644518-3",
+                    "value": "1",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743187860,
+                    "expires_date": "2025-03-28T18:51:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743188700.467146,
+                    "expires_date": "2025-03-28T19:05:00.467146+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2740943",
+                    "value": "eyJpZCI6ImU0NDAyNjhjLWFmNTQtNWY0Ni05MzcwLTVlMWI5NjJmMTIyNiIsImNyZWF0ZWQiOjE3NDMxODc4MDA0NzYsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723800,
+                    "expires_date": "2026-03-28T18:50:00+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_2740943",
+                    "value": "eyJpZCI6IjM2ZTFiY2EwLTg0YTAtNGViNC1iZTFmLTkwMGJkZjEwOTcxZCIsImMiOjE3NDMxODc4MDA0NzcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743189600,
+                    "expires_date": "2025-03-28T19:20:00+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_FB0EEHET0S",
+                    "value": "GS1.2.1743187800.1.0.1743187800.0.0.0",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747800.579607,
+                    "expires_date": "2026-05-02T18:50:00.579607+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723819,
+                    "expires_date": "2026-03-28T18:50:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "auth.strategy",
+                    "value": "local",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1348401513.1743187800",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1750963800,
+                    "expires_date": "2025-06-26T18:50:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.447220622.1743187800",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747819.701913,
+                    "expires_date": "2026-05-02T18:50:19.701913+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1367860960.1743187800",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743274219,
+                    "expires_date": "2025-03-29T18:50:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-2644518-3",
+                    "value": "1",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743187860,
+                    "expires_date": "2025-03-28T18:51:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_hjSession_2740943",
+                    "value": "eyJpZCI6IjM2ZTFiY2EwLTg0YTAtNGViNC1iZTFmLTkwMGJkZjEwOTcxZCIsImMiOjE3NDMxODc4MDA0NzcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743189600,
+                    "expires_date": "2025-03-28T19:20:00+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2740943",
+                    "value": "eyJpZCI6ImU0NDAyNjhjLWFmNTQtNWY0Ni05MzcwLTVlMWI5NjJmMTIyNiIsImNyZWF0ZWQiOjE3NDMxODc4MDA0NzYsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723819,
+                    "expires_date": "2026-03-28T18:50:19+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUnXG76T_-l4rG9aCGTipUfM0wy6nuFRcgJaX0qSM4GhECmaAARczq_0qUTr",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776883806.466555,
+                    "expires_date": "2026-04-22T18:50:06.466555+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_FB0EEHET0S",
+                    "value": "GS1.2.1743187800.1.1.1743187819.0.0.0",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747819.806982,
+                    "expires_date": "2026-05-02T18:50:19.806982+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T19:49:58.019610",
+        "timestamp_stop": "2025-03-28T19:50:25.819861"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmem)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.vzajemci.com/",
+            "https://www.vzajemci.com/splosni-pogoji",
+            "https://www.vzajemci.com/clanek/nalozbe-je-cas-za-evropo",
+            "https://www.vzajemci.com/e-knjige"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723829,
+                    "expires_date": "2026-03-28T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "auth.strategy",
+                    "value": "local",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1428552383.1743187829",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1750963829,
+                    "expires_date": "2025-06-26T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.930268829.1743187830",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747829.702847,
+                    "expires_date": "2026-05-02T18:50:29.702847+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1436175306.1743187830",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743274229,
+                    "expires_date": "2025-03-29T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-2644518-3",
+                    "value": "1",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743187889,
+                    "expires_date": "2025-03-28T18:51:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743188729.826701,
+                    "expires_date": "2025-03-28T19:05:29.826701+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2740943",
+                    "value": "eyJpZCI6IjdlOTVjOTMwLTRlZTgtNWVjZS05ZjJjLTRlNDNhODUwZTE1YSIsImNyZWF0ZWQiOjE3NDMxODc4Mjk4NDksImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723829,
+                    "expires_date": "2026-03-28T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_2740943",
+                    "value": "eyJpZCI6IjkwNDFjZWZiLTg0MmUtNDkxMS1hOWQ5LTA4OGU4MWJmYmM2ZiIsImMiOjE3NDMxODc4Mjk4NTEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743189629,
+                    "expires_date": "2025-03-28T19:20:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_FB0EEHET0S",
+                    "value": "GS1.2.1743187829.1.0.1743187829.0.0.0",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747829.940661,
+                    "expires_date": "2026-05-02T18:50:29.940661+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723829,
+                    "expires_date": "2026-03-28T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "auth.strategy",
+                    "value": "local",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1428552383.1743187829",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1750963829,
+                    "expires_date": "2025-06-26T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.930268829.1743187830",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747829.702847,
+                    "expires_date": "2026-05-02T18:50:29.702847+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1436175306.1743187830",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743274229,
+                    "expires_date": "2025-03-29T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-2644518-3",
+                    "value": "1",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743187889,
+                    "expires_date": "2025-03-28T18:51:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743188729.826701,
+                    "expires_date": "2025-03-28T19:05:29.826701+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2740943",
+                    "value": "eyJpZCI6IjdlOTVjOTMwLTRlZTgtNWVjZS05ZjJjLTRlNDNhODUwZTE1YSIsImNyZWF0ZWQiOjE3NDMxODc4Mjk4NDksImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723829,
+                    "expires_date": "2026-03-28T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_2740943",
+                    "value": "eyJpZCI6IjkwNDFjZWZiLTg0MmUtNDkxMS1hOWQ5LTA4OGU4MWJmYmM2ZiIsImMiOjE3NDMxODc4Mjk4NTEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743189629,
+                    "expires_date": "2025-03-28T19:20:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_FB0EEHET0S",
+                    "value": "GS1.2.1743187829.1.0.1743187829.0.0.0",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747829.940661,
+                    "expires_date": "2026-05-02T18:50:29.940661+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "vzajemci-academy-cookie-consent",
+                    "value": "%7B%22cant-disable%22%3Atrue%2C%22analytics%22%3Atrue%7D",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1753555855,
+                    "expires_date": "2025-07-26T18:50:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723873,
+                    "expires_date": "2026-03-28T18:51:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "auth.strategy",
+                    "value": "local",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1428552383.1743187829",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1750963829,
+                    "expires_date": "2025-06-26T18:50:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.930268829.1743187830",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747873.232545,
+                    "expires_date": "2026-05-02T18:51:13.232545+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1436175306.1743187830",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743274273,
+                    "expires_date": "2025-03-29T18:51:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-2644518-3",
+                    "value": "1",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743187889,
+                    "expires_date": "2025-03-28T18:51:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_hjSession_2740943",
+                    "value": "eyJpZCI6IjkwNDFjZWZiLTg0MmUtNDkxMS1hOWQ5LTA4OGU4MWJmYmM2ZiIsImMiOjE3NDMxODc4Mjk4NTEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743189629,
+                    "expires_date": "2025-03-28T19:20:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "vzajemci-academy-cookie-consent",
+                    "value": "%7B%22cant-disable%22%3Atrue%2C%22analytics%22%3Atrue%7D",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1753555855,
+                    "expires_date": "2025-07-26T18:50:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2740943",
+                    "value": "eyJpZCI6IjdlOTVjOTMwLTRlZTgtNWVjZS05ZjJjLTRlNDNhODUwZTE1YSIsImNyZWF0ZWQiOjE3NDMxODc4Mjk4NDksImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723873,
+                    "expires_date": "2026-03-28T18:51:13+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmjF_nzA_xPV_sAjjhJ73icquLOotfmtuq1Lm-TleddzS4bG5OgwbRa5z7F",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776883860.141016,
+                    "expires_date": "2026-04-22T18:51:00.141016+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_FB0EEHET0S",
+                    "value": "GS1.2.1743187829.1.1.1743187873.0.0.0",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747873.387525,
+                    "expires_date": "2026-05-02T18:51:13.387525+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na našem spletnem mestu uporabljamo naslednje piškotke za zagotavljanje najboljše uporabniške izkušnje: nujno potrebni, analitični.VečZavrniSprejmem",
+                "banner_z_index": 1001,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Zavrni]  \nAmbiguousLabel1: [Sprejmem]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več]  \nExplanation: The button [Zavrni] is categorized as declining all cookies. The button [Sprejmem] is considered an ambiguous acceptance phrase. The button [Več] is categorized under settings as it indicates the option for more choices or information.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Zavrni is categorized as declining all cookies. The button Sprejmem is considered an ambiguous acceptance phrase. The button Več is categorized under settings as it indicates the option for more choices or information."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmem",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T19:50:27.423129",
+        "timestamp_stop": "2025-03-28T19:51:19.437342"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.vzajemci.com/",
+            "https://www.vzajemci.com/splosni-pogoji",
+            "https://www.vzajemci.com/clanek/nalozbe-je-cas-za-evropo",
+            "https://www.vzajemci.com/e-knjige"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723883,
+                    "expires_date": "2026-03-28T18:51:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "auth.strategy",
+                    "value": "local",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.584347222.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1750963884,
+                    "expires_date": "2025-06-26T18:51:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.776487909.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747883.932031,
+                    "expires_date": "2026-05-02T18:51:23.932031+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1438875456.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743274283,
+                    "expires_date": "2025-03-29T18:51:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-2644518-3",
+                    "value": "1",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743187943,
+                    "expires_date": "2025-03-28T18:52:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2740943",
+                    "value": "eyJpZCI6IjQzNWVhMDMzLTE4OWQtNTgzOS1hNzg0LWFmZGFiZTIwYjMwMSIsImNyZWF0ZWQiOjE3NDMxODc4ODQxNDgsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723884,
+                    "expires_date": "2026-03-28T18:51:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_2740943",
+                    "value": "eyJpZCI6ImM0MWIyZDBmLWRlZjAtNDZlMC1iMmZiLTUwMDVjYzI0ZDY0NSIsImMiOjE3NDMxODc4ODQxNTAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743189684,
+                    "expires_date": "2025-03-28T19:21:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743188784.276189,
+                    "expires_date": "2025-03-28T19:06:24.276189+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_FB0EEHET0S",
+                    "value": "GS1.2.1743187884.1.0.1743187884.0.0.0",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747884.308297,
+                    "expires_date": "2026-05-02T18:51:24.308297+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723883,
+                    "expires_date": "2026-03-28T18:51:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "auth.strategy",
+                    "value": "local",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.584347222.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1750963884,
+                    "expires_date": "2025-06-26T18:51:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.776487909.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747883.932031,
+                    "expires_date": "2026-05-02T18:51:23.932031+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1438875456.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743274283,
+                    "expires_date": "2025-03-29T18:51:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-2644518-3",
+                    "value": "1",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743187943,
+                    "expires_date": "2025-03-28T18:52:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2740943",
+                    "value": "eyJpZCI6IjQzNWVhMDMzLTE4OWQtNTgzOS1hNzg0LWFmZGFiZTIwYjMwMSIsImNyZWF0ZWQiOjE3NDMxODc4ODQxNDgsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723884,
+                    "expires_date": "2026-03-28T18:51:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_2740943",
+                    "value": "eyJpZCI6ImM0MWIyZDBmLWRlZjAtNDZlMC1iMmZiLTUwMDVjYzI0ZDY0NSIsImMiOjE3NDMxODc4ODQxNTAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743189684,
+                    "expires_date": "2025-03-28T19:21:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743188784.276189,
+                    "expires_date": "2025-03-28T19:06:24.276189+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_FB0EEHET0S",
+                    "value": "GS1.2.1743187884.1.0.1743187884.0.0.0",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747884.308297,
+                    "expires_date": "2026-05-02T18:51:24.308297+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "vzajemci-academy-cookie-consent",
+                    "value": "%7B%22cant-disable%22%3Atrue%2C%22analytics%22%3Afalse%7D",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1753555910,
+                    "expires_date": "2025-07-26T18:51:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723927,
+                    "expires_date": "2026-03-28T18:52:07+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "auth.strategy",
+                    "value": "local",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.584347222.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1750963884,
+                    "expires_date": "2025-06-26T18:51:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.776487909.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747928.119802,
+                    "expires_date": "2026-05-02T18:52:08.119802+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1438875456.1743187884",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743274328,
+                    "expires_date": "2025-03-29T18:52:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-2644518-3",
+                    "value": "1",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743187943,
+                    "expires_date": "2025-03-28T18:52:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_hjSession_2740943",
+                    "value": "eyJpZCI6ImM0MWIyZDBmLWRlZjAtNDZlMC1iMmZiLTUwMDVjYzI0ZDY0NSIsImMiOjE3NDMxODc4ODQxNTAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1743189684,
+                    "expires_date": "2025-03-28T19:21:24+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "vzajemci-academy-cookie-consent",
+                    "value": "%7B%22cant-disable%22%3Atrue%2C%22analytics%22%3Afalse%7D",
+                    "domain": "www.vzajemci.com",
+                    "path": "/",
+                    "expires": 1753555910,
+                    "expires_date": "2025-07-26T18:51:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2740943",
+                    "value": "eyJpZCI6IjQzNWVhMDMzLTE4OWQtNTgzOS1hNzg0LWFmZGFiZTIwYjMwMSIsImNyZWF0ZWQiOjE3NDMxODc4ODQxNDgsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1774723928,
+                    "expires_date": "2026-03-28T18:52:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUlRRwAR7dIQaNddyl96PNA7HqTP4KHEBNy-UrtSh7CTuos8XJVjw3c_VNfu",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776883914.963061,
+                    "expires_date": "2026-04-22T18:51:54.963061+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_FB0EEHET0S",
+                    "value": "GS1.2.1743187884.1.1.1743187928.0.0.0",
+                    "domain": ".vzajemci.com",
+                    "path": "/",
+                    "expires": 1777747928.247635,
+                    "expires_date": "2026-05-02T18:52:08.247635+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na našem spletnem mestu uporabljamo naslednje piškotke za zagotavljanje najboljše uporabniške izkušnje: nujno potrebni, analitični.VečZavrniSprejmem",
+                "banner_z_index": 1001,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Zavrni]  \nAmbiguousLabel1: [Sprejmem]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več]  \nExplanation: The button [Zavrni] is categorized under GenericLabel2 as it signifies declining all cookies. The button [Sprejmem] is categorized under AmbiguousLabel1 as it suggests accepting but is generic. The button [Več] is categorized under GenericLabel3 as it typically relates to managing settings or more options.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmem",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Zavrni is categorized under GenericLabel2 as it signifies declining all cookies. The button Sprejmem is categorized under AmbiguousLabel1 as it suggests accepting but is generic. The button Več is categorized under GenericLabel3 as it typically relates to managing settings or more options."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T19:51:20.993905",
+        "timestamp_stop": "2025-03-28T19:52:14.246057"
+    }
+}

@@ -1,0 +1,287 @@
+{
+    "web_page": "https://larsandsven.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T12:28:57.656621",
+    "timestamp_stop": "2025-03-28T12:31:57.179519",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://larsandsven.si/",
+            "https://larsandsven.si/ponudba/",
+            "https://larsandsven.si/o-nas/piskotki/",
+            "https://larsandsven.si/avtorji/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T12:28:58.977957",
+        "timestamp_stop": "2025-03-28T12:29:26.676636"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Potrdi)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://larsandsven.si/",
+            "https://larsandsven.si/ponudba/",
+            "https://larsandsven.si/o-nas/piskotki/",
+            "https://larsandsven.si/avtorji/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "cookie_popup",
+                    "value": "123",
+                    "domain": "larsandsven.si",
+                    "path": "/",
+                    "expires": 1774697397,
+                    "expires_date": "2026-03-28T11:29:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookie_popup",
+                    "value": "123",
+                    "domain": "larsandsven.si",
+                    "path": "/",
+                    "expires": 1774697397,
+                    "expires_date": "2026-03-28T11:29:57+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotki\n\t\t\tSpletna stran uporablja piškotke. Poleg nujnih piškotkov, ki zagotavljajo funkcionalnost spletne strani, uporabljamo tudi piškotke za potrebe spletne analitike in integracijo socialnih omrežij.\n\t\t\n\n\t\t\n\t\t\tPotrdi\n\t\t\tŽelim izbrati",
+                "banner_z_index": 99,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Potrdi]  \nAmbiguousLabel2: None  \nGenericLabel3: [Želim izbrati]  \nExplanation: \"Potrdi\" is classified as an ambiguous accept phrase, while \"Želim izbrati\" suggests a desire to manage settings or preferences.",
+                "llm_response_parsed": {
+                    "Accept": "Potrdi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Želim izbrati",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Potrdi\" is classified as an ambiguous accept phrase, while \"Želim izbrati\" suggests a desire to manage settings or preferences."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Potrdi",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T12:29:28.305948",
+        "timestamp_stop": "2025-03-28T12:30:22.425949"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Želim izbrati)",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://larsandsven.si/",
+            "https://larsandsven.si/ponudba/",
+            "https://larsandsven.si/o-nas/piskotki/",
+            "https://larsandsven.si/avtorji/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "cookie_popup",
+                    "value": "1",
+                    "domain": "larsandsven.si",
+                    "path": "/",
+                    "expires": 1774697492,
+                    "expires_date": "2026-03-28T11:31:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookie_popup",
+                    "value": "1",
+                    "domain": "larsandsven.si",
+                    "path": "/",
+                    "expires": 1774697492,
+                    "expires_date": "2026-03-28T11:31:32+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotki\n\t\t\tSpletna stran uporablja piškotke. Poleg nujnih piškotkov, ki zagotavljajo funkcionalnost spletne strani, uporabljamo tudi piškotke za potrebe spletne analitike in integracijo socialnih omrežij.\n\t\t\n\n\t\t\n\t\t\tPotrdi\n\t\t\tŽelim izbrati",
+                "banner_z_index": 99,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Potrdi]  \nAmbiguousLabel2: None  \nGenericLabel3: [Želim izbrati]  \nExplanation: \"Potrdi\" is a generic phrase that signifies accepting but is ambiguous in this context, while \"Želim izbrati\" suggests managing or selecting options, fitting the settings category.",
+                "llm_response_parsed": {
+                    "Accept": "Potrdi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Želim izbrati",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Potrdi\" is a generic phrase that signifies accepting but is ambiguous in this context, while \"Želim izbrati\" suggests managing or selecting options, fitting the settings category."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Želim izbrati",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotki\n\t\t\tSpletna stran uporablja piškotke. Poleg nujnih piškotkov, ki zagotavljajo funkcionalnost spletne strani, uporabljamo tudi piškotke za potrebe spletne analitike in integracijo socialnih omrežij.\n\n\t\t\t\t\n\t\t\t\t\tObvezni\n\t\t\t\t\t\t\t\t\t\t\tAnalitika, sledenje\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInformacijski\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tObvezni\t\t\t\t\t\tDa bi stran lahko delovala teh piškotkov ni mogoče odstraniti.\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tAnalitika, sledenje\t\t\t\t\t\t\tTukaj analiziramo kdo brska po naših straneh 😉 ah ta statistika.\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\tPotrdi\n\t\t\t\tZavrni",
+                "banner_z_index": 99,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Potrdi]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: \"Zavrni\" is categorized as declining all cookies. \"Potrdi\" is classified as an ambiguous acceptance. There are no buttons for accepting all cookies or managing settings present in the input.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Potrdi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Zavrni\" is categorized as declining all cookies. \"Potrdi\" is classified as an ambiguous acceptance. There are no buttons for accepting all cookies or managing settings present in the input."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Zavrni",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "GenericLabel2",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T12:30:24.003617",
+        "timestamp_stop": "2025-03-28T12:31:56.930003"
+    }
+}

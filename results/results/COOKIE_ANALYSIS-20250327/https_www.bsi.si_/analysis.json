@@ -1,0 +1,757 @@
+{
+    "web_page": "https://www.bsi.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T20:06:01.436267",
+    "timestamp_stop": "2025-03-28T20:08:37.991847",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bsi.si/",
+            "https://www.bsi.si/en",
+            "https://www.bsi.si/sl/gotovina",
+            "https://www.bsi.si/en/central-credit-register"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "locale",
+                    "value": "eyJpdiI6IjBsTWpiR1JJWUlOZ0JjelRzTzN4THc9PSIsInZhbHVlIjoiVDdldG1NL3oydG00WWhHUDhtUGFDU1hhNk9VVk9PcXJ4UGYzTHJKVkNScDRxd3p2dlE0amFhVnU2SVJYWHg0TiIsIm1hYyI6ImE4ZWM4MWNlMTBmNGY2MzI2OGQ1MTA3MTRlNjQzZTUzYjY0NTlmNDUxYjIwN2RhNTJkY2EzMTA0YThiNTBmNDQiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748764.022573,
+                    "expires_date": "2026-05-02T19:06:04.022573+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InFWN3hZci8wYkJMcmlxbGhuMVJ5QXc9PSIsInZhbHVlIjoiK0V0Qng1dVNBLzVHQ1VtenVoaUtEWmFJRHdXekVhbjFkWHVTZ3Q4dFFMd1FUaVFESzc0aUFsdmVCeG56VWkrdUNNeVNHRStCR096eDhrdW5mbDFra3FLcUFwRU16cmF3eEpQeFNGRkVoWnBKNVVQQ3hkSWFSZnJOYzFKM3dLZDUiLCJtYWMiOiJkNmQzYjhhMzJiMzE2OThjMjU0MTQ5M2UyYWYzOTI2YzhiMTFkNGU5MjMzMDA1MDY2YWI0MjhiMzBjZGYzZGNiIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743195964.022644,
+                    "expires_date": "2025-03-28T21:06:04.022644+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "banka_slovenije_session",
+                    "value": "eyJpdiI6IjdLMkFiMFUvbTRhSUhWRk5JZWZmakE9PSIsInZhbHVlIjoiR2tZdnJJR3cwaXpWTHltQTlGdFpYdFQvQ24wMWtZZzhlZG5WeHZLVUhoUWRRcXlVdjNlckdvS2k4NXdyNEpCOTdpK1VVUVZOSWp2WG40cVNwNGFPU29IY25JZWtCVWdIaUh0MTVYbXdzdlpxNDB6V1U3NEkyQ05keUZVVnJsTW8iLCJtYWMiOiIwYTVlZjYyYjk5ODk3OWMwYjczM2MyNjQ5YzVmMGE4M2U1MmVjZWI1YWU1ZWZjNDgyYzlhYWQ3MTM4NDg5MzhkIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743195964.022698,
+                    "expires_date": "2025-03-28T21:06:04.022698+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".www.bsi.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".www.bsi.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "locale",
+                    "value": "eyJpdiI6Inc3T3Vqb2EyRDF3a01iRHdXTE1HcUE9PSIsInZhbHVlIjoiNkhVelJOU2dxeU9UTUE3NU5UaTNQa1pBdmpkQjNHTHFOOGhEK1JkN2ovNml0czh0Rm5UdjZqVFRJUHpIYW9XWCIsIm1hYyI6Ijg2N2RmYmVkZjMzNmI1NjA3YTA5YTJhNGI2YTJjYzg0NmZmN2ExM2VhNGQ5ZWY0NjI0ZDc0ZDdkMzg1YjM5NmEiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748789.607768,
+                    "expires_date": "2026-05-02T19:06:29.607768+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Ik84ZDhiZkZVaU1ldEt0RGJjRzhKY0E9PSIsInZhbHVlIjoiNmx3VjBKVjM1THYvVTc3QWlYUVJ0bWlxRUQ4Vm9XUDBZWHE4Z3F0Y0RhZUQ4bm9VNFUxb3prZEdSVkFrVXZPUnNPQlpLT3NnUWsyWEpmK2NZV1AvKzBGZ3h4MlUrMU4vV1RuQ3VTK1JyRXNidzlCYWdQam1FMEVZS0hBc1MxWG4iLCJtYWMiOiIwYzZhNDIxMzM2YjJmNmI1ZTRjM2MyY2RjNWU0YzZlZWFiZWU2MTRmYWIwNzE3NTA3Njk0MTEzNzllMTIzNzYxIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743195989.607852,
+                    "expires_date": "2025-03-28T21:06:29.607852+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "banka_slovenije_session",
+                    "value": "eyJpdiI6Im1Cek9zdnlRT0VPc3BvaTVSZEVYWXc9PSIsInZhbHVlIjoicVJGb1ZwL0pRUVNpTzFiazZERlJPNU5sYy9xRThIR2ZDQUJZdkhaMkZxNUJmYjBKVGowVlhXT3loQnI3Rms3eHJzOHBNOUNWVWRER3U0SzMrRkJ5UWJLN0FSdlhXZEU2ZlhtYU16ZjBtZ1oxK1NxeFowcEVkMEZKTElzUnZaODQiLCJtYWMiOiI5MWZjYTc1ZTdkNDc0MTgzMjcxNzk5NmE0NGQ0NmM1YzYxZmM0YjczOTkzNjZhMDNkZjE0Y2IzMzFkMmM4MTEwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743195989.607883,
+                    "expires_date": "2025-03-28T21:06:29.607883+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T20:06:02.946341",
+        "timestamp_stop": "2025-03-28T20:06:36.367364"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Nadaljuj z vsemi piškotki)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bsi.si/",
+            "https://www.bsi.si/en",
+            "https://www.bsi.si/sl/gotovina",
+            "https://www.bsi.si/en/central-credit-register"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "locale",
+                    "value": "eyJpdiI6IlRsSElxNDUzWlIxUVd0c1F6NWNuY1E9PSIsInZhbHVlIjoiRkhFNlRwUU0yTERrVEZ2MXN4d0VraHJLZU9NbDUzaSswU1BucVYyY3F4K0JJSzh4RmRiRUluSk1iNVB3c3dGZyIsIm1hYyI6ImQ5NzhiZmE1ZjVhOWIyODU4Yzk1MGZkMGFjMmFhN2Y3NGNjMmM0MTdmYTUyOTU1YTQ2M2JhYmZhOTA0ZTVjZDAiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748799.098927,
+                    "expires_date": "2026-05-02T19:06:39.098927+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InNpTFpJejBSQTFyeGRVS0MzSzJFSGc9PSIsInZhbHVlIjoiVHJBWG00cjJ3MnRrcVpVT3lZTkI4WEVSK2U4RmV5VmppcG1mVUp6UWFPcDNITFhlTTJ6V09pU1RvalVmTWZ1Yk0yS2RXSy9zdEZqVDBjemF1ZURnaE1kaDNPU0c3SzFnOU1PSFdidHpSMnB4MWdGUWJpcDQwaFhrbGd4RkY3NE0iLCJtYWMiOiJhNGJkNmQ2MWViZDExYTU5MTljMmNiNjAzZTc3MGQ0NWQ2MWIzNDJiMmE0ZWFhODMzZDdhMjIyYzMyYTVmNzk4IiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743195999.098999,
+                    "expires_date": "2025-03-28T21:06:39.098999+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "banka_slovenije_session",
+                    "value": "eyJpdiI6InRJSnJDWjA2NTRnREQ1c3ZveCtLYmc9PSIsInZhbHVlIjoieDMraExFazh2UHpCSGx3a0lmZklwck9yNWdtVlhCZHhMbjdQWm9zaEpqcjhiUkIvakhWL0Ntd1ltanBqejNnTjl6ci9BS1hIZlJZSTlQb1FmeTU0R0QvM0lZZkV4bTRoR2FuanEzMUN5QkpXWnltY1lwM1YyWHdjWk00VFZvZEwiLCJtYWMiOiJkYTFlOGRlNDhmOTQ1MmFhNTlmZDgzMTQ5ZWQ5YTA5OGFmZWI1NmEwNmFjZmEzNTVkMzZmNjFkZTA5N2VlODQwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743195999.099095,
+                    "expires_date": "2025-03-28T21:06:39.099095+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".www.bsi.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "locale",
+                    "value": "eyJpdiI6IlRsSElxNDUzWlIxUVd0c1F6NWNuY1E9PSIsInZhbHVlIjoiRkhFNlRwUU0yTERrVEZ2MXN4d0VraHJLZU9NbDUzaSswU1BucVYyY3F4K0JJSzh4RmRiRUluSk1iNVB3c3dGZyIsIm1hYyI6ImQ5NzhiZmE1ZjVhOWIyODU4Yzk1MGZkMGFjMmFhN2Y3NGNjMmM0MTdmYTUyOTU1YTQ2M2JhYmZhOTA0ZTVjZDAiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748799.098927,
+                    "expires_date": "2026-05-02T19:06:39.098927+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InNpTFpJejBSQTFyeGRVS0MzSzJFSGc9PSIsInZhbHVlIjoiVHJBWG00cjJ3MnRrcVpVT3lZTkI4WEVSK2U4RmV5VmppcG1mVUp6UWFPcDNITFhlTTJ6V09pU1RvalVmTWZ1Yk0yS2RXSy9zdEZqVDBjemF1ZURnaE1kaDNPU0c3SzFnOU1PSFdidHpSMnB4MWdGUWJpcDQwaFhrbGd4RkY3NE0iLCJtYWMiOiJhNGJkNmQ2MWViZDExYTU5MTljMmNiNjAzZTc3MGQ0NWQ2MWIzNDJiMmE0ZWFhODMzZDdhMjIyYzMyYTVmNzk4IiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743195999.098999,
+                    "expires_date": "2025-03-28T21:06:39.098999+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "banka_slovenije_session",
+                    "value": "eyJpdiI6InRJSnJDWjA2NTRnREQ1c3ZveCtLYmc9PSIsInZhbHVlIjoieDMraExFazh2UHpCSGx3a0lmZklwck9yNWdtVlhCZHhMbjdQWm9zaEpqcjhiUkIvakhWL0Ntd1ltanBqejNnTjl6ci9BS1hIZlJZSTlQb1FmeTU0R0QvM0lZZkV4bTRoR2FuanEzMUN5QkpXWnltY1lwM1YyWHdjWk00VFZvZEwiLCJtYWMiOiJkYTFlOGRlNDhmOTQ1MmFhNTlmZDgzMTQ5ZWQ5YTA5OGFmZWI1NmEwNmFjZmEzNTVkMzZmNjFkZTA5N2VlODQwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743195999.099095,
+                    "expires_date": "2025-03-28T21:06:39.099095+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional|analytics|all_cookies",
+                    "domain": ".www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748830.710224,
+                    "expires_date": "2026-05-02T19:07:10.710224+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_Z7FRG7KLWK",
+                    "value": "GS1.1.1743188830.1.0.1743188830.0.0.0",
+                    "domain": ".bsi.si",
+                    "path": "/",
+                    "expires": 1777748830.881899,
+                    "expires_date": "2026-05-02T19:07:10.881899+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.517165748.1743188831",
+                    "domain": ".bsi.si",
+                    "path": "/",
+                    "expires": 1777748830.882567,
+                    "expires_date": "2026-05-02T19:07:10.882567+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional|analytics|all_cookies",
+                    "domain": ".www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748852.852476,
+                    "expires_date": "2026-05-02T19:07:32.852476+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.517165748.1743188831",
+                    "domain": ".bsi.si",
+                    "path": "/",
+                    "expires": 1777748852.934617,
+                    "expires_date": "2026-05-02T19:07:32.934617+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "locale",
+                    "value": "eyJpdiI6IjF6MHNqQmxPWWplOFpiSDVwVEZ4UGc9PSIsInZhbHVlIjoiQ2wxWEFYUnVSZ0ZydTJTR0t4WGNYQzJIUTYydG9xand4d0p5ejB1aElpZUhGMzFsNG5OaUpaNldmL0g5aDg4SyIsIm1hYyI6ImYyODkyMTVkYTVjYmI3NGI1NGE2NjI2ZWQyYTRlYTNkNDI3YzFmMjk4MThlNTE5MGU1MTgwMWUyMjNmNTFmZDEiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748852.833335,
+                    "expires_date": "2026-05-02T19:07:32.833335+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IjF5NWd0MU5UbTA2MHlBelc0Rm11Mnc9PSIsInZhbHVlIjoidktBRzVJZ0pMUzllc01vaTBIMHBZSDMzK1lJUVphTlZqeXFaQVl1aUVsZjYxL0VmQ2Q4aGdoTVNiNUhBRE9rbE82KzdLb3dRMzcvaXJXZ3V4YXdJbUpnSTB1MjV5UUNKYTdtbGRRUmYrY3l6aGlMdUdNeFNjSE5VYUdjM0VEVmUiLCJtYWMiOiIwMWFkYjQxOWMzN2Y1MDNlMDFhNTdiMmIzYzUxYWVjMTMzODVhOWRlZmFmYWU1YTJkODc2ZmVmNTE1MWJjNDA1IiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743196052.83345,
+                    "expires_date": "2025-03-28T21:07:32.833450+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "banka_slovenije_session",
+                    "value": "eyJpdiI6ImhVYUIycEQrdVA3dHdLQzdLNFdJTlE9PSIsInZhbHVlIjoiMHlmQlYrdTRsRzBaeUc4Q0laMVpObitOelJCTCtFK2lKY3YzNSsvejQ5a1BUbnhPTUVOS3ozTXZxK0dZbDV4cXB5S2RDc2dNVFFKaUJUZXdKZTBzb2pTYys0L3NNYm9UV3paclI5MHJmRlFqTDFLWC94QWUyc1UzSFRGcEJRYm4iLCJtYWMiOiIzNWJhMzdkMDQ3YzhjNjM4ZTU2MjU5NWQzODIzNThjNDFiZjg2YzU1MGNkNjc0NDU4ZDM5ZjI4MThhZGE0OTNhIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743196052.833485,
+                    "expires_date": "2025-03-28T21:07:32.833485+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_Z7FRG7KLWK",
+                    "value": "GS1.1.1743188830.1.1.1743188852.0.0.0",
+                    "domain": ".bsi.si",
+                    "path": "/",
+                    "expires": 1777748852.93426,
+                    "expires_date": "2026-05-02T19:07:32.934260+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Obvestilo o piškotkih\n\t\t\tTo spletno mesto uporablja piškotke za pravilno delovanje, izboljšano uporabniško izkušnjo in analizo obiska, ki jih brez piškotkov ne bi mogli nuditi. Z nadaljnjo uporabo spletnega mesta soglašate s piškotki. Analitične piškotke lahko izključite v nastavitvah na tej povezavi.\n\t\t\t\n\t\t\t\t\n    \n        \n            \n            \n\n            \n\n        \n                    Nujni piškotki\n            \n    \n\t\t\t\t\n    \n        \n            \n            \n\n            \n\n        \n                    Analitični\n            \n    \n\t\t\t\n\t\t\t\n\t\t\t\t\n    \n        \n\n        \n\n    \n    Shrani nastavitve\n\n\t\t\t\t\n    \n        \n\n        \n\n    \n    Nadaljuj z vsemi piškotki",
+                "banner_z_index": 0,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Nadaljuj z vsemi piškotki]\nGenericLabel2: None\nAmbiguousLabel1: [Shrani nastavitve]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button \"Nadaljuj z vsemi piškotki\" is categorized as accepting all cookies. \"Shrani nastavitve\" is considered as an ambiguous acceptance since it involves saving settings but does not explicitly accept all. There are no labels for declining all cookies or settings management present.",
+                "llm_response_parsed": {
+                    "Accept": "Nadaljuj z vsemi piškotki",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Shrani nastavitve",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button \"Nadaljuj z vsemi piškotki\" is categorized as accepting all cookies. \"Shrani nastavitve\" is considered as an ambiguous acceptance since it involves saving settings but does not explicitly accept all. There are no labels for declining all cookies or settings management present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nadaljuj z vsemi piškotki",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T20:06:37.892529",
+        "timestamp_stop": "2025-03-28T20:07:39.596034"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Shrani nastavitve)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.bsi.si/",
+            "https://www.bsi.si/en",
+            "https://www.bsi.si/sl/gotovina",
+            "https://www.bsi.si/en/central-credit-register"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "locale",
+                    "value": "eyJpdiI6InZCTG12VFJJTUV6UFdBeUtmMWN2M2c9PSIsInZhbHVlIjoiSFU3ZHMwREJqV2hqaHEyQ2RrK2FZNTBEUFZXeE5SNTV2eGRGRnNpZHVOV0djRUVrVjloSGtZNHdSK3hVbDJ4TyIsIm1hYyI6ImU3ZTE3Mzk2YzBiNjc4NjJhYzU1NWU4NDdiZjI0MmU4ZTkwMjI4OTE5MTNjOWY4NWUyZGY2MzMxMDE2N2QzZGIiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748862.508161,
+                    "expires_date": "2026-05-02T19:07:42.508161+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IktoZlVnUGlQT3BoeVpCWXpObm9uaGc9PSIsInZhbHVlIjoiK0srZlQ1NEpaUEdncHhlbFdKZUlsM2xYTldsdHluTW1MWVdldER2ZVd4dUtLRlVHekpxWXBLMkJmU1JFUEdxRWoyZ0FSTWU4U3NDWlAreEdIekJaell3cW1QdloxVDVDdEZzT1I2N1Y1MkVVRENkaE1GUDV4RnZhMk9aWXRPczciLCJtYWMiOiIxOGY5ZGQyMmJmNDI0MWI2N2YyNzBkOGQwMWQ1OWUzMmVlNmY2Y2QwMDdkYzEzYjhlMjA3MWE3NWZjOTcyMWM2IiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743196062.508247,
+                    "expires_date": "2025-03-28T21:07:42.508247+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "banka_slovenije_session",
+                    "value": "eyJpdiI6IjhiYUNxSGVNSE0xdzBKek5qR0RwTEE9PSIsInZhbHVlIjoiaUhVNEluaVBwN1JjSGpLamgzM2tCWUZPb203SUJkeHBwSjlQZ0QyZFN0NXozYWZoa0psYjcxcERPd0dGMUpJZktYSHpXRmtGRFI2NWhPRWJmY0puQVMyNHJnUENlVUhLU0pnV1c1TGZCbFMxRE9tT3RQWTZXSUY5Y1lqVW5vM2oiLCJtYWMiOiJlYTBiM2YwNWYxNDU2OWJlNzI4Mjg2MThiZTIyMjQwOWRhZjI4ZmVlNmMwMTkzNWY3NzMyMjQyYjliZjRhZTNkIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743196062.508345,
+                    "expires_date": "2025-03-28T21:07:42.508345+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".www.bsi.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "locale",
+                    "value": "eyJpdiI6InZCTG12VFJJTUV6UFdBeUtmMWN2M2c9PSIsInZhbHVlIjoiSFU3ZHMwREJqV2hqaHEyQ2RrK2FZNTBEUFZXeE5SNTV2eGRGRnNpZHVOV0djRUVrVjloSGtZNHdSK3hVbDJ4TyIsIm1hYyI6ImU3ZTE3Mzk2YzBiNjc4NjJhYzU1NWU4NDdiZjI0MmU4ZTkwMjI4OTE5MTNjOWY4NWUyZGY2MzMxMDE2N2QzZGIiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748862.508161,
+                    "expires_date": "2026-05-02T19:07:42.508161+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IktoZlVnUGlQT3BoeVpCWXpObm9uaGc9PSIsInZhbHVlIjoiK0srZlQ1NEpaUEdncHhlbFdKZUlsM2xYTldsdHluTW1MWVdldER2ZVd4dUtLRlVHekpxWXBLMkJmU1JFUEdxRWoyZ0FSTWU4U3NDWlAreEdIekJaell3cW1QdloxVDVDdEZzT1I2N1Y1MkVVRENkaE1GUDV4RnZhMk9aWXRPczciLCJtYWMiOiIxOGY5ZGQyMmJmNDI0MWI2N2YyNzBkOGQwMWQ1OWUzMmVlNmY2Y2QwMDdkYzEzYjhlMjA3MWE3NWZjOTcyMWM2IiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743196062.508247,
+                    "expires_date": "2025-03-28T21:07:42.508247+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "banka_slovenije_session",
+                    "value": "eyJpdiI6IjhiYUNxSGVNSE0xdzBKek5qR0RwTEE9PSIsInZhbHVlIjoiaUhVNEluaVBwN1JjSGpLamgzM2tCWUZPb203SUJkeHBwSjlQZ0QyZFN0NXozYWZoa0psYjcxcERPd0dGMUpJZktYSHpXRmtGRFI2NWhPRWJmY0puQVMyNHJnUENlVUhLU0pnV1c1TGZCbFMxRE9tT3RQWTZXSUY5Y1lqVW5vM2oiLCJtYWMiOiJlYTBiM2YwNWYxNDU2OWJlNzI4Mjg2MThiZTIyMjQwOWRhZjI4ZmVlNmMwMTkzNWY3NzMyMjQyYjliZjRhZTNkIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743196062.508345,
+                    "expires_date": "2025-03-28T21:07:42.508345+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".www.bsi.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "gdpr_cookie",
+                    "value": "functional",
+                    "domain": ".www.bsi.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "locale",
+                    "value": "eyJpdiI6InNJT3oxaS9JSzBuL1dzZWdlb2pLUVE9PSIsInZhbHVlIjoiOElLQmtKQnZZRG1JSjlhQ29TZEsrS1ZpOWVqYms2WTY0d2RsYjhObFViY2dEZjJEVFV3bjFEdzlpRHNsdlE4MiIsIm1hYyI6IjEwNzQzODRhZjg0ZDE5NDg2OGJlZTU4N2YwYmI4OThmYmY5ZDMwY2ViYWI5ZTY3ZmJhZTcxMTUyMzc4MTg5ZGMiLCJ0YWciOiIifQ%3D%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1777748910.99449,
+                    "expires_date": "2026-05-02T19:08:30.994490+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InRrRVd3ZUNCbHd5RmUvV2o4WFcxSVE9PSIsInZhbHVlIjoicDV1T3JUZXgvbUFoQS85KzZjMElOR2NFTzFPOXBXTEJldmt6ekpUMlhsejNkNHZMdmdHSG92Q0hsU01qUXRRVnhuZFNMQXQ5YldJbDB6MU5Gall3SU9tM2lFT0pDNzE0Z09NUG45SjhhZmxBVGV5K01YQ3d3OW4xK1AxbTRvUUIiLCJtYWMiOiI1ODQ0MTM4OGFlZjZiNTA3OWJkNzZjMmZmY2RhNDNmMWQyNjhlNTEyOWU0ZWI1OTMxZTEyZGUxZDFlYzc4YmU5IiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743196110.99456,
+                    "expires_date": "2025-03-28T21:08:30.994560+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "banka_slovenije_session",
+                    "value": "eyJpdiI6IlVOSGJZK1BaUmhyd1VLUitkTkF5VXc9PSIsInZhbHVlIjoiL2dEaVEzM0FuTXQ0OEthNnk2Y29USFdNMVRLemdXc2pyS3MwSXFDbXI5RThybVhvemJaRVN0Q0g0eTdIY3Jpc2FBek5HT0QyOTJpWFFhQWM2ZU5yUlBhZjVIV29LN2czK1lpMUVRemoyNHhYNDk0dlY3MFBONE1uWEpCWGRNL3EiLCJtYWMiOiIwMzYwM2JlZGU4MTA3MGYxMzUyMGQ4OGZmMTkwODE5MGY2ODQ1ZDk0M2ExOTM3YjIxOWY4MzM1ZTUwYmIwNDJhIiwidGFnIjoiIn0%3D",
+                    "domain": "www.bsi.si",
+                    "path": "/",
+                    "expires": 1743196110.994585,
+                    "expires_date": "2025-03-28T21:08:30.994585+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Obvestilo o piškotkih\n\t\t\tTo spletno mesto uporablja piškotke za pravilno delovanje, izboljšano uporabniško izkušnjo in analizo obiska, ki jih brez piškotkov ne bi mogli nuditi. Z nadaljnjo uporabo spletnega mesta soglašate s piškotki. Analitične piškotke lahko izključite v nastavitvah na tej povezavi.\n\t\t\t\n\t\t\t\t\n    \n        \n            \n            \n\n            \n\n        \n                    Nujni piškotki\n            \n    \n\t\t\t\t\n    \n        \n            \n            \n\n            \n\n        \n                    Analitični\n            \n    \n\t\t\t\n\t\t\t\n\t\t\t\t\n    \n        \n\n        \n\n    \n    Shrani nastavitve\n\n\t\t\t\t\n    \n        \n\n        \n\n    \n    Nadaljuj z vsemi piškotki",
+                "banner_z_index": 0,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Nadaljuj z vsemi piškotki]\nGenericLabel2: None\nAmbiguousLabel1: [Shrani nastavitve]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button \"Nadaljuj z vsemi piškotki\" is categorized under GenericLabel1 as it signifies accepting all cookies. \"Shrani nastavitve\" is categorized under AmbiguousLabel1 as it is an ambiguous phrase suggesting acceptance but relates to saving settings. There are no buttons for declining or additional settings management.",
+                "llm_response_parsed": {
+                    "Accept": "Nadaljuj z vsemi piškotki",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Shrani nastavitve",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button \"Nadaljuj z vsemi piškotki\" is categorized under GenericLabel1 as it signifies accepting all cookies. \"Shrani nastavitve\" is categorized under AmbiguousLabel1 as it is an ambiguous phrase suggesting acceptance but relates to saving settings. There are no buttons for declining or additional settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Shrani nastavitve",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T20:07:41.203309",
+        "timestamp_stop": "2025-03-28T20:08:37.729474"
+    }
+}

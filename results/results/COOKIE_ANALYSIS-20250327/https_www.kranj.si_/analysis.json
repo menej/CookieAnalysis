@@ -1,0 +1,318 @@
+{
+    "web_page": "https://www.kranj.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T09:50:24.440094",
+    "timestamp_stop": "2025-03-28T09:53:40.172153",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kranj.si/",
+            "https://www.kranj.si/kranj-moje-mesto/dogodki/12/4/2025/5-stadionski-tek",
+            "https://www.kranj.si/mestna-obcina/mestna-uprava/sektor-za-finance-in-splosne-zadeve/zakljucni-racun",
+            "https://www.kranj.si/za-medije"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "7o4lgs8ev1kttcdiidbbpf6jl3",
+                    "domain": "www.kranj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T09:50:25.799153",
+        "timestamp_stop": "2025-03-28T09:51:13.223799"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kranj.si/",
+            "https://www.kranj.si/kranj-moje-mesto/dogodki/12/4/2025/5-stadionski-tek",
+            "https://www.kranj.si/mestna-obcina/mestna-uprava/sektor-za-finance-in-splosne-zadeve/zakljucni-racun",
+            "https://www.kranj.si/za-medije"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.34535656.1743151876",
+                    "domain": ".kranj.si",
+                    "path": "/",
+                    "expires": 1777711902.530699,
+                    "expires_date": "2026-05-02T08:51:42.530699+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_1DCCVNE8FS",
+                    "value": "GS1.1.1743151875.1.1.1743151902.0.0.0",
+                    "domain": ".kranj.si",
+                    "path": "/",
+                    "expires": 1777711902.536769,
+                    "expires_date": "2026-05-02T08:51:42.536769+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.34535656.1743151876",
+                    "domain": ".kranj.si",
+                    "path": "/",
+                    "expires": 1777711934.930133,
+                    "expires_date": "2026-05-02T08:52:14.930133+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "h07v351csotg7d3u3tk22ns0pt",
+                    "domain": "www.kranj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_1DCCVNE8FS",
+                    "value": "GS1.1.1743151875.1.1.1743151944.0.0.0",
+                    "domain": ".kranj.si",
+                    "path": "/",
+                    "expires": 1777711944.422347,
+                    "expires_date": "2026-05-02T08:52:24.422347+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta spletna stran uporablja piškotke\n                X\n            \n            Za izboljšanje uporabniške izkušnje uporabljamo piškotke. Izberite, katere piškotke nam dovolite uporabljati. Več o našem pravilniku o piškotkih lahko preberete v naši Politiki zasebnosti.  \n        \n        \n            \n                \n                Obvezni\n            \n            \n                \n                Analitika\n            \n            \n                \n                Izbirni\n            \n            \n                \n                Oglaševalski\n            \n        \n        \n            Sprejmi vse\n            Sprejmi izbrane\n            Zavrni vse",
+                "banner_z_index": 10000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: [Sprejmi izbrane]\nAmbiguousLabel2: None\nGenericLabel3: [Politiki zasebnosti]\nExplanation: The button [Sprejmi vse] is categorized as accepting all cookies, while [Zavrni vse] is categorized as declining all cookies. The button [Sprejmi izbrane] is considered an ambiguous accept as it suggests acceptance of selected options. The [Politiki zasebnosti] button is categorized under settings as it refers to privacy policies, which typically contain information about cookie management.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Politiki zasebnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized as accepting all cookies, while Zavrni vse is categorized as declining all cookies. The button Sprejmi izbrane is considered an ambiguous accept as it suggests acceptance of selected options. The Politiki zasebnosti button is categorized under settings as it refers to privacy policies, which typically contain information about cookie management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T09:51:14.736086",
+        "timestamp_stop": "2025-03-28T09:52:25.202698"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni vse)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kranj.si/",
+            "https://www.kranj.si/kranj-moje-mesto/dogodki/12/4/2025/5-stadionski-tek",
+            "https://www.kranj.si/mestna-obcina/mestna-uprava/sektor-za-finance-in-splosne-zadeve/zakljucni-racun",
+            "https://www.kranj.si/za-medije"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "sfof2rvpbafs7i4hh3mrv8fa44",
+                    "domain": "www.kranj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta spletna stran uporablja piškotke\n                X\n            \n            Za izboljšanje uporabniške izkušnje uporabljamo piškotke. Izberite, katere piškotke nam dovolite uporabljati. Več o našem pravilniku o piškotkih lahko preberete v naši Politiki zasebnosti.  \n        \n        \n            \n                \n                Obvezni\n            \n            \n                \n                Analitika\n            \n            \n                \n                Izbirni\n            \n            \n                \n                Oglaševalski\n            \n        \n        \n            Sprejmi vse\n            Sprejmi izbrane\n            Zavrni vse",
+                "banner_z_index": 10000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: [Sprejmi izbrane]\nAmbiguousLabel2: None\nGenericLabel3: [Politiki zasebnosti]\nExplanation: The button [Sprejmi vse] is categorized under accepting all cookies. [Zavrni vse] is categorized under declining all cookies. [Sprejmi izbrane] is an ambiguous accept (as it suggests acceptance of selected cookies). [Politiki zasebnosti] relates to settings or privacy policies.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Politiki zasebnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized under accepting all cookies. Zavrni vse is categorized under declining all cookies. Sprejmi izbrane is an ambiguous accept (as it suggests acceptance of selected cookies). Politiki zasebnosti relates to settings or privacy policies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T09:52:27.013734",
+        "timestamp_stop": "2025-03-28T09:53:39.919235"
+    }
+}

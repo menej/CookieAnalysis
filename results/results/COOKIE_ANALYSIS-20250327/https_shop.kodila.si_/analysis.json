@@ -1,0 +1,965 @@
+{
+    "web_page": "https://shop.kodila.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T09:04:16.563666",
+    "timestamp_stop": "2025-03-28T09:06:25.434679",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://shop.kodila.si/",
+            "https://shop.kodila.si/category/meso",
+            "https://shop.kodila.si/page/splosni-pogoji-poslovanja",
+            "https://shop.kodila.si/product/sv-vrat-brez-kosti"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "uuid",
+                    "value": "eyJpdiI6ImxITTdEWWdEdVI1YmthTjFGdER3SlE9PSIsInZhbHVlIjoiZU1QUmdQRHZ5djY4WEM5NzVjS3lPWmd3MER2QmhQbFdLM0NXRWxpMXJHWnQyQjhJeUhxcGdiRGxLR05VMkVjS2Z3SE9uTS9IRmI4UDhnVW16VkQ5SHQrQ2xXMDdab3B1NUZLRjd1cDdBanFQNVhRSEYwazkrSDJsb0NqUFIvOEoiLCJtYWMiOiI3YWUwMGIwNWYzYjQ2OTcyMjI2YTliYzQ5MjgxMDI4MjM1ZTc0Y2RhNTQ2NDhjZWE3NWQ5ODY3MTMyM2RkMDFjIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1777709058.464072,
+                    "expires_date": "2026-05-02T08:04:18.464072+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.397462557.1743149059",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1777709058.99424,
+                    "expires_date": "2026-05-02T08:04:18.994240+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1496106829.1743149059",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743235458,
+                    "expires_date": "2025-03-29T08:04:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-162447866-2",
+                    "value": "1",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743149119,
+                    "expires_date": "2025-03-28T08:05:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Imk2UE5ad0hlUE1FS1VzaWtHNnNTNUE9PSIsInZhbHVlIjoid2JNaXZBZS8yYjNweEhDOXhuUHR2TkhxZnZaeHhlTlVYMlFWMzh3K1ZJVVQ5TEpQM3NuRnJYOVVhTXJWeXZRQUNvbUxtNFhNNHBYeWpKa0k0U1pyVFhJbWRaVUZSakpwelBxRTdKU1ZUWDNhekQ1Q1VYUW5oSUtMSVMxZVY5cmkiLCJtYWMiOiIxMjAzYzBmNTFkNGNjNjM0NmNmODA2NDVmNWQ5ZDQ4YTZmMGM0NmVjNWU2ZDkyYTA4Y2FkMjQ1Y2QxZWMzODdlIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741059.639255,
+                    "expires_date": "2025-04-27T08:04:19.639255+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kodila_trgovina_session",
+                    "value": "eyJpdiI6InJKS2FlUmY4Q0EvNEdSd25YelEvM0E9PSIsInZhbHVlIjoiMGV5NXhWTUZVRmFMVGQyWTYxUml6UHIyakNMMGhVR1RVa0l1Q1UxalNNMWZzWWpXL2lKV0ZDUEwxeGhLZlpaSXQzeFh4R2R2cGxLRkZMb2dIbGJhSVR3eFhiZTZleEpCVWJ6ditISHJmSzc5dW8zcEhuUU01UjA5WmdyaHdYZzIiLCJtYWMiOiJiNjQ4NjgxNzU1NTZkZTE2OWU1NDQ0YWExNjNkNWE5ODNjMjdhMzg4ODNmOGRhMjg4MzczNDUyMGYwZDU1NGJmIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741059.639337,
+                    "expires_date": "2025-04-27T08:04:19.639337+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "uuid",
+                    "value": "eyJpdiI6ImxITTdEWWdEdVI1YmthTjFGdER3SlE9PSIsInZhbHVlIjoiZU1QUmdQRHZ5djY4WEM5NzVjS3lPWmd3MER2QmhQbFdLM0NXRWxpMXJHWnQyQjhJeUhxcGdiRGxLR05VMkVjS2Z3SE9uTS9IRmI4UDhnVW16VkQ5SHQrQ2xXMDdab3B1NUZLRjd1cDdBanFQNVhRSEYwazkrSDJsb0NqUFIvOEoiLCJtYWMiOiI3YWUwMGIwNWYzYjQ2OTcyMjI2YTliYzQ5MjgxMDI4MjM1ZTc0Y2RhNTQ2NDhjZWE3NWQ5ODY3MTMyM2RkMDFjIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1777709058.464072,
+                    "expires_date": "2026-05-02T08:04:18.464072+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.397462557.1743149059",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1777709080.02577,
+                    "expires_date": "2026-05-02T08:04:40.025770+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1496106829.1743149059",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743235480,
+                    "expires_date": "2025-03-29T08:04:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-162447866-2",
+                    "value": "1",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743149119,
+                    "expires_date": "2025-03-28T08:05:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlRPYllBVEhvTTFrREMvVk95Q2xGL3c9PSIsInZhbHVlIjoieHNXbXVxczBwa1B3SHRYK2ZzOEpRdUtrSHloN0RZQkhrb01ETkVua2V1b09LQWNmRDZtOWVqREFpMk5GQkpYSklzSWJhRnVKV0tOeGhsOWtKTTRoM1F0NTg2bXNHYXFuZDVnVVVGYXpqYnRZczFkaFc1MHFHZUIzRDR5bUFYZEEiLCJtYWMiOiI0NjlhYjQyNGY2NzFmOGQwODY2ZTk1ZWYzZWU4MzYwNTIwYmY5ZjcyNDFlMjc3YmZjOGQ2OTZkOWJhM2M0MjE2In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741081.585746,
+                    "expires_date": "2025-04-27T08:04:41.585746+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kodila_trgovina_session",
+                    "value": "eyJpdiI6ImQxNVd3czJ4TlpvT3piT1ZBQ1dyMGc9PSIsInZhbHVlIjoiZFM5V0NMVmZhenJaazh6N0ZKdGdSTldLcUtsaUtiWG1jOGJld3JSd2dEd1lFTi9FS3dSMzhCQVJXbGRLN3VnUExFdEhCYklINExtSnBTMDZ5QVpuWmFpRldMNkYwamRlZ2V6V1FrMGNpQWhuQ3BTNC9LNHJlT2tqbGxJZlAxeW4iLCJtYWMiOiI3MzU5NzUzY2M4NjZjYTU1ZGEzZWFmMmJlMTU1ZjAyNDcwNzg0Y2E1ZDA3Nzc3MDlmZjQ1YWI3MzVmZjk0ZGUyIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741081.58586,
+                    "expires_date": "2025-04-27T08:04:41.585860+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T09:04:17.974400",
+        "timestamp_stop": "2025-03-28T09:04:46.630083"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Razumem!)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://shop.kodila.si/",
+            "https://shop.kodila.si/category/meso",
+            "https://shop.kodila.si/page/splosni-pogoji-poslovanja",
+            "https://shop.kodila.si/product/sv-vrat-brez-kosti"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "uuid",
+                    "value": "eyJpdiI6IklJeGI4Z3R0cHNoYS9iZWpURHorZUE9PSIsInZhbHVlIjoibXBkMUhTQStZNjNDMW5iVUM2WUh6UzNtVmQrVXdPN1k3M2lhR0MxWnI1dU55VU12Tk15RzhMcFZHdVl4Y3Fvd2JCYkNEaFVMQ1phSGdhVWw0dlo3QmdIRHp5V2x2SkhGZVFlQTRyTHVUVU54NWE1MlpPRmZNWUc2RGsxS2ppNTEiLCJtYWMiOiJmZjhlMTA5YzlhNzc1MjYwMjgzOWI0YTViZGQ2YzNkMmYzYTdhNGRlMzBhMzA2NWE5ODYzNTc2MjYzZWFiZDA4In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1777709088.869363,
+                    "expires_date": "2026-05-02T08:04:48.869363+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1236516309.1743149089",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1777709089.386768,
+                    "expires_date": "2026-05-02T08:04:49.386768+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.638667702.1743149089",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743235489,
+                    "expires_date": "2025-03-29T08:04:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-162447866-2",
+                    "value": "1",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743149149,
+                    "expires_date": "2025-03-28T08:05:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IkNvQk5uUnVza29MYisyNmRZNTFPNnc9PSIsInZhbHVlIjoiWHlZN3prUUc1ZGxneDNjdTFsQXhoWVVTS2Zzd3pjZ2k4bEdPLzdnd3dEMUdUZWtmNTN4bWFnUmV1TktHZklpREtPeU13SGpDVXRKUmZsT2dSOGJxM2M0emN2aDFzRHN1ZFd4SllTWWJJQ0RheFlxMm5WNXdpNDcyUFhhai8wWEYiLCJtYWMiOiIzYWEyN2FmODU1YTQ3M2U0YTYzZmMxYmY2MzdlMzZhZTYwYzRjM2MxMTJlMDliYWJlMmMwMjY4MWU1NjM5NjJhIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741089.932409,
+                    "expires_date": "2025-04-27T08:04:49.932409+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kodila_trgovina_session",
+                    "value": "eyJpdiI6ImlHV3d4TExtMzhqcXJLR3VpbWRFcXc9PSIsInZhbHVlIjoiYlhJaHU3RC9LMERwcVRldE9jVE1LdkxpZXd5dlcvdDBmaWdOUmFtS3AySnNXakdkQlRraStidm56aERKRS8xVlNRYmtCaFFyVWpCQW00dDFlT2hqTmhOT2VQcVVlMHovRDY0bTBoQ1VCc1l6KzZra21oYWM0TkVKTm1HSWVSRXAiLCJtYWMiOiIzMjFhOTQ2NWQxODkyOTYzZTQ0YmMxYmE5MGExMTI0YjM2ZWM1YzY1NDJiODlkZjcwMzA2YzJkNWQyNDcyYjE0In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741089.932491,
+                    "expires_date": "2025-04-27T08:04:49.932491+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "uuid",
+                    "value": "eyJpdiI6IklJeGI4Z3R0cHNoYS9iZWpURHorZUE9PSIsInZhbHVlIjoibXBkMUhTQStZNjNDMW5iVUM2WUh6UzNtVmQrVXdPN1k3M2lhR0MxWnI1dU55VU12Tk15RzhMcFZHdVl4Y3Fvd2JCYkNEaFVMQ1phSGdhVWw0dlo3QmdIRHp5V2x2SkhGZVFlQTRyTHVUVU54NWE1MlpPRmZNWUc2RGsxS2ppNTEiLCJtYWMiOiJmZjhlMTA5YzlhNzc1MjYwMjgzOWI0YTViZGQ2YzNkMmYzYTdhNGRlMzBhMzA2NWE5ODYzNTc2MjYzZWFiZDA4In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1777709088.869363,
+                    "expires_date": "2026-05-02T08:04:48.869363+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1236516309.1743149089",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1777709089.386768,
+                    "expires_date": "2026-05-02T08:04:49.386768+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.638667702.1743149089",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743235489,
+                    "expires_date": "2025-03-29T08:04:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-162447866-2",
+                    "value": "1",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743149149,
+                    "expires_date": "2025-03-28T08:05:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IkNvQk5uUnVza29MYisyNmRZNTFPNnc9PSIsInZhbHVlIjoiWHlZN3prUUc1ZGxneDNjdTFsQXhoWVVTS2Zzd3pjZ2k4bEdPLzdnd3dEMUdUZWtmNTN4bWFnUmV1TktHZklpREtPeU13SGpDVXRKUmZsT2dSOGJxM2M0emN2aDFzRHN1ZFd4SllTWWJJQ0RheFlxMm5WNXdpNDcyUFhhai8wWEYiLCJtYWMiOiIzYWEyN2FmODU1YTQ3M2U0YTYzZmMxYmY2MzdlMzZhZTYwYzRjM2MxMTJlMDliYWJlMmMwMjY4MWU1NjM5NjJhIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741089.932409,
+                    "expires_date": "2025-04-27T08:04:49.932409+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kodila_trgovina_session",
+                    "value": "eyJpdiI6ImlHV3d4TExtMzhqcXJLR3VpbWRFcXc9PSIsInZhbHVlIjoiYlhJaHU3RC9LMERwcVRldE9jVE1LdkxpZXd5dlcvdDBmaWdOUmFtS3AySnNXakdkQlRraStidm56aERKRS8xVlNRYmtCaFFyVWpCQW00dDFlT2hqTmhOT2VQcVVlMHovRDY0bTBoQ1VCc1l6KzZra21oYWM0TkVKTm1HSWVSRXAiLCJtYWMiOiIzMjFhOTQ2NWQxODkyOTYzZTQ0YmMxYmE5MGExMTI0YjM2ZWM1YzY1NDJiODlkZjcwMzA2YzJkNWQyNDcyYjE0In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741089.932491,
+                    "expires_date": "2025-04-27T08:04:49.932491+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "dismiss",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1774685111,
+                    "expires_date": "2026-03-28T08:05:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "uuid",
+                    "value": "eyJpdiI6IklJeGI4Z3R0cHNoYS9iZWpURHorZUE9PSIsInZhbHVlIjoibXBkMUhTQStZNjNDMW5iVUM2WUh6UzNtVmQrVXdPN1k3M2lhR0MxWnI1dU55VU12Tk15RzhMcFZHdVl4Y3Fvd2JCYkNEaFVMQ1phSGdhVWw0dlo3QmdIRHp5V2x2SkhGZVFlQTRyTHVUVU54NWE1MlpPRmZNWUc2RGsxS2ppNTEiLCJtYWMiOiJmZjhlMTA5YzlhNzc1MjYwMjgzOWI0YTViZGQ2YzNkMmYzYTdhNGRlMzBhMzA2NWE5ODYzNTc2MjYzZWFiZDA4In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1777709088.869363,
+                    "expires_date": "2026-05-02T08:04:48.869363+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1236516309.1743149089",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1777709130.973689,
+                    "expires_date": "2026-05-02T08:05:30.973689+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.638667702.1743149089",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743235530,
+                    "expires_date": "2025-03-29T08:05:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-162447866-2",
+                    "value": "1",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743149149,
+                    "expires_date": "2025-03-28T08:05:49+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "dismiss",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1774685111,
+                    "expires_date": "2026-03-28T08:05:11+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6ImZiQ25xa1p0cXMrMU90Z1BlZlkrOWc9PSIsInZhbHVlIjoiQW0vWWNPNGczRmlacnQvK0Y5QmRqY2dzS3M2cW9jeG5hQ0x4N1JWMk12dzBMdGdPREFLZWV4M3l2ZGJBSFpNeXQvVTFYakhrSVhVME1lcTlTWHJOVGZYNUJhYTVZVy9RTTVxN1FRRGZIT1Q1aEdMdDlKK2dGRERjSHJpR3JFVUUiLCJtYWMiOiIxODNjNDhiNGI0ZDdlYThhYmYzYjlhMDYwNjZhYzBlMjIyYmYxYTFiOGMyN2JlYjY2NmY4ZjI4YjQ1ZGI4OWQzIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741132.208544,
+                    "expires_date": "2025-04-27T08:05:32.208544+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kodila_trgovina_session",
+                    "value": "eyJpdiI6ImZGRmpVc1Vtbk03VEc4QVMvUGg3RGc9PSIsInZhbHVlIjoiMU12WkpQRURFN09uNVRNN3JBdytZOTZ0Q042Mm5TVVVBNDliRnJQbDBmTGdoYklWeDlUWDcwNHJjTktMWEhlbEJVQmhCTUpHbXY2T2phdWVjTUhmTGtuMHV0RVJwNUlnempTWko2Kzg0NkdjRHYyY1J6ZXhicWp3STNQRGxQYngiLCJtYWMiOiJkNTM5YzA1N2RiYmI5NTljODMxMWVmYmFhZTAzODBhMjEzZWUwYzVmMGIwMDc1ODAyODhmYTAwODVkOGU4YTgwIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741132.208692,
+                    "expires_date": "2025-04-27T08:05:32.208692+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke. Z nadaljevanjem uporabe te strani soglašate z uporabo piškotkov. Preberi večRazumem!",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Razumem!]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: \"Razumem!\" is an ambiguous phrase that signifies acceptance, while there are no clear buttons for accepting or declining cookies, nor any settings management options present.",
+                "llm_response_parsed": {
+                    "Accept": "Razumem!",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Razumem!\" is an ambiguous phrase that signifies acceptance, while there are no clear buttons for accepting or declining cookies, nor any settings management options present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Razumem!",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T09:04:48.201474",
+        "timestamp_stop": "2025-03-28T09:05:37.466138"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://shop.kodila.si/",
+            "https://shop.kodila.si/category/meso",
+            "https://shop.kodila.si/page/splosni-pogoji-poslovanja",
+            "https://shop.kodila.si/product/sv-vrat-brez-kosti"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "uuid",
+                    "value": "eyJpdiI6IkZJSGRaTHdmSmpjWlhjdWRTdEdrWGc9PSIsInZhbHVlIjoiZnNZTXZUVVpDYmFabmdpTGsycTgwNDlqR2hPcm5mME9mU2NYQ3htL3d2UHFyRHJ4Z096LzRXZTNiS2hXRzZhMGJFUWpIVGFTMWxIZTJEMnVoamdiZzhtb2tjQlRhTW9NUWtpekJ2MHdKVmlWMWZ3YzBoYjkzUmFoYlBtRUtmQnAiLCJtYWMiOiI3NTliZTMwZWU3NTgwMzE0OTNmOWFhMjgzMGVhZjY4ODVlOTUwMDMyNWJhYWMxZDY3ZDg3MTc1ZTRiN2U5M2UwIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1777709139.761459,
+                    "expires_date": "2026-05-02T08:05:39.761459+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1239105708.1743149140",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1777709140.371909,
+                    "expires_date": "2026-05-02T08:05:40.371909+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.327638467.1743149140",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743235540,
+                    "expires_date": "2025-03-29T08:05:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-162447866-2",
+                    "value": "1",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743149200,
+                    "expires_date": "2025-03-28T08:06:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlVrekJMRVpzT1ZnYUMyQWJlOU5ZK3c9PSIsInZhbHVlIjoidUtaSlUyZlVxMVVVN3pyMWtFeE9vQXQwT0FLRUgvd2U5MzVrTEJVL2x6OW80MzYvUGozc05udWQreTROUGJqU0NNM2Z2RXl6ZXVsZytwRHhyMktGZU45TEZzdFhkNDBNcFdiSGlpZzJVUE1tS0orS3R3c1BQQWdURWw2NWVGQ3EiLCJtYWMiOiIzNDgwZWRiMjI4YWM1YjA2OWM1NDljNWE0OThkMDJkNzQyMWI0MGRlZTQ0MTUzMzk5Y2E3ZDU4YzU0Y2FkZmQ3In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741141.133434,
+                    "expires_date": "2025-04-27T08:05:41.133434+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kodila_trgovina_session",
+                    "value": "eyJpdiI6IkxzdzJMVlN5aWF5VXlIZjZaVHpkM1E9PSIsInZhbHVlIjoiekxWd1dGbXlKMWx4WmNBbHlnS0R2T2lMb0owOTVYRzVxV01kMEwwZVpQb0V6Q2wwaTNENWNxd0pRY1NCRStEbUs4b0hxVHJnSUppRmtKNlNxZGlNejFhUytBckpjVlkvTDhicmViWlZJVjQ3YThXMUs4ZjkrTVBXUzVvbzBIQXEiLCJtYWMiOiI0ZDJlMGNlYjExODViNGI3MGNhMzVlYzA1MDQwYjM0OTQ5M2VjYjU4MmY5YzQ2Nzc5MzJhZDRiMjM4ZDM4YmI4In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741141.133516,
+                    "expires_date": "2025-04-27T08:05:41.133516+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "uuid",
+                    "value": "eyJpdiI6IkZJSGRaTHdmSmpjWlhjdWRTdEdrWGc9PSIsInZhbHVlIjoiZnNZTXZUVVpDYmFabmdpTGsycTgwNDlqR2hPcm5mME9mU2NYQ3htL3d2UHFyRHJ4Z096LzRXZTNiS2hXRzZhMGJFUWpIVGFTMWxIZTJEMnVoamdiZzhtb2tjQlRhTW9NUWtpekJ2MHdKVmlWMWZ3YzBoYjkzUmFoYlBtRUtmQnAiLCJtYWMiOiI3NTliZTMwZWU3NTgwMzE0OTNmOWFhMjgzMGVhZjY4ODVlOTUwMDMyNWJhYWMxZDY3ZDg3MTc1ZTRiN2U5M2UwIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1777709139.761459,
+                    "expires_date": "2026-05-02T08:05:39.761459+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1239105708.1743149140",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1777709140.371909,
+                    "expires_date": "2026-05-02T08:05:40.371909+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.327638467.1743149140",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743235540,
+                    "expires_date": "2025-03-29T08:05:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-162447866-2",
+                    "value": "1",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743149200,
+                    "expires_date": "2025-03-28T08:06:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlVrekJMRVpzT1ZnYUMyQWJlOU5ZK3c9PSIsInZhbHVlIjoidUtaSlUyZlVxMVVVN3pyMWtFeE9vQXQwT0FLRUgvd2U5MzVrTEJVL2x6OW80MzYvUGozc05udWQreTROUGJqU0NNM2Z2RXl6ZXVsZytwRHhyMktGZU45TEZzdFhkNDBNcFdiSGlpZzJVUE1tS0orS3R3c1BQQWdURWw2NWVGQ3EiLCJtYWMiOiIzNDgwZWRiMjI4YWM1YjA2OWM1NDljNWE0OThkMDJkNzQyMWI0MGRlZTQ0MTUzMzk5Y2E3ZDU4YzU0Y2FkZmQ3In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741141.133434,
+                    "expires_date": "2025-04-27T08:05:41.133434+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kodila_trgovina_session",
+                    "value": "eyJpdiI6IkxzdzJMVlN5aWF5VXlIZjZaVHpkM1E9PSIsInZhbHVlIjoiekxWd1dGbXlKMWx4WmNBbHlnS0R2T2lMb0owOTVYRzVxV01kMEwwZVpQb0V6Q2wwaTNENWNxd0pRY1NCRStEbUs4b0hxVHJnSUppRmtKNlNxZGlNejFhUytBckpjVlkvTDhicmViWlZJVjQ3YThXMUs4ZjkrTVBXUzVvbzBIQXEiLCJtYWMiOiI0ZDJlMGNlYjExODViNGI3MGNhMzVlYzA1MDQwYjM0OTQ5M2VjYjU4MmY5YzQ2Nzc5MzJhZDRiMjM4ZDM4YmI4In0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741141.133516,
+                    "expires_date": "2025-04-27T08:05:41.133516+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "uuid",
+                    "value": "eyJpdiI6IkZJSGRaTHdmSmpjWlhjdWRTdEdrWGc9PSIsInZhbHVlIjoiZnNZTXZUVVpDYmFabmdpTGsycTgwNDlqR2hPcm5mME9mU2NYQ3htL3d2UHFyRHJ4Z096LzRXZTNiS2hXRzZhMGJFUWpIVGFTMWxIZTJEMnVoamdiZzhtb2tjQlRhTW9NUWtpekJ2MHdKVmlWMWZ3YzBoYjkzUmFoYlBtRUtmQnAiLCJtYWMiOiI3NTliZTMwZWU3NTgwMzE0OTNmOWFhMjgzMGVhZjY4ODVlOTUwMDMyNWJhYWMxZDY3ZDg3MTc1ZTRiN2U5M2UwIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1777709139.761459,
+                    "expires_date": "2026-05-02T08:05:39.761459+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1239105708.1743149140",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1777709178.585311,
+                    "expires_date": "2026-05-02T08:06:18.585311+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.327638467.1743149140",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743235578,
+                    "expires_date": "2025-03-29T08:06:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-162447866-2",
+                    "value": "1",
+                    "domain": ".kodila.si",
+                    "path": "/",
+                    "expires": 1743149200,
+                    "expires_date": "2025-03-28T08:06:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Ill4Z0ZYb3lpUXBXSFllS09oajk5YXc9PSIsInZhbHVlIjoiTElsOFlqWEo0UVZzYXpJbEN2UEFsV3Zia0pNZzFUclBXUWdUOEIzWmNMRGlMVHlQTHA4Yk5lR29SYWYrNE9Mam1kVEtPQ2gweHZLNlpoWFpxWU5EUmp1eUhqQ0RDd0U3dTViSkxmaXovVFJKcy9FaHY4cS9lRW9CRUh4N3FkMjIiLCJtYWMiOiJlNjQwMTljYjllMWQxZGNhNWYyZjFjZGM4Yjg3ZDZlZjJhY2UyZmNkYjY5ZThmZjViNDgxNTUxZjhlNGMyYzFlIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741179.947238,
+                    "expires_date": "2025-04-27T08:06:19.947238+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "kodila_trgovina_session",
+                    "value": "eyJpdiI6InY4dVNIemtJUTNhRGpVdnZTbDFBbVE9PSIsInZhbHVlIjoibldxM0o4eEpTMmo5N1AzM0tWMjhYRnRlL1Vpd3d0MGlOL3EwSGt1OGlEaHZUc3FTZHdhR25OVkFGcU1JalRJcjlrMGJJWmtmWEtWQmxaTFJsS0dNZnQ5eDc2ZTdBQit4QzFocEZpcC8ydE1Zay9BWnJwdk9BdmZVTUNaTDZ6SlkiLCJtYWMiOiI0NWM4ZTNjOGE0NGFhZjJhMjgzMjEwZTg5NzI3ZDBiNjdjMzU0Mjc2MGFlYzgwMzlmMmFkODU3YjIzMDdlZGJmIn0%3D",
+                    "domain": "shop.kodila.si",
+                    "path": "/",
+                    "expires": 1745741179.947351,
+                    "expires_date": "2025-04-27T08:06:19.947351+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke. Z nadaljevanjem uporabe te strani soglašate z uporabo piškotkov. Preberi večRazumem!",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Razumem!]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: The only found button is \"Razumem!\", which is categorized as an ambiguous acceptance. There are no buttons for accepting all cookies or declining, nor any related to managing settings.",
+                "llm_response_parsed": {
+                    "Accept": "Razumem!",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The only found button is \"Razumem!\", which is categorized as an ambiguous acceptance. There are no buttons for accepting all cookies or declining, nor any related to managing settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T09:05:39.029116",
+        "timestamp_stop": "2025-03-28T09:06:25.167810"
+    }
+}

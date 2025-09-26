@@ -1,0 +1,3292 @@
+{
+    "web_page": "https://www.opsy.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T21:52:34.007486",
+    "timestamp_stop": "2025-03-28T21:55:54.900962",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.opsy.si/",
+            "https://www.opsy.si/izdelek/zenska-bunda-icepeak-freital/",
+            "https://www.opsy.si/izdelek/bluza-18145-modra/",
+            "https://www.opsy.si/moj-racun/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_lscache_vary",
+                    "value": "4c16a3dbe4cef1326fb09cfa18acfb00",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743367958.29849,
+                    "expires_date": "2025-03-30T20:52:38.298490+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_3VCMX714E0",
+                    "value": "GS1.1.1743195158.1.1.1743195161.57.0.0",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755161.057054,
+                    "expires_date": "2026-05-02T20:52:41.057054+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.2099472574.1743195161",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971161,
+                    "expires_date": "2025-06-26T20:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2020%3A52%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2020%3A52%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743196961,
+                    "expires_date": "2025-03-28T21:22:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743198761,
+                    "expires_date": "2025-03-28T21:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743195161439.6238750975",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971161,
+                    "expires_date": "2025-06-26T20:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNbVU1Tm1NMlpqSXRZV001WlMwME5qYzRMVGhrT0dVdFlXWXlPREJtTVdJelltRTAiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUxNjIsInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifSwiJGxhc3RfcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUxNjIsInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifX0=",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1777755161.618621,
+                    "expires_date": "2026-05-02T20:52:41.618621+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.573127480.1743195158",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755162.018256,
+                    "expires_date": "2026-05-02T20:52:42.018256+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1548961827.1743195162",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743281562,
+                    "expires_date": "2025-03-29T20:52:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_93205727_8",
+                    "value": "1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743195222,
+                    "expires_date": "2025-03-28T20:53:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time_url",
+                    "value": "https%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273255,
+                    "expires_date": "2025-09-24T20:52:43.273255+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273349,
+                    "expires_date": "2025-09-24T20:52:43.273349+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_allowed_services",
+                    "value": "2879%2C2878",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273449,
+                    "expires_date": "2025-09-24T20:52:43.273449+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_allowed",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273482,
+                    "expires_date": "2025-09-24T20:52:43.273482+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_declined",
+                    "value": "false",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273509,
+                    "expires_date": "2025-09-24T20:52:43.273509+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_lscache_vary",
+                    "value": "4c16a3dbe4cef1326fb09cfa18acfb00",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743367958.29849,
+                    "expires_date": "2025-03-30T20:52:38.298490+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.2099472574.1743195161",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971161,
+                    "expires_date": "2025-06-26T20:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2020%3A52%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2020%3A52%3A41%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743198761,
+                    "expires_date": "2025-03-28T21:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796361,
+                    "expires_date": "2025-04-04T19:52:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743195161439.6238750975",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971196,
+                    "expires_date": "2025-06-26T20:53:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1548961827.1743195162",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743281596,
+                    "expires_date": "2025-03-29T20:53:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_93205727_8",
+                    "value": "1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743195222,
+                    "expires_date": "2025-03-28T20:53:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time_url",
+                    "value": "https%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273255,
+                    "expires_date": "2025-09-24T20:52:43.273255+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273349,
+                    "expires_date": "2025-09-24T20:52:43.273349+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_allowed_services",
+                    "value": "2879%2C2878",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273449,
+                    "expires_date": "2025-09-24T20:52:43.273449+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_allowed",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273482,
+                    "expires_date": "2025-09-24T20:52:43.273482+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_declined",
+                    "value": "false",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747163.273509,
+                    "expires_date": "2025-09-24T20:52:43.273509+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "60a1da1d-e279-47de-aff8-5875410e0974497d0d",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777755189.962456,
+                    "expires_date": "2026-05-02T20:53:09.962456+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "68e5bf32-4178-4ebe-b8dc-5666834d7edd2062ba",
+                    "domain": ".www.opsy.si",
+                    "path": "/",
+                    "expires": 1774731190,
+                    "expires_date": "2026-03-28T20:53:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "9656e7bd-7def-481f-b91c-d69dda7f6f77e3e888",
+                    "domain": ".www.opsy.si",
+                    "path": "/",
+                    "expires": 1743196990,
+                    "expires_date": "2025-03-28T21:23:10+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "woocommerce_recently_viewed",
+                    "value": "304363%7C381036",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "xts_recently_viewed_products",
+                    "value": "381036%7C304363",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743799984.156148,
+                    "expires_date": "2025-04-04T20:53:04.156148+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D4%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.opsy.si%2Fmoj-racun%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743196996,
+                    "expires_date": "2025-03-28T21:23:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJNbVU1Tm1NMlpqSXRZV001WlMwME5qYzRMVGhrT0dVdFlXWXlPREJtTVdJelltRTAiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUxNjIsInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifSwiJGxhc3RfcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUxOTYsInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifX0=",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1777755196.286181,
+                    "expires_date": "2026-05-02T20:53:16.286181+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.573127480.1743195158",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755196.566984,
+                    "expires_date": "2026-05-02T20:53:16.566984+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_3VCMX714E0",
+                    "value": "GS1.1.1743195158.1.1.1743195204.14.0.0",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755204.566825,
+                    "expires_date": "2026-05-02T20:53:24.566825+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T21:52:35.395865",
+        "timestamp_stop": "2025-03-28T21:53:25.365905"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Potrjujem)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.opsy.si/",
+            "https://www.opsy.si/izdelek/zenska-bunda-icepeak-freital/",
+            "https://www.opsy.si/izdelek/bluza-18145-modra/",
+            "https://www.opsy.si/moj-racun/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_lscache_vary",
+                    "value": "4c16a3dbe4cef1326fb09cfa18acfb00",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743368007.746138,
+                    "expires_date": "2025-03-30T20:53:27.746138+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_3VCMX714E0",
+                    "value": "GS1.1.1743195208.1.0.1743195208.60.0.0",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755208.266715,
+                    "expires_date": "2026-05-02T20:53:28.266715+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.939191846.1743195208",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971208,
+                    "expires_date": "2025-06-26T20:53:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2020%3A53%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2020%3A53%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743197008,
+                    "expires_date": "2025-03-28T21:23:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJORFk0TkdWbE9EZ3ROV1l4TXkwME1UQTFMV0ZsTWpJdE9EQm1aV1kzT1dWa05UQTIiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUyMDksInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifSwiJGxhc3RfcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUyMDksInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifX0=",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1777755208.97169,
+                    "expires_date": "2026-05-02T20:53:28.971690+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743198809,
+                    "expires_date": "2025-03-28T21:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743195209191.1263546373",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971209,
+                    "expires_date": "2025-06-26T20:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.845507423.1743195208",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755209.569878,
+                    "expires_date": "2026-05-02T20:53:29.569878+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1394920813.1743195210",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743281609,
+                    "expires_date": "2025-03-29T20:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_93205727_8",
+                    "value": "1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743195269,
+                    "expires_date": "2025-03-28T20:54:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time_url",
+                    "value": "https%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657314,
+                    "expires_date": "2025-09-24T20:53:30.657314+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657405,
+                    "expires_date": "2025-09-24T20:53:30.657405+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_allowed_services",
+                    "value": "2879%2C2878",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657431,
+                    "expires_date": "2025-09-24T20:53:30.657431+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_allowed",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657482,
+                    "expires_date": "2025-09-24T20:53:30.657482+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_declined",
+                    "value": "false",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657516,
+                    "expires_date": "2025-09-24T20:53:30.657516+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_lscache_vary",
+                    "value": "4c16a3dbe4cef1326fb09cfa18acfb00",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743368007.746138,
+                    "expires_date": "2025-03-30T20:53:27.746138+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_3VCMX714E0",
+                    "value": "GS1.1.1743195208.1.0.1743195208.60.0.0",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755208.266715,
+                    "expires_date": "2026-05-02T20:53:28.266715+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.939191846.1743195208",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971208,
+                    "expires_date": "2025-06-26T20:53:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2020%3A53%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2020%3A53%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743197008,
+                    "expires_date": "2025-03-28T21:23:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJORFk0TkdWbE9EZ3ROV1l4TXkwME1UQTFMV0ZsTWpJdE9EQm1aV1kzT1dWa05UQTIiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUyMDksInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifSwiJGxhc3RfcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUyMDksInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifX0=",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1777755208.97169,
+                    "expires_date": "2026-05-02T20:53:28.971690+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743198809,
+                    "expires_date": "2025-03-28T21:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743195209191.1263546373",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971245,
+                    "expires_date": "2025-06-26T20:54:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.845507423.1743195208",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755209.569878,
+                    "expires_date": "2026-05-02T20:53:29.569878+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1394920813.1743195210",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743281609,
+                    "expires_date": "2025-03-29T20:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_93205727_8",
+                    "value": "1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743195269,
+                    "expires_date": "2025-03-28T20:54:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time_url",
+                    "value": "https%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657314,
+                    "expires_date": "2025-09-24T20:53:30.657314+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657405,
+                    "expires_date": "2025-09-24T20:53:30.657405+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_allowed_services",
+                    "value": "2879%2C2878",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747246.614713,
+                    "expires_date": "2025-09-24T20:54:06.614713+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_allowed",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747246.614802,
+                    "expires_date": "2025-09-24T20:54:06.614802+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_declined",
+                    "value": "false",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747246.614837,
+                    "expires_date": "2025-09-24T20:54:06.614837+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_lscache_vary",
+                    "value": "4c16a3dbe4cef1326fb09cfa18acfb00",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743368007.746138,
+                    "expires_date": "2025-03-30T20:53:27.746138+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.939191846.1743195208",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971208,
+                    "expires_date": "2025-06-26T20:53:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2020%3A53%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2020%3A53%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743198809,
+                    "expires_date": "2025-03-28T21:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796409,
+                    "expires_date": "2025-04-04T19:53:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743195209191.1263546373",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971276,
+                    "expires_date": "2025-06-26T20:54:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1394920813.1743195210",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743281676,
+                    "expires_date": "2025-03-29T20:54:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time_url",
+                    "value": "https%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657314,
+                    "expires_date": "2025-09-24T20:53:30.657314+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747210.657405,
+                    "expires_date": "2025-09-24T20:53:30.657405+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_allowed_services",
+                    "value": "2879%2C2878",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747246.614713,
+                    "expires_date": "2025-09-24T20:54:06.614713+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_allowed",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747246.614802,
+                    "expires_date": "2025-09-24T20:54:06.614802+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_declined",
+                    "value": "false",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747246.614837,
+                    "expires_date": "2025-09-24T20:54:06.614837+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "ac5832a9-f809-46c4-b481-603d8b348ac54fd305",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777755269.560136,
+                    "expires_date": "2026-05-02T20:54:29.560136+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "70a6a0ca-6bca-4aeb-9a01-3adfecc28b83eccb50",
+                    "domain": ".www.opsy.si",
+                    "path": "/",
+                    "expires": 1774731269,
+                    "expires_date": "2026-03-28T20:54:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "264be2a2-3bf2-4e9d-bb66-9301c55c8db32c91a5",
+                    "domain": ".www.opsy.si",
+                    "path": "/",
+                    "expires": 1743197069,
+                    "expires_date": "2025-03-28T21:24:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJORFk0TkdWbE9EZ3ROV1l4TXkwME1UQTFMV0ZsTWpJdE9EQm1aV1kzT1dWa05UQTIiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUyMDksInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifSwiJGxhc3RfcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUyNzYsInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifX0=",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1777755275.77281,
+                    "expires_date": "2026-05-02T20:54:35.772810+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D4%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.opsy.si%2Fmoj-racun%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743197075,
+                    "expires_date": "2025-03-28T21:24:35+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.845507423.1743195208",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755276.059209,
+                    "expires_date": "2026-05-02T20:54:36.059209+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_93205727_8",
+                    "value": "1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743195336,
+                    "expires_date": "2025-03-28T20:55:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_3VCMX714E0",
+                    "value": "GS1.1.1743195208.1.1.1743195283.52.0.0",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755283.986584,
+                    "expires_date": "2026-05-02T20:54:43.986584+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na naši stran uporabljamo piškotke za pravilno delovanje strani in beleženje obiskanosti strani. S strinjanjem nam dovolite uporabo piškotkov.\nPotrjujem\nZavračam\nCenter zasebnosti\nNastavitve zasebnosti\nPiškotki",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Zavračam]  \nAmbiguousLabel1: [Potrjujem]  \nAmbiguousLabel2: None  \nGenericLabel3: [Nastavitve zasebnosti]  \nExplanation: \"Zavračam\" is identified as the button for declining cookies. \"Potrjujem\" is an ambiguous phrase that could imply acceptance. \"Nastavitve zasebnosti\" explicitly refers to privacy settings, thus fitting GenericLabel3. The other labels do not match the predefined categories.",
+                "llm_response_parsed": {
+                    "Accept": "Potrjujem",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavračam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve zasebnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Zavračam\" is identified as the button for declining cookies. \"Potrjujem\" is an ambiguous phrase that could imply acceptance. \"Nastavitve zasebnosti\" explicitly refers to privacy settings, thus fitting GenericLabel3. The other labels do not match the predefined categories."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Potrjujem",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T21:53:27.013746",
+        "timestamp_stop": "2025-03-28T21:54:44.806042"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Zavračam)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.opsy.si/",
+            "https://www.opsy.si/izdelek/zenska-bunda-icepeak-freital/",
+            "https://www.opsy.si/izdelek/bluza-18145-modra/",
+            "https://www.opsy.si/moj-racun/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_lscache_vary",
+                    "value": "4c16a3dbe4cef1326fb09cfa18acfb00",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743368087.027334,
+                    "expires_date": "2025-03-30T20:54:47.027334+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1206390274.1743195288",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971287,
+                    "expires_date": "2025-06-26T20:54:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_3VCMX714E0",
+                    "value": "GS1.1.1743195287.1.0.1743195287.60.0.0",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755287.732631,
+                    "expires_date": "2026-05-02T20:54:47.732631+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJZekUzT1RoaE1XTXRNR0UwWlMwMFlUVXhMV0kzT1dVdFpHRXpNVFF3T0dRNE0yTmkiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUyODgsInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifSwiJGxhc3RfcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUyODgsInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS8ifX0=",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1777755287.925531,
+                    "expires_date": "2026-05-02T20:54:47.925531+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2020%3A54%3A48%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2020%3A54%3A48%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743197088,
+                    "expires_date": "2025-03-28T21:24:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743198888,
+                    "expires_date": "2025-03-28T21:54:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796488,
+                    "expires_date": "2025-04-04T19:54:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796488,
+                    "expires_date": "2025-04-04T19:54:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796488,
+                    "expires_date": "2025-04-04T19:54:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796488,
+                    "expires_date": "2025-04-04T19:54:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://www.opsy.si/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796488,
+                    "expires_date": "2025-04-04T19:54:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743195288473.5793223562",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971288,
+                    "expires_date": "2025-06-26T20:54:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.716172595.1743195288",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755288.845466,
+                    "expires_date": "2026-05-02T20:54:48.845466+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1493776515.1743195289",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743281688,
+                    "expires_date": "2025-03-29T20:54:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_93205727_8",
+                    "value": "1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743195348,
+                    "expires_date": "2025-03-28T20:55:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time_url",
+                    "value": "https%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.01172,
+                    "expires_date": "2025-09-24T20:54:50.011720+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.011816,
+                    "expires_date": "2025-09-24T20:54:50.011816+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_allowed_services",
+                    "value": "2879%2C2878",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.011848,
+                    "expires_date": "2025-09-24T20:54:50.011848+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_allowed",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.011871,
+                    "expires_date": "2025-09-24T20:54:50.011871+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_declined",
+                    "value": "false",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.011897,
+                    "expires_date": "2025-09-24T20:54:50.011897+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "wordpress_gdpr_first_time_url",
+                    "value": "https%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.01172,
+                    "expires_date": "2025-09-24T20:54:50.011720+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.011816,
+                    "expires_date": "2025-09-24T20:54:50.011816+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_allowed",
+                    "value": "false",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747314.294319,
+                    "expires_date": "2025-09-24T20:55:14.294319+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_declined",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747314.294358,
+                    "expires_date": "2025-09-24T20:55:14.294358+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "wordpress_gdpr_first_time_url",
+                    "value": "https%3A%2F%2Fwww.opsy.si%2F",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.01172,
+                    "expires_date": "2025-09-24T20:54:50.011720+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_first_time",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747290.011816,
+                    "expires_date": "2025-09-24T20:54:50.011816+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_allowed",
+                    "value": "false",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747314.294319,
+                    "expires_date": "2025-09-24T20:55:14.294319+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "wordpress_gdpr_cookies_declined",
+                    "value": "true",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1758747314.294358,
+                    "expires_date": "2025-09-24T20:55:14.294358+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "woocommerce_recently_viewed",
+                    "value": "304363",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "xts_recently_viewed_products",
+                    "value": "304363",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743800123.47893,
+                    "expires_date": "2025-04-04T20:55:23.478930+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_lscache_vary",
+                    "value": "4c16a3dbe4cef1326fb09cfa18acfb00",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1743368123.761665,
+                    "expires_date": "2025-03-30T20:55:23.761665+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1926205679.1743195324",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971324,
+                    "expires_date": "2025-06-26T20:55:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "sbjs_migrations",
+                    "value": "1418474375998%3D1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current_add",
+                    "value": "fd%3D2025-03-28%2020%3A55%3A24%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2Fizdelek%2Fzenska-bunda-icepeak-freital%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2Fizdelek%2Fzenska-bunda-icepeak-freital%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first_add",
+                    "value": "fd%3D2025-03-28%2020%3A55%3A24%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.opsy.si%2Fizdelek%2Fzenska-bunda-icepeak-freital%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwww.opsy.si%2Fizdelek%2Fzenska-bunda-icepeak-freital%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_current",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_first",
+                    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "sbjs_udata",
+                    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F134.0.0.0%20Safari%2F537.36",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_session_limit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743198924,
+                    "expires_date": "2025-03-28T21:55:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_start_session",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pys_first_visit",
+                    "value": "true",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796524,
+                    "expires_date": "2025-04-04T19:55:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796524,
+                    "expires_date": "2025-04-04T19:55:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "pys_landing_page",
+                    "value": "https://www.opsy.si/izdelek/zenska-bunda-icepeak-freital/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796524,
+                    "expires_date": "2025-04-04T19:55:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "last_pysTrafficSource",
+                    "value": "direct",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796524,
+                    "expires_date": "2025-04-04T19:55:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "last_pys_landing_page",
+                    "value": "https://www.opsy.si/izdelek/zenska-bunda-icepeak-freital/",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743796524,
+                    "expires_date": "2025-04-04T19:55:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743195324296.2767704315",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1750971345,
+                    "expires_date": "2025-06-26T20:55:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1949111866.1743195325",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743281745,
+                    "expires_date": "2025-03-29T20:55:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_93205727_8",
+                    "value": "1",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743195384,
+                    "expires_date": "2025-03-28T20:56:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "m",
+                    "value": "77538a86-99d8-4432-85c8-713380c1598e07f9eb",
+                    "domain": "m.stripe.com",
+                    "path": "/",
+                    "expires": 1777755339.200291,
+                    "expires_date": "2026-05-02T20:55:39.200291+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_mid",
+                    "value": "0ade19d9-c6b8-436c-9c52-d21c4104bd4704ce8f",
+                    "domain": ".www.opsy.si",
+                    "path": "/",
+                    "expires": 1774731339,
+                    "expires_date": "2026-03-28T20:55:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__stripe_sid",
+                    "value": "d53af6f6-cd81-4c43-bbf0-e3b459eafbe9ffe041",
+                    "domain": ".www.opsy.si",
+                    "path": "/",
+                    "expires": 1743197139,
+                    "expires_date": "2025-03-28T21:25:39+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sbjs_session",
+                    "value": "pgs%3D3%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.opsy.si%2Fmoj-racun%2F",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1743197145,
+                    "expires_date": "2025-03-28T21:25:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__kla_id",
+                    "value": "eyJjaWQiOiJZelZqTUdVd1pUWXROR0ppTnkwME1tVmlMV0UzTW1RdFlUZGpZVGM0TWpkbVkyWmoiLCIkcmVmZXJyZXIiOnsidHMiOjE3NDMxOTUzMjQsInZhbHVlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS9pemRlbGVrL3plbnNrYS1idW5kYS1pY2VwZWFrLWZyZWl0YWwvIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3Lm9wc3kuc2kvaXpkZWxlay96ZW5za2EtYnVuZGEtaWNlcGVhay1mcmVpdGFsLyJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTc0MzE5NTM0NiwidmFsdWUiOiJodHRwczovL3d3dy5vcHN5LnNpL2l6ZGVsZWsvemVuc2thLWJ1bmRhLWljZXBlYWstZnJlaXRhbC8iLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cub3BzeS5zaS9pemRlbGVrL3plbnNrYS1idW5kYS1pY2VwZWFrLWZyZWl0YWwvIn19",
+                    "domain": "www.opsy.si",
+                    "path": "/",
+                    "expires": 1777755345.509473,
+                    "expires_date": "2026-05-02T20:55:45.509473+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1237050337.1743195324",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755345.790041,
+                    "expires_date": "2026-05-02T20:55:45.790041+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_3VCMX714E0",
+                    "value": "GS1.1.1743195323.1.1.1743195353.30.0.0",
+                    "domain": ".opsy.si",
+                    "path": "/",
+                    "expires": 1777755353.804732,
+                    "expires_date": "2026-05-02T20:55:53.804732+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na naši stran uporabljamo piškotke za pravilno delovanje strani in beleženje obiskanosti strani. S strinjanjem nam dovolite uporabo piškotkov.\nPotrjujem\nZavračam\nCenter zasebnosti\nNastavitve zasebnosti\nPiškotki",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: [Zavračam]\nAmbiguousLabel1: [Potrjujem]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve zasebnosti]\nExplanation: The button [Zavračam] is identified as declining all cookies, while [Potrjujem] is ambiguous but suggests acceptance. The settings button is clearly [Nastavitve zasebnosti]. There are no labels for accepting all cookies or ambiguous declines.",
+                "llm_response_parsed": {
+                    "Accept": "Potrjujem",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavračam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve zasebnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Zavračam is identified as declining all cookies, while Potrjujem is ambiguous but suggests acceptance. The settings button is clearly Nastavitve zasebnosti. There are no labels for accepting all cookies or ambiguous declines."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Zavračam",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T21:54:46.413809",
+        "timestamp_stop": "2025-03-28T21:55:54.601779"
+    }
+}

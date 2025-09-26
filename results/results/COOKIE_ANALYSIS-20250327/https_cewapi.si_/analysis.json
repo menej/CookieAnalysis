@@ -1,0 +1,681 @@
+{
+    "web_page": "https://cewapi.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T09:14:34.964566",
+    "timestamp_stop": "2025-03-28T09:16:48.054017",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://cewapi.si/",
+            "https://cewapi.si/walter-odpira-svoja-50-vrata-v-nakupovalnem-srediscu-delta-planet/",
+            "http://cewapi.si/prijava-za-posao/",
+            "https://cewapi.si/pravila-in-pogoji-nagradne-igre-5-x-dve-porciji-cevapcicev/ "
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoOeP-BCXBxd-sjkOy02hb3N2ooZ2CZuClB0BQ9OMTKkVf_0Y8PJX6_JOdT9rFpftEYAdXT7S57Fz0tnFA",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758701680.089865,
+                    "expires_date": "2025-09-24T08:14:40.089865+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_7NQGRV903W",
+                    "value": "GS1.1.1743149678.1.0.1743149678.0.0.0",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709678.168484,
+                    "expires_date": "2026-05-02T08:14:38.168484+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1558848027.1743149678",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709678.169488,
+                    "expires_date": "2026-05-02T08:14:38.169488+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743149678338.523664335155664479",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1750925678,
+                    "expires_date": "2025-06-26T08:14:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoJHdQzVsPjUzUaSX6eteBHaaF6uWN5ow6a5K9i9lzEaZ5S4zqKXGlpqChI9DoTVwsz5fWeMHFwzFjAx4s",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758701700.860955,
+                    "expires_date": "2025-09-24T08:15:00.860955+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1558848027.1743149678",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709700.144994,
+                    "expires_date": "2026-05-02T08:15:00.144994+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743149678338.523664335155664479",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1750925700,
+                    "expires_date": "2025-06-26T08:15:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_7NQGRV903W",
+                    "value": "GS1.1.1743149678.1.1.1743149700.0.0.0",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709700.144683,
+                    "expires_date": "2026-05-02T08:15:00.144683+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T09:14:36.286504",
+        "timestamp_stop": "2025-03-28T09:15:06.516985"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://cewapi.si/",
+            "https://cewapi.si/walter-odpira-svoja-50-vrata-v-nakupovalnem-srediscu-delta-planet/",
+            "http://cewapi.si/prijava-za-posao/",
+            "https://cewapi.si/category/nova-lokacija/",
+            "https://cewapi.si/category/nova-lokacija/#ajax-content-wrap",
+            "https://cewapi.si/pravila-in-pogoji-nagradne-igre-5-x-dve-porciji-cevapcicev/ "
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoOLy9Gh_3KMkW8VtSHMe33QfrE0smjvbbse63YA794zK-fMSgqQQ8Bo2fqhBBRwbjFwhDbey3km3IbR2A",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758701711.515822,
+                    "expires_date": "2025-09-24T08:15:11.515822+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_7NQGRV903W",
+                    "value": "GS1.1.1743149709.1.0.1743149709.0.0.0",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709709.719979,
+                    "expires_date": "2026-05-02T08:15:09.719979+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.838924557.1743149710",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709709.720466,
+                    "expires_date": "2026-05-02T08:15:09.720466+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743149709754.222208526274489295",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1750925709,
+                    "expires_date": "2025-06-26T08:15:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrzouuzTZ5owoztSlVnpK7TQ6sjnDl1bycGFzgwtfm8GPk_PtrKunkTcxrFXFo_2nSkEiwMWXLkzCZtmno",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758701727.252231,
+                    "expires_date": "2025-09-24T08:15:27.252231+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.838924557.1743149710",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709726.223986,
+                    "expires_date": "2026-05-02T08:15:26.223986+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743149709754.222208526274489295",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1750925726,
+                    "expires_date": "2025-06-26T08:15:26+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_7NQGRV903W",
+                    "value": "GS1.1.1743149709.1.1.1743149732.0.0.0",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709732.128084,
+                    "expires_date": "2026-05-02T08:15:32.128084+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrjwtfOV7CHNSimAbv_ijqXuDNVLw72fCqWE49JLjrLv1fYKkWcmK_ZnVi2Bt_0zW1irdSgm23LVaYEaKU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758701748.845854,
+                    "expires_date": "2025-09-24T08:15:48.845854+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.838924557.1743149710",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709748.147122,
+                    "expires_date": "2026-05-02T08:15:48.147122+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743149709754.222208526274489295",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1750925748,
+                    "expires_date": "2025-06-26T08:15:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_7NQGRV903W",
+                    "value": "GS1.1.1743149709.1.1.1743149748.0.0.0",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709748.146692,
+                    "expires_date": "2026-05-02T08:15:48.146692+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T09:15:08.126762",
+        "timestamp_stop": "2025-03-28T09:15:54.517106"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://cewapi.si/",
+            "https://cewapi.si/walter-odpira-svoja-50-vrata-v-nakupovalnem-srediscu-delta-planet/",
+            "http://cewapi.si/prijava-za-posao/",
+            "https://cewapi.si/category/nova-lokacija/",
+            "https://cewapi.si/category/nova-lokacija/#ajax-content-wrap",
+            "https://cewapi.si/pravila-in-pogoji-nagradne-igre-5-x-dve-porciji-cevapcicev/ "
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyosUQT6tS1b_w5zEl4KfdkDqGDGvEWAYp5r3fz-mCPzayLY1ylKLRKcFqVeRg3JAxoMuM0ghLs5hSnxdhg",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758701764.897388,
+                    "expires_date": "2025-09-24T08:16:04.897388+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_7NQGRV903W",
+                    "value": "GS1.1.1743149762.1.0.1743149762.0.0.0",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709763.00119,
+                    "expires_date": "2026-05-02T08:16:03.001190+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2003838523.1743149763",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709763.001672,
+                    "expires_date": "2026-05-02T08:16:03.001672+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743149763180.613622943477979987",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1750925763,
+                    "expires_date": "2025-06-26T08:16:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyotuB1R3XqUeysFgftclj32nPuSlbsBn4wBCJYua4v9Ngh2ePDpUT3pvseEIicie-nBd6sRBaSph2Z-GQo",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758701780.371741,
+                    "expires_date": "2025-09-24T08:16:20.371741+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2003838523.1743149763",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709779.451681,
+                    "expires_date": "2026-05-02T08:16:19.451681+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743149763180.613622943477979987",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1750925779,
+                    "expires_date": "2025-06-26T08:16:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_7NQGRV903W",
+                    "value": "GS1.1.1743149762.1.1.1743149785.0.0.0",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709785.328061,
+                    "expires_date": "2026-05-02T08:16:25.328061+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypCPgFnkFSWQg86vuGUCW6sr7edz9RLlNdiKAq7RiXwVWouQ3PC6bEhBLX5twdBmLVIeazB27QeXpHU-pA",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758701802.163023,
+                    "expires_date": "2025-09-24T08:16:42.163023+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.2003838523.1743149763",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709801.429234,
+                    "expires_date": "2026-05-02T08:16:41.429234+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743149763180.613622943477979987",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1750925801,
+                    "expires_date": "2025-06-26T08:16:41+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_7NQGRV903W",
+                    "value": "GS1.1.1743149762.1.1.1743149801.0.0.0",
+                    "domain": ".cewapi.si",
+                    "path": "/",
+                    "expires": 1777709801.428864,
+                    "expires_date": "2026-05-02T08:16:41.428864+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "002_decline_init_1.png",
+            "003_decline_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T09:15:56.129423",
+        "timestamp_stop": "2025-03-28T09:16:47.767808"
+    }
+}

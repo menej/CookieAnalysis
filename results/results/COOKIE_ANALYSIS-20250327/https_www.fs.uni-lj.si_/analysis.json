@@ -1,0 +1,546 @@
+{
+    "web_page": "https://www.fs.uni-lj.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T10:12:35.323544",
+    "timestamp_stop": "2025-03-28T10:15:50.396279",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fs.uni-lj.si/",
+            "https://www.fs.uni-lj.si/raziskovanje/oprema/",
+            "https://www.fs.uni-lj.si/research-equipment/oprema-za-robotski-strojni-vid-pickit-edu-hd-kit/",
+            "https://www.fs.uni-lj.si/research-equipment/metalurski-opticni-mikroskop-zeiss-axioscope-5-z-dodatki/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "sontlgsul1f1uu7hqi4n8bi3ev",
+                    "domain": "www.fs.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T10:12:36.655807",
+        "timestamp_stop": "2025-03-28T10:13:09.038667"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fs.uni-lj.si/",
+            "https://www.fs.uni-lj.si/raziskovanje/oprema/",
+            "https://www.fs.uni-lj.si/research-equipment/oprema-za-robotski-strojni-vid-pickit-edu-hd-kit/",
+            "https://www.fs.uni-lj.si/research-equipment/metalurski-opticni-mikroskop-zeiss-axioscope-5-z-dodatki/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "advance-cookie-banner-seen",
+                    "value": "cookie-set",
+                    "domain": "www.fs.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743758024,
+                    "expires_date": "2025-04-04T09:13:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3167407",
+                    "value": "eyJpZCI6IjAxNjUwNmY5LTllMjEtNWIzNy1iZmIzLTAzZGVmM2I4N2VhNiIsImNyZWF0ZWQiOjE3NDMxNTMyMjUwMDcsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1774689225,
+                    "expires_date": "2026-03-28T09:13:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_3167407",
+                    "value": "eyJpZCI6ImE4NDEzMGQ3LTZmNjEtNDk5Zi1hNDU1LTE4MDkwODE1NWZhZSIsImMiOjE3NDMxNTMyMjUwMDksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1743155025,
+                    "expires_date": "2025-03-28T09:43:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_0GD61GN41X",
+                    "value": "GS1.1.1743153225.1.0.1743153225.60.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777713225.121363,
+                    "expires_date": "2026-05-02T09:13:45.121363+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.735095536.1743153225",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777713225.122042,
+                    "expires_date": "2026-05-02T09:13:45.122042+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "advance-cookie-banner-seen",
+                    "value": "cookie-set",
+                    "domain": "www.fs.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743758024,
+                    "expires_date": "2025-04-04T09:13:44+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSession_3167407",
+                    "value": "eyJpZCI6ImE4NDEzMGQ3LTZmNjEtNDk5Zi1hNDU1LTE4MDkwODE1NWZhZSIsImMiOjE3NDMxNTMyMjUwMDksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1743155025,
+                    "expires_date": "2025-03-28T09:43:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.735095536.1743153225",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777713245.986868,
+                    "expires_date": "2026-05-02T09:14:05.986868+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3167407",
+                    "value": "eyJpZCI6IjAxNjUwNmY5LTllMjEtNWIzNy1iZmIzLTAzZGVmM2I4N2VhNiIsImNyZWF0ZWQiOjE3NDMxNTMyMjUwMDcsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1774689245,
+                    "expires_date": "2026-03-28T09:14:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_0GD61GN41X",
+                    "value": "GS1.1.1743153225.1.1.1743153252.33.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777713252.836595,
+                    "expires_date": "2026-05-02T09:14:12.836595+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran v namen boljšega delovanja uporablja piškotke. Z uporabo naših storitev se strinjate, da lahko uporabljamo piškotke. Več o piškotkih.  -\nPodrobnosti\nSkrij podrobnosti\n  Sprejmi Shrani \n\n     Ti piškotki so nujni za delovanje spletnega mesta, zato jih v naših sistemih ni mogoče izklopiti. Običajno so nastavljeni samo kot odziv na vaša dejanja, ki vodijo do storitvenih zahtev, na primer nastavitev zasebnosti, prijava ali izpolnjevanje obrazcev. Na voljo imate nastavitev, da brskalnik blokira te piškotke ali vas opozori na njih. V tem primeru nekateri deli spletnega mesta ne bodo delovali.\n     Piškotki za spremljanje statistike",
+                "banner_z_index": 998,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi]  \nAmbiguousLabel2: None  \nGenericLabel3: [Podrobnosti]  \nExplanation: \"Sprejmi\" is an ambiguous accept phrase, while \"Podrobnosti\" relates to settings. There are no clear accept all or decline all phrases present. \"Več o piškotkih\" is not categorized since it doesn't fit the specified labels.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is an ambiguous accept phrase, while \"Podrobnosti\" relates to settings. There are no clear accept all or decline all phrases present. \"Več o piškotkih\" is not categorized since it doesn't fit the specified labels."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T10:13:10.578397",
+        "timestamp_stop": "2025-03-28T10:14:13.352088"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (span), with text (Podrobnosti)",
+            "Clicking an element of type (button), with text (Shrani)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fs.uni-lj.si/",
+            "https://www.fs.uni-lj.si/raziskovanje/oprema/",
+            "https://www.fs.uni-lj.si/research-equipment/oprema-za-robotski-strojni-vid-pickit-edu-hd-kit/",
+            "https://www.fs.uni-lj.si/research-equipment/metalurski-opticni-mikroskop-zeiss-axioscope-5-z-dodatki/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "advance-cookie-banner-seen",
+                    "value": "cookie-set",
+                    "domain": "www.fs.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743758120,
+                    "expires_date": "2025-04-04T09:15:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3167407",
+                    "value": "eyJpZCI6ImY5YjY4ZDU5LWI4OTctNWI2ZC04OWFmLTg2MmU0OGEwMDkxMSIsImNyZWF0ZWQiOjE3NDMxNTMzMjA3MzgsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1774689320,
+                    "expires_date": "2026-03-28T09:15:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_3167407",
+                    "value": "eyJpZCI6IjRlOGQ4MTA4LThmNjgtNDIzOC1iOTU4LTQzNTRiYzVlMzJkYyIsImMiOjE3NDMxNTMzMjA3MzksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1743155120,
+                    "expires_date": "2025-03-28T09:45:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_0GD61GN41X",
+                    "value": "GS1.1.1743153320.1.0.1743153320.60.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777713320.875288,
+                    "expires_date": "2026-05-02T09:15:20.875288+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.948694827.1743153321",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777713320.875912,
+                    "expires_date": "2026-05-02T09:15:20.875912+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "advance-cookie-banner-seen",
+                    "value": "cookie-set",
+                    "domain": "www.fs.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743758120,
+                    "expires_date": "2025-04-04T09:15:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSession_3167407",
+                    "value": "eyJpZCI6IjRlOGQ4MTA4LThmNjgtNDIzOC1iOTU4LTQzNTRiYzVlMzJkYyIsImMiOjE3NDMxNTMzMjA3MzksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1743155120,
+                    "expires_date": "2025-03-28T09:45:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.948694827.1743153321",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777713342.389844,
+                    "expires_date": "2026-05-02T09:15:42.389844+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_3167407",
+                    "value": "eyJpZCI6ImY5YjY4ZDU5LWI4OTctNWI2ZC04OWFmLTg2MmU0OGEwMDkxMSIsImNyZWF0ZWQiOjE3NDMxNTMzMjA3MzgsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1774689342,
+                    "expires_date": "2026-03-28T09:15:42+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_0GD61GN41X",
+                    "value": "GS1.1.1743153320.1.1.1743153349.31.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777713349.557612,
+                    "expires_date": "2026-05-02T09:15:49.557612+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_save_1_click_1.png",
+            "010_decline_interaction_save_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_SAVE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran v namen boljšega delovanja uporablja piškotke. Z uporabo naših storitev se strinjate, da lahko uporabljamo piškotke. Več o piškotkih.  -\nPodrobnosti\nSkrij podrobnosti\n  Sprejmi Shrani \n\n     Ti piškotki so nujni za delovanje spletnega mesta, zato jih v naših sistemih ni mogoče izklopiti. Običajno so nastavljeni samo kot odziv na vaša dejanja, ki vodijo do storitvenih zahtev, na primer nastavitev zasebnosti, prijava ali izpolnjevanje obrazcev. Na voljo imate nastavitev, da brskalnik blokira te piškotke ali vas opozori na njih. V tem primeru nekateri deli spletnega mesta ne bodo delovali.\n     Piškotki za spremljanje statistike",
+                "banner_z_index": 998,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi]  \nAmbiguousLabel2: None  \nGenericLabel3: [Podrobnosti]  \nExplanation: \"Sprejmi\" is an ambiguous phrase that signifies acceptance, while \"Podrobnosti\" is related to managing settings. There are no explicit buttons for accepting all cookies or declining them.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Podrobnosti",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is an ambiguous phrase that signifies acceptance, while \"Podrobnosti\" is related to managing settings. There are no explicit buttons for accepting all cookies or declining them."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Podrobnosti",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran v namen boljšega delovanja uporablja piškotke. Z uporabo naših storitev se strinjate, da lahko uporabljamo piškotke. Več o piškotkih.  -\nPodrobnosti\nSkrij podrobnosti\n  Sprejmi Shrani \n\n     Ti piškotki so nujni za delovanje spletnega mesta, zato jih v naših sistemih ni mogoče izklopiti. Običajno so nastavljeni samo kot odziv na vaša dejanja, ki vodijo do storitvenih zahtev, na primer nastavitev zasebnosti, prijava ali izpolnjevanje obrazcev. Na voljo imate nastavitev, da brskalnik blokira te piškotke ali vas opozori na njih. V tem primeru nekateri deli spletnega mesta ne bodo delovali.\n     Piškotki za spremljanje statistike",
+                "banner_z_index": 998,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Shrani]  \nAmbiguousLabel2: None  \nGenericLabel3: [Več o piškotkih]  \nExplanation: There are no explicit buttons for accepting or declining cookies. The button [Shrani] is categorized as an ambiguous accept. The button [Več o piškotkih] is for managing settings or obtaining more information.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Shrani",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Več o piškotkih",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "There are no explicit buttons for accepting or declining cookies. The button Shrani is categorized as an ambiguous accept. The button Več o piškotkih is for managing settings or obtaining more information."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 0.8571428571428571,
+                "settings_decline_element_text": "Shrani",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": true,
+                "save_settings_num_clicks": 1,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: [Shrani]\nExplanation: Found explicit save settings button.",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": "Shrani",
+                    "Explanation": "Found explicit save settings button."
+                },
+                "save_settings_llm_consensus_reached": true,
+                "save_settings_llm_consensus_value": 1.0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T10:14:14.892092",
+        "timestamp_stop": "2025-03-28T10:15:50.083781"
+    }
+}

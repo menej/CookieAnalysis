@@ -1,0 +1,438 @@
+{
+    "web_page": "http://www.tekaskiforum.net/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T03:51:19.909405",
+    "timestamp_stop": "2025-03-28T03:54:07.365475",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "http://www.tekaskiforum.net/",
+            "http://www.tekaskiforum.net/clanki/2019/03/obogatite-svoj-naravni-potencial-nutrilite-je-lansiral-nov-nutrilite-double-x-vrhunsko-prehransko-dopolnilo/",
+            "http://www.tekaskiforum.net/koledar-prireditev/",
+            "http://www.tekaskiforum.net/kategorija/sponzorirana-objava/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T03:51:21.279787",
+        "timestamp_stop": "2025-03-28T03:52:00.798467"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (div), with text (Se strinjam)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "http://www.tekaskiforum.net/",
+            "http://www.tekaskiforum.net/clanki/2019/03/obogatite-svoj-naravni-potencial-nutrilite-je-lansiral-nov-nutrilite-double-x-vrhunsko-prehransko-dopolnilo/",
+            "http://www.tekaskiforum.net/koledar-prireditev/",
+            "http://www.tekaskiforum.net/kategorija/sponzorirana-objava/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"action\":\"accept\"}",
+                    "domain": "www.tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1774666353,
+                    "expires_date": "2026-03-28T02:52:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.316670838.1743130326",
+                    "domain": ".tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1777690353.688316,
+                    "expires_date": "2026-05-02T02:52:33.688316+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.50674389.1743130354",
+                    "domain": ".tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1743216753,
+                    "expires_date": "2025-03-29T02:52:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_dc_gtm_UA-1080825-1",
+                    "value": "1",
+                    "domain": ".tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1743130413,
+                    "expires_date": "2025-03-28T02:53:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_FV4QZRJ3YS",
+                    "value": "GS1.2.1743130353.1.0.1743130353.0.0.0",
+                    "domain": ".tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1777690353.879574,
+                    "expires_date": "2026-05-02T02:52:33.879574+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"action\":\"accept\"}",
+                    "domain": "www.tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1774666353,
+                    "expires_date": "2026-03-28T02:52:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.316670838.1743130326",
+                    "domain": ".tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1777690376.128345,
+                    "expires_date": "2026-05-02T02:52:56.128345+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.50674389.1743130354",
+                    "domain": ".tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1743216776,
+                    "expires_date": "2025-03-29T02:52:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_dc_gtm_UA-1080825-1",
+                    "value": "1",
+                    "domain": ".tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1743130413,
+                    "expires_date": "2025-03-28T02:53:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "4sihdln2e0faa9d1kj3rfm6jd2",
+                    "domain": "www.tekaskiforum.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cbg_tz",
+                    "value": "-60",
+                    "domain": "www.tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1774752775,
+                    "expires_date": "2026-03-29T02:52:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cb_last_cat_id",
+                    "value": "11",
+                    "domain": "www.tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1774752775,
+                    "expires_date": "2026-03-29T02:52:55+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FV4QZRJ3YS",
+                    "value": "GS1.2.1743130353.1.1.1743130376.0.0.0",
+                    "domain": ".tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1777690376.190779,
+                    "expires_date": "2026-05-02T02:52:56.190779+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke!Spletni portal www.tekaskiforum.net uporablja piškotke z namenom zagotavljanja brezplačne spletne storitve, analizo uporabe, oglasnih sistemov in funkcionalnosti, ki jih brez piškotkov ne bi mogli nuditi in forum ne bi deloval. Z nadaljnjo uporabo spletne strani soglašate s piškotki.\nNastavitve za piškotke lahko nadzirate in spreminjate tudi v svojem spletnem brskalniku.Se strinjamSe ne strinjamPreberi večFree cookie consent by cookie-script.com",
+                "banner_z_index": 999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Se ne strinjam]  \nAmbiguousLabel1: [Se strinjam]  \nAmbiguousLabel2: None  \nGenericLabel3: [Preberi več]  \nExplanation: The button [Se ne strinjam] indicates declining all cookies, while [Se strinjam] is an ambiguous accept. The button [Preberi več] fits into the settings category as it suggests seeking more information.",
+                "llm_response_parsed": {
+                    "Accept": "Se strinjam",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Se ne strinjam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Preberi več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Se ne strinjam indicates declining all cookies, while Se strinjam is an ambiguous accept. The button Preberi več fits into the settings category as it suggests seeking more information."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Se strinjam",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T03:52:02.390281",
+        "timestamp_stop": "2025-03-28T03:53:03.373262"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (div), with text (Se ne strinjam)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "http://www.tekaskiforum.net/",
+            "http://www.tekaskiforum.net/clanki/2019/03/obogatite-svoj-naravni-potencial-nutrilite-je-lansiral-nov-nutrilite-double-x-vrhunsko-prehransko-dopolnilo/",
+            "http://www.tekaskiforum.net/koledar-prireditev/",
+            "http://www.tekaskiforum.net/kategorija/sponzorirana-objava/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"action\":\"reject\"}",
+                    "domain": "www.tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1774666416,
+                    "expires_date": "2026-03-28T02:53:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "CookieScriptConsent",
+                    "value": "{\"action\":\"reject\"}",
+                    "domain": "www.tekaskiforum.net",
+                    "path": "/",
+                    "expires": 1774666416,
+                    "expires_date": "2026-03-28T02:53:36+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Ta stran uporablja piškotke!Spletni portal www.tekaskiforum.net uporablja piškotke z namenom zagotavljanja brezplačne spletne storitve, analizo uporabe, oglasnih sistemov in funkcionalnosti, ki jih brez piškotkov ne bi mogli nuditi in forum ne bi deloval. Z nadaljnjo uporabo spletne strani soglašate s piškotki.\nNastavitve za piškotke lahko nadzirate in spreminjate tudi v svojem spletnem brskalniku.Se strinjamSe ne strinjamPreberi večFree cookie consent by cookie-script.com",
+                "banner_z_index": 999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: [Se ne strinjam]\nAmbiguousLabel1: [Se strinjam]\nAmbiguousLabel2: None\nGenericLabel3: [Preberi več]\nExplanation: \"Se ne strinjam\" is categorized under GenericLabel2 as it indicates declining, while \"Se strinjam\" is categorized under AmbiguousLabel1 as it signifies acceptance. \"Preberi več\" fits under GenericLabel3 as it suggests accessing more information or settings.",
+                "llm_response_parsed": {
+                    "Accept": "Se strinjam",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Se ne strinjam",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Preberi več",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Se ne strinjam\" is categorized under GenericLabel2 as it indicates declining, while \"Se strinjam\" is categorized under AmbiguousLabel1 as it signifies acceptance. \"Preberi več\" fits under GenericLabel3 as it suggests accessing more information or settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Se ne strinjam",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T03:53:04.942135",
+        "timestamp_stop": "2025-03-28T03:54:07.091589"
+    }
+}

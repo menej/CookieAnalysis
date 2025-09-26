@@ -1,0 +1,1565 @@
+{
+    "web_page": "https://www.mojagostilna.com/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T05:32:27.193388",
+    "timestamp_stop": "2025-03-28T05:34:34.572568",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojagostilna.com/",
+            "https://www.mojagostilna.com/kmetija-horvat",
+            "https://www.mojagostilna.com/zasavska.html",
+            "https://www.mojagostilna.com/gostilna-pizzeria-nona"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "940520697a7304687966024715e71e25",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743741149.859663,
+                    "expires_date": "2025-04-04T04:32:29.859663+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.758557189.1743136350",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696350.388457,
+                    "expires_date": "2026-05-02T04:32:30.388457+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.381747737.1743136350",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222750,
+                    "expires_date": "2025-03-29T04:32:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743136410,
+                    "expires_date": "2025-03-28T04:33:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_FLN748YCYS",
+                    "value": "GS1.2.1743136350.1.0.1743136350.0.0.0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696350.925946,
+                    "expires_date": "2026-05-02T04:32:30.925946+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "fcf54b2b-b50d-498c-9472-750ccc44c13d",
+                    "domain": "salesiq.zoho.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=75c82a6f07aa98c1:T=1743136334:RT=1743136334:S=AA-AfjbiKpPHZobYlKDiKSArlMP6",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1758688334,
+                    "expires_date": "2025-09-24T04:32:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "8bd9b9d2-d9a4-4753-aa7b-25318587df28",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uesign",
+                    "value": "64cdf19855ae1acd513b036f60357b6db79f37d15113818a49b0a8c7a06e6b89863cf79c34b627a72d20f0f0b015b264",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": 1745728352.067862,
+                    "expires_date": "2025-04-27T04:32:32.067862+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldp",
+                    "value": "2cuFBeQwxvDT05HANeJBHU%2B3ooU%2FGYEgVywGl6jEA0aJdyuhv5nneF8jjQMIGthzodoRkLyJC2Y%3D",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696353.059925,
+                    "expires_date": "2026-05-02T04:32:33.059925+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldt",
+                    "value": "7ab8e6ef-5be8-4e3c-900b-781940efb230-0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222753,
+                    "expires_date": "2025-03-29T04:32:33+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "940520697a7304687966024715e71e25",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743741149.859663,
+                    "expires_date": "2025-04-04T04:32:29.859663+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.758557189.1743136350",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696371.463906,
+                    "expires_date": "2026-05-02T04:32:51.463906+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.381747737.1743136350",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222771,
+                    "expires_date": "2025-03-29T04:32:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743136410,
+                    "expires_date": "2025-03-28T04:33:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "fcf54b2b-b50d-498c-9472-750ccc44c13d",
+                    "domain": "salesiq.zoho.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=75c82a6f07aa98c1:T=1743136334:RT=1743136334:S=AA-AfjbiKpPHZobYlKDiKSArlMP6",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1758688334,
+                    "expires_date": "2025-09-24T04:32:14+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "8bd9b9d2-d9a4-4753-aa7b-25318587df28",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uesign",
+                    "value": "64cdf19855ae1acd513b036f60357b6db79f37d15113818a49b0a8c7a06e6b89863cf79c34b627a72d20f0f0b015b264",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": 1745728352.067862,
+                    "expires_date": "2025-04-27T04:32:32.067862+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldp",
+                    "value": "2cuFBeQwxvDT05HANeJBHU%2B3ooU%2FGYEgVywGl6jEA0aJdyuhv5nneF8jjQMIGthzodoRkLyJC2Y%3D",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696353.059925,
+                    "expires_date": "2026-05-02T04:32:33.059925+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldt",
+                    "value": "7ab8e6ef-5be8-4e3c-900b-781940efb230-0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222753,
+                    "expires_date": "2025-03-29T04:32:33+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FLN748YCYS",
+                    "value": "GS1.2.1743136350.1.1.1743136371.0.0.0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696371.678254,
+                    "expires_date": "2026-05-02T04:32:51.678254+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T05:32:28.504515",
+        "timestamp_stop": "2025-03-28T05:32:58.204787"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (span), with text (Strinjam se)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojagostilna.com/",
+            "https://www.mojagostilna.com/kmetija-horvat",
+            "https://www.mojagostilna.com/zasavska.html",
+            "https://www.mojagostilna.com/gostilna-pizzeria-nona"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "40d5a64ff5cfaba8f7005d7660b05d92",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743741180.824761,
+                    "expires_date": "2025-04-04T04:33:00.824761+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1873597069.1743136381",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696381.368939,
+                    "expires_date": "2026-05-02T04:33:01.368939+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.105924310.1743136381",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222781,
+                    "expires_date": "2025-03-29T04:33:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743136441,
+                    "expires_date": "2025-03-28T04:34:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "14a8714f-5b14-492e-b554-44bb29ab52a1",
+                    "domain": "salesiq.zoho.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_FLN748YCYS",
+                    "value": "GS1.2.1743136382.1.0.1743136382.0.0.0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696382.027069,
+                    "expires_date": "2026-05-02T04:33:02.027069+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=29b2e5f1448d62cd:T=1743136365:RT=1743136365:S=AA-AfjZVwP53-13LPwjmmf_xKnfk",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1758688365,
+                    "expires_date": "2025-09-24T04:32:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "f8b639c2-563e-46bd-a401-fb9f6f868f5f",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uesign",
+                    "value": "3238b7f316967ebd666d6915f83c481a446c68f32cc10abb5fa56b7d62a3ad8fdcbc8606c76c421fe97b93abef07763a",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": 1745728382.812472,
+                    "expires_date": "2025-04-27T04:33:02.812472+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldp",
+                    "value": "2cuFBeQwxvC2J3NxJXhtMOgP%2FW6ki1ho4yGttWL5bBDgIl6v74Y0OU735ySGqSfqodoRkLyJC2Y%3D",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696383.810806,
+                    "expires_date": "2026-05-02T04:33:03.810806+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldt",
+                    "value": "f4f7e9bb-bbab-4570-aff1-8fd2fb05fb17-0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222783,
+                    "expires_date": "2025-03-29T04:33:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "40d5a64ff5cfaba8f7005d7660b05d92",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743741180.824761,
+                    "expires_date": "2025-04-04T04:33:00.824761+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1873597069.1743136381",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696381.368939,
+                    "expires_date": "2026-05-02T04:33:01.368939+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.105924310.1743136381",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222781,
+                    "expires_date": "2025-03-29T04:33:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743136441,
+                    "expires_date": "2025-03-28T04:34:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "14a8714f-5b14-492e-b554-44bb29ab52a1",
+                    "domain": "salesiq.zoho.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_FLN748YCYS",
+                    "value": "GS1.2.1743136382.1.0.1743136382.0.0.0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696382.027069,
+                    "expires_date": "2026-05-02T04:33:02.027069+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=29b2e5f1448d62cd:T=1743136365:RT=1743136365:S=AA-AfjZVwP53-13LPwjmmf_xKnfk",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1758688365,
+                    "expires_date": "2025-09-24T04:32:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "f8b639c2-563e-46bd-a401-fb9f6f868f5f",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uesign",
+                    "value": "3238b7f316967ebd666d6915f83c481a446c68f32cc10abb5fa56b7d62a3ad8fdcbc8606c76c421fe97b93abef07763a",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": 1745728382.812472,
+                    "expires_date": "2025-04-27T04:33:02.812472+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldp",
+                    "value": "2cuFBeQwxvC2J3NxJXhtMOgP%2FW6ki1ho4yGttWL5bBDgIl6v74Y0OU735ySGqSfqodoRkLyJC2Y%3D",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696383.810806,
+                    "expires_date": "2026-05-02T04:33:03.810806+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldt",
+                    "value": "f4f7e9bb-bbab-4570-aff1-8fd2fb05fb17-0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222783,
+                    "expires_date": "2025-03-29T04:33:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "MG_Cookie",
+                    "value": "1",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1774672401,
+                    "expires_date": "2026-03-28T04:33:21+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "40d5a64ff5cfaba8f7005d7660b05d92",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743741180.824761,
+                    "expires_date": "2025-04-04T04:33:00.824761+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1873597069.1743136381",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696420.516817,
+                    "expires_date": "2026-05-02T04:33:40.516817+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.105924310.1743136381",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222820,
+                    "expires_date": "2025-03-29T04:33:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743136441,
+                    "expires_date": "2025-03-28T04:34:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "14a8714f-5b14-492e-b554-44bb29ab52a1",
+                    "domain": "salesiq.zoho.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=29b2e5f1448d62cd:T=1743136365:RT=1743136365:S=AA-AfjZVwP53-13LPwjmmf_xKnfk",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1758688365,
+                    "expires_date": "2025-09-24T04:32:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "f8b639c2-563e-46bd-a401-fb9f6f868f5f",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uesign",
+                    "value": "3238b7f316967ebd666d6915f83c481a446c68f32cc10abb5fa56b7d62a3ad8fdcbc8606c76c421fe97b93abef07763a",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": 1745728382.812472,
+                    "expires_date": "2025-04-27T04:33:02.812472+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldp",
+                    "value": "2cuFBeQwxvC2J3NxJXhtMOgP%2FW6ki1ho4yGttWL5bBDgIl6v74Y0OU735ySGqSfqodoRkLyJC2Y%3D",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696383.810806,
+                    "expires_date": "2026-05-02T04:33:03.810806+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldt",
+                    "value": "f4f7e9bb-bbab-4570-aff1-8fd2fb05fb17-0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222783,
+                    "expires_date": "2025-03-29T04:33:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "MG_Cookie",
+                    "value": "1",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1774672401,
+                    "expires_date": "2026-03-28T04:33:21+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FLN748YCYS",
+                    "value": "GS1.2.1743136382.1.1.1743136420.0.0.0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696420.74327,
+                    "expires_date": "2026-05-02T04:33:40.743270+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran uporablja piškotke z namenom izboljševanja uporabniške izkušnje.\n    Strinjam se",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: \"Strinjam se\" is an ambiguous phrase that signifies acceptance but does not explicitly indicate acceptance of all cookies, hence it is categorized under AmbiguousLabel1. No other clear categories fit the provided text.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Strinjam se\" is an ambiguous phrase that signifies acceptance but does not explicitly indicate acceptance of all cookies, hence it is categorized under AmbiguousLabel1. No other clear categories fit the provided text."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Strinjam se",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T05:32:59.860549",
+        "timestamp_stop": "2025-03-28T05:33:47.275860"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.mojagostilna.com/",
+            "https://www.mojagostilna.com/kmetija-horvat",
+            "https://www.mojagostilna.com/zasavska.html",
+            "https://www.mojagostilna.com/gostilna-pizzeria-nona"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "1d35dd4c7dcb95337be9f17983ceb702",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743741229.751386,
+                    "expires_date": "2025-04-04T04:33:49.751386+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.129857465.1743136430",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696430.233439,
+                    "expires_date": "2026-05-02T04:33:50.233439+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.774688193.1743136430",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222830,
+                    "expires_date": "2025-03-29T04:33:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743136490,
+                    "expires_date": "2025-03-28T04:34:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_FLN748YCYS",
+                    "value": "GS1.2.1743136430.1.0.1743136430.0.0.0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696430.758678,
+                    "expires_date": "2026-05-02T04:33:50.758678+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "ccd24061-8e13-43ba-a999-8426eb642f9a",
+                    "domain": "salesiq.zoho.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=a93c1ca7bca9ad83:T=1743136414:RT=1743136414:S=AA-Afja9naMZsKP_rFmUrPqiaLuy",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1758688414,
+                    "expires_date": "2025-09-24T04:33:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "81210729-7308-4229-99f9-2250522e8d53",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uesign",
+                    "value": "fb3f292e86ec276da01fd1dbede2f64ef4452495b172ae54ecfcb566afa73bf0d13428fa19fd922d368618fa07e9823e",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": 1745728431.810157,
+                    "expires_date": "2025-04-27T04:33:51.810157+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldp",
+                    "value": "2cuFBeQwxvC26uuckK2lap1ZZgJfibj5XKCL1ERGn4IhH4tSQTHYisjf259C2DGkodoRkLyJC2Y%3D",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696432.899841,
+                    "expires_date": "2026-05-02T04:33:52.899841+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldt",
+                    "value": "b426402c-c57c-4b29-94fc-3d68037ac92a-2",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222832,
+                    "expires_date": "2025-03-29T04:33:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "1d35dd4c7dcb95337be9f17983ceb702",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743741229.751386,
+                    "expires_date": "2025-04-04T04:33:49.751386+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.129857465.1743136430",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696430.233439,
+                    "expires_date": "2026-05-02T04:33:50.233439+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.774688193.1743136430",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222830,
+                    "expires_date": "2025-03-29T04:33:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743136490,
+                    "expires_date": "2025-03-28T04:34:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_FLN748YCYS",
+                    "value": "GS1.2.1743136430.1.0.1743136430.0.0.0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696430.758678,
+                    "expires_date": "2026-05-02T04:33:50.758678+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "ccd24061-8e13-43ba-a999-8426eb642f9a",
+                    "domain": "salesiq.zoho.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=a93c1ca7bca9ad83:T=1743136414:RT=1743136414:S=AA-Afja9naMZsKP_rFmUrPqiaLuy",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1758688414,
+                    "expires_date": "2025-09-24T04:33:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "81210729-7308-4229-99f9-2250522e8d53",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uesign",
+                    "value": "fb3f292e86ec276da01fd1dbede2f64ef4452495b172ae54ecfcb566afa73bf0d13428fa19fd922d368618fa07e9823e",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": 1745728431.810157,
+                    "expires_date": "2025-04-27T04:33:51.810157+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldp",
+                    "value": "2cuFBeQwxvC26uuckK2lap1ZZgJfibj5XKCL1ERGn4IhH4tSQTHYisjf259C2DGkodoRkLyJC2Y%3D",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696432.899841,
+                    "expires_date": "2026-05-02T04:33:52.899841+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldt",
+                    "value": "b426402c-c57c-4b29-94fc-3d68037ac92a-2",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222832,
+                    "expires_date": "2025-03-29T04:33:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "1d35dd4c7dcb95337be9f17983ceb702",
+                    "domain": "www.mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743741229.751386,
+                    "expires_date": "2025-04-04T04:33:49.751386+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.129857465.1743136430",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696467.499053,
+                    "expires_date": "2026-05-02T04:34:27.499053+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.774688193.1743136430",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222867,
+                    "expires_date": "2025-03-29T04:34:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743136490,
+                    "expires_date": "2025-03-28T04:34:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "ccd24061-8e13-43ba-a999-8426eb642f9a",
+                    "domain": "salesiq.zoho.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=a93c1ca7bca9ad83:T=1743136414:RT=1743136414:S=AA-Afja9naMZsKP_rFmUrPqiaLuy",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1758688414,
+                    "expires_date": "2025-09-24T04:33:34+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LS_CSRF_TOKEN",
+                    "value": "81210729-7308-4229-99f9-2250522e8d53",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uesign",
+                    "value": "fb3f292e86ec276da01fd1dbede2f64ef4452495b172ae54ecfcb566afa73bf0d13428fa19fd922d368618fa07e9823e",
+                    "domain": "salesiq.zohopublic.com",
+                    "path": "/",
+                    "expires": 1745728431.810157,
+                    "expires_date": "2025-04-27T04:33:51.810157+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldp",
+                    "value": "2cuFBeQwxvC26uuckK2lap1ZZgJfibj5XKCL1ERGn4IhH4tSQTHYisjf259C2DGkodoRkLyJC2Y%3D",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696432.899841,
+                    "expires_date": "2026-05-02T04:33:52.899841+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sd8261-_zldt",
+                    "value": "b426402c-c57c-4b29-94fc-3d68037ac92a-2",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1743222832,
+                    "expires_date": "2025-03-29T04:33:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_FLN748YCYS",
+                    "value": "GS1.2.1743136430.1.1.1743136467.0.0.0",
+                    "domain": ".mojagostilna.com",
+                    "path": "/",
+                    "expires": 1777696467.720472,
+                    "expires_date": "2026-05-02T04:34:27.720472+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Naša spletna stran uporablja piškotke z namenom izboljševanja uporabniške izkušnje.\n    Strinjam se",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: \"Strinjam se\" is a generic phrase that signifies acceptance but does not explicitly state acceptance of all cookies, so it is categorized as an ambiguous acceptance label.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Strinjam se\" is a generic phrase that signifies acceptance but does not explicitly state acceptance of all cookies, so it is categorized as an ambiguous acceptance label."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T05:33:48.913050",
+        "timestamp_stop": "2025-03-28T05:34:34.259080"
+    }
+}

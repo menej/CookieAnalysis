@@ -1,0 +1,2604 @@
+{
+    "web_page": "https://www.svet-svetil.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T07:31:58.198999",
+    "timestamp_stop": "2025-03-28T07:36:03.547556",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.svet-svetil.si/",
+            "https://www.svet-svetil.si/hisni-zvonci-videofoni/",
+            "https://www.svet-svetil.si/hisni-zvonci-videofoni/?filter=on&sProd=1",
+            "https://www.svet-svetil.si/ventilatorji/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "dr1er04as20uvrfo5mlgbiez",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TPL",
+                    "value": "1",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sess",
+                    "value": "id=ca3df773-d9fc-4c56-8a5d-069b0831d26f&pk=0&pkc=0&prcg=0&b2b=False&reg=False&clname=&vat=False",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1744003919.757494,
+                    "expires_date": "2025-04-07T05:31:59.757494+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "hsh",
+                    "value": "285BF3A2CBAD12EE46864717E9CE27F3",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679519.757616,
+                    "expires_date": "2026-03-28T06:31:59.757616+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lastVisited",
+                    "value": "",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745731919.757645,
+                    "expires_date": "2025-04-27T05:31:59.757645+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AbTest",
+                    "value": "{\"TestType\":0,\"Code\":\"\"}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1748323919.757671,
+                    "expires_date": "2025-05-27T05:31:59.757671+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "prs",
+                    "value": "id=0&bnr=&nu=0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745818319.757688,
+                    "expires_date": "2025-04-28T05:31:59.757688+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SERVERID",
+                    "value": "web6",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486744410884900000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "aS9Y06eQt93eWIAOeOa8qvf_djAIB2glFTH6FcVNvmo-1743143520-1.0.1.1-bkyVTpl9PVkf.oOWJx2TnhvFUSGDAQfqi1CHr_4NIKNW9C4ZBvuDiZojrmUgX4BkfoF64UGMJJAdjL97.jM77EjQyTcqISU9REViqC2aj0A",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743145320.240308,
+                    "expires_date": "2025-03-28T07:02:00.240308+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mainCountry",
+                    "value": "SI",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312720.486612,
+                    "expires_date": "2025-03-30T05:32:00.486612+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "shopSuggesterState",
+                    "value": "0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312720.48672,
+                    "expires_date": "2025-03-30T05:32:00.486720+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "VSELW7Dr7u3MGXRtt4VQru3lXtCyqAsvMxntqTD8iCY-1743143520-1.0.1.1-39inRLzwMRakhsLCiDG7ffrYkWGlh2i8YfvlL3iLZOvmV_mVT0k6qxKSBn18C16gfVyWisRJY4rfWGllnUmU8MTfkI_hDz8Q0._IHrCYIOQ",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743145320.565455,
+                    "expires_date": "2025-03-28T07:02:00.565455+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_mktr_cart",
+                    "value": "74c78153433c1e54852ad4e973a2a703",
+                    "domain": ".www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919520,
+                    "expires_date": "2025-06-26T06:32:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "dr1er04as20uvrfo5mlgbiez",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TPL",
+                    "value": "1",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sess",
+                    "value": "id=ca3df773-d9fc-4c56-8a5d-069b0831d26f&pk=0&pkc=0&prcg=0&b2b=False&reg=False&clname=&vat=False",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1744003956.412579,
+                    "expires_date": "2025-04-07T05:32:36.412579+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "hsh",
+                    "value": "285BF3A2CBAD12EE46864717E9CE27F3",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679519.757616,
+                    "expires_date": "2026-03-28T06:31:59.757616+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lastVisited",
+                    "value": "",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745731957.413033,
+                    "expires_date": "2025-04-27T05:32:37.413033+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AbTest",
+                    "value": "{\"TestType\":0,\"Code\":\"\"}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1748323919.757671,
+                    "expires_date": "2025-05-27T05:31:59.757671+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "prs",
+                    "value": "id=0&bnr=&nu=0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745818319.757688,
+                    "expires_date": "2025-04-28T05:31:59.757688+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SERVERID",
+                    "value": "web6",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486744410884900000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "aS9Y06eQt93eWIAOeOa8qvf_djAIB2glFTH6FcVNvmo-1743143520-1.0.1.1-bkyVTpl9PVkf.oOWJx2TnhvFUSGDAQfqi1CHr_4NIKNW9C4ZBvuDiZojrmUgX4BkfoF64UGMJJAdjL97.jM77EjQyTcqISU9REViqC2aj0A",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743145320.240308,
+                    "expires_date": "2025-03-28T07:02:00.240308+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mainCountry",
+                    "value": "SI",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312720.486612,
+                    "expires_date": "2025-03-30T05:32:00.486612+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "shopSuggesterState",
+                    "value": "0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312720.48672,
+                    "expires_date": "2025-03-30T05:32:00.486720+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "VSELW7Dr7u3MGXRtt4VQru3lXtCyqAsvMxntqTD8iCY-1743143520-1.0.1.1-39inRLzwMRakhsLCiDG7ffrYkWGlh2i8YfvlL3iLZOvmV_mVT0k6qxKSBn18C16gfVyWisRJY4rfWGllnUmU8MTfkI_hDz8Q0._IHrCYIOQ",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743145320.565455,
+                    "expires_date": "2025-03-28T07:02:00.565455+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_mktr_cart",
+                    "value": "74c78153433c1e54852ad4e973a2a703",
+                    "domain": ".www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919520,
+                    "expires_date": "2025-06-26T06:32:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T07:31:59.508275",
+        "timestamp_stop": "2025-03-28T07:32:45.520553"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Strinjam se)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.svet-svetil.si/",
+            "https://www.svet-svetil.si/hisni-zvonci-videofoni/",
+            "https://www.svet-svetil.si/hisni-zvonci-videofoni/?filter=on&sProd=1",
+            "https://www.svet-svetil.si/ventilatorji/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "rh0iarnnq2dged3hfe3deosr",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TPL",
+                    "value": "1",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sess",
+                    "value": "id=7eee70f4-dbe8-47ae-b666-e2d998a4d9e8&pk=0&pkc=0&prcg=0&b2b=False&reg=False&clname=&vat=False",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1744003968.382075,
+                    "expires_date": "2025-04-07T05:32:48.382075+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "hsh",
+                    "value": "00AE12DC0E5ECA3A79DCE2482B5F9500",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679568.382208,
+                    "expires_date": "2026-03-28T06:32:48.382208+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lastVisited",
+                    "value": "",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745731968.382242,
+                    "expires_date": "2025-04-27T05:32:48.382242+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AbTest",
+                    "value": "{\"TestType\":0,\"Code\":\"\"}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1748323968.38228,
+                    "expires_date": "2025-05-27T05:32:48.382280+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "prs",
+                    "value": "id=0&bnr=&nu=0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745818368.382301,
+                    "expires_date": "2025-04-28T05:32:48.382301+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SERVERID",
+                    "value": "web4",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486744613715174000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "vqa4OeWG4MaMUo.yooK9lOdhTLulhbPMpjgwWM.bm5k-1743143567-1.0.1.1-Y47B770vn..pB0LulZF5lT18tJJkyIM8lN3tjjPKhcwW1HLjcqCpYdDnyexpZhJEsmrPskVyQkAf1c2kbHenlSpBWLuL3KDRMayI.ziUmZ0",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743145367.809678,
+                    "expires_date": "2025-03-28T07:02:47.809678+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mainCountry",
+                    "value": "SI",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312769.099614,
+                    "expires_date": "2025-03-30T05:32:49.099614+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "shopSuggesterState",
+                    "value": "0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312769.099774,
+                    "expires_date": "2025-03-30T05:32:49.099774+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "brGgobyX2YixIx_tZmQ3rGvdEvitbjXKnysbZYLNZPI-1743143568-1.0.1.1-hCgBuGgeQHHME94f6800iK96ttxtZd7K.LrmJDxpK6WsSyE3zSOpfTlQWtKCCYfbuwdArraIP0rWkjzdm4glpaBoLu0zAEcZ2ZZlJzs_97Y",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743145368.181869,
+                    "expires_date": "2025-03-28T07:02:48.181869+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_mktr_cart",
+                    "value": "887759f8189c65d6330a2e87914e6618",
+                    "domain": ".www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919568,
+                    "expires_date": "2025-06-26T06:32:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "rh0iarnnq2dged3hfe3deosr",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TPL",
+                    "value": "1",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sess",
+                    "value": "id=7eee70f4-dbe8-47ae-b666-e2d998a4d9e8&pk=0&pkc=0&prcg=0&b2b=False&reg=False&clname=&vat=False",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1744003968.382075,
+                    "expires_date": "2025-04-07T05:32:48.382075+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "hsh",
+                    "value": "00AE12DC0E5ECA3A79DCE2482B5F9500",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679568.382208,
+                    "expires_date": "2026-03-28T06:32:48.382208+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lastVisited",
+                    "value": "",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745731968.382242,
+                    "expires_date": "2025-04-27T05:32:48.382242+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AbTest",
+                    "value": "{\"TestType\":0,\"Code\":\"\"}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1748323968.38228,
+                    "expires_date": "2025-05-27T05:32:48.382280+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "prs",
+                    "value": "id=0&bnr=&nu=0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745818368.382301,
+                    "expires_date": "2025-04-28T05:32:48.382301+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SERVERID",
+                    "value": "web4",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486744613715174000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "vqa4OeWG4MaMUo.yooK9lOdhTLulhbPMpjgwWM.bm5k-1743143567-1.0.1.1-Y47B770vn..pB0LulZF5lT18tJJkyIM8lN3tjjPKhcwW1HLjcqCpYdDnyexpZhJEsmrPskVyQkAf1c2kbHenlSpBWLuL3KDRMayI.ziUmZ0",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743145367.809678,
+                    "expires_date": "2025-03-28T07:02:47.809678+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mainCountry",
+                    "value": "SI",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312769.099614,
+                    "expires_date": "2025-03-30T05:32:49.099614+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "shopSuggesterState",
+                    "value": "0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312769.099774,
+                    "expires_date": "2025-03-30T05:32:49.099774+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "brGgobyX2YixIx_tZmQ3rGvdEvitbjXKnysbZYLNZPI-1743143568-1.0.1.1-hCgBuGgeQHHME94f6800iK96ttxtZd7K.LrmJDxpK6WsSyE3zSOpfTlQWtKCCYfbuwdArraIP0rWkjzdm4glpaBoLu0zAEcZ2ZZlJzs_97Y",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743145368.181869,
+                    "expires_date": "2025-03-28T07:02:48.181869+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_mktr_cart",
+                    "value": "887759f8189c65d6330a2e87914e6618",
+                    "domain": ".www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919568,
+                    "expires_date": "2025-06-26T06:32:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "mCs",
+                    "value": "{\"dZones\":{},\"Version\":\"2\",\"AcceptAll\":1}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777699992.333785,
+                    "expires_date": "2026-05-02T05:33:12.333785+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1874145713.1743143592",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919592,
+                    "expires_date": "2025-06-26T06:33:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1562022153.1743143568",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703592.371419,
+                    "expires_date": "2026-05-02T06:33:12.371419+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_DONOCI",
+                    "value": "GS1.1.1743143568.1.1.1743143592.0.0.191733971",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703592.397002,
+                    "expires_date": "2026-05-02T06:33:12.397002+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_E5E3QCZWM4",
+                    "value": "GS1.1.1743143568.1.1.1743143592.60.0.0",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703592.409463,
+                    "expires_date": "2026-05-02T06:33:12.409463+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743144492.522801,
+                    "expires_date": "2025-03-28T06:48:12.522801+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb_id",
+                    "value": "7486744613715174000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1776839567,
+                    "expires_date": "2026-04-22T06:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_lb_ccc",
+                    "value": "1",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1776839567,
+                    "expires_date": "2026-04-22T06:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "rh0iarnnq2dged3hfe3deosr",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TPL",
+                    "value": "1",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sess",
+                    "value": "id=7eee70f4-dbe8-47ae-b666-e2d998a4d9e8&pk=0&pkc=0&prcg=0&b2b=False&reg=False&clname=&vat=False",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1744004026.071077,
+                    "expires_date": "2025-04-07T05:33:46.071077+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "hsh",
+                    "value": "00AE12DC0E5ECA3A79DCE2482B5F9500",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679568.382208,
+                    "expires_date": "2026-03-28T06:32:48.382208+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lastVisited",
+                    "value": "",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745732027.07118,
+                    "expires_date": "2025-04-27T05:33:47.071180+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AbTest",
+                    "value": "{\"TestType\":0,\"Code\":\"\"}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1748323968.38228,
+                    "expires_date": "2025-05-27T05:32:48.382280+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "prs",
+                    "value": "id=0&bnr=&nu=0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745818368.382301,
+                    "expires_date": "2025-04-28T05:32:48.382301+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SERVERID",
+                    "value": "web4",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486744613715174000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "vqa4OeWG4MaMUo.yooK9lOdhTLulhbPMpjgwWM.bm5k-1743143567-1.0.1.1-Y47B770vn..pB0LulZF5lT18tJJkyIM8lN3tjjPKhcwW1HLjcqCpYdDnyexpZhJEsmrPskVyQkAf1c2kbHenlSpBWLuL3KDRMayI.ziUmZ0",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743145367.809678,
+                    "expires_date": "2025-03-28T07:02:47.809678+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mainCountry",
+                    "value": "SI",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312769.099614,
+                    "expires_date": "2025-03-30T05:32:49.099614+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "shopSuggesterState",
+                    "value": "0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312769.099774,
+                    "expires_date": "2025-03-30T05:32:49.099774+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "brGgobyX2YixIx_tZmQ3rGvdEvitbjXKnysbZYLNZPI-1743143568-1.0.1.1-hCgBuGgeQHHME94f6800iK96ttxtZd7K.LrmJDxpK6WsSyE3zSOpfTlQWtKCCYfbuwdArraIP0rWkjzdm4glpaBoLu0zAEcZ2ZZlJzs_97Y",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743145368.181869,
+                    "expires_date": "2025-03-28T07:02:48.181869+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_mktr_cart",
+                    "value": "887759f8189c65d6330a2e87914e6618",
+                    "domain": ".www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919568,
+                    "expires_date": "2025-06-26T06:32:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "mCs",
+                    "value": "{\"dZones\":{},\"Version\":\"2\",\"AcceptAll\":1}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777699992.333785,
+                    "expires_date": "2026-05-02T05:33:12.333785+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1874145713.1743143592",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919592,
+                    "expires_date": "2025-06-26T06:33:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1562022153.1743143568",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703625.575904,
+                    "expires_date": "2026-05-02T06:33:45.575904+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_lb_id",
+                    "value": "7486744613715174000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1776839567,
+                    "expires_date": "2026-04-22T06:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_lb_ccc",
+                    "value": "1",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1776839567,
+                    "expires_date": "2026-04-22T06:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUkrgoGoXdm3oX8kaW3Xc_SHIYrotFuvYkaQiyOFVLBMsgkS6-QyHev4dxSN",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776839600.152659,
+                    "expires_date": "2026-04-22T06:33:20.152659+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSession_2834957",
+                    "value": "eyJpZCI6ImExYTlhYjQ2LTE5OTEtNGJhNC1iMTFmLTIzMTJkMDg3NzZiZiIsImMiOjE3NDMxNDM2MDAyNjEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743145400,
+                    "expires_date": "2025-03-28T07:03:20+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gaGtag",
+                    "value": "1743143568",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743230025,
+                    "expires_date": "2025-03-29T06:33:45+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "location",
+                    "value": "0%7C0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743147225.812574,
+                    "expires_date": "2025-03-28T07:33:45.812574+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__Host-ASPSESSIONIDQETRTDQC",
+                    "value": "ICIMAKGCJDIDJGBKIJLDFNPF",
+                    "domain": "e-shop.report",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2834957",
+                    "value": "eyJpZCI6IjNkMjRlZjZjLTNmODQtNTJmYS1hMjg1LTFlMGQzOGRjZmI5NyIsImNyZWF0ZWQiOjE3NDMxNDM2MDAyNTksImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679625,
+                    "expires_date": "2026-03-28T06:33:45+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_DONOCI",
+                    "value": "GS1.1.1743143568.1.1.1743143625.0.0.191733971",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703625.575589,
+                    "expires_date": "2026-05-02T06:33:45.575589+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "E%2DSHOP%2EREPORT",
+                    "value": "user%5FGUID=435FCB02%2DDE4A%2D42F8%2DBB8C%2D68F56BB00DFC&sites=svet%2Dsvetil%2Esi%2C",
+                    "domain": "e-shop.report",
+                    "path": "/",
+                    "expires": 1777703625.998595,
+                    "expires_date": "2026-05-02T06:33:45.998595+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "svet%2Dsvetil%2Esi",
+                    "value": "lastVisitDate=28%2E03%2E2025+7%3A33%3A20&firstVisitDate=28%2E03%2E2025+7%3A33%3A20&numOfVisits=1&UID=svet%2Dsvetil%2Esi%2D7eee70f4%2Ddbe8%2D47ae%2Db666%2De2d998a4d9e8&REFID=svet%2Dsvetil%2Esi%2Drh0iarnnq2dged3hfe3deosr&SID=svet%2Dsvetil%2Esi",
+                    "domain": "e-shop.report",
+                    "path": "/",
+                    "expires": 1777703625.998507,
+                    "expires_date": "2026-05-02T06:33:45.998507+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_E5E3QCZWM4",
+                    "value": "GS1.1.1743143568.1.1.1743143635.17.0.0",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703635.712826,
+                    "expires_date": "2026-05-02T06:33:55.712826+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Uporabljamo piškotke\n\n\n\n\nZa brezhibno delovanje naše spletne strani in za vaše počutje udobno in varno uporabljamo piškotke.\n\n\nŽelimo, da se v nasi spletni trgovini svet-svetil.si počutite udobno in varno. Za pravilno delovanje naše spletne strani boste naleteli na piškotke in druge tehnologije. Za kaj so dobri?\n\nPrilagajajo vam oglase in ponudbe izdelkov ter obdelujejo informacije med vami in našo trgovino.\n\nS klikom na \"Strinjam se\" , se strinjate in nam dovoljujete, da podatke o uporabi, identifikatorje uporabnikov in vaš naslov IP delimo z našimi tržnimi partnerji (tretjimi osebami), piškotke je mogoče uporabiti za prilagajanje oglasov. Če kliknete na \"Upravljanje nastavitev“, imate možnost sreminjanja obdelave podatkov in piškotkov ali pa jih popolnoma zavrniti, razen piškotkov, ki so potrebni za zagotavljanje delovanja naše spletne strani.\n\n\n\nPolitika zasebnosti\n\nPogoji poslovanja\n\n\n\n\n\n\nVeč informacij\nUpravljanje nastavitev \n\n\n\n\nStrinjam se\n\n\n\n\n\n\tdataLayer.push(\n\t{\n\t\t'event': 'GA",
+                "banner_z_index": 1050,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje nastavitev]  \nExplanation: \"Strinjam se\" is an ambiguous phrase that signifies acceptance, while \"Upravljanje nastavitev\" clearly refers to managing settings. There are no labels indicating declining all cookies or accepting only necessary ones.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Upravljanje nastavitev",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is an ambiguous phrase that signifies acceptance, while \"Upravljanje nastavitev\" clearly refers to managing settings. There are no labels indicating declining all cookies or accepting only necessary ones."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Strinjam se",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T07:32:47.082167",
+        "timestamp_stop": "2025-03-28T07:33:55.905159"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Upravljanje nastavitev)",
+            "Clicking an element of type (button), with text (Shrani priporočene nastavitve)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.svet-svetil.si/",
+            "https://www.svet-svetil.si/hisni-zvonci-videofoni/",
+            "https://www.svet-svetil.si/hisni-zvonci-videofoni/?filter=on&sProd=1",
+            "https://www.svet-svetil.si/ventilatorji/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "uda3eqqywc3go1mnggrh4yeo",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TPL",
+                    "value": "1",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sess",
+                    "value": "id=2efbd325-ac2a-4896-a70e-4ff952d5c886&pk=0&pkc=0&prcg=0&b2b=False&reg=False&clname=&vat=False",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1744004037.897827,
+                    "expires_date": "2025-04-07T05:33:57.897827+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "hsh",
+                    "value": "5035B858C397E0576FCD26A65629279F",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679637.897931,
+                    "expires_date": "2026-03-28T06:33:57.897931+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lastVisited",
+                    "value": "",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745732037.897964,
+                    "expires_date": "2025-04-27T05:33:57.897964+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AbTest",
+                    "value": "{\"TestType\":0,\"Code\":\"\"}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1748324037.89799,
+                    "expires_date": "2025-05-27T05:33:57.897990+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "prs",
+                    "value": "id=0&bnr=&nu=0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745818437.898005,
+                    "expires_date": "2025-04-28T05:33:57.898005+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SERVERID",
+                    "value": "web4",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486744918531133000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "hlEhlIP.us7WT.hqJSyO4WFXHVdCJrWZsDtBECfEAEk-1743143638-1.0.1.1-Z5AoIAyNkrypsixuaTd17f9Nh8bD49XGjbNj2JSncc0fORG4uLv0t2AVBg6VjAAcnLG8vOAh8WN0zv5D87AYhGE.V4nu3fJeAyfaQ2s5FDs",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743145438.321393,
+                    "expires_date": "2025-03-28T07:03:58.321393+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "T3Qo3dGfPDNHJva7ME3wllUDbBFcjS0iKhS5hG0H8cY-1743143638-1.0.1.1-HcvBgUEhLQeylV5L7iqnqqthGzhKDEAXhLtc1rTmEBRZvNjMahWY7mq9NIIzutZ6EeqiW9T2C8_i3Pu5LnPrNh6C18Dp8Lr_giCemSG.9fU",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743145438.585416,
+                    "expires_date": "2025-03-28T07:03:58.585416+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mainCountry",
+                    "value": "SI",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312838.771546,
+                    "expires_date": "2025-03-30T05:33:58.771546+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "shopSuggesterState",
+                    "value": "0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312838.771643,
+                    "expires_date": "2025-03-30T05:33:58.771643+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_mktr_cart",
+                    "value": "dea29ded69fa6989dcf80d63c095d999",
+                    "domain": ".www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919639,
+                    "expires_date": "2025-06-26T06:33:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "uda3eqqywc3go1mnggrh4yeo",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TPL",
+                    "value": "1",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sess",
+                    "value": "id=2efbd325-ac2a-4896-a70e-4ff952d5c886&pk=0&pkc=0&prcg=0&b2b=False&reg=False&clname=&vat=False",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1744004037.897827,
+                    "expires_date": "2025-04-07T05:33:57.897827+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "hsh",
+                    "value": "5035B858C397E0576FCD26A65629279F",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679637.897931,
+                    "expires_date": "2026-03-28T06:33:57.897931+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lastVisited",
+                    "value": "",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745732037.897964,
+                    "expires_date": "2025-04-27T05:33:57.897964+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AbTest",
+                    "value": "{\"TestType\":0,\"Code\":\"\"}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1748324037.89799,
+                    "expires_date": "2025-05-27T05:33:57.897990+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "prs",
+                    "value": "id=0&bnr=&nu=0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745818437.898005,
+                    "expires_date": "2025-04-28T05:33:57.898005+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SERVERID",
+                    "value": "web4",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486744918531133000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "hlEhlIP.us7WT.hqJSyO4WFXHVdCJrWZsDtBECfEAEk-1743143638-1.0.1.1-Z5AoIAyNkrypsixuaTd17f9Nh8bD49XGjbNj2JSncc0fORG4uLv0t2AVBg6VjAAcnLG8vOAh8WN0zv5D87AYhGE.V4nu3fJeAyfaQ2s5FDs",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743145438.321393,
+                    "expires_date": "2025-03-28T07:03:58.321393+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "T3Qo3dGfPDNHJva7ME3wllUDbBFcjS0iKhS5hG0H8cY-1743143638-1.0.1.1-HcvBgUEhLQeylV5L7iqnqqthGzhKDEAXhLtc1rTmEBRZvNjMahWY7mq9NIIzutZ6EeqiW9T2C8_i3Pu5LnPrNh6C18Dp8Lr_giCemSG.9fU",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743145438.585416,
+                    "expires_date": "2025-03-28T07:03:58.585416+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mainCountry",
+                    "value": "SI",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312838.771546,
+                    "expires_date": "2025-03-30T05:33:58.771546+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "shopSuggesterState",
+                    "value": "0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312838.771643,
+                    "expires_date": "2025-03-30T05:33:58.771643+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_mktr_cart",
+                    "value": "dea29ded69fa6989dcf80d63c095d999",
+                    "domain": ".www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919639,
+                    "expires_date": "2025-06-26T06:33:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "mCs",
+                    "value": "{\"dZones\":{},\"Version\":\"2\",\"AcceptAll\":1}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777700119.809293,
+                    "expires_date": "2026-05-02T05:35:19.809293+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.119551234.1743143720",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919719,
+                    "expires_date": "2025-06-26T06:35:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.484898553.1743143639",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703719.827058,
+                    "expires_date": "2026-05-02T06:35:19.827058+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_DONOCI",
+                    "value": "GS1.1.1743143638.1.1.1743143719.0.0.1045386544",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703719.85137,
+                    "expires_date": "2026-05-02T06:35:19.851370+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_E5E3QCZWM4",
+                    "value": "GS1.1.1743143639.1.1.1743143719.60.0.0",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703719.867201,
+                    "expires_date": "2026-05-02T06:35:19.867201+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743144620.120265,
+                    "expires_date": "2025-03-28T06:50:20.120265+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb_id",
+                    "value": "7486744918531133000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1776839638,
+                    "expires_date": "2026-04-22T06:33:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_lb_ccc",
+                    "value": "1",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1776839638,
+                    "expires_date": "2026-04-22T06:33:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "uda3eqqywc3go1mnggrh4yeo",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "TPL",
+                    "value": "1",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "sess",
+                    "value": "id=2efbd325-ac2a-4896-a70e-4ff952d5c886&pk=0&pkc=0&prcg=0&b2b=False&reg=False&clname=&vat=False",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1744004154.121897,
+                    "expires_date": "2025-04-07T05:35:54.121897+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "hsh",
+                    "value": "5035B858C397E0576FCD26A65629279F",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679637.897931,
+                    "expires_date": "2026-03-28T06:33:57.897931+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "lastVisited",
+                    "value": "",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745732154.121994,
+                    "expires_date": "2025-04-27T05:35:54.121994+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "AbTest",
+                    "value": "{\"TestType\":0,\"Code\":\"\"}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1748324037.89799,
+                    "expires_date": "2025-05-27T05:33:57.897990+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "prs",
+                    "value": "id=0&bnr=&nu=0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1745818437.898005,
+                    "expires_date": "2025-04-28T05:33:57.898005+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "SERVERID",
+                    "value": "web4",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_lb",
+                    "value": "7486744918531133000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "hlEhlIP.us7WT.hqJSyO4WFXHVdCJrWZsDtBECfEAEk-1743143638-1.0.1.1-Z5AoIAyNkrypsixuaTd17f9Nh8bD49XGjbNj2JSncc0fORG4uLv0t2AVBg6VjAAcnLG8vOAh8WN0zv5D87AYhGE.V4nu3fJeAyfaQ2s5FDs",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743145438.321393,
+                    "expires_date": "2025-03-28T07:03:58.321393+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "T3Qo3dGfPDNHJva7ME3wllUDbBFcjS0iKhS5hG0H8cY-1743143638-1.0.1.1-HcvBgUEhLQeylV5L7iqnqqthGzhKDEAXhLtc1rTmEBRZvNjMahWY7mq9NIIzutZ6EeqiW9T2C8_i3Pu5LnPrNh6C18Dp8Lr_giCemSG.9fU",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743145438.585416,
+                    "expires_date": "2025-03-28T07:03:58.585416+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "mainCountry",
+                    "value": "SI",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312838.771546,
+                    "expires_date": "2025-03-30T05:33:58.771546+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "shopSuggesterState",
+                    "value": "0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743312838.771643,
+                    "expires_date": "2025-03-30T05:33:58.771643+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_mktr_cart",
+                    "value": "dea29ded69fa6989dcf80d63c095d999",
+                    "domain": ".www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919639,
+                    "expires_date": "2025-06-26T06:33:59+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "mCs",
+                    "value": "{\"dZones\":{},\"Version\":\"2\",\"AcceptAll\":1}",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777700119.809293,
+                    "expires_date": "2026-05-02T05:35:19.809293+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.119551234.1743143720",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1750919720,
+                    "expires_date": "2025-06-26T06:35:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.484898553.1743143639",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703752.856017,
+                    "expires_date": "2026-05-02T06:35:52.856017+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_lb_id",
+                    "value": "7486744918531133000",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1776839638,
+                    "expires_date": "2026-04-22T06:33:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_lb_ccc",
+                    "value": "1",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1776839638,
+                    "expires_date": "2026-04-22T06:33:58+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUmBmdCf2eJ96bppzCrDFfokYiHMCu1AxrUIwAe1-OuhzV8PzFgue2GGraGs",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776839727.73447,
+                    "expires_date": "2026-04-22T06:35:27.734470+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSession_2834957",
+                    "value": "eyJpZCI6ImE2ODg5MDc4LTI5ZGEtNDQ4YS05MDg3LWU1Yjk2Y2Y4MTA2NCIsImMiOjE3NDMxNDM3Mjc4NTEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743145527,
+                    "expires_date": "2025-03-28T07:05:27+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gaGtag",
+                    "value": "1743143639",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743230153,
+                    "expires_date": "2025-03-29T06:35:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "location",
+                    "value": "0%7C0",
+                    "domain": "www.svet-svetil.si",
+                    "path": "/",
+                    "expires": 1743147353.159812,
+                    "expires_date": "2025-03-28T07:35:53.159812+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__Host-ASPSESSIONIDQETRTDQC",
+                    "value": "BMJMAKGCHIENHMHIBPCKGOJP",
+                    "domain": "e-shop.report",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2834957",
+                    "value": "eyJpZCI6IjNhZWYyYTNiLTcyMmQtNTFhMC1hNmIxLWJjMGQ4OWEwMDU5ZCIsImNyZWF0ZWQiOjE3NDMxNDM3Mjc4NDksImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1774679752,
+                    "expires_date": "2026-03-28T06:35:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_DONOCI",
+                    "value": "GS1.1.1743143638.1.1.1743143752.0.0.1045386544",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703752.855643,
+                    "expires_date": "2026-05-02T06:35:52.855643+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "E%2DSHOP%2EREPORT",
+                    "value": "user%5FGUID=4D731808%2D9C1C%2D491A%2DBFAD%2D2DBD999855DA&sites=svet%2Dsvetil%2Esi%2C",
+                    "domain": "e-shop.report",
+                    "path": "/",
+                    "expires": 1777703753.358329,
+                    "expires_date": "2026-05-02T06:35:53.358329+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "svet%2Dsvetil%2Esi",
+                    "value": "lastVisitDate=28%2E03%2E2025+7%3A35%3A53&UID=svet%2Dsvetil%2Esi%2D2efbd325%2Dac2a%2D4896%2Da70e%2D4ff952d5c886&REFID=svet%2Dsvetil%2Esi%2Duda3eqqywc3go1mnggrh4yeo&numOfVisits=2&firstVisitDate=28%2E03%2E2025+7%3A35%3A28&SID=svet%2Dsvetil%2Esi",
+                    "domain": "e-shop.report",
+                    "path": "/",
+                    "expires": 1777703753.358238,
+                    "expires_date": "2026-05-02T06:35:53.358238+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_E5E3QCZWM4",
+                    "value": "GS1.1.1743143639.1.1.1743143763.16.0.0",
+                    "domain": ".svet-svetil.si",
+                    "path": "/",
+                    "expires": 1777703763.019832,
+                    "expires_date": "2026-05-02T06:36:03.019832+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_save_1_click_1.png",
+            "010_decline_interaction_save_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_SAVE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Uporabljamo piškotke\n\n\n\n\nZa brezhibno delovanje naše spletne strani in za vaše počutje udobno in varno uporabljamo piškotke.\n\n\nŽelimo, da se v nasi spletni trgovini svet-svetil.si počutite udobno in varno. Za pravilno delovanje naše spletne strani boste naleteli na piškotke in druge tehnologije. Za kaj so dobri?\n\nPrilagajajo vam oglase in ponudbe izdelkov ter obdelujejo informacije med vami in našo trgovino.\n\nS klikom na \"Strinjam se\" , se strinjate in nam dovoljujete, da podatke o uporabi, identifikatorje uporabnikov in vaš naslov IP delimo z našimi tržnimi partnerji (tretjimi osebami), piškotke je mogoče uporabiti za prilagajanje oglasov. Če kliknete na \"Upravljanje nastavitev“, imate možnost sreminjanja obdelave podatkov in piškotkov ali pa jih popolnoma zavrniti, razen piškotkov, ki so potrebni za zagotavljanje delovanja naše spletne strani.\n\n\n\nPolitika zasebnosti\n\nPogoji poslovanja\n\n\n\n\n\n\nVeč informacij\nUpravljanje nastavitev \n\n\n\n\nStrinjam se\n\n\n\n\n\n\tdataLayer.push(\n\t{\n\t\t'event': 'GA",
+                "banner_z_index": 1050,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Strinjam se]  \nAmbiguousLabel2: None  \nGenericLabel3: [Upravljanje nastavitev]  \nExplanation: \"Strinjam se\" is an ambiguous acceptance phrase, while \"Upravljanje nastavitev\" is explicitly related to managing settings. There are no labels for accepting or declining all cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Upravljanje nastavitev",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is an ambiguous acceptance phrase, while \"Upravljanje nastavitev\" is explicitly related to managing settings. There are no labels for accepting or declining all cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Upravljanje nastavitev",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Središče nastavitev\n    \n    \n        \n            \n                \n                    \n                        Vaša zasebnost\n                    \n                \n                \n                        \n                            Analitični piškotki\n                        \n                    \n                        \n                            Marketinški piškotki\n                        \n                    \n                        \n                            Nastavitve\n                        \n                    \n                        \n                            Personalizacija\n                        \n                    \n                        \n                            Personalizirano oglaševanje\n                        \n                    \n                        \n                            Uporabniški podatki\n                        \n                    \n                        \n                            Zahtevani piškotki\n                        \n         ",
+                "banner_z_index": 1050,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Shrani priporočene nastavitve]  \nAmbiguousLabel2: None  \nGenericLabel3: [Shrani moje nastavitve]  \nExplanation: The button [Shrani priporočene nastavitve] suggests saving recommended settings, which is categorized as an ambiguous accept. [Shrani moje nastavitve] is related to saving settings and is categorized under GenericLabel3 for settings management. There are no clear accept or decline labels present.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Shrani priporočene nastavitve",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Shrani moje nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Shrani priporočene nastavitve suggests saving recommended settings, which is categorized as an ambiguous accept. Shrani moje nastavitve is related to saving settings and is categorized under GenericLabel3 for settings management. There are no clear accept or decline labels present."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 0.7142857142857143,
+                "settings_decline_element_text": "Shrani priporočene nastavitve",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": true,
+                "save_settings_num_clicks": 1,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: [Shrani priporočene nastavitve]\nExplanation: Found explicit save settings button labeled \"Shrani priporočene nastavitve\".",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": "Shrani priporočene nastavitve",
+                    "Explanation": "Found explicit save settings button labeled \"Shrani priporočene nastavitve\"."
+                },
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0.5714285714285714,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T07:33:57.557830",
+        "timestamp_stop": "2025-03-28T07:36:03.204792"
+    }
+}

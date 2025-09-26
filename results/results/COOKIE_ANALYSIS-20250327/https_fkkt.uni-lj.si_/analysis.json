@@ -1,0 +1,333 @@
+{
+    "web_page": "https://fkkt.uni-lj.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T19:06:20.111433",
+    "timestamp_stop": "2025-03-28T19:08:45.837300",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://fkkt.uni-lj.si/",
+            "https://fkkt.uni-lj.si/javna-narocila",
+            "https://fkkt.uni-lj.si/raziskovalna-infrastruktura/enota-za-analizo-makromolekul",
+            "https://fkkt.uni-lj.si/en/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [],
+            "NORMAL_AFTER_TRAVERSIAL": []
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T19:06:21.530070",
+        "timestamp_stop": "2025-03-28T19:06:52.839999"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://fkkt.uni-lj.si/",
+            "https://fkkt.uni-lj.si/javna-narocila",
+            "https://fkkt.uni-lj.si/raziskovalna-infrastruktura/enota-za-analizo-makromolekul",
+            "https://fkkt.uni-lj.si/en/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "dp_cookieconsent_status",
+                    "value": "{\"status\":\"approved\",\"checkboxes\":[{\"name\":\"statistics\",\"checked\":true},{\"name\":\"marketing\",\"checked\":true}]}",
+                    "domain": "fkkt.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774721241,
+                    "expires_date": "2026-03-28T18:07:21+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_C3FNXF2FZJ",
+                    "value": "GS1.1.1743185242.1.0.1743185242.0.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777745242.066081,
+                    "expires_date": "2026-05-02T18:07:22.066081+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.40764403.1743185242",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777745242.066785,
+                    "expires_date": "2026-05-02T18:07:22.066785+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "dp_cookieconsent_status",
+                    "value": "{\"status\":\"approved\",\"checkboxes\":[{\"name\":\"statistics\",\"checked\":true},{\"name\":\"marketing\",\"checked\":true}]}",
+                    "domain": "fkkt.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774721264,
+                    "expires_date": "2026-03-28T18:07:44+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.40764403.1743185242",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777745264.395415,
+                    "expires_date": "2026-05-02T18:07:44.395415+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_C3FNXF2FZJ",
+                    "value": "GS1.1.1743185242.1.1.1743185270.0.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777745270.04263,
+                    "expires_date": "2026-05-02T18:07:50.042630+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto fakultete za kemijo in kemijsko tehnologijo uporablja piškotke. Osnovni so že naloženi za optimalno delovanje spletnih storitev.\n\n\n    \n\n        Preberi več...\n    \n\n\n\n        \n    \n\n\n    \n        \n        Osnovni\n    \n    \n        \n        Statistika\n    \n    \n        \n        Oglaševanje\n    \n\n\n\n    \n    \n        \n    Dovoli vse\n\n\n        \n    Dovoli izbrano\n\n\n        \n    Zavrni vse\n\n\n    \n    Powered by DP Wired",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: [Dovoli izbrano]\nAmbiguousLabel2: None\nGenericLabel3: [Preberi več...]\nExplanation: The button [Dovoli vse] clearly signifies accepting all cookies, thus categorized under GenericLabel1. [Zavrni vse] indicates declining all cookies, placed under GenericLabel2. [Dovoli izbrano] is an ambiguous phrase that suggests accepting only selected options, hence categorized under AmbiguousLabel1. [Preberi več...] is related to gaining more information and is classified under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Preberi več...",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Dovoli vse clearly signifies accepting all cookies, thus categorized under GenericLabel1. Zavrni vse indicates declining all cookies, placed under GenericLabel2. Dovoli izbrano is an ambiguous phrase that suggests accepting only selected options, hence categorized under AmbiguousLabel1. Preberi več... is related to gaining more information and is classified under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T19:06:54.369921",
+        "timestamp_stop": "2025-03-28T19:07:50.555641"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni vse)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://fkkt.uni-lj.si/",
+            "https://fkkt.uni-lj.si/javna-narocila",
+            "https://fkkt.uni-lj.si/raziskovalna-infrastruktura/enota-za-analizo-makromolekul",
+            "https://fkkt.uni-lj.si/en/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "dp_cookieconsent_status",
+                    "value": "{\"status\":\"approved\",\"checkboxes\":[{\"name\":\"statistics\",\"checked\":false},{\"name\":\"marketing\",\"checked\":false}]}",
+                    "domain": "fkkt.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774721297,
+                    "expires_date": "2026-03-28T18:08:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "dp_cookieconsent_status",
+                    "value": "{\"status\":\"approved\",\"checkboxes\":[{\"name\":\"statistics\",\"checked\":false},{\"name\":\"marketing\",\"checked\":false}]}",
+                    "domain": "fkkt.uni-lj.si",
+                    "path": "/",
+                    "expires": 1774721319,
+                    "expires_date": "2026-03-28T18:08:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletno mesto fakultete za kemijo in kemijsko tehnologijo uporablja piškotke. Osnovni so že naloženi za optimalno delovanje spletnih storitev.\n\n\n    \n\n        Preberi več...\n    \n\n\n\n        \n    \n\n\n    \n        \n        Osnovni\n    \n    \n        \n        Statistika\n    \n    \n        \n        Oglaševanje\n    \n\n\n\n    \n    \n        \n    Dovoli vse\n\n\n        \n    Dovoli izbrano\n\n\n        \n    Zavrni vse\n\n\n    \n    Powered by DP Wired",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: [Dovoli izbrano]\nAmbiguousLabel2: None\nGenericLabel3: [Preberi več...]\nExplanation: \"Dovoli vse\" is categorized as accepting all cookies. \"Zavrni vse\" is clearly declining all cookies. \"Dovoli izbrano\" is considered ambiguous acceptance since it implies allowing selected options, while \"Preberi več...\" relates to seeking more information, fitting in the settings management category.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Preberi več...",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" is categorized as accepting all cookies. \"Zavrni vse\" is clearly declining all cookies. \"Dovoli izbrano\" is considered ambiguous acceptance since it implies allowing selected options, while \"Preberi več...\" relates to seeking more information, fitting in the settings management category."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T19:07:52.117710",
+        "timestamp_stop": "2025-03-28T19:08:45.556512"
+    }
+}

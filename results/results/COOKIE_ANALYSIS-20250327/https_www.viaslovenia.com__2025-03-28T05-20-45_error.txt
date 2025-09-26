@@ -1,0 +1,36 @@
+Error processing website: https://www.viaslovenia.com/
+Exception: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.viaslovenia.com/
+Call log:
+  - navigating to "https://www.viaslovenia.com/", waiting until "domcontentloaded"
+
+Traceback (most recent call last):
+  File "C:\Users\EnejM\Documents\Diploma\src\main.py", line 56, in crawler_worker
+    crawl = processor.crawl(website, website_output_dir)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 131, in crawl
+    raise e
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 119, in crawl
+    _process_normal_stage()
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 288, in _process_normal_stage
+    _visit_page(root_web_page, stage)
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 375, in _visit_page
+    page.goto(web_page, wait_until="domcontentloaded")
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9020, in goto
+    self._sync(
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.viaslovenia.com/
+Call log:
+  - navigating to "https://www.viaslovenia.com/", waiting until "domcontentloaded"
+

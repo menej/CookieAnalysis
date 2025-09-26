@@ -1,0 +1,2574 @@
+{
+    "web_page": "https://kuponko.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T21:25:47.582298",
+    "timestamp_stop": "2025-03-28T21:28:50.449231",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://kuponko.si/",
+            "https://kuponko.si/celje",
+            "https://kuponko.si/kupon/celje/popust-na-paket-zobozdravstvenih-storitev-s-ciscenjem-zobnega-kamna-204076",
+            "https://kuponko.si/kupon/izdelki/kar-popust-na-vrhunsko-masko-za-obraz-7-barvno-led-terapijo-204067"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "sghdcxtza0lxbvkej2dgb1tk",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_RCQCDWGDB9",
+                    "value": "GS1.1.1743193550.1.0.1743193550.60.0.0",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753550.465834,
+                    "expires_date": "2026-05-02T20:25:50.465834+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193550539.458864490648077864",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1750969550,
+                    "expires_date": "2025-06-26T20:25:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1825714224.1743193550",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753550.607994,
+                    "expires_date": "2026-05-02T20:25:50.607994+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1036711201.1743193551",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279950,
+                    "expires_date": "2025-03-29T20:25:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "85365123.1825714224.1743193550.1743193551.1743193551.1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753550.690041,
+                    "expires_date": "2026-05-02T20:25:50.690041+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "85365123",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "85365123.1743193551.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743194150,
+                    "expires_date": "2025-03-28T20:35:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "85365123.1.10.1743193551",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743195350,
+                    "expires_date": "2025-03-28T20:55:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smvr",
+                    "value": "eyJ2aXNpdHMiOjEsInZpZXdzIjoxLCJ0cyI6MTc0MzE5MzU1MDg1OCwiaXNOZXdTZXNzaW9uIjp0cnVlfQ==",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753550.859112,
+                    "expires_date": "2026-05-02T20:25:50.859112+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "smuuid",
+                    "value": "195de6eb00b-437881f02ddd-bab95848-5a3a3323-a88c9546-4415b599ea1c",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753550.959878,
+                    "expires_date": "2026-05-02T20:25:50.959878+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__insp_wid",
+                    "value": "1631349760",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.878773,
+                    "expires_date": "2026-03-28T20:25:50.878773+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_slim",
+                    "value": "1743193550878",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.878948,
+                    "expires_date": "2026-03-28T20:25:50.878948+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_nv",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.879481,
+                    "expires_date": "2026-03-28T20:25:50.879481+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpu",
+                    "value": "aHR0cHM6Ly9rdXBvbmtvLnNpLw%3D%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.880248,
+                    "expires_date": "2026-03-28T20:25:50.880248+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpt",
+                    "value": "S3Vwb25rby5zaSAtIFBvcHVzdGkgb2QgNTAgLSA5NSU%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.880503,
+                    "expires_date": "2026-03-28T20:25:50.880503+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_smvs",
+                    "value": "DIRECT",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279951,
+                    "expires_date": "2025-03-29T20:25:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_norec_sess",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729551.123206,
+                    "expires_date": "2026-03-28T20:25:51.123206+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "sghdcxtza0lxbvkej2dgb1tk",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193550539.458864490648077864",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1750969579,
+                    "expires_date": "2025-06-26T20:26:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1036711201.1743193551",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279979,
+                    "expires_date": "2025-03-29T20:26:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "85365123.1825714224.1743193550.1743193551.1743193551.1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753579.614566,
+                    "expires_date": "2026-05-02T20:26:19.614566+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "85365123",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "85365123.1743193551.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743194150,
+                    "expires_date": "2025-03-28T20:35:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smuuid",
+                    "value": "195de6eb00b-437881f02ddd-bab95848-5a3a3323-a88c9546-4415b599ea1c",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753579.620749,
+                    "expires_date": "2026-05-02T20:26:19.620749+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__insp_wid",
+                    "value": "1631349760",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.878773,
+                    "expires_date": "2026-03-28T20:25:50.878773+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_nv",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.879481,
+                    "expires_date": "2026-03-28T20:25:50.879481+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpu",
+                    "value": "aHR0cHM6Ly9rdXBvbmtvLnNpLw%3D%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.880248,
+                    "expires_date": "2026-03-28T20:25:50.880248+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpt",
+                    "value": "S3Vwb25rby5zaSAtIFBvcHVzdGkgb2QgNTAgLSA5NSU%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729550.880503,
+                    "expires_date": "2026-03-28T20:25:50.880503+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_smvs",
+                    "value": "DIRECT",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279951,
+                    "expires_date": "2025-03-29T20:25:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_norec_sess",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729551.123206,
+                    "expires_date": "2026-03-28T20:25:51.123206+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tvoje-mesto.kuponko.si",
+                    "value": "celje",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": 1777753558.982904,
+                    "expires_date": "2026-05-02T20:25:58.982904+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1825714224.1743193550",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753579.609002,
+                    "expires_date": "2026-05-02T20:26:19.609002+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "85365123.4.10.1743193551",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743195379,
+                    "expires_date": "2025-03-28T20:56:19+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smvr",
+                    "value": "eyJ2aXNpdHMiOjEsInZpZXdzIjo0LCJ0cyI6MTc0MzE5MzU3OTYxOCwiaXNOZXdTZXNzaW9uIjpmYWxzZX0=",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753579.618377,
+                    "expires_date": "2026-05-02T20:26:19.618377+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_RCQCDWGDB9",
+                    "value": "GS1.1.1743193550.1.1.1743193579.31.0.0",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753579.651809,
+                    "expires_date": "2026-05-02T20:26:19.651809+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_slim",
+                    "value": "1743193579726",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729579.726759,
+                    "expires_date": "2026-03-28T20:26:19.726759+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T21:25:49.133234",
+        "timestamp_stop": "2025-03-28T21:26:27.514089"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Sprejmi in nadaljuj)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://kuponko.si/",
+            "https://kuponko.si/celje",
+            "https://kuponko.si/kupon/celje/popust-na-paket-zobozdravstvenih-storitev-s-ciscenjem-zobnega-kamna-204076",
+            "https://kuponko.si/kupon/izdelki/kar-popust-na-vrhunsko-masko-za-obraz-7-barvno-led-terapijo-204067"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "iegwdbt4r4hxs3r1mewbiy1k",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_RCQCDWGDB9",
+                    "value": "GS1.1.1743193590.1.0.1743193590.60.0.0",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.199851,
+                    "expires_date": "2026-05-02T20:26:30.199851+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193590458.690172367680649793",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1750969590,
+                    "expires_date": "2025-06-26T20:26:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "85365123.1223447772.1743193590.1743193591.1743193591.1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.614878,
+                    "expires_date": "2026-05-02T20:26:30.614878+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "85365123",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "85365123.1743193591.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743194190,
+                    "expires_date": "2025-03-28T20:36:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "85365123.1.10.1743193591",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743195390,
+                    "expires_date": "2025-03-28T20:56:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1223447772.1743193590",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.635559,
+                    "expires_date": "2026-05-02T20:26:30.635559+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1622935947.1743193591",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279990,
+                    "expires_date": "2025-03-29T20:26:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smvr",
+                    "value": "eyJ2aXNpdHMiOjEsInZpZXdzIjoxLCJ0cyI6MTc0MzE5MzU5MDc1MSwiaXNOZXdTZXNzaW9uIjp0cnVlfQ==",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.752263,
+                    "expires_date": "2026-05-02T20:26:30.752263+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "smuuid",
+                    "value": "195de6f4be1-87d3a4ac2b62-8cf180f7-7578636f-4621e116-983592cb1e99",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.863113,
+                    "expires_date": "2026-05-02T20:26:30.863113+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__insp_wid",
+                    "value": "1631349760",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.772279,
+                    "expires_date": "2026-03-28T20:26:30.772279+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_slim",
+                    "value": "1743193590772",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.772442,
+                    "expires_date": "2026-03-28T20:26:30.772442+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_nv",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.772957,
+                    "expires_date": "2026-03-28T20:26:30.772957+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpu",
+                    "value": "aHR0cHM6Ly9rdXBvbmtvLnNpLw%3D%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.77394,
+                    "expires_date": "2026-03-28T20:26:30.773940+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpt",
+                    "value": "S3Vwb25rby5zaSAtIFBvcHVzdGkgb2QgNTAgLSA5NSU%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.774193,
+                    "expires_date": "2026-03-28T20:26:30.774193+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_smvs",
+                    "value": "DIRECT",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279991,
+                    "expires_date": "2025-03-29T20:26:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_norec_sess",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729591.030722,
+                    "expires_date": "2026-03-28T20:26:31.030722+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "iegwdbt4r4hxs3r1mewbiy1k",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_RCQCDWGDB9",
+                    "value": "GS1.1.1743193590.1.0.1743193590.60.0.0",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.199851,
+                    "expires_date": "2026-05-02T20:26:30.199851+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193590458.690172367680649793",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1750969620,
+                    "expires_date": "2025-06-26T20:27:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "85365123.1223447772.1743193590.1743193591.1743193591.1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.614878,
+                    "expires_date": "2026-05-02T20:26:30.614878+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "85365123",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "85365123.1743193591.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743194190,
+                    "expires_date": "2025-03-28T20:36:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "85365123.1.10.1743193591",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743195390,
+                    "expires_date": "2025-03-28T20:56:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1223447772.1743193590",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.635559,
+                    "expires_date": "2026-05-02T20:26:30.635559+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1622935947.1743193591",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279990,
+                    "expires_date": "2025-03-29T20:26:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smvr",
+                    "value": "eyJ2aXNpdHMiOjEsInZpZXdzIjoxLCJ0cyI6MTc0MzE5MzU5MDc1MSwiaXNOZXdTZXNzaW9uIjp0cnVlfQ==",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.752263,
+                    "expires_date": "2026-05-02T20:26:30.752263+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "smuuid",
+                    "value": "195de6f4be1-87d3a4ac2b62-8cf180f7-7578636f-4621e116-983592cb1e99",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753590.863113,
+                    "expires_date": "2026-05-02T20:26:30.863113+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__insp_wid",
+                    "value": "1631349760",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.772279,
+                    "expires_date": "2026-03-28T20:26:30.772279+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_slim",
+                    "value": "1743193590772",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.772442,
+                    "expires_date": "2026-03-28T20:26:30.772442+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_nv",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.772957,
+                    "expires_date": "2026-03-28T20:26:30.772957+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpu",
+                    "value": "aHR0cHM6Ly9rdXBvbmtvLnNpLw%3D%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.77394,
+                    "expires_date": "2026-03-28T20:26:30.773940+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpt",
+                    "value": "S3Vwb25rby5zaSAtIFBvcHVzdGkgb2QgNTAgLSA5NSU%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.774193,
+                    "expires_date": "2026-03-28T20:26:30.774193+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_smvs",
+                    "value": "DIRECT",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279991,
+                    "expires_date": "2025-03-29T20:26:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_norec_sess",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729591.030722,
+                    "expires_date": "2026-03-28T20:26:31.030722+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookieacceptance.kuponko.si",
+                    "value": "True",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": 1774729620.444168,
+                    "expires_date": "2026-03-28T20:27:00.444168+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "iegwdbt4r4hxs3r1mewbiy1k",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193590458.690172367680649793",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1750969647,
+                    "expires_date": "2025-06-26T20:27:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "85365123.1223447772.1743193590.1743193591.1743193591.1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753647.083759,
+                    "expires_date": "2026-05-02T20:27:27.083759+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "85365123",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "85365123.1743193591.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743194190,
+                    "expires_date": "2025-03-28T20:36:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1622935947.1743193591",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743280047,
+                    "expires_date": "2025-03-29T20:27:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smuuid",
+                    "value": "195de6f4be1-87d3a4ac2b62-8cf180f7-7578636f-4621e116-983592cb1e99",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753647.089718,
+                    "expires_date": "2026-05-02T20:27:27.089718+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__insp_wid",
+                    "value": "1631349760",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.772279,
+                    "expires_date": "2026-03-28T20:26:30.772279+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_nv",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.772957,
+                    "expires_date": "2026-03-28T20:26:30.772957+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpu",
+                    "value": "aHR0cHM6Ly9rdXBvbmtvLnNpLw%3D%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.77394,
+                    "expires_date": "2026-03-28T20:26:30.773940+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpt",
+                    "value": "S3Vwb25rby5zaSAtIFBvcHVzdGkgb2QgNTAgLSA5NSU%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729590.774193,
+                    "expires_date": "2026-03-28T20:26:30.774193+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_smvs",
+                    "value": "DIRECT",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743279991,
+                    "expires_date": "2025-03-29T20:26:31+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_norec_sess",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729591.030722,
+                    "expires_date": "2026-03-28T20:26:31.030722+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookieacceptance.kuponko.si",
+                    "value": "True",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": 1774729620.444168,
+                    "expires_date": "2026-03-28T20:27:00.444168+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "tvoje-mesto.kuponko.si",
+                    "value": "celje",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": 1777753626.63494,
+                    "expires_date": "2026-05-02T20:27:06.634940+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1223447772.1743193590",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753647.080163,
+                    "expires_date": "2026-05-02T20:27:27.080163+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "85365123.4.10.1743193591",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743195447,
+                    "expires_date": "2025-03-28T20:57:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smvr",
+                    "value": "eyJ2aXNpdHMiOjEsInZpZXdzIjo0LCJ0cyI6MTc0MzE5MzY0NzA4NywiaXNOZXdTZXNzaW9uIjpmYWxzZX0=",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753647.087333,
+                    "expires_date": "2026-05-02T20:27:27.087333+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_RCQCDWGDB9",
+                    "value": "GS1.1.1743193590.1.1.1743193647.3.0.0",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753647.120969,
+                    "expires_date": "2026-05-02T20:27:27.120969+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_slim",
+                    "value": "1743193647218",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729647.218188,
+                    "expires_date": "2026-03-28T20:27:27.218188+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na tej spletni strani uporabljamo piškotke\n            ...za učinkovitejše delovanje nekaterih funkcij in zagotavljanje varnosti.\n        \n        \n            Podrobnosti o piškotkih na kuponko.si\n            Sprejmi in nadaljuj",
+                "banner_z_index": 10,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi in nadaljuj]  \nAmbiguousLabel2: None  \nGenericLabel3: [Podrobnosti o piškotkih na kuponko.si]  \nExplanation: The button \"Sprejmi in nadaljuj\" is categorized as an ambiguous acceptance since it indicates agreement but is not a clear acceptance of all cookies. \"Podrobnosti o piškotkih na kuponko.si\" is categorized under settings as it provides further details.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in nadaljuj",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Podrobnosti o piškotkih na kuponko.si",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Sprejmi in nadaljuj\" is categorized as an ambiguous acceptance since it indicates agreement but is not a clear acceptance of all cookies. \"Podrobnosti o piškotkih na kuponko.si\" is categorized under settings as it provides further details."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi in nadaljuj",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T21:26:29.087591",
+        "timestamp_stop": "2025-03-28T21:27:35.026617"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Podrobnosti o piškotkih na kuponko.si)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://kuponko.si/",
+            "https://kuponko.si/",
+            "https://kuponko.si/celje",
+            "https://kuponko.si/kupon/celje/popust-na-paket-zobozdravstvenih-storitev-s-ciscenjem-zobnega-kamna-204076",
+            "https://kuponko.si/kupon/izdelki/kar-popust-na-vrhunsko-masko-za-obraz-7-barvno-led-terapijo-204067"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "elrwitx4tsyanpfeevsrtgaf",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_RCQCDWGDB9",
+                    "value": "GS1.1.1743193657.1.0.1743193657.60.0.0",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753657.67635,
+                    "expires_date": "2026-05-02T20:27:37.676350+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193658038.506173821396826057",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1750969658,
+                    "expires_date": "2025-06-26T20:27:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "85365123.1310370952.1743193658.1743193658.1743193658.1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753658.133614,
+                    "expires_date": "2026-05-02T20:27:38.133614+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "85365123",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "85365123.1743193658.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743194258,
+                    "expires_date": "2025-03-28T20:37:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "85365123.1.10.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743195458,
+                    "expires_date": "2025-03-28T20:57:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1310370952.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753658.148085,
+                    "expires_date": "2026-05-02T20:27:38.148085+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.76345382.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743280058,
+                    "expires_date": "2025-03-29T20:27:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smvr",
+                    "value": "eyJ2aXNpdHMiOjEsInZpZXdzIjoxLCJ0cyI6MTc0MzE5MzY1ODIyMSwiaXNOZXdTZXNzaW9uIjp0cnVlfQ==",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753658.222545,
+                    "expires_date": "2026-05-02T20:27:38.222545+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "smuuid",
+                    "value": "195de70536f-a5374f0bc962-18d5aff3-ff8bf756-f1e721fc-db8ea38903e6",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753658.340648,
+                    "expires_date": "2026-05-02T20:27:38.340648+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__insp_wid",
+                    "value": "1631349760",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.319821,
+                    "expires_date": "2026-03-28T20:27:38.319821+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_slim",
+                    "value": "1743193658319",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.320308,
+                    "expires_date": "2026-03-28T20:27:38.320308+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_nv",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.322345,
+                    "expires_date": "2026-03-28T20:27:38.322345+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpu",
+                    "value": "aHR0cHM6Ly9rdXBvbmtvLnNpLw%3D%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.324012,
+                    "expires_date": "2026-03-28T20:27:38.324012+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpt",
+                    "value": "S3Vwb25rby5zaSAtIFBvcHVzdGkgb2QgNTAgLSA5NSU%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.324291,
+                    "expires_date": "2026-03-28T20:27:38.324291+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_smvs",
+                    "value": "DIRECT",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743280058,
+                    "expires_date": "2025-03-29T20:27:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_norec_sess",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.572871,
+                    "expires_date": "2026-03-28T20:27:38.572871+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "elrwitx4tsyanpfeevsrtgaf",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193658038.506173821396826057",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1750969692,
+                    "expires_date": "2025-06-26T20:28:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "85365123.1310370952.1743193658.1743193658.1743193658.1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753693.030533,
+                    "expires_date": "2026-05-02T20:28:13.030533+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "85365123",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "85365123.1743193658.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743194258,
+                    "expires_date": "2025-03-28T20:37:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.76345382.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743280093,
+                    "expires_date": "2025-03-29T20:28:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smuuid",
+                    "value": "195de70536f-a5374f0bc962-18d5aff3-ff8bf756-f1e721fc-db8ea38903e6",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753693.03949,
+                    "expires_date": "2026-05-02T20:28:13.039490+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__insp_wid",
+                    "value": "1631349760",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.319821,
+                    "expires_date": "2026-03-28T20:27:38.319821+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_nv",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.322345,
+                    "expires_date": "2026-03-28T20:27:38.322345+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpu",
+                    "value": "aHR0cHM6Ly9rdXBvbmtvLnNpLw%3D%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.324012,
+                    "expires_date": "2026-03-28T20:27:38.324012+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpt",
+                    "value": "S3Vwb25rby5zaSAtIFBvcHVzdGkgb2QgNTAgLSA5NSU%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.324291,
+                    "expires_date": "2026-03-28T20:27:38.324291+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_smvs",
+                    "value": "DIRECT",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743280058,
+                    "expires_date": "2025-03-29T20:27:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_norec_sess",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.572871,
+                    "expires_date": "2026-03-28T20:27:38.572871+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_RCQCDWGDB9",
+                    "value": "GS1.1.1743193657.1.1.1743193692.25.0.0",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753692.930917,
+                    "expires_date": "2026-05-02T20:28:12.930917+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1310370952.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753693.024506,
+                    "expires_date": "2026-05-02T20:28:13.024506+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "85365123.3.10.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743195493,
+                    "expires_date": "2025-03-28T20:58:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smvr",
+                    "value": "eyJ2aXNpdHMiOjEsInZpZXdzIjozLCJ0cyI6MTc0MzE5MzY5MzAzNiwiaXNOZXdTZXNzaW9uIjpmYWxzZX0=",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753693.036462,
+                    "expires_date": "2026-05-02T20:28:13.036462+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_slim",
+                    "value": "1743193693232",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729693.232565,
+                    "expires_date": "2026-03-28T20:28:13.232565+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "ASP.NET_SessionId",
+                    "value": "elrwitx4tsyanpfeevsrtgaf",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743193658038.506173821396826057",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1750969722,
+                    "expires_date": "2025-06-26T20:28:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__utma",
+                    "value": "85365123.1310370952.1743193658.1743193658.1743193658.1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753722.216317,
+                    "expires_date": "2026-05-02T20:28:42.216317+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmc",
+                    "value": "85365123",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmz",
+                    "value": "85365123.1743193658.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmt",
+                    "value": "1",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743194258,
+                    "expires_date": "2025-03-28T20:37:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.76345382.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743280122,
+                    "expires_date": "2025-03-29T20:28:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smuuid",
+                    "value": "195de70536f-a5374f0bc962-18d5aff3-ff8bf756-f1e721fc-db8ea38903e6",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753722.224833,
+                    "expires_date": "2026-05-02T20:28:42.224833+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "__insp_wid",
+                    "value": "1631349760",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.319821,
+                    "expires_date": "2026-03-28T20:27:38.319821+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_nv",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.322345,
+                    "expires_date": "2026-03-28T20:27:38.322345+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpu",
+                    "value": "aHR0cHM6Ly9rdXBvbmtvLnNpLw%3D%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.324012,
+                    "expires_date": "2026-03-28T20:27:38.324012+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_targlpt",
+                    "value": "S3Vwb25rby5zaSAtIFBvcHVzdGkgb2QgNTAgLSA5NSU%3D",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.324291,
+                    "expires_date": "2026-03-28T20:27:38.324291+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_smvs",
+                    "value": "DIRECT",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743280058,
+                    "expires_date": "2025-03-29T20:27:38+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__insp_norec_sess",
+                    "value": "true",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729658.572871,
+                    "expires_date": "2026-03-28T20:27:38.572871+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "tvoje-mesto.kuponko.si",
+                    "value": "celje",
+                    "domain": "kuponko.si",
+                    "path": "/",
+                    "expires": 1777753701.785647,
+                    "expires_date": "2026-05-02T20:28:21.785647+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1310370952.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753722.212816,
+                    "expires_date": "2026-05-02T20:28:42.212816+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__utmb",
+                    "value": "85365123.6.10.1743193658",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1743195522,
+                    "expires_date": "2025-03-28T20:58:42+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "smvr",
+                    "value": "eyJ2aXNpdHMiOjEsInZpZXdzIjo2LCJ0cyI6MTc0MzE5MzcyMjIyMiwiaXNOZXdTZXNzaW9uIjpmYWxzZX0=",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753722.222521,
+                    "expires_date": "2026-05-02T20:28:42.222521+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_RCQCDWGDB9",
+                    "value": "GS1.1.1743193657.1.1.1743193722.59.0.0",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1777753722.252968,
+                    "expires_date": "2026-05-02T20:28:42.252968+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__insp_slim",
+                    "value": "1743193722405",
+                    "domain": ".kuponko.si",
+                    "path": "/",
+                    "expires": 1774729722.405774,
+                    "expires_date": "2026-03-28T20:28:42.405774+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_click_1_FAIL_redirected.png",
+            "008_decline_interaction_settings_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na tej spletni strani uporabljamo piškotke\n            ...za učinkovitejše delovanje nekaterih funkcij in zagotavljanje varnosti.\n        \n        \n            Podrobnosti o piškotkih na kuponko.si\n            Sprejmi in nadaljuj",
+                "banner_z_index": 10,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": true,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Sprejmi in nadaljuj]\nAmbiguousLabel2: None\nGenericLabel3: [Podrobnosti o piškotkih na kuponko.si]\nExplanation: \"Sprejmi in nadaljuj\" is categorized as an ambiguous acceptance as it suggests agreeing to terms without specifying full acceptance. \"Podrobnosti o piškotkih na kuponko.si\" refers to details about cookies, thus it fits under settings management.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi in nadaljuj",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Podrobnosti o piškotkih na kuponko.si",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi in nadaljuj\" is categorized as an ambiguous acceptance as it suggests agreeing to terms without specifying full acceptance. \"Podrobnosti o piškotkih na kuponko.si\" refers to details about cookies, thus it fits under settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Podrobnosti o piškotkih na kuponko.si",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T21:27:36.617642",
+        "timestamp_stop": "2025-03-28T21:28:50.186024"
+    }
+}

@@ -1,0 +1,950 @@
+{
+    "web_page": "https://www.slg-ce.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T02:05:06.916992",
+    "timestamp_stop": "2025-03-28T02:07:47.385295",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.slg-ce.si/",
+            "https://slg-ce.si/domov/ostalo/seznam-iger/sen-kresne-noci-3.html",
+            "https://slg-ce.si/uploads/images/Gallery/Repertoar/Sen-kresne-no%C4%8Di/010WEB_Sen_kresne_noci_foto_Mankica_Kranjec_Ducheyne.jpg",
+            "https://slg-ce.si/domov/ostalo/seznam-igralcev/damjan-m-trbovc.html"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "horkj4hsj84v9ham0ne630dt7c",
+                    "domain": "www.slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "Yhj10j-7ztc",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "oTms0cJa8F8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675909.752255,
+                    "expires_date": "2025-09-24T01:05:09.752255+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgXw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675909.752497,
+                    "expires_date": "2025-09-24T01:05:09.752497+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CPKAq5i0v5S6MRCP_qrDyquMAxjmurXDyquMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675909.752651,
+                    "expires_date": "2025-09-24T01:05:09.752651+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "horkj4hsj84v9ham0ne630dt7c",
+                    "domain": "www.slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "Yhj10j-7ztc",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "oTms0cJa8F8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675919.383899,
+                    "expires_date": "2025-09-24T01:05:19.383899+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgXw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675919.384006,
+                    "expires_date": "2025-09-24T01:05:19.384006+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CPKAq5i0v5S6MRCP_qrDyquMAxjmurXDyquMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675909.752651,
+                    "expires_date": "2025-09-24T01:05:09.752651+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "rngrpu9dsib42cvinbbl15sbji",
+                    "domain": "slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T02:05:08.251626",
+        "timestamp_stop": "2025-03-28T02:05:45.980646"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Sprejmi)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.slg-ce.si/",
+            "https://slg-ce.si/domov/ostalo/seznam-iger/sen-kresne-noci-3.html",
+            "https://slg-ce.si/uploads/images/Gallery/Repertoar/Sen-kresne-no%C4%8Di/010WEB_Sen_kresne_noci_foto_Mankica_Kranjec_Ducheyne.jpg",
+            "https://slg-ce.si/domov/ostalo/seznam-igralcev/damjan-m-trbovc.html"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "g029gglmqoafmoekiq7fdub74u",
+                    "domain": "www.slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "po1AOfi08WY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "yO01Bvo2JAw",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675949.035273,
+                    "expires_date": "2025-09-24T01:05:49.035273+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgHA%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675949.035404,
+                    "expires_date": "2025-09-24T01:05:49.035404+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CL_43dThqeD4QBDgmoTWyquMAxjnlJLWyquMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675949.035459,
+                    "expires_date": "2025-09-24T01:05:49.035459+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "g029gglmqoafmoekiq7fdub74u",
+                    "domain": "www.slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "po1AOfi08WY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "yO01Bvo2JAw",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675973.927271,
+                    "expires_date": "2025-09-24T01:06:13.927271+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgHA%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675973.927419,
+                    "expires_date": "2025-09-24T01:06:13.927419+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CL_43dThqeD4QBDgmoTWyquMAxjnlJLWyquMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675949.035459,
+                    "expires_date": "2025-09-24T01:05:49.035459+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_consent",
+                    "value": "yes",
+                    "domain": ".slg-ce.si",
+                    "path": "/",
+                    "expires": 1777683972.46769,
+                    "expires_date": "2026-05-02T01:06:12.467690+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1816593659.1743123974",
+                    "domain": ".slg-ce.si",
+                    "path": "/",
+                    "expires": 1777683974.280003,
+                    "expires_date": "2026-05-02T01:06:14.280003+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_V9TN7BQ5TV",
+                    "value": "GS1.1.1743123974.1.0.1743123974.0.0.0",
+                    "domain": ".slg-ce.si",
+                    "path": "/",
+                    "expires": 1777683974.336881,
+                    "expires_date": "2026-05-02T01:06:14.336881+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "g029gglmqoafmoekiq7fdub74u",
+                    "domain": "www.slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "po1AOfi08WY",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "yO01Bvo2JAw",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675980.603109,
+                    "expires_date": "2025-09-24T01:06:20.603109+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgHA%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675980.603228,
+                    "expires_date": "2025-09-24T01:06:20.603228+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CL_43dThqeD4QBDgmoTWyquMAxjnlJLWyquMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758675949.035459,
+                    "expires_date": "2025-09-24T01:05:49.035459+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookie_consent",
+                    "value": "yes",
+                    "domain": ".slg-ce.si",
+                    "path": "/",
+                    "expires": 1777683972.46769,
+                    "expires_date": "2026-05-02T01:06:12.467690+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1816593659.1743123974",
+                    "domain": ".slg-ce.si",
+                    "path": "/",
+                    "expires": 1777683996.32866,
+                    "expires_date": "2026-05-02T01:06:36.328660+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "832sjo4f397dvk6v9l00urha8h",
+                    "domain": "slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_V9TN7BQ5TV",
+                    "value": "GS1.1.1743123974.1.1.1743123996.0.0.0",
+                    "domain": ".slg-ce.si",
+                    "path": "/",
+                    "expires": 1777683996.341476,
+                    "expires_date": "2026-05-02T01:06:36.341476+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran uporablja piškotke SprejmiO piškotkih",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Sprejmi]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button [Sprejmi] is classified as an ambiguous accept since it signifies agreement but does not explicitly indicate that all cookies are accepted. There are no buttons for accepting all cookies, declining cookies, or managing settings present in the input.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button Sprejmi is classified as an ambiguous accept since it signifies agreement but does not explicitly indicate that all cookies are accepted. There are no buttons for accepting all cookies, declining cookies, or managing settings present in the input."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "Sprejmi",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T02:05:47.585038",
+        "timestamp_stop": "2025-03-28T02:06:45.646266"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.slg-ce.si/",
+            "https://slg-ce.si/domov/ostalo/seznam-iger/sen-kresne-noci-3.html",
+            "https://slg-ce.si/uploads/images/Gallery/Repertoar/Sen-kresne-no%C4%8Di/010WEB_Sen_kresne_noci_foto_Mankica_Kranjec_Ducheyne.jpg",
+            "https://slg-ce.si/domov/ostalo/seznam-igralcev/damjan-m-trbovc.html"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "dv9ddou58faeb4vds94l6qmdn7",
+                    "domain": "www.slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "BOfjd3ZOhP0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "waWjSYYKb68",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676008.742526,
+                    "expires_date": "2025-09-24T01:06:48.742526+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgOw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676008.742621,
+                    "expires_date": "2025-09-24T01:06:48.742621+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CImF9a3coKjdcxCb8cHyyquMAxixks_yyquMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676008.742691,
+                    "expires_date": "2025-09-24T01:06:48.742691+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "dv9ddou58faeb4vds94l6qmdn7",
+                    "domain": "www.slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "BOfjd3ZOhP0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "waWjSYYKb68",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676008.742526,
+                    "expires_date": "2025-09-24T01:06:48.742526+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgOw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676008.742621,
+                    "expires_date": "2025-09-24T01:06:48.742621+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CImF9a3coKjdcxCb8cHyyquMAxixks_yyquMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676008.742691,
+                    "expires_date": "2025-09-24T01:06:48.742691+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "dv9ddou58faeb4vds94l6qmdn7",
+                    "domain": "www.slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "BOfjd3ZOhP0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "waWjSYYKb68",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676041.544945,
+                    "expires_date": "2025-09-24T01:07:21.544945+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgOw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676041.545054,
+                    "expires_date": "2025-09-24T01:07:21.545054+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CImF9a3coKjdcxCb8cHyyquMAxixks_yyquMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758676008.742691,
+                    "expires_date": "2025-09-24T01:06:48.742691+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "CMSSESSIDe31c9d43a47e",
+                    "value": "q11chpt6igf7tge9b4mvm0k4ef",
+                    "domain": "slg-ce.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_best_candidate_NO_BUTTONS_1.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Spletna stran uporablja piškotke SprejmiO piškotkih",
+                "banner_z_index": 2147483647,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Sprejmi]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: \"Sprejmi\" is an ambiguous phrase that signifies acceptance, but it does not specifically state acceptance of all cookies. There are no clear labels for accepting or declining all cookies, nor any settings management options present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "\"Sprejmi\" is an ambiguous phrase that signifies acceptance, but it does not specifically state acceptance of all cookies. There are no clear labels for accepting or declining all cookies, nor any settings management options present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T02:06:47.288157",
+        "timestamp_stop": "2025-03-28T02:07:47.107973"
+    }
+}

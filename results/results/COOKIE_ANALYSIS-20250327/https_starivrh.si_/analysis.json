@@ -1,0 +1,954 @@
+{
+    "web_page": "https://starivrh.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-29T00:27:27.630668",
+    "timestamp_stop": "2025-03-29T00:30:10.414848",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://starivrh.si/",
+            "https://starivrh.si/kamere",
+            "https://starivrh.si/o-smuciscu/",
+            "https://starivrh.si/o-smuciscu/#primary"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrn6lcdrk848A4EiltKxFp05mJYImzYVi8IiTuSKf9ytxb8znEmv5NvPXaNANFUdwFPwByYGyQLo5Aj6Ro",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758756451.273804,
+                    "expires_date": "2025-09-24T23:27:31.273804+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_B10550B2Q9",
+                    "value": "GS1.1.1743204449.1.0.1743204449.0.0.0",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764449.771682,
+                    "expires_date": "2026-05-02T23:27:29.771682+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1855550639.1743204450",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764449.772231,
+                    "expires_date": "2026-05-02T23:27:29.772231+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740449,
+                    "expires_date": "2026-03-28T23:27:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-analytics",
+                    "value": "no",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740449,
+                    "expires_date": "2026-03-28T23:27:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyooCy3Ucx5d1gSp5J4AxWe1RayTTLcSJS8rc4OS5lBN7qpBL95QCmPik-eiSEqwmO-1Pr7d8t1jFjqq0UA",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758756465.315551,
+                    "expires_date": "2025-09-24T23:27:45.315551+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1855550639.1743204450",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764464.536927,
+                    "expires_date": "2026-05-02T23:27:44.536927+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740449,
+                    "expires_date": "2026-03-28T23:27:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-analytics",
+                    "value": "no",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740449,
+                    "expires_date": "2026-03-28T23:27:29+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_B10550B2Q9",
+                    "value": "GS1.1.1743204449.1.1.1743204470.0.0.0",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764470.509403,
+                    "expires_date": "2026-05-02T23:27:50.509403+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-29T00:27:29.126132",
+        "timestamp_stop": "2025-03-29T00:27:56.935681"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (SPREJMI)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://starivrh.si/",
+            "https://starivrh.si/kamere",
+            "https://starivrh.si/o-smuciscu/",
+            "https://starivrh.si/o-smuciscu/#primary"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyop3HZw0bJqmRs96yPh6_9R8TT3PFGUHZnVgGojqWEKvdhd3gnTAR5M76lvZj9YEJ6RwfRRrdRrfq6fd38",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758756481.622342,
+                    "expires_date": "2025-09-24T23:28:01.622342+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_B10550B2Q9",
+                    "value": "GS1.1.1743204480.1.0.1743204480.0.0.0",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764480.165309,
+                    "expires_date": "2026-05-02T23:28:00.165309+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.771789552.1743204480",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764480.165984,
+                    "expires_date": "2026-05-02T23:28:00.165984+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740480,
+                    "expires_date": "2026-03-28T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-analytics",
+                    "value": "no",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740480,
+                    "expires_date": "2026-03-28T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyop3HZw0bJqmRs96yPh6_9R8TT3PFGUHZnVgGojqWEKvdhd3gnTAR5M76lvZj9YEJ6RwfRRrdRrfq6fd38",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758756481.622342,
+                    "expires_date": "2025-09-24T23:28:01.622342+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_B10550B2Q9",
+                    "value": "GS1.1.1743204480.1.0.1743204480.0.0.0",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764480.165309,
+                    "expires_date": "2026-05-02T23:28:00.165309+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.771789552.1743204480",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764480.165984,
+                    "expires_date": "2026-05-02T23:28:00.165984+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740480,
+                    "expires_date": "2026-03-28T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-analytics",
+                    "value": "no",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740480,
+                    "expires_date": "2026-03-28T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieLawInfoConsent",
+                    "value": "eyJuZWNlc3NhcnkiOnRydWUsImFuYWx5dGljcyI6ZmFsc2V9",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740502,
+                    "expires_date": "2026-03-28T23:28:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "viewed_cookie_policy",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740502,
+                    "expires_date": "2026-03-28T23:28:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoJNY7KUpI3eaWtXkNLWsG_sIwlvEuxMv7KVbbXzsi8Q4491DJoaycNFi7bU-peCeWPZp6ZcKgaYTqOmVw",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758756514.771007,
+                    "expires_date": "2025-09-24T23:28:34.771007+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.771789552.1743204480",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764514.00368,
+                    "expires_date": "2026-05-02T23:28:34.003680+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740480,
+                    "expires_date": "2026-03-28T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-analytics",
+                    "value": "no",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740480,
+                    "expires_date": "2026-03-28T23:28:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieLawInfoConsent",
+                    "value": "eyJuZWNlc3NhcnkiOnRydWUsImFuYWx5dGljcyI6ZmFsc2V9",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740502,
+                    "expires_date": "2026-03-28T23:28:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "viewed_cookie_policy",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740502,
+                    "expires_date": "2026-03-28T23:28:22+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_B10550B2Q9",
+                    "value": "GS1.1.1743204480.1.1.1743204519.0.0.0",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764519.914084,
+                    "expires_date": "2026-05-02T23:28:39.914084+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na naši spletni strani uporabljamo piškotke, da vam zagotavljamo najboljšo izkušnjo uporabe spletne strani po vaših željah ob ponovnih obiskih. S klikom na “Sprejmi vse” soglašate z uporabo VSEH piškotkov.Nastavitve piškotkovSPREJMI",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [SPREJMI]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [SPREJMI] is categorized as an ambiguous acceptance phrase, and [Nastavitve piškotkov] is identified as the settings label. There are no buttons for accepting all cookies or declining all cookies.",
+                "llm_response_parsed": {
+                    "Accept": "SPREJMI",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button SPREJMI is categorized as an ambiguous acceptance phrase, and Nastavitve piškotkov is identified as the settings label. There are no buttons for accepting all cookies or declining all cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "SPREJMI",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-29T00:27:58.554093",
+        "timestamp_stop": "2025-03-29T00:28:46.341061"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Nastavitve piškotkov)",
+            "Clicking an element of type (a), with text (Shrani in sprejmi)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://starivrh.si/",
+            "https://starivrh.si/kamere",
+            "https://starivrh.si/o-smuciscu/",
+            "https://starivrh.si/o-smuciscu/#primary"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqpLj-Gb0PlgwXzDeQV2y--sLfZ9VidcypZradAp73mPdH5O-Mz-ssbhvDwaO1UuBPEh2CRIea0leksBaQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758756530.077884,
+                    "expires_date": "2025-09-24T23:28:50.077884+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_B10550B2Q9",
+                    "value": "GS1.1.1743204528.1.0.1743204528.0.0.0",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764528.587875,
+                    "expires_date": "2026-05-02T23:28:48.587875+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.360106276.1743204529",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764528.588419,
+                    "expires_date": "2026-05-02T23:28:48.588419+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740528,
+                    "expires_date": "2026-03-28T23:28:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-analytics",
+                    "value": "no",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740528,
+                    "expires_date": "2026-03-28T23:28:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqpLj-Gb0PlgwXzDeQV2y--sLfZ9VidcypZradAp73mPdH5O-Mz-ssbhvDwaO1UuBPEh2CRIea0leksBaQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758756530.077884,
+                    "expires_date": "2025-09-24T23:28:50.077884+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_B10550B2Q9",
+                    "value": "GS1.1.1743204528.1.0.1743204528.0.0.0",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764528.587875,
+                    "expires_date": "2026-05-02T23:28:48.587875+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.360106276.1743204529",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764528.588419,
+                    "expires_date": "2026-05-02T23:28:48.588419+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740528,
+                    "expires_date": "2026-03-28T23:28:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-analytics",
+                    "value": "no",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740528,
+                    "expires_date": "2026-03-28T23:28:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieLawInfoConsent",
+                    "value": "eyJuZWNlc3NhcnkiOnRydWUsImFuYWx5dGljcyI6ZmFsc2V9",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740586,
+                    "expires_date": "2026-03-28T23:29:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "viewed_cookie_policy",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740586,
+                    "expires_date": "2026-03-28T23:29:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyrQofdkNYPBW6B-MD0zo0GIi30Y1gA_YB_2lu6k2JcMlO_97iJo_iE0VDdxu50-7r4sXCglej4vKp430zg",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758756598.474986,
+                    "expires_date": "2025-09-24T23:29:58.474986+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.360106276.1743204529",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764597.734401,
+                    "expires_date": "2026-05-02T23:29:57.734401+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-necessary",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740528,
+                    "expires_date": "2026-03-28T23:28:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookielawinfo-checkbox-analytics",
+                    "value": "no",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740528,
+                    "expires_date": "2026-03-28T23:28:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieLawInfoConsent",
+                    "value": "eyJuZWNlc3NhcnkiOnRydWUsImFuYWx5dGljcyI6ZmFsc2V9",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740586,
+                    "expires_date": "2026-03-28T23:29:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "viewed_cookie_policy",
+                    "value": "yes",
+                    "domain": "starivrh.si",
+                    "path": "/",
+                    "expires": 1774740586,
+                    "expires_date": "2026-03-28T23:29:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_B10550B2Q9",
+                    "value": "GS1.1.1743204528.1.1.1743204603.0.0.0",
+                    "domain": ".starivrh.si",
+                    "path": "/",
+                    "expires": 1777764603.681879,
+                    "expires_date": "2026-05-02T23:30:03.681879+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_save_1_click_1.png",
+            "010_decline_interaction_save_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_SAVE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Na naši spletni strani uporabljamo piškotke, da vam zagotavljamo najboljšo izkušnjo uporabe spletne strani po vaših željah ob ponovnih obiskih. S klikom na “Sprejmi vse” soglašate z uporabo VSEH piškotkov.Nastavitve piškotkovSPREJMI",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [SPREJMI]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve piškotkov]\nExplanation: The button [SPREJMI] is categorized as an ambiguous acceptance, as it is a general agreement phrase. The label [Nastavitve piškotkov] is classified under settings, indicating a menu for managing cookie preferences.",
+                "llm_response_parsed": {
+                    "Accept": "SPREJMI",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve piškotkov",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button SPREJMI is categorized as an ambiguous acceptance, as it is a general agreement phrase. The label Nastavitve piškotkov is classified under settings, indicating a menu for managing cookie preferences."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nastavitve piškotkov",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Zapri\n\t\t  \n\t\t  \n\t\t\t\n\t\n\t\t\n\t\t\t\n\t\t\t\tVeč o piškotkih\t\t\t\t\n\t\t\t\t\tSpletno mesto uporablja piškotke za izboljšanje vaše izkušnje med navigacijo po njem. Od tega se piškotki, ki so razvrščeni po potrebi, shranijo v vašem brskalniku, saj so bistveni za delovanje osnovnih funkcij spletnega mesta. Uporabljamo tudi piško...\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tObvezni\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tObvezni\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tVedno omogočeno\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tObvezni piškotki so nujno potrebni za pravilno delovanje spletnega mesta. Ti piškotki anonimno zagotavljajo osnovne funkcionalnosti spletnega mesta. \nPiškotekTrajanjeOpiscookielawinfo-checkbox-analytics11 mesecevPiškotek se uporablja za shranjevanje soglasja uporabnika za piškotke v kategoriji \"Analitični piškotki\".cookielawinfo-checkbox-necessary11 mesecevPiškotek se uporablja za shranjevanje soglasja uporabnika za piškotke v kategoriji \"Potrebni piškotki\".viewed_cookie_policy11 mesecevPiš",
+                "banner_z_index": 999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: None  \nGenericLabel2: None  \nAmbiguousLabel1: [Shrani in sprejmi]  \nAmbiguousLabel2: None  \nGenericLabel3: None  \nExplanation: The button [Shrani in sprejmi] suggests an ambiguous acceptance of settings, as it involves saving and accepting preferences without clearly indicating that it accepts all cookies. There are no labels present for accepting all cookies or declining all cookies, and no specific label for managing settings.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Shrani in sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button Shrani in sprejmi suggests an ambiguous acceptance of settings, as it involves saving and accepting preferences without clearly indicating that it accepts all cookies. There are no labels present for accepting all cookies or declining all cookies, and no specific label for managing settings."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Shrani in sprejmi",
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": true,
+                "save_settings_num_clicks": 1,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": "Save Settings: [Shrani in sprejmi]\nExplanation: Found a button that indicates saving and confirming the current settings.",
+                "save_settings_llm_response_parsed": {
+                    "Save Settings": "Shrani in sprejmi",
+                    "Explanation": "Found a button that indicates saving and confirming the current settings."
+                },
+                "save_settings_llm_consensus_reached": true,
+                "save_settings_llm_consensus_value": 1.0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-29T00:28:47.973569",
+        "timestamp_stop": "2025-03-29T00:30:10.144708"
+    }
+}

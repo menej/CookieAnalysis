@@ -1,0 +1,697 @@
+{
+    "web_page": "https://www.doberavto.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T19:20:59.924806",
+    "timestamp_stop": "2025-03-28T19:23:39.553539",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.doberavto.si/",
+            "https://www.doberavto.si/napredno-iskanje",
+            "https://www.doberavto.si/oglas/MBTMG8NH",
+            "https://www.doberavto.si/oglas/KF8RNNLF"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:MHc0ZGFFS1p5ZlNPRFBGZjdGVExCbWFKVVJlRlFVQ0U,consent:no,action:,necessary:yes,functional:no,analytics:no,advertisement:no",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722064,
+                    "expires_date": "2026-03-28T18:21:04+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:MHc0ZGFFS1p5ZlNPRFBGZjdGVExCbWFKVVJlRlFVQ0U,consent:no,action:,necessary:yes,functional:no,analytics:no,advertisement:no",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722089,
+                    "expires_date": "2026-03-28T18:21:29+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "vertx-web.session",
+                    "value": "e2d276b92b2ae001e6c4b918084f6ca4",
+                    "domain": "www.doberavto.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T19:21:01.311228",
+        "timestamp_stop": "2025-03-28T19:21:36.085512"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.doberavto.si/",
+            "https://www.doberavto.si/napredno-iskanje",
+            "https://www.doberavto.si/oglas/MBTMG8NH",
+            "https://www.doberavto.si/oglas/KF8RNNLF"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:RTVkdGdvQXpUa0htcW1NelhNbk11YnU0NWtyZzZXVWU,consent:no,action:,necessary:yes,functional:no,analytics:no,advertisement:no",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722100,
+                    "expires_date": "2026-03-28T18:21:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "new-terms-notification",
+                    "value": "shown",
+                    "domain": "www.doberavto.si",
+                    "path": "/",
+                    "expires": 1777746114.456039,
+                    "expires_date": "2026-05-02T18:21:54.456039+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:RTVkdGdvQXpUa0htcW1NelhNbk11YnU0NWtyZzZXVWU,consent:yes,action:yes,necessary:yes,functional:yes,analytics:yes,advertisement:yes",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722125,
+                    "expires_date": "2026-03-28T18:22:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.397749467.1743186126",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1777746125.711396,
+                    "expires_date": "2026-05-02T18:22:05.711396+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_L5ZMF52RGB",
+                    "value": "GS1.1.1743186125.1.0.1743186125.60.0.0",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1777746125.710879,
+                    "expires_date": "2026-05-02T18:22:05.710879+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743187025.781303,
+                    "expires_date": "2025-03-28T18:37:05.781303+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750962125.81785,
+                    "expires_date": "2025-06-26T18:22:05.817850+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743186125955.343724165693260439",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1750962125,
+                    "expires_date": "2025-06-26T18:22:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2811279",
+                    "value": "eyJpZCI6ImFlYmFmNDRiLTNiNjQtNWFjNi04YTFkLWIxMDMxNDcyYWI1YyIsImNyZWF0ZWQiOjE3NDMxODYxMjYwMDksImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722126,
+                    "expires_date": "2026-03-28T18:22:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_2811279",
+                    "value": "eyJpZCI6IjY2ZmQ4M2YxLTU2ZGUtNGFjOC05ZjVhLWQ5NzY0YzdlMjUyOSIsImMiOjE3NDMxODYxMjYwMTAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1743187926,
+                    "expires_date": "2025-03-28T18:52:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=2b3882f2111fb040:T=1743186126:RT=1743186126:S=AA-AfjbZx8Lh7V5SBy06fELOk_Dw",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1758738126,
+                    "expires_date": "2025-09-24T18:22:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "new-terms-notification",
+                    "value": "shown",
+                    "domain": "www.doberavto.si",
+                    "path": "/",
+                    "expires": 1777746114.456039,
+                    "expires_date": "2026-05-02T18:21:54.456039+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:RTVkdGdvQXpUa0htcW1NelhNbk11YnU0NWtyZzZXVWU,consent:yes,action:yes,necessary:yes,functional:yes,analytics:yes,advertisement:yes",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722125,
+                    "expires_date": "2026-03-28T18:22:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.397749467.1743186126",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1777746125.711396,
+                    "expires_date": "2026-05-02T18:22:05.711396+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743187025.781303,
+                    "expires_date": "2025-03-28T18:37:05.781303+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".region1.google-analytics.com",
+                    "path": "/",
+                    "expires": 1750962125.81785,
+                    "expires_date": "2025-06-26T18:22:05.817850+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743186125955.343724165693260439",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1750962150,
+                    "expires_date": "2025-06-26T18:22:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSession_2811279",
+                    "value": "eyJpZCI6IjY2ZmQ4M2YxLTU2ZGUtNGFjOC05ZjVhLWQ5NzY0YzdlMjUyOSIsImMiOjE3NDMxODYxMjYwMTAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1743187926,
+                    "expires_date": "2025-03-28T18:52:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=2b3882f2111fb040:T=1743186126:RT=1743186126:S=AA-AfjbZx8Lh7V5SBy06fELOk_Dw",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1758738126,
+                    "expires_date": "2025-09-24T18:22:06+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "i18n_redirected",
+                    "value": "si",
+                    "domain": "www.doberavto.si",
+                    "path": "/",
+                    "expires": 1774722150,
+                    "expires_date": "2026-03-28T18:22:30+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "vertx-web.session",
+                    "value": "5a44f5f504c6953e66a04eeba8f01e53",
+                    "domain": "www.doberavto.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_2811279",
+                    "value": "eyJpZCI6ImFlYmFmNDRiLTNiNjQtNWFjNi04YTFkLWIxMDMxNDcyYWI1YyIsImNyZWF0ZWQiOjE3NDMxODYxMjYwMDksImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722151,
+                    "expires_date": "2026-03-28T18:22:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_L5ZMF52RGB",
+                    "value": "GS1.1.1743186125.1.1.1743186150.35.0.0",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1777746150.986216,
+                    "expires_date": "2026-05-02T18:22:30.986216+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotki    Spletna stran NLB Car&Go d.o.o. uporablja piškotke. Nujne, ki so potrebni za delovanje spletne strani, smo že naložili. Veseli bomo, če nam dovolite, da naložimo tudi funkcionalne, analitične in oglaševalske piškotke.    Prilagodi Samo nujni Sprejmi vse",
+                "banner_z_index": 9999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Samo nujni]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Prilagodi]\nExplanation: The button [Sprejmi vse] is categorized as accepting all cookies. The button [Samo nujni] is categorized as declining all non-essential cookies. The button [Prilagodi] is categorized for managing settings.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Samo nujni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Prilagodi",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized as accepting all cookies. The button Samo nujni is categorized as declining all non-essential cookies. The button Prilagodi is categorized for managing settings."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T19:21:37.629206",
+        "timestamp_stop": "2025-03-28T19:22:36.899841"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Samo nujni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.doberavto.si/",
+            "https://www.doberavto.si/napredno-iskanje",
+            "https://www.doberavto.si/oglas/MBTMG8NH",
+            "https://www.doberavto.si/oglas/KF8RNNLF"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:VElOU2RPdWd6RU85ZUt3aG5iVGJoS0xJbHYzT2haSTQ,consent:no,action:,necessary:yes,functional:no,analytics:no,advertisement:no",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722161,
+                    "expires_date": "2026-03-28T18:22:41+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "new-terms-notification",
+                    "value": "shown",
+                    "domain": "www.doberavto.si",
+                    "path": "/",
+                    "expires": 1777746175.241332,
+                    "expires_date": "2026-05-02T18:22:55.241332+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:VElOU2RPdWd6RU85ZUt3aG5iVGJoS0xJbHYzT2haSTQ,consent:no,action:yes,necessary:yes,functional:no,analytics:no,advertisement:no",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722188,
+                    "expires_date": "2026-03-28T18:23:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "new-terms-notification",
+                    "value": "shown",
+                    "domain": "www.doberavto.si",
+                    "path": "/",
+                    "expires": 1777746175.241332,
+                    "expires_date": "2026-05-02T18:22:55.241332+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieyes-consent",
+                    "value": "consentid:VElOU2RPdWd6RU85ZUt3aG5iVGJoS0xJbHYzT2haSTQ,consent:no,action:yes,necessary:yes,functional:no,analytics:no,advertisement:no",
+                    "domain": ".doberavto.si",
+                    "path": "/",
+                    "expires": 1774722188,
+                    "expires_date": "2026-03-28T18:23:08+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "vertx-web.session",
+                    "value": "28124b6fc515420b7be9d238eb7828f8",
+                    "domain": "www.doberavto.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Piškotki    Spletna stran NLB Car&Go d.o.o. uporablja piškotke. Nujne, ki so potrebni za delovanje spletne strani, smo že naložili. Veseli bomo, če nam dovolite, da naložimo tudi funkcionalne, analitične in oglaševalske piškotke.    Prilagodi Samo nujni Sprejmi vse",
+                "banner_z_index": 9999999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Samo nujni]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Prilagodi]\nExplanation: The button [Sprejmi vse] clearly indicates acceptance of all cookies, which fits GenericLabel1. The button [Samo nujni] indicates a preference for only necessary cookies, fitting GenericLabel2. The button [Prilagodi] suggests managing cookie settings, thus fitting GenericLabel3. There are no ambiguous accept or decline phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Samo nujni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Prilagodi",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse clearly indicates acceptance of all cookies, which fits GenericLabel1. The button Samo nujni indicates a preference for only necessary cookies, fitting GenericLabel2. The button Prilagodi suggests managing cookie settings, thus fitting GenericLabel3. There are no ambiguous accept or decline phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Samo nujni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T19:22:38.495485",
+        "timestamp_stop": "2025-03-28T19:23:39.264087"
+    }
+}

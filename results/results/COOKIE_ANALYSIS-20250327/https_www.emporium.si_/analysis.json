@@ -1,0 +1,3926 @@
+{
+    "web_page": "https://www.emporium.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T15:37:20.859740",
+    "timestamp_stop": "2025-03-28T15:41:02.851609",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.emporium.si/",
+            "https://www.emporium.si/sl/si/zenske-pravkar-prispelo-cevlji-salonarji",
+            "https://www.emporium.si/sl/si/zenski-pasovi",
+            "https://www.emporium.si/sl/si/zenske-trendi-posebne-kolekcije-dress-to-impress-by-pinko"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypPIWfse_5XKTRFPXKyhw1w32N43u3lqWQOyJB4q_P1RY8UqPBt_2xcdUkHdyh5nCzvTLRnPoISRYxqRIQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724644.950247,
+                    "expires_date": "2025-09-24T14:37:24.950247+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "00002JVCCuorqd_Jo_1AJGoAL0b:1ec4jnhq5",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "topCatId",
+                    "value": "57501",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732643.061497,
+                    "expires_date": "2026-05-02T14:37:23.061497+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "topCatLink",
+                    "value": "%2Fsl%2Fsi%2Fzenske",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732643.063844,
+                    "expires_date": "2026-05-02T14:37:23.063844+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_SESSION_ESTABLISHED",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_AUTHENTICATION_-1002",
+                    "value": "-1002%2CH53%2Fp6MyZYlmgirfaDLQwrzurO6ni%2FjVfHgYZNCA73w%3D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_ACTIVEPOINTER",
+                    "value": "-11%2C11353",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_USERACTIVITY_-1002",
+                    "value": "-1002%2C11353%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C382895540%2CFJuZQppE%2BBntdh24w0MUQxwuu3GqpX48LEctv5ulM6YhdvAEKdpf1NcOx4KPfpB7CmeF7LeARTZO7yaKEO4LNNY9LaU1ogeMfqgX%2FUwvD8HmCSPvFmfENRLmGjI4ooSBi7pDc0dwq22G%2FixaKVsuM4e1GDEpAK74RCu2QVbLQJGQ5xeMAOQJX9XUTM%2FjgevyiKtHtUgjxhnR%2BPBCitMbz%2Fd4mbWdVTtnQtsCds1nMqyjR0A3h%2BlNzaCEyhBhkaXo",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_GENERIC_ACTIVITYDATA",
+                    "value": "[409612177%3Atrue%3Afalse%3A0%3AVhzGIrBa8oVvc2cyskJHN%2BGguF6V63WaIp1pljUXl84%3D][com.ibm.commerce.context.entitlement.EntitlementContext|11005%2611005%26null%26-2000%26null%26null%26null][com.ibm.commerce.context.audit.AuditContext|null][com.ibm.commerce.context.globalization.GlobalizationContext|-11%26EUR%26-11%26EUR][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][com.ibm.commerce.catalog.businesscontext.CatalogContext|10701%26null%26false%26false%26false][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.ExternalCartContext|null][CTXSETNAME|Store][com.ibm.commerce.context.base.BaseContext|11353%26-1002%26-1002%26-1][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_CartOrderId_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172643431.178391970305196601",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948643,
+                    "expires_date": "2025-06-26T14:37:23+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22QN6d3HP4TysXj7gF7y76%22%2C%22expiryDate%22%3A%222026-03-28T14%3A37%3A23.745Z%22%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708643,
+                    "expires_date": "2026-03-28T14:37:23+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uwvqp1hddZ5y5YhvRo7eNefRv9",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750948643.828355,
+                    "expires_date": "2025-06-26T14:37:23.828355+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "tAd8YSZMGEZthS0spisR_1743172644290",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708643.983074,
+                    "expires_date": "2026-03-28T14:37:23.983074+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "tAd8YSZMGEZthS0spisR_sMEUMVbXqztoso8Vfvyd_1743172644290",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708643.98321,
+                    "expires_date": "2026-03-28T14:37:23.983210+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743172644",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708643.983308,
+                    "expires_date": "2026-03-28T14:37:23.983308+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&6fc61481-ce3c-495c-8444-d0b00015ad04\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774708645.052234,
+                    "expires_date": "2026-03-28T14:37:25.052234+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNzI2NDQ7MjswMjHqmxHmoEUsBrRped+/35XCy2Y1ug7jb8WK1lS4OK5p8g==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758724645.052377,
+                    "expires_date": "2025-09-24T14:37:25.052377+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743172644:t=1743259044:v=2:sig=AQHDT4lczKh75kztSXIRnpxf-LTh-gLN\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743259045.052432,
+                    "expires_date": "2025-03-29T14:37:25.052432+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708644.099872,
+                    "expires_date": "2026-03-28T14:37:24.099872+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758724644.099974,
+                    "expires_date": "2025-09-24T14:37:24.099974+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948644,
+                    "expires_date": "2025-06-26T14:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQEJZBC71NK3DEN6QKFQEEPT_.tt.1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948644,
+                    "expires_date": "2025-06-26T14:37:24+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "QlzY9xdMmTUCWk7wcSyVSE-Cq_L-R6PMtTnEsObetbnQzr_ROnuJ8PNqnWHif8h91aWLzieFbHutGENepPglYi4oKqOuDSU3u_8ROmn1Of8.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948644.480926,
+                    "expires_date": "2025-06-26T14:37:24.480926+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948644.481091,
+                    "expires_date": "2025-06-26T14:37:24.481091+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "2100683358409775304",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948644.481132,
+                    "expires_date": "2025-06-26T14:37:24.481132+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2E?_dYf6!!]tbPl@/@8+nOv3U_kA7^$DeGF8-XK_E7hFT(#M=_[!r2J(aG+Mvn?$Z7Y4laAsm=Qfw8]]5)q:_mGcx3If)y3KL9D3I?*wZ([53",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948644.481044,
+                    "expires_date": "2025-06-26T14:37:24.481044+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyq2A0iq9BafcK4IU12HyWeWdSCd3K_9dLOkfj3rmjhPU_CvovhPPkRF4GXumb-wcHG23SLmszqMBBR9M_I",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724677.163628,
+                    "expires_date": "2025-09-24T14:37:57.163628+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "00002JVCCuorqd_Jo_1AJGoAL0b:1ec4jnhq5",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "topCatId",
+                    "value": "57501",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732675.907034,
+                    "expires_date": "2026-05-02T14:37:55.907034+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "topCatLink",
+                    "value": "%2Fsl%2Fsi%2Fzenske",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732676.430536,
+                    "expires_date": "2026-05-02T14:37:56.430536+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_SESSION_ESTABLISHED",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_AUTHENTICATION_-1002",
+                    "value": "-1002%2CH53%2Fp6MyZYlmgirfaDLQwrzurO6ni%2FjVfHgYZNCA73w%3D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_ACTIVEPOINTER",
+                    "value": "-11%2C11353",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_USERACTIVITY_-1002",
+                    "value": "-1002%2C11353%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C382895540%2CFJuZQppE%2BBntdh24w0MUQxwuu3GqpX48LEctv5ulM6YhdvAEKdpf1NcOx4KPfpB7CmeF7LeARTZO7yaKEO4LNNY9LaU1ogeMfqgX%2FUwvD8HmCSPvFmfENRLmGjI4ooSBi7pDc0dwq22G%2FixaKVsuM4e1GDEpAK74RCu2QVbLQJGQ5xeMAOQJX9XUTM%2FjgevyiKtHtUgjxhnR%2BPBCitMbz%2Fd4mbWdVTtnQtsCds1nMqyjR0A3h%2BlNzaCEyhBhkaXo",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_GENERIC_ACTIVITYDATA",
+                    "value": "[409612177%3Atrue%3Afalse%3A0%3AVhzGIrBa8oVvc2cyskJHN%2BGguF6V63WaIp1pljUXl84%3D][com.ibm.commerce.context.entitlement.EntitlementContext|11005%2611005%26null%26-2000%26null%26null%26null][com.ibm.commerce.context.audit.AuditContext|null][com.ibm.commerce.context.globalization.GlobalizationContext|-11%26EUR%26-11%26EUR][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][com.ibm.commerce.catalog.businesscontext.CatalogContext|10701%26null%26false%26false%26false][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.ExternalCartContext|null][CTXSETNAME|Store][com.ibm.commerce.context.base.BaseContext|11353%26-1002%26-1002%26-1][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_CartOrderId_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172643431.178391970305196601",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948676,
+                    "expires_date": "2025-06-26T14:37:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uwvqp1hddZ5y5YhvRo7eNefRv9",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750948676.667081,
+                    "expires_date": "2025-06-26T14:37:56.667081+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "tAd8YSZMGEZthS0spisR_1743172644290",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708643.983074,
+                    "expires_date": "2026-03-28T14:37:23.983074+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "tAd8YSZMGEZthS0spisR_sMEUMVbXqztoso8Vfvyd_1743172644290",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708643.98321,
+                    "expires_date": "2026-03-28T14:37:23.983210+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743172644",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708643.983308,
+                    "expires_date": "2026-03-28T14:37:23.983308+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&6fc61481-ce3c-495c-8444-d0b00015ad04\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774708645.052234,
+                    "expires_date": "2026-03-28T14:37:25.052234+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNzI2NDQ7MjswMjHqmxHmoEUsBrRped+/35XCy2Y1ug7jb8WK1lS4OK5p8g==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758724645.052377,
+                    "expires_date": "2025-09-24T14:37:25.052377+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743172644:t=1743259044:v=2:sig=AQHDT4lczKh75kztSXIRnpxf-LTh-gLN\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743259045.052432,
+                    "expires_date": "2025-03-29T14:37:25.052432+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708644.099872,
+                    "expires_date": "2026-03-28T14:37:24.099872+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758724644.099974,
+                    "expires_date": "2025-09-24T14:37:24.099974+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948676,
+                    "expires_date": "2025-06-26T14:37:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQEJZBC71NK3DEN6QKFQEEPT_.tt.1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948676,
+                    "expires_date": "2025-06-26T14:37:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "QlzY9xdMmTUCWk7wcSyVSE-Cq_L-R6PMtTnEsObetbnQzr_ROnuJ8PNqnWHif8h91aWLzieFbHutGENepPglYi4oKqOuDSU3u_8ROmn1Of8.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948644.480926,
+                    "expires_date": "2025-06-26T14:37:24.480926+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948644.481091,
+                    "expires_date": "2025-06-26T14:37:24.481091+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "2100683358409775304",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948644.481132,
+                    "expires_date": "2025-06-26T14:37:24.481132+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2E?_dYf6!!]tbPl@/@8+nOv3U_kA7^$DeGF8-XK_E7hFT(#M=_[!r2J(aG+Mvn?$Z7Y4laAsm=Qfw8]]5)q:_mGcx3If)y3KL9D3I?*wZ([53",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948644.481044,
+                    "expires_date": "2025-06-26T14:37:24.481044+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CompareItems_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUk3WDvCjNTD7bALpDQR04wDe7iJdTABZOmTTi6vrifu2KMjWM3jT4oiei2HjX8",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776868653.377647,
+                    "expires_date": "2026-04-22T14:37:33.377647+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "udmts",
+                    "value": "1743172666.0",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1774708665.799097,
+                    "expires_date": "2026-03-28T14:37:45.799097+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "dt",
+                    "value": "3C420BF6-097C-3E9A-ACE5-B03A6A215FCE",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1774708665.799179,
+                    "expires_date": "2026-03-28T14:37:45.799179+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "rtbh",
+                    "value": "U3-BXhIuZEcHJLbEQwCBe3CZZEOenYyN8iW1DHDHoRE",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1750948665.799404,
+                    "expires_date": "2025-06-26T14:37:45.799404+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "catalogContinueShopping",
+                    "value": "https%3A%2F%2Fwww.emporium.si%2Fsl%2Fsi%2Fzenske-trendi-posebne-kolekcije-dress-to-impress-by-pinko",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22QN6d3HP4TysXj7gF7y76%22%2C%22expiryDate%22%3A%222026-03-28T14%3A37%3A56.616Z%22%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708676,
+                    "expires_date": "2026-03-28T14:37:56+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T15:37:22.289059",
+        "timestamp_stop": "2025-03-28T15:38:06.218412"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (a), with text (Potrdi vse piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.emporium.si/",
+            "https://www.emporium.si/sl/si/zenske-pravkar-prispelo-cevlji-salonarji",
+            "https://www.emporium.si/sl/si/zenski-pasovi",
+            "https://www.emporium.si/sl/si/zenske-trendi-posebne-kolekcije-dress-to-impress-by-pinko"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypeA-mJTKWCAIJgZfDM7Y7gNxC8evkHCqVUwkxBPysIIjKH3ivFvPFtjGdJmm6wYPe9dLUAPxnWU9nukSQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724690.504824,
+                    "expires_date": "2025-09-24T14:38:10.504824+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000KUFxrJuKJqRPWAm3qAQW4Py:1ec4jnhq5",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "topCatId",
+                    "value": "57501",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732688.643118,
+                    "expires_date": "2026-05-02T14:38:08.643118+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "topCatLink",
+                    "value": "%2Fsl%2Fsi%2Fzenske",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732688.645699,
+                    "expires_date": "2026-05-02T14:38:08.645699+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_SESSION_ESTABLISHED",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_AUTHENTICATION_-1002",
+                    "value": "-1002%2CH53%2Fp6MyZYlmgirfaDLQwrzurO6ni%2FjVfHgYZNCA73w%3D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_ACTIVEPOINTER",
+                    "value": "-11%2C11353",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_USERACTIVITY_-1002",
+                    "value": "-1002%2C11353%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C382895540%2CKXRMoXl3eFge8DSLzGhdnFI7GcasKZLCHWKJycolrmlnPcDgZE3k4wOURYxL5%2B%2FMQh%2BP1uyMcdc4z6sx1NFTqwuOa61vzjPB5noYex54KiFVYHi9WCQ2m6ZKAHW50rOx0BHE9XVNeOwoamVuG536ufuYcJByYCRakMZGpT7vxtSZu14mYdnYu4EB6xp%2Fuix20E62zfAI%2FtVB61jRwyv4DegKDSj7DCMAw%2BydY3ln8NgU58oO3yzGspDtnF6ucV6S",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_GENERIC_ACTIVITYDATA",
+                    "value": "[409612603%3Atrue%3Afalse%3A0%3AtMFfChknxUanrFz%2FMbhtL3dJ%2FR%2BIwfyvk%2FNfR298%2BY8%3D][com.ibm.commerce.context.entitlement.EntitlementContext|11005%2611005%26null%26-2000%26null%26null%26null][com.ibm.commerce.context.audit.AuditContext|null][com.ibm.commerce.context.globalization.GlobalizationContext|-11%26EUR%26-11%26EUR][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][com.ibm.commerce.catalog.businesscontext.CatalogContext|10701%26null%26false%26false%26false][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.ExternalCartContext|null][CTXSETNAME|Store][com.ibm.commerce.context.base.BaseContext|11353%26-1002%26-1002%26-1][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_CartOrderId_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172689097.661845570930148140",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948689,
+                    "expires_date": "2025-06-26T14:38:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%2284LjlpQPMrFG2YFvW2Rh%22%2C%22expiryDate%22%3A%222026-03-28T14%3A38%3A09.345Z%22%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708689,
+                    "expires_date": "2026-03-28T14:38:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uwvwVPbZki8a6VHMk7e0bkZQj2",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750948689.433278,
+                    "expires_date": "2025-06-26T14:38:09.433278+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "U5TiqXlVLGaaSE38zrN0_1743172689900",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.599452,
+                    "expires_date": "2026-03-28T14:38:09.599452+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "U5TiqXlVLGaaSE38zrN0_sMEUMVbXqztoso8Vfvyd_1743172689900",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.599649,
+                    "expires_date": "2026-03-28T14:38:09.599649+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743172689",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.600051,
+                    "expires_date": "2026-03-28T14:38:09.600051+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&da8637e5-4b08-417c-84c4-01c1e5ac4397\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774708689.665439,
+                    "expires_date": "2026-03-28T14:38:09.665439+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNzI2ODk7MjswMjHGjGKNI6wOnROIDRPT3nylDEaXord6WhLIf0m5gktkbQ==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758724689.665547,
+                    "expires_date": "2025-09-24T14:38:09.665547+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743172689:t=1743259089:v=2:sig=AQGcaR-QYksRztb7UrYJSim2Prhh3M0d\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743259089.665596,
+                    "expires_date": "2025-03-29T14:38:09.665596+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.684002,
+                    "expires_date": "2026-03-28T14:38:09.684002+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758724689.684275,
+                    "expires_date": "2025-09-24T14:38:09.684275+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948689,
+                    "expires_date": "2025-06-26T14:38:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQEK0QX7Q170Z2ANZ16SMHCX_.tt.1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948689,
+                    "expires_date": "2025-06-26T14:38:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "6PzYhSMQbQa36SmyXFojfjXE5VnFN6hOa9XHeaZOeaMheiDIbfhRbndilHjgyWB1mcZ6d286VLZ2orAptJiidFeE-tmupPMBYlgukm7xSDI.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.040877,
+                    "expires_date": "2025-06-26T14:38:10.040877+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.041043,
+                    "expires_date": "2025-06-26T14:38:10.041043+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "8822867620746707147",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.04109,
+                    "expires_date": "2025-06-26T14:38:10.041090+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2GVKnrwXE!]tbPl@/@8+nOv3U_hH%Ez(V?QO/BoFw_9GJ+JIiPmm!#K-sy^[GPz#HP0y8=#avOQSVTMZsk/J_mGcx3If)y3KL9D3I?+8eBuO3",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.040997,
+                    "expires_date": "2025-06-26T14:38:10.040997+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypeA-mJTKWCAIJgZfDM7Y7gNxC8evkHCqVUwkxBPysIIjKH3ivFvPFtjGdJmm6wYPe9dLUAPxnWU9nukSQ",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724690.504824,
+                    "expires_date": "2025-09-24T14:38:10.504824+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000KUFxrJuKJqRPWAm3qAQW4Py:1ec4jnhq5",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "topCatId",
+                    "value": "57501",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732688.643118,
+                    "expires_date": "2026-05-02T14:38:08.643118+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "topCatLink",
+                    "value": "%2Fsl%2Fsi%2Fzenske",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732688.645699,
+                    "expires_date": "2026-05-02T14:38:08.645699+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_SESSION_ESTABLISHED",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_AUTHENTICATION_-1002",
+                    "value": "-1002%2CH53%2Fp6MyZYlmgirfaDLQwrzurO6ni%2FjVfHgYZNCA73w%3D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_ACTIVEPOINTER",
+                    "value": "-11%2C11353",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_USERACTIVITY_-1002",
+                    "value": "-1002%2C11353%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C382895540%2CKXRMoXl3eFge8DSLzGhdnFI7GcasKZLCHWKJycolrmlnPcDgZE3k4wOURYxL5%2B%2FMQh%2BP1uyMcdc4z6sx1NFTqwuOa61vzjPB5noYex54KiFVYHi9WCQ2m6ZKAHW50rOx0BHE9XVNeOwoamVuG536ufuYcJByYCRakMZGpT7vxtSZu14mYdnYu4EB6xp%2Fuix20E62zfAI%2FtVB61jRwyv4DegKDSj7DCMAw%2BydY3ln8NgU58oO3yzGspDtnF6ucV6S",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_GENERIC_ACTIVITYDATA",
+                    "value": "[409612603%3Atrue%3Afalse%3A0%3AtMFfChknxUanrFz%2FMbhtL3dJ%2FR%2BIwfyvk%2FNfR298%2BY8%3D][com.ibm.commerce.context.entitlement.EntitlementContext|11005%2611005%26null%26-2000%26null%26null%26null][com.ibm.commerce.context.audit.AuditContext|null][com.ibm.commerce.context.globalization.GlobalizationContext|-11%26EUR%26-11%26EUR][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][com.ibm.commerce.catalog.businesscontext.CatalogContext|10701%26null%26false%26false%26false][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.ExternalCartContext|null][CTXSETNAME|Store][com.ibm.commerce.context.base.BaseContext|11353%26-1002%26-1002%26-1][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_CartOrderId_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172689097.661845570930148140",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948740,
+                    "expires_date": "2025-06-26T14:39:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%2284LjlpQPMrFG2YFvW2Rh%22%2C%22expiryDate%22%3A%222026-03-28T14%3A38%3A09.345Z%22%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708689,
+                    "expires_date": "2026-03-28T14:38:09+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uwvwVPbZki8a6VHMk7e0bkZQj2",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750948689.433278,
+                    "expires_date": "2025-06-26T14:38:09.433278+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "U5TiqXlVLGaaSE38zrN0_1743172689900",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.599452,
+                    "expires_date": "2026-03-28T14:38:09.599452+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "U5TiqXlVLGaaSE38zrN0_sMEUMVbXqztoso8Vfvyd_1743172689900",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.599649,
+                    "expires_date": "2026-03-28T14:38:09.599649+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743172689",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.600051,
+                    "expires_date": "2026-03-28T14:38:09.600051+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&da8637e5-4b08-417c-84c4-01c1e5ac4397\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774708689.665439,
+                    "expires_date": "2026-03-28T14:38:09.665439+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNzI2ODk7MjswMjHGjGKNI6wOnROIDRPT3nylDEaXord6WhLIf0m5gktkbQ==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758724689.665547,
+                    "expires_date": "2025-09-24T14:38:09.665547+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743172689:t=1743259089:v=2:sig=AQGcaR-QYksRztb7UrYJSim2Prhh3M0d\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743259089.665596,
+                    "expires_date": "2025-03-29T14:38:09.665596+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.684002,
+                    "expires_date": "2026-03-28T14:38:09.684002+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758724689.684275,
+                    "expires_date": "2025-09-24T14:38:09.684275+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948689,
+                    "expires_date": "2025-06-26T14:38:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQEK0QX7Q170Z2ANZ16SMHCX_.tt.1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948689,
+                    "expires_date": "2025-06-26T14:38:09+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "6PzYhSMQbQa36SmyXFojfjXE5VnFN6hOa9XHeaZOeaMheiDIbfhRbndilHjgyWB1mcZ6d286VLZ2orAptJiidFeE-tmupPMBYlgukm7xSDI.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.040877,
+                    "expires_date": "2025-06-26T14:38:10.040877+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.041043,
+                    "expires_date": "2025-06-26T14:38:10.041043+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "8822867620746707147",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.04109,
+                    "expires_date": "2025-06-26T14:38:10.041090+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2GVKnrwXE!]tbPl@/@8+nOv3U_hH%Ez(V?QO/BoFw_9GJ+JIiPmm!#K-sy^[GPz#HP0y8=#avOQSVTMZsk/J_mGcx3If)y3KL9D3I?+8eBuO3",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.040997,
+                    "expires_date": "2025-06-26T14:38:10.040997+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "other|functional|analytics|advertising",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732740.116269,
+                    "expires_date": "2026-05-02T14:39:00.116269+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1954182204.1743172740",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948740,
+                    "expires_date": "2025-06-26T14:39:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1852246809.1743172690",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1777732740.145648,
+                    "expires_date": "2026-05-02T14:39:00.145648+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_ER903F0FGK",
+                    "value": "GS1.1.1743172689.1.1.1743172740.60.0.0",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1777732740.170235,
+                    "expires_date": "2026-05-02T14:39:00.170235+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "COOKIECONSENT",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708740,
+                    "expires_date": "2026-03-28T14:39:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743173640.281752,
+                    "expires_date": "2025-03-28T14:54:00.281752+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "dicbo_id",
+                    "value": "%7B%22dicbo_fetch%22%3A1743172740505%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1743173040,
+                    "expires_date": "2025-03-28T14:44:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypLF7A5vHQBP4XHwouXKC0qcyekWnLPsEzUjWqw--ettcy4Ul_T_3keCRUgtwexQVSIbRT5S1X5CVQJhLE",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724768.501414,
+                    "expires_date": "2025-09-24T14:39:28.501414+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "0000KUFxrJuKJqRPWAm3qAQW4Py:1ec4jnhq5",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "topCatId",
+                    "value": "57501",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732767.210929,
+                    "expires_date": "2026-05-02T14:39:27.210929+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "topCatLink",
+                    "value": "%2Fsl%2Fsi%2Fzenske",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732767.724313,
+                    "expires_date": "2026-05-02T14:39:27.724313+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_SESSION_ESTABLISHED",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_ACTIVEPOINTER",
+                    "value": "-11%2C11353",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_CartOrderId_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172689097.661845570930148140",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948767,
+                    "expires_date": "2025-06-26T14:39:27+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uwvwVPbZki8a6VHMk7e0bkZQj2",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750948767.954209,
+                    "expires_date": "2025-06-26T14:39:27.954209+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "U5TiqXlVLGaaSE38zrN0_1743172689900",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.599452,
+                    "expires_date": "2026-03-28T14:38:09.599452+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "U5TiqXlVLGaaSE38zrN0_sMEUMVbXqztoso8Vfvyd_1743172689900",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.599649,
+                    "expires_date": "2026-03-28T14:38:09.599649+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743172689",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.600051,
+                    "expires_date": "2026-03-28T14:38:09.600051+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&da8637e5-4b08-417c-84c4-01c1e5ac4397\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774708689.665439,
+                    "expires_date": "2026-03-28T14:38:09.665439+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNzI2ODk7MjswMjHGjGKNI6wOnROIDRPT3nylDEaXord6WhLIf0m5gktkbQ==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758724689.665547,
+                    "expires_date": "2025-09-24T14:38:09.665547+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=TGST00:s=T:r=T:a=T:p=T:g=3614:u=1:x=1:i=1743172689:t=1743259089:v=2:sig=AQGcaR-QYksRztb7UrYJSim2Prhh3M0d\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743259089.665596,
+                    "expires_date": "2025-03-29T14:38:09.665596+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708689.684002,
+                    "expires_date": "2026-03-28T14:38:09.684002+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758724689.684275,
+                    "expires_date": "2025-09-24T14:38:09.684275+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948768,
+                    "expires_date": "2025-06-26T14:39:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQEK0QX7Q170Z2ANZ16SMHCX_.tt.1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948768,
+                    "expires_date": "2025-06-26T14:39:28+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "6PzYhSMQbQa36SmyXFojfjXE5VnFN6hOa9XHeaZOeaMheiDIbfhRbndilHjgyWB1mcZ6d286VLZ2orAptJiidFeE-tmupPMBYlgukm7xSDI.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.040877,
+                    "expires_date": "2025-06-26T14:38:10.040877+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.041043,
+                    "expires_date": "2025-06-26T14:38:10.041043+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "8822867620746707147",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.04109,
+                    "expires_date": "2025-06-26T14:38:10.041090+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2GVKnrwXE!]tbPl@/@8+nOv3U_hH%Ez(V?QO/BoFw_9GJ+JIiPmm!#K-sy^[GPz#HP0y8=#avOQSVTMZsk/J_mGcx3If)y3KL9D3I?+8eBuO3",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948690.040997,
+                    "expires_date": "2025-06-26T14:38:10.040997+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "gdpr_cookie",
+                    "value": "other|functional|analytics|advertising",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732740.116269,
+                    "expires_date": "2026-05-02T14:39:00.116269+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1954182204.1743172740",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948740,
+                    "expires_date": "2025-06-26T14:39:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1852246809.1743172690",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1777732767.915161,
+                    "expires_date": "2026-05-02T14:39:27.915161+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "COOKIECONSENT",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708740,
+                    "expires_date": "2026-03-28T14:39:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "dicbo_id",
+                    "value": "%7B%22dicbo_fetch%22%3A1743172740505%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1743173040,
+                    "expires_date": "2025-03-28T14:44:00+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CompareItems_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUnnhYFYu4yEaCxmekQLcGHdS9T00FjpssijyojuseTOqbKhgu6WIUdFZWg4",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776868747.401822,
+                    "expires_date": "2026-04-22T14:39:07.401822+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "WC_AUTHENTICATION_5382755",
+                    "value": "5382755%2CPmbXh%2BmyLvZNSJBVCWASHa4FuAK6V2y5orY0B8cZVCg%3D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cpccd",
+                    "value": "134=u9oiSfTpj8FXBMKuXzDem410UR8elvEDNuY5pvvrye9xfYPfKN0MjM93bFU4",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708752,
+                    "expires_date": "2026-03-28T14:39:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_USERACTIVITY_5382755",
+                    "value": "5382755%2C11353%2Cnull%2Cnull%2C1743172747772%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C382895540%2CWzmt7Uc5Aa8HjcMqPQ2Zt9fm9BRZqOvVjD9OH%2BzCp3KD4u9wbZi2OYSTutyQlRg6btQKbdH2KN1EWskYHxm7eUlzfvC1kkWRVfbFfBjou5eR6%2Fg%2BOtTam%2B9y2Ir%2FfDltflkQpg0j8K0ZxDX0oBDJiQNYvFqjboOSEsEAlStBRKHcfH7XUE1pR3uFhuIN%2B1Se5vMLBNvjBBoH1%2Fpq150g%2B%2B42i0AaqWWzyYgmFgdNFeSolXO7dSbrPHd7YpSr8Pnd",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "udmts",
+                    "value": "1743172759.0",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1774708758.781212,
+                    "expires_date": "2026-03-28T14:39:18.781212+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "dt",
+                    "value": "0C840A4F-513C-3E39-9BC5-482ACE1BBCCD",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1774708758.781316,
+                    "expires_date": "2026-03-28T14:39:18.781316+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "rtbh",
+                    "value": "jtiY6Qd3qE5eCfCmxsTEshkV1H5HcTmgX2d_EadFBmI",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1750948758.781346,
+                    "expires_date": "2025-06-26T14:39:18.781346+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "catalogContinueShopping",
+                    "value": "https%3A%2F%2Fwww.emporium.si%2Fsl%2Fsi%2Fzenske-trendi-posebne-kolekcije-dress-to-impress-by-pinko",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_ER903F0FGK",
+                    "value": "GS1.1.1743172689.1.1.1743172767.33.0.0",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1777732767.933806,
+                    "expires_date": "2026-05-02T14:39:27.933806+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%2284LjlpQPMrFG2YFvW2Rh%22%2C%22expiryDate%22%3A%222026-03-28T14%3A39%3A27.951Z%22%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708767,
+                    "expires_date": "2026-03-28T14:39:27+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "test Close\n\t\n\t\t\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t \t\t\n                    \t\t\n                        \t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\t\n\t\n\t\t\t\t\t\n\t\n\t\tPiškotki za prijetno nakupovanje\n\t\n\t\n\t\tPotrdi izbrane piškotke\n\t\tPotrdi vse piškotke\n\t\t\n\t\n\n\n\t\n\t\t\n\t\t\tObvezni piškotki\n\t\t\tTi piškotki so ključnega pomena, saj brez njih spletna stran ne deluje pravilno. Teh piškotkov se ne da izklopiti. Več o tem\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t  \n\t\t\t\t  \n\t\t\t\t  Dovolim\n\t\t\t\t  Ne dovolim\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\tAnalitični piškotki\n\t\t\tTi piškotki omogočajo boljše prepoznavanje in razumevanje vaših interesov in nakupovalnih navad. Več o tem\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t  \n\t\t\t\t  \n\t\t\t\t  Dovolim\n\t\t\t\t  Ne dovolim\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\tOglaševalski piškotki\n\t\t\tTi piškotki omogočajo, da je oglaševanje bolj prilagojeno vašim zanimanjem. Več o tem\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t  \n\t\t\t\t  \n\t\t\t\t  Dovolim\n\t\t\t\t  Ne dovolim\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\tFunkcionalni in analitični piškotki tretjih strank\n\t\t\tTi piškotki omogočajo, da si spletna stran zapomni vaše izbrane na",
+                "banner_z_index": 1000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Potrdi vse piškotke]\nGenericLabel2: [Ne dovolim]\nAmbiguousLabel1: [Dovolim]\nAmbiguousLabel2: [Potrdi izbrane piškotke]\nGenericLabel3: [Več o tem]\nExplanation: The button \"Potrdi vse piškotke\" is categorized as accepting all cookies. \"Ne dovolim\" is categorized as declining all cookies. \"Dovolim\" is an ambiguous accept, and \"Potrdi izbrane piškotke\" is an ambiguous option that suggests confirming selected cookies (which is typically declining all others). \"Več o tem\" relates to managing settings or seeking more information.",
+                "llm_response_parsed": {
+                    "Accept": "Potrdi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne dovolim",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več o tem",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button \"Potrdi vse piškotke\" is categorized as accepting all cookies. \"Ne dovolim\" is categorized as declining all cookies. \"Dovolim\" is an ambiguous accept, and \"Potrdi izbrane piškotke\" is an ambiguous option that suggests confirming selected cookies (which is typically declining all others). \"Več o tem\" relates to managing settings or seeking more information."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Potrdi vse piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T15:38:07.844192",
+        "timestamp_stop": "2025-03-28T15:39:37.401643"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (div), with text (Ne dovolim)",
+            "Clicking an element of type (div), with text (Ne dovolim)",
+            "Clicking an element of type (div), with text (Ne dovolim)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.emporium.si/",
+            "https://www.emporium.si/sl/si/zenske-pravkar-prispelo-cevlji-salonarji",
+            "https://www.emporium.si/sl/si/zenski-pasovi",
+            "https://www.emporium.si/sl/si/zenske-trendi-posebne-kolekcije-dress-to-impress-by-pinko"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypUCrMWN6MeK-IxCdngbSVS1pj6rUmbWMtFGgRP0tw-d4LbHEe6wzlanOk6zdA22_oDSrjjDbOu8g58md0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724781.704605,
+                    "expires_date": "2025-09-24T14:39:41.704605+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "00001JsTGxTl7g1mtMt0m9ntNac:1ec4jnhq5",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "topCatId",
+                    "value": "57501",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732779.781233,
+                    "expires_date": "2026-05-02T14:39:39.781233+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "topCatLink",
+                    "value": "%2Fsl%2Fsi%2Fzenske",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732779.783747,
+                    "expires_date": "2026-05-02T14:39:39.783747+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_SESSION_ESTABLISHED",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_AUTHENTICATION_-1002",
+                    "value": "-1002%2CH53%2Fp6MyZYlmgirfaDLQwrzurO6ni%2FjVfHgYZNCA73w%3D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_ACTIVEPOINTER",
+                    "value": "-11%2C11353",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_USERACTIVITY_-1002",
+                    "value": "-1002%2C11353%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C382895540%2C4f%2B%2FbjEVpsOf6JzxbFdk4GHGsftZ8sGCLj4%2BFGFhnZ7%2Fi%2FX7NmF61EQM0RHDTH%2F3qvs9ogwnin6k%2BztZMzHueH%2FDjb8CVnUNAtJu4g96lEpMcYo03DMT4fuFdTjKKv1vamKbdvlLl7huL7pp6%2B2LPxQYWqfhomaeSb2X05YMLfk%2F6bp6Luik8UIybknpsU3rl5g%2BCzo5%2FUPNPKOc8PyKfvQHxdj%2B6ksh2oU9CFxYfcuKoi%2B8yq1Tuty6PbL%2FDORd",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_GENERIC_ACTIVITYDATA",
+                    "value": "[409613344%3Atrue%3Afalse%3A0%3A6%2ByuAhx7Q5ymsEdQcLMtznWQsVBB%2FBR7kKwkekM2lK0%3D][com.ibm.commerce.context.entitlement.EntitlementContext|11005%2611005%26null%26-2000%26null%26null%26null][com.ibm.commerce.context.audit.AuditContext|null][com.ibm.commerce.context.globalization.GlobalizationContext|-11%26EUR%26-11%26EUR][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][com.ibm.commerce.catalog.businesscontext.CatalogContext|10701%26null%26false%26false%26false][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.ExternalCartContext|null][CTXSETNAME|Store][com.ibm.commerce.context.base.BaseContext|11353%26-1002%26-1002%26-1][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_CartOrderId_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172780374.525257184919502026",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948780,
+                    "expires_date": "2025-06-26T14:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22LHybypAijmBmc3QuhBdk%22%2C%22expiryDate%22%3A%222026-03-28T14%3A39%3A40.468Z%22%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708780,
+                    "expires_date": "2026-03-28T14:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uww800hvyQwKAbm3BzuZyOaExH",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750948780.481407,
+                    "expires_date": "2025-06-26T14:39:40.481407+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "kwOSJKyuHL9ShAqxIWc3_1743172780993",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700467,
+                    "expires_date": "2026-03-28T14:39:40.700467+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "kwOSJKyuHL9ShAqxIWc3_sMEUMVbXqztoso8Vfvyd_1743172780993",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700552,
+                    "expires_date": "2026-03-28T14:39:40.700552+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743172780",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700636,
+                    "expires_date": "2026-03-28T14:39:40.700636+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.835721,
+                    "expires_date": "2026-03-28T14:39:40.835721+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758724780.835881,
+                    "expires_date": "2025-09-24T14:39:40.835881+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948780,
+                    "expires_date": "2025-06-26T14:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQEK3GVC9YP2DCPB7P1RYX56_.tt.1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948780,
+                    "expires_date": "2025-06-26T14:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&4dcee487-e1b7-4ea5-8ff3-c5fd2bc352af\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774708782.006937,
+                    "expires_date": "2026-03-28T14:39:42.006937+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNzI3ODE7MjswMjHvIY06LMqNS9ZeDy1Xg7e7VcNaMxPkvakFVm0kxo2/dg==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758724782.007053,
+                    "expires_date": "2025-09-24T14:39:42.007053+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743172781:t=1743259181:v=2:sig=AQE-cOk6QWVqxQCcTJADnMUjBsdH84Fx\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743259182.007106,
+                    "expires_date": "2025-03-29T14:39:42.007106+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "CIgNiOAa5lOtxGDlHyEgqBUyAnH0xv7uDSFb6A8HN73zRYx_08YuXufq9TErNTfxG4Q5rHhUb00XVQWPIu-2aAO_icUeHv8yaV-cUjmXG4g.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234339,
+                    "expires_date": "2025-06-26T14:39:41.234339+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234487,
+                    "expires_date": "2025-06-26T14:39:41.234487+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "1414156654311339057",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234525,
+                    "expires_date": "2025-06-26T14:39:41.234525+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2E?hifns4!]tbPl@/@8+nOv3UfY`fVxYRiL'GeXP1WDf9#.@>^A6N<@j^J=?UyK/VC*68I*IIi]*2e8YZTXQ_mGcx3If)y3KL9D3I?+<5bYFO",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234451,
+                    "expires_date": "2025-06-26T14:39:41.234451+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeypUCrMWN6MeK-IxCdngbSVS1pj6rUmbWMtFGgRP0tw-d4LbHEe6wzlanOk6zdA22_oDSrjjDbOu8g58md0",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724781.704605,
+                    "expires_date": "2025-09-24T14:39:41.704605+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "00001JsTGxTl7g1mtMt0m9ntNac:1ec4jnhq5",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "topCatId",
+                    "value": "57501",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732779.781233,
+                    "expires_date": "2026-05-02T14:39:39.781233+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "topCatLink",
+                    "value": "%2Fsl%2Fsi%2Fzenske",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732779.783747,
+                    "expires_date": "2026-05-02T14:39:39.783747+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_SESSION_ESTABLISHED",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_AUTHENTICATION_-1002",
+                    "value": "-1002%2CH53%2Fp6MyZYlmgirfaDLQwrzurO6ni%2FjVfHgYZNCA73w%3D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_ACTIVEPOINTER",
+                    "value": "-11%2C11353",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_USERACTIVITY_-1002",
+                    "value": "-1002%2C11353%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C382895540%2C4f%2B%2FbjEVpsOf6JzxbFdk4GHGsftZ8sGCLj4%2BFGFhnZ7%2Fi%2FX7NmF61EQM0RHDTH%2F3qvs9ogwnin6k%2BztZMzHueH%2FDjb8CVnUNAtJu4g96lEpMcYo03DMT4fuFdTjKKv1vamKbdvlLl7huL7pp6%2B2LPxQYWqfhomaeSb2X05YMLfk%2F6bp6Luik8UIybknpsU3rl5g%2BCzo5%2FUPNPKOc8PyKfvQHxdj%2B6ksh2oU9CFxYfcuKoi%2B8yq1Tuty6PbL%2FDORd",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_GENERIC_ACTIVITYDATA",
+                    "value": "[409613344%3Atrue%3Afalse%3A0%3A6%2ByuAhx7Q5ymsEdQcLMtznWQsVBB%2FBR7kKwkekM2lK0%3D][com.ibm.commerce.context.entitlement.EntitlementContext|11005%2611005%26null%26-2000%26null%26null%26null][com.ibm.commerce.context.audit.AuditContext|null][com.ibm.commerce.context.globalization.GlobalizationContext|-11%26EUR%26-11%26EUR][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][com.ibm.commerce.catalog.businesscontext.CatalogContext|10701%26null%26false%26false%26false][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.ExternalCartContext|null][CTXSETNAME|Store][com.ibm.commerce.context.base.BaseContext|11353%26-1002%26-1002%26-1][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_CartOrderId_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172780374.525257184919502026",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948825,
+                    "expires_date": "2025-06-26T14:40:25+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22LHybypAijmBmc3QuhBdk%22%2C%22expiryDate%22%3A%222026-03-28T14%3A39%3A40.468Z%22%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708780,
+                    "expires_date": "2026-03-28T14:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uww800hvyQwKAbm3BzuZyOaExH",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750948780.481407,
+                    "expires_date": "2025-06-26T14:39:40.481407+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "kwOSJKyuHL9ShAqxIWc3_1743172780993",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700467,
+                    "expires_date": "2026-03-28T14:39:40.700467+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "kwOSJKyuHL9ShAqxIWc3_sMEUMVbXqztoso8Vfvyd_1743172780993",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700552,
+                    "expires_date": "2026-03-28T14:39:40.700552+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743172780",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700636,
+                    "expires_date": "2026-03-28T14:39:40.700636+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.835721,
+                    "expires_date": "2026-03-28T14:39:40.835721+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758724780.835881,
+                    "expires_date": "2025-09-24T14:39:40.835881+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948780,
+                    "expires_date": "2025-06-26T14:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQEK3GVC9YP2DCPB7P1RYX56_.tt.1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948780,
+                    "expires_date": "2025-06-26T14:39:40+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&4dcee487-e1b7-4ea5-8ff3-c5fd2bc352af\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774708782.006937,
+                    "expires_date": "2026-03-28T14:39:42.006937+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNzI3ODE7MjswMjHvIY06LMqNS9ZeDy1Xg7e7VcNaMxPkvakFVm0kxo2/dg==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758724782.007053,
+                    "expires_date": "2025-09-24T14:39:42.007053+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743172781:t=1743259181:v=2:sig=AQE-cOk6QWVqxQCcTJADnMUjBsdH84Fx\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743259182.007106,
+                    "expires_date": "2025-03-29T14:39:42.007106+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "CIgNiOAa5lOtxGDlHyEgqBUyAnH0xv7uDSFb6A8HN73zRYx_08YuXufq9TErNTfxG4Q5rHhUb00XVQWPIu-2aAO_icUeHv8yaV-cUjmXG4g.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234339,
+                    "expires_date": "2025-06-26T14:39:41.234339+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234487,
+                    "expires_date": "2025-06-26T14:39:41.234487+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "1414156654311339057",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234525,
+                    "expires_date": "2025-06-26T14:39:41.234525+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2E?hifns4!]tbPl@/@8+nOv3UfY`fVxYRiL'GeXP1WDf9#.@>^A6N<@j^J=?UyK/VC*68I*IIi]*2e8YZTXQ_mGcx3If)y3KL9D3I?+<5bYFO",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234451,
+                    "expires_date": "2025-06-26T14:39:41.234451+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyq8ROiUaSxdHPM_Ih6Jr7UbpJvS2M9mbIqOKS04Y6d5CvmSRr51_KFNmkP4SlDBclhk0VJs-h0Teo19wIU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758724853.405394,
+                    "expires_date": "2025-09-24T14:40:53.405394+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "JSESSIONID",
+                    "value": "00001JsTGxTl7g1mtMt0m9ntNac:1ec4jnhq5",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "topCatId",
+                    "value": "57501",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732852.130576,
+                    "expires_date": "2026-05-02T14:40:52.130576+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "topCatLink",
+                    "value": "%2Fsl%2Fsi%2Fzenske",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1777732852.658097,
+                    "expires_date": "2026-05-02T14:40:52.658097+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "WC_SESSION_ESTABLISHED",
+                    "value": "true",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_AUTHENTICATION_-1002",
+                    "value": "-1002%2CH53%2Fp6MyZYlmgirfaDLQwrzurO6ni%2FjVfHgYZNCA73w%3D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_ACTIVEPOINTER",
+                    "value": "-11%2C11353",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_USERACTIVITY_-1002",
+                    "value": "-1002%2C11353%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C382895540%2C4f%2B%2FbjEVpsOf6JzxbFdk4GHGsftZ8sGCLj4%2BFGFhnZ7%2Fi%2FX7NmF61EQM0RHDTH%2F3qvs9ogwnin6k%2BztZMzHueH%2FDjb8CVnUNAtJu4g96lEpMcYo03DMT4fuFdTjKKv1vamKbdvlLl7huL7pp6%2B2LPxQYWqfhomaeSb2X05YMLfk%2F6bp6Luik8UIybknpsU3rl5g%2BCzo5%2FUPNPKOc8PyKfvQHxdj%2B6ksh2oU9CFxYfcuKoi%2B8yq1Tuty6PbL%2FDORd",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_GENERIC_ACTIVITYDATA",
+                    "value": "[409613344%3Atrue%3Afalse%3A0%3A6%2ByuAhx7Q5ymsEdQcLMtznWQsVBB%2FBR7kKwkekM2lK0%3D][com.ibm.commerce.context.entitlement.EntitlementContext|11005%2611005%26null%26-2000%26null%26null%26null][com.ibm.commerce.context.audit.AuditContext|null][com.ibm.commerce.context.globalization.GlobalizationContext|-11%26EUR%26-11%26EUR][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][com.ibm.commerce.catalog.businesscontext.CatalogContext|10701%26null%26false%26false%26false][com.ibm.commerce.context.experiment.ExperimentContext|null][com.ibm.commerce.context.ExternalCartContext|null][CTXSETNAME|Store][com.ibm.commerce.context.base.BaseContext|11353%26-1002%26-1002%26-1][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null]",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "WC_CartOrderId_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743172780374.525257184919502026",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948852,
+                    "expires_date": "2025-06-26T14:40:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "2uww800hvyQwKAbm3BzuZyOaExH",
+                    "domain": ".tiktok.com",
+                    "path": "/",
+                    "expires": 1750948852.893897,
+                    "expires_date": "2025-06-26T14:40:52.893897+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "g",
+                    "value": "kwOSJKyuHL9ShAqxIWc3_1743172780993",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700467,
+                    "expires_date": "2026-03-28T14:39:40.700467+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "c",
+                    "value": "kwOSJKyuHL9ShAqxIWc3_sMEUMVbXqztoso8Vfvyd_1743172780993",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700552,
+                    "expires_date": "2026-03-28T14:39:40.700552+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "ts",
+                    "value": "1743172780",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.700636,
+                    "expires_date": "2026-03-28T14:39:40.700636+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1774708780.835721,
+                    "expires_date": "2026-03-28T14:39:40.835721+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".creativecdn.com",
+                    "path": "/",
+                    "expires": 1758724780.835881,
+                    "expires_date": "2025-09-24T14:39:40.835881+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_tt_enable_cookie",
+                    "value": "1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948852,
+                    "expires_date": "2025-06-26T14:40:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ttp",
+                    "value": "01JQEK3GVC9YP2DCPB7P1RYX56_.tt.1",
+                    "domain": ".emporium.si",
+                    "path": "/",
+                    "expires": 1750948852,
+                    "expires_date": "2025-06-26T14:40:52+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&4dcee487-e1b7-4ea5-8ff3-c5fd2bc352af\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774708782.006937,
+                    "expires_date": "2026-03-28T14:39:42.006937+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxNzI3ODE7MjswMjHvIY06LMqNS9ZeDy1Xg7e7VcNaMxPkvakFVm0kxo2/dg==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758724782.007053,
+                    "expires_date": "2025-09-24T14:39:42.007053+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743172781:t=1743259181:v=2:sig=AQE-cOk6QWVqxQCcTJADnMUjBsdH84Fx\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743259182.007106,
+                    "expires_date": "2025-03-29T14:39:42.007106+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XANDR_PANID",
+                    "value": "CIgNiOAa5lOtxGDlHyEgqBUyAnH0xv7uDSFb6A8HN73zRYx_08YuXufq9TErNTfxG4Q5rHhUb00XVQWPIu-2aAO_icUeHv8yaV-cUjmXG4g.",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234339,
+                    "expires_date": "2025-06-26T14:39:41.234339+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234487,
+                    "expires_date": "2025-06-26T14:39:41.234487+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uuid2",
+                    "value": "1414156654311339057",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234525,
+                    "expires_date": "2025-06-26T14:39:41.234525+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "anj",
+                    "value": "dTM7k!M4/rD>6NRF']wIg2E?hifns4!]tbPl@/@8+nOv3UfY`fVxYRiL'GeXP1WDf9#.@>^A6N<@j^J=?UyK/VC*68I*IIi]*2e8YZTXQ_mGcx3If)y3KL9D3I?+<5bYFO",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1750948781.234451,
+                    "expires_date": "2025-06-26T14:39:41.234451+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "CompareItems_11353",
+                    "value": "",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "IDE",
+                    "value": "AHWqTUlnJ0Wjxph72hsU-be0qp5MfCKB8RhuWVZV1iwYUBIcZVKCnq1wRVmKqGytuP0",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1776868832.722605,
+                    "expires_date": "2026-04-22T14:40:32.722605+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "udmts",
+                    "value": "1743172843.0",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1774708843.578324,
+                    "expires_date": "2026-03-28T14:40:43.578324+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "dt",
+                    "value": "165BE208-B63F-3B7B-A10D-30FBB9452141",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1774708843.578431,
+                    "expires_date": "2026-03-28T14:40:43.578431+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "rtbh",
+                    "value": "EhFGVB7pHFh4u3pqY_M8cfjx-WbS7l6L2XSTxfEAgNA",
+                    "domain": ".udmserve.net",
+                    "path": "/",
+                    "expires": 1750948843.578464,
+                    "expires_date": "2025-06-26T14:40:43.578464+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "catalogContinueShopping",
+                    "value": "https%3A%2F%2Fwww.emporium.si%2Fsl%2Fsi%2Fzenske-trendi-posebne-kolekcije-dress-to-impress-by-pinko",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__rtbh.lid",
+                    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22LHybypAijmBmc3QuhBdk%22%2C%22expiryDate%22%3A%222026-03-28T14%3A40%3A52.872Z%22%7D",
+                    "domain": "www.emporium.si",
+                    "path": "/",
+                    "expires": 1774708852,
+                    "expires_date": "2026-03-28T14:40:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_click_2.png",
+            "008_decline_interaction_1_click_3.png",
+            "009_decline_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "test Close\n\t\n\t\t\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t \t\t\n                    \t\t\n                        \t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\t\n\t\n\t\t\t\t\t\n\t\n\t\tPiškotki za prijetno nakupovanje\n\t\n\t\n\t\tPotrdi izbrane piškotke\n\t\tPotrdi vse piškotke\n\t\t\n\t\n\n\n\t\n\t\t\n\t\t\tObvezni piškotki\n\t\t\tTi piškotki so ključnega pomena, saj brez njih spletna stran ne deluje pravilno. Teh piškotkov se ne da izklopiti. Več o tem\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t  \n\t\t\t\t  \n\t\t\t\t  Dovolim\n\t\t\t\t  Ne dovolim\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\tAnalitični piškotki\n\t\t\tTi piškotki omogočajo boljše prepoznavanje in razumevanje vaših interesov in nakupovalnih navad. Več o tem\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t  \n\t\t\t\t  \n\t\t\t\t  Dovolim\n\t\t\t\t  Ne dovolim\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\tOglaševalski piškotki\n\t\t\tTi piškotki omogočajo, da je oglaševanje bolj prilagojeno vašim zanimanjem. Več o tem\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t  \n\t\t\t\t  \n\t\t\t\t  Dovolim\n\t\t\t\t  Ne dovolim\n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\tFunkcionalni in analitični piškotki tretjih strank\n\t\t\tTi piškotki omogočajo, da si spletna stran zapomni vaše izbrane na",
+                "banner_z_index": 1000,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 3,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Potrdi vse piškotke]\nGenericLabel2: [Ne dovolim]\nAmbiguousLabel1: [Dovolim]\nAmbiguousLabel2: None\nGenericLabel3: [Več o tem]\nExplanation: \"Potrdi vse piškotke\" is categorized under accepting all cookies, while \"Ne dovolim\" is for declining all. \"Dovolim\" is treated as an ambiguous acceptance. \"Več o tem\" is related to settings or more information. \"Potrdi izbrane piškotke\" is not categorized as it does not fit the definitions provided.",
+                "llm_response_parsed": {
+                    "Accept": "Potrdi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Ne dovolim",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Več o tem",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Potrdi vse piškotke\" is categorized under accepting all cookies, while \"Ne dovolim\" is for declining all. \"Dovolim\" is treated as an ambiguous acceptance. \"Več o tem\" is related to settings or more information. \"Potrdi izbrane piškotke\" is not categorized as it does not fit the definitions provided."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Ne dovolim",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T15:39:39.009470",
+        "timestamp_stop": "2025-03-28T15:41:02.499380"
+    }
+}

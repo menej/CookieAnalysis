@@ -1,0 +1,996 @@
+{
+    "web_page": "https://www.kosarka.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T16:32:45.377042",
+    "timestamp_stop": "2025-03-28T16:34:49.486413",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kosarka.si/",
+            "https://www.kosarka.si/po-ep-u18-sta-se-oglasila-selektor-radosavljevic-in-kapetan-kroflic/",
+            "https://www.kosarka.si/liga-telemach/",
+            "https://www.kosarka.si/liga-telemach/page/2/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "lastvisit",
+                    "value": "1743175967",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743186107.320812,
+                    "expires_date": "2025-03-28T18:21:47.320812+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1495129646.1743175968",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777735967.779083,
+                    "expires_date": "2026-05-02T15:32:47.779083+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.893588560.1743175968",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743262367,
+                    "expires_date": "2025-03-29T15:32:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743176027,
+                    "expires_date": "2025-03-28T15:33:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_EEGYH6HTYJ",
+                    "value": "GS1.2.1743175968.1.0.1743175968.0.0.0",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777735968.21997,
+                    "expires_date": "2026-05-02T15:32:48.219970+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=f3a265150ca090fd:T=1743175968:RT=1743175968:S=AA-Afjb5XhyooW9Gk3vUDkjy9XLJ",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1758727968,
+                    "expires_date": "2025-09-24T15:32:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1495129646.1743175968",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777735988.976204,
+                    "expires_date": "2026-05-02T15:33:08.976204+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.893588560.1743175968",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743262388,
+                    "expires_date": "2025-03-29T15:33:08+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743176027,
+                    "expires_date": "2025-03-28T15:33:47+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=f3a265150ca090fd:T=1743175968:RT=1743175968:S=AA-Afjb5XhyooW9Gk3vUDkjy9XLJ",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1758727968,
+                    "expires_date": "2025-09-24T15:32:48+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pvc_visits[0]",
+                    "value": "1743262373b95741",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743262373.962299,
+                    "expires_date": "2025-03-29T15:32:53.962299+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "lastvisit",
+                    "value": "1743175989",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743186129.014498,
+                    "expires_date": "2025-03-28T18:22:09.014498+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga_EEGYH6HTYJ",
+                    "value": "GS1.2.1743175968.1.1.1743175989.0.0.0",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777735989.146078,
+                    "expires_date": "2026-05-02T15:33:09.146078+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T16:32:46.720556",
+        "timestamp_stop": "2025-03-28T16:33:15.428823"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kosarka.si/",
+            "https://www.kosarka.si/po-ep-u18-sta-se-oglasila-selektor-radosavljevic-in-kapetan-kroflic/",
+            "https://www.kosarka.si/liga-telemach/",
+            "https://www.kosarka.si/liga-telemach/page/2/",
+            "https://www.kosarka.si/liga-telemach/page/179/",
+            "https://www.kosarka.si/znani-pari-lige-nkbm/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "lastvisit",
+                    "value": "1743175997",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743186137.575207,
+                    "expires_date": "2025-03-28T18:22:17.575207+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.408113449.1743175998",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777735997.992427,
+                    "expires_date": "2026-05-02T15:33:17.992427+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.892617754.1743175998",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743262398,
+                    "expires_date": "2025-03-29T15:33:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743176058,
+                    "expires_date": "2025-03-28T15:34:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_EEGYH6HTYJ",
+                    "value": "GS1.2.1743175998.1.0.1743175998.0.0.0",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777735998.392167,
+                    "expires_date": "2026-05-02T15:33:18.392167+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=13b9ee88f76b5a3f:T=1743175998:RT=1743175998:S=AA-AfjYSLLU_9oMhL_GIMCpn4q_G",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1758727998,
+                    "expires_date": "2025-09-24T15:33:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.408113449.1743175998",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736013.162855,
+                    "expires_date": "2026-05-02T15:33:33.162855+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.892617754.1743175998",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743262413,
+                    "expires_date": "2025-03-29T15:33:33+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743176058,
+                    "expires_date": "2025-03-28T15:34:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=13b9ee88f76b5a3f:T=1743175998:RT=1743175998:S=AA-AfjYSLLU_9oMhL_GIMCpn4q_G",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1758727998,
+                    "expires_date": "2025-09-24T15:33:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pvc_visits[0]",
+                    "value": "1743262405b95741",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743262405.836728,
+                    "expires_date": "2025-03-29T15:33:25.836728+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "lastvisit",
+                    "value": "1743176013",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743186153.216103,
+                    "expires_date": "2025-03-28T18:22:33.216103+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga_EEGYH6HTYJ",
+                    "value": "GS1.2.1743175998.1.1.1743176013.0.0.0",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736013.346123,
+                    "expires_date": "2026-05-02T15:33:33.346123+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.408113449.1743175998",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736036.512066,
+                    "expires_date": "2026-05-02T15:33:56.512066+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.892617754.1743175998",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743262436,
+                    "expires_date": "2025-03-29T15:33:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743176058,
+                    "expires_date": "2025-03-28T15:34:18+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=13b9ee88f76b5a3f:T=1743175998:RT=1743175998:S=AA-AfjYSLLU_9oMhL_GIMCpn4q_G",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1758727998,
+                    "expires_date": "2025-09-24T15:33:18+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lastvisit",
+                    "value": "1743176036",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743186176.551349,
+                    "expires_date": "2025-03-28T18:22:56.551349+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "pvc_visits[0]",
+                    "value": "1743262405b95741a1743262436b95755",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743262436.441354,
+                    "expires_date": "2025-03-29T15:33:56.441354+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_EEGYH6HTYJ",
+                    "value": "GS1.2.1743175998.1.1.1743176036.0.0.0",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736036.694848,
+                    "expires_date": "2026-05-02T15:33:56.694848+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            }
+        },
+        "timestamp_start": "2025-03-28T16:33:16.995033",
+        "timestamp_stop": "2025-03-28T16:34:02.654007"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.kosarka.si/",
+            "https://www.kosarka.si/po-ep-u18-sta-se-oglasila-selektor-radosavljevic-in-kapetan-kroflic/",
+            "https://www.kosarka.si/liga-telemach/",
+            "https://www.kosarka.si/liga-telemach/page/2/",
+            "https://www.kosarka.si/liga-telemach/page/179/",
+            "https://www.kosarka.si/znani-pari-lige-nkbm/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "lastvisit",
+                    "value": "1743176044",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743186184.770058,
+                    "expires_date": "2025-03-28T18:23:04.770058+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.995719610.1743176045",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736045.24055,
+                    "expires_date": "2026-05-02T15:34:05.240550+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1195783199.1743176045",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743262445,
+                    "expires_date": "2025-03-29T15:34:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743176105,
+                    "expires_date": "2025-03-28T15:35:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_EEGYH6HTYJ",
+                    "value": "GS1.2.1743176045.1.0.1743176045.0.0.0",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736045.589147,
+                    "expires_date": "2026-05-02T15:34:05.589147+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=c899d2a7b562c66f:T=1743176045:RT=1743176045:S=AA-AfjbE-rY5ZHrgBqWC7-QarV2s",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1758728045,
+                    "expires_date": "2025-09-24T15:34:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.995719610.1743176045",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736060.233765,
+                    "expires_date": "2026-05-02T15:34:20.233765+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1195783199.1743176045",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743262460,
+                    "expires_date": "2025-03-29T15:34:20+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743176105,
+                    "expires_date": "2025-03-28T15:35:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=c899d2a7b562c66f:T=1743176045:RT=1743176045:S=AA-AfjbE-rY5ZHrgBqWC7-QarV2s",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1758728045,
+                    "expires_date": "2025-09-24T15:34:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pvc_visits[0]",
+                    "value": "1743262452b95741",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743262452.926054,
+                    "expires_date": "2025-03-29T15:34:12.926054+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "lastvisit",
+                    "value": "1743176060",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743186200.265434,
+                    "expires_date": "2025-03-28T18:23:20.265434+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga_EEGYH6HTYJ",
+                    "value": "GS1.2.1743176045.1.1.1743176060.0.0.0",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736060.425368,
+                    "expires_date": "2026-05-02T15:34:20.425368+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.995719610.1743176045",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736083.063316,
+                    "expires_date": "2026-05-02T15:34:43.063316+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.1195783199.1743176045",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743262483,
+                    "expires_date": "2025-03-29T15:34:43+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1743176105,
+                    "expires_date": "2025-03-28T15:35:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__eoi",
+                    "value": "ID=c899d2a7b562c66f:T=1743176045:RT=1743176045:S=AA-AfjbE-rY5ZHrgBqWC7-QarV2s",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1758728045,
+                    "expires_date": "2025-09-24T15:34:05+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "pvc_visits[0]",
+                    "value": "1743262452b95741a1743262482b95755",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743262482.999317,
+                    "expires_date": "2025-03-29T15:34:42.999317+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "lastvisit",
+                    "value": "1743176083",
+                    "domain": ".www.kosarka.si",
+                    "path": "/",
+                    "expires": 1743186223.101927,
+                    "expires_date": "2025-03-28T18:23:43.101927+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga_EEGYH6HTYJ",
+                    "value": "GS1.2.1743176045.1.1.1743176083.0.0.0",
+                    "domain": ".kosarka.si",
+                    "path": "/",
+                    "expires": 1777736083.238674,
+                    "expires_date": "2026-05-02T15:34:43.238674+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "002_decline_init_1.png",
+            "003_decline_init_2.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 2,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "NO_BANNER",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 0,
+                "any_force_clicks": false,
+                "llm_response_raw": null,
+                "llm_response_parsed": null,
+                "llm_consensus_reached": false,
+                "llm_consensus_value": 0,
+                "element_text": null,
+                "element_ambiguous": false,
+                "element_evidence": ""
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T16:34:04.256109",
+        "timestamp_stop": "2025-03-28T16:34:49.173612"
+    }
+}

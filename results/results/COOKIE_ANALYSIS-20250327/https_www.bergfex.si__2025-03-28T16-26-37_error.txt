@@ -1,0 +1,39 @@
+Error processing website: https://www.bergfex.si/
+Exception: ElementHandle.bounding_box: Frame has been detached.
+Traceback (most recent call last):
+  File "C:\Users\EnejM\Documents\Diploma\src\main.py", line 56, in crawler_worker
+    crawl = processor.crawl(website, website_output_dir)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 131, in crawl
+    raise e
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 124, in crawl
+    _process_accept_stage()
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 332, in _process_accept_stage
+    execute_accept_initializer(stage)
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 870, in execute_accept_initializer
+    result = execute_accept_operator(stage, attempt=2)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 799, in execute_accept_operator
+    interaction_state = execute_interaction(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 712, in execute_interaction
+    if not is_element_actually_visible(cookie_banner_info['element']):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\src\core\crawler\processors\heuristic_llm\processor.py", line 1687, in is_element_actually_visible
+    box = handle.bounding_box()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\sync_api\_generated.py", line 2796, in bounding_box
+    return mapping.from_impl_nullable(self._sync(self._impl_obj.bounding_box()))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_element_handle.py", line 278, in bounding_box
+    return await self._channel.send("boundingBox")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EnejM\Documents\Diploma\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: ElementHandle.bounding_box: Frame has been detached.

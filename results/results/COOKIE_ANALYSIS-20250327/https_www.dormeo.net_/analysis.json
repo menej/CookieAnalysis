@@ -1,0 +1,1236 @@
+{
+    "web_page": "https://www.dormeo.net/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T12:54:01.383390",
+    "timestamp_stop": "2025-03-28T12:58:47.993838",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dormeo.net/",
+            "https://www.dormeo.net/vodici",
+            "https://www.dormeo.net/vodici/vodici-odeje",
+            "https://www.dormeo.net/odeje"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "iucmprt5c5b4fh66rdfr67mjmq",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "personalid",
+                    "value": "28320252153756552",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722844.250693,
+                    "expires_date": "2026-05-02T11:54:04.250693+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "new_session",
+                    "value": "new_session",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "iucmprt5c5b4fh66rdfr67mjmq",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1743767646.141916,
+                    "expires_date": "2025-04-04T11:54:06.141916+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "private_content_version",
+                    "value": "62f22d669251d7e6a205e98339daf2fd",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722844.835716,
+                    "expires_date": "2026-05-02T11:54:04.835716+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "amcookie_allowed",
+                    "value": "1%2C4",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698845.301537,
+                    "expires_date": "2026-03-28T11:54:05.301537+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "amcookie_disallowed",
+                    "value": "_ga%2C_gid%2C_gat_UA-%5B%23%5D%2CIDE%2Ctest_cookie%2Cysc%2Cvisitor_info1_live%2C_dc_gtm_UA-%5B%23%5D%2C1P_JAR%2CDV%2C_hjIncludedInSample",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698845.301613,
+                    "expires_date": "2026-03-28T11:54:05.301613+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "iucmprt5c5b4fh66rdfr67mjmq",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "personalid",
+                    "value": "28320252153756552",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722844.250693,
+                    "expires_date": "2026-05-02T11:54:04.250693+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "new_session",
+                    "value": "new_session",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "iucmprt5c5b4fh66rdfr67mjmq",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1743767669.184919,
+                    "expires_date": "2025-04-04T11:54:29.184919+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "private_content_version",
+                    "value": "62f22d669251d7e6a205e98339daf2fd",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722844.835716,
+                    "expires_date": "2026-05-02T11:54:04.835716+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "amcookie_allowed",
+                    "value": "1%2C3%2C4",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698858.967994,
+                    "expires_date": "2026-03-28T11:54:18.967994+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "amcookie_disallowed",
+                    "value": "IDE%2Ctest_cookie%2Cysc%2Cvisitor_info1_live",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698858.968072,
+                    "expires_date": "2026-03-28T11:54:18.968072+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "twk_idm_key",
+                    "value": "EOL3OHAY1e1S1AjUu5roS",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "TawkConnectionTime",
+                    "value": "0",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_uuid_59524804e9c6d324a473785c",
+                    "value": "%7B%22uuid%22%3A%221.1hHVVbLDKSUPkW4W6SUvBfwflwEuxzhmR8a1UirBpz0P5XiPTmVozfLxJjJCOHkDHKlJ0viS7q5KCeDW9YerwpZsDP9SbXyDLXNUyjHbvJqumv2KMj0%22%2C%22version%22%3A3%2C%22domain%22%3A%22dormeo.net%22%2C%22ts%22%3A1743162868670%7D",
+                    "domain": ".dormeo.net",
+                    "path": "/",
+                    "expires": 1758714868,
+                    "expires_date": "2025-09-24T11:54:28+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T12:54:02.779876",
+        "timestamp_stop": "2025-03-28T12:54:34.794721"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dormeo.net/",
+            "https://www.dormeo.net/vodici",
+            "https://www.dormeo.net/vodici/vodici-odeje",
+            "https://www.dormeo.net/odeje"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "9b4jrdt5c2lrcb1f7nr3dn5aqv",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "personalid",
+                    "value": "28320258819009255",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722877.811409,
+                    "expires_date": "2026-05-02T11:54:37.811409+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "new_session",
+                    "value": "new_session",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "9b4jrdt5c2lrcb1f7nr3dn5aqv",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1743767679.739906,
+                    "expires_date": "2025-04-04T11:54:39.739906+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "private_content_version",
+                    "value": "0da9722abb18da15392f95fcdd41b2eb",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722878.464349,
+                    "expires_date": "2026-05-02T11:54:38.464349+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "amcookie_allowed",
+                    "value": "1%2C4",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698878.920863,
+                    "expires_date": "2026-03-28T11:54:38.920863+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "amcookie_disallowed",
+                    "value": "_ga%2C_gid%2C_gat_UA-%5B%23%5D%2CIDE%2Ctest_cookie%2Cysc%2Cvisitor_info1_live%2C_dc_gtm_UA-%5B%23%5D%2C1P_JAR%2CDV%2C_hjIncludedInSample",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698878.920975,
+                    "expires_date": "2026-03-28T11:54:38.920975+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "9b4jrdt5c2lrcb1f7nr3dn5aqv",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "personalid",
+                    "value": "28320258819009255",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722877.811409,
+                    "expires_date": "2026-05-02T11:54:37.811409+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "new_session",
+                    "value": "new_session",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "9b4jrdt5c2lrcb1f7nr3dn5aqv",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1743767679.739906,
+                    "expires_date": "2025-04-04T11:54:39.739906+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "private_content_version",
+                    "value": "0da9722abb18da15392f95fcdd41b2eb",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722878.464349,
+                    "expires_date": "2026-05-02T11:54:38.464349+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_idm_key",
+                    "value": "GUUQ-Ll7FveqdVtLHVfr3",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "TawkConnectionTime",
+                    "value": "0",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_uuid_59524804e9c6d324a473785c",
+                    "value": "%7B%22uuid%22%3A%221.1hHVVbUZuO3yFVs0OZz8LTQUlSz8neGhEFPMsPSoYdwwOs7cMbUUSj8WIcm7zlVxqtPUsrDMTUmxYYYZpzLp9bAKgDWJlgtojVJZ7MvMfwWQyhhlOA0%22%2C%22version%22%3A3%2C%22domain%22%3A%22dormeo.net%22%2C%22ts%22%3A1743162938555%7D",
+                    "domain": ".dormeo.net",
+                    "path": "/",
+                    "expires": 1758714938,
+                    "expires_date": "2025-09-24T11:55:38+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "amcookie_allowed",
+                    "value": "0",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698938.72877,
+                    "expires_date": "2026-03-28T11:55:38.728770+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "9b4jrdt5c2lrcb1f7nr3dn5aqv",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "personalid",
+                    "value": "28320258819009255",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722877.811409,
+                    "expires_date": "2026-05-02T11:54:37.811409+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "new_session",
+                    "value": "new_session",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "9b4jrdt5c2lrcb1f7nr3dn5aqv",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1743767759.665286,
+                    "expires_date": "2025-04-04T11:55:59.665286+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "private_content_version",
+                    "value": "0da9722abb18da15392f95fcdd41b2eb",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722878.464349,
+                    "expires_date": "2026-05-02T11:54:38.464349+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_idm_key",
+                    "value": "GUUQ-Ll7FveqdVtLHVfr3",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "amcookie_allowed",
+                    "value": "0",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698938.72877,
+                    "expires_date": "2026-03-28T11:55:38.728770+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TawkConnectionTime",
+                    "value": "0",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_uuid_59524804e9c6d324a473785c",
+                    "value": "%7B%22uuid%22%3A%221.1hHVVbUZuO3yFVs0OZz8LTQUlSz8neGhEFPMsPSoYdwwOs7cMbUUSj8WIcm7zlVxqtPUsrDMTUmxYYYZpzLp9bAKgDWJlgtojVJZ7MvMfwWQyhhlOA0%22%2C%22version%22%3A3%2C%22domain%22%3A%22dormeo.net%22%2C%22ts%22%3A1743162959216%7D",
+                    "domain": ".dormeo.net",
+                    "path": "/",
+                    "expires": 1758714959,
+                    "expires_date": "2025-09-24T11:55:59+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Pozdravljeni, spletne strani podjetja Dormeo Home d.o.o., Litostrojska cesta 52, 1000 Ljubljana, Davčna številka: 12525227, Matična številka: 9481982000 (\"Dormeo Home\"), uporabljajo nujne piškotke za zagotovitev pravilnega delovanja spletnih strani. Druge piškotke, ki se uporabljajo za analitične, marketinške in druge namene, bomo uporabljal šele po tem, ko nam boste dali privolitev. Svoje soglasje glede uporabe piškotkov lahko prekličete z obiskom naše strani PiškotkiVeč infoNastavitveSprejmi vse",
+                "banner_z_index": 3000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button [Sprejmi vse] is categorized as accepting all cookies (GenericLabel1). The button [Nastavitve] is for managing settings (GenericLabel3). There are no buttons for declining all cookies or ambiguous accept/decline phrases present in the input.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized as accepting all cookies (GenericLabel1). The button Nastavitve is for managing settings (GenericLabel3). There are no buttons for declining all cookies or ambiguous accept/decline phrases present in the input."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T12:54:36.388085",
+        "timestamp_stop": "2025-03-28T12:56:05.132329"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Nastavitve)",
+            "Clicking an element of type (button), with text (Sprejmi in zapri)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.dormeo.net/",
+            "https://www.dormeo.net/vodici",
+            "https://www.dormeo.net/vodici/vodici-odeje",
+            "https://www.dormeo.net/odeje"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "h2hcqgvm7ku7cfn4ovdlp4u843",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "personalid",
+                    "value": "28320252223940805",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722968.155075,
+                    "expires_date": "2026-05-02T11:56:08.155075+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "new_session",
+                    "value": "new_session",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "h2hcqgvm7ku7cfn4ovdlp4u843",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1743767770.337105,
+                    "expires_date": "2025-04-04T11:56:10.337105+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "private_content_version",
+                    "value": "6608535a8f57f518b3266570fe45da87",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722968.821037,
+                    "expires_date": "2026-05-02T11:56:08.821037+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "amcookie_allowed",
+                    "value": "1%2C4",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698969.333879,
+                    "expires_date": "2026-03-28T11:56:09.333879+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "amcookie_disallowed",
+                    "value": "_ga%2C_gid%2C_gat_UA-%5B%23%5D%2CIDE%2Ctest_cookie%2Cysc%2Cvisitor_info1_live%2C_dc_gtm_UA-%5B%23%5D%2C1P_JAR%2CDV%2C_hjIncludedInSample",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774698969.333966,
+                    "expires_date": "2026-03-28T11:56:09.333966+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "h2hcqgvm7ku7cfn4ovdlp4u843",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "personalid",
+                    "value": "28320252223940805",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722968.155075,
+                    "expires_date": "2026-05-02T11:56:08.155075+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "new_session",
+                    "value": "new_session",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "h2hcqgvm7ku7cfn4ovdlp4u843",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1743767770.337105,
+                    "expires_date": "2025-04-04T11:56:10.337105+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "private_content_version",
+                    "value": "6608535a8f57f518b3266570fe45da87",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722968.821037,
+                    "expires_date": "2026-05-02T11:56:08.821037+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_idm_key",
+                    "value": "iSHgNIvYrECeG855XXQ1x",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "TawkConnectionTime",
+                    "value": "0",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_uuid_59524804e9c6d324a473785c",
+                    "value": "%7B%22uuid%22%3A%221.1hHVVbfvSB542wFOXp08VmyEs6xhihqTw058ygfC7YQaGNZLsyk9AECwuf3F3LTAmfIXiYibFlh9rTlSUtXeElMUq1VtlEzdipJZkevgr3RlLXvKEwJ%22%2C%22version%22%3A3%2C%22domain%22%3A%22dormeo.net%22%2C%22ts%22%3A1743163031919%7D",
+                    "domain": ".dormeo.net",
+                    "path": "/",
+                    "expires": 1758715031,
+                    "expires_date": "2025-09-24T11:57:11+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "amcookie_allowed",
+                    "value": "0",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774699102.568217,
+                    "expires_date": "2026-03-28T11:58:22.568217+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "PHPSESSID",
+                    "value": "h2hcqgvm7ku7cfn4ovdlp4u843",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "personalid",
+                    "value": "28320252223940805",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722968.155075,
+                    "expires_date": "2026-05-02T11:56:08.155075+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "new_session",
+                    "value": "new_session",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "h2hcqgvm7ku7cfn4ovdlp4u843",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1743767922.194129,
+                    "expires_date": "2025-04-04T11:58:42.194129+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "private_content_version",
+                    "value": "6608535a8f57f518b3266570fe45da87",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": 1777722968.821037,
+                    "expires_date": "2026-05-02T11:56:08.821037+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_idm_key",
+                    "value": "iSHgNIvYrECeG855XXQ1x",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "amcookie_allowed",
+                    "value": "0",
+                    "domain": ".www.dormeo.net",
+                    "path": "/",
+                    "expires": 1774699102.568217,
+                    "expires_date": "2026-03-28T11:58:22.568217+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "TawkConnectionTime",
+                    "value": "0",
+                    "domain": "www.dormeo.net",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "twk_uuid_59524804e9c6d324a473785c",
+                    "value": "%7B%22uuid%22%3A%221.1hHVVbfvSB542wFOXp08VmyEs6xhihqTw058ygfC7YQaGNZLsyk9AECwuf3F3LTAmfIXiYibFlh9rTlSUtXeElMUq1VtlEzdipJZkevgr3RlLXvKEwJ%22%2C%22version%22%3A3%2C%22domain%22%3A%22dormeo.net%22%2C%22ts%22%3A1743163121700%7D",
+                    "domain": ".dormeo.net",
+                    "path": "/",
+                    "expires": 1758715121,
+                    "expires_date": "2025-09-24T11:58:41+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Pozdravljeni, spletne strani podjetja Dormeo Home d.o.o., Litostrojska cesta 52, 1000 Ljubljana, Davčna številka: 12525227, Matična številka: 9481982000 (\"Dormeo Home\"), uporabljajo nujne piškotke za zagotovitev pravilnega delovanja spletnih strani. Druge piškotke, ki se uporabljajo za analitične, marketinške in druge namene, bomo uporabljal šele po tem, ko nam boste dali privolitev. Svoje soglasje glede uporabe piškotkov lahko prekličete z obiskom naše strani PiškotkiVeč infoNastavitveSprejmi vse",
+                "banner_z_index": 3000,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: None\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button [Sprejmi vse] is categorized under GenericLabel1 as it clearly indicates accepting all cookies. There are no buttons for declining cookies or ambiguous phrases regarding acceptance or declining. The button [Nastavitve] is categorized under GenericLabel3 as it relates to settings. [Več info] does not fit the criteria for GenericLabel3 as it does not explicitly mention settings management.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized under GenericLabel1 as it clearly indicates accepting all cookies. There are no buttons for declining cookies or ambiguous phrases regarding acceptance or declining. The button Nastavitve is categorized under GenericLabel3 as it relates to settings. Več info does not fit the criteria for GenericLabel3 as it does not explicitly mention settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nastavitve",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Pozdravljeni, spletne strani podjetja Dormeo Home d.o.o., Litostrojska cesta 52, 1000 Ljubljana, Davčna številka: 12525227, Matična številka: 9481982000 (\"Dormeo Home\"), uporabljajo nujne piškotke za zagotovitev pravilnega delovanja spletnih strani. Druge piškotke, ki se uporabljajo za analitične, marketinške in druge namene, bomo uporabljal šele po tem, ko nam boste dali privolitev. Svoje soglasje glede uporabe piškotkov lahko prekličete z obiskom naše strani Piškotki×Nujno potrebni piškotkiTi piškotki so bistveni za pravilno delovanje spletne strani in jih ni mogoče izključiti. Brez teh piškotkov spletna stran ne bi delovala.ImePonudnikVeljavnostOpisPHPSESSIDDomeo HomeSessionSeja za dele spletnega mesta na podlagi programskega jezika PHP. Nekateri deli našega spletnega mesta temeljijo na različnih programskih jezikih, zato običajno namestimo več kot eno sejo.private_content_versionDomeo Home1 year 1 monthAppends a random, unique number and time to pages with customer content to preve",
+                "banner_z_index": 10000002,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: None\nAmbiguousLabel1: [Sprejmi in zapri]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The text \"Sprejmi vse\" directly translates to accepting all cookies, so it is categorized under GenericLabel1. \"Sprejmi in zapri\" is an ambiguous accept phrase, as it could imply acceptance of cookies without specifying the extent. There are no buttons for declining all cookies or managing settings in the provided text.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmi in zapri",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The text \"Sprejmi vse\" directly translates to accepting all cookies, so it is categorized under GenericLabel1. \"Sprejmi in zapri\" is an ambiguous accept phrase, as it could imply acceptance of cookies without specifying the extent. There are no buttons for declining all cookies or managing settings in the provided text."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Sprejmi in zapri",
+                "settings_decline_element_ambiguous": true,
+                "settings_decline_element_evidence": "AmbiguousLabel1",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T12:56:06.710322",
+        "timestamp_stop": "2025-03-28T12:58:47.700260"
+    }
+}

@@ -1,0 +1,757 @@
+{
+    "web_page": "https://sms-muzeji.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T07:29:40.076491",
+    "timestamp_stop": "2025-03-28T07:31:58.198999",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://sms-muzeji.si/",
+            "https://sms-muzeji.si/pravilnik-o-piskotkih-eu/#cmplz-cookies-overview",
+            "https://sms-muzeji.si/category/prireditve/",
+            "https://sms-muzeji.si/sekcija-za-konservatorsko-restavratorsko-dejavnost/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyph1JWDZzIdMgHTnu2q6IgkEximlPW8hPEtdpxxymuYsj9uILdIWa2zTlKgizCdIyMWudCyUBySU26Cnh8",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758695383.670845,
+                    "expires_date": "2025-09-24T06:29:43.670845+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyq9u_LniAOxvnvY4f7BOUtLB4p6uTDIwKW5K9eEUPsEw9PYyVrtrUVvOjW6fqzedjt9SibPiWlvV0nJCgU",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758695404.037847,
+                    "expires_date": "2025-09-24T06:30:04.037847+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T07:29:41.591506",
+        "timestamp_stop": "2025-03-28T07:30:09.838674"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://sms-muzeji.si/",
+            "https://sms-muzeji.si/pravilnik-o-piskotkih-eu/#cmplz-cookies-overview",
+            "https://sms-muzeji.si/category/prireditve/",
+            "https://sms-muzeji.si/sekcija-za-konservatorsko-restavratorsko-dejavnost/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqgPccMFdb-Pu0_zkSgcbLRyJj-ky-ULVEcXyvfdHOSqbYbcsdu9PofkMRONScXLIt4ed9mz-w8AwNP4Uo",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758695413.746808,
+                    "expires_date": "2025-09-24T06:30:13.746808+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqoc9L1WsibL2o83LVFrknnAEEsp6K8XM_Zi_MzN_JIuXB7EoBDhf7tNiQ7aDhQ7qyNnSgi2_6q0PppVVI",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758695441.108129,
+                    "expires_date": "2025-09-24T06:30:41.108129+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "22",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyoOcyPSHQkZUvT0d3x5eH9FjwDBE175PDPneLw3TgKRc2aHiDBOx1ffhFBi-TV8fAQwoEIHGtvMTgJ2RBE",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758695461.197943,
+                    "expires_date": "2025-09-24T06:31:01.197943+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "22",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679440,
+                    "expires_date": "2026-03-28T06:30:40+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljanje soglasja\n\t\t\n\t\t\t\n\t\t\n\t\n\n\t\n\t\n\t\tZa zagotavljanje najboljših izkušenj uporabljamo piškotke, ki služijo shranjevanju in/ali dostopu do podatkov o napravi. Soglasje za te tehnologije nam bo omogočilo obdelavo podatkov, kot so vedenje pri brskanju ali edinstveni ID-ji, na tem spletnem mestu. Neprivolitev ali preklic privolitve lahko negativno vpliva na nekatere zmožnosti in funkcije.\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFunkcionalni\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tFunkcionalni\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tVedno omogočeni\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTehnična hramba ali dostop sta nujno potrebna za zakonit namen omogočanja uporabe določene storitve, ki jo naročnik ali uporabnik izrecno zahteva, ali izključno za namen prenosa sporočila prek elektronskega komunikacijskega omrežja.\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNastavitve\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tNastavitve\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTehnično shranjevanje ali dostop je potreben za zakonit namen s",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None  \nGenericLabel2: [Zavrni]  \nAmbiguousLabel1: [Sprejmi]  \nAmbiguousLabel2: None  \nGenericLabel3: [Prikaz nastavitev]  \nExplanation: \"Sprejmi\" is considered an ambiguous accept phrase, while \"Zavrni\" clearly indicates a decline. \"Prikaz nastavitev\" relates to managing settings, thus categorized under GenericLabel3. There are no labels for accepting all cookies, and no ambiguous decline phrases.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Prikaz nastavitev",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is considered an ambiguous accept phrase, while \"Zavrni\" clearly indicates a decline. \"Prikaz nastavitev\" relates to managing settings, thus categorized under GenericLabel3. There are no labels for accepting all cookies, and no ambiguous decline phrases."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T07:30:11.415647",
+        "timestamp_stop": "2025-03-28T07:31:07.020533"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://sms-muzeji.si/",
+            "https://sms-muzeji.si/pravilnik-o-piskotkih-eu/#cmplz-cookies-overview",
+            "https://sms-muzeji.si/category/prireditve/",
+            "https://sms-muzeji.si/sekcija-za-konservatorsko-restavratorsko-dejavnost/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqBbEXajHIw-g6R6mx3vAG2e2quGjXz4p94TIQfPG5xsMP0V92xBTT1Lj3xaTOUzuKP276ucE9hfcQUyn4",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758695470.593219,
+                    "expires_date": "2025-09-24T06:31:10.593219+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyqBbEXajHIw-g6R6mx3vAG2e2quGjXz4p94TIQfPG5xsMP0V92xBTT1Lj3xaTOUzuKP276ucE9hfcQUyn4",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758695470.593219,
+                    "expires_date": "2025-09-24T06:31:10.593219+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "22",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "deny",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "deny",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "deny",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "_GRECAPTCHA",
+                    "value": "09ALcxeyr9ZaX0y19BxrrIhucruRXtNhIka5bKEyNf7VpScVMUoSSK_ukBQdplDI8a8AAZCwgK3YJyVmKu6tfgw5U",
+                    "domain": "www.google.com",
+                    "path": "/recaptcha",
+                    "expires": 1758695512.053981,
+                    "expires_date": "2025-09-24T06:31:52.053981+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_banner-status",
+                    "value": "dismissed",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_policy_id",
+                    "value": "22",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_marketing",
+                    "value": "deny",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_statistics",
+                    "value": "deny",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_preferences",
+                    "value": "deny",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_functional",
+                    "value": "allow",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cmplz_consented_services",
+                    "value": "",
+                    "domain": "sms-muzeji.si",
+                    "path": "/",
+                    "expires": 1774679491,
+                    "expires_date": "2026-03-28T06:31:31+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Upravljanje soglasja\n\t\t\n\t\t\t\n\t\t\n\t\n\n\t\n\t\n\t\tZa zagotavljanje najboljših izkušenj uporabljamo piškotke, ki služijo shranjevanju in/ali dostopu do podatkov o napravi. Soglasje za te tehnologije nam bo omogočilo obdelavo podatkov, kot so vedenje pri brskanju ali edinstveni ID-ji, na tem spletnem mestu. Neprivolitev ali preklic privolitve lahko negativno vpliva na nekatere zmožnosti in funkcije.\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tFunkcionalni\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tFunkcionalni\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tVedno omogočeni\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTehnična hramba ali dostop sta nujno potrebna za zakonit namen omogočanja uporabe določene storitve, ki jo naročnik ali uporabnik izrecno zahteva, ali izključno za namen prenosa sporočila prek elektronskega komunikacijskega omrežja.\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNastavitve\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tNastavitve\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTehnično shranjevanje ali dostop je potreben za zakonit namen s",
+                "banner_z_index": 99999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [None]\nGenericLabel2: [Zavrni]\nAmbiguousLabel1: [Sprejmi]\nAmbiguousLabel2: None\nGenericLabel3: [Prikaz nastavitev]\nExplanation: \"Sprejmi\" is categorized as an ambiguous accept, while \"Zavrni\" is categorized as a decline. \"Prikaz nastavitev\" refers to managing settings. There are no buttons for accepting all cookies.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": "Zavrni",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Prikaz nastavitev",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Sprejmi\" is categorized as an ambiguous accept, while \"Zavrni\" is categorized as a decline. \"Prikaz nastavitev\" refers to managing settings. There are no buttons for accepting all cookies."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T07:31:08.565491",
+        "timestamp_stop": "2025-03-28T07:31:57.915619"
+    }
+}

@@ -1,0 +1,3397 @@
+{
+    "web_page": "https://www.petrol.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T06:10:26.747706",
+    "timestamp_stop": "2025-03-28T06:13:24.471027",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.petrol.si/",
+            "https://www.petrol.si/eshop/avto-oprema-in-avtomobilizem/avtokozmetika/destilirana-voda",
+            "https://www.petrol.si/eshop/gospodinjski-aparati/mali-gospodinjski-aparati/priprava-hrane/elektricne-ponve",
+            "https://www.petrol.si/eshop/vrt-in-orodje/podaljski-in-razdelilci"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "568DC12A0A65C6116914B413C541F888",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Prod-DMZ",
+                    "value": "!uNiUH2PobiTxIo4ME+IiVMD3lNCnaqZnxz+b7GzF42AJx3iyzGrk5Ie3WyPHFMcYuTwKemk96yrIj7o=",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "UwKfEgyyFpZcUzLE5Nejz7RSrOVLPnJpaje4TewylWE-1743138612-1.0.1.1-BvIVdZxBeM0rxduDuemfHkBNOraeXj3AwsmYUBJsv3v61QumsbSe53Jfy3jbqxW5rQoOCPOfMDiE0yBlEZZ0xs454qV8WmY_slIffyj697w",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743140429.1809,
+                    "expires_date": "2025-03-28T05:40:29.180900+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "q9jOUYwcQbNOIjiG_GW1zCqZWXdw9uHHkRoL_uvvAOM-1743138612-1.0.1.1-xyayu6_RHJbTlE9GDmYnLU5V1y40XwbYNNypVuA7PARq0ZEgb_dQ9T6ifkXsmdm1LAaoD8X85wZUt15PhY6XLa567.zprl_hnwzQUA7HhNA",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743140429.334742,
+                    "expires_date": "2025-03-28T05:40:29.334742+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Keycloak-Prod",
+                    "value": "!a+kur6nELK5kHSkME+IiVMD3lNCnanbkRMZTdUL4n42MxryZfsFpUo9tdbhuWwLKhq5+GEneg+M1",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674629.428752,
+                    "expires_date": "2026-03-28T05:10:29.428752+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LSKey-c$CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674629.428824,
+                    "expires_date": "2026-03-28T05:10:29.428824+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "Of9dyAnbEfCaFTWjYhjdpg",
+                    "domain": ".salesforce.com",
+                    "path": "/",
+                    "expires": 1774674629.428869,
+                    "expires_date": "2026-03-28T05:10:29.428869+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "BLmXqanKNQpp_yVwqH.QiKLZ1.FcSTfrqFDGMvEgKus-1743138612-1.0.1.1-FLXIBKLusooUX584qfHKcYqXUZd7LLHl32J4UnHA.Ut8xU3YqOOQHDRkESWs2fJh",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": 1743140429.446601,
+                    "expires_date": "2025-03-28T05:40:29.446601+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "zGJQrAFVOelRsd.e__TMkY83kwxA7d2k47BS_ZLlLjI-1743138612656-0.0.1.1-604800000",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "EXD-dYWThJ0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "COPausCDspD8DRCy2bSugayMAxiy2bSugayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690629.456642,
+                    "expires_date": "2025-09-24T05:10:29.456642+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "5kAt2FF5uh8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690629.456696,
+                    "expires_date": "2025-09-24T05:10:29.456696+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgYw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690629.456727,
+                    "expires_date": "2025-09-24T05:10:29.456727+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_ESHOP-PROD",
+                    "value": "1787170570.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "7bXxwguSEfCa5sOWFe3RCw",
+                    "domain": ".force.com",
+                    "path": "/",
+                    "expires": 1774674629.76932,
+                    "expires_date": "2026-03-28T05:10:29.769320+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_COSA",
+                    "value": "197463818.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "568DC12A0A65C6116914B413C541F888",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Prod-DMZ",
+                    "value": "!uNiUH2PobiTxIo4ME+IiVMD3lNCnaqZnxz+b7GzF42AJx3iyzGrk5Ie3WyPHFMcYuTwKemk96yrIj7o=",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "UwKfEgyyFpZcUzLE5Nejz7RSrOVLPnJpaje4TewylWE-1743138612-1.0.1.1-BvIVdZxBeM0rxduDuemfHkBNOraeXj3AwsmYUBJsv3v61QumsbSe53Jfy3jbqxW5rQoOCPOfMDiE0yBlEZZ0xs454qV8WmY_slIffyj697w",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743140429.1809,
+                    "expires_date": "2025-03-28T05:40:29.180900+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "q9jOUYwcQbNOIjiG_GW1zCqZWXdw9uHHkRoL_uvvAOM-1743138612-1.0.1.1-xyayu6_RHJbTlE9GDmYnLU5V1y40XwbYNNypVuA7PARq0ZEgb_dQ9T6ifkXsmdm1LAaoD8X85wZUt15PhY6XLa567.zprl_hnwzQUA7HhNA",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743140429.334742,
+                    "expires_date": "2025-03-28T05:40:29.334742+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Keycloak-Prod",
+                    "value": "!a+kur6nELK5kHSkME+IiVMD3lNCnanbkRMZTdUL4n42MxryZfsFpUo9tdbhuWwLKhq5+GEneg+M1",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674629.428752,
+                    "expires_date": "2026-03-28T05:10:29.428752+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LSKey-c$CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674629.428824,
+                    "expires_date": "2026-03-28T05:10:29.428824+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "Of9dyAnbEfCaFTWjYhjdpg",
+                    "domain": ".salesforce.com",
+                    "path": "/",
+                    "expires": 1774674629.428869,
+                    "expires_date": "2026-03-28T05:10:29.428869+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "BLmXqanKNQpp_yVwqH.QiKLZ1.FcSTfrqFDGMvEgKus-1743138612-1.0.1.1-FLXIBKLusooUX584qfHKcYqXUZd7LLHl32J4UnHA.Ut8xU3YqOOQHDRkESWs2fJh",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": 1743140429.446601,
+                    "expires_date": "2025-03-28T05:40:29.446601+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "zGJQrAFVOelRsd.e__TMkY83kwxA7d2k47BS_ZLlLjI-1743138612656-0.0.1.1-604800000",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "EXD-dYWThJ0",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "COPausCDspD8DRCy2bSugayMAxiy2bSugayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690629.456642,
+                    "expires_date": "2025-09-24T05:10:29.456642+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "5kAt2FF5uh8",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690629.456696,
+                    "expires_date": "2025-09-24T05:10:29.456696+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgYw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690629.456727,
+                    "expires_date": "2025-09-24T05:10:29.456727+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_ESHOP-PROD",
+                    "value": "1787170570.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "7bXxwguSEfCa5sOWFe3RCw",
+                    "domain": ".force.com",
+                    "path": "/",
+                    "expires": 1774674629.76932,
+                    "expires_date": "2026-03-28T05:10:29.769320+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_COSA",
+                    "value": "197463818.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1774674645.3706,
+                    "expires_date": "2026-03-28T05:10:45.370600+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "cart",
+                    "value": "%7B%22cart%22%3A%7B%22id%22%3A%22%22%7D%7D",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1815785316.1743138646",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1750914646,
+                    "expires_date": "2025-06-26T05:10:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.381323422.1743138646",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743225062,
+                    "expires_date": "2025-03-29T05:11:02+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-3973404-12",
+                    "value": "1",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743138706,
+                    "expires_date": "2025-03-28T05:11:46+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "ae8f47a2-4f48-4247-b94a-4ce46727e37b",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834646.624385,
+                    "expires_date": "2026-04-22T05:10:46.624385+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834646.624501,
+                    "expires_date": "2026-04-22T05:10:46.624501+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": "measurement-api.criteo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_HVN86ZVC45",
+                    "value": "GS1.1.1743138646.1.1.1743138661.0.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698661.760843,
+                    "expires_date": "2026-05-02T05:11:01.760843+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "ucNAbl9EdFRGeE5mRWtKZGFtRTd4NU1rakFrVDQlMkJKQ2dCdEVUU2h2VkprbkxEbHk1YWxTUThQQTIwTjVvVHNwdjhlZVFUWEhqZEp1NFNKaFZzUyUyQno2ZW1FZENRdERuJTJCckxtcUJZbDk1M3clMkYwbGhJOU9JZDBDNXZzZWNBUDJyc2NHWmlUNkFGaEliVEowTk96NWR1OVVrNTNuUSUzRCUzRA",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834661.902638,
+                    "expires_date": "2026-04-22T05:11:01.902638+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "QTM5QF9DTTVBZjFrJTJCMkphVUxFRXhCRWI0NjhKMyUyRk1qV3BqeXFvQ3AxUlB1JTJGdEdVREFIYWpXN3g5ODByWE5YbUE3czQ3clhwelR5V05Ca2p6ViUyRlVoU3RNRU1kYTdsR0t1YVlhUEtlTEVxTlZZWGFubVRMekVBaFRzRCUyQkpOUGolMkJpcEVlbjBsY0lTRUlGVlZLcXFqV0tIWk9KZlElM0QlM0Q",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777302661,
+                    "expires_date": "2026-04-27T15:11:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_EDRF81D5XY",
+                    "value": "GS1.2.1743138653.1.1.1743138662.51.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698662.078942,
+                    "expires_date": "2026-05-02T05:11:02.078942+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1845395831.1743138646",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698662.13343,
+                    "expires_date": "2026-05-02T05:11:02.133430+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_ZBEDJ0M14D",
+                    "value": "GS1.1.1743138653.1.0.1743138662.51.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698662.13747,
+                    "expires_date": "2026-05-02T05:11:02.137470+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T06:10:28.141204",
+        "timestamp_stop": "2025-03-28T06:11:08.543349"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse piškotke)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.petrol.si/",
+            "https://www.petrol.si/eshop/avto-oprema-in-avtomobilizem/avtokozmetika/destilirana-voda",
+            "https://www.petrol.si/eshop/gospodinjski-aparati/mali-gospodinjski-aparati/priprava-hrane/elektricne-ponve",
+            "https://www.petrol.si/eshop/vrt-in-orodje/podaljski-in-razdelilci"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "D210BE9337B05DDC307C133EA6375725",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Prod-DMZ",
+                    "value": "!uQW5FDJ+WCgQDj4ME+IiVMD3lNCnar63fXf7cxkmFnx3sEl/CFuexV6Q09EY7Fcgymx39tVozk6ypg==",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "9Fzch24f6FIMXFQxq3TOPwATV9YCxaH6lc6weIGDBkU-1743138654-1.0.1.1-ceAf7A77isV.9o4UGsUvSBPs32pPikM8SsLUKLZ6u1j2I8j6KU6TdGhvg89fORkdRFbT3EET9yRFKXRFsOv2dtqMjeQmUE_jgAq3rAHLDTo",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743140471.178435,
+                    "expires_date": "2025-03-28T05:41:11.178435+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Keycloak-Prod",
+                    "value": "!78oLx6BSdJpcHogME+IiVMD3lNCnamyRf8SjBMFyj7vEFShbnUb0mS1qffWVlD5eSeFCWJ1mlY7W",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507185,
+                    "expires_date": "2026-03-28T05:11:11.507185+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LSKey-c$CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507264,
+                    "expires_date": "2026-03-28T05:11:11.507264+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "Of9dyAnbEfCaFTWjYhjdpg",
+                    "domain": ".salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507303,
+                    "expires_date": "2026-03-28T05:11:11.507303+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "dntOFHcfjwhAoQARqqEi76qFLhtPwtFLuY66xWKMnMs-1743138654-1.0.1.1-EqoC4ZG03E_RPtYToNbYr2QiAF4AAxLxim.dLkcyMjcHCFQf.BjINI3W5LeA75Qb",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": 1743140471.527018,
+                    "expires_date": "2025-03-28T05:41:11.527018+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "a4CZvQGDRt5G5pxBwU0gi00CVXJPcAnj0A5Q74_u7jk-1743138654735-0.0.1.1-604800000",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "f7_CdoX-QSM",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "7pF46nL5G5w",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.535987,
+                    "expires_date": "2025-09-24T05:11:11.535987+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgQw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.536051,
+                    "expires_date": "2025-09-24T05:11:11.536051+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CISKm_Xz1avjxgEQ3va8woGsjAMY3va8woGsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.536089,
+                    "expires_date": "2025-09-24T05:11:11.536089+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_ESHOP-PROD",
+                    "value": "1787170570.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "BsiNCwuTEfCVRok-3W-RwQ",
+                    "domain": ".force.com",
+                    "path": "/",
+                    "expires": 1774674671.834203,
+                    "expires_date": "2026-03-28T05:11:11.834203+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_COSA",
+                    "value": "214241034.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "D210BE9337B05DDC307C133EA6375725",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Prod-DMZ",
+                    "value": "!uQW5FDJ+WCgQDj4ME+IiVMD3lNCnar63fXf7cxkmFnx3sEl/CFuexV6Q09EY7Fcgymx39tVozk6ypg==",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "9Fzch24f6FIMXFQxq3TOPwATV9YCxaH6lc6weIGDBkU-1743138654-1.0.1.1-ceAf7A77isV.9o4UGsUvSBPs32pPikM8SsLUKLZ6u1j2I8j6KU6TdGhvg89fORkdRFbT3EET9yRFKXRFsOv2dtqMjeQmUE_jgAq3rAHLDTo",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743140471.178435,
+                    "expires_date": "2025-03-28T05:41:11.178435+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Keycloak-Prod",
+                    "value": "!78oLx6BSdJpcHogME+IiVMD3lNCnamyRf8SjBMFyj7vEFShbnUb0mS1qffWVlD5eSeFCWJ1mlY7W",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507185,
+                    "expires_date": "2026-03-28T05:11:11.507185+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LSKey-c$CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507264,
+                    "expires_date": "2026-03-28T05:11:11.507264+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "Of9dyAnbEfCaFTWjYhjdpg",
+                    "domain": ".salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507303,
+                    "expires_date": "2026-03-28T05:11:11.507303+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "dntOFHcfjwhAoQARqqEi76qFLhtPwtFLuY66xWKMnMs-1743138654-1.0.1.1-EqoC4ZG03E_RPtYToNbYr2QiAF4AAxLxim.dLkcyMjcHCFQf.BjINI3W5LeA75Qb",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": 1743140471.527018,
+                    "expires_date": "2025-03-28T05:41:11.527018+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "a4CZvQGDRt5G5pxBwU0gi00CVXJPcAnj0A5Q74_u7jk-1743138654735-0.0.1.1-604800000",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "f7_CdoX-QSM",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "7pF46nL5G5w",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.535987,
+                    "expires_date": "2025-09-24T05:11:11.535987+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgQw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.536051,
+                    "expires_date": "2025-09-24T05:11:11.536051+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CISKm_Xz1avjxgEQ3va8woGsjAMY3va8woGsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.536089,
+                    "expires_date": "2025-09-24T05:11:11.536089+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_ESHOP-PROD",
+                    "value": "1787170570.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "BsiNCwuTEfCVRok-3W-RwQ",
+                    "domain": ".force.com",
+                    "path": "/",
+                    "expires": 1774674671.834203,
+                    "expires_date": "2026-03-28T05:11:11.834203+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_COSA",
+                    "value": "214241034.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cookie_optout",
+                    "value": "false",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1750914710,
+                    "expires_date": "2025-06-26T05:11:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cookie3_optout",
+                    "value": "false",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1750914710,
+                    "expires_date": "2025-06-26T05:11:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.109374910.1743138711",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743225111,
+                    "expires_date": "2025-03-29T05:11:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743138770,
+                    "expires_date": "2025-03-28T05:12:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_krovniGA",
+                    "value": "1",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743138770,
+                    "expires_date": "2025-03-28T05:12:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.853964032.1743138711",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1750914710,
+                    "expires_date": "2025-06-26T05:11:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_YGML29563T",
+                    "value": "GS1.2.1743138710.1.0.1743138710.0.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698711.00323,
+                    "expires_date": "2026-05-02T05:11:51.003230+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_K2TCWZQ2MN",
+                    "value": "GS1.2.1743138711.1.0.1743138711.60.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698711.133587,
+                    "expires_date": "2026-05-02T05:11:51.133587+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-3973404-12",
+                    "value": "1",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743138771,
+                    "expires_date": "2025-03-28T05:12:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743139611.27535,
+                    "expires_date": "2025-03-28T05:26:51.275350+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_EDRF81D5XY",
+                    "value": "GS1.1.1743138711.1.0.1743138711.60.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698711.501427,
+                    "expires_date": "2026-05-02T05:11:51.501427+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1778573082.1743138711",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698711.50367,
+                    "expires_date": "2026-05-02T05:11:51.503670+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&3deed67e-8e41-4e26-81b7-fd1a4fd81182\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774674711.559006,
+                    "expires_date": "2026-03-28T05:11:51.559006+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxMzg2OTQ7MjswMjEll619ioSdzyZJKt1PJZZ4G9tzBuQSfrquIZSzpXZ1uA==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758690711.559083,
+                    "expires_date": "2025-09-24T05:11:51.559083+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743138694:t=1743225094:v=2:sig=AQHBAnCfoFQRulxuXEcT9rftMDZAGHXE\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743225111.55915,
+                    "expires_date": "2025-03-29T05:11:51.559150+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1973727",
+                    "value": "eyJpZCI6IjVmN2RlYTcwLWNhNzItNTAxYS04NDg4LTEzNjA3YWM5OWNhOSIsImNyZWF0ZWQiOjE3NDMxMzg3MTE1ODQsImV4aXN0aW5nIjpmYWxzZX0=",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1774674711,
+                    "expires_date": "2026-03-28T05:11:51+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSession_1973727",
+                    "value": "eyJpZCI6ImYzNzM4OWJmLWE2NzQtNGU1OC04OWNkLTQ5OTIxZDAxNmRmZiIsImMiOjE3NDMxMzg3MTE1ODYsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743140511,
+                    "expires_date": "2025-03-28T05:41:51+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "igodigitaltc2",
+                    "value": "1eaaa506-0b93-11f0-b959-7231f5546a0d",
+                    "domain": ".igodigital.com",
+                    "path": "/",
+                    "expires": 1777698711.955027,
+                    "expires_date": "2026-05-02T05:11:51.955027+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "igodigitalst_100015441",
+                    "value": "1eaaacf4-0b93-11f0-b959-7231f5546a0d",
+                    "domain": ".igodigital.com",
+                    "path": "/",
+                    "expires": 1743142311.955129,
+                    "expires_date": "2025-03-28T06:11:51.955129+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "igodigitalstdomain",
+                    "value": "1148283",
+                    "domain": ".igodigital.com",
+                    "path": "/",
+                    "expires": 1743142311.955167,
+                    "expires_date": "2025-03-28T06:11:51.955167+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "D210BE9337B05DDC307C133EA6375725",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Prod-DMZ",
+                    "value": "!uQW5FDJ+WCgQDj4ME+IiVMD3lNCnar63fXf7cxkmFnx3sEl/CFuexV6Q09EY7Fcgymx39tVozk6ypg==",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "9Fzch24f6FIMXFQxq3TOPwATV9YCxaH6lc6weIGDBkU-1743138654-1.0.1.1-ceAf7A77isV.9o4UGsUvSBPs32pPikM8SsLUKLZ6u1j2I8j6KU6TdGhvg89fORkdRFbT3EET9yRFKXRFsOv2dtqMjeQmUE_jgAq3rAHLDTo",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743140471.178435,
+                    "expires_date": "2025-03-28T05:41:11.178435+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Keycloak-Prod",
+                    "value": "!78oLx6BSdJpcHogME+IiVMD3lNCnamyRf8SjBMFyj7vEFShbnUb0mS1qffWVlD5eSeFCWJ1mlY7W",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507185,
+                    "expires_date": "2026-03-28T05:11:11.507185+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LSKey-c$CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507264,
+                    "expires_date": "2026-03-28T05:11:11.507264+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "Of9dyAnbEfCaFTWjYhjdpg",
+                    "domain": ".salesforce.com",
+                    "path": "/",
+                    "expires": 1774674671.507303,
+                    "expires_date": "2026-03-28T05:11:11.507303+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "dntOFHcfjwhAoQARqqEi76qFLhtPwtFLuY66xWKMnMs-1743138654-1.0.1.1-EqoC4ZG03E_RPtYToNbYr2QiAF4AAxLxim.dLkcyMjcHCFQf.BjINI3W5LeA75Qb",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": 1743140471.527018,
+                    "expires_date": "2025-03-28T05:41:11.527018+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "a4CZvQGDRt5G5pxBwU0gi00CVXJPcAnj0A5Q74_u7jk-1743138654735-0.0.1.1-604800000",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "f7_CdoX-QSM",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "7pF46nL5G5w",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.535987,
+                    "expires_date": "2025-09-24T05:11:11.535987+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgQw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.536051,
+                    "expires_date": "2025-09-24T05:11:11.536051+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CISKm_Xz1avjxgEQ3va8woGsjAMY3va8woGsjAM%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690671.536089,
+                    "expires_date": "2025-09-24T05:11:11.536089+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_ESHOP-PROD",
+                    "value": "1787170570.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "BsiNCwuTEfCVRok-3W-RwQ",
+                    "domain": ".force.com",
+                    "path": "/",
+                    "expires": 1774674671.834203,
+                    "expires_date": "2026-03-28T05:11:11.834203+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_COSA",
+                    "value": "214241034.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cookie_optout",
+                    "value": "false",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1750914710,
+                    "expires_date": "2025-06-26T05:11:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cookie3_optout",
+                    "value": "false",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1750914710,
+                    "expires_date": "2025-06-26T05:11:50+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.109374910.1743138711",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743225130,
+                    "expires_date": "2025-03-29T05:12:10+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat",
+                    "value": "1",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743138770,
+                    "expires_date": "2025-03-28T05:12:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_krovniGA",
+                    "value": "1",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743138770,
+                    "expires_date": "2025-03-28T05:12:50+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.853964032.1743138711",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1750914711,
+                    "expires_date": "2025-06-26T05:11:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_YGML29563T",
+                    "value": "GS1.2.1743138710.1.0.1743138710.0.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698711.00323,
+                    "expires_date": "2026-05-02T05:11:51.003230+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_K2TCWZQ2MN",
+                    "value": "GS1.2.1743138711.1.0.1743138711.60.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698711.133587,
+                    "expires_date": "2026-05-02T05:11:51.133587+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-3973404-12",
+                    "value": "1",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743138771,
+                    "expires_date": "2025-03-28T05:12:51+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743139611.27535,
+                    "expires_date": "2025-03-28T05:26:51.275350+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "bcookie",
+                    "value": "\"v=2&3deed67e-8e41-4e26-81b7-fd1a4fd81182\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1774674711.559006,
+                    "expires_date": "2026-03-28T05:11:51.559006+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "li_gc",
+                    "value": "MTswOzE3NDMxMzg2OTQ7MjswMjEll619ioSdzyZJKt1PJZZ4G9tzBuQSfrquIZSzpXZ1uA==",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1758690711.559083,
+                    "expires_date": "2025-09-24T05:11:51.559083+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "lidc",
+                    "value": "\"b=OGST00:s=O:r=O:a=O:p=O:g=3613:u=1:x=1:i=1743138694:t=1743225094:v=2:sig=AQHBAnCfoFQRulxuXEcT9rftMDZAGHXE\"",
+                    "domain": ".linkedin.com",
+                    "path": "/",
+                    "expires": 1743225111.55915,
+                    "expires_date": "2025-03-29T05:11:51.559150+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_hjSession_1973727",
+                    "value": "eyJpZCI6ImYzNzM4OWJmLWE2NzQtNGU1OC04OWNkLTQ5OTIxZDAxNmRmZiIsImMiOjE3NDMxMzg3MTE1ODYsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743140511,
+                    "expires_date": "2025-03-28T05:41:51+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "igodigitaltc2",
+                    "value": "1eaaa506-0b93-11f0-b959-7231f5546a0d",
+                    "domain": ".igodigital.com",
+                    "path": "/",
+                    "expires": 1777698711.955027,
+                    "expires_date": "2026-05-02T05:11:51.955027+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "igodigitalst_100015441",
+                    "value": "1eaaacf4-0b93-11f0-b959-7231f5546a0d",
+                    "domain": ".igodigital.com",
+                    "path": "/",
+                    "expires": 1743142311.955129,
+                    "expires_date": "2025-03-28T06:11:51.955129+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "igodigitalstdomain",
+                    "value": "1148283",
+                    "domain": ".igodigital.com",
+                    "path": "/",
+                    "expires": 1743142311.955167,
+                    "expires_date": "2025-03-28T06:11:51.955167+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": "measurement-api.criteo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_HVN86ZVC45",
+                    "value": "GS1.1.1743138724.1.1.1743138723.0.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698723.46993,
+                    "expires_date": "2026-05-02T05:12:03.469930+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.2.1778573082.1743138711",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698730.510496,
+                    "expires_date": "2026-05-02T05:12:10.510496+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "0zb7Ql9yeHN5OUJIJTJCZUU5TnVtZmJQcE8za3JnYk5YeTZJUmFnRSUyQiUyRlhrJTJGcUElMkJUSjdzMGpXZW9GeW0wM0JzeDclMkJOVUtqZnYxeWklMkJBVEVGTUhxTWRseXNONXBhUVVWM1lPRkk5eXN4SjBiZFQwNENoNFVnZnh2RFZuS0czR3A5OVElMkZoYWFucXhyd1BHYUVqZCUyRmFabWVjTk5Ib0ElM0QlM0Q",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834723.686794,
+                    "expires_date": "2026-04-22T05:12:03.686794+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "9bM8d19hdGRGSUJmWXJCV0FWUldFbTlpVEc5TmlWR1oyOSUyRnJKSFAzZVU2RnNlSWt5UFJFQTlZbm41ajVpWTBqajNyNVBLYWMyeFZwRDEwZDRPOUlKVVlqcjdSVHZBeWlGJTJGcU41T2h4SGpyU2RUTDVSUGtZVFlPeDNTeUViNnZWMDZSdmtjTlV4S1IxbzdBaU9XdGZrSCUyRnJuSEElM0QlM0Q",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777302723,
+                    "expires_date": "2026-04-27T15:12:03+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1774674723.775382,
+                    "expires_date": "2026-03-28T05:12:03.775382+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_ga_ZBEDJ0M14D",
+                    "value": "GS1.1.1743138724.1.1.1743138724.50.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698724.007838,
+                    "expires_date": "2026-05-02T05:12:04.007838+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "Kn8lndEq5AcY5yzlu8CI2kVexVfOo8khuGlxTUycOQs-1743138707-1.0.1.1-3RSUaAx_1uG9v0yFaKh60cRs4Ph0d.fdn0.SHgF7_r2zBdW7Fcb1q5ZdXSzeJ_2l0gu04v9kMnKupaz2JZON6IKVK0_zpSE7cwpCELZijjk",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743140524.575533,
+                    "expires_date": "2025-03-28T05:42:04.575533+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_hjSessionUser_1973727",
+                    "value": "eyJpZCI6IjVmN2RlYTcwLWNhNzItNTAxYS04NDg4LTEzNjA3YWM5OWNhOSIsImNyZWF0ZWQiOjE3NDMxMzg3MTE1ODQsImV4aXN0aW5nIjp0cnVlfQ==",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1774674723,
+                    "expires_date": "2026-03-28T05:12:03+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cart",
+                    "value": "%7B%22cart%22%3A%7B%22id%22%3A%22%22%7D%7D",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "a88c26b8-a309-4b1d-b12f-afd64f9131ae",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834726.104002,
+                    "expires_date": "2026-04-22T05:12:06.104002+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834726.104079,
+                    "expires_date": "2026-04-22T05:12:06.104079+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_EDRF81D5XY",
+                    "value": "GS1.2.1743138711.1.1.1743138730.31.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698730.529146,
+                    "expires_date": "2026-05-02T05:12:10.529146+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Nastavitve piškotkov                                                                 Spletna stran uporablja piškotke. Nujne, ki so potrebni za nemoteno delovanje spletne strani, smo že naložili. Veseli bomo, če nam dovolite, da naložimo tudi analitične in marketinške piškotke.                            Podrobneje                                                                            Sprejmi vse piškotke                             SAMO NUJNI PIŠKOTKI",
+                "banner_z_index": 999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškotke]\nGenericLabel2: [SAMO NUJNI PIŠKOTKI]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Podrobneje]\nExplanation: The text \"[Sprejmi vse piškotke]\" is clearly an acceptance of all cookies, which fits GenericLabel1. \"[SAMO NUJNI PIŠKOTKI]\" indicates declining non-essential cookies, fitting GenericLabel2. \"[Podrobneje]\" suggests more information or settings management, so it fits GenericLabel3. There are no ambiguous labels present in this case.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "SAMO NUJNI PIŠKOTKI",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Podrobneje",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The text \"Sprejmi vse piškotke\" is clearly an acceptance of all cookies, which fits GenericLabel1. \"SAMO NUJNI PIŠKOTKI\" indicates declining non-essential cookies, fitting GenericLabel2. \"Podrobneje\" suggests more information or settings management, so it fits GenericLabel3. There are no ambiguous labels present in this case."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.8571428571428571,
+                "element_text": "Sprejmi vse piškotke",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T06:11:10.186240",
+        "timestamp_stop": "2025-03-28T06:12:10.759872"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (SAMO NUJNI PIŠKOTKI)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.petrol.si/",
+            "https://www.petrol.si/eshop/avto-oprema-in-avtomobilizem/avtokozmetika/destilirana-voda",
+            "https://www.petrol.si/eshop/gospodinjski-aparati/mali-gospodinjski-aparati/priprava-hrane/elektricne-ponve",
+            "https://www.petrol.si/eshop/vrt-in-orodje/podaljski-in-razdelilci"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "919D08AB9454AC71949BA9B76C1B47C0",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Prod-DMZ",
+                    "value": "!bxKlyJ8F4NXDVJkME+IiVMD3lNCnaksTYDuk5GVJ7HIngYXCQc5KrLiL028LK3MEgc59XZ9E2L4wCwQ=",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "pKen4TK9tzl2yQcT3dTfQxaQtH2KBcQtlPP195tRVfE-1743138733-1.0.1.1-NDT6xnc5QllyPksRlIr5Ue_3hOimC0UFAapZophh6e12C_VTur5yI8vCVtmW8dXKlG4ummYzuhxF9p3qRc1LyA.eGolTMF761F3kcj01Ync",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743140533.357882,
+                    "expires_date": "2025-03-28T05:42:13.357882+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "srkP0I6eXLPDGgxjxwgvXHQuL2aA24jRhi6D8mMPv9Q-1743138733-1.0.1.1-rheN.jWGzZVQEyH49IEq5V.JAc1YdHArcULSQ90DscwCgx_Uq0vdNpxQLPTtXvbCE4f547GO_R0fQ1.dzT0tZd_Grd_IgQ3OS_i0t_aiiRM",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743140533.5394,
+                    "expires_date": "2025-03-28T05:42:13.539400+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674733.568086,
+                    "expires_date": "2026-03-28T05:12:13.568086+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LSKey-c$CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674733.568153,
+                    "expires_date": "2026-03-28T05:12:13.568153+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Keycloak-Prod",
+                    "value": "!hjA2tYjp4CX0E9IME+IiVMD3lNCnagulaFve74uuFpS446OHG3vRI2H8pQW5G+JblDlF8AUO1T4Y",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "iOmbAEwdxlK5K8Py963owndvfZzZmiIQKXi.g4NqR8A-1743138733-1.0.1.1-aoN6K06DBaYwFMpcH7zftUr8Q3cVNEm405535Q0blDRbvkbpU_a_WbjHzJePhTkM",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": 1743140533.64533,
+                    "expires_date": "2025-03-28T05:42:13.645330+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "0RYh_7CEiLwFU1hbbxtnPOZpO8.TYpmwDBK4ksTe4yc-1743138733631-0.0.1.1-604800000",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "7LTzji7d76I",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CJGA9tzo7riYCxCMyozogayMAxiMyozogayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658466,
+                    "expires_date": "2025-09-24T05:12:13.658466+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "gZekO-QnGrA",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658522,
+                    "expires_date": "2025-09-24T05:12:13.658522+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgIQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658548,
+                    "expires_date": "2025-09-24T05:12:13.658548+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "NadNDAuTEfCpVXOBvRRpjA",
+                    "domain": ".force.com",
+                    "path": "/",
+                    "expires": 1774674733.692533,
+                    "expires_date": "2026-03-28T05:12:13.692533+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_ESHOP-PROD",
+                    "value": "1854279434.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_COSA",
+                    "value": "214241034.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "919D08AB9454AC71949BA9B76C1B47C0",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Prod-DMZ",
+                    "value": "!bxKlyJ8F4NXDVJkME+IiVMD3lNCnaksTYDuk5GVJ7HIngYXCQc5KrLiL028LK3MEgc59XZ9E2L4wCwQ=",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "pKen4TK9tzl2yQcT3dTfQxaQtH2KBcQtlPP195tRVfE-1743138733-1.0.1.1-NDT6xnc5QllyPksRlIr5Ue_3hOimC0UFAapZophh6e12C_VTur5yI8vCVtmW8dXKlG4ummYzuhxF9p3qRc1LyA.eGolTMF761F3kcj01Ync",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743140533.357882,
+                    "expires_date": "2025-03-28T05:42:13.357882+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "srkP0I6eXLPDGgxjxwgvXHQuL2aA24jRhi6D8mMPv9Q-1743138733-1.0.1.1-rheN.jWGzZVQEyH49IEq5V.JAc1YdHArcULSQ90DscwCgx_Uq0vdNpxQLPTtXvbCE4f547GO_R0fQ1.dzT0tZd_Grd_IgQ3OS_i0t_aiiRM",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743140533.5394,
+                    "expires_date": "2025-03-28T05:42:13.539400+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674733.568086,
+                    "expires_date": "2026-03-28T05:12:13.568086+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LSKey-c$CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674733.568153,
+                    "expires_date": "2026-03-28T05:12:13.568153+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Keycloak-Prod",
+                    "value": "!hjA2tYjp4CX0E9IME+IiVMD3lNCnagulaFve74uuFpS446OHG3vRI2H8pQW5G+JblDlF8AUO1T4Y",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "iOmbAEwdxlK5K8Py963owndvfZzZmiIQKXi.g4NqR8A-1743138733-1.0.1.1-aoN6K06DBaYwFMpcH7zftUr8Q3cVNEm405535Q0blDRbvkbpU_a_WbjHzJePhTkM",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": 1743140533.64533,
+                    "expires_date": "2025-03-28T05:42:13.645330+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "0RYh_7CEiLwFU1hbbxtnPOZpO8.TYpmwDBK4ksTe4yc-1743138733631-0.0.1.1-604800000",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "7LTzji7d76I",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CJGA9tzo7riYCxCMyozogayMAxiMyozogayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658466,
+                    "expires_date": "2025-09-24T05:12:13.658466+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "gZekO-QnGrA",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658522,
+                    "expires_date": "2025-09-24T05:12:13.658522+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgIQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658548,
+                    "expires_date": "2025-09-24T05:12:13.658548+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "NadNDAuTEfCpVXOBvRRpjA",
+                    "domain": ".force.com",
+                    "path": "/",
+                    "expires": 1774674733.692533,
+                    "expires_date": "2026-03-28T05:12:13.692533+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_ESHOP-PROD",
+                    "value": "1854279434.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_COSA",
+                    "value": "214241034.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cookie_optout",
+                    "value": "true",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1750914767,
+                    "expires_date": "2025-06-26T05:12:47+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cookie3_optout",
+                    "value": "true",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1750914767,
+                    "expires_date": "2025-06-26T05:12:47+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "JSESSIONID",
+                    "value": "919D08AB9454AC71949BA9B76C1B47C0",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Prod-DMZ",
+                    "value": "!bxKlyJ8F4NXDVJkME+IiVMD3lNCnaksTYDuk5GVJ7HIngYXCQc5KrLiL028LK3MEgc59XZ9E2L4wCwQ=",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "pKen4TK9tzl2yQcT3dTfQxaQtH2KBcQtlPP195tRVfE-1743138733-1.0.1.1-NDT6xnc5QllyPksRlIr5Ue_3hOimC0UFAapZophh6e12C_VTur5yI8vCVtmW8dXKlG4ummYzuhxF9p3qRc1LyA.eGolTMF761F3kcj01Ync",
+                    "domain": ".smind.si",
+                    "path": "/",
+                    "expires": 1743140533.357882,
+                    "expires_date": "2025-03-28T05:42:13.357882+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "srkP0I6eXLPDGgxjxwgvXHQuL2aA24jRhi6D8mMPv9Q-1743138733-1.0.1.1-rheN.jWGzZVQEyH49IEq5V.JAc1YdHArcULSQ90DscwCgx_Uq0vdNpxQLPTtXvbCE4f547GO_R0fQ1.dzT0tZd_Grd_IgQ3OS_i0t_aiiRM",
+                    "domain": ".cdn-cnj.si",
+                    "path": "/",
+                    "expires": 1743140533.5394,
+                    "expires_date": "2025-03-28T05:42:13.539400+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674733.568086,
+                    "expires_date": "2026-03-28T05:12:13.568086+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "LSKey-c$CookieConsentPolicy",
+                    "value": "0:1",
+                    "domain": "petrolcrm.my.salesforce.com",
+                    "path": "/",
+                    "expires": 1774674733.568153,
+                    "expires_date": "2026-03-28T05:12:13.568153+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_WWW-Keycloak-Prod",
+                    "value": "!hjA2tYjp4CX0E9IME+IiVMD3lNCnagulaFve74uuFpS446OHG3vRI2H8pQW5G+JblDlF8AUO1T4Y",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cf_bm",
+                    "value": "iOmbAEwdxlK5K8Py963owndvfZzZmiIQKXi.g4NqR8A-1743138733-1.0.1.1-aoN6K06DBaYwFMpcH7zftUr8Q3cVNEm405535Q0blDRbvkbpU_a_WbjHzJePhTkM",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": 1743140533.64533,
+                    "expires_date": "2025-03-28T05:42:13.645330+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_cfuvid",
+                    "value": "0RYh_7CEiLwFU1hbbxtnPOZpO8.TYpmwDBK4ksTe4yc-1743138733631-0.0.1.1-604800000",
+                    "domain": ".vimeo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "YSC",
+                    "value": "7LTzji7d76I",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__Secure-ROLLOUT_TOKEN",
+                    "value": "CJGA9tzo7riYCxCMyozogayMAxiMyozogayMAw%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658466,
+                    "expires_date": "2025-09-24T05:12:13.658466+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "VISITOR_INFO1_LIVE",
+                    "value": "gZekO-QnGrA",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658522,
+                    "expires_date": "2025-09-24T05:12:13.658522+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "VISITOR_PRIVACY_METADATA",
+                    "value": "CgJTSRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgIQ%3D%3D",
+                    "domain": ".youtube.com",
+                    "path": "/",
+                    "expires": 1758690733.658548,
+                    "expires_date": "2025-09-24T05:12:13.658548+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "BrowserId",
+                    "value": "NadNDAuTEfCpVXOBvRRpjA",
+                    "domain": ".force.com",
+                    "path": "/",
+                    "expires": 1774674733.692533,
+                    "expires_date": "2026-03-28T05:12:13.692533+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_ESHOP-PROD",
+                    "value": "1854279434.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "BIGipServerPool_COSA",
+                    "value": "214241034.20480.0000",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "__cookie_optout",
+                    "value": "true",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1750914767,
+                    "expires_date": "2025-06-26T05:12:47+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "__cookie3_optout",
+                    "value": "true",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1750914767,
+                    "expires_date": "2025-06-26T05:12:47+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "i18n_redirected",
+                    "value": "sl",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": 1774674779.363956,
+                    "expires_date": "2026-03-28T05:12:59.363956+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "FUNCTIONALITY"
+                    }
+                },
+                {
+                    "name": "_gcl_au",
+                    "value": "1.1.1152406816.1743138781",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1750914781,
+                    "expires_date": "2025-06-26T05:13:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.2.744179749.1743138781",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743225197,
+                    "expires_date": "2025-03-29T05:13:17+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_UA-3973404-12",
+                    "value": "1",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1743138841,
+                    "expires_date": "2025-03-28T05:14:01+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cart",
+                    "value": "%7B%22cart%22%3A%7B%22id%22%3A%22%22%7D%7D",
+                    "domain": "www.petrol.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "uid",
+                    "value": "5be5f4a2-be82-4d9e-a5b4-27dcf1bcb630",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834781.613649,
+                    "expires_date": "2026-04-22T05:13:01.613649+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834781.613762,
+                    "expires_date": "2026-04-22T05:13:01.613762+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": "measurement-api.criteo.com",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_HVN86ZVC45",
+                    "value": "GS1.1.1743138781.1.1.1743138796.0.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698796.848075,
+                    "expires_date": "2026-05-02T05:13:16.848075+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "VLk9HV9Zb2Z6bExZeWtZWDVKdkl6RkslMkI3V3pKTXdUQ1d0VVRXcVdiYjIwVFpNOXFnck03SG93NE1MMHJkVm9SakV5S0hhcXRTN293WlgyNzk5aFBxcklXZ1BSaGR3N21OUEdwYkU5eDNPSlFwdjR5OGNVdXhISHZxWjhTb0w0TSUyQnJFbUJtUWJFRjloa3M0RzhQNDdWd0hHTmtBJTNEJTNE",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1776834796.982718,
+                    "expires_date": "2026-04-22T05:13:16.982718+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "cto_bundle",
+                    "value": "pbbnmV96d0tRdk9Wemk5T04lMkJvVGxvcDlxaU5NaiUyQjE3cXBnTkNKUUpGQUolMkZKTklpOGlhUDlUYlhoQmxreWlzNUU4Ukl5R0wlMkZ6endPOG9OMTJVVEd1M3plWkdUbko4MlJucmtvRkFxQW1xWE02UTkwb09GZlhkbFFyRFNEbDNtbTZLJTJGJTJGRUVFWm5pakVtRHhSejR4UUY3UHAlMkY1QSUzRCUzRA",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777302796,
+                    "expires_date": "2026-04-27T15:13:16+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_EDRF81D5XY",
+                    "value": "GS1.2.1743138781.1.1.1743138797.44.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698797.228773,
+                    "expires_date": "2026-05-02T05:13:17.228773+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.155665385.1743138781",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698797.294605,
+                    "expires_date": "2026-05-02T05:13:17.294605+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_ZBEDJ0M14D",
+                    "value": "GS1.1.1743138789.1.0.1743138797.52.0.0",
+                    "domain": ".petrol.si",
+                    "path": "/",
+                    "expires": 1777698797.298739,
+                    "expires_date": "2026-05-02T05:13:17.298739+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Nastavitve piškotkov                                                                 Spletna stran uporablja piškotke. Nujne, ki so potrebni za nemoteno delovanje spletne strani, smo že naložili. Veseli bomo, če nam dovolite, da naložimo tudi analitične in marketinške piškotke.                            Podrobneje                                                                            Sprejmi vse piškotke                             SAMO NUJNI PIŠKOTKI",
+                "banner_z_index": 999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse piškotke]\nGenericLabel2: [SAMO NUJNI PIŠKOTKI]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Podrobneje]\nExplanation: The first label is for accepting all cookies, the second for declining all but necessary cookies, while the third label is for managing settings or seeing more information. There are no ambiguous phrases present in this instance.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse piškotke",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "SAMO NUJNI PIŠKOTKI",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Podrobneje",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The first label is for accepting all cookies, the second for declining all but necessary cookies, while the third label is for managing settings or seeing more information. There are no ambiguous phrases present in this instance."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 0.7142857142857143,
+                "element_text": "SAMO NUJNI PIŠKOTKI",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T06:12:12.432538",
+        "timestamp_stop": "2025-03-28T06:13:24.170799"
+    }
+}

@@ -1,0 +1,787 @@
+{
+    "web_page": "https://www.lekarnaljubljana.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T14:29:15.002021",
+    "timestamp_stop": "2025-03-28T14:32:42.779157",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lekarnaljubljana.si/",
+            "https://www.lekarnaljubljana.si/artikel/flumediks-prsilo-za-nos-30-ml",
+            "https://www.lekarnaljubljana.si/iskanje?query=&del_telesa=vrat-dekolte&spol=2",
+            "https://www.lekarnaljubljana.si/iskanje?query=&del_telesa=zobje&spol=2"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Ik5RMkNwYjRxMWVlZEVmSmVjMG9tcHc9PSIsInZhbHVlIjoidXlhdkVhVkF2TjY3cjI0cUtlUXJCZ0lhNm9jRURoZVpBNUtxYWZ1M3Qzd2pESVVRajAzK3JpWjNOUkpvREVYNFNPRHJZb2pqMGh4ME01Qko0YWF4TzZKN1kxVEVPNEtPdGFINTBQZTI0dUpUNFR3cVhGYVpKK2xkZ2trYWJUYjMiLCJtYWMiOiIxNTEyM2EzNGMzMGE3OGUzNDkyOTdiOTI0YjkxODgzMDQ0MTNkNTZiMmFiZDI4ZDliNTM5NDlhN2JjNzk3MzZjIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175757.842037,
+                    "expires_date": "2025-03-28T15:29:17.842037+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "laravel_session",
+                    "value": "eyJpdiI6IkE0WVl4Z3YrdklUWW1pOFgrVlBrK2c9PSIsInZhbHVlIjoiWXZjd0JxeEphWHpuallHSnhFeUtnYUw2QU8zVWlEdzZ1VG1jdGYrNmlSN3Z2N29qVDZ3RFFDWDJWSFRITXd1YnJURXFNcER3cVJ4ajhYMWRTVmU1dGxXUnI5SXpFd1licG1uRnR0ODhVV2xmNUlnbWpiL09od0NYNlM2a2VGWnAiLCJtYWMiOiJjZmQ2MGQyMjEyY2I2MGY1MGFkZmYwOGU1YTBlOWI2OTFmNzAyZThiYmE0Y2Y5OWRkZWJjMWZhY2ZkMzdiN2MwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175757.842114,
+                    "expires_date": "2025-03-28T15:29:17.842114+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InpRV0hLSWJMTmtwNTFobU1wdk14MFE9PSIsInZhbHVlIjoiWFE0a3hVUHJsbWhVa3BGSHErYjVqaHl3SGoyTUkwUW8vdy9uTXFYSXREbG5mMEorSkdGeStwM3hyRGg1UWdvcE9LQlJyNmE1b005NllrWUlRZEoxZEVXY3pBVFBtMk5oUi9NamlvZmFrYmQvVXlnUHJiSWp5MFlhU250UTRHZ2MiLCJtYWMiOiI5ZGMxNzFmYWQ3YTdlNmFhYTUxZWIxYWNiMTlmMDFmZGY1MDI3ZTI0YjhmYjdjMmVlYmY2OGEwZGQ4ZjRkZDhkIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175796.60529,
+                    "expires_date": "2025-03-28T15:29:56.605290+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "laravel_session",
+                    "value": "eyJpdiI6IlhOUzY0V1ppYUk1eExtK0c1UmdqWGc9PSIsInZhbHVlIjoiaW52NVR1VDBIOUNKWWZNaEV4d1pNRzdFWVdTOG9PY1lHR1FNY0tQbFEzbG1nWGJJY29HZWVUVWt3NHlSVFY0OHJ5cHRweDNya0NpSWRKZzRSVUZsVHB4NEtmTUgxeXhrRW9qb1k0Y21PdDF4dlZOMzdxNlYrZ3BjODF5RWZXSXIiLCJtYWMiOiI5YzgwNDM4OWI3ODk2NDIwY2RiMTRjYzk0MDgwMGU3MTMwOWZlZjA5ZThlMjFiOGFjNWU1MTY2ZDJkODFlZGZkIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175796.60538,
+                    "expires_date": "2025-03-28T15:29:56.605380+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T14:29:16.311821",
+        "timestamp_stop": "2025-03-28T14:30:07.960267"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lekarnaljubljana.si/",
+            "https://www.lekarnaljubljana.si/artikel/flumediks-prsilo-za-nos-30-ml",
+            "https://www.lekarnaljubljana.si/iskanje?query=&del_telesa=vrat-dekolte&spol=2",
+            "https://www.lekarnaljubljana.si/iskanje?query=&del_telesa=zobje&spol=2"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6InkyQ0FQMDBQMlBKWUFwMkg4bTNkc2c9PSIsInZhbHVlIjoib28wbm9mek01Q1doN2x6VkpaYjI3SDRkM1cvYnI2aEtxa2RiU1ovRXIrUis1OWdoNHh4SEQwV2NYM2VCcng0V3lRM2pDYWx2Ky9xdUtpNmQ3S3A3Vm1JRzhNMnFqK0RSVUxmRzhIc2pOWGkvRHBPeHBlK0xoSzBHZTd2MVNkazAiLCJtYWMiOiIzMjkwNGI0ZTBiNWRjMDVmMmM2ODQ5MjI0NGQ2ZTMwZWMzOGE5MDNiZTI0NjkxMmMyMDFlYmQzN2Q4MzhiMmI3IiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175810.885284,
+                    "expires_date": "2025-03-28T15:30:10.885284+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "laravel_session",
+                    "value": "eyJpdiI6IjhFd0NlS3lvaFcwa1dveXZPNWhyZkE9PSIsInZhbHVlIjoieDJaM2h0ZEx0ZGtxOVA3VkZyenhhRWRzSzJRWGs5LzhKTkNlYUdYYlFqem9yZWQvU1NSSC9SZG9yci9udDB5QmRwYm1IcVArcFYyK0p2M3NJM3NncEtUSXBHZmx2enZJVmZsUTJNVC9TQ2N0UWtlNkJhNU5pdXNSbGZhU212UnciLCJtYWMiOiI2YjQ4NWRlZWFjMzYyODY2YjdmM2FhNGI0MGEwODA5ZDU3ZDJmN2U5MjdjZGNiNzM4MTg5YTViZGRlYjliMDNjIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175810.88586,
+                    "expires_date": "2025-03-28T15:30:10.885860+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "cookieconsent_settings",
+                    "value": "{%22necessary%22:true%2C%22analytics%22:true%2C%22advertising%22:true}",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704637,
+                    "expires_date": "2026-03-28T13:30:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "deny",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704637,
+                    "expires_date": "2026-03-28T13:30:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "dismiss",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704637.489817,
+                    "expires_date": "2026-03-28T13:30:37.489817+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IkVJend0WitEV1Q2Yk5CWElLV3dreEE9PSIsInZhbHVlIjoiOFFNcXBFYTlsREtSdVJVd055TDlEa0NPWldtdVpVNGFHbEZDOHFTNlFkRWNyaFVxek51TE5URFhtam0xMm5hSlFPT1VUekU1N29wU3ZDbHN6SlZIUVVYRlQrTGlSZS90ZzNyZWVQWTVQeGhKeDU3QmlxZGxmWGZlblpFWHBNeHMiLCJtYWMiOiJlMmJjZWI1YjYyMzYzNjVhM2M4NjdmZDFmMjYzOTI3NjY0M2UwM2RhOThlMzQyNWJiOWU1ODIxM2M0NTYxMGMxIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175839.103258,
+                    "expires_date": "2025-03-28T15:30:39.103258+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "laravel_session",
+                    "value": "eyJpdiI6IlNsT0dBcUxkTjY5L3hUc2Q3MHhKUXc9PSIsInZhbHVlIjoiek5HSHpDc3NqSDVPVmdJOUZzM1dZdXpUbGV5QThEWHliWUNQOS9sWWdGUmJ3VnBCMzFuYWMzeXZxRnk3cXExRERzRG1ZUGdUdHRkU0RrSFVwci94VnFTUzlGK2hCUklmSnBBWjVoL3JySnc0OHNsL005T1EzeGhWcUpxQkkxOXkiLCJtYWMiOiJiMDMxYWM5NWJhYWI0MDgwYmNjOTQ4MzRlNGU2MDVhMTdlOTJkYTU5MGVkZmI2YjgxOTQ4ZmQ1NTA1YmNhNWJlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175839.103375,
+                    "expires_date": "2025-03-28T15:30:39.103375+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1206473164.1743168640",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1777728639.601563,
+                    "expires_date": "2026-05-02T13:30:39.601563+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743169539.750067,
+                    "expires_date": "2025-03-28T13:45:39.750067+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743168639768.343772921646296159",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1750944639,
+                    "expires_date": "2025-06-26T13:30:39+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "_ga_NVTLCDZE6S",
+                    "value": "GS1.1.1743168639.1.0.1743168639.60.0.0",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1777728639.966413,
+                    "expires_date": "2026-05-02T13:30:39.966413+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747428583",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774704640.095125,
+                    "expires_date": "2026-03-28T13:30:40.095125+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookieconsent_settings",
+                    "value": "{%22necessary%22:true%2C%22analytics%22:true%2C%22advertising%22:true}",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704637,
+                    "expires_date": "2026-03-28T13:30:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "deny",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704637,
+                    "expires_date": "2026-03-28T13:30:37+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "dismiss",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704637.489817,
+                    "expires_date": "2026-03-28T13:30:37.489817+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.1206473164.1743168640",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1777728673.440622,
+                    "expires_date": "2026-05-02T13:31:13.440622+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743169539.750067,
+                    "expires_date": "2025-03-28T13:45:39.750067+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_fbp",
+                    "value": "fb.1.1743168639768.343772921646296159",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1750944673,
+                    "expires_date": "2025-06-26T13:31:13+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "UID",
+                    "value": "115771747428583",
+                    "domain": ".iprom.net",
+                    "path": "/",
+                    "expires": 1774704673.680163,
+                    "expires_date": "2026-03-28T13:31:13.680163+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "TARGETING"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlNGeHM0UGs5cUxMUjRib1h4c0JiaEE9PSIsInZhbHVlIjoialZ4elRMUkQ1eGdaQjlXcmYyNWRQeFROU3dOT2xvQjFWamNrTzJ3a2VSVDVMRDR2Y0tuOHU5WW4rdE50Q1BHaWRUYU8rbndYak1lSHJzSENRTW5OdjJiajFXSWl0Tk54OWxnT3gyRFVmVExVUUVvUmlOU1RMNkR4Y2ZrOEJXeE4iLCJtYWMiOiI0NGM2MWJlNDExNTY1MDJiMzc5NDc5MDAxOWM3ZmY3ODExZjE3ZTliYjk1Zjc2OWZhNDE4M2FlZDdkMWFkNmZlIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175873.227486,
+                    "expires_date": "2025-03-28T15:31:13.227486+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "laravel_session",
+                    "value": "eyJpdiI6IldGU2tzd2VPTW11OHA4dkZRYXZYRmc9PSIsInZhbHVlIjoiWk1Pa3k5Z2luYU1NeTN0ZldJbURpY0o4SHJzR0ZoMzgzekozWjFqK1RyeGErQUh3M0tLaWF3TW5XYjBOaXVYVyt5ZHUvVGxuTEVpQklpcUN6K0srSS80U1pjbTBjRlNkSWZUbThLeHZJYjBNR2tqVExmVWdWWmIvUWs2NlBEckIiLCJtYWMiOiIwNjc2MzVlNDA2MTI2YzY1YmU5MWFlMTc2NWM2NzdhYjQxYTdiN2U2NjM0NDdkOTc1ZDdmZjk3OTgyODBkMjIwIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175873.227586,
+                    "expires_date": "2025-03-28T15:31:13.227586+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "_ga_NVTLCDZE6S",
+                    "value": "GS1.1.1743168639.1.1.1743168684.15.0.0",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1777728684.094028,
+                    "expires_date": "2026-05-02T13:31:24.094028+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Cenimo vašo zasebnostSpletna stran www.lekarnaljubljana.si uporablja piškotke, ki so potrebni za njeno pravilno delovanje in boljšo uporabniško izkušnjo, analizo uporabe ter prikaz oglasov. S klikom na \"Sprejmi vse\" soglašate z njihovo namestitvijo. Več o piškotkih si lahko preberete tukaj.NastavitveSprejmi vseSprejmi nujne",
+                "banner_z_index": 1111,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Sprejmi nujne]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button [Sprejmi vse] is categorized as accepting all cookies. [Sprejmi nujne] is categorized as declining all but necessary cookies. [Nastavitve] relates to managing settings. The other text [tukaj] is not categorized.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmi nujne",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized as accepting all cookies. Sprejmi nujne is categorized as declining all but necessary cookies. Nastavitve relates to managing settings. The other text tukaj is not categorized."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T14:30:09.546261",
+        "timestamp_stop": "2025-03-28T14:31:24.331948"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Sprejmi nujne)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.lekarnaljubljana.si/",
+            "https://www.lekarnaljubljana.si/artikel/flumediks-prsilo-za-nos-30-ml",
+            "https://www.lekarnaljubljana.si/iskanje?query=&del_telesa=vrat-dekolte&spol=2",
+            "https://www.lekarnaljubljana.si/iskanje?query=&del_telesa=zobje&spol=2"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IkQrOXFHTFM0VGp5QUprOFpWRTVhZ1E9PSIsInZhbHVlIjoiS3NWRUdOZnpsQlYyYk5tbjF1VzAwa3dBTWpQU25UQlV1a2lNOVIrUklVSTVBQi9QQXBGUWlTTnZva2pIUjJYTnVhM2cwekQ5NzdOVmhlck5iVmI5Tjlta0lsaTdScmtDQjc0TytOM3Fxd0VweThUYlJSMDNUWHpScnR2NTkzNGgiLCJtYWMiOiIzZmU5MWQ0ZWFiYzBiYmY2ZTI4M2E1MDMzZGY1NGFhMDEwZjZiNDNmMGJmMmI4NGM0YWJhNDRjMGQ3NzVlZjlhIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175887.357798,
+                    "expires_date": "2025-03-28T15:31:27.357798+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "laravel_session",
+                    "value": "eyJpdiI6IlhTNXpCUnA2dmNGY0ZjYVMxTFBGVkE9PSIsInZhbHVlIjoieitLNVpUa3lXWHdxMGJmY0dHeEFqS0ZzemVFWERFdjFqeEExNjgrU0pxWWRFVjBHdmVVamhZandUbis0bFJHRlNjS0lhSEZOMFJmWGpiRHFIdXBKUnp4WTJTd3o0QlJaa1pnTUlwL1JMbHdoTU9KbDFzd01BSjBaSGpFakw0QW8iLCJtYWMiOiJkYWNlYTdmOTE1OWI0OTA2YjQ0ZjE5YWFmYjZlMTgxMzJjZjM0MDU3OTQ3Zjg1YmM3YTlhMDA4OTRiMjQwOTEzIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175887.357899,
+                    "expires_date": "2025-03-28T15:31:27.357899+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "cookieconsent_settings",
+                    "value": "{%22necessary%22:true%2C%22analytics%22:false%2C%22advertising%22:false}",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704716,
+                    "expires_date": "2026-03-28T13:31:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "deny",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704716,
+                    "expires_date": "2026-03-28T13:31:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "deny",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704716.710749,
+                    "expires_date": "2026-03-28T13:31:56.710749+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6IlRXMFRCWmlQZTVKbnpEN0NFRjRESVE9PSIsInZhbHVlIjoiSWhsZFhITWdwOTRXS0Z1Y29MUHQvVzZCZWdoU3hxb1UzSFNwZ0FXSVVvSDhwUGpMZjFkb0p0anRGZTVNYndaNlR6aGYvM2FIV2VqZ2EvUGU1dWl1dGV5emdQZ3o4cEFxcDBzam84SFdSMlVCRTZmejZsdWExcnpIeTVyTVpHbFEiLCJtYWMiOiI3MDZiNGM4OTQ4MGQ4NGZiNDQyNmZiNzU0NTBiYWY0N2QyYWYxMmMzZWUzY2M5Y2QwYzU2ODA4OWUxODg4M2Y1IiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175918.410311,
+                    "expires_date": "2025-03-28T15:31:58.410311+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "laravel_session",
+                    "value": "eyJpdiI6InZkakhBb01tV08wdGwrSnE5emd1cWc9PSIsInZhbHVlIjoiZmV1QW1kUDl5OUQwaGV1MlJ5dHI0M2ZxQmJOU2F1U0pIM0hPckhNYzB3cWNQZlA3bEVBSCtiUC91aUJLM200bmVway9ySkl0a1BvQndHRTF6TXFhL1RDYWxZZ21sM1FweHIrS0R0RzlqZWd2WGhzWXZJUzdYTDllb0hDTTRGOEwiLCJtYWMiOiJmNjczYWNjYzQ2ZmZiMmIwYTQ5YjM3NzQ1NTVlNWM3NDc3MjNiM2YzYzRmOTc5M2YzMThhOTQ3ZTVlMDk2OWYyIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175918.410392,
+                    "expires_date": "2025-03-28T15:31:58.410392+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "cookieconsent_settings",
+                    "value": "{%22necessary%22:true%2C%22analytics%22:false%2C%22advertising%22:false}",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704716,
+                    "expires_date": "2026-03-28T13:31:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "deny",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704716,
+                    "expires_date": "2026-03-28T13:31:56+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "cookieconsent_status",
+                    "value": "deny",
+                    "domain": ".lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1774704716.710749,
+                    "expires_date": "2026-03-28T13:31:56.710749+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Ilo0elhPZytSdnNFb1R0UjBwQm1aaEE9PSIsInZhbHVlIjoiVGVPRW9yY3FLT1JFWGo1TzRIWXN6VGNqOGIyQ2lqZWZvV25UZWpkSlJDbWh2a0owT1ZsVGFmcis3YVZkbHVxeFYvc09xNjhLQkcyb0wvaUNVbmlsTnY2alk1WlcwdTQwRktnbi9NSG9QVzMreVc1ZHNoSHduTURhK0w4SUJEMEgiLCJtYWMiOiI5NDMyNjFlOWQ3OTYwNWYxOTM5ZGI5NzlmZjI0ZGRiMjFlZjMwNmI1ZGM0MWRiMzA0ZGRmYjZjOWU4OWNkMThiIiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175951.485298,
+                    "expires_date": "2025-03-28T15:32:31.485298+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "laravel_session",
+                    "value": "eyJpdiI6IjB6ZGxaRFcrNzlQOTZaMHpMQmRhaEE9PSIsInZhbHVlIjoiYnErQkw5djhTdlg5WjRoRXlsRHdZRXVNM1JqenNTbCtkWkJYcDN2bUhsaDEyWXpES3F0QjlEZllCVlNtbVZlajJsZDZjRGIrM1c1U2JHWTIxVGh1b1JpOWdWZk91WVd0TW5TbE5TYTNKcFFlakpTQnB3NHhjLzJYaGdURC9wdlAiLCJtYWMiOiJmODFiMGZkMTcwYzU2NDUzNzQ0MDgxM2I0YjUwMjE0Njk0YzM3NjYwYTllNDQwNmFiYWNkNDMwODUwZTc4OTI5IiwidGFnIjoiIn0%3D",
+                    "domain": "www.lekarnaljubljana.si",
+                    "path": "/",
+                    "expires": 1743175951.485391,
+                    "expires_date": "2025-03-28T15:32:31.485391+00:00",
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Cenimo vašo zasebnostSpletna stran www.lekarnaljubljana.si uporablja piškotke, ki so potrebni za njeno pravilno delovanje in boljšo uporabniško izkušnjo, analizo uporabe ter prikaz oglasov. S klikom na \"Sprejmi vse\" soglašate z njihovo namestitvijo. Več o piškotkih si lahko preberete tukaj.NastavitveSprejmi vseSprejmi nujne",
+                "banner_z_index": 1111,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Sprejmi vse]\nGenericLabel2: [Sprejmi nujne]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: The button [Sprejmi vse] is categorized under GenericLabel1 for accepting all cookies. The button [Sprejmi nujne] is categorized under GenericLabel2 for declining all but the necessary cookies. The button [Nastavitve] is categorized under GenericLabel3 as it refers to settings. There are no ambiguous accept or decline buttons present.",
+                "llm_response_parsed": {
+                    "Accept": "Sprejmi vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Sprejmi nujne",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Sprejmi vse is categorized under GenericLabel1 for accepting all cookies. The button Sprejmi nujne is categorized under GenericLabel2 for declining all but the necessary cookies. The button Nastavitve is categorized under GenericLabel3 as it refers to settings. There are no ambiguous accept or decline buttons present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Sprejmi nujne",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T14:31:25.978499",
+        "timestamp_stop": "2025-03-28T14:32:42.498568"
+    }
+}

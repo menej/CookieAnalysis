@@ -1,0 +1,771 @@
+{
+    "web_page": "https://www.techtrade.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T20:30:46.733553",
+    "timestamp_stop": "2025-03-28T20:34:31.384617",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.techtrade.si/",
+            "https://www.techtrade.si/pc-oprema",
+            "https://www.techtrade.si/nalepke-za-tipkovnice",
+            "https://www.techtrade.si/konferencne-vticnice"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": ".Nop.Customer",
+                    "value": "fc2bd93f-9527-47da-a50e-e3356f2961bf",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1774726249.72126,
+                    "expires_date": "2026-03-28T19:30:49.721260+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".Nop.Session",
+                    "value": "CfDJ8KM6iCGX%2FtVHsReD5SeFVJ0Soyb20zu1eP7CG8gRRCc66hXWbx9C4WIANkY5Giuugpj93eTY97ZCOM4aU8gRLk%2FwjLYBACZVaAs24Us3Ord5l6CDZSAlLDYNy%2F0n3jNQzrZBuYf1HWE%2Fbv5UXKa8lr139ZnqvJwUrPg3yfX0nKJ9",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga_BSKHCGN64R",
+                    "value": "GS1.1.1743190249.1.0.1743190249.60.0.0",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750249.260713,
+                    "expires_date": "2026-05-02T19:30:49.260713+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga",
+                    "value": "GA1.1.7293528.1743190249",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750249.261625,
+                    "expires_date": "2026-05-02T19:30:49.261625+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": ".Nop.Customer",
+                    "value": "fc2bd93f-9527-47da-a50e-e3356f2961bf",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1774726286.217649,
+                    "expires_date": "2026-03-28T19:31:26.217649+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".Nop.Session",
+                    "value": "CfDJ8KM6iCGX%2FtVHsReD5SeFVJ0Soyb20zu1eP7CG8gRRCc66hXWbx9C4WIANkY5Giuugpj93eTY97ZCOM4aU8gRLk%2FwjLYBACZVaAs24Us3Ord5l6CDZSAlLDYNy%2F0n3jNQzrZBuYf1HWE%2Fbv5UXKa8lr139ZnqvJwUrPg3yfX0nKJ9",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga",
+                    "value": "GA1.1.7293528.1743190249",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750284.908758,
+                    "expires_date": "2026-05-02T19:31:24.908758+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga_BSKHCGN64R",
+                    "value": "GS1.1.1743190249.1.1.1743190284.25.0.0",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750284.908354,
+                    "expires_date": "2026-05-02T19:31:24.908354+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T20:30:48.243138",
+        "timestamp_stop": "2025-03-28T20:31:35.767398"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Strinjam se)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.techtrade.si/",
+            "https://www.techtrade.si/pc-oprema",
+            "https://www.techtrade.si/nalepke-za-tipkovnice",
+            "https://www.techtrade.si/konferencne-vticnice"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": ".Nop.Customer",
+                    "value": "9de1f091-c2a7-4374-a91c-5566cd677c6e",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1774726299.421756,
+                    "expires_date": "2026-03-28T19:31:39.421756+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".Nop.Session",
+                    "value": "CfDJ8KM6iCGX%2FtVHsReD5SeFVJ0VbbcAHWccEpnX6Ye4cn4dv8j79920Sq6LZfwSaqs%2B%2B1fvi9AfVp55d3UzMzlx%2BNIw3Gpky%2BbHUi7lFmdMaGG5%2FwbCfx7OCV5TEDGemvXQrz7G4GWFKhdI0YKxOSrOyhxxcuCIQrzA5054D7GU8N75",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga_BSKHCGN64R",
+                    "value": "GS1.1.1743190298.1.0.1743190298.60.0.0",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750298.261481,
+                    "expires_date": "2026-05-02T19:31:38.261481+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga",
+                    "value": "GA1.1.1807204286.1743190298",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750298.262254,
+                    "expires_date": "2026-05-02T19:31:38.262254+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": ".Nop.Customer",
+                    "value": "9de1f091-c2a7-4374-a91c-5566cd677c6e",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1774726299.421756,
+                    "expires_date": "2026-03-28T19:31:39.421756+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".Nop.Session",
+                    "value": "CfDJ8KM6iCGX%2FtVHsReD5SeFVJ0VbbcAHWccEpnX6Ye4cn4dv8j79920Sq6LZfwSaqs%2B%2B1fvi9AfVp55d3UzMzlx%2BNIw3Gpky%2BbHUi7lFmdMaGG5%2FwbCfx7OCV5TEDGemvXQrz7G4GWFKhdI0YKxOSrOyhxxcuCIQrzA5054D7GU8N75",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga_BSKHCGN64R",
+                    "value": "GS1.1.1743190298.1.0.1743190298.60.0.0",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750298.261481,
+                    "expires_date": "2026-05-02T19:31:38.261481+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga",
+                    "value": "GA1.1.1807204286.1743190298",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750298.262254,
+                    "expires_date": "2026-05-02T19:31:38.262254+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cconsent",
+                    "value": "{\"version\":1,\"categories\":{\"necessary\":{\"wanted\":true},\"analytics\":{\"wanted\":true},\"marketing\":{\"wanted\":true}},\"services\":[\"analytics\"],\"consentMode\":{\"ad_storage\":\"granted\",\"ad_user_data\":\"granted\",\"ad_personalization\":\"granted\",\"analytics_storage\":\"granted\"}}",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": 1774726325,
+                    "expires_date": "2026-03-28T19:32:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": ".Nop.Customer",
+                    "value": "9de1f091-c2a7-4374-a91c-5566cd677c6e",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1774726358.927981,
+                    "expires_date": "2026-03-28T19:32:38.927981+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".Nop.Session",
+                    "value": "CfDJ8KM6iCGX%2FtVHsReD5SeFVJ0VbbcAHWccEpnX6Ye4cn4dv8j79920Sq6LZfwSaqs%2B%2B1fvi9AfVp55d3UzMzlx%2BNIw3Gpky%2BbHUi7lFmdMaGG5%2FwbCfx7OCV5TEDGemvXQrz7G4GWFKhdI0YKxOSrOyhxxcuCIQrzA5054D7GU8N75",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga",
+                    "value": "GA1.1.1807204286.1743190298",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750357.566178,
+                    "expires_date": "2026-05-02T19:32:37.566178+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cconsent",
+                    "value": "{\"version\":1,\"categories\":{\"necessary\":{\"wanted\":true},\"analytics\":{\"wanted\":true},\"marketing\":{\"wanted\":true}},\"services\":[\"analytics\"],\"consentMode\":{\"ad_storage\":\"granted\",\"ad_user_data\":\"granted\",\"ad_personalization\":\"granted\",\"analytics_storage\":\"granted\"}}",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": 1774726325,
+                    "expires_date": "2026-03-28T19:32:05+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga_BSKHCGN64R",
+                    "value": "GS1.1.1743190298.1.1.1743190357.1.0.0",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750357.565729,
+                    "expires_date": "2026-05-02T19:32:37.565729+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_FAIL.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "UNSUCCESSFUL_INTERACTION",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Osebne podatke zbiramo, obdelujemo in varujemo v skladu s predpisi, ki urejajo varstvo osebnih podatkov, Zakonom o varstvu osebnih podatkov, Evropsko uredbo o varstvu osebnih podatkov ter drugimi zakoni, ki urejajo naše poslovanje. Delamo z željo, da vsak uporabnik lahko pozna, razume ter uživa svoje pravice na tem področju v največji možni meri. Uporabniško izkušnjo stalno nadgrajujemo, da bi približali in olajšali urejanje vaših nastavitev. Obenem tudi urejamo besedilo teh pogojev,tako da so preprosti za branje in razumevanje, kako delamo z našimi partnerji, tretjimi osebami in piškotki ter drugimi tehnologijami sledenja.NastavitveStrinjam se",
+                "banner_z_index": 9998,
+                "banner_position": "fixed",
+                "banner_disappeared": false,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: \"Strinjam se\" is an ambiguous phrase signifying acceptance, while \"Nastavitve\" indicates settings management.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is an ambiguous phrase signifying acceptance, while \"Nastavitve\" indicates settings management."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Strinjam se",
+                "element_ambiguous": true,
+                "element_evidence": "AmbiguousLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T20:31:37.360229",
+        "timestamp_stop": "2025-03-28T20:32:48.578197"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Nastavitve)",
+            "Clicking an element of type (button), with text (Shrani nastavitve)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.techtrade.si/",
+            "https://www.techtrade.si/pc-oprema",
+            "https://www.techtrade.si/nalepke-za-tipkovnice",
+            "https://www.techtrade.si/konferencne-vticnice"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": ".Nop.Customer",
+                    "value": "4e33194a-13c8-41d6-ad83-976715cf1662",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1774726373.400715,
+                    "expires_date": "2026-03-28T19:32:53.400715+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".Nop.Session",
+                    "value": "CfDJ8KM6iCGX%2FtVHsReD5SeFVJ1%2FYJJPW8gpYIqsFdpiBH5IyTnp4CZ2e6pDFbtFcXvwjYNKj4HqwXxfcOqfxjPLUPs8t%2FTnM42hm6U%2FC4jZ8rTszu6rlBT6%2BGRSTqNbvT7SL7Ij0oWS7hOAKyvZI%2FFQs3zWbYNzk3kHvZNEex6wuG1G",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga_BSKHCGN64R",
+                    "value": "GS1.1.1743190370.1.0.1743190370.60.0.0",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750371.009332,
+                    "expires_date": "2026-05-02T19:32:51.009332+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga",
+                    "value": "GA1.1.441645469.1743190371",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750371.009844,
+                    "expires_date": "2026-05-02T19:32:51.009844+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": ".Nop.Customer",
+                    "value": "4e33194a-13c8-41d6-ad83-976715cf1662",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1774726373.400715,
+                    "expires_date": "2026-03-28T19:32:53.400715+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".Nop.Session",
+                    "value": "CfDJ8KM6iCGX%2FtVHsReD5SeFVJ1%2FYJJPW8gpYIqsFdpiBH5IyTnp4CZ2e6pDFbtFcXvwjYNKj4HqwXxfcOqfxjPLUPs8t%2FTnM42hm6U%2FC4jZ8rTszu6rlBT6%2BGRSTqNbvT7SL7Ij0oWS7hOAKyvZI%2FFQs3zWbYNzk3kHvZNEex6wuG1G",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga_BSKHCGN64R",
+                    "value": "GS1.1.1743190370.1.0.1743190370.60.0.0",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750371.009332,
+                    "expires_date": "2026-05-02T19:32:51.009332+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga",
+                    "value": "GA1.1.441645469.1743190371",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750371.009844,
+                    "expires_date": "2026-05-02T19:32:51.009844+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cconsent",
+                    "value": "{\"version\":1,\"categories\":{\"necessary\":{\"wanted\":true},\"analytics\":{\"wanted\":true},\"marketing\":{\"wanted\":true}},\"services\":[\"analytics\"],\"consentMode\":{\"ad_storage\":\"granted\",\"ad_user_data\":\"granted\",\"ad_personalization\":\"granted\",\"analytics_storage\":\"granted\"}}",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": 1774726428,
+                    "expires_date": "2026-03-28T19:33:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": ".Nop.Customer",
+                    "value": "4e33194a-13c8-41d6-ad83-976715cf1662",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1774726460.666609,
+                    "expires_date": "2026-03-28T19:34:20.666609+00:00",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookiepedia",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": ".Nop.Session",
+                    "value": "CfDJ8KM6iCGX%2FtVHsReD5SeFVJ1%2FYJJPW8gpYIqsFdpiBH5IyTnp4CZ2e6pDFbtFcXvwjYNKj4HqwXxfcOqfxjPLUPs8t%2FTnM42hm6U%2FC4jZ8rTszu6rlBT6%2BGRSTqNbvT7SL7Ij0oWS7hOAKyvZI%2FFQs3zWbYNzk3kHvZNEex6wuG1G",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga",
+                    "value": "GA1.1.441645469.1743190371",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750460.447905,
+                    "expires_date": "2026-05-02T19:34:20.447905+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "cconsent",
+                    "value": "{\"version\":1,\"categories\":{\"necessary\":{\"wanted\":true},\"analytics\":{\"wanted\":true},\"marketing\":{\"wanted\":true}},\"services\":[\"analytics\"],\"consentMode\":{\"ad_storage\":\"granted\",\"ad_user_data\":\"granted\",\"ad_personalization\":\"granted\",\"analytics_storage\":\"granted\"}}",
+                    "domain": "www.techtrade.si",
+                    "path": "/",
+                    "expires": 1774726428,
+                    "expires_date": "2026-03-28T19:33:48+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "nopstation_ga_BSKHCGN64R",
+                    "value": "GS1.1.1743190370.1.1.1743190460.37.0.0",
+                    "domain": ".techtrade.si",
+                    "path": "/",
+                    "expires": 1777750460.447333,
+                    "expires_date": "2026-05-02T19:34:20.447333+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_settings_1_click_1.png",
+            "007_decline_interaction_settings_1_SUCCESS.png",
+            "008_decline_settings_best_candidate_1.png",
+            "009_decline_interaction_1_click_1.png",
+            "010_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "SETTINGS_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": false,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Osebne podatke zbiramo, obdelujemo in varujemo v skladu s predpisi, ki urejajo varstvo osebnih podatkov, Zakonom o varstvu osebnih podatkov, Evropsko uredbo o varstvu osebnih podatkov ter drugimi zakoni, ki urejajo naše poslovanje. Delamo z željo, da vsak uporabnik lahko pozna, razume ter uživa svoje pravice na tem področju v največji možni meri. Uporabniško izkušnjo stalno nadgrajujemo, da bi približali in olajšali urejanje vaših nastavitev. Obenem tudi urejamo besedilo teh pogojev,tako da so preprosti za branje in razumevanje, kako delamo z našimi partnerji, tretjimi osebami in piškotki ter drugimi tehnologijami sledenja.NastavitveStrinjam se",
+                "banner_z_index": 9998,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: None\nGenericLabel2: None\nAmbiguousLabel1: [Strinjam se]\nAmbiguousLabel2: None\nGenericLabel3: [Nastavitve]\nExplanation: \"Strinjam se\" is an ambiguous phrase indicating acceptance, while \"Nastavitve\" refers to the settings management. There are no explicit accept or decline buttons.",
+                "llm_response_parsed": {
+                    "Accept": "Strinjam se",
+                    "AcceptAmbiguous": true,
+                    "AcceptEvidence": "AmbiguousLabel1",
+                    "Decline": null,
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": null,
+                    "Settings": "Nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Strinjam se\" is an ambiguous phrase indicating acceptance, while \"Nastavitve\" refers to the settings management. There are no explicit accept or decline buttons."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Nastavitve",
+                "element_ambiguous": null,
+                "element_evidence": "GenericLabel3"
+            },
+            "settings_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "NastavitveOsebne podatke zbiramo, obdelujemo in varujemo v skladu s predpisi, ki urejajo varstvo osebnih podatkov, Zakonom o varstvu osebnih podatkov, Evropsko uredbo o varstvu osebnih podatkov ter drugimi zakoni, ki urejajo naše poslovanje. \nDelamo z željo, da vsak uporabnik lahko pozna, razume ter uživa svoje pravice na tem področju v največji možni meri. Uporabniško izkušnjo stalno nadgrajujemo, da bi približali in olajšali urejanje vaših nastavitev. Besedilo teh pogojev urejamo tako, da so preprosti za branje in razumevanje, kako delamo z našimi partnerji, tretjimi osebami in piškotki ter drugimi tehnologijami sledenja.×Nujno potrebni tehnični piškotki✔Nujno potrebni tehnični piškotkiPiškotki so potrebni za osnovno tehnično delovanje Techtrade trgovine. Brez teh piškotkov spletna stran ne more pravilno delovati.Analitični piškotki✔Analitični piškotkiTi piškotki nam pomagajo razumeti, kako uporabniki uporabljajo našo spletno stran, tako da lahko izboljšamo njeno delovanje in vam zag",
+                "banner_z_index": 9999,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "settings_decline_attempt": true,
+                "settings_decline_num_clicks": 1,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": "GenericLabel1: [Sprejmi vse in zapri]\nGenericLabel2: None\nAmbiguousLabel1: [Shrani nastavitve]\nAmbiguousLabel2: None\nGenericLabel3: None\nExplanation: The button [Sprejmi vse in zapri] is categorized under GenericLabel1 as it signifies accepting all cookies. There is no button for declining all cookies. The button [Shrani nastavitve] is categorized under AmbiguousLabel1 since it refers to saving settings, which can imply acceptance. There are no other relevant buttons for the other categories.",
+                "settings_decline_llm_response_parsed": {
+                    "Accept": "Sprejmi vse in zapri",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Shrani nastavitve",
+                    "DeclineAmbiguous": true,
+                    "DeclineEvidence": "AmbiguousLabel1",
+                    "Settings": null,
+                    "SettingsEvidence": null,
+                    "Explanation": "The button Sprejmi vse in zapri is categorized under GenericLabel1 as it signifies accepting all cookies. There is no button for declining all cookies. The button Shrani nastavitve is categorized under AmbiguousLabel1 since it refers to saving settings, which can imply acceptance. There are no other relevant buttons for the other categories."
+                },
+                "settings_decline_llm_consensus_reached": true,
+                "settings_decline_llm_consensus_value": 1.0,
+                "settings_decline_element_text": "Shrani nastavitve",
+                "settings_decline_element_ambiguous": true,
+                "settings_decline_element_evidence": "AmbiguousLabel1",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T20:32:50.185568",
+        "timestamp_stop": "2025-03-28T20:34:31.114861"
+    }
+}

@@ -1,0 +1,592 @@
+{
+    "web_page": "https://www.fpp.uni-lj.si/",
+    "name_of_analysis": "COOKIE_ANALYSIS-20250327",
+    "crawl_mode": "heuristic_llm",
+    "browser_provider": "CHROME",
+    "take_screenshots": true,
+    "timestamp_start": "2025-03-28T13:45:47.501488",
+    "timestamp_stop": "2025-03-28T13:48:21.836758",
+    "normal_stage": {
+        "interactions": [
+            "Collected cookies for NORMAL_INITIAL_VISIT",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for NORMAL_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fpp.uni-lj.si/",
+            "https://www.fpp.uni-lj.si/ob-studiju/sodelovanje-z-gospodarstvom/karierni-center/",
+            "https://www.fpp.uni-lj.si/dogodki-in-obvestila/?cat=ostala-obvestila",
+            "https://www.fpp.uni-lj.si/studij/studentsko-tutorstvo/"
+        ],
+        "stage_cookies": {
+            "NORMAL_INITIAL_VISIT": [
+                {
+                    "name": "SERVERID",
+                    "value": "www1",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "NORMAL_AFTER_TRAVERSIAL": [
+                {
+                    "name": "SERVERID",
+                    "value": "www1",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [],
+        "metadata": {},
+        "timestamp_start": "2025-03-28T13:45:48.816040",
+        "timestamp_stop": "2025-03-28T13:46:19.796505"
+    },
+    "accept_stage": {
+        "interactions": [
+            "Collected cookies for ACCEPT_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Dovoli vse)",
+            "Collected cookies for ACCEPT_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for ACCEPT_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fpp.uni-lj.si/",
+            "https://www.fpp.uni-lj.si/ob-studiju/sodelovanje-z-gospodarstvom/karierni-center/",
+            "https://www.fpp.uni-lj.si/dogodki-in-obvestila/?cat=ostala-obvestila",
+            "https://www.fpp.uni-lj.si/studij/studentsko-tutorstvo/"
+        ],
+        "stage_cookies": {
+            "ACCEPT_INITIAL_VISIT": [
+                {
+                    "name": "SERVERID",
+                    "value": "www2",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_ACTION": [
+                {
+                    "name": "SERVERID",
+                    "value": "www2",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "arctur_cookies",
+                    "value": "{\"categories\":[\"necessary\",\"analytics\",\"marketing\"],\"level\":[\"necessary\",\"analytics\",\"marketing\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false,\"consent_date\":\"2025-03-28T12:46:52.964Z\",\"consent_uuid\":\"a8c89800-9f32-4205-8fd5-278b241d2d07\",\"last_consent_update\":\"2025-03-28T12:46:52.964Z\"}",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1758890812,
+                    "expires_date": "2025-09-26T12:46:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.3.501778431.1743166013",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1777726013.065598,
+                    "expires_date": "2026-05-02T12:46:53.065598+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.3.1694641996.1743166013",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743252413,
+                    "expires_date": "2025-03-29T12:46:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_13027576_1",
+                    "value": "1",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743166073,
+                    "expires_date": "2025-03-28T12:47:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga_2HVZM4C8YQ",
+                    "value": "GS1.1.1743166013.1.0.1743166013.60.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777726013.15657,
+                    "expires_date": "2026-05-02T12:46:53.156570+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.501778431.1743166013",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777726013.157132,
+                    "expires_date": "2026-05-02T12:46:53.157132+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743166913.258383,
+                    "expires_date": "2025-03-28T13:01:53.258383+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "ACCEPT_AFTER_TRAVERSIAL": [
+                {
+                    "name": "SERVERID",
+                    "value": "www2",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "arctur_cookies",
+                    "value": "{\"categories\":[\"necessary\",\"analytics\",\"marketing\"],\"level\":[\"necessary\",\"analytics\",\"marketing\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false,\"consent_date\":\"2025-03-28T12:46:52.964Z\",\"consent_uuid\":\"a8c89800-9f32-4205-8fd5-278b241d2d07\",\"last_consent_update\":\"2025-03-28T12:46:52.964Z\"}",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1758890812,
+                    "expires_date": "2025-09-26T12:46:52+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.3.501778431.1743166013",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1777726032.76214,
+                    "expires_date": "2026-05-02T12:47:12.762140+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gid",
+                    "value": "GA1.3.1694641996.1743166013",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743252432,
+                    "expires_date": "2025-03-29T12:47:12+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_gat_gtag_UA_13027576_1",
+                    "value": "1",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1743166073,
+                    "expires_date": "2025-03-28T12:47:53+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "_ga",
+                    "value": "GA1.1.501778431.1743166013",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777726032.775426,
+                    "expires_date": "2026-05-02T12:47:12.775426+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                },
+                {
+                    "name": "test_cookie",
+                    "value": "CheckForPermission",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1743166913.258383,
+                    "expires_date": "2025-03-28T13:01:53.258383+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "fpp_uni_lj_si",
+                    "value": "cfs3lmc7fpr7v7sbqlrqrm79gt",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                },
+                {
+                    "name": "_ga_2HVZM4C8YQ",
+                    "value": "GS1.1.1743166013.1.1.1743166040.33.0.0",
+                    "domain": ".uni-lj.si",
+                    "path": "/",
+                    "expires": 1777726040.179307,
+                    "expires_date": "2026-05-02T12:47:20.179307+00:00",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "PERFORMANCE"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "000_accept_init_1.png",
+            "001_accept_best_candidate_1.png",
+            "002_accept_interaction_1_click_1.png",
+            "003_accept_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_ACCEPT",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Nastavitve zasebnostiSpletno mesto uporablja piškotke za zagotavljanje najboljše uporabniške izkušnje.Dovoli vseZavrni vseUpravljaj nastavitve",
+                "banner_z_index": 1,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Upravljaj nastavitve]\nExplanation: The button [Dovoli vse] is categorized as accepting all cookies, while [Zavrni vse] is categorized as declining all cookies. The button [Upravljaj nastavitve] clearly indicates managing settings, so it is placed under GenericLabel3.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Upravljaj nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "The button Dovoli vse is categorized as accepting all cookies, while Zavrni vse is categorized as declining all cookies. The button Upravljaj nastavitve clearly indicates managing settings, so it is placed under GenericLabel3."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Dovoli vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel1"
+            }
+        },
+        "timestamp_start": "2025-03-28T13:46:21.355678",
+        "timestamp_stop": "2025-03-28T13:47:20.427052"
+    },
+    "decline_stage": {
+        "interactions": [
+            "Collected cookies for DECLINE_INITIAL_VISIT",
+            "Clicking an element of type (button), with text (Zavrni vse)",
+            "Collected cookies for DECLINE_AFTER_ACTION",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Scrolled 3 times (500x each)",
+            "Collected cookies for DECLINE_AFTER_TRAVERSIAL"
+        ],
+        "pages_visited": [
+            "https://www.fpp.uni-lj.si/",
+            "https://www.fpp.uni-lj.si/ob-studiju/sodelovanje-z-gospodarstvom/karierni-center/",
+            "https://www.fpp.uni-lj.si/dogodki-in-obvestila/?cat=ostala-obvestila",
+            "https://www.fpp.uni-lj.si/studij/studentsko-tutorstvo/"
+        ],
+        "stage_cookies": {
+            "DECLINE_INITIAL_VISIT": [
+                {
+                    "name": "SERVERID",
+                    "value": "www1",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_ACTION": [
+                {
+                    "name": "SERVERID",
+                    "value": "www1",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "arctur_cookies",
+                    "value": "{\"categories\":[\"necessary\"],\"level\":[\"necessary\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false,\"consent_date\":\"2025-03-28T12:47:53.997Z\",\"consent_uuid\":\"243e9edc-ad66-45b0-96df-e9fd973202a5\",\"last_consent_update\":\"2025-03-28T12:47:53.997Z\"}",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1758890873,
+                    "expires_date": "2025-09-26T12:47:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ],
+            "DECLINE_AFTER_TRAVERSIAL": [
+                {
+                    "name": "SERVERID",
+                    "value": "www1",
+                    "domain": "www.fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": -1,
+                    "expires_date": "Session",
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Open Cookie Database",
+                        "cookie_category": "STRICTLY_NECESSARY"
+                    }
+                },
+                {
+                    "name": "arctur_cookies",
+                    "value": "{\"categories\":[\"necessary\"],\"level\":[\"necessary\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false,\"consent_date\":\"2025-03-28T12:47:53.997Z\",\"consent_uuid\":\"243e9edc-ad66-45b0-96df-e9fd973202a5\",\"last_consent_update\":\"2025-03-28T12:47:53.997Z\"}",
+                    "domain": ".fpp.uni-lj.si",
+                    "path": "/",
+                    "expires": 1758890873,
+                    "expires_date": "2025-09-26T12:47:53+00:00",
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax",
+                    "categorization": {
+                        "platform": "Cookie Analysis",
+                        "cookie_category": "UNKNOWN"
+                    }
+                }
+            ]
+        },
+        "exceptions": [],
+        "screenshots": [
+            "004_decline_init_1.png",
+            "005_decline_best_candidate_1.png",
+            "006_decline_interaction_1_click_1.png",
+            "007_decline_interaction_1_SUCCESS.png"
+        ],
+        "metadata": {
+            "system_settings": {
+                "num_attempt": 1,
+                "num_crawls": 3,
+                "allow_invisible": true,
+                "llm_model_used": "gpt-4o-mini",
+                "min_consensus": 0.6,
+                "num_llm_attempts": 7,
+                "strict_consensus": false
+            },
+            "stage_outcome": "DIRECT_DECLINE",
+            "main_level": {
+                "level_reached": true,
+                "level_success": true,
+                "found_best_candidate": true,
+                "is_visible": true,
+                "banner_text": "Nastavitve zasebnostiSpletno mesto uporablja piškotke za zagotavljanje najboljše uporabniške izkušnje.Dovoli vseZavrni vseUpravljaj nastavitve",
+                "banner_z_index": 1,
+                "banner_position": "fixed",
+                "banner_disappeared": true,
+                "redirected": false,
+                "direct_decline_attempt": true,
+                "num_clicks": 1,
+                "any_force_clicks": false,
+                "llm_response_raw": "GenericLabel1: [Dovoli vse]\nGenericLabel2: [Zavrni vse]\nAmbiguousLabel1: None\nAmbiguousLabel2: None\nGenericLabel3: [Upravljaj nastavitve]\nExplanation: \"Dovoli vse\" is categorized as accepting all cookies, \"Zavrni vse\" is for declining all, and \"Upravljaj nastavitve\" is for managing settings. There are no ambiguous phrases present.",
+                "llm_response_parsed": {
+                    "Accept": "Dovoli vse",
+                    "AcceptAmbiguous": false,
+                    "AcceptEvidence": "GenericLabel1",
+                    "Decline": "Zavrni vse",
+                    "DeclineAmbiguous": false,
+                    "DeclineEvidence": "GenericLabel2",
+                    "Settings": "Upravljaj nastavitve",
+                    "SettingsEvidence": "GenericLabel3",
+                    "Explanation": "\"Dovoli vse\" is categorized as accepting all cookies, \"Zavrni vse\" is for declining all, and \"Upravljaj nastavitve\" is for managing settings. There are no ambiguous phrases present."
+                },
+                "llm_consensus_reached": true,
+                "llm_consensus_value": 1.0,
+                "element_text": "Zavrni vse",
+                "element_ambiguous": false,
+                "element_evidence": "GenericLabel2"
+            },
+            "settings_level": {
+                "level_reached": false,
+                "level_success": false,
+                "found_best_candidate": false,
+                "is_visible": false,
+                "banner_text": "",
+                "banner_z_index": null,
+                "banner_position": null,
+                "banner_disappeared": false,
+                "redirected": false,
+                "settings_decline_attempt": false,
+                "settings_decline_num_clicks": 0,
+                "settings_decline_any_force_clicks": false,
+                "settings_decline_llm_response_raw": null,
+                "settings_decline_llm_response_parsed": null,
+                "settings_decline_llm_consensus_reached": false,
+                "settings_decline_llm_consensus_value": 0,
+                "settings_decline_element_text": null,
+                "settings_decline_element_ambiguous": false,
+                "settings_decline_element_evidence": "",
+                "save_settings_attempt": false,
+                "save_settings_num_clicks": 0,
+                "save_settings_any_force_clicks": false,
+                "save_settings_llm_response_raw": null,
+                "save_settings_llm_response_parsed": null,
+                "save_settings_llm_consensus_reached": false,
+                "save_settings_llm_consensus_value": 0,
+                "save_settings_element_text": null
+            }
+        },
+        "timestamp_start": "2025-03-28T13:47:21.953797",
+        "timestamp_stop": "2025-03-28T13:48:21.574071"
+    }
+}
